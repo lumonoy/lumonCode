@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Rich_Text_Pictures</fullName>
+    <active>true</active>
+    <description>Process pictures for RichText fields</description>
+    <label>Rich Text Pictures</label>
+    <picklistValues>
+        <picklist>Get_Thumbnail_Size__c</picklist>
+        <values>
+            <fullName>FULL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>THUMB120BY90</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>THUMB240BY180</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>THUMB720BY480</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

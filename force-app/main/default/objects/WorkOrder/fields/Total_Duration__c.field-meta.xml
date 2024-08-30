@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Total_Duration__c</fullName>
+    <description>Rollup Summary of Work Order Line Item (estimated) Duration.
+
+Considers only items that are still to be done i.e. in &quot;new and in progress&quot; status.</description>
+    <externalId>false</externalId>
+    <label>Total Duration</label>
+    <summarizedField>WorkOrderLineItem.Duration</summarizedField>
+    <summaryFilterItems>
+        <field>WorkOrderLineItem.Status</field>
+        <operation>equals</operation>
+        <value>New, In Progress</value>
+    </summaryFilterItems>
+    <summaryForeignKey>WorkOrderLineItem.WorkOrderId</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <type>Summary</type>
+</CustomField>

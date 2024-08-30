@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LSU</fullName>
+    <columns>MasterLabel</columns>
+    <columns>Organization__c</columns>
+    <columns>Organization_Code__c</columns>
+    <columns>Organization_Name__c</columns>
+    <columns>Profit_Center__c</columns>
+    <columns>Profit_Center_Code__c</columns>
+    <columns>Profit_Center_Name__c</columns>
+    <columns>Public_Group__c</columns>
+    <columns>Country__c</columns>
+    <columns>Country_Code__c</columns>
+    <columns>District__c</columns>
+    <columns>Business__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Organization__c</field>
+        <operation>equals</operation>
+        <value>LSU</value>
+    </filters>
+    <label>LSU</label>
+    <language>en_US</language>
+</ListView>

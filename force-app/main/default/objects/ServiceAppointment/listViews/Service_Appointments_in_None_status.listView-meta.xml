@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Service_Appointments_in_None_status</fullName>
+    <columns>Name</columns>
+    <columns>ServiceTerritory</columns>
+    <columns>ArrivalWindowStartTime</columns>
+    <columns>ArrivalWindowEndTime</columns>
+    <columns>FSL__IsMultiDay__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Status</field>
+        <operation>equals</operation>
+        <value>None</value>
+    </filters>
+    <label>Service Appointments in None status</label>
+</ListView>

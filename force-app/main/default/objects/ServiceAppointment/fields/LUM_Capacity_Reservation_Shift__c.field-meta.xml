@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LUM_Capacity_Reservation_Shift__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Checkbox that signifies that a Service Appointment should be scheduled into the Capacity Reservation Shift.</description>
+    <externalId>false</externalId>
+    <label>Capacity Reservation Shift</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

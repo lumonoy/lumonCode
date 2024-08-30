@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contracted_Sales_Price__c</fullName>
+    <description>Sales price that&apos;s set when contract is sent</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Sales price that&apos;s set when contract is sent</inlineHelpText>
+    <label>Contracted Sales Price</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <type>Currency</type>
+</CustomField>

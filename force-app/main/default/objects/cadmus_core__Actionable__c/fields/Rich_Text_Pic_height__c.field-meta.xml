@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Rich_Text_Pic_height__c</fullName>
+    <defaultValue>0</defaultValue>
+    <externalId>false</externalId>
+    <inlineHelpText>All pictures in the rich text field will be set to this height. The width will be in ratio with the height. 0 and lower will be ignored. So, set to 0 to have no height set and use the default height or do no scaling</inlineHelpText>
+    <label>Rich Text Pic height</label>
+    <precision>5</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

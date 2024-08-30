@@ -1,0 +1,114 @@
+@font-face {
+    font-family: 'MyriadProRegular';
+    font-style: normal;
+    font-weight: normal;
+    src: url('https://mylumon.lumon.com/s/sfsites/c/resource/LP_MyriadProFont/myriadPro/myriadProRegular.eot') format('eot'),
+         url('https://mylumon.lumon.com/s/sfsites/c/resource/LP_MyriadProFont/myriadPro/myriadProRegular.ttf') format('ttf'),
+         url('https://mylumon.lumon.com/s/sfsites/c/resource/LP_MyriadProFont/myriadPro/myriadProRegular.woff') format('woff'),
+         url('https://mylumon.lumon.com/s/sfsites/c/resource/LP_MyriadProFont/myriadPro/myriadProRegular.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'MyriadProBold';
+    font-style: normal;
+    font-weight: 700;
+    src: url('https://mylumon.lumon.com/s/sfsites/c/resource/LP_MyriadProFont/myriadPro/myriadProBold.eot') format('eot'),
+         url('https://mylumon.lumon.com/s/sfsites/c/resource/LP_MyriadProFont/myriadPro/myriadProBold.ttf') format('ttf'),
+         url('https://mylumon.lumon.com/s/sfsites/c/resource/LP_MyriadProFont/myriadPro/myriadProBold.woff') format('woff'),
+         url('https://mylumon.lumon.com/s/sfsites/c/resource/LP_MyriadProFont/myriadPro/myriadProBold.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'MyriadProSemibold';
+    font-style: normal;
+    font-weight: 600;  
+    src: url('sfsites/c/resource/LP_MyriadProFont/myriadPro/myriadProSemibold.eot') format('eot'),
+         url('sfsites/c/resource/LP_MyriadProFont/myriadPro/myriadProSemibold.ttf') format('ttf'),
+         url('sfsites/c/resource/LP_MyriadProFont/myriadPro/myriadProSemibold.woff') format('woff'),
+         url('sfsites/c/resource/LP_MyriadProFont/myriadPro/myriadProSemibold.woff2') format('woff2');
+}
+   
+
+/*ICONS*/
+
+@font-face {
+  font-family: 'fontello';
+  src: url('sfsites/c/resource/LP_IconFont/font/fontello.eot?53365552');
+  src: url('sfsites/c/resource/LP_IconFont/font/fontello.eot?53365552#iefix') format('embedded-opentype'),
+       url('sfsites/c/resource/LP_IconFont/font/fontello.woff2?53365552') format('woff2'),
+       url('sfsites/c/resource/LP_IconFont/font/fontello.woff?53365552') format('woff'),
+       url('sfsites/c/resource/LP_IconFont/font/fontello.ttf?53365552') format('truetype'),
+       url('sfsites/c/resource/LP_IconFont/font/fontello.svg?53365552#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'fontello';
+    src: url('sfsites/c/resource/LP_IconFont/font/fontello.svg?53365552#fontello') format('svg');
+  }
+}
+*/
+[class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: never;
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1em;
+  margin-left: .2em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-home:before { content: '\e800'; }
+.icon-checked:before { content: '\e802'; }
+.icon-instagram:before { content: '\e803'; }
+.icon-key:before { content: '\e804'; }
+.icon-linkedin:before { content: '\e805'; }
+.icon-logout:before { content: '\e806'; }
+.icon-product:before { content: '\e807'; }
+.icon-view-cases:before { content: '\e808'; }
+.icon-youtube:before { content: '\e809'; }
+.icon-article:before { content: '\e80a'; }
+.icon-documentation:before { content: '\e80b'; }
+.icon-download:before { content: '\e80c'; }
+.icon-drop-down:before { content: '\e80d'; }
+.icon-email:before { content: '\e80e'; }
+.icon-facebook:before { content: '\e80f'; }
+.icon-faq:before { content: '\e810'; }
+.icon-phone:before { content: '\e811'; }
+
+#burgerBtn, 
+.mobile-nav-cmp{
+    display: none;
+}
+#wrapper {
+    width: 100%;
+    max-width: 612px;
+    border: none;
+}
+.uiInput--input.input:focus,
+.uiInput--input .input:focus,
+.uiInput--input.input:active,
+.uiInput--input .input:active,
+.salesforceIdentityForgotPassword2 .inputBox:active{
+    outline: 0;
+    border: none;
+    background-color: transparent !important;
+    box-shadow: none;
+}
+
+@media only screen and (max-width: 767px){
+    .navigation-region {
+    	display: none;
+	}
+}
+:root { --dxp-c-section-columns-max-width: 1170px; }

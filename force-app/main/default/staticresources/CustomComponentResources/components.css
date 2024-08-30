@@ -1,0 +1,13 @@
+/*div.LARGE {
+    background: red;
+  }
+div.SMALL {
+    background: blue;
+  }*/
+:host {
+  /* Other CSS custom properties here */
+  --error-color: red;
+  --warning-color: darkorange;
+  --success-color: green;
+  --neutral-color: gray;
+}

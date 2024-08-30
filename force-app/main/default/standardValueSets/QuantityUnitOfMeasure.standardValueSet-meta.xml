@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Each</fullName>
+        <default>false</default>
+        <label>Each</label>
+    </standardValue>
+    <standardValue>
+        <fullName>pcs</fullName>
+        <default>false</default>
+        <label>pcs</label>
+    </standardValue>
+    <standardValue>
+        <fullName>h</fullName>
+        <default>false</default>
+        <label>h</label>
+    </standardValue>
+    <standardValue>
+        <fullName>m2</fullName>
+        <default>false</default>
+        <label>m2</label>
+    </standardValue>
+    <standardValue>
+        <fullName>m</fullName>
+        <default>false</default>
+        <label>m</label>
+    </standardValue>
+    <standardValue>
+        <fullName>mm</fullName>
+        <default>false</default>
+        <label>mm</label>
+    </standardValue>
+</StandardValueSet>

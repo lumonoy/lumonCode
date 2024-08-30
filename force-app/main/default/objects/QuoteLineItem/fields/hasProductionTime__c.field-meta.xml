@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>hasProductionTime__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Checkbox to indicate if Production is required</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Indicates if Production is required</inlineHelpText>
+    <label>hasProductionTime</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

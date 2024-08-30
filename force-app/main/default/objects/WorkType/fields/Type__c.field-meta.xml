@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type__c</fullName>
+    <description>Indicates if this is a new product installation work or something else. Note that in the new product installation work, the completion of the WOLI also creates new Asset.</description>
+    <externalId>false</externalId>
+    <label>Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>New Product installation</fullName>
+                <default>false</default>
+                <label>New Product installation</label>
+            </value>
+            <value>
+                <fullName>Reclamation work</fullName>
+                <default>false</default>
+                <label>Reclamation work</label>
+            </value>
+            <value>
+                <fullName>Maintenance and Accessories</fullName>
+                <default>false</default>
+                <label>Maintenance and Accessories</label>
+            </value>
+            <value>
+                <fullName>Other work</fullName>
+                <default>false</default>
+                <label>Other work</label>
+            </value>
+            <value>
+                <fullName>Internal Work</fullName>
+                <default>false</default>
+                <label>Internal Work</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

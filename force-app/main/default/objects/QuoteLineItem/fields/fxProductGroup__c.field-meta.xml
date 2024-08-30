@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fxProductGroup__c</fullName>
+    <description>Shows the Product Group of the Product related to the Quote Line Item</description>
+    <externalId>false</externalId>
+    <formula>TEXT(Product2.Product_Group__c)</formula>
+    <inlineHelpText>The Product Group of the Product related to the Quote Line Item</inlineHelpText>
+    <label>Product Group</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

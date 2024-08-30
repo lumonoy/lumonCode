@@ -1,0 +1,367 @@
+Name,Product_Group__c,Product_Model__c,Product_Category__c,Cost_Category__c,Cost_Type__c,ProductCode,Sales_Code__c,IsActive
+Lumon Railing,LUMONKAIDE,,Product Groups,FactoryPurchase,tuotteet,LUMONKAIDE,90370001,TRUE
+Lumon Glazing Retractable Reclamation,LG,,Product Groups,FactoryPurchase,tuotteet,LG,90249999,TRUE
+Lumon Fixed Wall Reclamation,LFIXEDWALL,,Product Groups,FactoryPurchase,tuotteet,LFIXEDWALL,90409999,TRUE
+Prefabricated Terrace 3 Reclamation,VT3,,Product Groups,FactoryPurchase,tuotteet,VT3,90759999,TRUE
+Lumon Glazing Retractable,LG,,Product Groups,FactoryPurchase,tuotteet,LG,90240001,TRUE
+Lumon Glazing Sliding,LGS,,Product Groups,FactoryPurchase,tuotteet,LGS,90260001,TRUE
+Lumon Glazing Sliding Reclamation,LGS,,Product Groups,FactoryPurchase,tuotteet,LGS,90269999,TRUE
+Prefabricated Terrace 4 Reclamation,VT4,,Product Groups,FactoryPurchase,tuotteet,VT4,90789999,TRUE
+Lumon Fixed Wall,LFIXEDWALL,,Product Groups,FactoryPurchase,tuotteet,LFIXEDWALL,90400001,TRUE
+Prefabricated Terrace 3,VT3,,Product Groups,FactoryPurchase,tuotteet,VT3,90750001,TRUE
+Prefabricated Terrace 4,VT4,,Product Groups,FactoryPurchase,tuotteet,VT4,90780001,TRUE
+Lumon Railing Reclamation,LUMONKAIDE,,Product Groups,FactoryPurchase,tuotteet,LUMONKAIDE,90379999,TRUE
+After Sales Visor Blinds Reclamation,VISORBLIND,,Product Groups,FactoryPurchase,verhot,VISORBLINDSALES,30310020R,TRUE
+After Sales Visor Blinds,VISORBLIND,,Product Groups,FactoryPurchase,verhot,VISORBLINDSALES,30310020,TRUE
+"Telescopic profile LGR,L5,L7T",LG,,Product Options,FactoryPurchase,tuotteet,LG-11222206,11222206,TRUE
+"Telescopic profile LGR,L5,L7T",LFIXEDWALL,,Product Options,FactoryPurchase,tuotteet,LFIXEDWALL-11222206,11222206,TRUE
+"Telescopic profile LGR,L5,L7T",VARUSTE,,Product Options,FactoryPurchase,tarvikealu,TARVIKE-11222206,11222206,TRUE
+Upper profile,LG,,Product Options,FactoryPurchase,tuotteet,LG-11241205,11241205,TRUE
+Upper profile,LFIXEDWALL,,Product Options,FactoryPurchase,tuotteet,LFIXEDWALL-11241205,11241205,TRUE
+Upper profile,LG,,Product Options,FactoryPurchase,tuotteet,LG-11241205,11241205,TRUE
+Lower profile,LG,,Product Options,FactoryPurchase,tuotteet,LG-11243001ERROR,11243001,FALSE
+Lower profile,LFIXEDWALL,,Product Options,FactoryPurchase,tuotteet,LFIXEDWALL-11243001,11243001,TRUE
+Lower profile,LG,,Product Options,FactoryPurchase,tuotteet,LG-11243001,11243001,TRUE
+"OF42 8mm,gray",LFIXEDWALL,,Product Options,FactoryPurchase,tuotteet,LFIXEDWALL-20090002,20090002,TRUE
+"OF42 8mm,gray",LG,,Product Options,FactoryPurchase,tuotteet,LG-20090002,20090002,TRUE
+"OF72 8mm,green",LFIXEDWALL,,Product Options,FactoryPurchase,tuotteet,LFIXEDWALL-20090006,20090006,TRUE
+"OF72 8mm,green",LG,,Product Options,FactoryPurchase,tuotteet,LG-20090006,20090006,TRUE
+"OF88 10mm,clear",LFIXEDWALL,,Product Options,FactoryPurchase,tuotteet,LFIXEDWALL-20090018,20090018,TRUE
+"OF88 10mm,clear",LG,,Product Options,FactoryPurchase,tuotteet,LG-20090018,20090018,TRUE
+"OF88 8mm,clear",LG,,Product Options,FactoryPurchase,tuotteet,LG-20090017,20090017,TRUE
+Lower profile 3-rails,LGS,,Product Options,FactoryPurchase,tuotteet,LGS-11260018,11260018,TRUE
+"OF42 8mm,gray",VT3,,Product Options,FactoryPurchase,tuotteet,VT3-20090002,20090002,TRUE
+"OF72 8mm,green",VT3,,Product Options,FactoryPurchase,tuotteet,VT3-20090006,20090006,TRUE
+LAMI 4+4st IG-41 Grey,LG,,Product Options,FactoryPurchase,tuotteet,LG-23950003,23950003,TRUE
+LAMI 4+4st IG-41 Grey,LFIXEDWALL,,Product Options,FactoryPurchase,tuotteet,LFIXEDWALL-23950003,23950003,TRUE
+Toughened glass OF88 10mm,LUMONTOLPK,,Product Options,FactoryPurchase,tuotteet,LUMONTOLPK-20090018,20090018,TRUE
+LAMI 4+4st IG-41 Grey,KEHYSLASI,,Product Options,FactoryPurchase,tuotteet,KEHYSLASI-23950003,23950003,TRUE
+LAMI 4+4st IG-41 Grey,LAMILASIT,,Product Options,FactoryPurchase,tuotteet,LAMILASIT-23950003,23950003,TRUE
+Upper profile 3-rails,LGS,,Product Options,FactoryPurchase,tuotteet,LGS-11260022,11260022,TRUE
+"OF42 8mm,gray",LGS,,Product Options,FactoryPurchase,tuotteet,LGS-20090002,20090002,TRUE
+"OF72 8mm,green",LGS,,Product Options,FactoryPurchase,tuotteet,LGS-20090006,20090006,TRUE
+"OF88 10mm,clear",VT4,,Product Options,FactoryPurchase,tuotteet,VT4-20090018,20090018,TRUE
+"OF42 8mm,gray",VT4,,Product Options,FactoryPurchase,tuotteet,VT4-20090002,20090002,TRUE
+"OF72 8mm,green",VT4,,Product Options,FactoryPurchase,tuotteet,VT4-20090006,20090006,TRUE
+Karkaistu OF88 10mm,LUMONKAIDE,,Product Options,FactoryPurchase,tuotteet,LUMONKAIDE-20090018,20090018,TRUE
+LAMI 4+4 OF88 IG 41,LUMONKAIDE,,Product Options,FactoryPurchase,tuotteet,LUMONKAIDE-23950003,23950003,TRUE
+"OF88 10mm,clear",LGS,,Product Options,FactoryPurchase,tuotteet,LGS-20090018,20090018,TRUE
+Toughened glass OF88 10mm,VT3,,Product Options,FactoryPurchase,tuotteet,VT3-20090018,20090018,TRUE
+OF91 Optiwhite 10mm,LFIXEDWALL,LFIXEDWALL,Product Options,FactoryPurchase,tuotteet,LFIXEDWALL-20090061,20090061,TRUE
+OF91 Optiwhite 10mm,LG,LG,Product Options,FactoryPurchase,tuotteet,LG-20090061,20090061,TRUE
+OF91 Optiwhite 10mm,LGS,LGS,Product Options,FactoryPurchase,tuotteet,LGS-20090061,20090061,TRUE
+LAMI 4+4st IG-41 Grey,LGS,,Product Options,FactoryPurchase,tuotteet,LGS-23950003,23950003,TRUE
+LAMI 4+4st IG-41 Grey,LUMONTOLPK,,Product Options,FactoryPurchase,tuotteet,LUMONTOLPK-23950003,23950003,TRUE
+LAMI 4+4st IG-41 Grey,VT3,,Product Options,FactoryPurchase,tuotteet,VT3-23950003,23950003,TRUE
+LAMI 4+4st IG-41 Grey,VT4,,Product Options,FactoryPurchase,tuotteet,VT4-23950003,23950003,TRUE
+LAMI 4+4 OF88 sininen IG 70,LUMONKAIDE,,Product Options,FactoryPurchase,tuotteet,LUMONKAIDE-23950021,23950021,TRUE
+LAMI 4+4st IG-70 Blue,VT3,,Product Options,FactoryPurchase,tuotteet,VT3-23950021,23950021,TRUE
+LAMI 4+4st IG-70 Blue,LGS,,Product Options,FactoryPurchase,tuotteet,LGS-23950021,23950021,TRUE
+LAMI 4+4st IG-70 Blue,LUMONTOLPK,,Product Options,FactoryPurchase,tuotteet,LUMONTOLPK-23950021,23950021,TRUE
+LAMI 4+4st IG-70 Blue,VT4,,Product Options,FactoryPurchase,tuotteet,VT4-23950021,23950021,TRUE
+LAMI 4+4st IG-70 Blue,LFIXEDWALL,,Product Options,FactoryPurchase,tuotteet,LFIXEDWALL-23950021,23950021,TRUE
+LAMI 4+4st IG-70 Blue,LG,,Product Options,FactoryPurchase,tuotteet,LG-23950021,23950021,TRUE
+LAMI 4+4st IG-70 Blue,KEHYSLASI,,Product Options,FactoryPurchase,tuotteet,KEHYSLASI-23950021,23950021,TRUE
+LAMI 4+4st IG-70 Blue,LAMILASIT,,Product Options,FactoryPurchase,tuotteet,LAMILASIT-23950021,23950021,TRUE
+Upper flashing straight,LGS,,Product Options,FactoryPurchase,tuotteet,LGS-25050401,25050401,TRUE
+Upper flashing straight,PELTI,,Product Options,FactoryPurchase,tuotteet,PELTI-25050401,25050401,TRUE
+Upper flashing straight,LFIXEDWALL,,Product Options,FactoryPurchase,tuotteet,LFIXEDWALL-25050401,25050401,TRUE
+Upper flashing straight,LG,,Product Options,FactoryPurchase,tuotteet,LG-25050401,25050401,TRUE
+Upper flashing straight,VT3,,Product Options,FactoryPurchase,tuotteet,VT3-25050401,25050401,TRUE
+Upper flashing straight,VT4,,Product Options,FactoryPurchase,tuotteet,VT4-25050401,25050401,TRUE
+Ylätippapelti suora,LUMONKAIDE,PELTI,Product Options,FactoryPurchase,tuotteet,LUMONKAIDE-25050401,25050401,TRUE
+peltien määrä kpl asennus,LUMONKAIDE,PELTI,Product Options,Wages,asennus,LUMONKAIDE-PD9000031,PD9000031,TRUE
+Hintaparametri pelti_kpl  asennus,LGS,,Product Options,Wages,asennus,LGS-PD9000031,PD9000031,TRUE
+Hintaparametri Pelti_ pinta-ala,LG,,Product Options,FactoryPurchase,tuotteet,LG-PD9000033,PD9000033,TRUE
+Hintaparametri pelti_kpl  asennus,LFIXEDWALL,,Product Options,Wages,asennus,LFIXEDWALL-PD9000031,PD9000031,TRUE
+Hintaparametri pelti_kpl  asennus,LG,,Product Options,Wages,asennus,LG-PD9000031,PD9000031,TRUE
+Hintaparametri pelti_kpl  asennus,PELTI,,Product Options,Wages,asennus,PELTI-PD9000031,PD9000031,TRUE
+Hintaparametri pelti_kpl  asennus,VT3,,Product Options,Wages,asennus,VT3-PD9000031,PD9000031,TRUE
+Hintaparametri pelti_kpl  asennus,VT4,,Product Options,Wages,asennus,VT4-PD9000031,PD9000031,TRUE
+Hintaparametri Pelti_ pinta-ala,LFIXEDWALL,,Product Options,FactoryPurchase,tuotteet,LFIXEDWALL-PD9000033,PD9000033,TRUE
+Hintaparametri Pelti_ pinta-ala,LGS,,Product Options,FactoryPurchase,tuotteet,LGS-PD9000033,PD9000033,TRUE
+Hintaparametri Pelti_ pinta-ala,PELTI,,Product Options,FactoryPurchase,tuotteet,PELTI-PD9000033,PD9000033,TRUE
+Hintaparametri Pelti_ pinta-ala,VT3,,Product Options,FactoryPurchase,tuotteet,VT3-PD9000033,PD9000033,TRUE
+Hintaparametri Pelti_ pinta-ala,VT4,,Product Options,FactoryPurchase,tuotteet,VT4-PD9000033,PD9000033,TRUE
+PINTA_ALA pelti,LUMONKAIDE,PELTI,Product Options,FactoryPurchase,tuotteet,LUMONKAIDE-PD9000033,PD9000033,TRUE
+Hintaparametri Pelti_KPL  rahti,LFIXEDWALL,,Product Options,SalesFreight,rahti,LFIXEDWALL-PD9000038,PD9000038,TRUE
+Hintaparametri Pelti_KPL  rahti,VT3,,Product Options,SalesFreight,rahti,VT3-PD9000038,PD9000038,TRUE
+Hintaparametri Pelti_KPL  rahti,LG,,Product Options,SalesFreight,rahti,LG-PD9000038,PD9000038,TRUE
+Hintaparametri Pelti_KPL  rahti,LGS,,Product Options,SalesFreight,rahti,LGS-PD9000038,PD9000038,TRUE
+Hintaparametri Pelti_KPL  rahti,PELTI,,Product Options,SalesFreight,rahti,PELTI-PD9000038,PD9000038,TRUE
+Hintaparametri Pelti_KPL  rahti,VT4,,Product Options,SalesFreight,rahti,VT4-PD9000038,PD9000038,TRUE
+Pelti_KPL  rahti,LUMONKAIDE,PELTI,Product Options,SalesFreight,rahti,LUMONKAIDE-PD9000038,PD9000038,TRUE
+Price parameter Cost Reservation order,LFIXEDWALL,,Product Options,CostReserv,costreserv,LFIXEDWALL-PD9000100,PD9000100,TRUE
+Price parameter Cost Reservation order,LG,,Product Options,CostReserv,costreserv,LG-PD9000100,PD9000100,TRUE
+Price parameter Cost Reservation order,LGS,,Product Options,CostReserv,costreserv,LGS-PD9000100,PD9000100,TRUE
+Price parameter Cost Reservation order,LUMONTOLPK,,Product Options,CostReserv,costreserv,LUMONTOLPK-PD9000100,PD9000100,TRUE
+Price parameter Cost Reservation order,VT3,,Product Options,CostReserv,costreserv,VT3-PD9000100,PD9000100,TRUE
+Price parameter Cost Reservation order,VT4,,Product Options,CostReserv,costreserv,VT4-PD9000100,PD9000100,TRUE
+Price parameter Cost Reservation Balcony,LFIXEDWALL,,Product Options,CostReserv,costreserv,LFIXEDWALL-PD9000101,PD9000101,TRUE
+Price parameter Cost Reservation Balcony,LG,,Product Options,CostReserv,costreserv,LG-PD9000101,PD9000101,TRUE
+Price parameter Cost Reservation Balcony,LGS,,Product Options,CostReserv,costreserv,LGS-PD9000101,PD9000101,TRUE
+Price parameter Cost Reservation Balcony,LUMONTOLPK,,Product Options,CostReserv,costreserv,LUMONTOLPK-PD9000101,PD9000101,TRUE
+Price parameter Cost Reservation Balcony,VT3,,Product Options,CostReserv,costreserv,VT3-PD9000101,PD9000101,TRUE
+Price parameter Cost Reservation Balcony,VT4,,Product Options,CostReserv,costreserv,VT4-PD9000101,PD9000101,TRUE
+Price parameter Cost Reservation linemeter,LFIXEDWALL,,Product Options,CostReserv,costreserv,LFIXEDWALL-PD9000102,PD9000102,TRUE
+Price parameter Cost Reservation linemeter,LG,,Product Options,CostReserv,costreserv,LG-PD9000102,PD9000102,TRUE
+Price parameter Cost Reservation linemeter,LGS,,Product Options,CostReserv,costreserv,LGS-PD9000102,PD9000102,TRUE
+Price parameter Cost Reservation linemeter,LUMONTOLPK,,Product Options,CostReserv,costreserv,LUMONTOLPK-PD9000102,PD9000102,TRUE
+Price parameter Cost Reservation linemeter,VT3,,Product Options,CostReserv,costreserv,VT3-PD9000102,PD9000102,TRUE
+Price parameter Cost Reservation linemeter,VT4,,Product Options,CostReserv,costreserv,VT4-PD9000102,PD9000102,TRUE
+Reservation linemeter,LUMONKAIDE,,Product Options,CostReserv,costreserv,LUMONKAIDE-PD9000102,PD9000102,TRUE
+Reservation Special order,LUMONKAIDE,,Product Options,CostReserv,costreserv,LUMONKAIDE-PD9000103,PD9000103,TRUE
+Cost Reservation order,LUMONKAIDE,,Product Options,CostReserv,costreserv,LUMONKAIDE-PD9000100,PD9000100,TRUE
+Cost Reservation Balcony,LUMONKAIDE,,Product Options,CostReserv,costreserv,LUMONKAIDE-PD9000101,PD9000101,TRUE
+Price parameter Cost Reservation Special order,LFIXEDWALL,,Product Options,CostReserv,costreserv,LFIXEDWALL-PD9000103,PD9000103,TRUE
+Price parameter Cost Reservation Special order,LG,,Product Options,CostReserv,costreserv,LG-PD9000103,PD9000103,TRUE
+Price parameter Cost Reservation Special order,LGS,,Product Options,CostReserv,costreserv,LGS-PD9000103,PD9000103,TRUE
+Price parameter Cost Reservation Special order,LUMONTOLPK,,Product Options,CostReserv,costreserv,LUMONTOLPK-PD9000103,PD9000103,TRUE
+Price parameter Cost Reservation Special order,VT3,,Product Options,CostReserv,costreserv,VT3-PD9000103,PD9000103,TRUE
+Price parameter Cost Reservation Special order,VT4,,Product Options,CostReserv,costreserv,VT4-PD9000103,PD9000103,TRUE
+Lower latch + child lock,LG,,Product Options,FactoryPurchase,tuotteet,LG-PD9240062,PD9240062,TRUE
+GLASS PANELS TOTAL,LFIXEDWALL,,Product Options,FactoryPurchase,tuotteet,LFIXEDWALL-PD9240096,PD9240096,TRUE
+"OPENING PANELS 2,00",LFIXEDWALL,,Product Options,FactoryPurchase,tuotteet,LFIXEDWALL-PD9240097,PD9240097,TRUE
+"OPENING PANELS 2,00",LGS,,Product Options,FactoryPurchase,tuotteet,LGS-PD9240097,PD9240097,TRUE
+GLASS PANELS TOTAL,LG,,Product Options,FactoryPurchase,tuotteet,LG-PD9240096,PD9240096,TRUE
+GLASS PANELS TOTAL,LGS,,Product Options,FactoryPurchase,tuotteet,LGS-PD9240096,PD9240096,TRUE
+"OPENING PANELS 2,00",LG,,Product Options,FactoryPurchase,tuotteet,LG-PD9240097,PD9240097,TRUE
+AREA,LFIXEDWALL,,Product Options,FactoryPurchase,tuotteet,LFIXEDWALL-PD9240098,PD9240098,TRUE
+AREA,LG,,Product Options,FactoryPurchase,tuotteet,LG-PD9240098,PD9240098,TRUE
+AREA,LGS,,Product Options,FactoryPurchase,tuotteet,LGS-PD9240098,PD9240098,TRUE
+PRODUCT LENGTH,LFIXEDWALL,,Product Options,FactoryPurchase,tuotteet,LFIXEDWALL-PD9240099,PD9240099,TRUE
+PRODUCT LENGTH,LG,,Product Options,FactoryPurchase,tuotteet,LG-PD9240099,PD9240099,TRUE
+PRODUCT LENGTH,LGS,,Product Options,FactoryPurchase,tuotteet,LGS-PD9240099,PD9240099,TRUE
+"SIDES 15,30",LFIXEDWALL,,Product Options,FactoryPurchase,tuotteet,LFIXEDWALL-PD9240100,PD9240100,TRUE
+"SIDES 15,30",LG,,Product Options,FactoryPurchase,tuotteet,LG-PD9240100,PD9240100,TRUE
+"SIDES 15,30",LGS,,Product Options,FactoryPurchase,tuotteet,LGS-PD9240100,PD9240100,TRUE
+Glass cutout,LFIXEDWALL,,Product Options,FactoryPurchase,tuotteet,LFIXEDWALL-PD9240105,PD9240105,TRUE
+Glass cutout,LG,,Product Options,FactoryPurchase,tuotteet,LG-PD9240105,PD9240105,TRUE
+Glass cutout,LGS,,Product Options,FactoryPurchase,tuotteet,LGS-PD9240105,PD9240105,TRUE
+"Sand blasting, partial",LFIXEDWALL,,Product Options,FactoryPurchase,tuotteet,LFIXEDWALL-PD9240106,PD9240106,TRUE
+"Sand blasting, partial",LG,,Product Options,FactoryPurchase,tuotteet,LG-PD9240106,PD9240106,TRUE
+"Sand blasting, partial",LGS,,Product Options,FactoryPurchase,tuotteet,LGS-PD9240106,PD9240106,TRUE
+White transparent,LFIXEDWALL,,Product Options,FactoryPurchase,verhot,LFIXEDWALL-PD9240113,PD9240113,TRUE
+Blinds_installation,LG,,Services,Wages,asennus1,LG-PD9240118,PD9240118,TRUE
+Blinds_installation,LGS,,Services,Wages,asennus1,LGS-PD9240118,PD9240118,TRUE
+Systemangle_installation,LG,,Services,Wages,asennus1,LG-PD9240119,PD9240119,TRUE
+Systemangle_installation,LGS,,Services,Wages,asennus1,LGS-PD9240119,PD9240119,TRUE
+Glass 8mm_installation,LG,,Services,Wages,asennus1,LG-PD9240121,PD9240121,TRUE
+Glass 8mm_installation,LGS,,Services,Wages,asennus1,LGS-PD9240121,PD9240121,TRUE
+Glass 10mm_installation,LG,,Services,Wages,asennus1,LG-PD9240122,PD9240122,TRUE
+Glass 10mm_installation,LGS,,Services,Wages,asennus1,LGS-PD9240122,PD9240122,TRUE
+Balcony_installation,LFIXEDWALL,,Services,Wages,asennus1,LFIXEDWALL-PD9240124,PD9240124,TRUE
+Blinds_installation,LFIXEDWALL,,Services,Wages,asennus1,LFIXEDWALL-PD9240118,PD9240118,TRUE
+Systemangle_installation,LFIXEDWALL,,Services,Wages,asennus1,LFIXEDWALL-PD9240119,PD9240119,TRUE
+Glass 8mm_installation,LFIXEDWALL,,Services,Wages,asennus1,LFIXEDWALL-PD9240121,PD9240121,TRUE
+Glass 10mm_installation,LFIXEDWALL,,Services,Wages,asennus1,LFIXEDWALL-PD9240122,PD9240122,TRUE
+Balcony_installation,LG,,Services,Wages,asennus1,LG-PD9240124,PD9240124,TRUE
+Balcony_installation,LGS,,Services,Wages,asennus1,LGS-PD9240124,PD9240124,TRUE
+Length_installation,LFIXEDWALL,,Services,Wages,asennus1,LFIXEDWALL-PD9240125,PD9240125,TRUE
+Length_installation,LG,,Services,Wages,asennus1,LG-PD9240125,PD9240125,TRUE
+Length_installation,LGS,,Services,Wages,asennus1,LGS-PD9240125,PD9240125,TRUE
+Side_installation,LFIXEDWALL,,Services,Wages,asennus1,LFIXEDWALL-PD9240126,PD9240126,TRUE
+Side_installation,LG,,Services,Wages,asennus1,LG-PD9240126,PD9240126,TRUE
+Side_installation,LGS,,Services,Wages,asennus1,LGS-PD9240126,PD9240126,TRUE
+Site_installation,LFIXEDWALL,,Services,Wages,asennus1,LFIXEDWALL-PD9240127,PD9240127,TRUE
+LG Site Installation,LG,,Services,Wages,asennus1,LG-PD9240127,PD9240127,TRUE
+Site_installation,LGS,,Services,Wages,asennus1,LGS-PD9240127,PD9240127,TRUE
+Glass over 2200mm high,LFIXEDWALL,,Services,Wages,asennus1,LFIXEDWALL-PD9240128,PD9240128,TRUE
+Glass over 2200mm high,LG,,Services,Wages,asennus1,LG-PD9240128,PD9240128,TRUE
+Glass over 2200mm high,LGS,,Services,Wages,asennus1,LGS-PD9240128,PD9240128,TRUE
+Sales parameter Blinds_installation 2,LFIXEDWALL,,Services,Wages,asennus2,LFIXEDWALL-PD9240129,PD9240129,TRUE
+Sales parameter Systemangle_installation 2,LFIXEDWALL,,Services,Wages,asennus2,LFIXEDWALL-PD9240130,PD9240130,TRUE
+Glass 8mm_installation,LGS,,,Wages,asennus2,LGS-PD9240132,PD9240132,TRUE
+White transparent,LG,,Product Options,FactoryPurchase,verhot,LG-PD9240113,PD9240113,TRUE
+Blinds_installation,LGS,,,Wages,asennus2,LGS-PD9240129,PD9240129,TRUE
+Systemangle_installation,LGS,,,Wages,asennus2,LGS-PD9240130,PD9240130,TRUE
+Blinds_installation,LG,,Services,Wages,asennus2,LG-PD9240129,PD9240129,TRUE
+Systemangle_installation,LG,,Services,Wages,asennus2,LG-PD9240130,PD9240130,TRUE
+Glass 8mm_installation,LG,,Services,Wages,asennus2,LG-PD9240132,PD9240132,TRUE
+Sales parameter Glass 8mm_installation2,LFIXEDWALL,,Services,Wages,asennus2,LFIXEDWALL-PD9240132,PD9240132,TRUE
+Glass 10mm_installation,LGS,,,Wages,asennus2,LGS-PD9240133,PD9240133,TRUE
+Glass 10mm_installation,LG,,Services,Wages,asennus2,LG-PD9240133,PD9240133,TRUE
+Sales parameter Glass 10mm_installation2,LFIXEDWALL,,Services,Wages,asennus2,LFIXEDWALL-PD9240133,PD9240133,TRUE
+Balcony_installation,LGS,,,Wages,asennus2,LGS-PD9240135,PD9240135,TRUE
+Balcony_installation,LG,,Services,Wages,asennus2,LG-PD9240135,PD9240135,TRUE
+Sales parameter Balcony_installation2,LFIXEDWALL,,Services,Wages,asennus2,LFIXEDWALL-PD9240135,PD9240135,TRUE
+Length_installation,LGS,,,Wages,asennus2,LGS-PD9240136,PD9240136,TRUE
+Length_installation,LG,,Services,Wages,asennus2,LG-PD9240136,PD9240136,TRUE
+Sales parameter Length_installation2,LFIXEDWALL,,Services,Wages,asennus2,LFIXEDWALL-PD9240136,PD9240136,TRUE
+Side_installation,LGS,,,Wages,asennus2,LGS-PD9240137,PD9240137,TRUE
+Side_installation,LG,,Services,Wages,asennus2,LG-PD9240137,PD9240137,TRUE
+Sales parameter Side_installation2,LFIXEDWALL,,Services,Wages,asennus2,LFIXEDWALL-PD9240137,PD9240137,TRUE
+LGS Site Installation,LGS,,Services,Wages,asennus2,LGS-PD9240138,PD9240138,TRUE
+LG Site Installation,LG,,Services,Wages,asennus2,LG-PD9240138,PD9240138,TRUE
+LFW Site Installation,LFIXEDWALL,,Services,Wages,asennus2,LFIXEDWALL-PD9240138,PD9240138,TRUE
+Glass over 2200mm high,LGS,,,Wages,asennus2,LGS-PD9240139,PD9240139,TRUE
+Glass over 2200mm high,LG,,Services,Wages,asennus2,LG-PD9240139,PD9240139,TRUE
+Sales parameter Glass over 2200mm high Installation2,LFIXEDWALL,,Services,Wages,asennus2,LFIXEDWALL-PD9240139,PD9240139,TRUE
+Blinds Installation Workhours,LGS,,Services,Manhours,askuormitu,LGS-PD9240140,PD9240140,TRUE
+Blinds Installation Workhours,LG,,Services,Manhours,askuormitu,LG-PD9240140,PD9240140,TRUE
+Sales parameter Blinds_installation hours,LFIXEDWALL,,Services,Manhours,askuormitu,LFIXEDWALL-PD9240140,PD9240140,TRUE
+Systemangle Installation Workhours,LGS,,Services,Manhours,askuormitu,LGS-PD9240141,PD9240141,TRUE
+Systemangle Installation Workhours,LG,,Services,Manhours,askuormitu,LG-PD9240141,PD9240141,TRUE
+Sales parameter Systemangle_installation hours,LFIXEDWALL,,Services,Manhours,askuormitu,LFIXEDWALL-PD9240141,PD9240141,TRUE
+Glass 8mm_installation hours,LGS,,Services,Manhours,askuormitu,LGS-PD9240143,PD9240143,TRUE
+Glass 8mm_installation hours,LG,,Services,Manhours,askuormitu,LG-PD9240143,PD9240143,TRUE
+Sales parameter Glass 8mm_installation hours,LFIXEDWALL,,Services,Manhours,askuormitu,LFIXEDWALL-PD9240143,PD9240143,TRUE
+Glass 10mm_installation hours,LGS,,Services,Manhours,askuormitu,LGS-PD9240144,PD9240144,TRUE
+Glass 10mm_installation hours,LG,,Services,Manhours,askuormitu,LG-PD9240144,PD9240144,TRUE
+Sales parameter Glass 10mm_installation hours,LFIXEDWALL,,Services,Manhours,askuormitu,LFIXEDWALL-PD9240144,PD9240144,TRUE
+Balcony_installation hours,LGS,,Services,Manhours,askuormitu,LGS-PD9240146,PD9240146,TRUE
+Balcony_installation hours,LG,,Services,Manhours,askuormitu,LG-PD9240146,PD9240146,TRUE
+Length_installation hours,LGS,,Services,Manhours,askuormitu,LGS-PD9240147,PD9240147,TRUE
+Length_installation hours,LG,,Services,Manhours,askuormitu,LG-PD9240147,PD9240147,TRUE
+Side_installation hours,LGS,,Services,Manhours,askuormitu,LGS-PD9240148,PD9240148,TRUE
+Side_installation hours,LG,,Services,Manhours,askuormitu,LG-PD9240148,PD9240148,TRUE
+Site_installation hours,LGS,,Services,Manhours,askuormitu,LGS-PD9240149,PD9240149,TRUE
+Site_installation hours,LG,,Services,Manhours,askuormitu,LG-PD9240149,PD9240149,TRUE
+Sales parameter Site_installation hours,LFIXEDWALL,,Services,Manhours,askuormitu,LFIXEDWALL-PD9240149,PD9240149,TRUE
+Sales parameter Balcony_installation hours,LFIXEDWALL,,Services,Manhours,askuormitu,LFIXEDWALL-PD9240146,PD9240146,TRUE
+Sales parameter Length_installation hours,LFIXEDWALL,,Services,Manhours,askuormitu,LFIXEDWALL-PD9240147,PD9240147,TRUE
+Sales parameter Side_installation hours,LFIXEDWALL,,Services,Manhours,askuormitu,LFIXEDWALL-PD9240148,PD9240148,TRUE
+Glass over 2200mm high_installation hours,LGS,,Services,Manhours,askuormitu,LGS-PD9240150,PD9240150,TRUE
+Glass over 2200mm high_installation hours,LG,,Services,Manhours,askuormitu,LG-PD9240150,PD9240150,TRUE
+Sales parameter Glass over 2200mm high_installation hours,LFIXEDWALL,,Services,Manhours,askuormitu,LFIXEDWALL-PD9240150,PD9240150,TRUE
+Installation supplies_glass,LGS,,Services,InstallSupplies,as.tarvike,LGS-PD9240151,PD9240151,TRUE
+Installation supplies_glass,LG,,Services,InstallSupplies,as.tarvike,LG-PD9240151,PD9240151,TRUE
+Sales parameter Installation supplies_glass,LFIXEDWALL,,Services,InstallSupplies,as.tarvike,LFIXEDWALL-PD9240151,PD9240151,TRUE
+Installation supplies_balcony,LGS,,Services,InstallSupplies,as.tarvike,LGS-PD9240152,PD9240152,TRUE
+Installation supplies_balcony,LG,,Services,InstallSupplies,as.tarvike,LG-PD9240152,PD9240152,TRUE
+Sales parameter Installation supplies_balcony,LFIXEDWALL,,Services,InstallSupplies,as.tarvike,LFIXEDWALL-PD9240152,PD9240152,TRUE
+Site Freight LGS,LGS,,,SalesFreight,rahti1,LGS-PD9240153,PD9240153,TRUE
+Site Freight LG,LG,,Shipping Costs,SalesFreight,rahti1,LG-PD9240153,PD9240153,TRUE
+Site Freight LFIXEDWALL,LFIXEDWALL,,Shipping Costs,SalesFreight,rahti1,LFIXEDWALL-PD9240153,PD9240153,TRUE
+Balcony_freight,LGS,,,SalesFreight,rahti1,LGS-PD9240154,PD9240154,TRUE
+Balcony_freight,LG,,Shipping Costs,SalesFreight,rahti1,LG-PD9240154,PD9240154,TRUE
+Sales parameter Balcony_freight1,LFIXEDWALL,,Unclassified,SalesFreight,rahti1,LFIXEDWALL-PD9240154,PD9240154,TRUE
+Freight 8mm Glass,LGS,,,SalesFreight,rahti1,LGS-PD9240156,PD9240156,TRUE
+Freight_8mm,LG,,Shipping Costs,SalesFreight,rahti1,LG-PD9240156,PD9240156,TRUE
+Sales parameter Freight1_8mm,LFIXEDWALL,,Unclassified,SalesFreight,rahti1,LFIXEDWALL-PD9240156,PD9240156,TRUE
+Freight 10mm Glass,LGS,,,SalesFreight,rahti1,LGS-PD9240157,PD9240157,TRUE
+Freight_10mm,LG,,Shipping Costs,SalesFreight,rahti1,LG-PD9240157,PD9240157,TRUE
+Sales parameter Freight1_10mm,LFIXEDWALL,,Unclassified,SalesFreight,rahti1,LFIXEDWALL-PD9240157,PD9240157,TRUE
+Width >800mm,LG,,Shipping Costs,SalesFreight,rahti1,LG-PD9240159,PD9240159,TRUE
+Width >800mm,LFIXEDWALL,,Unclassified,SalesFreight,rahti1,LFIXEDWALL-PD9240159,PD9240159,TRUE
+Width >800mm,LG,,Unclassified,SalesFreight,rahti1,LG-PD9240159ERROR,PD9240159,FALSE
+Width >800mm,LGS,,,SalesFreight,rahti1,LGS-PD9240159,PD9240159,TRUE
+Site_freight,LGS,,,SalesFreight,rahti2,LGS-PD9240161,PD9240161,TRUE
+LG Site Freight,LG,,Shipping Costs,SalesFreight,rahti2,LG-PD9240161,PD9240161,TRUE
+Sales parameterSite_freight2,LFIXEDWALL,,Unclassified,SalesFreight,rahti2,LFIXEDWALL-PD9240161,PD9240161,TRUE
+Balcony_freight,LGS,,,SalesFreight,rahti2,LGS-PD9240162,PD9240162,TRUE
+LG Balcony Freight,LG,,Shipping Costs,SalesFreight,rahti2,LG-PD9240162,PD9240162,TRUE
+Sales parameter Balcony_freight2,LFIXEDWALL,,Unclassified,SalesFreight,rahti2,LFIXEDWALL-PD9240162,PD9240162,TRUE
+Freight 8mm Glass,LGS,,,SalesFreight,rahti2,LGS-PD9240164,PD9240164,TRUE
+Freight_8mm,LG,,Shipping Costs,SalesFreight,rahti2,LG-PD9240164,PD9240164,TRUE
+Sales parameter Freight2_8mm,LFIXEDWALL,,Unclassified,SalesFreight,rahti2,LFIXEDWALL-PD9240164,PD9240164,TRUE
+Freight 10mm Glass,LGS,,,SalesFreight,rahti2,LGS-PD9240165,PD9240165,TRUE
+Freight_10mm,LG,,Shipping Costs,SalesFreight,rahti2,LG-PD9240165,PD9240165,TRUE
+Sales parameter Freight2_10mm,LFIXEDWALL,,Unclassified,SalesFreight,rahti2,LFIXEDWALL-PD9240165,PD9240165,TRUE
+Freight >800mm Wide,LGS,,,SalesFreight,rahti2,LGS-PD9240167,PD9240167,TRUE
+Freight_width over 800mm,LG,,Shipping Costs,SalesFreight,rahti2,LG-PD9240167,PD9240167,TRUE
+Sales parameter Freight2_width over 800mm,LFIXEDWALL,,Unclassified,SalesFreight,rahti2,LFIXEDWALL-PD9240167,PD9240167,TRUE
+Site_freight,LGS,,,SalesFreight,rahti3,LGS-PD9240169,PD9240169,TRUE
+Site_freight,LG,,Shipping Costs,SalesFreight,rahti3,LG-PD9240169,PD9240169,TRUE
+Sales parameter Site_freight3,LFIXEDWALL,,Unclassified,SalesFreight,rahti3,LFIXEDWALL-PD9240169,PD9240169,TRUE
+Balcony_freight,LGS,,,SalesFreight,rahti3,LGS-PD9240170,PD9240170,TRUE
+Balcony_freight,LG,,Shipping Costs,SalesFreight,rahti3,LG-PD9240170,PD9240170,TRUE
+Sales parameter Balcony_freight3,LFIXEDWALL,,Unclassified,SalesFreight,rahti3,LFIXEDWALL-PD9240170,PD9240170,TRUE
+Freight 8mm Glass,LGS,,,SalesFreight,rahti3,LGS-PD9240172,PD9240172,TRUE
+Freight_8mm,LG,,Shipping Costs,SalesFreight,rahti3,LG-PD9240172,PD9240172,TRUE
+Sales parameter Freight2_8mm,LFIXEDWALL,,Unclassified,SalesFreight,rahti3,LFIXEDWALL-PD9240172,PD9240172,TRUE
+Freight 10mm Glass,LGS,,,SalesFreight,rahti3,LGS-PD9240173,PD9240173,TRUE
+Freight_10mm,LG,,Shipping Costs,SalesFreight,rahti3,LG-PD9240173,PD9240173,TRUE
+Sales parameter Freight2_10mm,LFIXEDWALL,,Unclassified,SalesFreight,rahti3,LFIXEDWALL-PD9240173,PD9240173,TRUE
+Freight >800mm Wide,LGS,,,SalesFreight,rahti3,LGS-PD9240175,PD9240175,TRUE
+Freight_width over 800mm,LG,,Shipping Costs,SalesFreight,rahti3,LG-PD9240175,PD9240175,TRUE
+Sales parameter Freight3_width over 800mm,LFIXEDWALL,,Unclassified,SalesFreight,rahti3,LFIXEDWALL-PD9240175,PD9240175,TRUE
+Cost Reservation order,LGS,,Unclassified,CostReserv,costreserv,LGS-PD9240177,PD9240177,TRUE
+Cost Reservation order,LFIXEDWALL,,Unclassified,CostReserv,costreserv,LFIXEDWALL-PD9240177,PD9240177,TRUE
+Cost Reservation order,LG,,Unclassified,CostReserv,costreserv,LG-PD9240177,PD9240177,TRUE
+Cost Reservation Balcony,LGS,,Unclassified,CostReserv,costreserv,LGS-PD9240178,PD9240178,TRUE
+Cost Reservation Balcony,LFIXEDWALL,,Unclassified,CostReserv,costreserv,LFIXEDWALL-PD9240178,PD9240178,TRUE
+Cost Reservation Balcony,LG,,Unclassified,CostReserv,costreserv,LG-PD9240178,PD9240178,TRUE
+Reservation linear meter,LGS,,Unclassified,CostReserv,costreserv,LGS-PD9240179,PD9240179,TRUE
+Reservation linear meter,LFIXEDWALL,,Unclassified,CostReserv,costreserv,LFIXEDWALL-PD9240179,PD9240179,TRUE
+Reservation linear meter,LG,,Unclassified,CostReserv,costreserv,LG-PD9240179,PD9240179,TRUE
+Edge Seal 30mm,LGS,,Product Options,FactoryPurchase,tuotteet,LGS-PD9240183,PD9240183,TRUE
+Edge Seal 30mm,LG,,Product Options,FactoryPurchase,tuotteet,LG-PD9240183,PD9240183,TRUE
+Sales parameter Edge seal 30mm LG/LGS,LFIXEDWALL,,Product Options,FactoryPurchase,tuotteet,LFIXEDWALL-PD9240183,PD9240183,TRUE
+Edge Seal  corner,LGS,,Product Options,FactoryPurchase,tuotteet,LGS-PD9240184,PD9240184,TRUE
+Edge Seal corner,LG,,Product Options,FactoryPurchase,tuotteet,LG-PD9240184,PD9240184,TRUE
+Sales parameter Edge seal corner LG,LFIXEDWALL,,Product Options,FactoryPurchase,tuotteet,LFIXEDWALL-PD9240184,PD9240184,TRUE
+Blinds_installation,LGS,,Services,Wages,asennus3,LGS-PD9240200,PD9240200,TRUE
+Blinds_installation,LG,,Services,Wages,asennus3,LG-PD9240200,PD9240200,TRUE
+Sales parameter Blinds_installation,LFIXEDWALL,,Services,Wages,asennus3,LFIXEDWALL-PD9240200,PD9240200,TRUE
+Systemangle_installation,LGS,,Services,Wages,asennus3,LGS-PD9240201,PD9240201,TRUE
+Systemangle_installation,LG,,Services,Wages,asennus3,LG-PD9240201,PD9240201,TRUE
+Sales parameter Systemangle_installation,LFIXEDWALL,,Services,Wages,asennus3,LFIXEDWALL-PD9240201,PD9240201,TRUE
+Glass 8mm_installation,LGS,,Services,Wages,asennus3,LGS-PD9240203,PD9240203,TRUE
+Glass 8mm_installation,LG,,Services,Wages,asennus3,LG-PD9240203,PD9240203,TRUE
+Sales parameter Glass 8mm_installation,LFIXEDWALL,,Services,Wages,asennus3,LFIXEDWALL-PD9240203,PD9240203,TRUE
+Glass 10mm_installation,LGS,,Services,Wages,asennus3,LGS-PD9240204,PD9240204,TRUE
+Glass 10mm_installation,LG,,Services,Wages,asennus3,LG-PD9240204,PD9240204,TRUE
+Sales parameter Glass 10mm_installation,LFIXEDWALL,,Services,Wages,asennus3,LFIXEDWALL-PD9240204,PD9240204,TRUE
+Balcony_installation,LGS,,Services,Wages,asennus3,LGS-PD9240206,PD9240206,TRUE
+Balcony_installation,LG,,Services,Wages,asennus3,LG-PD9240206,PD9240206,TRUE
+Sales parameter Balcony_installation,LFIXEDWALL,,Services,Wages,asennus3,LFIXEDWALL-PD9240206,PD9240206,TRUE
+Length_installation,LGS,,Services,Wages,asennus3,LGS-PD9240207,PD9240207,TRUE
+Length_installation,LG,,Services,Wages,asennus3,LG-PD9240207,PD9240207,TRUE
+Sales parameter Length_installation,LFIXEDWALL,,Services,Wages,asennus3,LFIXEDWALL-PD9240207,PD9240207,TRUE
+Side_installation,LGS,,Services,Wages,asennus3,LGS-PD9240208,PD9240208,TRUE
+Side_installation,LG,,Services,Wages,asennus3,LG-PD9240208,PD9240208,TRUE
+Sales parameter Side_installation,LFIXEDWALL,,Services,Wages,asennus3,LFIXEDWALL-PD9240208,PD9240208,TRUE
+Site_installation,LGS,,Services,Wages,asennus3,LGS-PD9240209,PD9240209,TRUE
+Site_installation,LG,,Services,Wages,asennus3,LG-PD9240209,PD9240209,TRUE
+Sales parameter Site_installation,LFIXEDWALL,,Services,Wages,asennus3,LFIXEDWALL-PD9240209,PD9240209,TRUE
+Glass over 2200mm high,LGS,,Services,Wages,asennus3,LGS-PD9240210,PD9240210,TRUE
+Glass over 2200mm high,LG,,Services,Wages,asennus3,LG-PD9240210,PD9240210,TRUE
+Sales parameter Glass over 2200mm high_installation,LFIXEDWALL,,Services,Wages,asennus3,LFIXEDWALL-PD9240210,PD9240210,TRUE
+Sales parameter Fabric Color Black,LFIXEDWALL,,Product Options,FactoryPurchase,verhot,LFIXEDWALL-PD9240229,PD9240229,TRUE
+Fabric Color Black,LG,,Product Options,FactoryPurchase,verhot,LG-PD9240229,PD9240229,TRUE
+Fabric Color Black,LGS,,Product Options,FactoryPurchase,verhot,LGS-PD9240229,PD9240229,TRUE
+Fabric Color Black,LUMONKAIDE,,Product Options,FactoryPurchase,verhot,LUMONKAIDE-PD9240229,PD9240229,TRUE
+PITUUS kaide,LUMONKAIDE,,Product Options,FactoryPurchase,tuotteet,LUMONKAIDE-PD9370002,PD9370002,TRUE
+LASIKPL kaide,LUMONKAIDE,,Product Options,FactoryPurchase,tuotteet,LUMONKAIDE-PD9370003,PD9370003,TRUE
+VERHOUS_M2,LUMONKAIDE,,Product Options,FactoryPurchase,tuotteet,LUMONKAIDE-PD9370004,PD9370004,TRUE
+Parveke _asennus,LUMONKAIDE,,Product Options,Wages,asennus1,LUMONKAIDE-PD9370104,PD9370104,TRUE
+White transparent,LGS,,Product Options,FactoryPurchase,verhot,LGS-PD9260113,PD9260113,TRUE
+Verho valkoinen läpinäkyvä 3501,LUMONKAIDE,,Product Options,FactoryPurchase,verhot,LUMONKAIDE-PD9370095,PD9370095,TRUE
+SIVU_asennus,LUMONKAIDE,,Product Options,Wages,asennus1,LUMONKAIDE-PD9370100,PD9370100,TRUE
+KOHDE_ asennus,LUMONKAIDE,,Product Options,Wages,asennus1,LUMONKAIDE-PD9370101,PD9370101,TRUE
+KAIDEJM_ asennus,LUMONKAIDE,,Product Options,Wages,asennus1,LUMONKAIDE-PD9370102,PD9370102,TRUE
+VERHOUS_KPL_asennus,LUMONKAIDE,,Product Options,Wages,asennus1,LUMONKAIDE-PD9370103,PD9370103,TRUE
+Asennustarvike Lumonkaide,LUMONKAIDE,,Product Options,InstallSupplies,as.tarvike,LUMONKAIDE-PD9370114,PD9370114,TRUE
+SIVU_asennus2,LUMONKAIDE,,Product Options,Wages,asennus2,LUMONKAIDE-PD9370120,PD9370120,TRUE
+KOHDE_ asennus2,LUMONKAIDE,,Product Options,Wages,asennus2,LUMONKAIDE-PD9370121,PD9370121,TRUE
+KAIDEJM_ asennus2,LUMONKAIDE,,Product Options,Wages,asennus2,LUMONKAIDE-PD9370122,PD9370122,TRUE
+VERHOUS_KPL_asennus2,LUMONKAIDE,,Product Options,Wages,asennus2,LUMONKAIDE-PD9370123,PD9370123,TRUE
+Parveke _asennus2,LUMONKAIDE,,Product Options,Wages,asennus2,LUMONKAIDE-PD9370124,PD9370124,TRUE
+KOHDE_rahti1,LUMONKAIDE,,Product Options,SalesFreight,rahti1,LUMONKAIDE-PD9370301,PD9370301,TRUE
+Fabric Color Black,VT3,,Product Options,FactoryPurchase,verhot,VT3-PD9240229,PD9240229,TRUE
+Sales parameter Fabric Color Black,VT4,,Product Options,FactoryPurchase,verhot,VT4-PD9240229,PD9240229,TRUE
+Sales parameter Fabric Color Black,LUMONTOLPK,,Product Options,FactoryPurchase,verhot,LUMONTOLPK-PD9240229,PD9240229,TRUE
+SIVU_asennus3,LUMONKAIDE,,Product Options,Wages,asennus3,LUMONKAIDE-PD9370164,PD9370164,TRUE
+KOHDE_ asennus3,LUMONKAIDE,,Product Options,Wages,asennus3,LUMONKAIDE-PD9370165,PD9370165,TRUE
+KAIDEJM_ asennus3,LUMONKAIDE,,Product Options,Wages,asennus3,LUMONKAIDE-PD9370166,PD9370166,TRUE
+VERHOUS_KPL_asennus3,LUMONKAIDE,,Product Options,Wages,asennus3,LUMONKAIDE-PD9370167,PD9370167,TRUE
+Parveke _asennus3,LUMONKAIDE,,Product Options,Wages,asennus3,LUMONKAIDE-PD9370168,PD9370168,TRUE
+Hintaparametri Fastening to concrete for handrail bracket,LUMONKAIDE,,Product Options,FactoryPurchase,tuotteet,LUMONKAIDE-PD9370257,PD9370257,TRUE
+KAIDEJM_rahti1,LUMONKAIDE,,Product Options,SalesFreight,rahti1,LUMONKAIDE-PD9370300,PD9370300,TRUE
+Hintaparametri Seinäliittymä - seinäpaarre,LUMONKAIDE,,Product Options,FactoryPurchase,tuotteet,LUMONKAIDE-PD9390009,PD9390009,TRUE
+Handrail 160,LUMONKAIDE,,Product Options,FactoryPurchase,tuotteet,LUMONKAIDE-PD9370202,PD9370202,TRUE
+Top installed lower frame,LUMONKAIDE,,Product Options,FactoryPurchase,tuotteet,LUMONKAIDE-PD9370205,PD9370205,TRUE
+Tämän voi päivittää uudella nimikkeellä,LUMONKAIDE,,Product Options,FactoryPurchase,tuotteet,LUMONKAIDE-PD9370212,PD9370212,TRUE
+Hintaparametri Seinäliittymä - seinäpaarre,VT3,,Product Options,FactoryPurchase,tuotteet,VT3-PD9390009,PD9390009,TRUE
+Terassimatto m2,LGS,,Product Options,FactoryPurchase,tuotteet,LGS-PD9980109,PD9980109,TRUE
+Hintaparametri Seinäliittymä - seinäpaarre,LFIXEDWALL,,Product Options,FactoryPurchase,tuotteet,LFIXEDWALL-PD9390009,PD9390009,TRUE
+Hintaparametri Seinäliittymä - seinäpaarre,LG,,Product Options,FactoryPurchase,tuotteet,LG-PD9390009,PD9390009,TRUE
+Hintaparametri Seinäliittymä - seinäpaarre,LGS,,Product Options,FactoryPurchase,tuotteet,LGS-PD9390009,PD9390009,TRUE
+Hintaparametri Seinäliittymä - seinäpaarre,LUMONTOLPK,,Product Options,FactoryPurchase,tuotteet,LUMONTOLPK-PD9390009,PD9390009,TRUE
+Hintaparametri Seinäliittymä - seinäpaarre,VT4,,Product Options,FactoryPurchase,tuotteet,VT4-PD9390009,PD9390009,TRUE
+Terassimatto m2,LFIXEDWALL,,Product Options,FactoryPurchase,tuotteet,LFIXEDWALL-PD9980109,PD9980109,TRUE
+Terassimatto m2,LG,,Product Options,FactoryPurchase,tuotteet,LG-PD9980109,PD9980109,TRUE
+Terassimatto m2,TERRACEMAT,,Product Options,FactoryPurchase,tuotteet,TERRACEMAT-PD9980109,PD9980109,TRUE
+Terassimatto m2,VT3,,Product Options,FactoryPurchase,tuotteet,VT3-PD9980109,PD9980109,TRUE
+Terassimatto m2,VT4,,Product Options,FactoryPurchase,tuotteet,VT4-PD9980109,PD9980109,TRUE

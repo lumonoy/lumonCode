@@ -1,0 +1,24 @@
+:host {
+    --slds-c-button-brand-color-background: purple;
+    --slds-c-button-brand-color-border: purple;
+}
+.action-button {
+     /* --slds-c-button-line-height:1.4rem; */
+    --slds-button;
+    --slds-button_neutral;
+    /*--slds-c-button-inverse-color-background: #f3f3f3;
+    --slds-c-button-inverse-color-background-active: #7C878E;
+    --slds-c-button-inverse-color-background-hover: #7C878E;
+    --slds-c-button-inverse-color-border: #7C878E;
+    --slds-c-button-inverse-color-border-active: #747474;
+    --slds-c-button-inverse-color-border-hover: #747474;
+    --slds-c-button-inverse-text-color: #747474;
+    --slds-c-button-inverse-text-color-active: #f3f3f3;
+    --slds-c-button-inverse-text-color-hover: #f3f3f3; */
+}
+  /*icon-name="utility:record_create"
+                                size="medium"
+                                onclick={handleClickNewPlan}
+                                alternative-text="New Plan"
+                                aria-label="newplanbutton"
+                                class="action-button"*/

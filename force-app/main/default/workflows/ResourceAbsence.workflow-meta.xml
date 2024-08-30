@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Indication_to_Installer_that_Approval_has_been_submitted_to_Manager</fullName>
+        <description>Indication to Installer that Approval has been submitted to Manager.</description>
+        <protected>false</protected>
+        <recipients>
+            <type>creator</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Field_Service/Notify_submitted_Resource_Absence_approval_has_been_requested</template>
+    </alerts>
+    <alerts>
+        <fullName>Notification_of_approval</fullName>
+        <description>Notification of approval</description>
+        <protected>false</protected>
+        <recipients>
+            <type>creator</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Field_Service/Notify_approved_Resource_Absence_has_been_approved</template>
+    </alerts>
+    <alerts>
+        <fullName>Notification_of_rejection</fullName>
+        <description>Notification of rejection</description>
+        <protected>false</protected>
+        <recipients>
+            <type>creator</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Field_Service/Notify_rejected_Resource_Absence_was_rejected</template>
+    </alerts>
+    <fieldUpdates>
+        <fullName>Add_handler_s_name</fullName>
+        <field>Approval_handled_by__c</field>
+        <formula>$User.FirstName +&quot; &quot;+ $User.LastName</formula>
+        <name>Add handler&apos;s name</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Set_Approval_status</fullName>
+        <field>FSL__Approved__c</field>
+        <literalValue>1</literalValue>
+        <name>Set Approval status</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+</Workflow>

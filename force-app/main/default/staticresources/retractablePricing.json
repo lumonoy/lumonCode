@@ -1,0 +1,105 @@
+{
+    "apartment": "A1",
+    "floor": "2",
+    "id": "ABCDE",
+    "line": 1,
+    "name": "RETRACTABLE PLAN",
+    "products": [
+        {
+            "hasFeaturesBeenConfirmed": false,
+            "hasMeasurementsBeenVerified": false,
+            "id": "pP3KPGi5RkW-sQgWXKimlQ",
+            "name": "LG",
+            "priceParameters": [
+                {
+                    "Amount": 0.5,
+                    "LocalSupplier": false,
+                    "ParameterCode": "",
+                    "SalesCode": "OPTION",
+                    "UniqueId": 0,
+                    "Unit": "M2"
+                },
+				{
+                    "Amount": 5,
+                    "LocalSupplier": false,
+                    "ParameterCode": "",
+                    "SalesCode": "BLINDS",
+                    "UniqueId": 0,
+                    "Unit": "M2"
+                },
+				{
+                    "Amount": 3,
+                    "LocalSupplier": false,
+                    "ParameterCode": "",
+                    "SalesCode": "FREIGHT",
+                    "UniqueId": 0,
+                    "Unit": "PCS"
+                },
+				{
+                    "Amount": 2,
+                    "LocalSupplier": false,
+                    "ParameterCode": "",
+                    "SalesCode": "INSTALL",
+                    "UniqueId": 0,
+                    "Unit": "PCS"
+                },
+				{
+                    "Amount": 1,
+                    "LocalSupplier": false,
+                    "ParameterCode": "",
+                    "SalesCode": "MIN",
+                    "UniqueId": 0,
+                    "Unit": "PCS"
+                },
+				{
+                    "Amount": 3,
+                    "LocalSupplier": false,
+                    "ParameterCode": "",
+                    "SalesCode": "MAX",
+                    "UniqueId": 0,
+                    "Unit": "PCS"
+                },
+				{
+                    "Amount": 0.754321,
+                    "LocalSupplier": false,
+                    "ParameterCode": "",
+                    "SalesCode": "TRANS",
+                    "UniqueId": 0,
+                    "Unit": "M2"
+                },
+				{
+                    "Amount": 2,
+                    "LocalSupplier": false,
+                    "ParameterCode": "",
+                    "SalesCode": "SPECIAL",
+                    "UniqueId": 0,
+                    "Unit": "PCS"
+                },
+				{
+                    "Amount": 5,
+                    "LocalSupplier": false,
+                    "ParameterCode": "",
+                    "SalesCode": "TIME",
+                    "UniqueId": 0,
+                    "Unit": "h"
+				}
+            ],
+            "productInspectCode": 2,
+            "productInspectMessageKeys": [
+                {
+                    "MessageKey": "E24108",
+                    "SpaceSideNumber": 6
+                },
+                {
+                    "MessageKey": "E24109",
+                    "SpaceSideNumber": 8
+                }
+            ],
+            "productLength": 0.0,
+            "reclaimedFeatureMessageKeys": [
+            ],
+            "rvn": "12345678"
+        }
+    ],
+    "version": 2
+}

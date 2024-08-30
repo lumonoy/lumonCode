@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingOwnerRules>
+        <fullName>Internal_Users_Finland</fullName>
+        <accessLevel>Read</accessLevel>
+        <description>Shares all Assets created by Finland user with all Finland users.</description>
+        <label>Internal Users Finland</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>Finland</roleAndSubordinatesInternal>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinatesInternal>Finland</roleAndSubordinatesInternal>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

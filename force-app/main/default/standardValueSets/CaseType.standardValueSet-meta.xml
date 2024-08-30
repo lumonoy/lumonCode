@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>true</sorted>
+    <standardValue>
+        <fullName>Administration</fullName>
+        <default>false</default>
+        <label>Administration</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Aftersales</fullName>
+        <default>false</default>
+        <label>Aftersales</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Building Permit</fullName>
+        <default>false</default>
+        <label>Building Permit</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Calculations and Structural Plans</fullName>
+        <default>false</default>
+        <label>Calculations and Structural Plans</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Customer Reclamation</fullName>
+        <default>false</default>
+        <label>Customer Reclamation</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Customer Support</fullName>
+        <default>false</default>
+        <label>Customer Support</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Internal IT Queue</fullName>
+        <default>false</default>
+        <label>Internal IT Queue</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Invoicing</fullName>
+        <default>false</default>
+        <label>Invoicing</label>
+    </standardValue>
+    <standardValue>
+        <fullName>IT Software</fullName>
+        <default>false</default>
+        <label>IT Software</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Locates</fullName>
+        <default>false</default>
+        <label>Locates</label>
+    </standardValue>
+    <standardValue>
+        <fullName>New Orders (Dealers)</fullName>
+        <default>false</default>
+        <label>New Orders (Dealers)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>New Orders (Own)</fullName>
+        <default>false</default>
+        <label>New Orders (Own)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Offer Planning</fullName>
+        <default>false</default>
+        <label>Offer Planning</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Other Technical Support</fullName>
+        <default>false</default>
+        <label>Other Technical Support</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Quality Event: Work Continues</fullName>
+        <default>false</default>
+        <label>Quality Event: Work Continues</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Quality Event: Work Stops</fullName>
+        <default>false</default>
+        <label>Quality Event: Work Stops</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Question</fullName>
+        <default>false</default>
+        <label>Question</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Reclamation order</fullName>
+        <default>false</default>
+        <label>Reclamation order</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Rescheduling Installation</fullName>
+        <default>false</default>
+        <label>Rescheduling Installation</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Reseller</fullName>
+        <default>false</default>
+        <label>Reseller</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Return Offer</fullName>
+        <default>false</default>
+        <label>Return Offer</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Return Order to Quote Status</fullName>
+        <default>false</default>
+        <label>Return Order to Quote Status</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Sales Technical Support</fullName>
+        <default>false</default>
+        <label>Sales Technical Support</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Special Order</fullName>
+        <default>false</default>
+        <label>Special Order</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Special Pricing</fullName>
+        <default>false</default>
+        <label>Special Pricing</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Technical Questions</fullName>
+        <default>false</default>
+        <label>Technical Questions</label>
+    </standardValue>
+    <standardValue>
+        <fullName>User Accounts</fullName>
+        <default>false</default>
+        <label>User Accounts</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Warranty work request</fullName>
+        <default>false</default>
+        <label>Warranty work request</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Workstation Problems</fullName>
+        <default>false</default>
+        <label>Workstation Problems</label>
+    </standardValue>
+</StandardValueSet>

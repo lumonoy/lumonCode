@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>WarehouseId__c</fullName>
+    <description>Short Name (Unique Id)</description>
+    <externalId>true</externalId>
+    <inlineHelpText>Short Name (Unique Id)</inlineHelpText>
+    <label>Warehouse Id</label>
+    <length>10</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

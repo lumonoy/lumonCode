@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>Customer Service Finland</name>
+    <queueMembers>
+        <publicGroups>
+            <publicGroup>CS_Finland</publicGroup>
+        </publicGroups>
+        <users>
+            <user>zzz_d6ebd2f3-8222-4514-a19f-0460edc0e482@deleted.com</user>
+            <user>anne.ravantti@lumon.fi</user>
+            <user>antti.ranta-korpi@lumon.fi</user>
+            <user>aulavantaa@lumon.fi</user>
+            <user>esa.humalajoki@lumon.fi</user>
+            <user>eveliina.gainullina@lumon.fi</user>
+            <user>ilkka.penninkangas@lumon.fi</user>
+            <user>jani.pakkila@lumon.fi</user>
+            <user>jari.juuti@lumon.fi</user>
+            <user>jarmo.niskanen@lumon.fi</user>
+            <user>juha-heikki.makinen@lumon.fi</user>
+            <user>juho.kenttala@lumon.fi</user>
+            <user>juho.maunuksela@lumon.fi</user>
+            <user>jukka.tapio@lumon.fi</user>
+            <user>kai-eerik.makinen@lumon.fi</user>
+            <user>kati.vainio@lumon.fi</user>
+            <user>katja.kannisto@lumon.fi</user>
+            <user>kauko.ylikarppa@lumon.fi</user>
+            <user>kyosti.makinen@lumon.fi</user>
+            <user>lasse.vattula@lumon.fi</user>
+            <user>marko.paunonen@lumon.fi</user>
+            <user>markus.lehtivuori@lumon.fi</user>
+            <user>markus.olander@lumon.fi</user>
+            <user>matias.viitanen@lumon.fi</user>
+            <user>mauri.keskitalo@lumon.fi</user>
+            <user>mika.juuti@lumon.fi</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+</Queue>

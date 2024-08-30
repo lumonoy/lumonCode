@@ -1,0 +1,14 @@
+.pricing-table .header-level {
+    font-weight: bold;
+}
+.pricing-table .editable {
+    font-weight: bold;
+    /* background-color: #eeffdf; */
+}
+.pricing-table td.summary-first {
+    border-top: 2px solid #999;
+}
+.pricing-table td.summary {
+    /* background-color: #eeffdf !important; */
+    font-weight: bold;
+}

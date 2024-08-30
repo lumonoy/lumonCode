@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>FI_LP_PortalLoginReminder</fullName>
+        <description>FI_LP_PortalLoginReminder</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>noreply@lumon.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>myLumonPortal/FI_LP_PortalLoginReminder</template>
+    </alerts>
+    <alerts>
+        <fullName>LP_PortalLoginReminder</fullName>
+        <description>LP_PortalLoginReminder</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>noreply@lumon.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>myLumonPortal/LP_PortalLoginReminder</template>
+    </alerts>
+</Workflow>

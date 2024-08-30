@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>true</doesSendEmailToMembers>
+    <email>sfsupport@lumon.com</email>
+    <name>Salesforce Support</name>
+    <queueMembers>
+        <users>
+            <user>antonio.valero@lumon.com</user>
+            <user>hendrikus.reynders@lumon.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+</Queue>

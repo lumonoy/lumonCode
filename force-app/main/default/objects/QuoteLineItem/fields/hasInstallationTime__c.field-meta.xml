@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>hasInstallationTime__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Checkbox to indicate if Installation is required</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Indicates if Installation is required</inlineHelpText>
+    <label>hasInstallationTime</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

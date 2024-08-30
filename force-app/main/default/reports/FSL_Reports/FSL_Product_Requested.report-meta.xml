@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>ProductRequestLineItem$Name</field>
+    </columns>
+    <description>Report for Inventory Manager Dashboard</description>
+    <filter>
+        <criteriaItems>
+            <column>ProductRequestLineItem$Status</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notEqual</operator>
+            <value>Received</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>ProductRequestLineItem$Product2</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>FSL Product Requested</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>FSL_Product_Request_Line_Item__c</reportType>
+    <scope>organization</scope>
+    <showDetails>false</showDetails>
+    <showGrandTotal>false</showGrandTotal>
+    <showSubTotals>false</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>ProductRequestLineItem$NeedByDate</dateColumn>
+        <interval>INTERVAL_CURRENT</interval>
+    </timeFrameFilter>
+</Report>

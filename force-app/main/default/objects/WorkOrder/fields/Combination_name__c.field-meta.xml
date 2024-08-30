@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Combination_name__c</fullName>
+    <description>Used to provide more details to WO based configuration product selection in Reclamation/Warranty Case creation from Account.</description>
+    <externalId>false</externalId>
+    <formula>IF(
+    ISBLANK(Reclamation_Opportunity__c),
+    WorkOrderNumber &amp; &quot; (&quot; &amp;  TEXT(TIMEVALUE(CreatedDate)) &amp; &quot; &quot; &amp; TEXT(DATEVALUE(CreatedDate)) &amp; &quot;) Oppo: &quot; &amp;  Opportunity__r.Name,
+    WorkOrderNumber &amp; &quot; (&quot; &amp;  TEXT(TIMEVALUE(CreatedDate)) &amp; &quot; &quot; &amp; TEXT(DATEVALUE(CreatedDate)) &amp; &quot;) Oppo: &quot; &amp;  Reclamation_Opportunity__r.Name
+  )</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Combination name</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

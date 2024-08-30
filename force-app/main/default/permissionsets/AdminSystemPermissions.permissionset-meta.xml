@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customPermissions>
+        <enabled>true</enabled>
+        <name>Admin_Permissions</name>
+    </customPermissions>
+    <customPermissions>
+        <enabled>true</enabled>
+        <name>Execute_Debug</name>
+    </customPermissions>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Admin - SystemPermissions</label>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>CreateCustomizeFilters</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>EditPublicFilters</name>
+    </userPermissions>
+</PermissionSet>

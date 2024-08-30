@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StaticResource xmlns="http://soap.sforce.com/2006/04/metadata">
+    <cacheControl>Private</cacheControl>
+    <contentType>application/pdf</contentType>
+    <description>the ICT Support Case Handling Training v1.0 27.08.2024</description>
+</StaticResource>

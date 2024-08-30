@@ -1,0 +1,6 @@
+<apex:page lightningStylesheets="true"> 
+    <apex:includeLightning /> 
+    <flow:interview name="WO_Create_new_visit" finishLocation="{!URLFOR($Page.New_SA_Action)}"> 
+        <apex:param name="recordId" value="{!$CurrentPage.parameters.id}"/> 
+    </flow:interview> 
+</apex:page>

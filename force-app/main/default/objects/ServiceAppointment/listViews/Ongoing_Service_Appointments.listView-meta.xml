@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Ongoing_Service_Appointments</fullName>
+    <columns>Name</columns>
+    <columns>ServiceTerritory</columns>
+    <columns>STREET</columns>
+    <columns>Account</columns>
+    <columns>SchedStartTime</columns>
+    <columns>LUM_Assigned_Service_Resource__c</columns>
+    <columns>Status</columns>
+    <columns>FSL__IsMultiDay__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Status</field>
+        <operation>equals</operation>
+        <value>Scheduled,Dispatched,In Progress,Travel,Paused</value>
+    </filters>
+    <label>Ongoing Service Appointments</label>
+</ListView>

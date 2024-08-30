@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>None</fullName>
+        <default>false</default>
+        <label>None</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Terrace Glazing</fullName>
+        <default>false</default>
+        <label>Terrace Glazing</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Balcony Glazing</fullName>
+        <default>false</default>
+        <label>Balcony Glazing</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Blinds</fullName>
+        <default>false</default>
+        <label>Blinds</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Costs</fullName>
+        <default>false</default>
+        <label>Costs</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Accessories</fullName>
+        <default>false</default>
+        <label>Accessories</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Spare Parts</fullName>
+        <default>false</default>
+        <label>Spare Parts</label>
+    </standardValue>
+</StandardValueSet>

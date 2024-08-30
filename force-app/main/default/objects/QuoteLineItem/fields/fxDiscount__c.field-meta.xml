@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fxDiscount__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(AND(UnitPrice&gt;0,fxUnitSalesPrice__c&gt;0),(1 - ( UnitPrice/fxUnitSalesPrice__c)),0)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>fxDiscount</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>7</scale>
+    <trackHistory>false</trackHistory>
+    <type>Percent</type>
+</CustomField>

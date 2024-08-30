@@ -1,0 +1,15 @@
+:host {
+    --sds-c-icon-color-foreground-default: #747474;
+    --slds-c-icon-color-foreground: #747474;
+    --sds-c-icon-color-background: transparent;
+    --slds-icon_xx-small: true;
+}
+.error-icon {
+    --slds-c-icon-color-foreground: red;
+}
+.warning-icon {
+    --slds-c-icon-color-foreground: orange;
+}
+.success-icon {
+    --slds-c-icon-color-foreground: green;
+}

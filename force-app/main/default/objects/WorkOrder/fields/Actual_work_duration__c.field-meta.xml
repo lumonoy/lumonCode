@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Actual_work_duration__c</fullName>
+    <description>Counts together the actual work times from the related Service Appointment(s). In hours.</description>
+    <externalId>false</externalId>
+    <label>Actual work duration</label>
+    <precision>7</precision>
+    <required>false</required>
+    <scale>1</scale>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

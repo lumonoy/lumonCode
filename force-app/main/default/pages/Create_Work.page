@@ -1,0 +1,47 @@
+<!--<apex:page lightningStylesheets="true">
+    <apex:includeLightning /> 
+    <flow:interview name="Create_Internal_work_for_Installer_s" finishLocation="{!URLFOR($Page.Create_Work)}"> 
+        <apex:param name="recordId" value="{!$CurrentPage.parameters.id}"/> 
+    </flow:interview> 
+</apex:page>-->
+<apex:page standardController="ServiceResource">
+    <!--rationalize the variables in this page to match with the rest of the components in the package. -->
+    <html>
+    <head>
+        <apex:includeLightning />
+    </head>
+
+    <body class="slds-scope">
+        <div id="flowContainer"/>
+        <script>
+            //set id variables from VF page / controller extension for use in the following javascript
+            var recordId = "{!ServiceResource.Id}"
+            // Control what happens when the interview finishes
+            var statusChange = function (event) {
+                if (event.getParam("status") === "FINISHED") {
+                    //Close the modal window when the flow finishes.
+                    parent.postMessage('closeLightbox', '*');
+                }
+            };
+
+            // Initiate the flow using the lightning out app.
+            // Replace 'lightningOut_Launcher' with the name of your LightningOut app.
+            $Lightning.use("c:lightningOut_Launcher", function () {
+                // Create the flow component and set the onstatuschange attribute
+                $Lightning.createComponent("lightning:flow", {"onstatuschange": statusChange},
+                    "flowContainer",
+                    function (component) {
+                        var inputVariables = [
+                            {
+                                name: 'recordId',
+                                type: 'String',
+                                value: recordId
+                            }];
+                        component.startFlow("Create_Internal_work_for_Installer_s", inputVariables);
+                    }
+                );
+            });
+        </script>
+    </body>
+    </html>
+</apex:page>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LUM_Travel_Start__c</fullName>
+    <description>Captures the start of travel a the time the Technician sets the status to Travel.</description>
+    <externalId>false</externalId>
+    <label>Travel Start</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>DateTime</type>
+</CustomField>

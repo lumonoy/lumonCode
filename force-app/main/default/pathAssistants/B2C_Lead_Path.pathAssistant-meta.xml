@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathAssistant xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <entityName>Lead</entityName>
+    <fieldName>Status</fieldName>
+    <masterLabel>B2C Lead Path</masterLabel>
+    <pathAssistantSteps>
+        <fieldNames>Name</fieldNames>
+        <fieldNames>Address</fieldNames>
+        <info>&lt;p&gt;This lead is Converted to Account and/or Opportunity&lt;/p&gt;</info>
+        <picklistValueName>Closed</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Email</fieldNames>
+        <fieldNames>Email_Opt_In__c</fieldNames>
+        <fieldNames>MobilePhone</fieldNames>
+        <fieldNames>SMS_Opt_In__c</fieldNames>
+        <info>&lt;p&gt;Lead is relevant for Marketing&lt;/p&gt;</info>
+        <picklistValueName>MQL</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Name</fieldNames>
+        <fieldNames>Address</fieldNames>
+        <fieldNames>LeadSource</fieldNames>
+        <info>&lt;p&gt;Gather customer information&lt;/p&gt;</info>
+        <picklistValueName>Marketing Lead</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Visit_Booked__c</fieldNames>
+        <fieldNames>Customer_meeting_booked__c</fieldNames>
+        <fieldNames>Agreed_Visit_Date__c</fieldNames>
+        <info>&lt;p&gt;Contact Customer to discuss and agree 1st Visit&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;</info>
+        <picklistValueName>SQL</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Address</fieldNames>
+        <fieldNames>Name</fieldNames>
+        <fieldNames>MobilePhone</fieldNames>
+        <fieldNames>Email</fieldNames>
+        <fieldNames>Sales_Representative__c</fieldNames>
+        <info>&lt;p&gt;Lead for Sales Engagement&lt;/p&gt;</info>
+        <picklistValueName>Sales Lead</picklistValueName>
+    </pathAssistantSteps>
+    <recordTypeName>B2C_Lead</recordTypeName>
+</PathAssistant>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Access Rights for the Azure Ad/Entra Integration User</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Lumon Integration AD</label>
+    <status>Updated</status>
+</PermissionSetGroup>

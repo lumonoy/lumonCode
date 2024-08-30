@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Territory2Rule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <name>Vantaa West Consumer</name>
+    <objectType>Account</objectType>
+    <ruleItems>
+        <field>Account.RecordTypeId</field>
+        <operation>equals</operation>
+        <value>B2C Account</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.BillingCountry</field>
+        <operation>equals</operation>
+        <value>Finland</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.Territory_Definition_Vantaa_West__c</field>
+        <operation>equals</operation>
+        <value>Vantaa West</value>
+    </ruleItems>
+</Territory2Rule>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Owned_By__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Indicates which Company Owns the Warehouse</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Indicates which Company Owns the Warehouse</inlineHelpText>
+    <label>Owned By</label>
+    <referenceTo>Account</referenceTo>
+    <relationshipLabel>Warehouses</relationshipLabel>
+    <relationshipName>Warehouses</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

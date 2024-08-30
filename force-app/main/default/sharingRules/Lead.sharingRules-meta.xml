@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingCriteriaRules>
+        <fullName>FI_Leads_shared_with_FI_Marketer</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>FI Leads shared with FI Marketer</label>
+        <sharedTo>
+            <role>Lumon_Marketing_FI</role>
+        </sharedTo>
+        <criteriaItems>
+            <field>Country</field>
+            <operation>equals</operation>
+            <value>Finland</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Share_FI_Leads_with_Fi_Technical_Support</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Share FI Leads with Fi Technical Support</label>
+        <sharedTo>
+            <role>Lumon_Technical_Support_FI</role>
+        </sharedTo>
+        <criteriaItems>
+            <field>Country</field>
+            <operation>equals</operation>
+            <value>Finland</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingOwnerRules>
+        <fullName>Lead_shared_with_Sales_Tampere</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Lead shared with Sales Tampere</label>
+        <sharedTo>
+            <group>SA_FI_LSU_Tampere</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>SA_FI_LSU_Tampere</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Leads_Shared_with_sales_BU_Vantaa_West</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Leads Shared with_sales BU Vantaa West</label>
+        <sharedTo>
+            <group>SA_FI_LSU_Vantaa_West</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>SA_FI_LSU_Vantaa_West</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

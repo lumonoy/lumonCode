@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathAssistant xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <entityName>Opportunity</entityName>
+    <fieldName>StageName</fieldName>
+    <masterLabel>B2C Opportunity Path</masterLabel>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;Opportunity is cancelled only after order.&lt;/p&gt;</info>
+        <picklistValueName>Cancelled</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;Mark why opportunity was lost. This is important in analysing and planning perspective&lt;/p&gt;</info>
+        <picklistValueName>Closed Lost</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;ul&gt;&lt;li&gt;&lt;em&gt;Contract is sent to customer for signing&lt;/em&gt;&lt;/li&gt;&lt;li&gt;&lt;em&gt;Follow up the customer contract review in order to ensure smooth sale&lt;/em&gt;&lt;/li&gt;&lt;/ul&gt;</info>
+        <picklistValueName>Contract Sent</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Confirmed_installation_time__c</fieldNames>
+        <info>&lt;p&gt;Prepare for order within 3 days from signature&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Validate measurement &amp;amp; other data is correct before sending order to ERP&lt;/li&gt;&lt;li&gt;Make sure all information is in place&lt;/li&gt;&lt;li&gt;Confirm installation date&lt;/li&gt;&lt;li&gt;Finalize order details&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Make sure you have confirmed installation time and customer contract is signed BEFORE closing opportunity&lt;/p&gt;&lt;p&gt;After you close Opportunity, Order is send to ERP and you CANNOT edit data. Make sure everything is right before closing.&lt;/p&gt;</info>
+        <picklistValueName>Contract Signed</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Reason_for_preliminary_contract__c</fieldNames>
+        <fieldNames>Other_Reason_Resolved__c</fieldNames>
+        <info>&lt;p&gt;Get commitment&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Sign preliminary contract in case building permit is needed, 2nd measurement is needed, it is a special order or there is any other reason for preliminary contract&lt;/li&gt;&lt;li&gt;agree on next steps &amp;amp; follow up&lt;/li&gt;&lt;li&gt;Make sure reason for preliminary contract is resolved (building permit granted, special order case closed, 2nd measurement meeting held or other reason resolved) before moving to next stage&lt;/li&gt;&lt;/ul&gt;</info>
+        <picklistValueName>Preliminary Contract</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Building__c</fieldNames>
+        <fieldNames>Structural_Analysis__c</fieldNames>
+        <fieldNames>SyncedQuoteId</fieldNames>
+        <info>&lt;p&gt;Prepare for the customer meeting&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Identify the products &amp;amp; services required, gather samples, Make sure resources and assistance is available (if needed)&lt;/li&gt;&lt;li&gt;Determine your sales approach&lt;/li&gt;&lt;li&gt;Validate building, installation address &amp;amp; structural information BEFORE creating plan&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;</info>
+        <picklistValueName>Preparation &amp; Analysis</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Payment_Plan__c</fieldNames>
+        <fieldNames>Delivery_Location__c</fieldNames>
+        <fieldNames>Invoice_type__c</fieldNames>
+        <fieldNames>Quote_Status__c</fieldNames>
+        <fieldNames>Preliminary_installation_time__c</fieldNames>
+        <info>&lt;p&gt;&lt;strong&gt;Guide towards the deal in the customer visit&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Present look &amp;amp; feel of the solution, Communicate the value of your solution&lt;/li&gt;&lt;li&gt;Get measurement (possibly with assistance)&lt;/li&gt;&lt;li&gt;Validate building, installation address &amp;amp; structural information BEFORE creating plan&lt;/li&gt;&lt;li&gt;Check Installation duration, (estimated) delivery date and installation address BEFORE scheduling preliminary installation time&lt;/li&gt;&lt;li&gt;Confirm customer Payment plan, Invoice type, Billing address, Delivery location, Delivery date, schedule preliminary installation time BEFORE creating quote PDF&lt;/li&gt;&lt;/ul&gt;</info>
+        <picklistValueName>Quoting</picklistValueName>
+    </pathAssistantSteps>
+    <recordTypeName>B2C_Opportunity</recordTypeName>
+</PathAssistant>

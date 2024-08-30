@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Count_Installed_Reclamation_WOLIs__c</fullName>
+    <description>Count of reclamation WOLIs that have been already installed/completed.</description>
+    <externalId>false</externalId>
+    <label>Count Installed Reclamation WOLIs</label>
+    <summaryFilterItems>
+        <field>WorkOrderLineItem.Is_Reclamation__c</field>
+        <operation>equals</operation>
+        <value>True</value>
+    </summaryFilterItems>
+    <summaryFilterItems>
+        <field>WorkOrderLineItem.Status</field>
+        <operation>equals</operation>
+        <value>Completed, Closed, Cannot Complete, Canceled</value>
+    </summaryFilterItems>
+    <summaryForeignKey>WorkOrderLineItem.WorkOrderId</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <type>Summary</type>
+</CustomField>

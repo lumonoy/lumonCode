@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Territory2Rule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <name>Is Consumer</name>
+    <objectType>Account</objectType>
+    <ruleItems>
+        <field>Account.Customer_Type__c</field>
+        <operation>equals</operation>
+        <value>Consumer</value>
+    </ruleItems>
+</Territory2Rule>

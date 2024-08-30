@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lumon_Installer_Compact_Layout</fullName>
+    <fields>LUM_TimesheetEntryDisplayText__c</fields>
+    <fields>StartTime</fields>
+    <fields>EndTime</fields>
+    <label>Lumon Installer Compact Layout</label>
+</CompactLayout>

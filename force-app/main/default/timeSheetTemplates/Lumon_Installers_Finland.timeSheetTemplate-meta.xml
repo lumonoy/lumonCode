@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TimeSheetTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <frequency>Daily</frequency>
+    <masterLabel>Lumon Installers Finland</masterLabel>
+    <startDate>2023-01-25</startDate>
+    <timeSheetTemplateAssignments>
+        <assignedTo>Lumon Installer</assignedTo>
+    </timeSheetTemplateAssignments>
+    <workWeekEndDay>Friday</workWeekEndDay>
+    <workWeekStartDay>Monday</workWeekStartDay>
+</TimeSheetTemplate>

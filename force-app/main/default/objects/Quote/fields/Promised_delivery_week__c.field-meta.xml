@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Promised_delivery_week__c</fullName>
+    <description>Week and year for the installation finishing</description>
+    <externalId>false</externalId>
+    <formula>TEXT(ISOWEEK(Promised_date__c))&amp;&quot;/&quot;&amp;TEXT(YEAR(Promised_date__c))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Week and year for the installation finishing</inlineHelpText>
+    <label>Promised delivery week</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

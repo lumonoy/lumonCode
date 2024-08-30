@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Assigned_Service_Resource_name__c</fullName>
+    <description>Helper field for the flow &quot;Create Internal work for Installer(s)&quot; to show the name of the resource in the data table.</description>
+    <externalId>false</externalId>
+    <formula>LUM_Assigned_Service_Resource__r.Name</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Assigned Service Resource name</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

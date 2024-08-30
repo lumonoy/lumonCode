@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingOwnerRules>
+        <fullName>CS_Finland</fullName>
+        <accessLevel>Read</accessLevel>
+        <description>All Finland Service Appointments are shared with CS.</description>
+        <label>CS Finland</label>
+        <sharedTo>
+            <roleAndSubordinates>Lumon_Customer_Service_FI</roleAndSubordinates>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>Finland</roleAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Required Permissions for Salesforce Admin (System User)</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Lumon Salesforce Admin</label>
+    <mutingPermissionSets>Basic_Admin_User_Muted</mutingPermissionSets>
+    <permissionSets>AdminAppPermissions</permissionSets>
+    <permissionSets>AdminCustomPermission</permissionSets>
+    <permissionSets>AdminManageAccountUsers</permissionSets>
+    <permissionSets>AdminManageListViews</permissionSets>
+    <permissionSets>AdminObjectandFieldPermissions</permissionSets>
+    <permissionSets>AdminPDFButlerPermissions</permissionSets>
+    <permissionSets>AdminSystemPermissions</permissionSets>
+    <permissionSets>FSL_Admin_License</permissionSets>
+    <permissionSets>ManageUserActivityPermissions</permissionSets>
+    <permissionSets>UserMobileAppAccessPermissions</permissionSets>
+    <status>Updated</status>
+</PermissionSetGroup>

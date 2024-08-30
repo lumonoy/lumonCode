@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingOwnerRules>
+        <fullName>CS_Canada_Cases</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Share Customer Service Cases from Canada</description>
+        <label>CS Canada Cases</label>
+        <sharedTo>
+            <group>CS_Canada</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>CS_Canada</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>CS_Finland_Cases</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Share Customer Service Cases from Finland</description>
+        <label>CS Finland Cases</label>
+        <sharedTo>
+            <group>CS_Finland</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>CS_Finland</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>CS_Norway_Cases</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Share Customer Service Cases from Norway</description>
+        <label>CS Norway Cases</label>
+        <sharedTo>
+            <group>CS_Norway</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>CS_Norway</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>CS_Spain_ADM_Cases</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Share Customer Service Cases from Spain ADM</description>
+        <label>CS Spain ADM Cases</label>
+        <sharedTo>
+            <group>CS_Spain_ADM</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>CS_Spain_ADM</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>CS_Spain_Cases</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Share Customer Service Cases from Spain</description>
+        <label>CS Spain Cases</label>
+        <sharedTo>
+            <group>CS_Spain</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>CS_Spain</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>CS_Spain_RES_Cases</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Share Customer Service Cases from Spain RES</description>
+        <label>CS Spain RES Cases</label>
+        <sharedTo>
+            <group>CS_Spain_RES</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>CS_Spain_RES</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>CS_Sweden_GOT_Cases</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Share Customer Service Cases from Sweden GOT</description>
+        <label>CS Sweden GOT Cases</label>
+        <sharedTo>
+            <group>CS_Sweden_GOT</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>CS_Sweden_GOT</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>CS_Sweden_MAL_Cases</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Share Customer Service Cases from Sweden MAL</description>
+        <label>CS Sweden Cases</label>
+        <sharedTo>
+            <group>CS_Sweden_MAL</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>CS_Sweden_MAL</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>CS_Sweden_STO_Cases</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Share Customer Service Cases from Sweden STO</description>
+        <label>CS Sweden STO Cases</label>
+        <sharedTo>
+            <group>CS_Sweden_STO</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>CS_Sweden_STO</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>CS_Visor_Cases</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Share Customer Service Cases from Visor</description>
+        <label>CS Visor Cases</label>
+        <sharedTo>
+            <group>CS_Visor</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>CS_Visor</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>FAC_Canada_Cases</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Share Production Cases from Canada</description>
+        <label>FAC Canada Cases</label>
+        <sharedTo>
+            <group>FAC_Canada</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>FAC_Canada</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>FAC_Finland_Cases</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Share Production Cases from Finland</description>
+        <label>FAC Finland Cases</label>
+        <sharedTo>
+            <group>FAC_Finland</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>FAC_Finland</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>FAC_Spain_Cases</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Share Production Cases from Spain</description>
+        <label>FAC Spain Cases</label>
+        <sharedTo>
+            <group>FAC_Spain</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>FAC_Spain</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>FAC_Visor_Cases</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Share Production Cases from Visor</description>
+        <label>FAC Visor Cases</label>
+        <sharedTo>
+            <group>FAC_Visor</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>FAC_Visor</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>LOG_Canada_Cases</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Share Logistics Cases from Canada</description>
+        <label>LOG Canada Cases</label>
+        <sharedTo>
+            <group>LOG_Canada</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>LOG_Canada</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>LOG_Finland_Cases</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Share Logistics Cases from Finland</description>
+        <label>LOG Finland Cases</label>
+        <sharedTo>
+            <group>LOG_Finland</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>LOG_Finland</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>LOG_Spain_Cases</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Share Logistics Cases from Spain</description>
+        <label>LOG Spain Cases</label>
+        <sharedTo>
+            <group>LOG_Spain</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>LOG_Spain</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>TS_Canada_Cases</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Share Technical Support Cases from Canada</description>
+        <label>TS Canada Cases</label>
+        <sharedTo>
+            <group>TS_Canada</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>TS_Canada</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>TS_Finland_Cases</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Share Technical Support Cases from Finland</description>
+        <label>TS Finland Cases</label>
+        <sharedTo>
+            <group>TS_Finland</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>TS_Finland</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>TS_Spain_Cases</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Share Technical Support Cases from Spain</description>
+        <label>TS Spain Cases</label>
+        <sharedTo>
+            <group>TS_Spain</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>TS_Spain</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>TS_Sweden_Cases</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Share Technical Support Cases from Sweden</description>
+        <label>TS Sweden Cases</label>
+        <sharedTo>
+            <group>TS_Sweden</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>TS_Sweden</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

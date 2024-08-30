@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Required Permissions Installation Managers</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Lumon Installation Manager</label>
+    <permissionSets>CaseHandlingPermissions</permissionSets>
+    <permissionSets>CustomerServiceCaseHandlingPermissions</permissionSets>
+    <permissionSets>CustomerServicesAppPermissions</permissionSets>
+    <permissionSets>FieldServiceDispatchingPermissions</permissionSets>
+    <permissionSets>InstallationManagerFieldServicePermissions</permissionSets>
+    <permissionSets>InstallationManagerObjectandFieldPermissions</permissionSets>
+    <permissionSets>tspa__VRA_Coummunity_End_User</permissionSets>
+    <status>Updated</status>
+</PermissionSetGroup>

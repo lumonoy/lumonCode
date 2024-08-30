@@ -1,0 +1,25 @@
+<!--
+  @description       : 
+  @author            : Henk Reynders
+  @group             : 
+  @last modified on  : 12-05-2023
+  @last modified by  : Henk Reynders
+-->
+<apex:page id="InstallerPDF"
+        showHeader="false"
+        applyBodyTag="false"
+        renderAs="pdf"
+        controller="InstallerPDFController"
+>
+    <html>
+    <head>
+        <title>Installer instructions</title>
+    </head>
+    <body>
+        <apex:repeat value="{!contents}" var="content">
+            <apex:outputText value="{!content.contentTitle}" escape="false" />
+            <apex:outputText value="{!content.contentBody}" escape="false" />
+        </apex:repeat>
+    </body>
+    </html>
+</apex:page>

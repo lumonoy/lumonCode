@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>Customer Service Spain</name>
+    <queueMembers>
+        <publicGroups>
+            <publicGroup>CS_Spain</publicGroup>
+        </publicGroups>
+        <users>
+            <user>andrea.rosado@lumon.com</user>
+            <user>antonio.ramirez@lumon.com</user>
+            <user>carmen.vega@lumon.com</user>
+            <user>cristian.cordoba@lumon.com</user>
+            <user>cristina.gonzalez@lumon.com</user>
+            <user>diana.aguera@lumon.com</user>
+            <user>fatima.hermoso@lumon.com</user>
+            <user>irene.zambrana@lumon.com</user>
+            <user>maria.podadera@lumon.com</user>
+            <user>maria.gracia@lumon.com</user>
+            <user>zzz_da00736a-0f02-4426-83dd-23d27cd3400b@deleted.com</user>
+            <user>pilar.molina@lumon.com</user>
+            <user>reyes.campos@lumon.com</user>
+            <user>rocio.rios@lumon.com</user>
+            <user>sandra.almaraz@lumon.com</user>
+            <user>saul.colomer@lumon.com</user>
+            <user>susana.garcia@lumon.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+</Queue>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customPermissions>
+        <enabled>true</enabled>
+        <name>Enable_Additional_Costs</name>
+    </customPermissions>
+    <customPermissions>
+        <enabled>true</enabled>
+        <name>Enable_Extra_Sales</name>
+    </customPermissions>
+    <customPermissions>
+        <enabled>true</enabled>
+        <name>Enable_Services</name>
+    </customPermissions>
+    <customPermissions>
+        <enabled>true</enabled>
+        <name>Enable_Sovelia</name>
+    </customPermissions>
+    <customPermissions>
+        <enabled>true</enabled>
+        <name>Enable_Visual</name>
+    </customPermissions>
+    <customSettingAccesses>
+        <enabled>true</enabled>
+        <name>CPQ_Settings__c</name>
+    </customSettingAccesses>
+    <customSettingAccesses>
+        <enabled>true</enabled>
+        <name>Product_Settings__c</name>
+    </customSettingAccesses>
+    <description>Custom Permissions for CPQ Features</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Custom Permissions</label>
+</PermissionSet>

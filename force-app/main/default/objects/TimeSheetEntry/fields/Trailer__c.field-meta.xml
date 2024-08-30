@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Trailer__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Indicates that a trailer was used during the travel to the customer site.</description>
+    <externalId>false</externalId>
+    <label>Trailer</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

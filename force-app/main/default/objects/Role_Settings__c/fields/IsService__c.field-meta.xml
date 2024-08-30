@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>IsService__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Flag to indicate if User is Customer Service</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Flag to indicate if User is Customer Service</inlineHelpText>
+    <label>IsService</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

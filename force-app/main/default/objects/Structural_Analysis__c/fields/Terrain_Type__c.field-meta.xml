@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Terrain_Type__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Classification of the Terrain Type
+0 - Sea, coastal exposed to the open sea
+I - Lakes or area with negligible vegetation
+II - Area with low vegetation such as grass and isolated obstacles (trees, buildings) with separations of at least 20 obstacle heights
+III - Area with regular cover of vegetation or buildings or with isolated obstacles with separations of maximum 20 obstacle heights (such as villages, suburban terrain, forest)
+IV - Area in which at least 15 % of surface is cove</inlineHelpText>
+    <label>Terrain Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>Lumon_Terrain_Types</valueSetName>
+    </valueSet>
+</CustomField>

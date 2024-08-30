@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Install_Expense__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Installation expense specific to the region where the work is done.</description>
+    <externalId>false</externalId>
+    <label>Install Expense</label>
+    <referenceTo>Install_Expense__c</referenceTo>
+    <relationshipLabel>Work Order Line Items</relationshipLabel>
+    <relationshipName>Work_Order_Line_Items</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

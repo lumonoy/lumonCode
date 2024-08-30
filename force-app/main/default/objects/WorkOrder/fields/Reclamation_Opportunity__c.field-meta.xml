@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reclamation_Opportunity__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Identifies the reclamation oppo. The soft and hard installation times are updated by another flow (sa - on update after save) to the reclamation oppo.</description>
+    <externalId>false</externalId>
+    <label>Reclamation Opportunity</label>
+    <referenceTo>Opportunity</referenceTo>
+    <relationshipLabel>Work Orders (Reclamation Opportunity)</relationshipLabel>
+    <relationshipName>Reclamation_Work_Orders</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

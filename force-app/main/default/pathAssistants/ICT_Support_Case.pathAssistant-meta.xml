@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathAssistant xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <entityName>Case</entityName>
+    <fieldName>Status</fieldName>
+    <masterLabel>ICT Support Case</masterLabel>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;The Case is Closed.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;</info>
+        <picklistValueName>Closed</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>OwnerId</fieldNames>
+        <fieldNames>Priority</fieldNames>
+        <fieldNames>IT_Support_Category__c</fieldNames>
+        <fieldNames>IT_Support_Type__c</fieldNames>
+        <fieldNames>IT_Support_Item__c</fieldNames>
+        <info>&lt;p&gt;The Case has been Assigned to an Agent.&lt;/p&gt;&lt;p&gt;Next the Agent can contact the end-User for more Information &lt;/p&gt;&lt;p&gt;or if it is a Known Issue provide a Resolution.&lt;/p&gt;&lt;p&gt;The Resolution can be &lt;/p&gt;&lt;p&gt;1) Answer to a Question&lt;/p&gt;&lt;p&gt;2) Workaround for a Known Issue&lt;/p&gt;&lt;p&gt;3) Solution to a Problem&lt;/p&gt;</info>
+        <picklistValueName>In Progress</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>CaseNumber</fieldNames>
+        <fieldNames>Origin</fieldNames>
+        <fieldNames>SourceId</fieldNames>
+        <fieldNames>Subject</fieldNames>
+        <info>&lt;p&gt;A New Case means someone has a Question or just reported an Issue via Email or another Supported Channel&lt;/p&gt;&lt;p&gt;The Case now needs to be routed to the correct Queue (Group) or Agent.&lt;/p&gt;</info>
+        <picklistValueName>New</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;The Case is Resolved, meaning a Resolution is Provided.&lt;/p&gt;&lt;p&gt;Once the End-User excepts the Answer or Solution, the Case will be Closed.&lt;/p&gt;&lt;p&gt;Case will automatically Close after 30 days if no response is received.&lt;/p&gt;</info>
+        <picklistValueName>Resolved</picklistValueName>
+    </pathAssistantSteps>
+    <recordTypeName>Lumon_ICT_Support</recordTypeName>
+</PathAssistant>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Is_Soft_Reserved__c</fullName>
+    <externalId>false</externalId>
+    <formula>ISPICKVAL(Status, &quot;None&quot;)  &amp;&amp;   
+NOT(ISBLANK( ArrivalWindowStartTime ))  &amp;&amp;   
+NOT(ISBLANK( ArrivalWindowEndTime ))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Is Soft Reserved</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

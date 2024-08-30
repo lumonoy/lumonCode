@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>Technical Support Canada</name>
+    <queueMembers>
+        <publicGroups>
+            <publicGroup>TS_Canada</publicGroup>
+        </publicGroups>
+        <users>
+            <user>david.souza@lumon.com</user>
+            <user>glauber.araujo@lumon.com</user>
+            <user>pamela.pozes@lumon.com</user>
+            <user>russell.knowles@lumon.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+</Queue>

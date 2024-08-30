@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Additional_Organizations__c</fullName>
+    <description>Addtional organizations where the user should have access to</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Addtional organizations where the user should have access to</inlineHelpText>
+    <label>Additional Organizations</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>Lumon_Organizations</valueSetName>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

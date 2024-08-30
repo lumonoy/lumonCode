@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>My_team_s_Time_Sheets</fullName>
+    <columns>Name</columns>
+    <columns>LastModifiedDate</columns>
+    <columns>LastModifiedBy</columns>
+    <columns>ServiceResource</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>I_am_the_approver__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <label>My team&apos;s Time Sheets</label>
+</ListView>

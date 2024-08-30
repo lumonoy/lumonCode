@@ -1,0 +1,167 @@
+.mobile-navigation-region, .mobile-nav-cmp, #burgerBtn {
+  display: none;
+}
+
+@font-face {
+  font-family: 'MyriadProRegular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('MyriadProRegular'), url('sfsites/c/resource/LP_MyriadProFont/myriadPro/MYRIADPRO-REGULAR.woff?orgId=00D7Q000004wLjJ') format('woff');
+}
+
+@font-face {
+  font-family: 'MyriadProBold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('MyriadProBold'), url('sfsites/c/resource/LP_MyriadProFont/myriadPro/MYRIADPRO-BOLD.woff?orgId=00D7Q000004wLjJ') format('woff');
+}
+
+@font-face {
+  font-family: 'MyriadProCondensed';
+  font-style: normal;
+  font-weight: normal;
+  src: local('MyriadProCondensed'), url('sfsites/c/resource/LP_MyriadProFont/myriadPro/MYRIADPRO-COND.woff?orgId=00D7Q000004wLjJ') format('woff');
+}
+
+@font-face {
+  font-family: 'Myriad Pro Condensed Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Myriad Pro Condensed Italic'), url('sfsites/c/resource/LP_MyriadProFont/myriadPro/MYRIADPRO-CONDIT.woff?orgId=00D7Q000004wLjJ') format('woff');
+}
+
+@font-face {
+  font-family: 'MyriadProLight';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Myriad Pro Light'), url('sfsites/c/resource/LP_MyriadProFont/myriadPro/MyriadPro-Light.woff?orgId=00D7Q000004wLjJ') format('woff');
+}
+
+@font-face {
+  font-family: 'MyriadProSemibold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Myriad Pro Semibold'), url('sfsites/c/resource/LP_MyriadProFont/myriadPro/MYRIADPRO-SEMIBOLD.woff?orgId=00D7Q000004wLjJ') format('woff');
+}
+
+@font-face {
+  font-family: 'Myriad Pro Semibold Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Myriad Pro Semibold Italic'), url('sfsites/c/resource/LP_MyriadProFont/myriadPro/MYRIADPRO-SEMIBOLDIT.woff?orgId=00D7Q000004wLjJ') format('woff');
+}
+
+@font-face {
+  font-family: 'Myriad Pro Bold Condensed';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Myriad Pro Bold Condensed'), url('sfsites/c/resource/LP_MyriadProFont/myriadPro/MYRIADPRO-BOLDCOND.woff?orgId=00D7Q000004wLjJ') format('woff');
+}
+
+@font-face {
+  font-family: 'Myriad Pro Bold Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Myriad Pro Bold Italic'), url('sfsites/c/resource/LP_MyriadProFont/myriadPro/MYRIADPRO-BOLDIT.woff?orgId=00D7Q000004wLjJ') format('woff');
+}
+
+@font-face {
+  font-family: 'Myriad Pro Bold Condensed Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Myriad Pro Bold Condensed Italic'), url('sfsites/c/resource/LP_MyriadProFont/myriadPro/MYRIADPRO-BOLDCONDIT.woff?orgId=00D7Q000004wLjJ') format('woff');
+}
+
+@font-face {
+  font-family: 'fontello';
+  src: url('sfsites/c/resource/LP_IconFont/font/fontello.eot?orgId=00D7Q000004wLjJ&30160577');
+  src: url('sfsites/c/resource/LP_IconFont/font/fontello.eot?orgId=00D7Q000004wLjJ&30160577#iefix') format('embedded-opentype'), url('sfsites/c/resource/LP_IconFont/font/fontello.woff2?orgId=00D7Q000004wLjJ&30160577') format('woff2'), url('sfsites/c/resource/LP_IconFont/font/fontello.woff?orgId=00D7Q000004wLjJ&30160577') format('woff'), url('sfsites/c/resource/LP_IconFont/font/fontello.ttf?orgId=00D7Q000004wLjJ&30160577') format('truetype'), url('sfsites/c/resource/LP_IconFont/font/fontello.svg?orgId=00D7Q000004wLjJ&30160577#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^=icon-]:before, [class*=icon-]:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: never;
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1em;
+  margin-left: .2em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-home:before {
+  content: '\e800';
+}
+
+.icon-faq:before {
+  content: '\e801';
+}
+
+.icon-checked:before {
+  content: '\e802';
+}
+
+.icon-instagram:before {
+  content: '\e803';
+}
+
+.icon-key:before {
+  content: '\e804';
+}
+
+.icon-linkedin:before {
+  content: '\e805';
+}
+
+.icon-logout:before {
+  content: '\e806';
+}
+
+.icon-product:before {
+  content: '\e807';
+}
+
+.icon-view-cases:before {
+  content: '\e808';
+}
+
+.icon-youtube:before {
+  content: '\e809';
+}
+
+.icon-article:before {
+  content: '\e80a';
+}
+
+.icon-documentation:before {
+  content: '\e80b';
+}
+
+.icon-download:before {
+  content: '\e80c';
+}
+
+.icon-drop-down:before {
+  content: '\e80d';
+}
+
+.icon-email:before {
+  content: '\e80e';
+}
+
+.icon-facebook:before {
+  content: '\e80f';
+}
+
+:root {
+  --dxp-c-section-columns-max-width: 1170px;
+}

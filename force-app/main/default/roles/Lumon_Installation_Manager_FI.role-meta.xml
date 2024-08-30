@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Role xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseAccessLevel>Read</caseAccessLevel>
+    <contactAccessLevel>Edit</contactAccessLevel>
+    <description>Installation Manager Finland</description>
+    <mayForecastManagerShare>false</mayForecastManagerShare>
+    <name>Lumon Installation Manager Finland</name>
+    <opportunityAccessLevel>Read</opportunityAccessLevel>
+    <parentRole>Lumon_Area_Manager_FI</parentRole>
+</Role>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Is_installable__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Defines if this work will require an Asset to be created. Set by automation (flow).</description>
+    <externalId>false</externalId>
+    <label>Is installable</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>
