@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- The Region of the Postal Code Area assigned --></help>
+    <label><!-- Region Attribute --></label>
+    <name>Region_Attribute__c</name>
+</CustomFieldTranslation>

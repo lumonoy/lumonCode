@@ -1,0 +1,7 @@
+<!-- LP Navigation Menu Item -->
+<template>
+	<a href={href} onclick={handleClick}>
+		<span style={subMenuLinkStyle}>{item.label}</span>
+		<span class="icon-drop-down" if:true={item.subMenuItems}></span>
+	</a>
+</template>

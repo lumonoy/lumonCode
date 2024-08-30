@@ -1,0 +1,635 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>100</fullName>
+        <default>false</default>
+        <label>100 LUI Administration</label>
+    </customValue>
+    <customValue>
+        <fullName>10</fullName>
+        <default>false</default>
+        <label>10 SVI Production</label>
+    </customValue>
+    <customValue>
+        <fullName>110</fullName>
+        <default>false</default>
+        <label>110 LNA Administration</label>
+    </customValue>
+    <customValue>
+        <fullName>15</fullName>
+        <default>false</default>
+        <label>15 SVI Production Aftersales</label>
+    </customValue>
+    <customValue>
+        <fullName>160</fullName>
+        <default>false</default>
+        <label>160 LNP Production</label>
+    </customValue>
+    <customValue>
+        <fullName>161</fullName>
+        <default>false</default>
+        <label>161 LNP Administration</label>
+    </customValue>
+    <customValue>
+        <fullName>172</fullName>
+        <default>false</default>
+        <label>172 LNC Vancouver</label>
+    </customValue>
+    <customValue>
+        <fullName>173</fullName>
+        <default>false</default>
+        <label>173 LNC West dealers</label>
+    </customValue>
+    <customValue>
+        <fullName>174</fullName>
+        <default>false</default>
+        <label>174 LNC Toronto</label>
+    </customValue>
+    <customValue>
+        <fullName>175</fullName>
+        <default>false</default>
+        <label>175 LNC Dealers</label>
+    </customValue>
+    <customValue>
+        <fullName>176</fullName>
+        <default>false</default>
+        <label>176 LNC Hamilton</label>
+    </customValue>
+    <customValue>
+        <fullName>177</fullName>
+        <default>false</default>
+        <label>177 LNC US</label>
+    </customValue>
+    <customValue>
+        <fullName>178</fullName>
+        <default>false</default>
+        <label>178 LNC Customer service</label>
+    </customValue>
+    <customValue>
+        <fullName>181</fullName>
+        <default>false</default>
+        <label>181 LNU US Dealers</label>
+    </customValue>
+    <customValue>
+        <fullName>182</fullName>
+        <default>false</default>
+        <label>182 LNU Buffalo</label>
+    </customValue>
+    <customValue>
+        <fullName>200</fullName>
+        <default>false</default>
+        <label>200 LUI International</label>
+    </customValue>
+    <customValue>
+        <fullName>20</fullName>
+        <default>false</default>
+        <label>20 SVI Consumer</label>
+    </customValue>
+    <customValue>
+        <fullName>210</fullName>
+        <default>false</default>
+        <label>210 LUI Kouvola</label>
+    </customValue>
+    <customValue>
+        <fullName>220</fullName>
+        <default>false</default>
+        <label>220 LUI Jyväskylä</label>
+    </customValue>
+    <customValue>
+        <fullName>230</fullName>
+        <default>false</default>
+        <label>230 LUI Oulu</label>
+    </customValue>
+    <customValue>
+        <fullName>240</fullName>
+        <default>false</default>
+        <label>240 LUI Vantaa</label>
+    </customValue>
+    <customValue>
+        <fullName>250</fullName>
+        <default>false</default>
+        <label>250 LUI Kuopio</label>
+    </customValue>
+    <customValue>
+        <fullName>25</fullName>
+        <default>false</default>
+        <label>25 SVI Consumer West</label>
+    </customValue>
+    <customValue>
+        <fullName>274</fullName>
+        <default>false</default>
+        <label>274 LUI ICT</label>
+    </customValue>
+    <customValue>
+        <fullName>280</fullName>
+        <default>false</default>
+        <label>280 LFE Production</label>
+    </customValue>
+    <customValue>
+        <fullName>290</fullName>
+        <default>false</default>
+        <label>290 LFE Administration</label>
+    </customValue>
+    <customValue>
+        <fullName>30</fullName>
+        <default>false</default>
+        <label>30 SVI B2B Finland</label>
+    </customValue>
+    <customValue>
+        <fullName>310</fullName>
+        <default>false</default>
+        <label>310 LU Glass processing</label>
+    </customValue>
+    <customValue>
+        <fullName>320</fullName>
+        <default>false</default>
+        <label>320 LU Glazing</label>
+    </customValue>
+    <customValue>
+        <fullName>322</fullName>
+        <default>false</default>
+        <label>322 LU Balustrade</label>
+    </customValue>
+    <customValue>
+        <fullName>324</fullName>
+        <default>false</default>
+        <label>324 LU Roofs</label>
+    </customValue>
+    <customValue>
+        <fullName>325</fullName>
+        <default>false</default>
+        <label>325 LU Production administration</label>
+    </customValue>
+    <customValue>
+        <fullName>328</fullName>
+        <default>false</default>
+        <label>328 LU Marketing</label>
+    </customValue>
+    <customValue>
+        <fullName>329</fullName>
+        <default>false</default>
+        <label>329 LU R&amp;D</label>
+    </customValue>
+    <customValue>
+        <fullName>330</fullName>
+        <default>false</default>
+        <label>330 LU Logistics</label>
+    </customValue>
+    <customValue>
+        <fullName>331</fullName>
+        <default>false</default>
+        <label>331 LU Sourcing</label>
+    </customValue>
+    <customValue>
+        <fullName>350</fullName>
+        <default>false</default>
+        <label>350 LU HR</label>
+    </customValue>
+    <customValue>
+        <fullName>390</fullName>
+        <default>false</default>
+        <label>390 LU Customer service</label>
+    </customValue>
+    <customValue>
+        <fullName>398</fullName>
+        <default>false</default>
+        <label>398 LU IT</label>
+    </customValue>
+    <customValue>
+        <fullName>399</fullName>
+        <default>false</default>
+        <label>399 LU Finance</label>
+    </customValue>
+    <customValue>
+        <fullName>4010</fullName>
+        <default>false</default>
+        <label>4010 LSU Vantaa West</label>
+    </customValue>
+    <customValue>
+        <fullName>4011</fullName>
+        <default>false</default>
+        <label>4011 LSU Vantaa East</label>
+    </customValue>
+    <customValue>
+        <fullName>4012</fullName>
+        <default>false</default>
+        <label>4012 LSU Espoo</label>
+    </customValue>
+    <customValue>
+        <fullName>4013</fullName>
+        <default>false</default>
+        <label>4013 LSU Helsinki</label>
+    </customValue>
+    <customValue>
+        <fullName>401</fullName>
+        <default>false</default>
+        <label>401 LSU Vantaa Project</label>
+    </customValue>
+    <customValue>
+        <fullName>4022</fullName>
+        <default>false</default>
+        <label>4022 LSU Lahti</label>
+    </customValue>
+    <customValue>
+        <fullName>402</fullName>
+        <default>false</default>
+        <label>402 LSU Kouvola</label>
+    </customValue>
+    <customValue>
+        <fullName>4031</fullName>
+        <default>false</default>
+        <label>4031 LSU Tampere</label>
+    </customValue>
+    <customValue>
+        <fullName>4032</fullName>
+        <default>false</default>
+        <label>4032 LSU Turku</label>
+    </customValue>
+    <customValue>
+        <fullName>4033</fullName>
+        <default>false</default>
+        <label>4033 LSU Vaasa</label>
+    </customValue>
+    <customValue>
+        <fullName>4041</fullName>
+        <default>false</default>
+        <label>4041 LSU Jyväskylä</label>
+    </customValue>
+    <customValue>
+        <fullName>4042</fullName>
+        <default>false</default>
+        <label>4042 LSU Kuopio</label>
+    </customValue>
+    <customValue>
+        <fullName>4043</fullName>
+        <default>false</default>
+        <label>4043 LSU Oulu</label>
+    </customValue>
+    <customValue>
+        <fullName>4044</fullName>
+        <default>false</default>
+        <label>4044 LSU Reseller</label>
+    </customValue>
+    <customValue>
+        <fullName>405</fullName>
+        <default>false</default>
+        <label>405 LSU Sales center</label>
+    </customValue>
+    <customValue>
+        <fullName>406</fullName>
+        <default>false</default>
+        <label>406 LSU Industrial sales</label>
+    </customValue>
+    <customValue>
+        <fullName>409</fullName>
+        <default>false</default>
+        <label>409 LSU Administration</label>
+    </customValue>
+    <customValue>
+        <fullName>40</fullName>
+        <default>false</default>
+        <label>40 SVI Webshop</label>
+    </customValue>
+    <customValue>
+        <fullName>410</fullName>
+        <default>false</default>
+        <label>410 SLU Stockholm</label>
+    </customValue>
+    <customValue>
+        <fullName>411</fullName>
+        <default>false</default>
+        <label>411 SLU Göteborg</label>
+    </customValue>
+    <customValue>
+        <fullName>412</fullName>
+        <default>false</default>
+        <label>412 SLU Malmö</label>
+    </customValue>
+    <customValue>
+        <fullName>413</fullName>
+        <default>false</default>
+        <label>413 SLU Västerås</label>
+    </customValue>
+    <customValue>
+        <fullName>420</fullName>
+        <default>false</default>
+        <label>420 SLU Reseller</label>
+    </customValue>
+    <customValue>
+        <fullName>430</fullName>
+        <default>false</default>
+        <label>430 SLU North Sweden</label>
+    </customValue>
+    <customValue>
+        <fullName>440</fullName>
+        <default>false</default>
+        <label>440 SLU Aftersales</label>
+    </customValue>
+    <customValue>
+        <fullName>450</fullName>
+        <default>false</default>
+        <label>450 SLU Administration</label>
+    </customValue>
+    <customValue>
+        <fullName>50</fullName>
+        <default>false</default>
+        <label>50 SVI B2B Export</label>
+    </customValue>
+    <customValue>
+        <fullName>510</fullName>
+        <default>false</default>
+        <label>510 LCE Malaga</label>
+    </customValue>
+    <customValue>
+        <fullName>511</fullName>
+        <default>false</default>
+        <label>511 LCE Almeria</label>
+    </customValue>
+    <customValue>
+        <fullName>512</fullName>
+        <default>false</default>
+        <label>512 LCE Marbella</label>
+    </customValue>
+    <customValue>
+        <fullName>520</fullName>
+        <default>false</default>
+        <label>520 LCE Barcelona</label>
+    </customValue>
+    <customValue>
+        <fullName>530</fullName>
+        <default>false</default>
+        <label>530 LCE Zaragoza</label>
+    </customValue>
+    <customValue>
+        <fullName>540</fullName>
+        <default>false</default>
+        <label>540 LCE Valencia</label>
+    </customValue>
+    <customValue>
+        <fullName>550</fullName>
+        <default>false</default>
+        <label>550 LCE Madrid Sur</label>
+    </customValue>
+    <customValue>
+        <fullName>551</fullName>
+        <default>false</default>
+        <label>551 LCE Madrid Norte</label>
+    </customValue>
+    <customValue>
+        <fullName>560</fullName>
+        <default>false</default>
+        <label>560 LCE Reseller</label>
+    </customValue>
+    <customValue>
+        <fullName>570</fullName>
+        <default>false</default>
+        <label>570 LCE Aftersales</label>
+    </customValue>
+    <customValue>
+        <fullName>590</fullName>
+        <default>false</default>
+        <label>590 LCE Administration</label>
+    </customValue>
+    <customValue>
+        <fullName>601</fullName>
+        <default>false</default>
+        <label>601 INT Spain</label>
+    </customValue>
+    <customValue>
+        <fullName>602</fullName>
+        <default>false</default>
+        <label>602 INT Sweden</label>
+    </customValue>
+    <customValue>
+        <fullName>603</fullName>
+        <default>false</default>
+        <label>603 INT Germany</label>
+    </customValue>
+    <customValue>
+        <fullName>604</fullName>
+        <default>false</default>
+        <label>604 INT Austria</label>
+    </customValue>
+    <customValue>
+        <fullName>605</fullName>
+        <default>false</default>
+        <label>605 INT Denmark</label>
+    </customValue>
+    <customValue>
+        <fullName>606</fullName>
+        <default>false</default>
+        <label>606 INT Netherlands</label>
+    </customValue>
+    <customValue>
+        <fullName>607</fullName>
+        <default>false</default>
+        <label>607 INT France</label>
+    </customValue>
+    <customValue>
+        <fullName>608</fullName>
+        <default>false</default>
+        <label>608 INT Ireland</label>
+    </customValue>
+    <customValue>
+        <fullName>609</fullName>
+        <default>false</default>
+        <label>609 INT Belgium</label>
+    </customValue>
+    <customValue>
+        <fullName>60</fullName>
+        <default>false</default>
+        <label>60 SVI Industrial Sales</label>
+    </customValue>
+    <customValue>
+        <fullName>610</fullName>
+        <default>false</default>
+        <label>610 INT Latvia</label>
+    </customValue>
+    <customValue>
+        <fullName>611</fullName>
+        <default>false</default>
+        <label>611 INT Slovakia</label>
+    </customValue>
+    <customValue>
+        <fullName>612</fullName>
+        <default>false</default>
+        <label>612 INT Great Britain</label>
+    </customValue>
+    <customValue>
+        <fullName>650</fullName>
+        <default>false</default>
+        <label>650 INT Canada</label>
+    </customValue>
+    <customValue>
+        <fullName>651</fullName>
+        <default>false</default>
+        <label>651 INT Other licence</label>
+    </customValue>
+    <customValue>
+        <fullName>652</fullName>
+        <default>false</default>
+        <label>652 INT Russia</label>
+    </customValue>
+    <customValue>
+        <fullName>655</fullName>
+        <default>false</default>
+        <label>655 INT Norway</label>
+    </customValue>
+    <customValue>
+        <fullName>656</fullName>
+        <default>false</default>
+        <label>656 INT Czech Republic</label>
+    </customValue>
+    <customValue>
+        <fullName>659</fullName>
+        <default>false</default>
+        <label>659 INT Poland</label>
+    </customValue>
+    <customValue>
+        <fullName>660</fullName>
+        <default>false</default>
+        <label>660 INT Iceland</label>
+    </customValue>
+    <customValue>
+        <fullName>662</fullName>
+        <default>false</default>
+        <label>662 INT Lebanon</label>
+    </customValue>
+    <customValue>
+        <fullName>663</fullName>
+        <default>false</default>
+        <label>663 INT Switzerland</label>
+    </customValue>
+    <customValue>
+        <fullName>664</fullName>
+        <default>false</default>
+        <label>664 INT Egypt</label>
+    </customValue>
+    <customValue>
+        <fullName>667</fullName>
+        <default>false</default>
+        <label>667 INT Chile</label>
+    </customValue>
+    <customValue>
+        <fullName>668</fullName>
+        <default>false</default>
+        <label>668 INT Middle East</label>
+    </customValue>
+    <customValue>
+        <fullName>697</fullName>
+        <default>false</default>
+        <label>697 INT Latin America</label>
+    </customValue>
+    <customValue>
+        <fullName>698</fullName>
+        <default>false</default>
+        <label>698 INT Other reseller</label>
+    </customValue>
+    <customValue>
+        <fullName>699</fullName>
+        <default>false</default>
+        <label>699 INT Administration</label>
+    </customValue>
+    <customValue>
+        <fullName>710</fullName>
+        <default>false</default>
+        <label>710 LNO Oslo</label>
+    </customValue>
+    <customValue>
+        <fullName>720</fullName>
+        <default>false</default>
+        <label>720 LNO Reseller</label>
+    </customValue>
+    <customValue>
+        <fullName>730</fullName>
+        <default>false</default>
+        <label>730 LNO Drammen</label>
+    </customValue>
+    <customValue>
+        <fullName>740</fullName>
+        <default>false</default>
+        <label>740 LNO Aftersales</label>
+    </customValue>
+    <customValue>
+        <fullName>750</fullName>
+        <default>false</default>
+        <label>750 LNO Administration</label>
+    </customValue>
+    <customValue>
+        <fullName>810</fullName>
+        <default>false</default>
+        <label>810 LDE Administration</label>
+    </customValue>
+    <customValue>
+        <fullName>820</fullName>
+        <default>false</default>
+        <label>820 LDE Reseller</label>
+    </customValue>
+    <customValue>
+        <fullName>830</fullName>
+        <default>false</default>
+        <label>830 LDE Project</label>
+    </customValue>
+    <customValue>
+        <fullName>870</fullName>
+        <default>false</default>
+        <label>870 LSW Consumer</label>
+    </customValue>
+    <customValue>
+        <fullName>90</fullName>
+        <default>false</default>
+        <label>90 SVI Administration</label>
+    </customValue>
+    <customValue>
+        <fullName>910</fullName>
+        <default>false</default>
+        <label>910 ZAO Reseller</label>
+    </customValue>
+    <customValue>
+        <fullName>920</fullName>
+        <default>false</default>
+        <label>920 ZAO St Petersburg</label>
+    </customValue>
+    <customValue>
+        <fullName>950</fullName>
+        <default>false</default>
+        <label>950 LDA Reseller</label>
+    </customValue>
+    <customValue>
+        <fullName>997</fullName>
+        <default>false</default>
+        <label>997 LFR Reseller</label>
+    </customValue>
+    <customValue>
+        <fullName>273</fullName>
+        <default>false</default>
+        <label>273 LUI Technical Support</label>
+    </customValue>
+    <customValue>
+        <fullName>271</fullName>
+        <default>false</default>
+        <label>271 LUI R&amp;D</label>
+    </customValue>
+    <customValue>
+        <fullName>272</fullName>
+        <default>false</default>
+        <label>272 LUI HR</label>
+    </customValue>
+    <customValue>
+        <fullName>275</fullName>
+        <default>false</default>
+        <label>275 LUI Finance</label>
+    </customValue>
+    <customValue>
+        <fullName>513</fullName>
+        <default>false</default>
+        <label>513 LCE Sevilla</label>
+    </customValue>
+    <customValue>
+        <fullName>970</fullName>
+        <default>false</default>
+        <label>970 LPO Warsaw</label>
+    </customValue>
+    <masterLabel>Lumon AD Profit Center Codes</masterLabel>
+    <sorted>true</sorted>
+</GlobalValueSet>

@@ -1,0 +1,6 @@
+.slds-modal__container.custom-table-config {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 98%;
+    min-width: 20rem;
+}

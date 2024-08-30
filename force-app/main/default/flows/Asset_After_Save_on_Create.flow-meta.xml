@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>55.0</apiVersion>
+    <assignments>
+        <name>Set_values_to_EntitlementVAR</name>
+        <label>Set values to EntitlementVAR</label>
+        <locationX>176</locationX>
+        <locationY>323</locationY>
+        <assignmentItems>
+            <assignToReference>EntitlementVAR.Status</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>Active</stringValue>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>EntitlementVAR.AssetId</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>EntitlementVAR.AccountId</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>$Record.AccountId</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>EntitlementVAR.StartDate</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>$Record.CreatedDate</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>EntitlementVAR.EndDate</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>InstallDatePlus5Years</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>EntitlementVAR.Name</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>Warranty</stringValue>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>EntitlementVAR.Type</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>Warranty</stringValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Create_Entitlement</targetReference>
+        </connector>
+    </assignments>
+    <description>Adds the entitlement (warranty) for the Asset that was just created.
+
+14.6.2023: Logic to exclude the Reclamation Assets as they don&apos;t need warranty.
+02.12.2023: Save Active Version as R2</description>
+    <environments>Default</environments>
+    <formulas>
+        <name>InstallDatePlus5Years</name>
+        <dataType>Date</dataType>
+        <expression>IF(
+AND(
+MONTH(DateValue({!$Record.CreatedDate})) = 2,
+DAY(DateValue({!$Record.CreatedDate})) = 29
+),
+DATE(
+YEAR(DateValue({!$Record.CreatedDate}))+5,
+3,
+1),
+DATE(
+YEAR(DateValue({!$Record.CreatedDate}))+5,
+MONTH(DateValue({!$Record.CreatedDate})),
+DAY(DateValue({!$Record.CreatedDate}))
+)
+)</expression>
+    </formulas>
+    <interviewLabel>Asset - After Save on Create {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Asset - After Save on Create R2</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordCreates>
+        <name>Create_Entitlement</name>
+        <label>Create Entitlement</label>
+        <locationX>176</locationX>
+        <locationY>431</locationY>
+        <inputReference>EntitlementVAR</inputReference>
+    </recordCreates>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Set_values_to_EntitlementVAR</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Type__c</field>
+            <operator>NotEqualTo</operator>
+            <value>
+                <stringValue>Reclamation</stringValue>
+            </value>
+        </filters>
+        <object>Asset</object>
+        <recordTriggerType>Create</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+    <variables>
+        <name>EntitlementVAR</name>
+        <dataType>SObject</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <objectType>Entitlement</objectType>
+    </variables>
+</Flow>

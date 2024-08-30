@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>ulk.as.pal</fullName>
+        <default>false</default>
+        <label>3rd Party installation</label>
+    </customValue>
+    <customValue>
+        <fullName>tarvikeast</fullName>
+        <default>false</default>
+        <label>Accessories</label>
+    </customValue>
+    <customValue>
+        <fullName>tarvikealu</fullName>
+        <default>false</default>
+        <label>Accessories Aluminium</label>
+    </customValue>
+    <customValue>
+        <fullName>tarvikekmp</fullName>
+        <default>false</default>
+        <label>Accessories Components</label>
+    </customValue>
+    <customValue>
+        <fullName>tuotekust.</fullName>
+        <default>false</default>
+        <label>Additional Product Expenses</label>
+    </customValue>
+    <customValue>
+        <fullName>verhot</fullName>
+        <default>false</default>
+        <label>Blinds</label>
+    </customValue>
+    <customValue>
+        <fullName>costreserv</fullName>
+        <default>false</default>
+        <label>Cost Reservation</label>
+    </customValue>
+    <customValue>
+        <fullName>nostvuokra</fullName>
+        <default>false</default>
+        <label>Crane Rent</label>
+    </customValue>
+    <customValue>
+        <fullName>kulukorv.</fullName>
+        <default>false</default>
+        <label>Expense Reimbursement</label>
+    </customValue>
+    <customValue>
+        <fullName>perustus</fullName>
+        <default>false</default>
+        <label>Foundation</label>
+    </customValue>
+    <customValue>
+        <fullName>rahti</fullName>
+        <default>false</default>
+        <label>Freight</label>
+    </customValue>
+    <customValue>
+        <fullName>rahti1</fullName>
+        <default>false</default>
+        <label>Freight 1</label>
+    </customValue>
+    <customValue>
+        <fullName>rahti2</fullName>
+        <default>false</default>
+        <label>Freight 2</label>
+    </customValue>
+    <customValue>
+        <fullName>rahti3</fullName>
+        <default>false</default>
+        <label>Freight 3</label>
+    </customValue>
+    <customValue>
+        <fullName>rahtijm</fullName>
+        <default>false</default>
+        <label>Freight JM</label>
+    </customValue>
+    <customValue>
+        <fullName>asennus</fullName>
+        <default>false</default>
+        <label>Installation</label>
+    </customValue>
+    <customValue>
+        <fullName>asennus1</fullName>
+        <default>false</default>
+        <label>Installation 1</label>
+    </customValue>
+    <customValue>
+        <fullName>asennus2</fullName>
+        <default>false</default>
+        <label>Installation 2</label>
+    </customValue>
+    <customValue>
+        <fullName>asennus3</fullName>
+        <default>false</default>
+        <label>Installation 3</label>
+    </customValue>
+    <customValue>
+        <fullName>asennus ca</fullName>
+        <default>false</default>
+        <label>Installation Canada</label>
+    </customValue>
+    <customValue>
+        <fullName>asennusku</fullName>
+        <default>false</default>
+        <label>Installation Costs</label>
+    </customValue>
+    <customValue>
+        <fullName>asennus fi</fullName>
+        <default>false</default>
+        <label>Installation Finland</label>
+    </customValue>
+    <customValue>
+        <fullName>asennus es</fullName>
+        <default>false</default>
+        <label>Installation Spain</label>
+    </customValue>
+    <customValue>
+        <fullName>as.tarvike</fullName>
+        <default>false</default>
+        <label>Installation Supplies</label>
+    </customValue>
+    <customValue>
+        <fullName>asennus se</fullName>
+        <default>false</default>
+        <label>Installation Sweden</label>
+    </customValue>
+    <customValue>
+        <fullName>askuormitu</fullName>
+        <default>false</default>
+        <label>Installation Time</label>
+    </customValue>
+    <customValue>
+        <fullName>vakuutus</fullName>
+        <default>false</default>
+        <label>Insurance</label>
+    </customValue>
+    <customValue>
+        <fullName>nostokulut</fullName>
+        <default>false</default>
+        <label>Lifting</label>
+    </customValue>
+    <customValue>
+        <fullName>nostok. ca</fullName>
+        <default>false</default>
+        <label>Lifting Canada</label>
+    </customValue>
+    <customValue>
+        <fullName>nostok. fi</fullName>
+        <default>false</default>
+        <label>Lifting Finland</label>
+    </customValue>
+    <customValue>
+        <fullName>nostok. es</fullName>
+        <default>false</default>
+        <label>Lifting Spain</label>
+    </customValue>
+    <customValue>
+        <fullName>nostok. se</fullName>
+        <default>false</default>
+        <label>Lifting Sweden</label>
+    </customValue>
+    <customValue>
+        <fullName>lupahakem.</fullName>
+        <default>false</default>
+        <label>Permit Application</label>
+    </customValue>
+    <customValue>
+        <fullName>tuotteet</fullName>
+        <default>false</default>
+        <label>Products</label>
+    </customValue>
+    <customValue>
+        <fullName>reklamaati</fullName>
+        <default>false</default>
+        <label>Reclamation</label>
+    </customValue>
+    <customValue>
+        <fullName>myynti ca</fullName>
+        <default>false</default>
+        <label>Sales Canada</label>
+    </customValue>
+    <customValue>
+        <fullName>myynti fi</fullName>
+        <default>false</default>
+        <label>Sales Finland</label>
+    </customValue>
+    <customValue>
+        <fullName>myynti es</fullName>
+        <default>false</default>
+        <label>Sales Spain</label>
+    </customValue>
+    <customValue>
+        <fullName>myynti se</fullName>
+        <default>false</default>
+        <label>Sales Sweden</label>
+    </customValue>
+    <customValue>
+        <fullName>alihankint</fullName>
+        <default>false</default>
+        <label>Subcontracting</label>
+    </customValue>
+    <customValue>
+        <fullName>Third Party Installation</fullName>
+        <default>false</default>
+        <label>Third Party Installation</label>
+    </customValue>
+    <customValue>
+        <fullName>Services</fullName>
+        <default>false</default>
+        <label>Services</label>
+    </customValue>
+    <masterLabel>Lumon Cost Types</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

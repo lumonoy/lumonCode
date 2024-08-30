@@ -1,0 +1,99 @@
+.bg-img {
+    width: 33.333%;
+    min-height: 280px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.upcoming-installation{
+    display: flex;
+    flex-direction: row-reverse;
+    box-shadow: var(--lp-box-shadow-primary);
+    border-radius: var(--lp-radius);
+}
+.ui-content {
+    display: flex;
+    border-bottom: var(--lp-border-primary-l);
+    padding: 50px 0 50px 50px;
+    border-top-left-radius: 5px;
+    width: 66.666%;
+}
+.ui-date-container{
+    flex: 0 1 300px;
+}
+.ui-comment-container{
+    flex: 0 1 300px;
+}
+.ui-headline {
+    font-family: var(--lp-font-semibold);
+    font-size: var(--lp-font-size-text-m);
+    margin-bottom: 16px;
+    color: var(--lp-color-gray);
+}
+.ui-comment{
+    font-size: var(--lp-font-size-text-m);
+}
+.ui-date {
+    font-family: var(--lp-font-semibold);
+    color: var(--lp-color-black);
+    font-size: var(--lp-font-size-text-xl);
+}
+.ui-time,
+.ui-preparation{
+    font-size: var(--lp-font-size-text-m);
+    color: var(--lp-color-black);
+}
+.ui-preparation{
+    text-decoration: underline;
+    display: block;
+    margin-top: 8px;
+}
+
+@media only screen and (max-width: 1045px){
+    .ui-date-container{
+        flex: 0 1 240px;
+    }
+    .ui-comment-container{
+        margin-right: 25px;
+    }
+    .bg-img{
+        width: 360px;
+    }
+    .ui-content{
+        column-gap: 30px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .ui-content{
+        width: 100%;
+    }
+    .upcoming-installation {
+        display: block;
+    }
+    .bg-img{
+        width: 100%;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 0;
+        border-top-left-radius: 5px;
+    }
+    .ui-content {
+        border-top-left-radius: 0;
+        padding: var(--lp-padding-s);
+    }
+}
+
+@media only screen and (max-width: 599px) {
+    .ui-content{
+        flex-direction: column;
+    }
+    .ui-date-container,
+    .ui-comment-container {
+        flex: 0 0 auto;
+    }
+    .ui-comment-container{
+        margin: 25px 0 0 0;
+    }
+}

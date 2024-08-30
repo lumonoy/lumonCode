@@ -1,0 +1,33 @@
+<!-- Lp My Order Header -->
+<template>
+	<div class="os-tab-container">
+		<div class="os-tab-header">
+			<div class="os-header-info">
+				<p class="os-header-label">{orderLabels.orderNumber}</p>
+				<p class="os-header-value link" data-id={order.orderId} onclick={handleOrderDetailClick}>
+					{order.orderNo}
+				</p>
+			</div>
+			<div class="os-header-info">
+				<p class="os-header-label">{orderLabels.installationAddress}</p>
+				<p class="os-header-value">
+					<span>{order.installAddressStreet}</span>
+					<span>{order.installAddressZipCityState}</span>
+				</p>
+			</div>
+			<div class="os-header-info">
+				<p class="os-header-label">{orderLabels.orderTotalCost}</p>
+				<lightning-formatted-number
+						class="os-header-value"
+						value={order.totalCost}
+						format-style="currency"
+						currency-code={order.currencyIsoCode}>
+				</lightning-formatted-number>
+			</div>
+			<div class="os-header-info comment">
+				<p class="os-header-label">{orderLabels.orOrderComment}</p>
+				<p class="os-header-value">{order.orderComment}</p>
+			</div>
+		</div>
+	</div>
+</template>

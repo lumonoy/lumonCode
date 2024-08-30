@@ -1,0 +1,83 @@
+<aura:component implements="forceCommunity:availableForAllPageTypes,flexipage:availableForAllPageTypes,force:hasRecordId,force:lightningQuickAction" controller="PricingComponentController">
+    <aura:handler name="init" value="{!this}" action="{!c.init}" />
+    <aura:attribute name="records" type="List" default="[]" />
+    <aura:attribute name="summaryPd" type="sObject" />
+    <aura:attribute name="summaryPdVAT" type="sObject" />
+	
+    <table class="summary">
+        <tr style="background-color: #F3F3F3; font-size: 16px; font-weight: normal; height: 40px;" class="slds-theme_shade">
+            <td style="padding-left: 10px; border-right:0.2px groove #ffffff;">Product</td>
+            <td style="padding-left: 10px; border-right:0.2px groove #ffffff;">List Price</td>
+            <td style="padding-left: 10px; border-right:0.2px groove #ffffff;">Sales price</td>
+            <td style="padding-left: 10px; border-right:0.2px groove #ffffff;">Discount %</td>
+        </tr>
+        <!-- Parent section Product Group Level (LG,LGS,VT3 etc) -->
+        <aura:iteration items="{!v.records}" var="record">
+            <tr style="border:0.2px groove #ffffff;border-right:0.2px groove #ffffff; font-size: 14px;" id="parent" >
+                <td style="border-right:0.2px groove #ffffff; font-size: 16px; font-weight: normal;" value="parent" name="parent">&nbsp;
+                    <span class="{!record.productName + 'parnt'}" style="" onclick="{!c.toggleSection}" data-auraId="{!record.productName}">
+                        <lightning:icon iconName="utility:switch"
+                                        alternativeText="button icon"
+                                        size="x-small"
+                                        class="slds-section__title-action-icon slds-button__icon_left" />
+                    </span>
+                    <span class="{!record.productName + 'parntHide'}" style="display: none" onclick="{!c.toggleSection}" data-auraId="{!record.productName}">
+                        <lightning:icon iconName="utility:switch"
+                                        alternativeText="button icon"
+                                        size="x-small" />
+                    </span>
+                   &nbsp;{!record.productName}
+                </td>
+                <td style="border-right:0.2px groove #ffffff; padding-left:0.5em;padding-bottom: 0.3em;"><b>{!record.listPrice}</b></td>
+                <td style="border-right:0.2px groove #ffffff; padding-left:0.5em;padding-bottom: 0.3em;"><b>{!record.salesPrice}</b></td>
+                <td style="border-right:0.2px groove #ffffff; padding-left:0.5em;padding-bottom: 0.3em;"><b>{!record.discount}</b></td>
+            </tr>
+            <!-- child section with the Items grouping based on cost types -->
+            <aura:iteration items="{!record.children}" var="child1">
+                <tr class="{!record.productName}" name="child1" id="child1" style="border:0.2px groove #ffffff;border-right:0.2px groove #ffffff; display: none;background-color: #F3F3F3; font-size: 14px; font-weight: normal;">
+                    <td style="border-right:0.2px groove #ffffff; padding-bottom: 0.3em;">&nbsp;&nbsp;&nbsp;&nbsp;
+
+                        <span class="{!child1.productName + 'child collapsed'}" style="" onclick="{!c.toggleSectionChild}" data-auraId="{!child1.productName}">
+                            <lightning:icon iconName="utility:switch"
+                                        alternativeText="button icon"
+                                        size="x-small"
+                                        class="slds-section__title-action-icon slds-button__icon_left" />
+                        </span>
+                        <span class="{!child1.productName + 'childHide expanded'}" style="display: none" onclick="{!c.toggleSectionChild}" data-auraId="{!child1.productName}">
+                            <lightning:icon iconName="utility:switch"
+                                        alternativeText="button icon"
+                                        size="x-small" />
+                        </span>
+                            &nbsp;{!child1.productName}
+                    </td>
+                    <td style="border-right:0.2px groove #ffffff; padding-left:0.5em;padding-bottom: 0.3em;"><b>{!child1.listPrice}</b></td>
+                    <td style="border-right:0.2px groove #ffffff; padding-left:0.5em;padding-bottom: 0.3em;"><b>{!child1.salesPrice}</b></td>
+                    <td style="border-right:0.2px groove #ffffff; padding-left:0.5em;padding-bottom: 0.3em;"><b>{!child1.discount}</b></td>
+                </tr>
+                <!--<aura:iteration items="{!child1.children}" var="child2">
+                    <tr class="{!record.productName + ' ' + child1.productName}" name="child2" id="child2" style="border:0.2px groove #ffffff; display: none;">
+                        <td style="border-right:0.2px groove #ffffff; padding-left:0.5em;padding-bottom: 0.3em;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{!child2.productName}</td>
+                        <td style="border-right:0.2px groove #ffffff; padding-left:0.5em;padding-bottom: 0.3em;">{!child2.factory}</td>
+                        <td style="border-right:0.2px groove #ffffff; padding-left:0.5em;padding-bottom: 0.3em;">{!child2.costs}</td>
+                        <td style="border-right:0.2px groove #ffffff; padding-left:0.5em;padding-bottom: 0.3em;">{!child2.listPrice}</td>
+                        <td style="border-right:0.2px groove #ffffff; padding-left:0.5em;padding-bottom: 0.3em;"></td>
+                        <td style="border-right:0.2px groove #ffffff; padding-left:0.5em;padding-bottom: 0.3em;"></td>
+                        <td style="border-right:0.2px groove #ffffff; padding-left:0.5em;padding-bottom: 0.3em;"></td>
+                    </tr>
+                </aura:iteration>-->
+            </aura:iteration>
+        </aura:iteration>
+        <tr style="border-top: solid black;font-size: 14px; font-weight: normal; height: 35px;" class="slds-theme_shade">
+            <td style="border-bottom: 0.2px groove #ffffff; border-right:0.2px groove #ffffff; padding-left:0.5em;padding-bottom: 0.3em;"><b>Summary, VAT 0%, EUR</b></td>
+            <td style="border-bottom: 0.2px groove #ffffff; border-right:0.2px groove #ffffff; padding-left:0.5em;padding-bottom: 0.3em;"><b>{!v.summaryPd.listPrice}</b></td>
+            <td style="border-bottom: 0.2px groove #ffffff; border-right:0.2px groove #ffffff; padding-left:0.5em;padding-bottom: 0.3em;"><b>{!v.summaryPd.salesPrice}</b></td>
+            <td style="border-bottom: 0.2px groove #ffffff; border-right:0.2px groove #ffffff; padding-left:0.5em;padding-bottom: 0.3em;"><b>{!v.summaryPd.discount}</b></td>
+        </tr>
+        <tr style="font-size: 14px; font-weight: normal; height: 35px;" class="slds-theme_shade">
+            <td style="border-right:0.2px groove #ffffff; padding-left:0.5em;padding-bottom: 0.3em;"><b>Summary, VAT 24%, EUR</b></td>
+            <td style="border-right:0.2px groove #ffffff; padding-left:0.5em;padding-bottom: 0.3em;"><b>{!v.summaryPdVAT.listPrice}</b></td>
+            <td style="border-right:0.2px groove #ffffff; padding-left:0.5em;padding-bottom: 0.3em;"><b>{!v.summaryPdVAT.salesPrice}</b></td>
+            <td style="border-right:0.2px groove #ffffff; padding-left:0.5em;padding-bottom: 0.3em;"><b>{!v.summaryPdVAT.discount}</b></td>
+        </tr>
+    </table>
+</aura:component>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html style="overflow-y: hidden;">
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">
+<table cellpadding="0" cellspacing="0" class="contentpageDefaultEmailTemplatePageTemplate" id="contentpage_emailTemplateBodyContent" style="background-color:#E9EAEC;" width="100%">
+	<tbody>
+		<tr>
+			<td align="center" width="100%">
+			<table bgcolor="#FFFFFF" cellpadding="0" cellspacing="0" class="contentRoot" width="600">
+				<tbody>
+					<tr>
+						<td style="padding-right:px;padding-bottom:px;padding-top:px;padding-left:px;">
+						<table bgcolor="" cellpadding="0" cellspacing="0" class="contentbuilderBaseColumnRow" width="100%">
+							<tbody>
+								<tr valign="top">
+									<td class="columnCell" style="vertical-align:top;" width="100%">
+									<table cellpadding="0" cellspacing="0" style="width:100%;border-collapse:collapse;word-break:break-word;">
+										<tbody>
+											<tr>
+												<td align="Center" style=""><span style="font-family:Verdana,Arial,Helvetica,sans-serif;"><img alt="Lumon Logo" height="133" src="https://lumonoy--lumontest.sandbox.file.force.com/file-asset-public/Lumon_Logo?oid=00D7E000000An3h" style="max-width: 677.192px;" title="Lumon Logo" width="254" /></span></td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table bgcolor="" cellpadding="0" cellspacing="0" class="contentbuilderBaseColumnRow" width="100%">
+							<tbody>
+								<tr valign="top">
+									<td class="columnCell" style="vertical-align:top;" width="100%">
+									<table cellpadding="0" cellspacing="0" style="font-size:14px;width:100%;border-collapse:collapse;word-break:break-word;">
+										<tbody>
+											<tr>
+												<td style="font-family:Arial,Helvetica,sans-serif;padding-right:10px;padding-bottom:10px;padding-top:10px;padding-left:10px;"><span style="font-family:Verdana,Arial,Helvetica,sans-serif;"><span style="font-size:14px;">Hei {{{SignButler.Account.FirstName}}},</span><br />
+												<br />
+												L&auml;hetetty asiakirja on joko&nbsp;hyl&auml;tty tai peruutettu</span></td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table bgcolor="" cellpadding="0" cellspacing="0" class="contentbuilderBaseColumnRow" width="100%">
+							<tbody>
+								<tr valign="top">
+									<td class="columnCell" style="vertical-align:top;" width="100%">
+									<table cellpadding="0" cellspacing="0" style="font-size:14px;width:100%;border-collapse:collapse;word-break:break-word;">
+										<tbody>
+											<tr>
+												<td style="font-family:Arial,Helvetica,sans-serif;padding-right:10px;padding-bottom:10px;padding-top:10px;padding-left:10px;"><span style="font-family:Verdana,Arial,Helvetica,sans-serif;">Yst&auml;v&auml;llisin terveisin,<br />
+												[[!SignButler.Sender.Name!]]<br />
+												[[!SignButler.Sender.Email!]]</span></td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table bgcolor="#E9EAEC" cellpadding="0" cellspacing="0" class="contentbuilderBaseColumnRow" width="100%">
+							<tbody>
+								<tr valign="top">
+									<td class="columnCell" style="vertical-align:top;" width="100%">
+									<table cellpadding="0" cellspacing="0" style="font-size:14px;width:100%;border-collapse:collapse;word-break:break-word;">
+										<tbody>
+											<tr>
+												<td style="font-family:Arial,Helvetica,sans-serif;padding-right:10px;padding-bottom:10px;padding-top:10px;padding-left:10px;"><span style="font-family:Verdana,Arial,Helvetica,sans-serif;"><span style="font-size:10px;"><strong>&Auml;l&auml; jaa t&auml;t&auml; s&auml;hk&ouml;postia</strong><br />
+												T&auml;m&auml; s&auml;hk&ouml;posti sis&auml;lt&auml;&auml; ainutlaatuisen, suojatun linkin asiakirjan allekirjoittamista varten, ja se on erityisesti osoitettu sinulle. &Auml;l&auml; jaa t&auml;t&auml; s&auml;hk&ouml;postia tai linkki&auml; muille.<br />
+												<br />
+												<strong>Onko sinulla kysytt&auml;v&auml;&auml; dokumentista?</strong><br />
+												Jos sinulla on kysytt&auml;v&auml;&auml; asiakirjan tiedoista tai sis&auml;ll&ouml;st&auml;, ota yhteytt&auml; suoraan l&auml;hett&auml;j&auml;&auml;n s&auml;hk&ouml;postitse: [[!SignButler.Sender.Email!]]<br />
+												<br />
+												[[!SignButler.Sender.Name!]] on l&auml;hett&auml;nyt t&auml;m&auml;n viestin SIGN Butlerin digitaalisen allekirjoituspalvelun avulla. Jos et halua, ett&auml; sinuun otetaan yhteytt&auml;, ota yhteytt&auml; suoraan t&auml;m&auml;n pyynn&ouml;n l&auml;hett&auml;j&auml;&auml;n.</span></span></td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+		</tr>
+	</tbody>
+</table>
+</body>
+</html>

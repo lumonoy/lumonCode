@@ -1,0 +1,1067 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>LP_Acc_Account</fullName>
+        <categories>Lumon Portal</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LP Acc Account</shortDescription>
+        <value>Account</value>
+    </labels>
+    <labels>
+        <fullName>LP_Acc_Address</fullName>
+        <categories>Lumon Portal</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LP Acc Address</shortDescription>
+        <value>Address</value>
+    </labels>
+    <labels>
+        <fullName>LP_Acc_Change_Password</fullName>
+        <categories>Lumon Portal</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LP Acc Change Password</shortDescription>
+        <value>Change password</value>
+    </labels>
+    <labels>
+        <fullName>LP_Acc_Contact_Support_1</fullName>
+        <categories>Lumon Portal</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LP Acc Contact Support 1</shortDescription>
+        <value>Please contact our</value>
+    </labels>
+    <labels>
+        <fullName>LP_Acc_Contact_Support_2</fullName>
+        <categories>Lumon Portal</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LP Acc Contact Support 2</shortDescription>
+        <value>if you want to update the information</value>
+    </labels>
+    <labels>
+        <fullName>LP_Acc_Customer_Service</fullName>
+        <categories>Lumon Portal</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LP Acc Customer Service</shortDescription>
+        <value>customer service</value>
+    </labels>
+    <labels>
+        <fullName>LP_Acc_Customer_Service_URL</fullName>
+        <categories>Lumon Portal</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LP Acc Customer Service URL</shortDescription>
+        <value>#</value>
+    </labels>
+    <labels>
+        <fullName>LP_Acc_Discount_News</fullName>
+        <categories>Lumon Portal</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LP Acc Discount News</shortDescription>
+        <value>Current Discounts</value>
+    </labels>
+    <labels>
+        <fullName>LP_Acc_Email</fullName>
+        <categories>Lumon Portal</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LP Acc Email</shortDescription>
+        <value>Email</value>
+    </labels>
+    <labels>
+        <fullName>LP_Acc_First_Name</fullName>
+        <categories>Lumon Portal</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LP Acc First Name</shortDescription>
+        <value>First Name</value>
+    </labels>
+    <labels>
+        <fullName>LP_Acc_Future_Msgs</fullName>
+        <categories>Lumon Portal</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LP Acc Future Msgs</shortDescription>
+        <value>Do you want to receive future marketing messages</value>
+    </labels>
+    <labels>
+        <fullName>LP_Acc_General</fullName>
+        <categories>Lumon Portal</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LP Acc General</shortDescription>
+        <value>General</value>
+    </labels>
+    <labels>
+        <fullName>LP_Acc_Last_Name</fullName>
+        <categories>Lumon Portal</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LP Acc Last Name</shortDescription>
+        <value>Last Name</value>
+    </labels>
+    <labels>
+        <fullName>LP_Acc_Logout</fullName>
+        <categories>Lumon Portal</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LP Acc Logout</shortDescription>
+        <value>Log out</value>
+    </labels>
+    <labels>
+        <fullName>LP_Acc_Maintenance_Tips</fullName>
+        <categories>Lumon Portal</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LP Acc Maintenance Tips</shortDescription>
+        <value>Use and maintenance tips</value>
+    </labels>
+    <labels>
+        <fullName>LP_Acc_Marketing_Disclaimer_1</fullName>
+        <categories>Lumon Portal</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LP Acc Marketing Disclaimer 1</shortDescription>
+        <value>By accepting the marketing permission, you will see our advertisements elsewhere on the web, from which you will receive information about current events about Lumon&apos;s products and benefits. When you give us marketing permission, you will receive information about the use and maintenance of glazing and tips aimed at you, for example:</value>
+    </labels>
+    <labels>
+        <fullName>LP_Acc_Marketing_Disclaimer_2</fullName>
+        <categories>Lumon Portal</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LP Acc Marketing Disclaimer 2</shortDescription>
+        <value>If you choose not to receive any marketing emails from us we will only send you  news and information about your orders. You cannot unsubscribe from these emails.</value>
+    </labels>
+    <labels>
+        <fullName>LP_Acc_Marketing_permissions</fullName>
+        <categories>Lumon Portal</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LP Acc Marketing permissions</shortDescription>
+        <value>Marketing permissions</value>
+    </labels>
+    <labels>
+        <fullName>LP_Acc_My_Details</fullName>
+        <categories>Lumon Portal</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LP Acc My Details</shortDescription>
+        <value>My Details</value>
+    </labels>
+    <labels>
+        <fullName>LP_Acc_New_Product_Services</fullName>
+        <categories>Lumon Portal</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LP Acc New Product Services</shortDescription>
+        <value>New products and services</value>
+    </labels>
+    <labels>
+        <fullName>LP_Acc_No</fullName>
+        <categories>Lumon Portal</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LP Acc No</shortDescription>
+        <value>No</value>
+    </labels>
+    <labels>
+        <fullName>LP_Acc_No_update_Msg</fullName>
+        <categories>Lumon Portal</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LP Acc No update Msg</shortDescription>
+        <value>Please update at least one marketing permission and try again.</value>
+    </labels>
+    <labels>
+        <fullName>LP_Acc_No_update_Title</fullName>
+        <categories>Lumon Portal</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LP Acc No update Title</shortDescription>
+        <value>Nothing to update!</value>
+    </labels>
+    <labels>
+        <fullName>LP_Acc_Password</fullName>
+        <categories>Lumon Portal</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LP Acc Password</shortDescription>
+        <value>Password</value>
+    </labels>
+    <labels>
+        <fullName>LP_Acc_Password_Updated_Msg</fullName>
+        <categories>Lumon Portal</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LP Acc Password Updated Msg</shortDescription>
+        <value>Your Password was successfully updated!</value>
+    </labels>
+    <labels>
+        <fullName>LP_Acc_Phone</fullName>
+        <categories>Lumon Portal</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LP Acc Phone</shortDescription>
+        <value>Phone</value>
+    </labels>
+    <labels>
+        <fullName>LP_Acc_Privacy_1</fullName>
+        <categories>Lumon Portal</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LP Acc Privacy 1</shortDescription>
+        <value>See our</value>
+    </labels>
+    <labels>
+        <fullName>LP_Acc_Privacy_2</fullName>
+        <categories>Lumon Portal</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LP Acc Privacy 2</shortDescription>
+        <value>for more information on personal data processing at Lumon</value>
+    </labels>
+    <labels>
+        <fullName>LP_Acc_Privacy_Policy</fullName>
+        <categories>Lumon Portal</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LP Acc Privacy Policy</shortDescription>
+        <value>privacy policy</value>
+    </labels>
+    <labels>
+        <fullName>LP_Acc_Privacy_Policy_Url</fullName>
+        <categories>Lumon Portal</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LP Acc Privacy Policy Url</shortDescription>
+        <value>#</value>
+    </labels>
+    <labels>
+        <fullName>LP_Acc_Save_Btn</fullName>
+        <categories>Lumon Portal</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LP Acc Save Btn</shortDescription>
+        <value>Save</value>
+    </labels>
+    <labels>
+        <fullName>LP_Acc_Sms</fullName>
+        <categories>Lumon Portal</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LP Acc Sms</shortDescription>
+        <value>Sms</value>
+    </labels>
+    <labels>
+        <fullName>LP_Acc_Success_Save_Msg</fullName>
+        <categories>Lumon Portal</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LP Acc Success Save Msg</shortDescription>
+        <value>Marketing Preferences updated</value>
+    </labels>
+    <labels>
+        <fullName>LP_Acc_Success_Save_Title</fullName>
+        <categories>Lumon Portal</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LP Acc Success Save Title</shortDescription>
+        <value>Success!</value>
+    </labels>
+    <labels>
+        <fullName>LP_Acc_User_Name</fullName>
+        <categories>Lumon Portal</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LP Acc User Name</shortDescription>
+        <value>Username</value>
+    </labels>
+    <labels>
+        <fullName>LP_Acc_Yes</fullName>
+        <categories>Lumon Portal</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LP Acc Yes</shortDescription>
+        <value>Yes</value>
+    </labels>
+    <labels>
+        <fullName>LP_Active_Order_Comment</fullName>
+        <categories>Lumon Portal</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LP Active Order Comment</shortDescription>
+        <value>Comment</value>
+    </labels>
+    <labels>
+        <fullName>LP_Active_Order_Installation_Address</fullName>
+        <categories>Lumon Portal</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LP Active Order Installation Address</shortDescription>
+        <value>Installation Address</value>
+    </labels>
+    <labels>
+        <fullName>LP_Active_Order_Number</fullName>
+        <categories>Lumon Portal</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LP Active Order Number</shortDescription>
+        <value>Order no.</value>
+    </labels>
+    <labels>
+        <fullName>LP_Active_Order_Tab</fullName>
+        <categories>Lumon Portal</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LP Active Order Tab</shortDescription>
+        <value>Order</value>
+    </labels>
+    <labels>
+        <fullName>LP_Active_Order_Total_Cost</fullName>
+        <categories>Lumon Portal</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LP Active Order Total Cost</shortDescription>
+        <value>Total cost (Incl. VAT)</value>
+    </labels>
+    <labels>
+        <fullName>LP_Cancel</fullName>
+        <categories>Lumon Portal</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LP Cancel</shortDescription>
+        <value>Cancel</value>
+    </labels>
+    <labels>
+        <fullName>LP_Case_Headline</fullName>
+        <categories>Lumon Portal</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LP Case Headline</shortDescription>
+        <value>Contact Customer Support</value>
+    </labels>
+    <labels>
+        <fullName>LP_Case_Order_Number</fullName>
+        <categories>Lumon Portal</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LP Case Order Number</shortDescription>
+        <value>Order Number</value>
+    </labels>
+    <labels>
+        <fullName>LP_Case_SubHeadline</fullName>
+        <categories>Lumon Portal</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LP Case SubHeadline</shortDescription>
+        <value>Tell us how we can help.</value>
+    </labels>
+    <labels>
+        <fullName>LP_Change_My_Password</fullName>
+        <categories>Lumon Portal</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LP Change My Password</shortDescription>
+        <value>Change My Password</value>
+    </labels>
+    <labels>
+        <fullName>LP_Check_Password</fullName>
+        <categories>Lumon Portal</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LP Check Password</shortDescription>
+        <value>NOW, CHECK YOUR EMAIL</value>
+    </labels>
+    <labels>
+        <fullName>LP_Check_Password_Msg</fullName>
+        <categories>Lumon Portal</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LP Check Password Msg</shortDescription>
+        <value>Check the email account associated with your user name for instructions on resetting your password. Remember to look in your spam folder, where automated messages sometimes filter. If you still can&apos;t log in, contact your administrator.</value>
+    </labels>
+    <labels>
+        <fullName>LP_Contact_Headline</fullName>
+        <categories>Lumon Portal</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LP Contact Headline</shortDescription>
+        <value>Please contact for further inquiries</value>
+    </labels>
+    <labels>
+        <fullName>LP_Contact_Installation_Manager</fullName>
+        <categories>Lumon Portal</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LP Contact Installation Manager</shortDescription>
+        <value>Installation Manager</value>
+    </labels>
+    <labels>
+        <fullName>LP_Contact_Sales_Agent</fullName>
+        <categories>Lumon Portal</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LP Contact Sales Agent</shortDescription>
+        <value>Sales Agent</value>
+    </labels>
+    <labels>
+        <fullName>LP_Contract_Download</fullName>
+        <categories>Lumon Portal</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LP Contract Download</shortDescription>
+        <value>Open your contract</value>
+    </labels>
+    <labels>
+        <fullName>LP_Contract_Headline</fullName>
+        <categories>Lumon Portal</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LP Contract Headline</shortDescription>
+        <value>Contracts &amp; Signed Documents</value>
+    </labels>
+    <labels>
+        <fullName>LP_Contract_Signed_Date</fullName>
+        <categories>Lumon Portal</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LP Contract Signed Date</shortDescription>
+        <value>Contract signed date</value>
+    </labels>
+    <labels>
+        <fullName>LP_Cookie_Consent_Button_Label</fullName>
+        <categories>Lumon Portal</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LP Cookie Consent Button Label</shortDescription>
+        <value>OK</value>
+    </labels>
+    <labels>
+        <fullName>LP_Cookie_Consent_Content</fullName>
+        <categories>Lumon Portal</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LP Cookie Consent Content</shortDescription>
+        <value>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque et dictum mauris. Fusce laoreet eleifend sem eget rhoncus. Aliquam vitae risus in orci tempus ultricies in vel est. Phasellus id tellus dolor. In tempus quam vitae lacus ultricies, vel sagittis nibh cursus.</value>
+    </labels>
+    <labels>
+        <fullName>LP_Cookie_Consent_Headline</fullName>
+        <categories>Lumon Portal</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LP Cookie Consent Headline</shortDescription>
+        <value>We use essential cookies</value>
+    </labels>
+    <labels>
+        <fullName>LP_Current_Password</fullName>
+        <categories>Lumon Portal</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LP Current Password</shortDescription>
+        <value>Current Password</value>
+    </labels>
+    <labels>
+        <fullName>LP_Email_Welcome1</fullName>
+        <categories>Lumon Portal</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LP_Email_Welcome1a</shortDescription>
+        <value>Thank you</value>
+    </labels>
+    <labels>
+        <fullName>LP_Email_Welcome1b</fullName>
+        <categories>Lumon Portal</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LP_Email_Welcome1b</shortDescription>
+        <value>for your order and for choosing Lumon. You are just about to get More room for life!</value>
+    </labels>
+    <labels>
+        <fullName>LP_Email_Welcome2</fullName>
+        <categories>Lumon Portal</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LP_Email_Welcome2</shortDescription>
+        <value>Welcome to myLumon - your personal Lumon portal.</value>
+    </labels>
+    <labels>
+        <fullName>LP_Email_Welcome3</fullName>
+        <categories>Lumon Portal</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LP_Email_Welcome3</shortDescription>
+        <value>Here you can find information about your products, the delivery, the installation and much much more.</value>
+    </labels>
+    <labels>
+        <fullName>LP_Email_Welcome4</fullName>
+        <categories>Lumon Portal</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LP_Email_Welcome4</shortDescription>
+        <value>Please sign in by clicking this link.</value>
+    </labels>
+    <labels>
+        <fullName>LP_Email_Welcome5</fullName>
+        <categories>Lumon Portal</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LP_Email_Welcome5</shortDescription>
+        <value>My Lumon Portal Sign In link</value>
+    </labels>
+    <labels>
+        <fullName>LP_Email_Welcome6</fullName>
+        <categories>Lumon Portal</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LP_Email_Welcome6</shortDescription>
+        <value>Yours sincerely</value>
+    </labels>
+    <labels>
+        <fullName>LP_Email_Welcome7</fullName>
+        <categories>Lumon Portal</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LP_Email_Welcome7</shortDescription>
+        <value>Team Lumon</value>
+    </labels>
+    <labels>
+        <fullName>LP_Email_WelcomeSub</fullName>
+        <categories>Lumon Portal</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LP_Email_WelcomeSub</shortDescription>
+        <value>Welcome To My Lumon Portal</value>
+    </labels>
+    <labels>
+        <fullName>LP_Error_Message</fullName>
+        <categories>Lumon Portal</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LP Error Message</shortDescription>
+        <value>Please try restarting your browser or contact the administrator for further assistance.</value>
+    </labels>
+    <labels>
+        <fullName>LP_Error_Title</fullName>
+        <categories>Lumon Portal</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LP Error Title</shortDescription>
+        <value>We&apos;re sorry, but some parts of the portal were not able to load properly.</value>
+    </labels>
+    <labels>
+        <fullName>LP_FAQ_Url</fullName>
+        <categories>Lumon Portal</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LP FAQ Url</shortDescription>
+        <value>https://lumon.com/int/support/faq/</value>
+    </labels>
+    <labels>
+        <fullName>LP_Footer_Company</fullName>
+        <categories>Lumon Portal</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LP Footer Company</shortDescription>
+        <value>Company</value>
+    </labels>
+    <labels>
+        <fullName>LP_Footer_Follow_Us</fullName>
+        <categories>Lumon Portal</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LP Footer Follow Us</shortDescription>
+        <value>Follow Us</value>
+    </labels>
+    <labels>
+        <fullName>LP_Footer_Lumon_Group</fullName>
+        <categories>Lumon Portal</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LP Footer Lumon Group</shortDescription>
+        <value>Lumon Group</value>
+    </labels>
+    <labels>
+        <fullName>LP_Footer_Residential</fullName>
+        <categories>Lumon Portal</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LP Footer Residential</shortDescription>
+        <value>Residential</value>
+    </labels>
+    <labels>
+        <fullName>LP_Installation_Comment</fullName>
+        <categories>Lumon Portal</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LP Installation Comment</shortDescription>
+        <value>Comment</value>
+    </labels>
+    <labels>
+        <fullName>LP_Installation_Headline</fullName>
+        <categories>Lumon Portal</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LP Installation Headline</shortDescription>
+        <value>Upcoming Installation</value>
+    </labels>
+    <labels>
+        <fullName>LP_Installation_Preparation</fullName>
+        <categories>Lumon Portal</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LP Installation Preparation</shortDescription>
+        <value>Preparations before the installation</value>
+    </labels>
+    <labels>
+        <fullName>LP_Installation_Start</fullName>
+        <categories>Lumon Portal</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LP Installation Start</shortDescription>
+        <value>Installation start</value>
+    </labels>
+    <labels>
+        <fullName>LP_Login_Banner_Text</fullName>
+        <categories>Lumon Portal</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LP Login Banner Text</shortDescription>
+        <value>Welcome to MyLumon - Your Lumon Portal</value>
+    </labels>
+    <labels>
+        <fullName>LP_Login_Contact_Support</fullName>
+        <categories>Lumon Portal</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LP Login Contact Support</shortDescription>
+        <value>Contact our customer service</value>
+    </labels>
+    <labels>
+        <fullName>LP_Login_Customer_Service_Url</fullName>
+        <categories>Lumon Portal</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LP Login Customer Service Url</shortDescription>
+        <value>#</value>
+    </labels>
+    <labels>
+        <fullName>LP_Login_Problem_Msg</fullName>
+        <categories>Lumon Portal</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LP Login Problem Msg</shortDescription>
+        <value>Problems logging in?</value>
+    </labels>
+    <labels>
+        <fullName>LP_Login_Website_Label</fullName>
+        <categories>Lumon Portal</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LP_Login_Website_Label</shortDescription>
+        <value>Back to website</value>
+    </labels>
+    <labels>
+        <fullName>LP_Login_Website_Url</fullName>
+        <categories>Lumon Portal</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LP_Login_Website_Url</shortDescription>
+        <value>https://lumon.com/</value>
+    </labels>
+    <labels>
+        <fullName>LP_Login_Welcome_Msg</fullName>
+        <categories>Lumon Portal</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LP Login Welcome Msg</shortDescription>
+        <value>Please use your login credentials below to start using the portal.</value>
+    </labels>
+    <labels>
+        <fullName>LP_My_Account</fullName>
+        <categories>Lumon Portal</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LP My Account</shortDescription>
+        <value>My Account</value>
+    </labels>
+    <labels>
+        <fullName>LP_My_Cases_No_Cases_Found</fullName>
+        <categories>Lumon Portal</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LP My Cases No Cases Found</shortDescription>
+        <value>No cases found...</value>
+    </labels>
+    <labels>
+        <fullName>LP_My_Orders_Headline</fullName>
+        <categories>Lumon Portal</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LP My Orders Headline</shortDescription>
+        <value>My Orders</value>
+    </labels>
+    <labels>
+        <fullName>LP_New_Password</fullName>
+        <categories>Lumon Portal</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LP New Password</shortDescription>
+        <value>New Password</value>
+    </labels>
+    <labels>
+        <fullName>LP_Ongoing_Shipments_Headline</fullName>
+        <categories>Lumon Portal</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LP Ongoing Shipments Headline</shortDescription>
+        <value>Ongoing shipments</value>
+    </labels>
+    <labels>
+        <fullName>LP_Order_Detail_Install_Address</fullName>
+        <categories>Lumon Portal</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LP Order Detail Install Address</shortDescription>
+        <value>Installation address</value>
+    </labels>
+    <labels>
+        <fullName>LP_Order_Detail_Install_Date</fullName>
+        <categories>Lumon Portal</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LP Order Detail Install Date</shortDescription>
+        <value>Installation date</value>
+    </labels>
+    <labels>
+        <fullName>LP_Order_Detail_Product</fullName>
+        <categories>Lumon Portal</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LP Order Detail Product</shortDescription>
+        <value>Product</value>
+    </labels>
+    <labels>
+        <fullName>LP_Order_Detail_Product_Details</fullName>
+        <categories>Lumon Portal</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LP Order Detail Product Details</shortDescription>
+        <value>Product details</value>
+    </labels>
+    <labels>
+        <fullName>LP_Order_Detail_Product_Name</fullName>
+        <categories>Lumon Portal</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LP Order Detail Product Name</shortDescription>
+        <value>Product name</value>
+    </labels>
+    <labels>
+        <fullName>LP_Order_Detail_Total_Cost</fullName>
+        <categories>Lumon Portal</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LP Order Detail Total Cost</shortDescription>
+        <value>Total cost (Incl. VAT)</value>
+    </labels>
+    <labels>
+        <fullName>LP_Order_Detail_Warranty_End</fullName>
+        <categories>Lumon Portal</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LP Order Detail Warranty End</shortDescription>
+        <value>Warranty end</value>
+    </labels>
+    <labels>
+        <fullName>LP_Order_Detail_Warranty_Start</fullName>
+        <categories>Lumon Portal</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LP Order Detail Warranty Start</shortDescription>
+        <value>Warranty start</value>
+    </labels>
+    <labels>
+        <fullName>LP_Order_Details</fullName>
+        <categories>Lumon Portal</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LP Page Title Order Details</shortDescription>
+        <value>Order Details</value>
+    </labels>
+    <labels>
+        <fullName>LP_Order_History_Cost</fullName>
+        <categories>Lumon Portal</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LP Order History Cost</shortDescription>
+        <value>Total Cost</value>
+    </labels>
+    <labels>
+        <fullName>LP_Order_History_Install_Address</fullName>
+        <categories>Lumon Portal</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LP Order History Install Address</shortDescription>
+        <value>Installation Address</value>
+    </labels>
+    <labels>
+        <fullName>LP_Order_History_Install_Date</fullName>
+        <categories>Lumon Portal</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LP Order History Install Date</shortDescription>
+        <value>Installation Date</value>
+    </labels>
+    <labels>
+        <fullName>LP_Order_History_Order_No</fullName>
+        <categories>Lumon Portal</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LP Order History Order No</shortDescription>
+        <value>Order No.</value>
+    </labels>
+    <labels>
+        <fullName>LP_Order_Path_Est_Delivery</fullName>
+        <categories>Lumon Portal</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LP Order Path Est Delivery</shortDescription>
+        <value>Delivery</value>
+    </labels>
+    <labels>
+        <fullName>LP_Order_Path_Estimated</fullName>
+        <categories>Lumon Portal</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LP Order Path Estimated</shortDescription>
+        <value>Est.</value>
+    </labels>
+    <labels>
+        <fullName>LP_Order_Path_Installation_Start</fullName>
+        <categories>Lumon Portal</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LP Order Path Installation Start</shortDescription>
+        <value>Installation Start</value>
+    </labels>
+    <labels>
+        <fullName>LP_Order_Path_Order_Placed</fullName>
+        <categories>Lumon Portal</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LP Order Path Order Placed</shortDescription>
+        <value>Order Placed</value>
+    </labels>
+    <labels>
+        <fullName>LP_Page_Sub_Title</fullName>
+        <categories>Lumon Portal</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LP Page Sub Title</shortDescription>
+        <value>All you need to know about products and more</value>
+    </labels>
+    <labels>
+        <fullName>LP_Page_Sub_Title_Home</fullName>
+        <categories>Lumon Portal</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LP Page Sub Title Home</shortDescription>
+        <value>Welcome to MyLumon</value>
+    </labels>
+    <labels>
+        <fullName>LP_Page_Title_Home</fullName>
+        <categories>Lumon Portal</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LP Page Title Home</shortDescription>
+        <value>Your personal Lumon portal</value>
+    </labels>
+    <labels>
+        <fullName>LP_Page_Title_My_Cases</fullName>
+        <categories>Lumon Portal</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LP Page Title My Cases</shortDescription>
+        <value>My Cases</value>
+    </labels>
+    <labels>
+        <fullName>LP_Page_Title_My_Orders</fullName>
+        <categories>Lumon Portal</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LP Page Title My Orders</shortDescription>
+        <value>My Orders</value>
+    </labels>
+    <labels>
+        <fullName>LP_Page_Title_Ongoing_Shipments</fullName>
+        <categories>Lumon Portal</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LP Page Title Ongoing Shipments</shortDescription>
+        <value>Ongoing Shipments</value>
+    </labels>
+    <labels>
+        <fullName>LP_Page_Title_Order_History</fullName>
+        <categories>Lumon Portal</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LP Page Title Order History</shortDescription>
+        <value>Order History</value>
+    </labels>
+    <labels>
+        <fullName>LP_Page_Title_Support_Center</fullName>
+        <categories>Lumon Portal</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LP Page Title Support Center</shortDescription>
+        <value>Support Center</value>
+    </labels>
+    <labels>
+        <fullName>LP_Password_Reset</fullName>
+        <categories>Lumon Portal</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LP Password Reset</shortDescription>
+        <value>Password Reset</value>
+    </labels>
+    <labels>
+        <fullName>LP_Password_Reset_Msg</fullName>
+        <categories>Lumon Portal</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LP Password Reset Msg</shortDescription>
+        <value>To reset your password, we’ll need your email address. We’ll send password reset instructions to the email address associated with your account.</value>
+    </labels>
+    <labels>
+        <fullName>LP_Password_Rule_1</fullName>
+        <categories>Lumon Portal</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LP Password Rule 1</shortDescription>
+        <value>8 characters</value>
+    </labels>
+    <labels>
+        <fullName>LP_Password_Rule_2</fullName>
+        <categories>Lumon Portal</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LP Password Rule 2</shortDescription>
+        <value>1 letter</value>
+    </labels>
+    <labels>
+        <fullName>LP_Password_Rule_3</fullName>
+        <categories>Lumon Portal</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LP Password Rule 3</shortDescription>
+        <value>1 number</value>
+    </labels>
+    <labels>
+        <fullName>LP_Password_Rules</fullName>
+        <categories>Lumon Portal</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LP Password Rules</shortDescription>
+        <value>You must adhere to the following password rules:</value>
+    </labels>
+    <labels>
+        <fullName>LP_Pswd_Doesnt_Match</fullName>
+        <categories>Lumon Portal</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LP_Pswd_Doesnt_Match</shortDescription>
+        <value>Password doesn&apos;t match.</value>
+    </labels>
+    <labels>
+        <fullName>LP_Save</fullName>
+        <categories>Lumon Portal</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LP Save</shortDescription>
+        <value>Save</value>
+    </labels>
+    <labels>
+        <fullName>LP_Tile_Documentation_Text</fullName>
+        <categories>Lumon Portal</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LP Tile Documentation Text</shortDescription>
+        <value>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Molestie id malesuada eu orci.</value>
+    </labels>
+    <labels>
+        <fullName>LP_Tile_Documentation_Title</fullName>
+        <categories>Lumon Portal</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LP Tile Documentation Title</shortDescription>
+        <value>Documentation</value>
+    </labels>
+    <labels>
+        <fullName>LP_Tile_FAQ_Text</fullName>
+        <categories>Lumon Portal</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LP Tile FAQ Text</shortDescription>
+        <value>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Molestie id malesuada eu orci.</value>
+    </labels>
+    <labels>
+        <fullName>LP_Tile_FAQ_Title</fullName>
+        <categories>Lumon Portal</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LP Tile FAQ Title</shortDescription>
+        <value>FAQ</value>
+    </labels>
+    <labels>
+        <fullName>LP_Tile_Product_Text</fullName>
+        <categories>Lumon Portal</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LP Tile Product Text</shortDescription>
+        <value>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Molestie id malesuada eu orci.</value>
+    </labels>
+    <labels>
+        <fullName>LP_Tile_Product_Title</fullName>
+        <categories>Lumon Portal</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LP Tile Product Title</shortDescription>
+        <value>Product Details</value>
+    </labels>
+    <labels>
+        <fullName>LP_Tile_View_Cases_Text</fullName>
+        <categories>Lumon Portal</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LP Tile View Cases Text</shortDescription>
+        <value>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Molestie id malesuada eu orci.</value>
+    </labels>
+    <labels>
+        <fullName>LP_Tile_View_Cases_Title</fullName>
+        <categories>Lumon Portal</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LP Tile View Cases Title</shortDescription>
+        <value>View my cases</value>
+    </labels>
+    <labels>
+        <fullName>LP_Verify_New_Password</fullName>
+        <categories>Lumon Portal</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LP Verify New Password</shortDescription>
+        <value>Verify New Password</value>
+    </labels>
+    <labels>
+        <fullName>Summary_VAT_X</fullName>
+        <categories>Pricing</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Summary VAT X%</shortDescription>
+        <value>Summary, VAT{0}%, {1}</value>
+    </labels>
+</CustomLabels>

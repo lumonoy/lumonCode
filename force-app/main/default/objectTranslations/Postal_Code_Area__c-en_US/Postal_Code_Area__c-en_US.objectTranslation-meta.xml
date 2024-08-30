@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Postal Code Area</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Postal Code Areas</value>
+    </caseValues>
+    <layouts>
+        <layout>Postal Code Area Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Location Attributes --></label>
+            <section>Location Attributes</section>
+        </sections>
+        <sections>
+            <label><!-- Sales Area Attributes --></label>
+            <section>Sales Area Attributes</section>
+        </sections>
+        <sections>
+            <label><!-- Sales Area Defaults --></label>
+            <section>Sales Area Defaults</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

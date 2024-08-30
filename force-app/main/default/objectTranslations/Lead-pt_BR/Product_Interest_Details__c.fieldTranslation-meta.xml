@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Please fill in more Product Interest Details. --></help>
+    <label><!-- Product Interest Details --></label>
+    <name>Product_Interest_Details__c</name>
+</CustomFieldTranslation>

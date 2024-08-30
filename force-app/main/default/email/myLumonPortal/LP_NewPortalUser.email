@@ -1,0 +1,18 @@
+<messaging:emailTemplate subject="Welcome To My Lumon Portal" recipientType="User" relatedToType="Network">
+<messaging:HTMLEmailBody >
+Thank you {!recipient.FirstName}, for your order and for choosing Lumon. You are just about to get More room for life!
+<br> </br><br> </br>
+<br> </br><br> </br>
+Welcome to myLumon - your personal Lumon portal.
+<br> </br>
+Here you can find information about your products, the delivery, the installation and much much more.
+<br> </br><br> </br>
+<br> </br><br> </br>
+Please sign in by clicking this link.<br> </br>
+<a href="{!$Network.NetworkUrlForUserEmails}">My Lumon Portal Sign In link</a>
+<br> </br><br> </br>
+<br> </br><br> </br>
+Yours sincerely
+<br> </br>
+Team Lumon</messaging:HTMLEmailBody>
+</messaging:emailTemplate>

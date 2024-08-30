@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Field to determine what document must be shown on contract (PDF DocConfig value) --></help>
+    <label><!-- PDFButler DocConfig Displayed --></label>
+    <name>PDFButler_DocConfig_Displayed__c</name>
+</CustomFieldTranslation>

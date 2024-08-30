@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Event Type --></label>
+    <name>Event_Type__c</name>
+    <picklistValues>
+        <masterLabel>1st sales visit</masterLabel>
+        <translation><!-- 1st sales visit --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>2nd measurement visit</masterLabel>
+        <translation><!-- 2nd measurement visit --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Direct calling</masterLabel>
+        <translation><!-- Direct calling --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Door hanger/flyer</masterLabel>
+        <translation><!-- Door hanger/flyer --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Door knocking</masterLabel>
+        <translation><!-- Door knocking --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dropping off flyers</masterLabel>
+        <translation><!-- Dropping off flyers --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Online meeting</masterLabel>
+        <translation><!-- Online meeting --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Onsite meeting</masterLabel>
+        <translation><!-- Onsite meeting --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Phone request</masterLabel>
+        <translation><!-- Phone request --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Referral</masterLabel>
+        <translation><!-- Referral --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Showroom visit</masterLabel>
+        <translation><!-- Showroom visit --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Shows</masterLabel>
+        <translation><!-- Shows --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Stand/Presentation/Trailer event</masterLabel>
+        <translation><!-- Stand/Presentation/Trailer event --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

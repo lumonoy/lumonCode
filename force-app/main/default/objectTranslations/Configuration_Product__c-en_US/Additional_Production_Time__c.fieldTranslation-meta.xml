@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Additional Time required by the Factory to finish Production in Calendar Days --></help>
+    <label><!-- Additional Production Time --></label>
+    <name>Additional_Production_Time__c</name>
+</CustomFieldTranslation>

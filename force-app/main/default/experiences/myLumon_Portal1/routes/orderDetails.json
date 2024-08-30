@@ -1,0 +1,12 @@
+{
+  "activeViewId" : "37cf8576-23e0-401a-9825-2a457bc87e0d",
+  "appPageId" : "fc5a03ce-c6e8-4a9f-a04f-7fcfab044561",
+  "configurationTags" : [ ],
+  "devName" : "Order_Details__c",
+  "id" : "b3f69f88-68d9-4f4b-97d0-d941b85df291",
+  "label" : "Order Details",
+  "pageAccess" : "RequiresLogin",
+  "routeType" : "custom-order-detail",
+  "type" : "route",
+  "urlPrefix" : "order-details"
+}

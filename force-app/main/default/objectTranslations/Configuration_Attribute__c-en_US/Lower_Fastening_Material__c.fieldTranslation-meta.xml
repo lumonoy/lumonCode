@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- &quot;lower_fastening_material&quot; in the Visual Output JSON --></help>
+    <label><!-- Lower Fastening Material --></label>
+    <name>Lower_Fastening_Material__c</name>
+</CustomFieldTranslation>

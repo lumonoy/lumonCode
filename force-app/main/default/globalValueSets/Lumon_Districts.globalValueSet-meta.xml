@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>FI_South</fullName>
+        <default>false</default>
+        <label>South Finland</label>
+    </customValue>
+    <customValue>
+        <fullName>FI_North</fullName>
+        <default>false</default>
+        <label>North Finland</label>
+    </customValue>
+    <customValue>
+        <fullName>FI_West</fullName>
+        <default>false</default>
+        <label>West Finland</label>
+    </customValue>
+    <customValue>
+        <fullName>FI_East</fullName>
+        <default>false</default>
+        <label>East Finland</label>
+    </customValue>
+    <customValue>
+        <fullName>Finland</fullName>
+        <default>false</default>
+        <label>Finland</label>
+    </customValue>
+    <customValue>
+        <fullName>ES_Madrid</fullName>
+        <default>false</default>
+        <label>Madrid</label>
+    </customValue>
+    <customValue>
+        <fullName>ES_Andalucia</fullName>
+        <default>false</default>
+        <label>Andalucía</label>
+    </customValue>
+    <customValue>
+        <fullName>ES_Cataluna</fullName>
+        <default>false</default>
+        <label>Cataluña</label>
+    </customValue>
+    <customValue>
+        <fullName>ES_Aragon</fullName>
+        <default>false</default>
+        <label>Aragon</label>
+    </customValue>
+    <customValue>
+        <fullName>ES_Levante</fullName>
+        <default>false</default>
+        <label>Levante</label>
+    </customValue>
+    <customValue>
+        <fullName>ES_Mallorca</fullName>
+        <default>false</default>
+        <label>Mallorca</label>
+    </customValue>
+    <customValue>
+        <fullName>ES_Canarias</fullName>
+        <default>false</default>
+        <label>Canarias</label>
+    </customValue>
+    <customValue>
+        <fullName>ES_Malaga</fullName>
+        <default>false</default>
+        <label>Malaga</label>
+    </customValue>
+    <customValue>
+        <fullName>406 TEO</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>406 TEO</label>
+    </customValue>
+    <customValue>
+        <fullName>Itä-Suomi</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Itä-Suomi</label>
+    </customValue>
+    <customValue>
+        <fullName>Länsi-Suomi</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Länsi-Suomi</label>
+    </customValue>
+    <customValue>
+        <fullName>Pohjois-Suomi</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Pohjois-Suomi</label>
+    </customValue>
+    <customValue>
+        <fullName>Etelä-Suomi</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Etelä-Suomi</label>
+    </customValue>
+    <customValue>
+        <fullName>JM Suomi</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>JM Suomi</label>
+    </customValue>
+    <customValue>
+        <fullName>Lumon Huolto</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Lumon Huolto</label>
+    </customValue>
+    <masterLabel>Lumon Districts</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

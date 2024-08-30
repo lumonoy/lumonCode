@@ -1,0 +1,13 @@
+<!-- 
+ This component can be used in flows to send a Toast Message with parameters
+ param 1: Title
+ param 2: Message 
+ param 3: Type (info, success, error, warning)
+ Created by Rami Talme 8.5.2019
+-->
+<aura:component implements="force:lightningQuickAction,lightning:availableForFlowActions">
+   <aura:attribute name="Title" type="String" />
+   <aura:attribute name="Message" type="String" />
+   <aura:attribute name="Type" type="String" />
+    
+</aura:component>

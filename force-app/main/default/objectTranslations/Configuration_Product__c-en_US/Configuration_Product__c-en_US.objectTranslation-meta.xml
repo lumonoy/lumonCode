@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Configuration Product</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Configuration Products</value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- Configuration Lookup --></label>
+        <name>Configuration_Lookup</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Configuration Table --></label>
+        <name>Configuration_Table</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Data Table Fields --></label>
+        <name>Data_Table_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Product Fields --></label>
+        <name>Product_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Product Lookup --></label>
+        <name>Product_Lookup</name>
+    </fieldSets>
+    <layouts>
+        <layout>Configuration Product Layout</layout>
+        <sections>
+            <label><!-- Configuration --></label>
+            <section>Configuration</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Delivery --></label>
+            <section>Delivery</section>
+        </sections>
+        <sections>
+            <label><!-- Installation --></label>
+            <section>Installation</section>
+        </sections>
+        <sections>
+            <label><!-- Pricing --></label>
+            <section>Pricing</section>
+        </sections>
+        <sections>
+            <label><!-- Product --></label>
+            <section>Product</section>
+        </sections>
+        <sections>
+            <label><!-- Production --></label>
+            <section>Production</section>
+        </sections>
+        <sections>
+            <label><!-- Validation --></label>
+            <section>Validation</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Edit Installer Message --></label>
+        <name>Edit_Installer_Message</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Edit Plan Test --></label>
+        <name>Edit_Plan_Test</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Update Message --></label>
+        <name>Update_Message</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Update Product --></label>
+        <name>Update_Product</name>
+    </quickActions>
+    <startsWith>Consonant</startsWith>
+    <webLinks>
+        <label><!-- Edit_Plan --></label>
+        <name>Edit_Plan</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Edit_Plan_Action --></label>
+        <name>Edit_Plan_Action</name>
+    </webLinks>
+</CustomObjectTranslation>

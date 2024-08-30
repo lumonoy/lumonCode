@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Terrain Class 0</fullName>
+        <default>false</default>
+        <label>Terrain Class 0</label>
+    </customValue>
+    <customValue>
+        <fullName>Terrain Class I</fullName>
+        <default>false</default>
+        <label>Terrain Class I</label>
+    </customValue>
+    <customValue>
+        <fullName>Terrain Class II</fullName>
+        <default>false</default>
+        <label>Terrain Class II</label>
+    </customValue>
+    <customValue>
+        <fullName>Terrain Class III</fullName>
+        <default>false</default>
+        <label>Terrain Class III</label>
+    </customValue>
+    <customValue>
+        <fullName>Terrain Class IV</fullName>
+        <default>false</default>
+        <label>Terrain Class IV</label>
+    </customValue>
+    <customValue>
+        <fullName>Terrain Class V</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Terrain Class V</label>
+    </customValue>
+    <masterLabel>Lumon Terrain Types</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

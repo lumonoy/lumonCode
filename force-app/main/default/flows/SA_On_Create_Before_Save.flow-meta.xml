@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>55.0</apiVersion>
+    <decisions>
+        <name>Work_type_is_Warranty_or_Reclamation</name>
+        <label>Work type is Warranty or Reclamation?</label>
+        <locationX>182</locationX>
+        <locationY>503</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Work_Type_is_one_of_these</name>
+            <conditionLogic>or</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.LUM_Parent_Work_Order__r.WorkType.Name</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Maintenance and Accessories</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.LUM_Parent_Work_Order__r.WorkType.Name</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Reclamation</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Flag_SA_for_Capacity_Reservation_Shift</targetReference>
+            </connector>
+            <label>Work Type is one of these</label>
+        </rules>
+    </decisions>
+    <description>12.12.2022: Changed the criteria to consider the work; now triggers on &quot;Reclamation&quot; and &quot;Maintenance and Accessories&quot;.
+02.12.2023: Save Active Version as R2</description>
+    <environments>Default</environments>
+    <interviewLabel>SA - On Create Before Save {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>SA - On Create Before Save R2</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordLookups>
+        <name>Get_Parent_Record</name>
+        <label>Get Parent Work Order</label>
+        <locationX>182</locationX>
+        <locationY>287</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Update_Parent_Work_Order_Lookup</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.ParentRecordId</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>WorkOrder</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordUpdates>
+        <name>Flag_SA_for_Capacity_Reservation_Shift</name>
+        <label>Flag SA for Capacity Reservation Shift</label>
+        <locationX>50</locationX>
+        <locationY>611</locationY>
+        <inputAssignments>
+            <field>LUM_Capacity_Reservation_Shift__c</field>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Update_Parent_Work_Order_Lookup</name>
+        <label>Update Parent Work Order Lookup</label>
+        <locationX>182</locationX>
+        <locationY>395</locationY>
+        <connector>
+            <targetReference>Work_type_is_Warranty_or_Reclamation</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>LUM_Parent_Work_Order__c</field>
+            <value>
+                <elementReference>Get_Parent_Record.Id</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <start>
+        <locationX>56</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Get_Parent_Record</targetReference>
+        </connector>
+        <object>ServiceAppointment</object>
+        <recordTriggerType>Create</recordTriggerType>
+        <triggerType>RecordBeforeSave</triggerType>
+    </start>
+    <status>Active</status>
+</Flow>

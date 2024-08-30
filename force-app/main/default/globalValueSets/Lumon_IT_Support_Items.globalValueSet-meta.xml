@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Autopilot</fullName>
+        <default>false</default>
+        <label>Autopilot</label>
+    </customValue>
+    <customValue>
+        <fullName>General problems</fullName>
+        <default>false</default>
+        <label>General problems</label>
+    </customValue>
+    <customValue>
+        <fullName>hardware problems</fullName>
+        <default>false</default>
+        <label>Hardware problems</label>
+    </customValue>
+    <customValue>
+        <fullName>Network</fullName>
+        <default>false</default>
+        <label>Network</label>
+    </customValue>
+    <customValue>
+        <fullName>Phones</fullName>
+        <default>false</default>
+        <label>Phones</label>
+    </customValue>
+    <customValue>
+        <fullName>Printer</fullName>
+        <default>false</default>
+        <label>Printer</label>
+    </customValue>
+    <customValue>
+        <fullName>Remote Desktop</fullName>
+        <default>false</default>
+        <label>Remote Desktop</label>
+    </customValue>
+    <customValue>
+        <fullName>Unlock devices</fullName>
+        <default>false</default>
+        <label>Unlock devices</label>
+    </customValue>
+    <customValue>
+        <fullName>Test Support Item 3</fullName>
+        <default>false</default>
+        <label>Test Support Item 3</label>
+    </customValue>
+    <customValue>
+        <fullName>Salestori</fullName>
+        <default>false</default>
+        <label>Salestori</label>
+    </customValue>
+    <customValue>
+        <fullName>Maintori</fullName>
+        <default>false</default>
+        <label>Maintori</label>
+    </customValue>
+    <customValue>
+        <fullName>Reptori</fullName>
+        <default>false</default>
+        <label>Reptori &amp; PowerBI</label>
+    </customValue>
+    <customValue>
+        <fullName>Plantori</fullName>
+        <default>false</default>
+        <label>Plantori</label>
+    </customValue>
+    <customValue>
+        <fullName>AX</fullName>
+        <default>false</default>
+        <label>AX</label>
+    </customValue>
+    <customValue>
+        <fullName>Mepco</fullName>
+        <default>false</default>
+        <label>Mepco</label>
+    </customValue>
+    <customValue>
+        <fullName>Email</fullName>
+        <default>false</default>
+        <label>Email</label>
+    </customValue>
+    <customValue>
+        <fullName>Basware</fullName>
+        <default>false</default>
+        <label>Basware</label>
+    </customValue>
+    <customValue>
+        <fullName>Intori</fullName>
+        <default>false</default>
+        <label>Intori</label>
+    </customValue>
+    <customValue>
+        <fullName>Precut</fullName>
+        <default>false</default>
+        <label>Precut</label>
+    </customValue>
+    <customValue>
+        <fullName>Esmi</fullName>
+        <default>false</default>
+        <label>Esmi &amp; Security Expert</label>
+    </customValue>
+    <customValue>
+        <fullName>Mfiles</fullName>
+        <default>false</default>
+        <label>Mfiles</label>
+    </customValue>
+    <customValue>
+        <fullName>OneNote</fullName>
+        <default>false</default>
+        <label>OneNote</label>
+    </customValue>
+    <customValue>
+        <fullName>Others</fullName>
+        <default>false</default>
+        <label>Others</label>
+    </customValue>
+    <customValue>
+        <fullName>Wmware</fullName>
+        <default>false</default>
+        <label>Wmware</label>
+    </customValue>
+    <customValue>
+        <fullName>Frends</fullName>
+        <default>false</default>
+        <label>Frends</label>
+    </customValue>
+    <customValue>
+        <fullName>Elisa</fullName>
+        <default>false</default>
+        <label>Elisa</label>
+    </customValue>
+    <customValue>
+        <fullName>Veeam</fullName>
+        <default>false</default>
+        <label>Veeam</label>
+    </customValue>
+    <customValue>
+        <fullName>PRTG</fullName>
+        <default>false</default>
+        <label>PRTG</label>
+    </customValue>
+    <customValue>
+        <fullName>Teams</fullName>
+        <default>false</default>
+        <label>Teams</label>
+    </customValue>
+    <customValue>
+        <fullName>Sovelia</fullName>
+        <default>false</default>
+        <label>Sovelia</label>
+    </customValue>
+    <customValue>
+        <fullName>Solidworks</fullName>
+        <default>false</default>
+        <label>Solidworks</label>
+    </customValue>
+    <customValue>
+        <fullName>Palette</fullName>
+        <default>false</default>
+        <label>Palette</label>
+    </customValue>
+    <customValue>
+        <fullName>Office</fullName>
+        <default>false</default>
+        <label>Office</label>
+    </customValue>
+    <customValue>
+        <fullName>Install apps</fullName>
+        <default>false</default>
+        <label>Install apps</label>
+    </customValue>
+    <customValue>
+        <fullName>Softphone</fullName>
+        <default>false</default>
+        <label>Softphone</label>
+    </customValue>
+    <customValue>
+        <fullName>Freshdesk</fullName>
+        <default>false</default>
+        <label>Freshdesk</label>
+    </customValue>
+    <customValue>
+        <fullName>Unifaun</fullName>
+        <default>false</default>
+        <label>Unifaun</label>
+    </customValue>
+    <customValue>
+        <fullName>eCon</fullName>
+        <default>false</default>
+        <label>eCon</label>
+    </customValue>
+    <customValue>
+        <fullName>Pagero</fullName>
+        <default>false</default>
+        <label>Pagero</label>
+    </customValue>
+    <customValue>
+        <fullName>Brandtori</fullName>
+        <default>false</default>
+        <label>Brandtori</label>
+    </customValue>
+    <customValue>
+        <fullName>M2</fullName>
+        <default>false</default>
+        <label>M2</label>
+    </customValue>
+    <customValue>
+        <fullName>Shopify</fullName>
+        <default>false</default>
+        <label>Shopify</label>
+    </customValue>
+    <customValue>
+        <fullName>Rajobit robot</fullName>
+        <default>false</default>
+        <label>Rajobit robot</label>
+    </customValue>
+    <customValue>
+        <fullName>Salesforce</fullName>
+        <default>false</default>
+        <label>Salesforce</label>
+    </customValue>
+    <customValue>
+        <fullName>Autocad + LT</fullName>
+        <default>false</default>
+        <label>Autocad + LT</label>
+    </customValue>
+    <customValue>
+        <fullName>Doctori</fullName>
+        <default>false</default>
+        <label>Doctori</label>
+    </customValue>
+    <customValue>
+        <fullName>Syncrontech</fullName>
+        <default>false</default>
+        <label>Syncrontech</label>
+    </customValue>
+    <customValue>
+        <fullName>Teamviewer</fullName>
+        <default>false</default>
+        <label>Teamviewer</label>
+    </customValue>
+    <customValue>
+        <fullName>Q-factory</fullName>
+        <default>false</default>
+        <label>Q-factory</label>
+    </customValue>
+    <customValue>
+        <fullName>Adobe products</fullName>
+        <default>false</default>
+        <label>Adobe products</label>
+    </customValue>
+    <customValue>
+        <fullName>Lisec</fullName>
+        <default>false</default>
+        <label>Lisec</label>
+    </customValue>
+    <customValue>
+        <fullName>Accessories</fullName>
+        <default>false</default>
+        <label>Accessories</label>
+    </customValue>
+    <customValue>
+        <fullName>Computers</fullName>
+        <default>false</default>
+        <label>Computers</label>
+    </customValue>
+    <customValue>
+        <fullName>Amazon Computers</fullName>
+        <default>false</default>
+        <label>Amazon Computers</label>
+    </customValue>
+    <customValue>
+        <fullName>Amazon Phones</fullName>
+        <default>false</default>
+        <label>Amazon Phones</label>
+    </customValue>
+    <customValue>
+        <fullName>Amazon Accesories</fullName>
+        <default>false</default>
+        <label>Amazon Accesories</label>
+    </customValue>
+    <customValue>
+        <fullName>Amazon Gifts</fullName>
+        <default>false</default>
+        <label>Amazon Gifts</label>
+    </customValue>
+    <customValue>
+        <fullName>Amazon Others</fullName>
+        <default>false</default>
+        <label>Amazon Others</label>
+    </customValue>
+    <customValue>
+        <fullName>Licenses</fullName>
+        <default>false</default>
+        <label>Licenses</label>
+    </customValue>
+    <customValue>
+        <fullName>Network folder</fullName>
+        <default>false</default>
+        <label>Network folder</label>
+    </customValue>
+    <customValue>
+        <fullName>Accounts</fullName>
+        <default>false</default>
+        <label>Accounts</label>
+    </customValue>
+    <customValue>
+        <fullName>Passwords</fullName>
+        <default>false</default>
+        <label>Passwords</label>
+    </customValue>
+    <customValue>
+        <fullName>New users</fullName>
+        <default>false</default>
+        <label>New users</label>
+    </customValue>
+    <customValue>
+        <fullName>Ad rights</fullName>
+        <default>false</default>
+        <label>Ad rights</label>
+    </customValue>
+    <customValue>
+        <fullName>Disable Accounts</fullName>
+        <default>false</default>
+        <label>Disable Accounts</label>
+    </customValue>
+    <customValue>
+        <fullName>PIN/PUK</fullName>
+        <default>false</default>
+        <label>PIN/PUK</label>
+    </customValue>
+    <customValue>
+        <fullName>Mobile Data</fullName>
+        <default>false</default>
+        <label>Mobile Data</label>
+    </customValue>
+    <customValue>
+        <fullName>Tietori</fullName>
+        <default>false</default>
+        <label>Tietori</label>
+    </customValue>
+    <customValue>
+        <fullName>Call forwarding</fullName>
+        <default>false</default>
+        <label>Call forwarding</label>
+    </customValue>
+    <customValue>
+        <fullName>User docs</fullName>
+        <default>false</default>
+        <label>User docs</label>
+    </customValue>
+    <customValue>
+        <fullName>Mainos/roskaposti</fullName>
+        <default>false</default>
+        <label>Mainos/roskaposti</label>
+    </customValue>
+    <customValue>
+        <fullName>Customer info</fullName>
+        <default>false</default>
+        <label>Customer info</label>
+    </customValue>
+    <customValue>
+        <fullName>Defender</fullName>
+        <default>false</default>
+        <label>Defender</label>
+    </customValue>
+    <customValue>
+        <fullName>Uniflow</fullName>
+        <default>false</default>
+        <label>Uniflow</label>
+    </customValue>
+    <customValue>
+        <fullName>Jira</fullName>
+        <default>false</default>
+        <label>Jira</label>
+    </customValue>
+    <customValue>
+        <fullName>Not Applicable</fullName>
+        <default>false</default>
+        <label>Not Applicable</label>
+    </customValue>
+    <masterLabel>Lumon IT Support Items</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

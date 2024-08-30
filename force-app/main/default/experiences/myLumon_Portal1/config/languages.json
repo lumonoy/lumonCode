@@ -1,0 +1,15 @@
+{
+  "defaultCode" : "en_US",
+  "defaultLabel" : "English (US)",
+  "id" : "d617ceba-8f47-4e36-a975-cd1c93be1964",
+  "languages" : [ {
+    "countryCode" : "",
+    "fallbackLanguageId" : null,
+    "id" : "e816a1c6-5199-4b0b-9eea-17df84e8d871",
+    "isActive" : true,
+    "label" : "Finnish",
+    "languageCode" : "fi",
+    "type" : "language"
+  } ],
+  "type" : "languageContainer"
+}

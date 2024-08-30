@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>10%-90%</fullName>
+        <default>false</default>
+        <label>10%-90%</label>
+    </customValue>
+    <customValue>
+        <fullName>100% end payment</fullName>
+        <default>false</default>
+        <label>100% end payment</label>
+    </customValue>
+    <customValue>
+        <fullName>100% prepayment</fullName>
+        <default>true</default>
+        <label>100% prepayment</label>
+    </customValue>
+    <customValue>
+        <fullName>50%-50%</fullName>
+        <default>false</default>
+        <label>50%-50%</label>
+    </customValue>
+    <customValue>
+        <fullName>80%-20%</fullName>
+        <default>false</default>
+        <label>80%-20%</label>
+    </customValue>
+    <description>Payment Terms enabled for Lumon Consumer Companies</description>
+    <masterLabel>Lumon Consumer Payment Terms</masterLabel>
+    <sorted>true</sorted>
+</GlobalValueSet>

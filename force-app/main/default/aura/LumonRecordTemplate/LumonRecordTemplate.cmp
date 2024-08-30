@@ -1,0 +1,61 @@
+<aura:component
+    implements="lightning:recordHomeTemplate"
+    description="Custom 3 column flexible layout with header and footer."
+    access="global">
+    <aura:attribute name="header" type="Aura.Component[]" access="global" description="Header"/>
+    <aura:attribute name="subheader" type="Aura.Component[]" access="global" description="Subheader"/>
+
+    <aura:attribute name="left" type="Aura.Component[]" access="global" description="Left"/>
+    <aura:attribute name="center" type="Aura.Component[]" access="global" description="Center"/>
+    <aura:attribute name="right" type="Aura.Component[]" access="global" description="Right"/>
+    <aura:attribute name="footer" type="Aura.Component[]" access="global" description="Footer"/>
+
+    <div aura:id="container">
+        <lightning:layout>
+            <lightning:layoutItem 
+                aura:id="Header" 
+                class="slds-var-p-vertical_small"
+                size="12">
+                <div>{!v.header}</div>
+                
+            </lightning:layoutItem>
+        </lightning:layout>
+        <lightning:layout>
+            <lightning:layoutItem 
+                aura:id="Subheader" 
+                class="slds-var-p-vertical_small"
+                size="12">
+                <div>{!v.subheader}</div>
+            </lightning:layoutItem>
+        </lightning:layout>
+        <lightning:layout>
+            <lightning:layoutItem 
+                aura:id="leftColumn" 
+                class="slds-var-p-around_small"
+                size="3">
+                {!v.left}
+            </lightning:layoutItem>
+            <lightning:layoutItem
+                aura:id="centerColumn"
+                class="slds-var-p-around_small"
+                size="6"
+            >
+                {!v.center}
+            </lightning:layoutItem>
+            <lightning:layoutItem 
+                aura:id="rightColumn" 
+                class="slds-var-p-around_small"
+                size="3">
+                {!v.right}
+            </lightning:layoutItem>
+        </lightning:layout>
+        <lightning:layout>
+            <lightning:layoutItem 
+                aura:id="Footer" 
+                class="slds-var-p-vertical_small"
+                size="12">
+                <div>{!v.footer}</div>
+            </lightning:layoutItem>
+        </lightning:layout>
+    </div>
+</aura:component>

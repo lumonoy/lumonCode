@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>01</fullName>
+        <default>false</default>
+        <label>01 Guarantee</label>
+    </customValue>
+    <customValue>
+        <fullName>02</fullName>
+        <default>false</default>
+        <label>02 Sales (Organisation)</label>
+    </customValue>
+    <customValue>
+        <fullName>03</fullName>
+        <default>false</default>
+        <label>03 Installation</label>
+    </customValue>
+    <customValue>
+        <fullName>04</fullName>
+        <default>false</default>
+        <label>04 System</label>
+    </customValue>
+    <customValue>
+        <fullName>05</fullName>
+        <default>false</default>
+        <label>05 Transportation</label>
+    </customValue>
+    <customValue>
+        <fullName>06</fullName>
+        <default>false</default>
+        <label>06 Balustrade Factory</label>
+    </customValue>
+    <customValue>
+        <fullName>07</fullName>
+        <default>false</default>
+        <label>07 Prefabricated Terrace, Roof, Patio</label>
+    </customValue>
+    <customValue>
+        <fullName>08</fullName>
+        <default>false</default>
+        <label>08 Glazing Factory (L5, L6, L7)</label>
+    </customValue>
+    <customValue>
+        <fullName>09</fullName>
+        <default>false</default>
+        <label>09 Blinds</label>
+    </customValue>
+    <customValue>
+        <fullName>11</fullName>
+        <default>false</default>
+        <label>11 Additional order</label>
+    </customValue>
+    <customValue>
+        <fullName>Not Applicable</fullName>
+        <default>false</default>
+        <label>Not Applicable</label>
+    </customValue>
+    <customValue>
+        <fullName>Additional_order_11</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Additional_order_11</label>
+    </customValue>
+    <customValue>
+        <fullName>Blinds_09</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Blinds_09</label>
+    </customValue>
+    <customValue>
+        <fullName>Glazing_Factory_L5L6L7_08</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Glazing_Factory_L5L6L7_08</label>
+    </customValue>
+    <customValue>
+        <fullName>Prefabricated_Terrace_Roof_Patio_07</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Prefabricated_Terrace_Roof_Patio_07</label>
+    </customValue>
+    <customValue>
+        <fullName>Balustrade_Factory_06</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Balustrade_Factory_06</label>
+    </customValue>
+    <customValue>
+        <fullName>Transportation_05</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Transportation_05</label>
+    </customValue>
+    <customValue>
+        <fullName>System_04</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>System_04</label>
+    </customValue>
+    <customValue>
+        <fullName>Installation_03</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Installation_03</label>
+    </customValue>
+    <customValue>
+        <fullName>Sales_Organisation_02</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Sales_Organisation_02</label>
+    </customValue>
+    <customValue>
+        <fullName>Guarantee_01</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Guarantee_01</label>
+    </customValue>
+    <masterLabel>Lumon Quality Process Classes</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

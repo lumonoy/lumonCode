@@ -1,0 +1,21 @@
+<!-- LP My Cases -->
+<template>
+	<div if:true={displaySpinner} class="loading-container">
+		<lightning-spinner alternative-text="Loading" size="small"></lightning-spinner>
+	</div>
+	<div if:false={displaySpinner} style={dynamicStyle}>
+		<lightning-datatable
+			if:true={displayDataTable}
+			key-field="id"
+			class="slds-max-medium-table_stacked-horizontal"
+			data={cases}
+			columns={columns}
+			onsort={onHandleSort}
+			show-row-number-column
+			hide-checkbox-column>
+		</lightning-datatable>
+		<div if:false={displayDataTable}>
+		    {myCasesLabels.noCasesFound}
+		</div>
+	</div>
+</template>

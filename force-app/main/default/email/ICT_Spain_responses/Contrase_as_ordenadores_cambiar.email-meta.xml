@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Change password from laptop</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Lumon_Email_Letterhead</letterhead>
+    <name>Contraseñas ordenadores cambiar</name>
+    <style>freeForm</style>
+    <subject>Cambiar contraseña {!Case.Id}</subject>
+    <textOnly>Hola ,
+
+Para cambiar la contraseña hay que seguir el siguiente vídeo:
+https://lumon365.sharepoint.com/:v:/r/sites/SpainITTutoriales/Shared%20Documents/General/Video%20tutoriales/Ordenadores/Cambiar%20la%20contrase%C3%B1a.mkv?csf=1&amp;web=1&amp;e=jhdwh5&amp;nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZyIsInJlZmVycmFsQXBwUGxhdGZvcm0iOiJXZWIiLCJyZWZlcnJhbE1vZGUiOiJ2aWV3In19
+
+También se puede hacer desde el siguiente enlace:
+https://myaccount.microsoft.com/?ref=MeControl
+O desde el siguiente QR:
+
+Al finalizar el proceso es altamente recomendable arrancar la VPN.
+
+Vídeo de como arrancar la VPN:
+https://lumon365.sharepoint.com/:v:/r/sites/SpainITTutoriales/Shared%20Documents/General/Video%20tutoriales/Ordenadores/Como%20conectar%20a%20VPN.mkv?csf=1&amp;web=1&amp;e=fPqnaW
+
+
+Aprovechamos el correo para recordar que en este canal podrás encontrar vídeos sobre casi todo lo que te haga falta con respecto a IT:
+https://lumon365.sharepoint.com/sites/SpainITTutoriales/Shared%20Documents/Forms/AllItems.aspx?FolderCTID=0x012000A614300412CAEF48B976657EE8056DC4&amp;id=%2Fsites%2FSpainITTutoriales%2FShared%20Documents%2FGeneral&amp;viewid=affb4a90%2Dc00c%2D4b5c%2Da0f6%2D7d7c0449870b
+
+Un saludo</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

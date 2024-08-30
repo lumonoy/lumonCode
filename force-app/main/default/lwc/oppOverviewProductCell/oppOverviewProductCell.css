@@ -1,0 +1,36 @@
+/**
+ * Created by Filip on 17. 2. 2023.
+ */
+:host {
+    display: table-cell;
+    box-sizing: border-box;
+    padding: 5px 20px 5px 10px;
+    border-right: 1px solid #dfdfdf;
+    border-bottom: 1px solid #dfdfdf;
+    position: relative;
+}
+
+:host:last-child{
+    border-right: none;
+}
+.textbox-icon{
+    cursor: pointer;
+}
+.slds-truncate.icon-cell {
+    position: absolute;
+}
+.cell-link{
+    color: #0070d2;
+    cursor: pointer;
+}
+.edit-icon {
+    right: -11px;
+    position: absolute;
+    top: 6px;
+    opacity: 0.4;
+    transition: all .5s;
+}
+.edit-icon:hover{
+    cursor: pointer;
+    opacity: 1;
+}

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>56.0</apiVersion>
+    <description>If resource absence is less than 240 min then approval process is not needed. The absence request can be automatically approved.
+02.12.2023: Save Active Version as R2</description>
+    <environments>Default</environments>
+    <interviewLabel>Resource Absence - Auto approval {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Resource Absence - Auto Approval R2</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>FREE_FORM_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordUpdates>
+        <description>If absence request is shorted than 240 min, then approval process is not needed.</description>
+        <name>Update_approval_to_resource_absence</name>
+        <label>Update approval to resource absence</label>
+        <locationX>755</locationX>
+        <locationY>366</locationY>
+        <inputAssignments>
+            <field>FSL__Approved__c</field>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <start>
+        <locationX>628</locationX>
+        <locationY>48</locationY>
+        <connector>
+            <targetReference>Update_approval_to_resource_absence</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>FSL__Duration_In_Minutes__c</field>
+            <operator>LessThan</operator>
+            <value>
+                <numberValue>240.0</numberValue>
+            </value>
+        </filters>
+        <object>ResourceAbsence</object>
+        <recordTriggerType>Create</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+</Flow>

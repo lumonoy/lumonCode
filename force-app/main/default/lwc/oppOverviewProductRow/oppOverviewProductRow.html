@@ -1,0 +1,15 @@
+<!-- Opp Overview Product Row -->
+<template>
+	<template for:each={fields} for:item="field">
+		<c-opp-overview-product-cell
+			if:true={field.isVisible}
+			onmouseover={getCellId}
+			onmouseleave={assignNullToCellId}
+			data-id={field.id}
+			time-zone={timeZone}
+			key={field.label}
+			table-cell={field}
+			hovered-cell-id={hoveredCellId}
+		> </c-opp-overview-product-cell>
+	</template>
+</template>

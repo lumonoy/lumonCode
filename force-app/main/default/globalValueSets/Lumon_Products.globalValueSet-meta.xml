@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>ASV</fullName>
+        <default>false</default>
+        <label>Sun Screen (ASV)</label>
+    </customValue>
+    <customValue>
+        <fullName>AUKKOLASI</fullName>
+        <default>false</default>
+        <label>Glass Pane</label>
+    </customValue>
+    <customValue>
+        <fullName>AUKKOLASIL</fullName>
+        <default>false</default>
+        <label>Beads</label>
+    </customValue>
+    <customValue>
+        <fullName>CATHEDRAL</fullName>
+        <default>false</default>
+        <label>Cathedral</label>
+    </customValue>
+    <customValue>
+        <fullName>CLASSIC</fullName>
+        <default>false</default>
+        <label>Classic</label>
+    </customValue>
+    <customValue>
+        <fullName>ENSIHUOLTO</fullName>
+        <default>false</default>
+        <label>First Maintenance</label>
+    </customValue>
+    <customValue>
+        <fullName>EzeBreeze</fullName>
+        <default>false</default>
+        <label>EzeBreeze</label>
+    </customValue>
+    <customValue>
+        <fullName>HUOLTO</fullName>
+        <default>false</default>
+        <label>Service</label>
+    </customValue>
+    <customValue>
+        <fullName>HYÖNTEISM1</fullName>
+        <default>false</default>
+        <label>Mosquito Net</label>
+    </customValue>
+    <customValue>
+        <fullName>KAIDE</fullName>
+        <default>false</default>
+        <label>Railing</label>
+    </customValue>
+    <customValue>
+        <fullName>KATTOLASIT</fullName>
+        <default>false</default>
+        <label>Glass Roofs</label>
+    </customValue>
+    <customValue>
+        <fullName>KÄYTTÖTURVA</fullName>
+        <default>false</default>
+        <label>Extended Warranty</label>
+    </customValue>
+    <customValue>
+        <fullName>KEHYSLASI</fullName>
+        <default>false</default>
+        <label>Framed Glass</label>
+    </customValue>
+    <customValue>
+        <fullName>KIINTEÄSEI</fullName>
+        <default>false</default>
+        <label>Fixed Wall</label>
+    </customValue>
+    <customValue>
+        <fullName>KUNTOTARKASTUS</fullName>
+        <default>false</default>
+        <label>Inspection</label>
+    </customValue>
+    <customValue>
+        <fullName>LAMILASIT</fullName>
+        <default>false</default>
+        <label>Infill Glass Pane</label>
+    </customValue>
+    <customValue>
+        <fullName>LCE AUKKOL</fullName>
+        <default>false</default>
+        <label>LCE Glass Pane</label>
+    </customValue>
+    <customValue>
+        <fullName>LCE AUKOLA</fullName>
+        <default>false</default>
+        <label>LCE Beads</label>
+    </customValue>
+    <customValue>
+        <fullName>LCE KATTO</fullName>
+        <default>false</default>
+        <label>LCE Roof</label>
+    </customValue>
+    <customValue>
+        <fullName>LCE PELTI</fullName>
+        <default>false</default>
+        <label>LCE Flashings</label>
+    </customValue>
+    <customValue>
+        <fullName>LCE VÄLISE</fullName>
+        <default>false</default>
+        <label>LCE Privacy Screen</label>
+    </customValue>
+    <customValue>
+        <fullName>LCE VARUST</fullName>
+        <default>false</default>
+        <label>LCE Accessories</label>
+    </customValue>
+    <customValue>
+        <fullName>LFIXEDWALL</fullName>
+        <default>false</default>
+        <label>Lumon Fixed Wall</label>
+    </customValue>
+    <customValue>
+        <fullName>LG</fullName>
+        <default>false</default>
+        <label>Lumon Glazing Retractable</label>
+    </customValue>
+    <customValue>
+        <fullName>LGS</fullName>
+        <default>false</default>
+        <label>Lumon Glazing Sliding</label>
+    </customValue>
+    <customValue>
+        <fullName>LISAHIN</fullName>
+        <default>false</default>
+        <label>Extra Pricing</label>
+    </customValue>
+    <customValue>
+        <fullName>LISÄKUSTAN</fullName>
+        <default>false</default>
+        <label>Extra Costs</label>
+    </customValue>
+    <customValue>
+        <fullName>LISÄPR LCE</fullName>
+        <default>false</default>
+        <label>LCE Extra Profiles</label>
+    </customValue>
+    <customValue>
+        <fullName>LISÄPROF 1</fullName>
+        <default>false</default>
+        <label>Extra Profiles 1</label>
+    </customValue>
+    <customValue>
+        <fullName>LISÄPROF 2</fullName>
+        <default>false</default>
+        <label>Extra Profiles 2</label>
+    </customValue>
+    <customValue>
+        <fullName>LISAPROFII</fullName>
+        <default>false</default>
+        <label>Extra Profiles</label>
+    </customValue>
+    <customValue>
+        <fullName>LNP Suppli</fullName>
+        <default>false</default>
+        <label>LNP Supplies</label>
+    </customValue>
+    <customValue>
+        <fullName>LT3</fullName>
+        <default>false</default>
+        <label>Lumon 7</label>
+    </customValue>
+    <customValue>
+        <fullName>LUMON2</fullName>
+        <default>false</default>
+        <label>Lumon 2</label>
+    </customValue>
+    <customValue>
+        <fullName>LUMON3</fullName>
+        <default>false</default>
+        <label>Lumon 3</label>
+    </customValue>
+    <customValue>
+        <fullName>LUMON4</fullName>
+        <default>false</default>
+        <label>Lumon 4</label>
+    </customValue>
+    <customValue>
+        <fullName>LUMON5</fullName>
+        <default>false</default>
+        <label>Lumon 5</label>
+    </customValue>
+    <customValue>
+        <fullName>LUMON6</fullName>
+        <default>false</default>
+        <label>Lumon 6</label>
+    </customValue>
+    <customValue>
+        <fullName>LUMON7S</fullName>
+        <default>false</default>
+        <label>Lumon 7S</label>
+    </customValue>
+    <customValue>
+        <fullName>LUMON7T</fullName>
+        <default>false</default>
+        <label>Lumon 7T</label>
+    </customValue>
+    <customValue>
+        <fullName>LUMONBLIND</fullName>
+        <default>false</default>
+        <label>Lumon Blinds</label>
+    </customValue>
+    <customValue>
+        <fullName>LUMONKAIDE</fullName>
+        <default>false</default>
+        <label>Lumon Railing</label>
+    </customValue>
+    <customValue>
+        <fullName>LUMONTOLPK</fullName>
+        <default>false</default>
+        <label>Lumon Railing with Posts</label>
+    </customValue>
+    <customValue>
+        <fullName>OtherSale2</fullName>
+        <default>false</default>
+        <label>Other Sales 2</label>
+    </customValue>
+    <customValue>
+        <fullName>OtherSale3</fullName>
+        <default>false</default>
+        <label>Other Sales 3</label>
+    </customValue>
+    <customValue>
+        <fullName>OtherSales</fullName>
+        <default>false</default>
+        <label>OtherSales</label>
+    </customValue>
+    <customValue>
+        <fullName>PATIO</fullName>
+        <default>false</default>
+        <label>Foundation</label>
+    </customValue>
+    <customValue>
+        <fullName>PELTI</fullName>
+        <default>false</default>
+        <label>Flashing</label>
+    </customValue>
+    <customValue>
+        <fullName>PERUSHUOLTO</fullName>
+        <default>false</default>
+        <label>Overhaul</label>
+    </customValue>
+    <customValue>
+        <fullName>PINNAKAIDE</fullName>
+        <default>false</default>
+        <label>Lumon Decor Railing</label>
+    </customValue>
+    <customValue>
+        <fullName>PUUSÄLEK</fullName>
+        <default>false</default>
+        <label>Venetian Blinds Wood</label>
+    </customValue>
+    <customValue>
+        <fullName>PYSTYLAM</fullName>
+        <default>false</default>
+        <label>Vertical Blinds</label>
+    </customValue>
+    <customValue>
+        <fullName>QUEEN 15S</fullName>
+        <default>false</default>
+        <label>Queen 15S</label>
+    </customValue>
+    <customValue>
+        <fullName>QUEEN 15U</fullName>
+        <default>false</default>
+        <label>Queen 15U</label>
+    </customValue>
+    <customValue>
+        <fullName>Queen STS</fullName>
+        <default>false</default>
+        <label>Queen STS</label>
+    </customValue>
+    <customValue>
+        <fullName>Queen STU</fullName>
+        <default>false</default>
+        <label>Queen STU</label>
+    </customValue>
+    <customValue>
+        <fullName>RULLAKAIH</fullName>
+        <default>false</default>
+        <label>Roller Blinds</label>
+    </customValue>
+    <customValue>
+        <fullName>SÄLEIKKÖ</fullName>
+        <default>false</default>
+        <label>Solar Screen</label>
+    </customValue>
+    <customValue>
+        <fullName>SÄLEK</fullName>
+        <default>false</default>
+        <label>Venetian Blinds</label>
+    </customValue>
+    <customValue>
+        <fullName>SLUPROF</fullName>
+        <default>false</default>
+        <label>SLUPROF</label>
+    </customValue>
+    <customValue>
+        <fullName>TERRACEMAT</fullName>
+        <default>false</default>
+        <label>Terrace Mat</label>
+    </customValue>
+    <customValue>
+        <fullName>TUNTITYÖ</fullName>
+        <default>false</default>
+        <label>Hourly Work</label>
+    </customValue>
+    <customValue>
+        <fullName>USCANDOORS</fullName>
+        <default>false</default>
+        <label>USCANDOORS</label>
+    </customValue>
+    <customValue>
+        <fullName>USCANOWN</fullName>
+        <default>false</default>
+        <label>USCANOWN</label>
+    </customValue>
+    <customValue>
+        <fullName>USCANSUPP</fullName>
+        <default>false</default>
+        <label>USCANSUPP</label>
+    </customValue>
+    <customValue>
+        <fullName>UUDISTAVAHUOLTO</fullName>
+        <default>false</default>
+        <label>UUDISTAVAHUOLTO</label>
+    </customValue>
+    <customValue>
+        <fullName>VÄLISEINÄ</fullName>
+        <default>false</default>
+        <label>Privacy Screen</label>
+    </customValue>
+    <customValue>
+        <fullName>VARUSTE</fullName>
+        <default>false</default>
+        <label>Accessories</label>
+    </customValue>
+    <customValue>
+        <fullName>VERHOKISK</fullName>
+        <default>false</default>
+        <label>Rail Systems</label>
+    </customValue>
+    <customValue>
+        <fullName>VERKKOKAUP</fullName>
+        <default>false</default>
+        <label>Visor Webshop</label>
+    </customValue>
+    <customValue>
+        <fullName>VISORBLI55</fullName>
+        <default>false</default>
+        <label>Visor Blinds 55</label>
+    </customValue>
+    <customValue>
+        <fullName>VISORBLIBO</fullName>
+        <default>false</default>
+        <label>Visor Blinds BO</label>
+    </customValue>
+    <customValue>
+        <fullName>VISORBLIEX</fullName>
+        <default>false</default>
+        <label>VISORBLIEX</label>
+    </customValue>
+    <customValue>
+        <fullName>VISORBLIND</fullName>
+        <default>false</default>
+        <label>VISORBLIND</label>
+    </customValue>
+    <customValue>
+        <fullName>VISORMUU</fullName>
+        <default>false</default>
+        <label>Visor Other</label>
+    </customValue>
+    <customValue>
+        <fullName>VT3</fullName>
+        <default>false</default>
+        <label>VT3</label>
+    </customValue>
+    <customValue>
+        <fullName>VT4</fullName>
+        <default>false</default>
+        <label>VT4</label>
+    </customValue>
+    <customValue>
+        <fullName>AURINKOVERHO</fullName>
+        <default>false</default>
+        <label>AURINKOVERHO</label>
+    </customValue>
+    <customValue>
+        <fullName>JARJESTELMAKULMA</fullName>
+        <default>false</default>
+        <label>JARJESTELMAKULMA</label>
+    </customValue>
+    <customValue>
+        <fullName>VÄLISEINÄ E30</fullName>
+        <default>false</default>
+        <label>Privacy Screen E30</label>
+    </customValue>
+    <customValue>
+        <fullName>VÄLISEINÄ EI30</fullName>
+        <default>false</default>
+        <label>Privacy Screen EI30</label>
+    </customValue>
+    <customValue>
+        <fullName>WOOL PANEL EI30</fullName>
+        <default>false</default>
+        <label>Privacy Screen Wood</label>
+    </customValue>
+    <masterLabel>Lumon Products</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

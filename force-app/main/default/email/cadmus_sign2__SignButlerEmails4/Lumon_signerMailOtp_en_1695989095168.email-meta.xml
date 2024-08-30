@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Lumon Signer Mail OTP (English)</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Lumon_signerMailOtp_en</name>
+    <relatedEntityType>Contract</relatedEntityType>
+    <style>none</style>
+    <subject>Lumonin vahvistuskoodi -SIGN Butler, {{{SignButler.Account.FirstName}}}</subject>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

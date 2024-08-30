@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>P1</fullName>
+        <default>false</default>
+        <label>P1 Organization</label>
+    </customValue>
+    <customValue>
+        <fullName>P10</fullName>
+        <default>false</default>
+        <label>P10 Business Unit</label>
+    </customValue>
+    <customValue>
+        <fullName>P2</fullName>
+        <default>false</default>
+        <label>P2 Country</label>
+    </customValue>
+    <customValue>
+        <fullName>P3</fullName>
+        <default>false</default>
+        <label>P3 Business Type</label>
+    </customValue>
+    <customValue>
+        <fullName>P4</fullName>
+        <default>false</default>
+        <label>P4 Region</label>
+    </customValue>
+    <customValue>
+        <fullName>P5</fullName>
+        <default>false</default>
+        <label>P5 State/Province</label>
+    </customValue>
+    <customValue>
+        <fullName>P6</fullName>
+        <default>false</default>
+        <label>P6 County</label>
+    </customValue>
+    <customValue>
+        <fullName>P7</fullName>
+        <default>false</default>
+        <label>P7 Municipality</label>
+    </customValue>
+    <customValue>
+        <fullName>P8</fullName>
+        <default>false</default>
+        <label>P8 City</label>
+    </customValue>
+    <customValue>
+        <fullName>P9</fullName>
+        <default>false</default>
+        <label>P9 Neighborhood</label>
+    </customValue>
+    <customValue>
+        <fullName>P11</fullName>
+        <default>false</default>
+        <label>P11 Office</label>
+    </customValue>
+    <masterLabel>Lumon District Types</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

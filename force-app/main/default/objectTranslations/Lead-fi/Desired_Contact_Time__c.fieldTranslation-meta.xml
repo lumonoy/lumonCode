@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Please propose a date and time when you would prefer Lumon to contact you. --></help>
+    <label>Toivottu yhteydenotto ajankohta</label>
+    <name>Desired_Contact_Time__c</name>
+</CustomFieldTranslation>

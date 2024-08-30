@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Account Office, this field will be populated based on the postal code field chosen for the account. --></help>
+    <label><!-- Account Office --></label>
+    <name>Account_Office__c</name>
+</CustomFieldTranslation>

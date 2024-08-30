@@ -1,0 +1,8 @@
+<template>
+	<a if:false={isSocialLink} href={link.url} onclick={handleFooterLinkClick} class={linkClass}>
+		{link.label}
+	</a>
+	<a if:true={isSocialLink} href={link.url} onclick={handleFooterLinkClick} class={linkClass}>
+		<span class={link.socialIcon}></span>
+	</a>
+</template>

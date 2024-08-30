@@ -1,0 +1,45 @@
+{
+  "appPageId" : "fc5a03ce-c6e8-4a9f-a04f-7fcfab044561",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "ad82e4c8-dcbc-4e3b-bab3-9b7edfe9282b",
+  "label" : "Search",
+  "regions" : [ {
+    "id" : "9b068e7a-c5de-4ae3-a762-5ca92dbbf29c",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "scopes" : [ {
+          "isPublic" : false,
+          "name" : "Case"
+        }, {
+          "isPublic" : false,
+          "name" : "Order"
+        }, {
+          "isPublic" : false,
+          "name" : "ManagedContentVersion"
+        } ],
+        "searchResultFiltering" : true,
+        "searchTerm" : "{!term}",
+        "showTopResults" : true
+      },
+      "componentName" : "forceCommunity:search",
+      "id" : "b929afd1-b5cb-4052-bc0e-0a26803a8939",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "cf46ebba-22e8-4d8d-b7fc-96573ca872d2",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "fb6a0c6f-fb24-4494-85a7-cd250f9a6ec9",
+    "regionName" : "footer",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "J6xvXP8N902w5Yx6j5K9jizPfcjzL8",
+  "type" : "view",
+  "viewType" : "global-search"
+}

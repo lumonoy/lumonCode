@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Select if the order is a reclamation or a normal order --></help>
+    <label><!-- Order type --></label>
+    <name>Order_type__c</name>
+    <picklistValues>
+        <masterLabel>Claim</masterLabel>
+        <translation><!-- Claim --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Normal</masterLabel>
+        <translation><!-- Normal --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Reclamation</masterLabel>
+        <translation><!-- Reclamation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Special</masterLabel>
+        <translation><!-- Special --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

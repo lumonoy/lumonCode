@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Reminder for Opportunity owner that the contract has been signed by customer</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Sales Rep - Signed Contract Stage Reminder 2</name>
+    <style>none</style>
+    <subject>Complete order within 1 day: {!Opportunity.Name}</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

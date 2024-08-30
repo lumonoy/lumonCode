@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>When the maintenance visit is confirmed customer receives email notification of maintenance visit</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Lumon_Email_Letterhead</letterhead>
+    <name>Customer - Maintenance Time Notification</name>
+    <style>freeForm</style>
+    <subject>{!Organization.Name} Maintenance Visit Confirmation</subject>
+    <textOnly>Dear {!Case.Contact},
+
+Your maintenance visit has now been scheduled. The time of your maintenance for Case {!Case.CaseNumber}: will be {!Case.Maintenance_Visit_Date_Time__c}
+
+Please click on the link below to view this case on the Self-Service portal.
+&lt;insert the link to your Self-Service portal login page here&gt;
+
+Sincerely,
+
+Customer Service
+{!Organization.Name}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

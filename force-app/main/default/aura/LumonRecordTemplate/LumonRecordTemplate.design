@@ -1,0 +1,14 @@
+<design:component label="Custom 3 column flexible layout with header and footer.">
+        <flexipage:template>
+            <flexipage:region name="header" defaultWidth="Large" />
+            <flexipage:region name="subheader" defaultWidth="Large" />
+            <flexipage:region name="left" defaultWidth="Small" />
+            <flexipage:region name="center" defaultWidth="Medium" />
+            <flexipage:region name="right" defaultWidth="Small" />
+            <flexipage:region name="footer" defaultWidth="Large" />
+        </flexipage:template>
+        <design:supportedFormFactors>
+            <design:supportedFormFactor type="Large"/>
+            <design:supportedFormFactor type="Small"/>
+        </design:supportedFormFactors>
+    </design:component>

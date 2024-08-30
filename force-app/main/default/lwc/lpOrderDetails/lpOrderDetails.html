@@ -1,0 +1,55 @@
+<!-- LP Order Details -->
+<template>
+	<h2>{orderLabels.orderDetailsTitle}</h2>
+	<div class="order-details-container">
+		<div class="order-details">
+			<div class="order-info">
+				<p class="order-label">{orderLabels.orderProduct}</p>
+				<p class="order-value">{order.product}</p>
+			</div>
+			<div class="order-info">
+				<p class="order-label">{orderLabels.date}</p>
+				<p class="order-value">{order.installDate}</p>
+			</div>
+			<div class="order-info">
+				<p class="order-label">{orderLabels.address}</p>
+				<p class="order-value">
+					<span>{order.installAddressStreet}</span>
+					<span>{order.installAddressZipCityState}</span>
+				</p>
+			</div>
+			<div class="order-info">
+				<p class="order-label">{orderLabels.totalCost}</p>
+				<lightning-formatted-number
+						class="order-value"
+						value={order.totalCost}
+						format-style="currency"
+						currency-code={order.currencyIsoCode}>
+				</lightning-formatted-number>
+			</div>
+		</div>
+		<div class="product-details">
+			<h3 class="prod-title">{orderLabels.productDetails}</h3>
+			<div class="product-section">
+				<div>
+					<p class="order-label">{orderLabels.productName}</p>
+					<template for:each={order.odProducts} for:item="product">
+						<p key={product.name} class="order-value">{product.name}</p>
+					</template>
+				</div>
+				<div>
+					<p class="order-label">{orderLabels.warrantyStart}</p>
+					<template for:each={order.odProducts} for:item="product">
+						<p key={product.warrantyStart} class="order-value">{product.warrantyStart}</p>
+					</template>
+				</div>
+				<div>
+					<p class="order-label">{orderLabels.warrantyEnd}</p>
+					<template for:each={order.odProducts} for:item="product">
+						<p key={product.warrantyEnd} class="order-value">{product.warrantyEnd}</p>
+					</template>
+				</div>
+			</div>
+		</div>
+	</div>
+</template>

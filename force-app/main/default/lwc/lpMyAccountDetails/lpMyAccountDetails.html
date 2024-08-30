@@ -1,0 +1,113 @@
+<template>
+	<div class="custom-accordions my-acc-details">
+		<div class="button-area">
+			<div class="acc-btn-container">
+				<span class="icon-product accordion-icon"></span>
+				<a href={href} data-id="general" onclick={handleSetActiveSection}>{myAccLabels.general}</a>
+			</div>
+			<div class="acc-btn-container">
+				<span class="icon-documentation accordion-icon"></span>
+				<a href={href} data-id="myAccount" onclick={handleSetActiveSection}>{myAccLabels.password}</a>
+			</div>
+			<div class="acc-btn-container logout">
+				<span class="icon-logout accordion-icon"></span>
+				<a href={href} onclick={handleLogout}>{myAccLabels.logOut}</a>
+			</div>
+		</div>
+		<div class="accordions">
+			<lightning-accordion active-section-name={activeSectionName}>
+				<lightning-accordion-section name="general" label={myAccLabels.general}>
+					<div class="slds-box slds-theme_shade">
+						<h3>{myAccLabels.myDetails}</h3>
+						<div if:true={accDetailsMap}>
+							<template for:each={accDetailsMap} for:item="accDetail">
+								<div class="acc-item" key={accDetail.key}>
+									<span class="label">{accDetail.key}</span>
+									<p class="value">{accDetail.value}</p>
+								</div>
+							</template>
+						</div>
+						<!--<p class="customer-service">{myAccLabels.contactSupport1} <a href={myAccLabels.customerServiceUrl}>{myAccLabels.customerService}</a> {myAccLabels.contactSupport2}</p>-->
+						<h3 class="marketing">{marketingLabels.marketingPermission}</h3>
+						<p>{marketingLabels.futureMessages}</p>
+						<div class="checkBox-area">
+							<div><p>{myAccLabels.email}</p></div>
+							<div>
+								<input type="radio" id="yesEmail" name="email" value="yesEmail" data-id="yesEmail" onchange={handleMarketingMessages}>
+								<label for="yesEmail"> {marketingLabels.yes}</label>
+							</div>
+							<div>
+								<input type="radio" id="noEmail" name="email" value="noEmail" data-id="noEmail" onchange={handleMarketingMessages}>
+								<label for="noEmail"> {marketingLabels.no}</label>
+							</div>
+							<div><p>{marketingLabels.sms}</p></div>
+							<div>
+								<input type="radio" id="yesSms" name="sms" value="yesSms" data-id="yesSms" onchange={handleMarketingMessages}>
+								<label for="yesSms"> {marketingLabels.yes}</label>
+							</div>
+							<div>
+								<input type="radio" id="noSms" name="sms" value="noSms" data-id="noSms" onchange={handleMarketingMessages}>
+								<label for="noSms"> {marketingLabels.no}</label>
+							</div>
+						</div>
+						<p class="marketing-disclaimer">{marketingLabels.marketingDisclaimer1}</p>
+						<div class="marketing-settings">
+							<div>
+								<lightning-input
+									type="toggle"
+									checked={maintenanceTips}
+									data-id="maintenanceTips"
+									name="maintenanceTips"
+									variant="label-hidden"
+									message-toggle-active=""
+									message-toggle-inactive=""
+									onchange={handleMarketingSetting}>
+								</lightning-input>
+							</div>
+							<div>{marketingLabels.newProductsServices}</div>
+						</div>
+						<div class="marketing-settings">
+							<div>
+								<lightning-input
+									type="toggle"
+									checked={discountNews}
+									data-id="discountNews"
+									name="productsServices"
+									variant="label-hidden"
+									message-toggle-active=""
+									message-toggle-inactive=""
+									onchange={handleMarketingSetting}>
+								</lightning-input>
+							</div>
+							<div>{marketingLabels.discountNews}</div>
+						</div>
+						<p class="marketing-disclaimer">{marketingLabels.marketingDisclaimer2}</p>
+						<p class="acc-privacy-policy">{marketingLabels.LP_Acc_Privacy_1}
+							<a href={marketingLabels.LP_Acc_Privacy_Policy_Url}>{marketingLabels.LP_Acc_Privacy_Policy}</a>
+							{marketingLabels.LP_Acc_Privacy_2}
+						</p>
+						<lightning-button
+								label={myAccLabels.save}
+								class="acc-save-btn"
+								variant="brand"
+								onclick={handleSaveMarketingSettings}
+						>
+						</lightning-button>
+					</div>
+				</lightning-accordion-section>
+				<lightning-accordion-section name="myAccount" label={myAccLabels.password}>
+					<h3>{myAccLabels.account}</h3>
+					<div class="acc-item">
+						<span class="label">{myAccLabels.userName}</span>
+						<p class="value">{accEmail}</p>
+					</div>
+					<div class="acc-item">
+						<span class="label">{myAccLabels.password}</span>
+						<p class="value"><a href={href} onclick={openChangePasswordModal}>{myAccLabels.changePassword}</a></p>
+					</div>
+				</lightning-accordion-section>
+			</lightning-accordion>
+		</div>
+	</div>
+	<c-lp-change-password-modal onclose_modal={handleModalClose} if:true={isModalOpened} modal-heading={modalHeading} loading={changePasswordLoading}></c-lp-change-password-modal>
+</template>

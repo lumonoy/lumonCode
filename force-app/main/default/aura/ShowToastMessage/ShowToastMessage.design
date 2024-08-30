@@ -1,0 +1,5 @@
+<design:component>
+   <design:attribute name="Title" label="Toast Message Title" />
+   <design:attribute name="Message" label="Toast Message" />
+   <design:attribute name="Type" label="Toast Type (info, success, error, warning)" />
+</design:component>

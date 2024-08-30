@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Sales User Apartment --></label>
+    <name>Sales_User_Apartment__c</name>
+    <relationshipLabel><!-- Postal Code Areas (Sales User Apartment) --></relationshipLabel>
+</CustomFieldTranslation>

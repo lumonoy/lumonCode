@@ -1,0 +1,116 @@
+/**
+ * Created by Filip on 17. 2. 2023.
+ */
+ .action-button-group {
+    padding: 1px;
+    border-radius: 1px;
+    margin: 0 0 10px;
+}
+.action-button {
+    --slds-c-button-inverse-color-background: #f3f3f3;
+    --slds-c-button-inverse-color-background-active: #7C878E;
+    --slds-c-button-inverse-color-background-hover: #7C878E;
+    --slds-c-button-inverse-color-border: #7C878E;
+    --slds-c-button-inverse-color-border-active: #747474;
+    --slds-c-button-inverse-color-border-hover: #747474;
+    --slds-c-button-inverse-text-color: #747474;
+    --slds-c-button-inverse-text-color-active: #f3f3f3;
+    --slds-c-button-inverse-text-color-hover: #f3f3f3;
+}
+.slds-table_edit_container.slds-is-relative.oppo-table {
+    width: 100%;
+    overflow-x: scroll;
+}
+.filter-table{
+    height: 0;
+}
+.op-table{
+    padding: 10px 10px 10px 10px;
+    width: auto;
+    border: 1px solid #dfdfdf;
+}
+ .table-header{
+    padding: 10px 20px 10px 10px;
+    width: auto;
+    border-right: 1px solid #dfdfdf;
+    border-bottom: 1px solid #dfdfdf;
+}
+ th{
+     position: relative;
+     cursor: pointer;
+ }
+th:before{
+    content: "\2191";
+     position: absolute;
+     bottom: 0.9em;
+     display: block;
+     opacity: 0.3;
+    right:6px;
+}
+th:after{
+    content: "\2193";
+    position: absolute;
+    bottom: 0.9em;
+    display: block;
+    opacity: 0.3;
+    right: 11px;
+}
+th.asc:before{
+    opacity: 1;
+}
+th.desc:after{
+    opacity: 1;
+}
+.checkbox{
+    padding: 10px;
+}
+.checkbox:before,
+.checkbox:after{
+    content: none;
+}
+.filter-container {
+    padding: 10px 20px;
+    display: grid;
+    grid-template-columns: 33.333% 33.333% 33.333%;
+    grid-gap: 5px 10px;
+}
+.action-btns {
+    background: #f3f3f3;
+    padding: 5px;
+    border-radius: 5px;
+    width: 80px;
+    margin: 0 0 10px;
+}
+
+.table-config {
+ /*   padding: 10px;
+    background: #ededed;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    width: 100%;*/
+}
+.filter-table{
+    -webkit-transition: max-height .4s;
+    -moz-transition: max-height .4s;
+    -o-transition: max-height .4s;
+    -ms-transition: max-height .4s;
+    transition: max-height .4s;
+    max-height: 0;
+    opacity:0;
+    overflow: hidden;
+}
+.filter-table.expand{
+    max-height: 30em;
+    opacity: 1;
+    background: #f3f3f3;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 15px;
+    padding: 0;
+}
+.filter-table h3{
+    background: #fff;
+    border: 1px solid #e1e1e1;
+    padding: 7px 20px;
+    font-weight: bold;
+}

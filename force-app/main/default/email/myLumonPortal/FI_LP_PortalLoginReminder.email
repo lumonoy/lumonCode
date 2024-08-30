@@ -1,0 +1,17 @@
+<html style="overflow-y: hidden;">
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">Hello {!User.FirstName} This is a friendly reminder.<br />
+Kiitos tilauksesta ja siitä että valitsit Lumonin. Olet juuri saamassa lisää tilaa elämälle!<br />
+<br />
+Tervetuloa myLumon portaaliin - sinun omaan Lumon portaaliin.<br />
+<br />
+Here you can find information about your products, the delivery, the installation, Frequently asked questions, service center contacts and much much more.&nbsp;<br />
+<br />
+Kirjaudu klikkaamalla linkkiä.k<br />
+<a href="https://lumonoy--lumontest.sandbox.my.site.com/s/login/?language=fi">myLumon portaali</a><br />
+<br />
+Ystävällisin terveisi<br />
+Lumonin väki</body>
+</html>

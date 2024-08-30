@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>LNC</fullName>
+        <default>false</default>
+        <label>Lumon Canada Inc. (LNC)</label>
+    </customValue>
+    <customValue>
+        <fullName>LCE</fullName>
+        <default>false</default>
+        <label>Lumon Cristales España S.L. (LCE)</label>
+    </customValue>
+    <customValue>
+        <fullName>LDA</fullName>
+        <default>false</default>
+        <label>Lumon Danmark ApS (LDA)</label>
+    </customValue>
+    <customValue>
+        <fullName>LDE</fullName>
+        <default>false</default>
+        <label>Lumon Deutschland GmbH (LDE)</label>
+    </customValue>
+    <customValue>
+        <fullName>LFE</fullName>
+        <default>false</default>
+        <label>Lumon Fabrica S.L (LFE)</label>
+    </customValue>
+    <customValue>
+        <fullName>LFR</fullName>
+        <default>false</default>
+        <label>Lumon France SAS (LFR)</label>
+    </customValue>
+    <customValue>
+        <fullName>INT</fullName>
+        <default>false</default>
+        <label>Lumon International Oy (INT)</label>
+    </customValue>
+    <customValue>
+        <fullName>LUI</fullName>
+        <default>false</default>
+        <label>Lumon Invest Oy (LUI)</label>
+    </customValue>
+    <customValue>
+        <fullName>LNO</fullName>
+        <default>false</default>
+        <label>Lumon Norge As (LNO)</label>
+    </customValue>
+    <customValue>
+        <fullName>LNA</fullName>
+        <default>false</default>
+        <label>Lumon North America Inc. (LNA)</label>
+    </customValue>
+    <customValue>
+        <fullName>LU</fullName>
+        <default>false</default>
+        <label>Lumon Oy (LU)</label>
+    </customValue>
+    <customValue>
+        <fullName>LPO</fullName>
+        <default>false</default>
+        <label>Lumon Polska</label>
+    </customValue>
+    <customValue>
+        <fullName>LNP</fullName>
+        <default>false</default>
+        <label>Lumon Production NA Inc. (LNP)</label>
+    </customValue>
+    <customValue>
+        <fullName>LSW</fullName>
+        <default>false</default>
+        <label>Lumon Schweiz AG (LSW)</label>
+    </customValue>
+    <customValue>
+        <fullName>LSU</fullName>
+        <default>false</default>
+        <label>Lumon Suomi Oy (LSU)</label>
+    </customValue>
+    <customValue>
+        <fullName>LNU</fullName>
+        <default>false</default>
+        <label>Lumon USA Inc. (LNU)</label>
+    </customValue>
+    <customValue>
+        <fullName>SVI</fullName>
+        <default>false</default>
+        <label>Suomen Visor Oy (SVI)</label>
+    </customValue>
+    <customValue>
+        <fullName>SLU</fullName>
+        <default>false</default>
+        <label>Svenska Lumon AB (SLU)</label>
+    </customValue>
+    <customValue>
+        <fullName>ZAO</fullName>
+        <default>false</default>
+        <label>ZAO Lumon (ZAO)</label>
+    </customValue>
+    <description>Picklist Value Set for Selection of Organization 
+Value is 3 Letter shortcode</description>
+    <masterLabel>Lumon Organizations</masterLabel>
+    <sorted>true</sorted>
+</GlobalValueSet>

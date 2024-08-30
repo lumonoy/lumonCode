@@ -1,0 +1,37 @@
+<template>
+	<div class="section-container">
+		<c-lp-logo></c-lp-logo>
+		<div class="main-section-column-links">
+			<template for:each={mainFooterSections} for:item="section">
+				<div key={section.name}>
+					<h4>{section.labelSection}</h4>
+					<template for:each={section.footerLinks} for:item="link">
+						<c-lp-footer-link
+							link={link}
+							link-class="main-section-link"
+							key={link.url}>
+						</c-lp-footer-link>
+					</template>
+				</div>
+			</template>
+		</div>
+		<div class="footer-bottom-container">
+			<div class="section-socials">
+				<template if:true={displaySocialSection} for:each={footerSocials} for:item="section">
+					<p class="follow" key={section.name}>{section.labelSection}</p>
+					<template for:each={section.footerLinks} for:item="link">
+						<c-lp-footer-link  key={link.url} link={link} link-class="social-icon"></c-lp-footer-link>
+					</template>
+				</template>
+			</div>
+			<div class="copy-right">
+				<p>
+					<a href={footerPolicyUrl} onclick={handlePolicyLinkClick}>
+						{footerPolicyLabel}
+					</a>
+					 &copy; {currentYear} {footerLabels.lumonGroup}
+				</p>
+			</div>
+		</div>
+	</div>
+</template>

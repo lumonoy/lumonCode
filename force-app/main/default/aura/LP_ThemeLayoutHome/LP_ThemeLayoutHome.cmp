@@ -1,0 +1,64 @@
+<aura:component implements="forceCommunity:themeLayout" access="global" description="Lumon Portal Theme Layout Home">
+	<aura:attribute name="navBar" type="Aura.Component[]" required="false"/>
+	<aura:attribute name="mobileMenu" type="String" default=""/>
+	<aura:attribute name="pageTitle" type="Aura.Component[]" required="false"/>
+	<aura:attribute name="cmsItem1" type="Aura.Component[]" required="false"/>
+	<aura:attribute name="cmsItem2" type="Aura.Component[]" required="false"/>
+	<aura:attribute name="cmsItem3" type="Aura.Component[]" required="false"/>
+	<aura:attribute name="backgroundImageURL" type="String"/>
+	<ltng:require styles="{!$Resource.LP_Theme_Style}" />
+	<aura:handler name="render" value="{!this}" action="{!c.onRender}"/>
+	<c:lpUtils aura:id="util"></c:lpUtils>
+	<div id="bodyWrapper" class="body-wrapper" aura:id="bodyWrapper">
+		<div id="burgerBtn" aura:id="burgerBtn" onclick="{!c.handleBurgerClick}"></div>
+		<c:lpMobileNavigationMenu menuName="{!v.mobileMenu}" class="mobile-nav-cmp"></c:lpMobileNavigationMenu>
+		<div>
+			<header class="lumon-theme-header">
+				<div class="header section-container">
+					<div class="header-left">
+						<div class="logo-region">
+							<c:lpLogo></c:lpLogo>
+						</div>
+						<div class="navigation-region">
+							{!v.navBar}
+						</div>
+					</div>
+					<div class="header-right">
+						<div class="my-acc-region">
+							<a href="#" onclick="{!c.handleMyAccountClick}">{!$Label.c.LP_My_Account}</a>
+						</div>
+					</div>
+				</div>
+			</header>
+			<div id="bodyContainer">
+				<div class="main-banner home" style="{!'background-image:url(' + v.backgroundImageURL +');'}">
+					<div class="banner-overlay"></div>
+					<div class="section-container">
+						{!v.pageTitle}
+					</div>
+				</div>
+				<div class="cms-items-section">
+					<div class="cta-section-column">
+						{!v.cmsItem1}
+					</div>
+					<div class="cta-section-column">
+						<div class="cta-section-column-split">
+							{!v.cmsItem2}
+						</div>
+						<div class="cta-section-column-split">
+							{!v.cmsItem3}
+						</div>
+					</div>
+				</div>
+				<div class="body-section">
+					<div class="section-container">
+						{!v.body}
+					</div>
+				</div>
+				<footer class="footer">
+					<c:lpFooter></c:lpFooter>
+				</footer>
+			</div>
+		</div>
+	</div>
+</aura:component>

@@ -1,0 +1,24 @@
+{
+  "forgotPasswordRouteId" : "5e8061ca-7b26-4e40-9b54-f1c5b0b757a2",
+  "isAvailableToGuests" : false,
+  "isFilteredComponentsView" : true,
+  "isProgressiveRenderingEnabled" : true,
+  "loginAppPageId" : "69d14c7a-128e-432e-a37b-50b00b56055b",
+  "mainAppPageId" : "fc5a03ce-c6e8-4a9f-a04f-7fcfab044561",
+  "preferredDomain" : "mylumon.lumon.com",
+  "selfRegistrationRouteId" : "53d88e35-ed48-48b1-9966-3700852e6158",
+  "trustedSitesForScript" : [ {
+    "id" : "1a74cbd3-f2ec-4c12-af9e-334b47920969",
+    "isActive" : true,
+    "trustedSiteName" : "myLumon",
+    "trustedSiteUrl" : "https://mylumon.lumon.com",
+    "type" : "trustedSitesForScripts"
+  }, {
+    "id" : "45af04b2-feaf-4a27-bf40-9dc2e5a588ac",
+    "isActive" : true,
+    "trustedSiteName" : "mySiteLumon",
+    "trustedSiteUrl" : "https://lumonoy.my.site.com",
+    "type" : "trustedSitesForScripts"
+  } ],
+  "type" : "site"
+}

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>LG</fullName>
+        <default>false</default>
+        <label>Retractable (LGR)</label>
+    </customValue>
+    <customValue>
+        <fullName>LGS</fullName>
+        <default>false</default>
+        <label>Sliding (LGS)</label>
+    </customValue>
+    <customValue>
+        <fullName>VT3</fullName>
+        <default>false</default>
+        <label>Terrace (VT3)</label>
+    </customValue>
+    <customValue>
+        <fullName>VT4</fullName>
+        <default>false</default>
+        <label>Terrace (VT4)</label>
+    </customValue>
+    <customValue>
+        <fullName>ASV</fullName>
+        <default>false</default>
+        <label>Blinds (ASV)</label>
+    </customValue>
+    <customValue>
+        <fullName>LFIXEDWALL</fullName>
+        <default>false</default>
+        <label>Fixed Wall</label>
+    </customValue>
+    <masterLabel>Product Lines</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

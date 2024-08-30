@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Synkronoi Marketing Cloudiin</label>
+    <name>Sync_to_MC_checkbox__c</name>
+</CustomFieldTranslation>

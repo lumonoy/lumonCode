@@ -1,0 +1,87 @@
+.tile-menu {
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+}
+.tile {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
+    width: 100%;
+    text-align: center;
+    /*border: 1px solid #BEBEBE;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.25);*/
+    box-shadow: 0 2px 6px 2px rgb(0 0 0 / 25%);
+    border-radius: 5px;
+    padding: 15px 28px 28px;
+    overflow: hidden;
+    position: relative;
+}
+.tile:hover {
+    cursor: pointer;
+}
+.tile.active{
+    border: 3px solid #FFB932;
+}
+h3{
+    font-family: 'MyriadProSemibold';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 10px;
+}
+p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #B5B4B4;
+}
+.tile-icon{
+    color: #FFB932;
+    font-size: 35px;
+}
+
+
+
+
+/*hover effect*/
+.border-animation:before {
+    box-sizing: border-box;
+    transform: translateX(100%);
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    border-bottom: 3px solid transparent;
+    border-left: 3px solid transparent;
+}
+.border-animation:after {
+    box-sizing: border-box;
+    transform: translateX(-100%);
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    border-top: 3px solid transparent;
+    border-right: 3px solid transparent;
+}
+.border-animation:hover {
+    color: inherit;
+    text-decoration: none;
+}
+.border-animation:hover:before {
+    transition: 0.1s transform linear, 0.1s height linear 0.1s;
+    transform: translateX(0);
+    height: 100%;
+    border-color: #FFB932;
+}
+.border-animation:hover:after {
+    transition: 0.1s transform linear 0.2s, 0.1s height linear 0.3s;
+    transform: translateX(0);
+    height: 100%;
+    border-color: #FFB932;
+}

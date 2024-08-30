@@ -1,0 +1,13 @@
+<template>
+    <template lwc:if={showModal}>
+        <c-custom-modal header={header} size={size} relative-content>
+            <slot></slot>
+            <div slot="footer">
+                <slot name="footer"></slot>
+            </div>
+        </c-custom-modal>
+    </template>
+    <template lwc:else>
+        <slot></slot>
+    </template>
+</template>

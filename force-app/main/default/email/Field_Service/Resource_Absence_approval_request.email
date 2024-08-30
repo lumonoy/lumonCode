@@ -1,0 +1,10 @@
+Hello Manager,
+
+I'm requesting your approval for absence.
+
+Description of the request: {!ResourceAbsence.Description}
+
+Link to Absence Approval: {!ResourceAbsence.Link}
+
+Best Regards,
+{!ResourceAbsence.CreatedBy}

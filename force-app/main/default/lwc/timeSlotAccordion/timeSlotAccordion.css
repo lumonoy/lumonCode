@@ -1,0 +1,57 @@
+/**
+ * Created by rinatnadav on 1.11.2022.
+ */
+
+.accordion-container {
+	gap: 2px;
+	display: flex;
+	flex-direction: column;
+}
+
+.slot-header {
+	font-size: 16px;
+	color: white;
+    background: #0089CF;
+    padding: 12px;
+}
+
+.slot-date {
+	display: flex;
+	flex-direction: column;
+	gap: 12px;
+	padding: 12px 0;
+	align-items: center;
+	box-shadow: 0 0 5px 1px lightgrey;
+	margin: 6px 20px;
+	color: #0089cf;
+}
+
+.slot-date:hover {
+	background: #0089cf33;
+	color: black;
+	cursor: pointer;
+}
+.list-slot-header{
+	text-align: center;
+	padding:4px 0;
+	font-size: 16px;
+}
+
+.slot-date h2 {
+	font-size: 14px;
+	font-weight: 500;
+}
+
+.slot-list {
+	display: flex;
+	gap: 7px;
+	justify-content: center;
+	/*flex-direction: column;*/
+}
+
+.slot-item {
+	cursor: pointer;
+	box-shadow: 0 0 3px 1px #61616126;
+	padding: 10px;
+	border-radius: 2px;
+}

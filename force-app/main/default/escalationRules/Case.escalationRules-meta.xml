@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EscalationRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <escalationRule>
+        <fullName>Maintori to Hanna</fullName>
+        <active>true</active>
+        <ruleEntry>
+            <businessHoursSource>Case</businessHoursSource>
+            <criteriaItems>
+                <field>EmailMessage.ToAddress</field>
+                <operation>contains</operation>
+                <value>maintori</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>EmailMessage.ToAddress</field>
+                <operation>contains</operation>
+                <value>lumon</value>
+            </criteriaItems>
+            <escalationAction>
+                <assignedTo>hanna.makela@lumon.fi</assignedTo>
+                <assignedToType>User</assignedToType>
+                <minutesToEscalation>30</minutesToEscalation>
+                <notifyCaseOwner>false</notifyCaseOwner>
+            </escalationAction>
+            <escalationStartTime>CaseCreation</escalationStartTime>
+        </ruleEntry>
+    </escalationRule>
+</EscalationRules>

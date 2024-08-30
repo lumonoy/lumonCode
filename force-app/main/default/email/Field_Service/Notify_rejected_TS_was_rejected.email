@@ -1,0 +1,8 @@
+Hello {!TimeSheet.OwnerFirstName},
+
+Approver's comments: {!ApprovalRequest.Comments}
+
+Link to Time Sheet: {!TimeSheet.Link}
+
+Best Regards,
+{!ApprovalRequest.Process_Approver}

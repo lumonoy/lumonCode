@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Edge Seals</fullName>
+        <default>false</default>
+        <label>Edge Seals</label>
+    </customValue>
+    <customValue>
+        <fullName>Assembly</fullName>
+        <default>false</default>
+        <label>Assembly</label>
+    </customValue>
+    <customValue>
+        <fullName>Blinds Color</fullName>
+        <default>false</default>
+        <label>Blinds Color</label>
+    </customValue>
+    <customValue>
+        <fullName>Bracket</fullName>
+        <default>false</default>
+        <label>Bracket</label>
+    </customValue>
+    <customValue>
+        <fullName>Continous Bracket</fullName>
+        <default>false</default>
+        <label>Continous Bracket</label>
+    </customValue>
+    <customValue>
+        <fullName>Cost Reservation Balcony</fullName>
+        <default>false</default>
+        <label>Cost Reservation Balcony</label>
+    </customValue>
+    <customValue>
+        <fullName>Cost Reservation Length</fullName>
+        <default>false</default>
+        <label>Cost Reservation Length</label>
+    </customValue>
+    <customValue>
+        <fullName>Cost Reservation Order</fullName>
+        <default>false</default>
+        <label>Cost Reservation Order</label>
+    </customValue>
+    <customValue>
+        <fullName>Cost Reservation Special Order</fullName>
+        <default>false</default>
+        <label>Cost Reservation Special Order</label>
+    </customValue>
+    <customValue>
+        <fullName>Cost Reservation Warranty</fullName>
+        <default>false</default>
+        <label>Cost Reservation Warranty</label>
+    </customValue>
+    <customValue>
+        <fullName>Delivery On-Site</fullName>
+        <default>false</default>
+        <label>Delivery On-Site</label>
+    </customValue>
+    <customValue>
+        <fullName>Extra</fullName>
+        <default>false</default>
+        <label>Extra</label>
+    </customValue>
+    <customValue>
+        <fullName>Flat Bars</fullName>
+        <default>false</default>
+        <label>Flat Bars</label>
+    </customValue>
+    <customValue>
+        <fullName>Freight Cost Balcony</fullName>
+        <default>false</default>
+        <label>Freight Cost Balcony</label>
+    </customValue>
+    <customValue>
+        <fullName>Freight Cost Glass</fullName>
+        <default>false</default>
+        <label>Freight Cost Glass</label>
+    </customValue>
+    <customValue>
+        <fullName>Freight Cost Length Extra</fullName>
+        <default>false</default>
+        <label>Freight Cost Length Extra</label>
+    </customValue>
+    <customValue>
+        <fullName>Freight Cost Width Extra</fullName>
+        <default>false</default>
+        <label>Freight Cost Width Extra</label>
+    </customValue>
+    <customValue>
+        <fullName>Glass Type</fullName>
+        <default>false</default>
+        <label>Glass Type</label>
+    </customValue>
+    <customValue>
+        <fullName>Handles and locks</fullName>
+        <default>false</default>
+        <label>Handles and locks</label>
+    </customValue>
+    <customValue>
+        <fullName>Installation Balcony</fullName>
+        <default>false</default>
+        <label>Installation Balcony</label>
+    </customValue>
+    <customValue>
+        <fullName>Installation Blinds</fullName>
+        <default>false</default>
+        <label>Installation Blinds</label>
+    </customValue>
+    <customValue>
+        <fullName>Installation Glass</fullName>
+        <default>false</default>
+        <label>Installation Glass</label>
+    </customValue>
+    <customValue>
+        <fullName>Installation Length</fullName>
+        <default>false</default>
+        <label>Installation Length</label>
+    </customValue>
+    <customValue>
+        <fullName>Installation Middle Handle</fullName>
+        <default>false</default>
+        <label>Installation Middle Handle</label>
+    </customValue>
+    <customValue>
+        <fullName>Installation on-Site</fullName>
+        <default>false</default>
+        <label>Installation on-Site</label>
+    </customValue>
+    <customValue>
+        <fullName>Installation Side</fullName>
+        <default>false</default>
+        <label>Installation Side</label>
+    </customValue>
+    <customValue>
+        <fullName>Lift handles</fullName>
+        <default>false</default>
+        <label>Lift handles</label>
+    </customValue>
+    <customValue>
+        <fullName>Lower Brackets</fullName>
+        <default>false</default>
+        <label>Lower Brackets</label>
+    </customValue>
+    <customValue>
+        <fullName>Lower Latches</fullName>
+        <default>false</default>
+        <label>Lower Latches</label>
+    </customValue>
+    <customValue>
+        <fullName>Lower Profiles</fullName>
+        <default>false</default>
+        <label>Lower Profiles</label>
+    </customValue>
+    <customValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </customValue>
+    <customValue>
+        <fullName>Painting</fullName>
+        <default>false</default>
+        <label>Painting</label>
+    </customValue>
+    <customValue>
+        <fullName>Panel Seals</fullName>
+        <default>false</default>
+        <label>Panel Seals</label>
+    </customValue>
+    <customValue>
+        <fullName>System Angle</fullName>
+        <default>false</default>
+        <label>System Angle</label>
+    </customValue>
+    <customValue>
+        <fullName>Telescopic Profile</fullName>
+        <default>false</default>
+        <label>Telescopic Profile</label>
+    </customValue>
+    <customValue>
+        <fullName>Upper Profiles</fullName>
+        <default>false</default>
+        <label>Upper Profiles</label>
+    </customValue>
+    <customValue>
+        <fullName>Wall Profiles</fullName>
+        <default>false</default>
+        <label>Wall Profiles</label>
+    </customValue>
+    <customValue>
+        <fullName>Wedge Seals</fullName>
+        <default>false</default>
+        <label>Wedge Seals</label>
+    </customValue>
+    <customValue>
+        <fullName>Continuous Bracket</fullName>
+        <default>false</default>
+        <label>Continuous Bracket</label>
+    </customValue>
+    <customValue>
+        <fullName>Lower Bracket</fullName>
+        <default>false</default>
+        <label>Lower Bracket</label>
+    </customValue>
+    <customValue>
+        <fullName>Accessories</fullName>
+        <default>false</default>
+        <label>Accessories</label>
+    </customValue>
+    <customValue>
+        <fullName>Glass 10mm</fullName>
+        <default>false</default>
+        <label>Glass 10mm</label>
+    </customValue>
+    <customValue>
+        <fullName>Glass 12mm</fullName>
+        <default>false</default>
+        <label>Glass 12mm</label>
+    </customValue>
+    <customValue>
+        <fullName>Glass 6mm</fullName>
+        <default>false</default>
+        <label>Glass 6mm</label>
+    </customValue>
+    <customValue>
+        <fullName>Glass 8mm</fullName>
+        <default>false</default>
+        <label>Glass 8mm</label>
+    </customValue>
+    <customValue>
+        <fullName>Glass Extra Option</fullName>
+        <default>false</default>
+        <label>Glass Extra Option</label>
+    </customValue>
+    <customValue>
+        <fullName>Glass Special Color</fullName>
+        <default>false</default>
+        <label>Glass Special Color</label>
+    </customValue>
+    <customValue>
+        <fullName>Handle</fullName>
+        <default>false</default>
+        <label>Handle</label>
+    </customValue>
+    <customValue>
+        <fullName>Handle with Lock</fullName>
+        <default>false</default>
+        <label>Handle with Lock</label>
+    </customValue>
+    <customValue>
+        <fullName>Flat Bar</fullName>
+        <default>false</default>
+        <label>Flat Bar</label>
+    </customValue>
+    <customValue>
+        <fullName>Lower Profile</fullName>
+        <default>false</default>
+        <label>Lower Profile</label>
+    </customValue>
+    <customValue>
+        <fullName>Upper Profile</fullName>
+        <default>false</default>
+        <label>Upper Profile</label>
+    </customValue>
+    <customValue>
+        <fullName>Edge Seal</fullName>
+        <default>false</default>
+        <label>Edge Seal</label>
+    </customValue>
+    <customValue>
+        <fullName>Glass Panel Seal</fullName>
+        <default>false</default>
+        <label>Glass Panel Seal</label>
+    </customValue>
+    <customValue>
+        <fullName>Sound Insulation</fullName>
+        <default>false</default>
+        <label>Sound Insulation</label>
+    </customValue>
+    <customValue>
+        <fullName>Wedge Seal</fullName>
+        <default>false</default>
+        <label>Wedge Seal</label>
+    </customValue>
+    <customValue>
+        <fullName>Cost Reservations</fullName>
+        <default>false</default>
+        <label>Cost Reservations</label>
+    </customValue>
+    <customValue>
+        <fullName>Freight Costs Class 1</fullName>
+        <default>false</default>
+        <label>Freight Costs Class 1</label>
+    </customValue>
+    <customValue>
+        <fullName>Freight Costs Class 2</fullName>
+        <default>false</default>
+        <label>Freight Costs Class 2</label>
+    </customValue>
+    <customValue>
+        <fullName>Freight Costs Class 3</fullName>
+        <default>false</default>
+        <label>Freight Costs Class 3</label>
+    </customValue>
+    <customValue>
+        <fullName>Installation 1</fullName>
+        <default>false</default>
+        <label>Installation 1</label>
+    </customValue>
+    <customValue>
+        <fullName>Installation 3</fullName>
+        <default>false</default>
+        <label>Installation 3</label>
+    </customValue>
+    <customValue>
+        <fullName>Installation Supplies</fullName>
+        <default>false</default>
+        <label>Installation Supplies</label>
+    </customValue>
+    <customValue>
+        <fullName>Installation Time</fullName>
+        <default>false</default>
+        <label>Installation Time</label>
+    </customValue>
+    <customValue>
+        <fullName>Cost Reservation</fullName>
+        <default>false</default>
+        <label>Cost Reservation</label>
+    </customValue>
+    <masterLabel>Product Types</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

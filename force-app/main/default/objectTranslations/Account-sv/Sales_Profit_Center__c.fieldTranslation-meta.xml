@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Set the Account Profit Center if different from Owner or Postal Code Area --></help>
+    <label><!-- Sales Profit Center --></label>
+    <name>Sales_Profit_Center__c</name>
+</CustomFieldTranslation>

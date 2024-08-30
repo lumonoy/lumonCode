@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>55.0</apiVersion>
+    <description>LP CMS Call to Action Block</description>
+    <isExposed>true</isExposed>
+    <masterLabel>LP CMS Call to Action Block</masterLabel>
+    <targets>
+        <target>lightningCommunity__Page</target>
+        <target>lightningCommunity__Default</target>
+    </targets>
+    <targetConfigs>
+        <targetConfig targets="lightningCommunity__Default">
+            <property type="ContentReference" name="contentId" label="Content ID" filter="cms_block_cta"/>
+            <property name="height" type="String" default="320" label="CTA Height" description="Enter a number (in pixels) to set the CTA block height. Keep in mind uploaded image dimensions for best results."/>
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <canvasConfig>
+        <accessMethod>Post</accessMethod>
+        <canvasUrl>https://az-soveliaprod.lumon.fi/sfrequest</canvasUrl>
+        <locations>Aura</locations>
+        <samlInitiationMethod>None</samlInitiationMethod>
+    </canvasConfig>
+    <contactEmail>hendrikus.reynders@lumon.com</contactEmail>
+    <description>Sovelia Configurator</description>
+    <label>Sovelia in Salesforce</label>
+    <logoUrl>https://lumonoy.file.force.com/servlet/servlet.ImageServer?id=015Vk000000G1pl&amp;oid=00D7Q000004wLjJ</logoUrl>
+    <oauthConfig>
+        <callbackUrl>https://az-soveliaprod.lumon.fi/sflogin
+https://localhost:8173/sflogin</callbackUrl>
+        <consumerKey>3MVG9t0sl2P.pByrLwCwb9N4jyTC9qBvy8FTMjmEnREsKfAZryWwgh1FkO3S1LzpjgsEl89fPvQVs973atCFG</consumerKey>
+        <isAdminApproved>true</isAdminApproved>
+        <isClientCredentialEnabled>true</isClientCredentialEnabled>
+        <isCodeCredentialEnabled>true</isCodeCredentialEnabled>
+        <isCodeCredentialPostOnly>true</isCodeCredentialPostOnly>
+        <isConsumerSecretOptional>false</isConsumerSecretOptional>
+        <isIntrospectAllTokens>false</isIntrospectAllTokens>
+        <isNamedUserJwtEnabled>false</isNamedUserJwtEnabled>
+        <isPkceRequired>false</isPkceRequired>
+        <isSecretRequiredForRefreshToken>false</isSecretRequiredForRefreshToken>
+        <oauthClientCredentialUser>sovelia@lumon.com</oauthClientCredentialUser>
+        <scopes>Api</scopes>
+        <scopes>Web</scopes>
+    </oauthConfig>
+    <oauthPolicy>
+        <ipRelaxation>BYPASS</ipRelaxation>
+        <refreshTokenPolicy>infinite</refreshTokenPolicy>
+    </oauthPolicy>
+    <permissionSetName>Sovelia Configurator Permissions</permissionSetName>
+    <startUrl>https://az-soveliaprod.lumon.fi/sfrequest</startUrl>
+</ConnectedApp>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>Finland Consumer</label>
+    <protected>false</protected>
+    <values>
+        <field>Account_Number__c</field>
+        <value xsi:type="xsd:string">1905514-0</value>
+    </values>
+    <values>
+        <field>Business_Type__c</field>
+        <value xsi:type="xsd:string">Consumer</value>
+    </values>
+    <values>
+        <field>Country_Code__c</field>
+        <value xsi:type="xsd:string">FI</value>
+    </values>
+    <values>
+        <field>Country__c</field>
+        <value xsi:type="xsd:string">Finland</value>
+    </values>
+    <values>
+        <field>Currency__c</field>
+        <value xsi:type="xsd:string">EUR</value>
+    </values>
+    <values>
+        <field>Default_Currency__c</field>
+        <value xsi:type="xsd:string">EUR</value>
+    </values>
+    <values>
+        <field>Default_Language__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>District_Type__c</field>
+        <value xsi:type="xsd:string">P4</value>
+    </values>
+    <values>
+        <field>Expiration_Time__c</field>
+        <value xsi:type="xsd:double">10.0</value>
+    </values>
+    <values>
+        <field>Financing_Customer_Number__c</field>
+        <value xsi:type="xsd:string">33000001</value>
+    </values>
+    <values>
+        <field>Quote_Expiration__c</field>
+        <value xsi:type="xsd:boolean">true</value>
+    </values>
+    <values>
+        <field>VAT__c</field>
+        <value xsi:type="xsd:double">24.0</value>
+    </values>
+</CustomMetadata>

@@ -1,0 +1,765 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>56.0</apiVersion>
+    <assignments>
+        <name>Clear_Finland_Sync_to_MC1</name>
+        <label>Clear Finland Sync to MC</label>
+        <locationX>446</locationX>
+        <locationY>2135</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.Finland_Sync_to_MC__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Clear_Other_Countries_Sync_to_MC2</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Clear_Finland_Sync_to_MC2</name>
+        <label>Clear Finland Sync to MC</label>
+        <locationX>710</locationX>
+        <locationY>2135</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.Finland_Sync_to_MC__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Clear_Spain_Sync_to_MC2</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Clear_Other_Countries_Sync_to_MC1</name>
+        <label>Clear Other Countries Sync to MC</label>
+        <locationX>182</locationX>
+        <locationY>2243</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.Other_Countries_Sync_to_MC__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Stage_Changed</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Clear_Other_Countries_Sync_to_MC2</name>
+        <label>Clear Other Countries Sync to MC</label>
+        <locationX>446</locationX>
+        <locationY>2243</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.Other_Countries_Sync_to_MC__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Stage_Changed</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Clear_Spain_Sync_to_MC1</name>
+        <label>Clear Spain Sync to MC</label>
+        <locationX>182</locationX>
+        <locationY>2135</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.Spain_Sync_to_MC__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Clear_Other_Countries_Sync_to_MC1</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Clear_Spain_Sync_to_MC2</name>
+        <label>Clear Spain Sync to MC</label>
+        <locationX>710</locationX>
+        <locationY>2243</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.Spain_Sync_to_MC__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Stage_Changed</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <description>This action sets date/time value for Moved to Quoting opportunity field</description>
+        <name>Date_Time_to_Moved_to_Quoting</name>
+        <label>Date Time to Moved to Quoting</label>
+        <locationX>50</locationX>
+        <locationY>2543</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.Moved_to_Quoting_date_time__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>Now</elementReference>
+            </value>
+        </assignmentItems>
+    </assignments>
+    <assignments>
+        <name>Finland_Sync_to_MC</name>
+        <label>Finland Sync to MC</label>
+        <locationX>182</locationX>
+        <locationY>2027</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.Finland_Sync_to_MC__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Clear_Spain_Sync_to_MC1</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Other_Countries_Sync_to_MC</name>
+        <label>Other Countries Sync to MC</label>
+        <locationX>710</locationX>
+        <locationY>2027</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.Other_Countries_Sync_to_MC__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Clear_Finland_Sync_to_MC2</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <description>This sets contact email as account&apos;s current email</description>
+        <name>Set_Contact_Email</name>
+        <label>Set Contact Email</label>
+        <locationX>314</locationX>
+        <locationY>1619</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.Contact_Email__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>$Record.Account.PersonEmail</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Get_Account</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Set_Financing_Payment_Method</name>
+        <label>Set Financing Payment Method</label>
+        <locationX>182</locationX>
+        <locationY>1319</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.Method_of_Payment__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>Financing</stringValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Contact_Email_needs_to_be_updated</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Set_REF_Payment_Method</name>
+        <label>Set REF Payment Method</label>
+        <locationX>446</locationX>
+        <locationY>1319</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.Method_of_Payment__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>REF</stringValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Contact_Email_needs_to_be_updated</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Spain_Sync_to_MC</name>
+        <label>Spain Sync to MC</label>
+        <locationX>446</locationX>
+        <locationY>2027</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.Spain_Sync_to_MC__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Clear_Finland_Sync_to_MC1</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <description>This action sets date/time value for Moved to Contract signed opportunity field</description>
+        <name>Timestamp_of_Moved_to_Contract_Signed</name>
+        <label>Timestamp of Moved to Contract Signed</label>
+        <locationX>314</locationX>
+        <locationY>2543</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.Moved_to_Contract_Signed_date_time__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>Now</elementReference>
+            </value>
+        </assignmentItems>
+    </assignments>
+    <assignments>
+        <description>This value updates Customer Segment value based on given parameters</description>
+        <name>Update_CON_APA_segment</name>
+        <label>Update CON APA segment</label>
+        <locationX>182</locationX>
+        <locationY>1019</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.Customer_Segment__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>1000</stringValue>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>$Record.Business_Type__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>Consumer</stringValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Payment_Plan_chosen</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <description>This assigns Customer Segment value as Consumer Single house</description>
+        <name>Update_Con_Single_House_Segment</name>
+        <label>Update Con Single House Segment</label>
+        <locationX>446</locationX>
+        <locationY>1019</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.Customer_Segment__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>1100</stringValue>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>$Record.Business_Type__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>Consumer</stringValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Payment_Plan_chosen</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Update_Opportunity_Stage</name>
+        <label>Update Opportunity Stage</label>
+        <locationX>644</locationX>
+        <locationY>503</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.StageName</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>Preparation &amp; Analysis</stringValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Is_Person_Account</targetReference>
+        </connector>
+    </assignments>
+    <decisions>
+        <name>Check_Country</name>
+        <label>Check Country</label>
+        <locationX>446</locationX>
+        <locationY>1919</locationY>
+        <defaultConnector>
+            <targetReference>Other_Countries_Sync_to_MC</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Other Country</defaultConnectorLabel>
+        <rules>
+            <name>Finland</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Get_Account.PersonMailingCountryCode</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>FI</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Finland_Sync_to_MC</targetReference>
+            </connector>
+            <label>Finland</label>
+        </rules>
+        <rules>
+            <name>Spain</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Get_Account.PersonMailingCountryCode</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>ES</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Spain_Sync_to_MC</targetReference>
+            </connector>
+            <label>Spain</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <description>Contact email has either been changed or is added on opportunity creation</description>
+        <name>Contact_Email_needs_to_be_updated</name>
+        <label>Contact Email needs to be updated?</label>
+        <locationX>446</locationX>
+        <locationY>1511</locationY>
+        <defaultConnector>
+            <targetReference>Get_Account</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>No update</defaultConnectorLabel>
+        <rules>
+            <name>Add_Update_Contact_Email</name>
+            <conditionLogic>or</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Contact_Email__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Account.PersonEmail</leftValueReference>
+                <operator>IsChanged</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Set_Contact_Email</targetReference>
+            </connector>
+            <label>Add/Update Contact Email</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Customer_Segment</name>
+        <label>Customer Segment data filled?</label>
+        <locationX>446</locationX>
+        <locationY>911</locationY>
+        <defaultConnector>
+            <targetReference>Payment_Plan_chosen</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Consumer_Apartment_Building</name>
+            <conditionLogic>1 AND (2 OR 3)</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Property_Type__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>APA</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.RecordTypeId</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <elementReference>txtB2CRecordTypeID</elementReference>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Business_Type__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Consumer</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Update_CON_APA_segment</targetReference>
+            </connector>
+            <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
+            <label>Consumer Apartment Building</label>
+        </rules>
+        <rules>
+            <name>Consumer_Single_House</name>
+            <conditionLogic>(1 OR 2 OR 3) AND (4 OR 5)</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Property_Type__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>COT</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Property_Type__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>ROW</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Property_Type__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>HOU</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.RecordTypeId</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <elementReference>txtB2CRecordTypeID</elementReference>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Business_Type__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Consumer</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Update_Con_Single_House_Segment</targetReference>
+            </connector>
+            <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
+            <label>Consumer Single House</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Is_Person_Account</name>
+        <label>Is Person Account?</label>
+        <locationX>776</locationX>
+        <locationY>695</locationY>
+        <defaultConnectorLabel>Business Account</defaultConnectorLabel>
+        <rules>
+            <name>Person_Account</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Account.IsPersonAccount</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Get_B2C_Oppo_Record_Type</targetReference>
+            </connector>
+            <label>Person Account</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>IsNewOpportunity</name>
+        <label>IsNewOpportunity?</label>
+        <locationX>776</locationX>
+        <locationY>395</locationY>
+        <defaultConnector>
+            <targetReference>Is_Person_Account</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>NewOpportunity</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record__Prior</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.StageName</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue>Preparation &amp; Analysis</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Update_Opportunity_Stage</targetReference>
+            </connector>
+            <label>NewOpportunity</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Payment_Plan_chosen</name>
+        <label>Payment Plan chosen</label>
+        <locationX>446</locationX>
+        <locationY>1211</locationY>
+        <defaultConnector>
+            <targetReference>Contact_Email_needs_to_be_updated</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Payment_plan_financing</name>
+            <conditionLogic>or</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Payment_Plan__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>25% Advance + 75% Financing</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Payment_Plan__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>50% Advance + 50% Financing</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Payment_Plan__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Consumer Financing</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Set_Financing_Payment_Method</targetReference>
+            </connector>
+            <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
+            <label>Payment  financing?</label>
+        </rules>
+        <rules>
+            <name>Payment_non_financing</name>
+            <conditionLogic>or</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Payment_Plan__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Aftersales 100% Final invoice</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Payment_Plan__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Consumer 50/50</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Set_REF_Payment_Method</targetReference>
+            </connector>
+            <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
+            <label>Payment non financing</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Skip_Automation_Enabled</name>
+        <label>Skip Automation Enabled?</label>
+        <locationX>1073</locationX>
+        <locationY>287</locationY>
+        <defaultConnectorLabel>Skip automation</defaultConnectorLabel>
+        <rules>
+            <name>Continue</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Setup.AutomationBypass__c.SkipAutomation__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>IsNewOpportunity</targetReference>
+            </connector>
+            <label>Continue</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Stage_Changed</name>
+        <label>Stage Changed?</label>
+        <locationX>446</locationX>
+        <locationY>2435</locationY>
+        <defaultConnectorLabel>No or Other Change</defaultConnectorLabel>
+        <rules>
+            <name>From_Preparation_to_Quoting</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.StageName</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Quoting</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record__Prior.StageName</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Preparation &amp; Analysis</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Date_Time_to_Moved_to_Quoting</targetReference>
+            </connector>
+            <label>From Preparation to Quoting</label>
+        </rules>
+        <rules>
+            <name>From_Quoting_To_Contract_Signed</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.StageName</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Contract Signed</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record__Prior.StageName</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Quoting</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Timestamp_of_Moved_to_Contract_Signed</targetReference>
+            </connector>
+            <label>From Quoting To Contract Signed</label>
+        </rules>
+        <rules>
+            <name>From_any_to_Closed_Won</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.StageName</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Closed Won</stringValue>
+                </rightValue>
+            </conditions>
+            <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
+            <label>From any to Closed Won</label>
+        </rules>
+    </decisions>
+    <description>Opportunity before save flow for quick field updates
+11.1. contract signed timestamp
+18.1. Payment plan update
+19.1. customer segment update added
+16.2.2023 add contact email moved from opportunity after save flow
+11.4.2023 flow optimizing
+12.4.2023 Modified the Order activation block condition (removed Signing status equals to &apos;Signed&apos;) - SAI
+13.4.2023 Added the Order activation blocking condition (Added Signing does not equals to &apos;Signed&apos;) - SAI
+04.07.2023 Modified the payment plan picklist values to check the API values in English - SAI
+4.07.2023 Sync to MC Finland, Spain, Other Country lum 1570 RB
+07.07.2023 Deleted ChangeOpportunityName (included in the Opportunity After save flow) + Deleted Dont Activate order (included in Opportunity After Save Flow)
+10.07.2023 Converted update records to Assignments (flow optimization)
+31.10.2023 Updated Setting and Clearing of MC Flags</description>
+    <environments>Default</environments>
+    <formulas>
+        <description>This automatically changes the opportunity name to Account name and Opportunity number.</description>
+        <name>ChangeOpportunityName</name>
+        <dataType>String</dataType>
+        <expression>left({!$Record.Account.FirstName}&amp; &quot; &quot; &amp;{!$Record.Account.LastName}, 105)&amp; &quot; - &quot; &amp; {!$Record.Opportunity_Number__c}</expression>
+    </formulas>
+    <formulas>
+        <name>Now</name>
+        <dataType>DateTime</dataType>
+        <expression>NOW()</expression>
+    </formulas>
+    <interviewLabel>Opportunity - Before Save {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Opportunity - Before Save R2</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordLookups>
+        <name>Get_Account</name>
+        <label>Get Account</label>
+        <locationX>446</locationX>
+        <locationY>1811</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Check_Country</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.AccountId</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>Account</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordLookups>
+        <name>Get_B2C_Oppo_Record_Type</name>
+        <label>Get B2C Oppo Record Type</label>
+        <locationX>446</locationX>
+        <locationY>803</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Customer_Segment</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>DeveloperName</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>B2C_Opportunity</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>SobjectType</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Opportunity</stringValue>
+            </value>
+        </filters>
+        <object>RecordType</object>
+        <outputAssignments>
+            <assignToReference>txtB2CRecordTypeID</assignToReference>
+            <field>Id</field>
+        </outputAssignments>
+    </recordLookups>
+    <start>
+        <locationX>947</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Skip_Automation_Enabled</targetReference>
+        </connector>
+        <object>Opportunity</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordBeforeSave</triggerType>
+    </start>
+    <status>Active</status>
+    <triggerOrder>600</triggerOrder>
+    <variables>
+        <name>txtB2CRecordTypeID</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+</Flow>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>FI_LP_PortalLoginReminder</name>
+    <style>none</style>
+    <subject>myLumon Portal Reminder</subject>
+    <textOnly>Hello {!User.FirstName} This is a friendly reminder.
+Kiitos tilauksesta ja siitä että valitsit Lumonin. Olet juuri saamassa lisää tilaa elämälle!
+
+Tervetuloa myLumon portaaliin - sinun omaan Lumon portaaliin.
+
+Here you can find information about your products, the delivery, the installation, Frequently asked questions, service center contacts and much much more.
+
+Kirjaudu klikkaamalla linkkiä.k
+myLumon portaali
+
+Ystävällisin terveisi
+Lumonin väki</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

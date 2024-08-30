@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Fill in Responsible Site Manager for the Case --></help>
+    <label><!-- Responsible Site Manager --></label>
+    <name>PermitSiteManager__c</name>
+    <relationshipLabel><!-- Cases (Responsible Site Manager) --></relationshipLabel>
+</CustomFieldTranslation>

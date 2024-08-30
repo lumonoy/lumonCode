@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Please select one or more Products of Interest. --></help>
+    <label><!-- Product Interest --></label>
+    <name>Product_Interest__c</name>
+    <picklistValues>
+        <masterLabel>Blinds</masterLabel>
+        <translation><!-- Blinds --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Glazing</masterLabel>
+        <translation><!-- Glazing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Railings</masterLabel>
+        <translation><!-- Railings --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Roofs</masterLabel>
+        <translation><!-- Roofs --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

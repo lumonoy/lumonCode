@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Terms of Payment --></label>
+    <name>Terms_of_Payment__c</name>
+    <picklistValues>
+        <masterLabel>07 days net</masterLabel>
+        <translation><!-- 07 days net --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>10 days net</masterLabel>
+        <translation><!-- 10 days net --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

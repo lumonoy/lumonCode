@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Project</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Projects</value>
+    </caseValues>
+    <layouts>
+        <layout>Project Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- New Project --></label>
+        <name>New_Project_Action</name>
+    </quickActions>
+    <recordTypes>
+        <label><!-- Delivery Project --></label>
+        <name>Delivery_Project</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Main Project --></label>
+        <name>Main_Project</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Warranty Project --></label>
+        <name>Warranty_Project</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

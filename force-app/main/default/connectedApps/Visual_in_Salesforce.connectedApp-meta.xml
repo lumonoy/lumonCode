@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <canvasConfig>
+        <accessMethod>Post</accessMethod>
+        <canvasUrl>https://visual.lumon.com/visual</canvasUrl>
+        <locations>Visualforce</locations>
+        <locations>Aura</locations>
+        <samlInitiationMethod>None</samlInitiationMethod>
+    </canvasConfig>
+    <contactEmail>konrad.niewiadomski@fluidogroup.com</contactEmail>
+    <label>Visual in Salesforce</label>
+    <oauthConfig>
+        <callbackUrl>https://visual.lumon.com/visual</callbackUrl>
+        <consumerKey>3MVG9t0sl2P.pByrLwCwb9N4jyfuD9pLY2BnKOCMKmYC9Uou4YDLtJUlqA6ua7eYRlrCEbVObS5dwwgdIzcvv</consumerKey>
+        <isAdminApproved>true</isAdminApproved>
+        <isClientCredentialEnabled>false</isClientCredentialEnabled>
+        <isCodeCredentialEnabled>false</isCodeCredentialEnabled>
+        <isCodeCredentialPostOnly>false</isCodeCredentialPostOnly>
+        <isConsumerSecretOptional>false</isConsumerSecretOptional>
+        <isIntrospectAllTokens>false</isIntrospectAllTokens>
+        <isNamedUserJwtEnabled>false</isNamedUserJwtEnabled>
+        <isPkceRequired>false</isPkceRequired>
+        <isSecretRequiredForRefreshToken>true</isSecretRequiredForRefreshToken>
+        <scopes>Basic</scopes>
+        <scopes>Api</scopes>
+        <scopes>Full</scopes>
+    </oauthConfig>
+    <oauthPolicy>
+        <ipRelaxation>ENFORCE</ipRelaxation>
+        <refreshTokenPolicy>infinite</refreshTokenPolicy>
+    </oauthPolicy>
+    <profileName>Lumon Installer</profileName>
+    <profileName>Lumon Installation Manager</profileName>
+    <profileName>Integration User</profileName>
+    <profileName>Lumon Sales B2C</profileName>
+    <profileName>Lumon Sales Manager</profileName>
+    <profileName>Lumon Technical Support</profileName>
+    <profileName>Lumon Salesforce Testing</profileName>
+    <profileName>System Administrator</profileName>
+    <profileName>Lumon Salesforce Admin</profileName>
+    <profileName>Lumon Board Member</profileName>
+    <profileName>Lumon External Consultant</profileName>
+    <startUrl>https://visual.lumon.com/visual</startUrl>
+</ConnectedApp>

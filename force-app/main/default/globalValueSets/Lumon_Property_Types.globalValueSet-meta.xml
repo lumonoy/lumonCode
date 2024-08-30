@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>APA</fullName>
+        <default>false</default>
+        <label>Apartment Building</label>
+    </customValue>
+    <customValue>
+        <fullName>COT</fullName>
+        <default>false</default>
+        <label>Cottage</label>
+    </customValue>
+    <customValue>
+        <fullName>HRC</fullName>
+        <default>false</default>
+        <label>HoReCa</label>
+    </customValue>
+    <customValue>
+        <fullName>PRJA</fullName>
+        <default>false</default>
+        <label>Project-A</label>
+    </customValue>
+    <customValue>
+        <fullName>PRJB</fullName>
+        <default>false</default>
+        <label>Project-B</label>
+    </customValue>
+    <customValue>
+        <fullName>ROW</fullName>
+        <default>false</default>
+        <label>Row House</label>
+    </customValue>
+    <customValue>
+        <fullName>HOU</fullName>
+        <default>false</default>
+        <label>Single Family House</label>
+    </customValue>
+    <masterLabel>Lumon Property Types</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

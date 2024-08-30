@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>CS_CALL</fullName>
+        <default>false</default>
+        <label>Customer Callback</label>
+    </customValue>
+    <customValue>
+        <fullName>CS_COMP</fullName>
+        <default>false</default>
+        <label>Customer Complaint</label>
+    </customValue>
+    <customValue>
+        <fullName>CS_FEED</fullName>
+        <default>false</default>
+        <label>Customer Feedback</label>
+    </customValue>
+    <customValue>
+        <fullName>CS_INFO</fullName>
+        <default>false</default>
+        <label>Customer Information Request</label>
+    </customValue>
+    <customValue>
+        <fullName>CS_COFF</fullName>
+        <default>false</default>
+        <label>Customer Offer</label>
+    </customValue>
+    <customValue>
+        <fullName>CS_CORD</fullName>
+        <default>false</default>
+        <label>Customer Order</label>
+    </customValue>
+    <customValue>
+        <fullName>CS_RECL</fullName>
+        <default>false</default>
+        <label>Customer Reclamation</label>
+    </customValue>
+    <customValue>
+        <fullName>CS_CREQ</fullName>
+        <default>false</default>
+        <label>Customer Request</label>
+    </customValue>
+    <customValue>
+        <fullName>IT_DEV</fullName>
+        <default>false</default>
+        <label>IT User Devices</label>
+    </customValue>
+    <customValue>
+        <fullName>IT_HW</fullName>
+        <default>false</default>
+        <label>IT Hardware</label>
+    </customValue>
+    <customValue>
+        <fullName>IT_INC</fullName>
+        <default>false</default>
+        <label>IT Incidents</label>
+    </customValue>
+    <customValue>
+        <fullName>IT_PROJ</fullName>
+        <default>false</default>
+        <label>IT Long Term Project</label>
+    </customValue>
+    <customValue>
+        <fullName>IT_ORD</fullName>
+        <default>false</default>
+        <label>IT Orders</label>
+    </customValue>
+    <customValue>
+        <fullName>IT_OUT</fullName>
+        <default>false</default>
+        <label>IT Outages</label>
+    </customValue>
+    <customValue>
+        <fullName>IT_PRB</fullName>
+        <default>false</default>
+        <label>IT Problems</label>
+    </customValue>
+    <customValue>
+        <fullName>IT_SERV</fullName>
+        <default>false</default>
+        <label>IT Servers</label>
+    </customValue>
+    <customValue>
+        <fullName>IT_SW</fullName>
+        <default>false</default>
+        <label>IT Software</label>
+    </customValue>
+    <customValue>
+        <fullName>IT_SUPP</fullName>
+        <default>false</default>
+        <label>IT Support Request</label>
+    </customValue>
+    <customValue>
+        <fullName>IT_USER</fullName>
+        <default>false</default>
+        <label>IT User Accounts</label>
+    </customValue>
+    <customValue>
+        <fullName>IT_PERM</fullName>
+        <default>false</default>
+        <label>IT User Rights and Permissions</label>
+    </customValue>
+    <customValue>
+        <fullName>TS_GEN</fullName>
+        <default>false</default>
+        <label>TS Generic Request</label>
+    </customValue>
+    <customValue>
+        <fullName>TS_INT</fullName>
+        <default>false</default>
+        <label>TS Internal Order</label>
+    </customValue>
+    <customValue>
+        <fullName>TS_PERM</fullName>
+        <default>false</default>
+        <label>TS Permit Application</label>
+    </customValue>
+    <customValue>
+        <fullName>TS_TQ</fullName>
+        <default>false</default>
+        <label>TS Technical Question</label>
+    </customValue>
+    <customValue>
+        <fullName>NA</fullName>
+        <default>false</default>
+        <label>X Not Applicable</label>
+    </customValue>
+    <masterLabel>Lumon Case Types</masterLabel>
+    <sorted>true</sorted>
+</GlobalValueSet>

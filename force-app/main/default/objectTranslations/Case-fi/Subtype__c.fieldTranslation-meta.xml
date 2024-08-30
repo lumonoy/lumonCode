@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Subtype OLD --></label>
+    <name>Subtype__c</name>
+    <picklistValues>
+        <masterLabel>Broken Part</masterLabel>
+        <translation><!-- Broken Part --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Broken products</masterLabel>
+        <translation><!-- Broken products --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Missing  products</masterLabel>
+        <translation><!-- Missing  products --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Missing Part</masterLabel>
+        <translation><!-- Missing Part --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Wrong  products</masterLabel>
+        <translation><!-- Wrong  products --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Wrong Measure</masterLabel>
+        <translation><!-- Wrong Measure --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

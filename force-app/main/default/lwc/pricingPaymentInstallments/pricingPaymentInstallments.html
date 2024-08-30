@@ -1,0 +1,13 @@
+<template>
+  	<lightning-card>
+        <h1 slot="title">Payment Installments</h1>
+        <lightning-spinner if:true={showSpinner}></lightning-spinner>
+        <c-custom-datatable
+            key-field={keyField}
+            columns={columns}
+            table-data={items}
+            custom-style-path={cssResourcePath}
+            table-class="pricing-table"
+        ></c-custom-datatable>
+    </lightning-card>
+</template>

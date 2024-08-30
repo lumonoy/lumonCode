@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Total Lead Time in Days --></help>
+    <label><!-- Lead Time With Buffers --></label>
+    <name>Lead_Time_With_Buffers__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,9 @@
+<template>
+	<div if:true={displayCmsContent} class="cms-item-bg" style={cmsItemStyle}>
+		<div class="cms-item-content">
+			<p>{ctaText}</p>
+			<h3>{title}</h3>
+			<a href={buttonUrl} onclick={handleButtonClick} class="cta-button">{buttonLabel}</a>
+		</div>
+	</div>
+</template>

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>3rd Party installation</masterLabel>
+        <translation><!-- 3rd Party installation --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Accessories</masterLabel>
+        <translation>Tarvikkeet</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Accessories Aluminium</masterLabel>
+        <translation>Alumiinitarvikkeet</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Accessories Components</masterLabel>
+        <translation>Tarvikkeet (komponentit)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Additional Product Expenses</masterLabel>
+        <translation>Lisätuotekustannukset</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Blinds</masterLabel>
+        <translation>Kaihtimet</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Cost Reservation</masterLabel>
+        <translation>Kustannusvaraus</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Crane Rent</masterLabel>
+        <translation>Nosturivuokrat</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Expense Reimbursement</masterLabel>
+        <translation>Kulukorvaukset</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Foundation</masterLabel>
+        <translation>Perustus</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Freight</masterLabel>
+        <translation>Rahti</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Freight 1</masterLabel>
+        <translation>Rahti 1</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Freight 2</masterLabel>
+        <translation>Rahti 2</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Freight 3</masterLabel>
+        <translation>Rahti 3</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Freight JM</masterLabel>
+        <translation><!-- Freight JM --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Installation</masterLabel>
+        <translation>Asennus</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Installation 1</masterLabel>
+        <translation>Asennus 1</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Installation 2</masterLabel>
+        <translation>Asennus 2</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Installation 3</masterLabel>
+        <translation>Asennus 3</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Installation Canada</masterLabel>
+        <translation><!-- Installation Canada --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Installation Costs</masterLabel>
+        <translation>Asennuskustannukset</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Installation Finland</masterLabel>
+        <translation>Asennus Suomi</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Installation Spain</masterLabel>
+        <translation><!-- Installation Spain --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Installation Supplies</masterLabel>
+        <translation>Asennustarvikkeet</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Installation Sweden</masterLabel>
+        <translation><!-- Installation Sweden --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Installation Time</masterLabel>
+        <translation>Asennusaika</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Insurance</masterLabel>
+        <translation><!-- Insurance --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Lifting</masterLabel>
+        <translation><!-- Lifting --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Lifting Canada</masterLabel>
+        <translation><!-- Lifting Canada --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Lifting Finland</masterLabel>
+        <translation><!-- Lifting Finland --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Lifting Spain</masterLabel>
+        <translation><!-- Lifting Spain --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Lifting Sweden</masterLabel>
+        <translation><!-- Lifting Sweden --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Permit Application</masterLabel>
+        <translation><!-- Permit Application --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Products</masterLabel>
+        <translation><!-- Products --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Reclamation</masterLabel>
+        <translation><!-- Reclamation --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Sales Canada</masterLabel>
+        <translation><!-- Sales Canada --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Sales Finland</masterLabel>
+        <translation><!-- Sales Finland --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Sales Spain</masterLabel>
+        <translation><!-- Sales Spain --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Sales Sweden</masterLabel>
+        <translation><!-- Sales Sweden --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Services</masterLabel>
+        <translation><!-- Services --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Subcontracting</masterLabel>
+        <translation><!-- Subcontracting --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Third Party Installation</masterLabel>
+        <translation><!-- Third Party Installation --></translation>
+    </valueTranslation>
+</GlobalValueSetTranslation>

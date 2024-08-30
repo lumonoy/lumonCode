@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- Data Table Fields --></label>
+        <name>Data_Table_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Tree Grid Fields --></label>
+        <name>Tree_Grid_Fields</name>
+    </fieldSets>
+    <layouts>
+        <layout>Contract Layout</layout>
+        <sections>
+            <label><!-- Delivery &amp; Fullfillment --></label>
+            <section>Delivery &amp; Fullfillment</section>
+        </sections>
+        <sections>
+            <label><!-- Order &amp; ERP Information --></label>
+            <section>Order &amp; ERP Information</section>
+        </sections>
+        <sections>
+            <label><!-- Payment --></label>
+            <section>Payment</section>
+        </sections>
+        <sections>
+            <label><!-- Preliminary Contract Specifics --></label>
+            <section>Preliminary Contract Specifics</section>
+        </sections>
+        <sections>
+            <label><!-- Sales Data --></label>
+            <section>Sales Data</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Submit --></label>
+        <name>Submit</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Update Contract --></label>
+        <name>Update_Related_Contract</name>
+    </quickActions>
+    <recordTypes>
+        <description><!-- This contract is order contract which also implies that customer has 5 year warranty --></description>
+        <label><!-- Final Contract --></label>
+        <name>Final_Contract</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- This is preliminary contract record type in situations when final contract cannot be made --></description>
+        <label><!-- Preliminary Contract --></label>
+        <name>Preliminary_Contract</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- You&apos;re not allowed to activate the Preliminary Contract. --></errorMessage>
+        <name>Block_Activatating_Preliminary_contract</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Opportunity Delivery Date cannot be empty --></errorMessage>
+        <name>Delivery_Date_Needed</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please provide more details. --></errorMessage>
+        <name>Preliminary_Contract_Reason_Mandatory</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The Preliminary Contract  Signed is not allowed, please use the Contract Signed status for Final Contracts --></errorMessage>
+        <name>Preliminary_contract_signed</name>
+    </validationRules>
+</CustomObjectTranslation>

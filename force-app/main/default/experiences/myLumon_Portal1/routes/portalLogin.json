@@ -1,0 +1,12 @@
+{
+  "activeViewId" : "6f84b3f9-1910-4a59-a2ee-95ac4a160789",
+  "appPageId" : "fc5a03ce-c6e8-4a9f-a04f-7fcfab044561",
+  "configurationTags" : [ ],
+  "devName" : "Portal_Login__c",
+  "id" : "0cd8d530-b7a0-46aa-a41d-71fc6297540a",
+  "label" : "Portal Login",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-portal-login",
+  "type" : "route",
+  "urlPrefix" : "portal-login"
+}

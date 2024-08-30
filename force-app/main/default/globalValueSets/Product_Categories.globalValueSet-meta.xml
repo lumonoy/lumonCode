@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Blinds</fullName>
+        <default>false</default>
+        <label>Blinds</label>
+    </customValue>
+    <customValue>
+        <fullName>Accessories</fullName>
+        <default>false</default>
+        <label>Accessories</label>
+    </customValue>
+    <customValue>
+        <fullName>Brackets</fullName>
+        <default>false</default>
+        <label>Brackets</label>
+    </customValue>
+    <customValue>
+        <fullName>Cost Reservations</fullName>
+        <default>false</default>
+        <label>Cost Reservations</label>
+    </customValue>
+    <customValue>
+        <fullName>Delivery</fullName>
+        <default>false</default>
+        <label>Delivery</label>
+    </customValue>
+    <customValue>
+        <fullName>Glass</fullName>
+        <default>false</default>
+        <label>Glass</label>
+    </customValue>
+    <customValue>
+        <fullName>Installation</fullName>
+        <default>false</default>
+        <label>Installation</label>
+    </customValue>
+    <customValue>
+        <fullName>Latches</fullName>
+        <default>false</default>
+        <label>Latches</label>
+    </customValue>
+    <customValue>
+        <fullName>Production</fullName>
+        <default>false</default>
+        <label>Production</label>
+    </customValue>
+    <customValue>
+        <fullName>Profiles</fullName>
+        <default>false</default>
+        <label>Profiles</label>
+    </customValue>
+    <customValue>
+        <fullName>Seals</fullName>
+        <default>false</default>
+        <label>Seals</label>
+    </customValue>
+    <customValue>
+        <fullName>Upper Mounts</fullName>
+        <default>false</default>
+        <label>Upper Mounts</label>
+    </customValue>
+    <customValue>
+        <fullName>Handles</fullName>
+        <default>false</default>
+        <label>Handles</label>
+    </customValue>
+    <customValue>
+        <fullName>Order</fullName>
+        <default>false</default>
+        <label>Order</label>
+    </customValue>
+    <customValue>
+        <fullName>Reclamation</fullName>
+        <default>false</default>
+        <label>Reclamation</label>
+    </customValue>
+    <customValue>
+        <fullName>Warranty</fullName>
+        <default>false</default>
+        <label>Warranty</label>
+    </customValue>
+    <masterLabel>Product Categories</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Please state why preliminary contract is needed --></help>
+    <label><!-- Reason for Preliminary Contract --></label>
+    <name>Reason_for_preliminary_contract__c</name>
+    <picklistValues>
+        <masterLabel>2nd measurement needed</masterLabel>
+        <translation><!-- 2nd measurement needed --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Building Permit</masterLabel>
+        <translation><!-- Building Permit --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Special Order</masterLabel>
+        <translation><!-- Special Order --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Debug mode. When enabled the pricing component shows the quote line items for admin users. --></help>
+    <label><!-- Debug --></label>
+    <name>Debug__c</name>
+</CustomFieldTranslation>

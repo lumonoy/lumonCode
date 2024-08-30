@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Case Closed Confirmation</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Lumon_Email_Letterhead</letterhead>
+    <name>Customer - Case Closed</name>
+    <style>freeForm</style>
+    <subject>Your Case # {!Case.CaseNumber}: &quot;{!Case.Subject}&quot; has been solved</subject>
+    <textOnly>Hi {!Account.Name},
+
+We are sending you this email to confirm ticket # {!Case.CaseNumber}: &quot;{!Case.Subject}&quot; has been resolved.
+
+If this is not the case, or if you wish to reopen the support ticket, please contact us.
+
+We hope you are satisfied with your service and will be more than happy to respond to any comments or concerns you may have.
+
+Thank You,
+{!Organization.Name} Customer Service</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

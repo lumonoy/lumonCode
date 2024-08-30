@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>
+        <!-- Group level 1: Product Group
+Group level 2: Cost Type -->
+    </help>
+    <label><!-- Group Level --></label>
+    <name>Group_Level__c</name>
+    <picklistValues>
+        <masterLabel>Cost Type</masterLabel>
+        <translation><!-- Cost Type --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Product Group</masterLabel>
+        <translation><!-- Product Group --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

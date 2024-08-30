@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Process Stage --></label>
+    <name>CaseProcessStage__c</name>
+    <picklistValues>
+        <masterLabel>Initial Stage</masterLabel>
+        <translation><!-- Initial Stage --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Installation</masterLabel>
+        <translation><!-- Installation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Investigation</masterLabel>
+        <translation><!-- Investigation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Production</masterLabel>
+        <translation><!-- Production --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Resolution</masterLabel>
+        <translation><!-- Resolution --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

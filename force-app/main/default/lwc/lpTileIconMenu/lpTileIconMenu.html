@@ -1,0 +1,24 @@
+<template>
+	<div class="tile-menu">
+		<div class="tile" onclick={handleTileClick} data-id="cases">
+			<span class="icon-view-cases tile-icon"></span>
+			<h3>{tileMenuLabels.viewCasesTitle}</h3>
+			<p>{tileMenuLabels.viewCasesText}</p>
+		</div>
+		<div class="tile border-animation" onclick={handleTileClick} data-id="faq">
+			<span class="icon-faq tile-icon"></span>
+			<h3>{tileMenuLabels.faqTitle}</h3>
+			<p>{tileMenuLabels.faqText}</p>
+		</div>
+		<div class="tile border-animation" onclick={handleTileClick} data-id="documentation">
+			<span class="icon-documentation tile-icon"></span>
+			<h3>{tileMenuLabels.documentationTitle}</h3>
+			<p>{tileMenuLabels.documentationText}</p>
+		</div>
+		<div class="tile border-animation" onclick={handleTileClick} data-id="product">
+			<span class="icon-product tile-icon"></span>
+			<h3>{tileMenuLabels.productTitle}</h3>
+			<p>{tileMenuLabels.productText}</p>
+		</div>
+	</div>
+</template>

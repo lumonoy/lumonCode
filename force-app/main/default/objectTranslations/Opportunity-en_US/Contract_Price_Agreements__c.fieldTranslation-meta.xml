@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Contract Pricing Agreements (To be filled by salesperson in case that price agreements are done with the customer). These agreements will show up in the contract pricing section --></help>
+    <label><!-- Contract Price Agreements --></label>
+    <name>Contract_Price_Agreements__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Long term project</fullName>
+        <default>false</default>
+        <label>Long term project</label>
+    </customValue>
+    <customValue>
+        <fullName>Orders</fullName>
+        <default>false</default>
+        <label>Orders</label>
+    </customValue>
+    <customValue>
+        <fullName>Others</fullName>
+        <default>false</default>
+        <label>Others</label>
+    </customValue>
+    <customValue>
+        <fullName>Servers</fullName>
+        <default>false</default>
+        <label>Servers</label>
+    </customValue>
+    <customValue>
+        <fullName>Software</fullName>
+        <default>false</default>
+        <label>Software</label>
+    </customValue>
+    <customValue>
+        <fullName>User accounts and rights</fullName>
+        <default>false</default>
+        <label>User accounts and rights</label>
+    </customValue>
+    <customValue>
+        <fullName>Workstation problems</fullName>
+        <default>false</default>
+        <label>Workstation problems</label>
+    </customValue>
+    <customValue>
+        <fullName>Not Applicable</fullName>
+        <default>false</default>
+        <label>Not Applicable</label>
+    </customValue>
+    <masterLabel>Lumon IT Support Types</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailFolder xmlns="http://soap.sforce.com/2006/04/metadata">
+    <accessType>Shared</accessType>
+    <name>ICT Spain responses</name>
+    <publicFolderAccess>ReadOnly</publicFolderAccess>
+    <sharedTo>
+        <group>ICT_Support</group>
+        <group>ICT_Support_Finland</group>
+        <group>ICT_Support_Spain</group>
+    </sharedTo>
+</EmailFolder>

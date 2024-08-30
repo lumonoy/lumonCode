@@ -1,0 +1,8 @@
+"*** SIGNED CONTRACT REMINDER***
+
+It's been two days since contract was signed:
+Opportunity: {!Opportunity.Name}
+Stage: {!Opportunity.StageName}
+
+Please complete the order ASAP, this should be completed within 3 days of the signature being received.
+Click on the link to access the Opportunity: {!Opportunity.Link}"

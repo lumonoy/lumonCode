@@ -1,0 +1,25 @@
+<template>
+	<h2 class="os-headline no-margin">{contactLabels.headline}</h2>
+	<template for:each={contactPeople} for:item="person">
+		<div class="contact-container" key={person.phone}>
+			<div class="name-section">
+				<p class="name">{person.firstName} {person.lastName}</p>
+				<p class="position">{person.position}</p>
+			</div>
+			<div class="contact-info">
+				<div class="contact-info-container" if:true={person.phone}>
+					<span class="icon-phone contact-icon"></span>
+					<a href={person.phoneHref}>{person.phone}</a>
+				</div>
+				<div class="contact-info-container" if:true={person.email}>
+					<span class="icon-email contact-icon"></span>
+					<a href={person.emailHref}>{person.email}</a>
+				</div>
+			</div>
+			<div class="profile-img-section">
+				<img src={person.profileImgUrl} class="profile-img"
+					 alt="MyLumon Portal - Contact Person Profile Img" width="130" height="130"/>
+			</div>
+		</div>
+	</template>
+</template>

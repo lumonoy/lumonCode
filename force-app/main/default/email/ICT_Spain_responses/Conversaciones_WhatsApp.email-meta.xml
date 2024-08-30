@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Transfer WhatsApp chats to new phone</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Lumon_Email_Letterhead</letterhead>
+    <name>Conversaciones WhatsApp</name>
+    <style>freeForm</style>
+    <subject>Transferir conversaciones de WhatsApp {!Case.Id}</subject>
+    <textOnly>Hola,
+
+Por ley de protección de datos y debido al nuevo ENS no podemos dar soporte a WhatsApp ni al contenido del mismo.
+Te adjunto un vídeo actualizado donde puedes ver como pasar las conversaciones sin necesidad de ordenador:
+https://lumon365.sharepoint.com/:v:/r/sites/SpainITTutoriales/Shared%20Documents/General/Video%20tutoriales/Tel%C3%A9fono/Transferir%20chats%20de%20Whatsapp%20SIN%20ORDERNADOR%20ACTUALIZADO.mov?csf=1&amp;web=1&amp;e=r4OayZ
+Recomendamos hacer este proceso durante la noche ya que tarda bastente
+
+Un saludo.</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

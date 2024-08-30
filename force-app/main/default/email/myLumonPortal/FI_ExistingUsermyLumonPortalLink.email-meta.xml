@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>FI_ExistingUsermyLumonPortalLink</name>
+    <style>none</style>
+    <subject>myLumon Portal Link</subject>
+    <textOnly>Kiitos {!Opportunity.AccountFirstName__c}, tilauksesta ja siitä että valitsit Lumonin. Olet juuri saamassa lisää tilaa elämälle!
+
+Tervetuloa myLumon portaaliin - sinun omaan Lumon portaaliin.
+Täältä löydät tietoa tuotteistasi, toimituksista, asennuksesta ja paljon muuta.
+
+Kirjaudu klikkaamalla linkkiä.
+MyLumon portaali
+
+
+Ystävällisin terveisin
+Lumonin väki</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

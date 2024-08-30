@@ -1,0 +1,27 @@
+.product-name{
+    font-size: var(--lp-font-size-text-l);
+    font-family: var(--lp-font-semibold);
+    margin-bottom: 10px;
+}
+.img-product{
+    max-width: 120px;
+    width: 100%;
+}
+.product-item-container {
+    display: flex;
+    padding: 30px;
+    column-gap: 20px;
+}
+
+@media only screen and (max-width: 599px) {
+    .product-item-container {
+        padding: 20px;
+        column-gap: 10px;
+    }
+    .img-product {
+        max-width: 100px;
+    }
+    .product-name {
+        font-size: var(--lp-font-size-text-m);
+    }
+}

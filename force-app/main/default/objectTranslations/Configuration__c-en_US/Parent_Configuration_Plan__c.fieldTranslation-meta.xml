@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Parent Configuration Plan --></label>
+    <name>Parent_Configuration_Plan__c</name>
+    <relationshipLabel><!-- Configuration Plans --></relationshipLabel>
+</CustomFieldTranslation>

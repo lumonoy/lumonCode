@@ -1,0 +1,98 @@
+<aura:component implements="forceCommunity:themeLayout" access="global" description="Lumon Portal Theme Layout Support Center">
+	<aura:attribute name="navBar" type="Aura.Component[]" required="false"/>
+	<aura:attribute name="mobileMenu" type="String" default=""/>
+	<aura:attribute name="activeSection" type="String" default="cases"/>
+	<aura:attribute name="search" type="Aura.Component[]" required="false"/>
+	<aura:attribute name="banner" type="Aura.Component[]" required="false"/>
+	<aura:attribute name="myCases" type="Aura.Component[]" required="false"/>
+	<aura:attribute name="faq" type="Aura.Component[]" required="false"/>
+	<aura:attribute name="documentation" type="Aura.Component[]" required="false"/>
+	<aura:attribute name="productDetails" type="Aura.Component[]" required="false"/>
+	<aura:attribute name="backgroundImageURL" type="String"/>
+	<ltng:require styles="{!$Resource.LP_Theme_Style}" />
+	<aura:handler name="render" value="{!this}" action="{!c.onRender}"/>
+	<c:lpUtils aura:id="util"></c:lpUtils>
+
+	<div id="bodyWrapper" class="body-wrapper" aura:id="bodyWrapper">
+		<div id="burgerBtn" aura:id="burgerBtn" onclick="{!c.handleBurgerClick}"></div>
+		<c:lpMobileNavigationMenu menuName="{!v.mobileMenu}" class="mobile-nav-cmp"></c:lpMobileNavigationMenu>
+		<header class="lumon-theme-header">
+			<div class="header section-container">
+				<div class="header-left">
+					<div class="logo-region">
+						<c:lpLogo></c:lpLogo>
+					</div>
+					<div class="navigation-region">
+						{!v.navBar}
+					</div>
+				</div>
+				<div class="header-right">
+					<!--<div class="search-region">
+						{!v.search}
+					</div>-->
+					<div class="my-acc-region">
+						<a href="#" onclick="{!c.handleMyAccountClick}">{!$Label.c.LP_My_Account}</a>
+					</div>
+				</div>
+			</div>
+		</header>
+		<div id="bodyContainer">
+			<div class="main-banner" style="{!'background-image:url(' + v.backgroundImageURL +');'}">
+				<div class="banner-overlay"></div>
+				<div class="section-container">
+					{!v.banner}
+				</div>
+			</div>
+			<div class="section-container">
+				<div class="custom-accordions">
+					<div class="button-area">
+						<div class="acc-btn-container">
+							<span class="icon-view-cases accordion-icon"></span>
+							<a href="#" aura:id="cases" data-id="cases" class="active-button" onclick="{! c.handleSetActiveSection }">{!$Label.c.LP_Tile_View_Cases_Title}</a>
+						</div>
+						<div class="acc-btn-container">
+							<span class="icon-faq accordion-icon"></span>
+							<a href="#" aura:id="faq" data-id="faq" onclick="{! c.handleSetActiveSection }">{!$Label.c.LP_Tile_FAQ_Title}</a>
+						</div>
+						<div class="acc-btn-container">
+							<span class="icon-documentation accordion-icon"></span>
+							<a href="#" aura:id="documentation" data-id="documentation" onclick="{! c.handleSetActiveSection }">{!$Label.c.LP_Tile_Documentation_Title}</a>
+						</div>
+						<div class="acc-btn-container">
+							<span class="icon-product accordion-icon"></span>
+							<a href="#" aura:id="productDetails" data-id="productDetails" onclick="{! c.handleSetActiveSection }">{!$Label.c.LP_Tile_Product_Title}</a>
+						</div>
+					</div>
+					<div class="accordions">
+						<lightning:accordion
+								aura:id="accordion"
+								activeSectionName="{!v.activeSection}"
+								onsectiontoggle="{!c.handleSectionToggle}"
+								allowMultipleSectionsOpen="false">
+							<lightning:accordionSection name="cases" label="{!$Label.c.LP_Tile_View_Cases_Title}">
+								{!v.myCases}
+							</lightning:accordionSection>
+							<lightning:accordionSection name="faq" label="{!$Label.c.LP_Tile_FAQ_Title}">
+								{!v.faq}
+							</lightning:accordionSection>
+							<lightning:accordionSection name="documentation" label="{!$Label.c.LP_Tile_Documentation_Title}">
+								{!v.documentation}
+							</lightning:accordionSection>
+							<lightning:accordionSection name="productDetails" label="{!$Label.c.LP_Tile_Product_Title}">
+								{!v.productDetails}
+							</lightning:accordionSection>
+						</lightning:accordion>
+					</div>
+				</div>
+			</div>
+			<div class="body-section">
+				<div class="section-container">
+					{!v.body}
+				</div>
+			</div>
+			<footer class="footer">
+				<c:lpFooter></c:lpFooter>
+			</footer>
+		</div>
+	</div>
+</aura:component>

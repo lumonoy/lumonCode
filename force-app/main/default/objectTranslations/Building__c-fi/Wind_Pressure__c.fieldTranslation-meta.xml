@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Wind pressure (kN/m2) --></help>
+    <label><!-- Wind Pressure --></label>
+    <name>Wind_Pressure__c</name>
+</CustomFieldTranslation>

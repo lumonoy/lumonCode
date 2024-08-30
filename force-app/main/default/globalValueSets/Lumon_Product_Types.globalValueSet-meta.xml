@@ -1,0 +1,655 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Accessories</fullName>
+        <default>false</default>
+        <label>Accessories</label>
+    </customValue>
+    <customValue>
+        <fullName>Additional Profiles</fullName>
+        <default>false</default>
+        <label>Additional Profiles</label>
+    </customValue>
+    <customValue>
+        <fullName>Aluminium Beams</fullName>
+        <default>false</default>
+        <label>Aluminium Beams</label>
+    </customValue>
+    <customValue>
+        <fullName>Aluminium Posts</fullName>
+        <default>false</default>
+        <label>Aluminium Posts</label>
+    </customValue>
+    <customValue>
+        <fullName>Anchors</fullName>
+        <default>false</default>
+        <label>Anchors</label>
+    </customValue>
+    <customValue>
+        <fullName>Balcony Brackets</fullName>
+        <default>false</default>
+        <label>Balcony Brackets</label>
+    </customValue>
+    <customValue>
+        <fullName>Balustrades</fullName>
+        <default>false</default>
+        <label>Balustrades</label>
+    </customValue>
+    <customValue>
+        <fullName>Bars</fullName>
+        <default>false</default>
+        <label>Bars</label>
+    </customValue>
+    <customValue>
+        <fullName>Beads</fullName>
+        <default>false</default>
+        <label>Beads</label>
+    </customValue>
+    <customValue>
+        <fullName>Beams</fullName>
+        <default>false</default>
+        <label>Beams</label>
+    </customValue>
+    <customValue>
+        <fullName>Blind Profiles</fullName>
+        <default>false</default>
+        <label>Blind Profiles</label>
+    </customValue>
+    <customValue>
+        <fullName>Blinds</fullName>
+        <default>false</default>
+        <label>Blinds</label>
+    </customValue>
+    <customValue>
+        <fullName>Bottom Seals</fullName>
+        <default>false</default>
+        <label>Bottom Seals</label>
+    </customValue>
+    <customValue>
+        <fullName>Brackets</fullName>
+        <default>false</default>
+        <label>Brackets</label>
+    </customValue>
+    <customValue>
+        <fullName>Clips</fullName>
+        <default>false</default>
+        <label>Clips</label>
+    </customValue>
+    <customValue>
+        <fullName>Color Group 2</fullName>
+        <default>false</default>
+        <label>Color Group 2</label>
+    </customValue>
+    <customValue>
+        <fullName>Color Group 3</fullName>
+        <default>false</default>
+        <label>Color Group 3</label>
+    </customValue>
+    <customValue>
+        <fullName>Color Group 4</fullName>
+        <default>false</default>
+        <label>Color Group 4</label>
+    </customValue>
+    <customValue>
+        <fullName>Color Group 5</fullName>
+        <default>false</default>
+        <label>Color Group 5</label>
+    </customValue>
+    <customValue>
+        <fullName>Continuous Brackets</fullName>
+        <default>false</default>
+        <label>Continuous Brackets</label>
+    </customValue>
+    <customValue>
+        <fullName>Corner Frames</fullName>
+        <default>false</default>
+        <label>Corner Frames</label>
+    </customValue>
+    <customValue>
+        <fullName>Cost Reservations</fullName>
+        <default>false</default>
+        <label>Cost Reservations</label>
+    </customValue>
+    <customValue>
+        <fullName>Cover Profiles</fullName>
+        <default>false</default>
+        <label>Cover Profiles</label>
+    </customValue>
+    <customValue>
+        <fullName>Covers</fullName>
+        <default>false</default>
+        <label>Covers</label>
+    </customValue>
+    <customValue>
+        <fullName>Decor Profiles</fullName>
+        <default>false</default>
+        <label>Decor Profiles</label>
+    </customValue>
+    <customValue>
+        <fullName>Delivery</fullName>
+        <default>false</default>
+        <label>Delivery</label>
+    </customValue>
+    <customValue>
+        <fullName>Dividing Screens</fullName>
+        <default>false</default>
+        <label>Dividing Screens</label>
+    </customValue>
+    <customValue>
+        <fullName>Doors</fullName>
+        <default>false</default>
+        <label>Doors</label>
+    </customValue>
+    <customValue>
+        <fullName>Drain Pipes</fullName>
+        <default>false</default>
+        <label>Drain Pipes</label>
+    </customValue>
+    <customValue>
+        <fullName>End Gap Profiles</fullName>
+        <default>false</default>
+        <label>End Gap Profiles</label>
+    </customValue>
+    <customValue>
+        <fullName>End Plugs</fullName>
+        <default>false</default>
+        <label>End Plugs</label>
+    </customValue>
+    <customValue>
+        <fullName>Extension Profiles</fullName>
+        <default>false</default>
+        <label>Extension Profiles</label>
+    </customValue>
+    <customValue>
+        <fullName>Extra Costs</fullName>
+        <default>false</default>
+        <label>Extra Costs</label>
+    </customValue>
+    <customValue>
+        <fullName>Facade Cover Profiles</fullName>
+        <default>false</default>
+        <label>Facade Cover Profiles</label>
+    </customValue>
+    <customValue>
+        <fullName>F-Beads</fullName>
+        <default>false</default>
+        <label>F-Beads</label>
+    </customValue>
+    <customValue>
+        <fullName>Finished Goods</fullName>
+        <default>false</default>
+        <label>Finished Goods</label>
+    </customValue>
+    <customValue>
+        <fullName>Flat Bars</fullName>
+        <default>false</default>
+        <label>Flat Bars</label>
+    </customValue>
+    <customValue>
+        <fullName>Floor Frames</fullName>
+        <default>false</default>
+        <label>Floor Frames</label>
+    </customValue>
+    <customValue>
+        <fullName>Floor Seal Profiles</fullName>
+        <default>false</default>
+        <label>Floor Seal Profiles</label>
+    </customValue>
+    <customValue>
+        <fullName>Foundations</fullName>
+        <default>false</default>
+        <label>Foundations</label>
+    </customValue>
+    <customValue>
+        <fullName>F-Profiles</fullName>
+        <default>false</default>
+        <label>F-Profiles</label>
+    </customValue>
+    <customValue>
+        <fullName>Framed Glass</fullName>
+        <default>false</default>
+        <label>Framed Glass</label>
+    </customValue>
+    <customValue>
+        <fullName>Frames</fullName>
+        <default>false</default>
+        <label>Frames</label>
+    </customValue>
+    <customValue>
+        <fullName>Freight</fullName>
+        <default>false</default>
+        <label>Freight</label>
+    </customValue>
+    <customValue>
+        <fullName>Front Beams</fullName>
+        <default>false</default>
+        <label>Front Beams</label>
+    </customValue>
+    <customValue>
+        <fullName>Glass</fullName>
+        <default>false</default>
+        <label>Glass</label>
+    </customValue>
+    <customValue>
+        <fullName>Glass 10mm</fullName>
+        <default>false</default>
+        <label>Glass 10mm</label>
+    </customValue>
+    <customValue>
+        <fullName>Glass 12mm</fullName>
+        <default>false</default>
+        <label>Glass 12mm</label>
+    </customValue>
+    <customValue>
+        <fullName>Glass 6mm</fullName>
+        <default>false</default>
+        <label>Glass 6mm</label>
+    </customValue>
+    <customValue>
+        <fullName>Glass 8mm</fullName>
+        <default>false</default>
+        <label>Glass 8mm</label>
+    </customValue>
+    <customValue>
+        <fullName>Glass Frames</fullName>
+        <default>false</default>
+        <label>Glass Frames</label>
+    </customValue>
+    <customValue>
+        <fullName>Glass Panes</fullName>
+        <default>false</default>
+        <label>Glass Panes</label>
+    </customValue>
+    <customValue>
+        <fullName>Glazing</fullName>
+        <default>false</default>
+        <label>Glazing</label>
+    </customValue>
+    <customValue>
+        <fullName>Glazing Beads</fullName>
+        <default>false</default>
+        <label>Glazing Beads</label>
+    </customValue>
+    <customValue>
+        <fullName>Gutters</fullName>
+        <default>false</default>
+        <label>Gutters</label>
+    </customValue>
+    <customValue>
+        <fullName>Handle Frames</fullName>
+        <default>false</default>
+        <label>Handle Frames</label>
+    </customValue>
+    <customValue>
+        <fullName>Handles</fullName>
+        <default>false</default>
+        <label>Handles</label>
+    </customValue>
+    <customValue>
+        <fullName>Handrails</fullName>
+        <default>false</default>
+        <label>Handrails</label>
+    </customValue>
+    <customValue>
+        <fullName>Hat Brackets</fullName>
+        <default>false</default>
+        <label>Hat Brackets</label>
+    </customValue>
+    <customValue>
+        <fullName>h-Beads</fullName>
+        <default>false</default>
+        <label>h-Beads</label>
+    </customValue>
+    <customValue>
+        <fullName>Installation</fullName>
+        <default>false</default>
+        <label>Installation</label>
+    </customValue>
+    <customValue>
+        <fullName>Installation Costs</fullName>
+        <default>false</default>
+        <label>Installation Costs</label>
+    </customValue>
+    <customValue>
+        <fullName>Installation Profiles</fullName>
+        <default>false</default>
+        <label>Installation Profiles</label>
+    </customValue>
+    <customValue>
+        <fullName>Insurance</fullName>
+        <default>false</default>
+        <label>Insurance</label>
+    </customValue>
+    <customValue>
+        <fullName>Item</fullName>
+        <default>false</default>
+        <label>Item</label>
+    </customValue>
+    <customValue>
+        <fullName>Laminated Glass</fullName>
+        <default>false</default>
+        <label>Laminated Glass</label>
+    </customValue>
+    <customValue>
+        <fullName>Latches</fullName>
+        <default>false</default>
+        <label>Latches</label>
+    </customValue>
+    <customValue>
+        <fullName>Lower Frames</fullName>
+        <default>false</default>
+        <label>Lower Frames</label>
+    </customValue>
+    <customValue>
+        <fullName>Lower Profiles</fullName>
+        <default>false</default>
+        <label>Lower Profiles</label>
+    </customValue>
+    <customValue>
+        <fullName>Low Threshold Profiles</fullName>
+        <default>false</default>
+        <label>Low Threshold Profiles</label>
+    </customValue>
+    <customValue>
+        <fullName>L-Profiles</fullName>
+        <default>false</default>
+        <label>L-Profiles</label>
+    </customValue>
+    <customValue>
+        <fullName>Main Product</fullName>
+        <default>false</default>
+        <label>Main Product</label>
+    </customValue>
+    <customValue>
+        <fullName>Maintenance</fullName>
+        <default>false</default>
+        <label>Maintenance</label>
+    </customValue>
+    <customValue>
+        <fullName>Middle Beads</fullName>
+        <default>false</default>
+        <label>Middle Beads</label>
+    </customValue>
+    <customValue>
+        <fullName>Nuts</fullName>
+        <default>false</default>
+        <label>Nuts</label>
+    </customValue>
+    <customValue>
+        <fullName>Parts</fullName>
+        <default>false</default>
+        <label>Parts</label>
+    </customValue>
+    <customValue>
+        <fullName>Picket Railing Profiles</fullName>
+        <default>false</default>
+        <label>Picket Railing Profiles</label>
+    </customValue>
+    <customValue>
+        <fullName>Posts</fullName>
+        <default>false</default>
+        <label>Posts</label>
+    </customValue>
+    <customValue>
+        <fullName>Privacy Screens</fullName>
+        <default>false</default>
+        <label>Privacy Screens</label>
+    </customValue>
+    <customValue>
+        <fullName>Profile End Caps</fullName>
+        <default>false</default>
+        <label>Profile End Caps</label>
+    </customValue>
+    <customValue>
+        <fullName>Profiles</fullName>
+        <default>false</default>
+        <label>Profiles</label>
+    </customValue>
+    <customValue>
+        <fullName>Quarantees</fullName>
+        <default>false</default>
+        <label>Quarantees</label>
+    </customValue>
+    <customValue>
+        <fullName>Railing Brackets</fullName>
+        <default>false</default>
+        <label>Railing Brackets</label>
+    </customValue>
+    <customValue>
+        <fullName>Rear Beams</fullName>
+        <default>false</default>
+        <label>Rear Beams</label>
+    </customValue>
+    <customValue>
+        <fullName>Reclamation</fullName>
+        <default>false</default>
+        <label>Reclamation</label>
+    </customValue>
+    <customValue>
+        <fullName>Rectangular Profiles</fullName>
+        <default>false</default>
+        <label>Rectangular Profiles</label>
+    </customValue>
+    <customValue>
+        <fullName>Roof Beams</fullName>
+        <default>false</default>
+        <label>Roof Beams</label>
+    </customValue>
+    <customValue>
+        <fullName>Roof Glass</fullName>
+        <default>false</default>
+        <label>Roof Glass</label>
+    </customValue>
+    <customValue>
+        <fullName>Roof Rafters</fullName>
+        <default>false</default>
+        <label>Roof Rafters</label>
+    </customValue>
+    <customValue>
+        <fullName>Screws</fullName>
+        <default>false</default>
+        <label>Screws</label>
+    </customValue>
+    <customValue>
+        <fullName>Seals</fullName>
+        <default>false</default>
+        <label>Seals</label>
+    </customValue>
+    <customValue>
+        <fullName>Services</fullName>
+        <default>false</default>
+        <label>Services</label>
+    </customValue>
+    <customValue>
+        <fullName>Side Beams</fullName>
+        <default>false</default>
+        <label>Side Beams</label>
+    </customValue>
+    <customValue>
+        <fullName>Side Brackets</fullName>
+        <default>false</default>
+        <label>Side Brackets</label>
+    </customValue>
+    <customValue>
+        <fullName>Side Supports</fullName>
+        <default>false</default>
+        <label>Side Supports</label>
+    </customValue>
+    <customValue>
+        <fullName>Snow Guards</fullName>
+        <default>false</default>
+        <label>Snow Guards</label>
+    </customValue>
+    <customValue>
+        <fullName>Special</fullName>
+        <default>false</default>
+        <label>Special</label>
+    </customValue>
+    <customValue>
+        <fullName>Square Profiles</fullName>
+        <default>false</default>
+        <label>Square Profiles</label>
+    </customValue>
+    <customValue>
+        <fullName>Standard Posts</fullName>
+        <default>false</default>
+        <label>Standard Posts</label>
+    </customValue>
+    <customValue>
+        <fullName>Strong Beams</fullName>
+        <default>false</default>
+        <label>Strong Beams</label>
+    </customValue>
+    <customValue>
+        <fullName>Strong Posts</fullName>
+        <default>false</default>
+        <label>Strong Posts</label>
+    </customValue>
+    <customValue>
+        <fullName>Sun Screens</fullName>
+        <default>false</default>
+        <label>Sun Screens</label>
+    </customValue>
+    <customValue>
+        <fullName>Supplies</fullName>
+        <default>false</default>
+        <label>Supplies</label>
+    </customValue>
+    <customValue>
+        <fullName>Supports</fullName>
+        <default>false</default>
+        <label>Supports</label>
+    </customValue>
+    <customValue>
+        <fullName>System Angle</fullName>
+        <default>false</default>
+        <label>System Angle</label>
+    </customValue>
+    <customValue>
+        <fullName>Telescopic Profiles</fullName>
+        <default>false</default>
+        <label>Telescopic Profiles</label>
+    </customValue>
+    <customValue>
+        <fullName>Terraces</fullName>
+        <default>false</default>
+        <label>Terraces</label>
+    </customValue>
+    <customValue>
+        <fullName>Test</fullName>
+        <default>false</default>
+        <label>Test</label>
+    </customValue>
+    <customValue>
+        <fullName>TOTALS</fullName>
+        <default>false</default>
+        <label>TOTALS</label>
+    </customValue>
+    <customValue>
+        <fullName>Upper Profiles</fullName>
+        <default>false</default>
+        <label>Upper Profiles</label>
+    </customValue>
+    <customValue>
+        <fullName>U-Profiles</fullName>
+        <default>false</default>
+        <label>U-Profiles</label>
+    </customValue>
+    <customValue>
+        <fullName>Wall Frames</fullName>
+        <default>false</default>
+        <label>Wall Frames</label>
+    </customValue>
+    <customValue>
+        <fullName>Wall Profiles</fullName>
+        <default>false</default>
+        <label>Wall Profiles</label>
+    </customValue>
+    <customValue>
+        <fullName>Water Dampers</fullName>
+        <default>false</default>
+        <label>Water Dampers</label>
+    </customValue>
+    <customValue>
+        <fullName>Weather Guards</fullName>
+        <default>false</default>
+        <label>Weather Guards</label>
+    </customValue>
+    <customValue>
+        <fullName>Wedge Profiles</fullName>
+        <default>false</default>
+        <label>Wedge Profiles</label>
+    </customValue>
+    <customValue>
+        <fullName>Vertical Frames</fullName>
+        <default>false</default>
+        <label>Vertical Frames</label>
+    </customValue>
+    <customValue>
+        <fullName>Extra Work</fullName>
+        <default>false</default>
+        <label>Extra Work</label>
+    </customValue>
+    <customValue>
+        <fullName>Unclassified</fullName>
+        <default>false</default>
+        <label>Unclassified</label>
+    </customValue>
+    <customValue>
+        <fullName>Crane Rental Costs</fullName>
+        <default>false</default>
+        <label>Crane Rental Costs</label>
+    </customValue>
+    <customValue>
+        <fullName>Lifting Costs</fullName>
+        <default>false</default>
+        <label>Lifting Costs</label>
+    </customValue>
+    <customValue>
+        <fullName>Extra Production Costs</fullName>
+        <default>false</default>
+        <label>Extra Production Costs</label>
+    </customValue>
+    <customValue>
+        <fullName>Expenses</fullName>
+        <default>false</default>
+        <label>Expenses</label>
+    </customValue>
+    <customValue>
+        <fullName>Installation Supplies</fullName>
+        <default>false</default>
+        <label>Installation Supplies</label>
+    </customValue>
+    <customValue>
+        <fullName>Freight Costs</fullName>
+        <default>false</default>
+        <label>Freight Costs</label>
+    </customValue>
+    <customValue>
+        <fullName>3rd Party Installation Costs</fullName>
+        <default>false</default>
+        <label>3rd Party Installation Costs</label>
+    </customValue>
+    <customValue>
+        <fullName>Insurance Costs</fullName>
+        <default>false</default>
+        <label>Insurance Costs</label>
+    </customValue>
+    <customValue>
+        <fullName>Permit Application Costs</fullName>
+        <default>false</default>
+        <label>Permit Application Costs</label>
+    </customValue>
+    <customValue>
+        <fullName>Outsourcing Costs</fullName>
+        <default>false</default>
+        <label>Outsourcing Costs</label>
+    </customValue>
+    <customValue>
+        <fullName>Foundation Costs</fullName>
+        <default>false</default>
+        <label>Foundation Costs</label>
+    </customValue>
+    <masterLabel>Lumon Product Types</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

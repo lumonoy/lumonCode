@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- When Enabled Groups Configuration Items per ProductCode --></help>
+    <label><!-- Group Items --></label>
+    <name>Group_Items__c</name>
+</CustomFieldTranslation>

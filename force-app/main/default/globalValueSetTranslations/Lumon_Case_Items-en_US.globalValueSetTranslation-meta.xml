@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>AD Access(New)</masterLabel>
+        <translation>AD Access</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>AX(New)</masterLabel>
+        <translation>AX</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Accessories(New)</masterLabel>
+        <translation>Accessories</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Accounts(New)</masterLabel>
+        <translation>Accounts</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Ad rights(New)</masterLabel>
+        <translation>Ad rights</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Adobe products(New)</masterLabel>
+        <translation>Adobe products</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Amazon Accesories(New)</masterLabel>
+        <translation>Amazon Accesories</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Amazon Computers(New)</masterLabel>
+        <translation>Amazon Computers</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Amazon Gifts(New)</masterLabel>
+        <translation>Amazon Gifts</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Amazon Others(New)</masterLabel>
+        <translation>Amazon Others</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Amazon Phones(New)</masterLabel>
+        <translation>Amazon Phones</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Autocad + LT(New)</masterLabel>
+        <translation>Autocad + LT</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Autopilot Problem(New)</masterLabel>
+        <translation>Autopilot Problem</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Basware(New)</masterLabel>
+        <translation>Basware</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Blinds Sales(New)</masterLabel>
+        <translation>Blinds Sales</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Blinds(New)</masterLabel>
+        <translation>Blinds</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Brandtori(New)</masterLabel>
+        <translation>Brandtori</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CS_TASK_Update_Contact(New)</masterLabel>
+        <translation>CS_TASK_Update_Contact</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CS_TASK_Update_EndTime(New)</masterLabel>
+        <translation>CS_TASK_Update_EndTime</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CS_TASK_Update_Location(New)</masterLabel>
+        <translation>CS_TASK_Update_Location</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CS_TASK_Update_Phone(New)</masterLabel>
+        <translation>CS_TASK_Update_Phone</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CS_TASK_Update_Signature(New)</masterLabel>
+        <translation>CS_TASK_Update_Signature</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CS_TASK_Update_StartTime(New)</masterLabel>
+        <translation>CS_TASK_Update_StartTime</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Call forwarding(New)</masterLabel>
+        <translation>Call forwarding</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Callback Request(New)</masterLabel>
+        <translation>Callback Request</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Components(New)</masterLabel>
+        <translation>Components</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Computers(New)</masterLabel>
+        <translation>Computers</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Consumer Sales(New)</masterLabel>
+        <translation>Consumer Sales</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Customer info(New)</masterLabel>
+        <translation>Customer info</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Dealers(New)</masterLabel>
+        <translation>Dealers</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Defender(New)</masterLabel>
+        <translation>Defender</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Disable Accounts(New)</masterLabel>
+        <translation>Disable Accounts</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Doctori(New)</masterLabel>
+        <translation>Doctori</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Elisa(New)</masterLabel>
+        <translation>Elisa</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Email(New)</masterLabel>
+        <translation>Email</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Esmi &amp; Security Expert(New)</masterLabel>
+        <translation>Esmi &amp; Security Expert</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Frends(New)</masterLabel>
+        <translation>Frends</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Freshdesk(New)</masterLabel>
+        <translation>Freshdesk</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>General problem(New)</masterLabel>
+        <translation>General problem</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Glazing Retractable(LGR)(New)</masterLabel>
+        <translation>Glazing Retractable(LGR)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Glazing Sliding(LGS)(New)</masterLabel>
+        <translation>Glazing Sliding(LGS)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Hardware Problem(New)</masterLabel>
+        <translation>Hardware Problem</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>IT_SW_PowerBI(New)</masterLabel>
+        <translation>IT_SW_PowerBI</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Information Requests(New)</masterLabel>
+        <translation>Information Requests</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Inquiry(New)</masterLabel>
+        <translation>Inquiry</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Install apps(New)</masterLabel>
+        <translation>Install apps</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Intori(New)</masterLabel>
+        <translation>Intori</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Invoices(New)</masterLabel>
+        <translation>Invoices</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Jira(New)</masterLabel>
+        <translation>Jira</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Licenses(New)</masterLabel>
+        <translation>Licenses</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Lisec(New)</masterLabel>
+        <translation>Lisec</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Logistics(New)</masterLabel>
+        <translation>Logistics</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>M2(New)</masterLabel>
+        <translation>M2</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Mainos/roskaposti(New)</masterLabel>
+        <translation>Mainos/roskaposti</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Maintenance(New)</masterLabel>
+        <translation>Maintenance</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Maintori(New)</masterLabel>
+        <translation>Maintori</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Mepco(New)</masterLabel>
+        <translation>Mepco</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Mfiles(New)</masterLabel>
+        <translation>Mfiles</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Mobile Data(New)</masterLabel>
+        <translation>Mobile Data</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Network Folder Access(New)</masterLabel>
+        <translation>Network Folder Access</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Network Problem(New)</masterLabel>
+        <translation>Network Problem</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Network folder(New)</masterLabel>
+        <translation>Network folder</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>New User(New)</masterLabel>
+        <translation>New User</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Not Applicable(New)</masterLabel>
+        <translation>Not Applicable</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Offers(New)</masterLabel>
+        <translation>Offers</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Office(New)</masterLabel>
+        <translation>Office</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Old Products(New)</masterLabel>
+        <translation>Old Products</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>OneNote(New)</masterLabel>
+        <translation>OneNote</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Orders(New)</masterLabel>
+        <translation>Orders</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Other(New)</masterLabel>
+        <translation>Other</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Others(New)</masterLabel>
+        <translation>Others</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>PIN/PUK(New)</masterLabel>
+        <translation>PIN/PUK</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>PRTG(New)</masterLabel>
+        <translation>PRTG</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Pagero(New)</masterLabel>
+        <translation>Pagero</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Palette(New)</masterLabel>
+        <translation>Palette</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Password(New)</masterLabel>
+        <translation>Password</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Permits(New)</masterLabel>
+        <translation>Permits</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Phone Problem(New)</masterLabel>
+        <translation>Phone Problem</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Plantori Access(New)</masterLabel>
+        <translation>Plantori Access</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Plantori(New)</masterLabel>
+        <translation>Plantori</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Precut(New)</masterLabel>
+        <translation>Precut</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Printer Problem(New)</masterLabel>
+        <translation>Printer Problem</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Project Sales(New)</masterLabel>
+        <translation>Project Sales</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Q-factory(New)</masterLabel>
+        <translation>Q-factory</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Question(New)</masterLabel>
+        <translation>Question</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Rajobit robot(New)</masterLabel>
+        <translation>Rajobit robot</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Reclamations(New)</masterLabel>
+        <translation>Reclamations</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Red Line Products(New)</masterLabel>
+        <translation>Red Line Products</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Remote Desktop Problem(New)</masterLabel>
+        <translation>Remote Desktop Problem</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Reptori Access(New)</masterLabel>
+        <translation>Reptori Access</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Reptori(New)</masterLabel>
+        <translation>Reptori</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Request(New)</masterLabel>
+        <translation>Request</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Requests(New)</masterLabel>
+        <translation>Requests</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Sales(New)</masterLabel>
+        <translation>Sales</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Salesforce Access(New)</masterLabel>
+        <translation>Salesforce Access</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Salesforce(New)</masterLabel>
+        <translation>Salesforce</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Salestori Access(New)</masterLabel>
+        <translation>Salestori Access</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Salestori(New)</masterLabel>
+        <translation>Salestori</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Services Sales(New)</masterLabel>
+        <translation>Services Sales</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Shopify(New)</masterLabel>
+        <translation>Shopify</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Softphone(New)</masterLabel>
+        <translation>Softphone</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Solidworks(New)</masterLabel>
+        <translation>Solidworks</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Sovelia(New)</masterLabel>
+        <translation>Sovelia</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Surveys(New)</masterLabel>
+        <translation>Surveys</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Syncrontech(New)</masterLabel>
+        <translation>Syncrontech</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>TS_RECL_Billable(New)</masterLabel>
+        <translation>TS_RECL_Billable</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>TS_RECL_Warranty_Consumer(New)</masterLabel>
+        <translation>TS_RECL_Warranty_Consumer</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>TS_RECL_Warranty_Project(New)</masterLabel>
+        <translation>TS_RECL_Warranty_Project</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>TS_WAR_Installation_Warranty(New)</masterLabel>
+        <translation>TS_WAR_Installation_Warranty</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>TS_WAR_Product_Warranty(New)</masterLabel>
+        <translation>TS_WAR_Product_Warranty</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>TS_WAR_Service_Warranty(New)</masterLabel>
+        <translation>TS_WAR_Service_Warranty</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Teams(New)</masterLabel>
+        <translation>Teams</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Teamviewer(New)</masterLabel>
+        <translation>Teamviewer</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Tietori Access(New)</masterLabel>
+        <translation>Tietori Access</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Tietori(New)</masterLabel>
+        <translation>Tietori</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Unifaun(New)</masterLabel>
+        <translation>Unifaun</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Uniflow(New)</masterLabel>
+        <translation>Uniflow</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Unlocked Device Problem(New)</masterLabel>
+        <translation>Unlocked Device Problem</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>User Licenses(New)</masterLabel>
+        <translation>User Licenses</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>User docs(New)</masterLabel>
+        <translation>User docs</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Veeam(New)</masterLabel>
+        <translation>Veeam</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Warranty(New)</masterLabel>
+        <translation>Warranty</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Wmware(New)</masterLabel>
+        <translation>Wmware</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>WorkOrders(New)</masterLabel>
+        <translation>WorkOrders</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Workstation Problem(New)</masterLabel>
+        <translation>Workstation Problem</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>eCon(New)</masterLabel>
+        <translation>eCon</translation>
+    </valueTranslation>
+</GlobalValueSetTranslation>

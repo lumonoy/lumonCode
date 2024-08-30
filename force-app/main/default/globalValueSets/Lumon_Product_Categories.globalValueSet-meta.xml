@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Additional Costs</fullName>
+        <default>false</default>
+        <label>Additional Costs</label>
+    </customValue>
+    <customValue>
+        <fullName>Documents</fullName>
+        <default>false</default>
+        <label>Documents</label>
+    </customValue>
+    <customValue>
+        <fullName>Extra Sales</fullName>
+        <default>false</default>
+        <label>Extra Sales</label>
+    </customValue>
+    <customValue>
+        <fullName>Items</fullName>
+        <default>false</default>
+        <label>Items</label>
+    </customValue>
+    <customValue>
+        <fullName>Product Models</fullName>
+        <default>false</default>
+        <label>Product Models</label>
+    </customValue>
+    <customValue>
+        <fullName>Product Options</fullName>
+        <default>false</default>
+        <label>Product Options</label>
+    </customValue>
+    <customValue>
+        <fullName>Products</fullName>
+        <default>false</default>
+        <label>Products</label>
+    </customValue>
+    <customValue>
+        <fullName>Product Supplies</fullName>
+        <default>false</default>
+        <label>Product Supplies</label>
+    </customValue>
+    <customValue>
+        <fullName>Samples</fullName>
+        <default>false</default>
+        <label>Samples</label>
+    </customValue>
+    <customValue>
+        <fullName>Scale Models</fullName>
+        <default>false</default>
+        <label>Scale Models</label>
+    </customValue>
+    <customValue>
+        <fullName>Services</fullName>
+        <default>false</default>
+        <label>Services</label>
+    </customValue>
+    <customValue>
+        <fullName>Shipping Costs</fullName>
+        <default>false</default>
+        <label>Shipping Costs</label>
+    </customValue>
+    <customValue>
+        <fullName>Supplies</fullName>
+        <default>false</default>
+        <label>Supplies</label>
+    </customValue>
+    <customValue>
+        <fullName>Test Products</fullName>
+        <default>false</default>
+        <label>Test Products</label>
+    </customValue>
+    <customValue>
+        <fullName>Unclassified</fullName>
+        <default>false</default>
+        <label>Unclassified</label>
+    </customValue>
+    <customValue>
+        <fullName>Product Groups</fullName>
+        <default>false</default>
+        <label>Product Groups</label>
+    </customValue>
+    <customValue>
+        <fullName>Service Costs</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Service Costs</label>
+    </customValue>
+    <customValue>
+        <fullName>Product Features</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Product Features</label>
+    </customValue>
+    <customValue>
+        <fullName>Product Components</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Product Components</label>
+    </customValue>
+    <masterLabel>Lumon Product Categories</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

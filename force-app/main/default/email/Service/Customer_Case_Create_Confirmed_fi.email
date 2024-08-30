@@ -1,0 +1,19 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<font face="Verdana,Helvetica,Sans-Serif" size="3"><span style="color:#000000">Hei</span><font style="color: rgb(0, 0, 0);"> </font>{!Account.Name}<span style="color: rgb(0, 0, 0);">,</span></font><div style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;">
+
+<div><font face="Verdana,Helvetica,Sans-Serif" size="3">&nbsp;</font></div>
+
+<div>
+<p dir="ltr"><font face="Verdana,Helvetica,Sans-Serif" size="3">Kiitos että otit yhteyttä&nbsp;<span id="docs-internal-guid-bbe7fbb6-7fff-5570-1e1c-2eebd59927f5"><span style="color: rgb(55, 65, 81); background-color: rgb(255, 255, 255); font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">{!Organization.Name}</span></span> asiakaspalveluun.</font></p>
+
+<p dir="ltr"><font face="Verdana,Helvetica,Sans-Serif" size="3">Lähetämme
+ sinulle tämän sähköpostin vahvistaaksemme että tapaus&nbsp;<span id="docs-internal-guid-bbe7fbb6-7fff-5570-1e1c-2eebd59927f5"><span style="color: rgb(55, 65, 81); background-color: rgb(255, 255, 255); font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">{!Case.CaseNumber}: "{!Case.Subject}"</span></span>" on luotu. <br></font></p><p dir="ltr"><font face="Verdana,Helvetica,Sans-Serif" size="3"><br></font></p><p dir="ltr"><font face="Verdana,Helvetica,Sans-Serif" size="3">Asiakaspalveluedustaja ottaa sinuun pian yhteyttä.</font></p><p dir="ltr"><font face="Verdana,Helvetica,Sans-Serif" size="3"><br></font></p>
+
+<p class="MsoNormal"><span style="font-size: 12pt; font-family: Verdana, sans-serif;">Ystävällisin terveisin,</span><span style="font-size: 12pt; font-family: Arial, sans-serif;"><o:p></o:p></span></p>
+
+<p dir="ltr"><font face="Verdana,Helvetica,Sans-Serif" size="3"><span id="docs-internal-guid-bbe7fbb6-7fff-5570-1e1c-2eebd59927f5"><span style="color: rgb(55, 65, 81); background-color: rgb(255, 255, 255); font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">{!Organization.Name} </span></span> Asiakaspalvelu</font></p>
+</div><span id="docs-internal-guid-bbe7fbb6-7fff-5570-1e1c-2eebd59927f5"><p dir="ltr" style="line-height:1.38;margin-top:0pt;margin-bottom:0pt;"></p></span></div>]]></td>
+</tr>
+</table>

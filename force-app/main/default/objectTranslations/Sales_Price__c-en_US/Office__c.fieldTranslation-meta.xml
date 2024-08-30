@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Office --></label>
+    <name>Office__c</name>
+    <picklistValues>
+        <masterLabel>Espoo</masterLabel>
+        <translation><!-- Espoo --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Helsinki</masterLabel>
+        <translation><!-- Helsinki --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Kempele</masterLabel>
+        <translation><!-- Kempele --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Kouvola</masterLabel>
+        <translation><!-- Kouvola --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Kuopio</masterLabel>
+        <translation><!-- Kuopio --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lahti</masterLabel>
+        <translation><!-- Lahti --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pori</masterLabel>
+        <translation><!-- Pori --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Raisio</masterLabel>
+        <translation><!-- Raisio --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Seinäjoki</masterLabel>
+        <translation><!-- Seinäjoki --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tampere</masterLabel>
+        <translation><!-- Tampere --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Vaasa</masterLabel>
+        <translation><!-- Vaasa --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Vantaa</masterLabel>
+        <translation><!-- Vantaa --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Vantaa East</masterLabel>
+        <translation><!-- Vantaa East --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Vantaa West</masterLabel>
+        <translation><!-- Vantaa West --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

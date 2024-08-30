@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Product Cost</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Product Costs</value>
+    </caseValues>
+    <layouts>
+        <layout>Product Cost Layout</layout>
+        <sections>
+            <label><!-- Attributes --></label>
+            <section>Attributes</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Parameters --></label>
+            <section>Parameters</section>
+        </sections>
+        <sections>
+            <label><!-- Values --></label>
+            <section>Values</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Multiplier is not within Range --></errorMessage>
+        <name>Multiplier_within_Range</name>
+    </validationRules>
+</CustomObjectTranslation>

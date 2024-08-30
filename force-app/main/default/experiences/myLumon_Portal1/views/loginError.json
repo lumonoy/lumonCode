@@ -1,0 +1,59 @@
+{
+  "appPageId" : "69d14c7a-128e-432e-a37b-50b00b56055b",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "f6ce8162-a06d-4b4e-9003-18496ab75e43",
+  "label" : "Login Error",
+  "regions" : [ {
+    "id" : "ed63c96e-b3e7-42c4-bfd5-2afdaf1e0cbf",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<div style=\"text-align: center;\">Invalid Page</div>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "2ee39215-c87e-407d-91c9-d1004cdf55f2",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : {
+        "fi" : "62d0d591-2372-47b8-8a89-4eadbeee7c3b"
+      },
+      "renditions" : [ {
+        "id" : "62d0d591-2372-47b8-8a89-4eadbeee7c3b",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "richTextValue" : "<p style=\"text-align: center;\">Virheellinen sivu</p>"
+          }
+        },
+        "type" : "renditionComponent"
+      } ],
+      "type" : "component"
+    } ],
+    "id" : "3769c5c2-a311-4816-84d6-fb1f07efafd8",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "09524fb3-02dd-4cd8-b01d-72f3a43aa67d",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Login Error"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "31e50aba-bfad-41b7-a0a7-cd48baa02240",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "521389e6-90b0-4fcc-be8f-b21aaaa9445a",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Login",
+  "type" : "view",
+  "viewType" : "login-error"
+}

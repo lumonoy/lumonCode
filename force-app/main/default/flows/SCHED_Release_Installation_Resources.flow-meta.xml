@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>58.0</apiVersion>
+    <decisions>
+        <description>If the Order is still in Draft status and three days has passed since the Order was created, then the related installation resources are released.</description>
+        <name>Order_activation</name>
+        <label>Order activation</label>
+        <locationX>849</locationX>
+        <locationY>291</locationY>
+        <defaultConnectorLabel>In time</defaultConnectorLabel>
+        <rules>
+            <name>Not_in_time</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.CreatedDate</leftValueReference>
+                <operator>LessThanOrEqualTo</operator>
+                <rightValue>
+                    <elementReference>fxThreeDaysAgo</elementReference>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Release_Resources</targetReference>
+            </connector>
+            <label>Not in time</label>
+        </rules>
+    </decisions>
+    <description>If the Order has not been activated after three days from its creation, then the related installation resources are released.
+02.12.2023: Save Active Version as R2</description>
+    <environments>Default</environments>
+    <formulas>
+        <description>Date Time three days ago.</description>
+        <name>fxThreeDaysAgo</name>
+        <dataType>DateTime</dataType>
+        <expression>NOW() - 3</expression>
+    </formulas>
+    <interviewLabel>SCHED - Release Installation Resources {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>SCHED - Release Installation Resources R2</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>FREE_FORM_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <start>
+        <locationX>730</locationX>
+        <locationY>48</locationY>
+        <connector>
+            <targetReference>Order_activation</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Status</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Draft</stringValue>
+            </value>
+        </filters>
+        <object>Order</object>
+        <schedule>
+            <frequency>Daily</frequency>
+            <startDate>2023-06-19</startDate>
+            <startTime>07:00:00.000Z</startTime>
+        </schedule>
+        <triggerType>Scheduled</triggerType>
+    </start>
+    <status>Active</status>
+    <subflows>
+        <description>Releases all installation releases that are related to the Opportunity.</description>
+        <name>Release_Resources</name>
+        <label>Release Resources</label>
+        <locationX>952</locationX>
+        <locationY>402</locationY>
+        <flowName>Request_release_of_resources_Subflow</flowName>
+        <inputAssignments>
+            <name>OppoId</name>
+            <value>
+                <elementReference>$Record.OpportunityId</elementReference>
+            </value>
+        </inputAssignments>
+    </subflows>
+</Flow>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Case Created Confirmation to Customer</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Lumon_Email_Letterhead</letterhead>
+    <name>Customer - Case Created FI</name>
+    <style>freeForm</style>
+    <subject>Tapauksesi # {!Case.CaseNumber}: &quot;{!Case.Subject}&quot; on luotu.</subject>
+    <textOnly>Hei {!Account.Name},
+
+Kiitos että otit yhteyttä {!Organization.Name} asiakaspalveluun.
+
+Lähetämme sinulle tämän sähköpostin vahvistaaksemme että tapaus {!Case.CaseNumber}: &quot;{!Case.Subject}&quot;&quot; on luotu.
+
+Asiakaspalveluedustaja ottaa sinuun pian yhteyttä.
+
+Ystävällisin terveisin,
+{!Organization.Name}  Asiakaspalvelu</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

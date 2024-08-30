@@ -1,0 +1,192 @@
+<!--
+  @description       : 
+  @author            : Henk Reynders
+  @group             : 
+  @last modified on  : 04-03-2024
+  @last modified by  : Henk Reynders
+-->
+<template>
+    <div class={flexipageRegionWidth}>
+        <p if:true={reclamationOrderError}>{reclamationOrderError}</p>
+        <template if:true={displayNewButton}>
+            <p if:true={disabledNewButton}>
+                Please fill in terrain type, wind speed and building type to be able to create a new plan OR make sure the
+                structural analysis has wind pressure defined.
+            </p>
+        </template>
+        <c-custom-modal if:true={showCloneModal} header="Confirm Clone" size="medium" relative-content>
+            <div class="slds-modal__content slds-var-p-around_medium">
+                <p>
+                    <lightning-input
+                        type="checkbox"
+                        value={cloneToNewPlan}
+                        checked={cloneToNewPlan}
+                        onchange={handleCloneToNewPlan}
+                        label="Do you want to Clone the Opportunity and link with the existing plan ?"
+                    ></lightning-input>
+                </p>
+                <br />
+                <p>Click OK to only clone the configuration products and related configuration plans.</p>
+            </div>
+            <div slot="footer">
+                <lightning-button onclick={clonePlans} label="Clone" class="slds-var-p-right_small"></lightning-button>
+                <lightning-button
+                    onclick={handleCloseNewPlan}
+                    label="Cancel"
+                    class="slds-var-p-right_small"
+                ></lightning-button>
+            </div>
+        </c-custom-modal>
+        <c-conditional-modal if:true={visible} header="Offer Content" size="large" show-modal={fullScreen}>
+            <lightning-card hide-header if:true={visible}>
+                <lightning-spinner if:true={processing}></lightning-spinner>
+                <lightning-layout multiple-rows>
+                    <lightning-layout-item size="12" class="slds-var-m-bottom_small">
+                        <lightning-button-group>
+                            <template if:true={displayAddPlan}>
+                                <lightning-button
+                                    disabled={disabledAddPlan}
+                                    label="Add"
+                                    title="Add Plan"
+                                    accesskey="v"
+                                    icon-name="utility:record_create"
+                                    size="medium"
+                                    onclick={handleClickAddPlan}
+                                    alternative-text="Add Plan"
+                                    aria-label="visualplanbutton"
+                                    class="action-button"
+                                ></lightning-button>
+                            </template>
+                            <template if:true={displayAddBlinds}>
+                                <lightning-button
+                                    disabled={disabledAddBlinds}
+                                    label="Add Blinds"
+                                    title="Add Blinds"
+                                    accesskey="s"
+                                    icon-name="utility:record_create"
+                                    size="medium"
+                                    onclick={handleClickAddBlinds}
+                                    alternative-text="Add Blinds"
+                                    aria-label="addblindsbutton"
+                                    class="action-button"
+                                ></lightning-button>
+                            </template>
+                            <lightning-button
+                                if:true={displaySaveButton}
+                                icon-name="utility:save"
+                                label="Save"
+                                title="Save"
+                                onclick={handleSaveUpdatedFields}
+                                class="action-button"
+                            ></lightning-button>
+                            <lightning-button
+                                if:true={displayCancelButton}
+                                icon-name="utility:cancel"
+                                label="Cancel"
+                                title="Cancel"
+                                onclick={handleCancelUpdatedFields}
+                                class="action-button"
+                            ></lightning-button>
+                            <lightning-button
+                                if:true={displayDeleteButton}
+                                disabled={disableDeleteButton}
+                                label={deleteButtonLabel}
+                                title="Delete"
+                                accesskey="d"
+                                icon-name="utility:delete"
+                                onclick={handleDelete}
+                                alternative-text="Delete"
+                                aria-label="deleteplanbutton"
+                                class="action-button"
+                            ></lightning-button>
+                            <lightning-button
+                                if:true={displayCloneButton}
+                                disabled={disableCloneButton}
+                                label={cloneButtonLabel}
+                                title="Clone"
+                                accesskey="c"
+                                icon-name="utility:copy"
+                                onclick={clonePlans}
+                                alternative-text="Clone"
+                                aria-label="cloneplanbutton"
+                                class="action-button"
+                            ></lightning-button>
+                            <lightning-button
+                                if:true={displayMessageButton}
+                                disabled={disableMessageButton}
+                                label={messageButtonLabel}
+                                title="Message"
+                                accesskey="m"
+                                icon-name="utility:copy"
+                                onclick={addMessage}
+                                alternative-text="Message"
+                                aria-label="messagebutton"
+                                class="action-button"
+                            ></lightning-button>
+                            <!-- <lightning-button
+                                disabled={disableSpecialButton}
+                                label={specialButtonLabel}
+                                title="Special"
+                                accesskey="s"
+                                icon-name="utility:add"
+                                onclick={handleSpecial}
+                                alternative-text="Special"
+                                aria-label="specialbutton"
+                                class="action-button"
+                            ></lightning-button> -->
+                            <lightning-button
+                                label="Full Screen"
+                                title="Full Screen"
+                                accesskey="f"
+                                icon-name="utility:expand"
+                                size="medium"
+                                onclick={toggleFullScreen}
+                                alternative-text="Full Screen"
+                                aria-label="fullscreenbutton"
+                                class="action-button"
+                            ></lightning-button>
+                            <lightning-button 
+                                label="Refresh"
+                                title="Refresh"
+                                accesskey="r"
+                                icon-name="utility:refresh"
+                                size="medium"                               
+                                onclick={handleRefresh} 
+                                alternative-text="Refresh"
+                                aria-label="refreshbutton"
+                                class="action-button" 
+                            ></lightning-button>
+
+                        </lightning-button-group>
+                    </lightning-layout-item>
+                    <!-- Customer DataTable-->
+                    <lightning-layout-item size="12">
+                        <c-custom-datatable
+                            if:true={visible}
+                            key-field={keyField}
+                            columns={columns}
+                            sort-by={sortBy}
+                            sort-order={sortOrder}
+                            table-data={tableData}
+                            onvaluechanged={handleValueChange}
+                            ondoubleclick={handleDoubleClick}
+                            onlinkclick={handleLinkClick}
+                            oninlineedit={handleInlineEdit}
+                            onsort={handleSort}
+                            custom-style-path={cssResourcePath}
+                            table-class={tableClass}
+                            full-width
+                        ></c-custom-datatable>
+                    </lightning-layout-item>
+                </lightning-layout>
+            </lightning-card>
+            <div slot="footer">
+                <lightning-button
+                    onclick={toggleFullScreen}
+                    label="Close"
+                    class="slds-var-p-right_small"
+                ></lightning-button>
+            </div>
+        </c-conditional-modal>
+    </div>
+</template>

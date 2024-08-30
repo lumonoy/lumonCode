@@ -1,0 +1,6 @@
+Hello {!ResourceAbsence.CreatedBy},
+
+Link to Absence: {!ResourceAbsence.Link}
+
+Best Regards,
+The Approval Process

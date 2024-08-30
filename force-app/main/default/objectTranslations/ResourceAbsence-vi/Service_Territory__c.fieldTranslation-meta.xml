@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- This absence is related to this Service Territory --></help>
+    <label><!-- Service Territory --></label>
+    <name>Service_Territory__c</name>
+    <relationshipLabel><!-- Resource Absences --></relationshipLabel>
+</CustomFieldTranslation>

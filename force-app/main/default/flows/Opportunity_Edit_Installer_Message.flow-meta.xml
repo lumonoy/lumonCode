@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>57.0</apiVersion>
+    <assignments>
+        <name>Assign_data</name>
+        <label>Assign data</label>
+        <locationX>894</locationX>
+        <locationY>180</locationY>
+        <assignmentItems>
+            <assignToReference>recConfigProd.Id</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>recordId</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>recConfigProd.Installer_Message__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>InstallerMessage.fieldValue</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Update_Configuration_Product</targetReference>
+        </connector>
+    </assignments>
+    <description>Allows Sales Person to edit the Installer Message i.e.text and images containing information that will be added to the Installation Card. This is per RVN.
+02.12.2023: Save Active Version as R2
+
+6.4.2023: Set to run as system.
+6.4.2023: First version.</description>
+    <environments>Default</environments>
+    <interviewLabel>Opportunity - Edit Installer Message {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Opportunity - Edit Installer Message R2</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>FREE_FORM_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>Flow</processType>
+    <recordLookups>
+        <name>Get_Configuration_Product</name>
+        <label>Get Configuration Product</label>
+        <locationX>648</locationX>
+        <locationY>180</locationY>
+        <assignNullValuesIfNoRecordsFound>true</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Enter_Installer_Message</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>recordId</elementReference>
+            </value>
+        </filters>
+        <object>Configuration_Product__c</object>
+        <outputReference>recConfigProd</outputReference>
+        <queriedFields>Id</queriedFields>
+        <queriedFields>Installer_Message__c</queriedFields>
+    </recordLookups>
+    <recordUpdates>
+        <name>Update_Configuration_Product</name>
+        <label>Update Configuration Product</label>
+        <locationX>1019</locationX>
+        <locationY>180</locationY>
+        <inputReference>recConfigProd</inputReference>
+    </recordUpdates>
+    <runInMode>SystemModeWithoutSharing</runInMode>
+    <screens>
+        <name>Enter_Installer_Message</name>
+        <label>Enter Installer Message</label>
+        <locationX>773</locationX>
+        <locationY>180</locationY>
+        <allowBack>false</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>false</allowPause>
+        <connector>
+            <targetReference>Assign_data</targetReference>
+        </connector>
+        <fields>
+            <name>InstallerMessage</name>
+            <extensionName>c:screenFlowRichText</extensionName>
+            <fieldType>ComponentInstance</fieldType>
+            <inputParameters>
+                <name>visibleLines</name>
+                <value>
+                    <numberValue>30.0</numberValue>
+                </value>
+            </inputParameters>
+            <inputParameters>
+                <name>fieldLength</name>
+                <value>
+                    <numberValue>131072.0</numberValue>
+                </value>
+            </inputParameters>
+            <inputParameters>
+                <name>fieldValue</name>
+                <value>
+                    <elementReference>recConfigProd.Installer_Message__c</elementReference>
+                </value>
+            </inputParameters>
+            <inputsOnNextNavToAssocScrn>UseStoredValues</inputsOnNextNavToAssocScrn>
+            <isRequired>true</isRequired>
+            <storeOutputAutomatically>true</storeOutputAutomatically>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <start>
+        <locationX>522</locationX>
+        <locationY>48</locationY>
+        <connector>
+            <targetReference>Get_Configuration_Product</targetReference>
+        </connector>
+    </start>
+    <status>Active</status>
+    <variables>
+        <name>recConfigProd</name>
+        <dataType>SObject</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <objectType>Configuration_Product__c</objectType>
+    </variables>
+    <variables>
+        <name>recordId</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+</Flow>

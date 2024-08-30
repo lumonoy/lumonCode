@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Sovelia</fullName>
+        <default>false</default>
+        <label>Sovelia</label>
+    </customValue>
+    <customValue>
+        <fullName>Visual</fullName>
+        <default>false</default>
+        <label>Visual</label>
+    </customValue>
+    <customValue>
+        <fullName>Salesforce</fullName>
+        <default>false</default>
+        <label>Salesforce</label>
+    </customValue>
+    <customValue>
+        <fullName>Salestori</fullName>
+        <default>false</default>
+        <label>Salestori</label>
+    </customValue>
+    <masterLabel>Lumon Configurators</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

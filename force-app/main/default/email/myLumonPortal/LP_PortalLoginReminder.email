@@ -1,0 +1,17 @@
+<html style="overflow-y: hidden;">
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">Hello {!User.FirstName} This is a friendly reminder.<br />
+Thank you for your order and for choosing Lumon. You are just about to get More room for life!<br />
+<br />
+Welcome to myLumon - your personal Lumon portal.<br />
+<br />
+Here you can find information about your products, the delivery, the installation, Frequently asked questions, service center contacts and much much more.&nbsp;<br />
+<br />
+Please sign in by clicking this link<br />
+<a href="https://lumonoy--lumontest.sandbox.my.site.com">myLumon Portal</a><br />
+<br />
+Yours sincerely<br />
+Team Lumon</body>
+</html>

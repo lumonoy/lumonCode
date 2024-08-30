@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Select country language for which the link should be generated. (default is English) --></help>
+    <label><!-- Country Language --></label>
+    <name>Country_Language__c</name>
+    <picklistValues>
+        <masterLabel>English US</masterLabel>
+        <translation><!-- English US --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Finnish</masterLabel>
+        <translation><!-- Finnish --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>German</masterLabel>
+        <translation><!-- German --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Spanish</masterLabel>
+        <translation><!-- Spanish --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

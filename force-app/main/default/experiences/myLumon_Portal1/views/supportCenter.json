@@ -1,0 +1,38 @@
+{
+  "appPageId" : "fc5a03ce-c6e8-4a9f-a04f-7fcfab044561",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "6fb8ce9c-4439-4328-87b9-fd9af9eac65d",
+  "label" : "Support Center",
+  "regions" : [ {
+    "id" : "beb76dc8-55ec-4d51-86cb-5d2644857ee4",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "id" : "804291a6-f45b-472b-beb8-02bcd053325d",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "a0f9a23f-57b0-4c6c-b8c9-99ed1c52f70a",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Support Center"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "e08fbf11-3b5b-4486-b015-7b182d9e56ed",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "c15836ab-7376-402b-8d90-cecc6660c174",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "jCp2mLuJfgS2FTMyw4ta0jW2h0GGKi",
+  "type" : "view",
+  "viewType" : "custom-support-center"
+}

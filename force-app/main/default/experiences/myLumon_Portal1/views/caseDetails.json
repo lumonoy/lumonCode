@@ -1,0 +1,91 @@
+{
+  "appPageId" : "fc5a03ce-c6e8-4a9f-a04f-7fcfab044561",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "c2474411-02f8-4a42-9d4d-b3066438cd34",
+  "label" : "Case Details",
+  "regions" : [ {
+    "id" : "fd94f9b7-2f3a-44ac-bd6a-492d15c4e925",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "recordId" : "{!recordId}"
+      },
+      "componentName" : "forceCommunity:recordHeadline",
+      "id" : "43c5fd42-074d-457f-944e-f0bec0f320f5",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "detailsTabLabel" : "Details",
+        "discussionsTabLabel" : "Case Feed",
+        "recordId" : "{!recordId}",
+        "relatedTabLabel" : "More Information",
+        "showLegacyActivityComposer" : false,
+        "tab1Type" : "details",
+        "tab2Type" : "chatter",
+        "tab3Type" : "none",
+        "tab4Type" : "none",
+        "timelineTabLabel" : "Activity"
+      },
+      "componentName" : "forceCommunity:recordHomeTabs",
+      "id" : "a2eefca2-2a9e-4c19-8986-6a8aad275a35",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : {
+        "fi" : "b9e90df0-61e1-4e45-a5c1-d51d79938ec6"
+      },
+      "renditions" : [ {
+        "id" : "b9e90df0-61e1-4e45-a5c1-d51d79938ec6",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "detailsTabLabel" : "Tiedot",
+            "discussionsTabLabel" : "Viestiketju",
+            "relatedTabLabel" : "Lisätietoja",
+            "timelineTabLabel" : "Tapahtumat"
+          }
+        },
+        "type" : "renditionComponent"
+      } ],
+      "type" : "component"
+    } ],
+    "id" : "aaea42ad-66a5-4f2a-a366-b89c5c193777",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "recordId" : "{!recordId}",
+        "width" : "MEDIUM"
+      },
+      "componentName" : "forceCommunity:relatedRecords",
+      "id" : "716d7f8a-07da-4191-8f49-9d7d423fc2b4",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "3b62e057-19b4-4341-9a20-0565a1cb053e",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "{!Record._Object}: {!Record._Title}"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "6dc02b8d-607c-45eb-9e96-ec6af2bc4f85",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "bdccdb25-f58f-4a03-a4c8-91a56404d8e2",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "J6xvXP8N902w5Yx6j5K9jizPfcjzL8",
+  "type" : "view",
+  "viewType" : "detail-500"
+}

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>When the maintenance visit is confirmed customer receives email notification of maintenance visit</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Lumon_Email_Letterhead</letterhead>
+    <name>Customer - Maintenance Time Notification FI</name>
+    <style>freeForm</style>
+    <subject>{!Organization.Name} Huoltokäynti</subject>
+    <textOnly>Hei {!Case.Contact},
+
+Huoltokäyntisi on nyt sovittu. Huollon aika tapaukselle {!Case.CaseNumber}: on {!Case.Maintenance_Visit_Date_Time__c}
+
+Klikkaa alla olevaa linkkiä nähdäksesi tämän tapauksen sinun Lumon-portaalissa.
+&lt;insert the link to your Self-Service portal login page here&gt;
+
+Ystävällisin terveisin,
+
+Lumon asiakaspalvelu
+{!Organization.Name}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Case Communication myLumon</name>
+    <style>none</style>
+    <subject>Case {!Case.CaseNumber} is updated</subject>
+    <textOnly>Hello {!Contact.FirstName},
+
+
+
+Pease login to myLumon portal for more information regarding your case.
+myLumon Portal
+
+
+Yours sincerely
+Team Lumon</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

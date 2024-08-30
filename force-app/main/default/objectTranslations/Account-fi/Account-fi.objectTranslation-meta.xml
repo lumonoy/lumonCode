@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label>Tietotaulukon kentät</label>
+        <name>Data_Table_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Yksityiskohdat</label>
+        <name>Details</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Emergency Account Fields --></label>
+        <name>FSL__Emergency_Account_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Gantt Lightbox --></label>
+        <name>FSL__Gantt_Lightbox</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Tiedot</label>
+        <name>Information</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Tree Grid Fields --></label>
+        <name>Tree_Grid_Fields</name>
+    </fieldSets>
+    <layouts>
+        <layout>Account Layout</layout>
+        <sections>
+            <label><!-- Account Summary --></label>
+            <section>Account Summary</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Person Account Layout</layout>
+        <layoutType>PersonAccount</layoutType>
+        <sections>
+            <label><!-- Account Summary --></label>
+            <section>Account Summary</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Person Account Layout Admin</layout>
+        <layoutType>PersonAccount</layoutType>
+        <sections>
+            <label><!-- Customer Attributes --></label>
+            <section>Customer Attributes</section>
+        </sections>
+        <sections>
+            <label><!-- Marketing --></label>
+            <section>Marketing</section>
+        </sections>
+        <sections>
+            <label><!-- Marketing Permissions --></label>
+            <section>Marketing Permissions</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Person Account Layout User</layout>
+        <layoutType>PersonAccount</layoutType>
+        <sections>
+            <label><!-- Billing and Shipping --></label>
+            <section>Billing and Shipping</section>
+        </sections>
+        <sections>
+            <label><!-- Contact Information --></label>
+            <section>Contact Information</section>
+        </sections>
+        <sections>
+            <label><!-- Description --></label>
+            <section>Description</section>
+        </sections>
+        <sections>
+            <label><!-- Marketing --></label>
+            <section>Marketing</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Account Information --></label>
+        <name>Account_Information</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Child Account --></label>
+        <name>Child_Account</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Create Customer Service Case --></label>
+        <name>Create_Customer_Service_Case</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Update Account --></label>
+        <name>Update_Account</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Update Addresses --></label>
+        <name>Update_Addresses</name>
+    </quickActions>
+    <recordTypes>
+        <description><!-- B2B Business account --></description>
+        <label>B2B tili</label>
+        <name>B2B_Account</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- You can not change the Billing Address when marked to be same as Mailing Address --></errorMessage>
+        <name>Billing_Address_Change_not_Allowed</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Ole hyvä ja täytä laskutusosoitteen kaupunki!</errorMessage>
+        <name>Billing_Address_City_Mandatory</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Ole hyvä ja täytä laskutusosoitteen maa!</errorMessage>
+        <name>Billing_Address_Country_Mandatory</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please fill in Billing address --></errorMessage>
+        <name>Billing_Address_Mandatory</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Ole hyvä ja täytä laskutusosoitteen postinumero!</errorMessage>
+        <name>Billing_Address_PostalCode_Mandatory</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Ole hyvä ja täytä laskutusosoitteen katu!</errorMessage>
+        <name>Billing_Address_Street_Mandatory</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please ask customer for their email address and avoid using an @lumon.com address, as it is used in automated communication. --></errorMessage>
+        <name>Email_address_Account_mandatory</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Ole hyvä ja täytä etunimi!</errorMessage>
+        <name>First_Name_Mandatory</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please fill in Mailing Address --></errorMessage>
+        <name>Mailing_Address_Mandatory</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Ole hyvä ja täytä postitusosoitteen kaupunki!</errorMessage>
+        <name>Mailing_City_Mandatory</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Ole hyvä ja täytä postitusosoitteen postinumero!</errorMessage>
+        <name>Mailing_PostalCode_Mandatory</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Ole hyvä ja täytä postitusosoitteen katu!</errorMessage>
+        <name>Mailing_Street_Mandatory</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You can not change the Shipping Address when marked to be same as Billing Address --></errorMessage>
+        <name>Shipping_Address_Change_not_Allowed</name>
+    </validationRules>
+    <webLinks>
+        <label>Google kartat</label>
+        <name>GoogleMaps</name>
+    </webLinks>
+    <webLinks>
+        <label>Google uutiset</label>
+        <name>GoogleNews</name>
+    </webLinks>
+    <webLinks>
+        <label>Google haku</label>
+        <name>GoogleSearch</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- SendPortalLink --></label>
+        <name>SendPortalLink</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- ExactTarget_Resubscribe --></label>
+        <name>et4ae5__ExactTarget_Resubscribe</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- ExactTarget_Unsubscribe --></label>
+        <name>et4ae5__ExactTarget_Unsubscribe</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_ExactTarget_Email --></label>
+        <name>et4ae5__Send_ExactTarget_Email</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- View_ExactTarget_Analytics --></label>
+        <name>et4ae5__View_ExactTarget_Analytics</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- AdvRouteVisitWindows --></label>
+        <name>maps__AdvRouteVisitWindows</name>
+    </webLinks>
+</CustomObjectTranslation>

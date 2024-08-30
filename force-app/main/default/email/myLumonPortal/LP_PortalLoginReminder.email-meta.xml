@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>LP_PortalLoginReminder</name>
+    <style>none</style>
+    <subject>myLumon Portal Reminder</subject>
+    <textOnly>Hello {!User.FirstName} This is a friendly reminder.
+Thank you for your order and for choosing Lumon. You are just about to get More room for life!
+
+Welcome to myLumon - your personal Lumon portal.
+
+Here you can find information about your products, the delivery, the installation, Frequently asked questions, service center contacts and much much more.
+
+Please sign in by clicking this link
+myLumon Portal
+
+Yours sincerely
+Team Lumon</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

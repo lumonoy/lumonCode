@@ -1,0 +1,163 @@
+<!-- Opp Overview Products -->
+	<template>
+		<div class={flexipageRegionWidth}>
+			<div  style="overflow: hidden;height:100%;">
+				<div  style="overflow: hidden;height:80%;">
+					<c-opp-overview-products-modal
+						if:true={isModalOpened}
+						onclose_modal={handleModalClose}
+						onproduct_field_change={handleOppProductFieldChange}
+						product-columns={productColumns}
+						product-rows={productRows}
+					></c-opp-overview-products-modal>
+					<div class="table-config" >
+						<template if:true={displayNewButton}>
+							<p if:true={disabledNewButton} class="">The "New" button is disabled because either "Terrain Type" or "Building Height" is not defined</p>
+						</template>
+						<lightning-button-group class="action-button-group">
+							<lightning-button 
+								if:true={displayNewButton}
+								disabled={disabledNewButton}
+								variant="inverse"
+								label="New"
+								title="New Plan"
+								accesskey="n"
+								icon-name="utility:record_create" 
+								size="medium" 
+								onclick={onClickOpenVisualNewPlan} 
+								alternative-text="New Plan"
+								aria-label="newplanbutton"
+								class="action-button">
+							</lightning-button>	
+							<lightning-button
+								if:true={displaySaveButton}
+								variant="inverse"
+								icon-name="utility:save"
+								label="Save"
+								title="Save"
+								onclick={handleSaveUpdatedFields}
+								class="action-button">
+							</lightning-button>		
+							<lightning-button
+								if:true={displayCancelButton}
+								variant="inverse"
+								icon-name="utility:cancel"
+								label="Cancel"
+								title="Cancel"
+								onclick={handleCancelUpdatedFields}
+								class="action-button">
+							</lightning-button>		
+							<lightning-button
+								if:true={displayExpandButton}
+								variant="inverse"
+								label="Full"
+								title="Full"
+								accesskey="f"
+								icon-name="utility:expand" 
+								size="medium" 
+								onclick={handleViewTableModal} 
+								alternative-text="Full Screen" 
+								aria-label="fullscreenbutton"
+								class="action-button">
+							</lightning-button>
+							<lightning-button 
+								if:true={displayDeleteButton}
+								variant="inverse"
+								label="Delete"
+								title="Delete"
+								accesskey="d"
+								icon-name="utility:delete" 
+								size="medium" 
+								onclick={handleDelete} 
+								alternative-text="Delete" 
+								aria-label="deleteplanbutton"
+								class="action-button">
+							</lightning-button>
+							<lightning-button
+								if:true={displayCopyButton}
+								variant="inverse"
+								label="Copy"
+								title="Copy"
+								accesskey="c"
+								icon-name="utility:copy" 
+								size="medium" 
+								onclick={handleCopy} 
+								alternative-text="Copy" 
+								aria-label="copyplanbutton"
+								class="action-button">
+							</lightning-button>
+						</lightning-button-group>
+					</div>
+						<!--<div class="action-btns">
+							<lightning-button-icon icon-name="utility:textarea" size="x-small" onclick={handleViewTableModal} alternative-text="Open in full screen" title="Open in full screen"></lightning-button-icon>
+							<lightning-button-icon icon-name="utility:filterList" data-id="filter" onclick={handleActionBtnClick} size="x-small" class="slds-m-left_xx-small" alternative-text="Settings" title="Filter Columns"></lightning-button-icon>
+							<lightning-button-icon icon-name="utility:delete" size="x-small" class="slds-m-left_xx-small" alternative-text="Settings" title="Delete"></lightning-button-icon>
+						</div>
+						<div class="filter-table" data-id="filters">
+							<h3>Filter Table Columns</h3>
+							<div class="filter-container">
+								<template for:each={productColumnsOriginal} for:item="column">
+									<lightning-input key={column.label} checked="true" type="checkbox" data-id={column.apiName} label={column.label} onchange={handleFilterTableColumn}></lightning-input>
+								</template>
+							</div>
+						</div>
+					</div>
+					<div if:true={displaySpinner} class="loading-container">
+						<div class="spinnerLWC">
+							<lightning-spinner alternative-text="Loading" size="small"></lightning-spinner>
+						</div>
+					</div>
+					<div if:true={displayTable} style={parentSectionPadding} class="slds-table_edit_container slds-is-relative oppo-table">
+						<lightning-button
+							variant="neutral"
+							icon-name="utility:record_create"
+							label="New Plan"
+							title="New Plan"
+							onclick={onClickOpenVisualNewPlan}
+							class="slds-m-right_x-small save-btn">
+						</lightning-button>-->
+					<table aria-multiselectable="true" class="op-table slds-table slds-table_edit slds-table_resizable-cols" role="grid"  aria-label="Product Table">
+						<thead>
+							<tr class="slds-line-height_reset">
+								<template if:true={displayCheckBox}>
+									<th class="slds-is-resizable slds-is-sortable table-header checkbox" scope="col" style="width: auto;">
+										<div class="slds-grid slds-grid_vertical-align-center slds-has-flexi-truncate">
+										<span class="slds-truncate">
+											<lightning-input
+													type="checkbox"
+													data-name="select-all-checkbox"
+													variant="label-hidden"
+													onchange={handleSelectAllProducts}
+											></lightning-input>
+										</span>
+										</div>
+									</th>
+								</template>
+								<template for:each={productColumns} for:item="column">
+									<th onclick={handleSortColumn} data-id={column.apiName} key={column.label} class={column.cssClass} scope="col">
+										<div class="slds-grid slds-grid_vertical-align-center slds-has-flexi-truncate">
+										<span class="slds-truncate" title={column.label}>
+											{column.label}
+										</span>
+										</div>
+									</th>
+								</template>
+							</tr>
+						</thead>
+						<tbody>
+							<template for:each={productRows} for:item="pRow">
+								<c-opp-overview-product-row
+										key={pRow.productId}
+										fields={pRow.fields}
+										time-zone={timeZone}
+										ontable_cell_click={handleTableCellClick}
+										onproduct_field_change={handleOppProductFieldChange}>
+								</c-opp-overview-product-row>
+							</template>
+						</tbody>
+					</table>
+					
+				</div>
+			</div>
+		</div>
+	</template>

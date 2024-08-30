@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- Data Table Fields --></label>
+        <name>Data_Table_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Information --></label>
+        <name>Information</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Tree Grid Fields --></label>
+        <name>Tree_Grid_Fields</name>
+    </fieldSets>
+    <layouts>
+        <layout>B2C Opportunity Layout Admin</layout>
+        <sections>
+            <label><!-- Account Attributes --></label>
+            <section>Account Attributes</section>
+        </sections>
+        <sections>
+            <label><!-- Billing Information --></label>
+            <section>Billing Information</section>
+        </sections>
+        <sections>
+            <label><!-- Business Attributes --></label>
+            <section>Business Attributes</section>
+        </sections>
+        <sections>
+            <label><!-- Configuration --></label>
+            <section>Configuration</section>
+        </sections>
+        <sections>
+            <label><!-- Contract --></label>
+            <section>Contract</section>
+        </sections>
+        <sections>
+            <label><!-- Contract Additional Agreement --></label>
+            <section>Contract Additional Agreement</section>
+        </sections>
+        <sections>
+            <label><!-- Contract Price Agreement --></label>
+            <section>Contract Price Agreement</section>
+        </sections>
+        <sections>
+            <label><!-- Customer Addresses --></label>
+            <section>Customer Addresses</section>
+        </sections>
+        <sections>
+            <label><!-- Delivery &amp; Installation --></label>
+            <section>Delivery &amp; Installation</section>
+        </sections>
+        <sections>
+            <label><!-- Location Attributes --></label>
+            <section>Location Attributes</section>
+        </sections>
+        <sections>
+            <label><!-- Preliminary Contract --></label>
+            <section>Preliminary Contract</section>
+        </sections>
+        <sections>
+            <label><!-- Pricing --></label>
+            <section>Pricing</section>
+        </sections>
+        <sections>
+            <label><!-- Project Information --></label>
+            <section>Project Information</section>
+        </sections>
+        <sections>
+            <label><!-- Quoting --></label>
+            <section>Quoting</section>
+        </sections>
+        <sections>
+            <label><!-- Site Addresses --></label>
+            <section>Site Addresses</section>
+        </sections>
+        <sections>
+            <label><!-- Structural Analysis Information --></label>
+            <section>Structural Analysis Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>B2C Opportunity Layout User</layout>
+        <sections>
+            <label><!-- Contract Additional Agreements --></label>
+            <section>Contract Additional Agreements</section>
+        </sections>
+        <sections>
+            <label><!-- Contract Information --></label>
+            <section>Contract Information</section>
+        </sections>
+        <sections>
+            <label><!-- Contract Price Agreements --></label>
+            <section>Contract Price Agreements</section>
+        </sections>
+        <sections>
+            <label><!-- Customer Information --></label>
+            <section>Customer Information</section>
+        </sections>
+        <sections>
+            <label><!-- Delivery and Installation --></label>
+            <section>Delivery and Installation</section>
+        </sections>
+        <sections>
+            <label><!-- Opportunity Value --></label>
+            <section>Opportunity Value</section>
+        </sections>
+        <sections>
+            <label><!-- Payment Details --></label>
+            <section>Payment Details</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Delivery Location --></label>
+        <name>Delivery_Location</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Lead Time --></label>
+        <name>Lead_Time</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Lead Times --></label>
+        <name>Lead_Times</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Plan --></label>
+        <name>New_Plan</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Opportunity Records --></label>
+        <name>Opportunity_Records</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Pricing Attributes --></label>
+        <name>Pricing_Attributes</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Update Opportunity --></label>
+        <name>Update_Opportunity</name>
+    </quickActions>
+    <recordTypes>
+        <description><!-- This is record type for B2B opportunities (Projects and Resellers) --></description>
+        <label><!-- B2B Opportunity --></label>
+        <name>B2B_Opportunity</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- This is record type for B2C opportunities (Consumers) --></description>
+        <label><!-- B2C Opportunity --></label>
+        <name>B2C_Opportunity</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- You cannot edit closed Won Opportunity. --></errorMessage>
+        <name>Block_editing_closed_opportunity</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Opportunity cannot be moved to contract signed stage if building permit has not been approved. --></errorMessage>
+        <name>Building_Permit_Before_Final_Contract</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please select a Close Reason before saving this Opportunity --></errorMessage>
+        <name>Closed_Reason_mandatory</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please confirm installation time before closing opportunity, make sure associated contract is signed and ensure your order has products. --></errorMessage>
+        <name>Data_needed_before_opportunity_closure</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You cannot move opportunity to previous stages when contract has already been signed. --></errorMessage>
+        <name>No_backward_after_contract_signature</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Opportunity cannot be moved to contract signed stage if other reasons has not been resolved. Please mark this field when other reason has been resolved. --></errorMessage>
+        <name>Other_Reason_Resolved</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please select a Payment Plan before saving this Opportunity. --></errorMessage>
+        <name>Payment_Plan_Before_Contract_Sent</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- This stage is not allowed when there is no Preliminary Contract --></errorMessage>
+        <name>Preli_contract_not_needed_no_preli_stage</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please fill in &apos;Preliminary Contract Reason Details&apos; to provide more details about why the Preliminary Contract is needed. --></errorMessage>
+        <name>Preliminary_Detail_Reason_Mandatory</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Make sure the related Quote is accepted before sending the contract --></errorMessage>
+        <name>Quote_Accepted_before_Contract_Sent</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please fill in &apos;Reason for Preliminary Contract&apos; field to state why a Preliminary Contract is needed. --></errorMessage>
+        <name>Reason_Preliminary_Contract_Mandatory</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Opportunity cannot be moved to contract signed stage if special order case has not been closed. --></errorMessage>
+        <name>Special_Order_Case_Closed</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Opportunity cannot be moved to contract signed stage if 2nd measurement has not been completed. --></errorMessage>
+        <name>X2nd_Measurement_Completed_before_status</name>
+    </validationRules>
+</CustomObjectTranslation>

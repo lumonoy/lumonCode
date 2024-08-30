@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Accessories</fullName>
+        <default>false</default>
+        <label>Accessories</label>
+    </customValue>
+    <customValue>
+        <fullName>Costs</fullName>
+        <default>false</default>
+        <label>Additional Costs</label>
+    </customValue>
+    <customValue>
+        <fullName>AdditionalSales</fullName>
+        <default>false</default>
+        <label>Additional Sales</label>
+    </customValue>
+    <customValue>
+        <fullName>Sales</fullName>
+        <default>false</default>
+        <label>Extra Sales</label>
+    </customValue>
+    <customValue>
+        <fullName>BuildingPermits</fullName>
+        <default>false</default>
+        <label>Building Permits</label>
+    </customValue>
+    <customValue>
+        <fullName>Permits</fullName>
+        <default>false</default>
+        <label>Permits</label>
+    </customValue>
+    <customValue>
+        <fullName>CostReserv</fullName>
+        <default>false</default>
+        <label>Cost Reservations</label>
+    </customValue>
+    <customValue>
+        <fullName>ExternalService</fullName>
+        <default>false</default>
+        <label>External Services</label>
+    </customValue>
+    <customValue>
+        <fullName>External</fullName>
+        <default>false</default>
+        <label>External</label>
+    </customValue>
+    <customValue>
+        <fullName>Factory</fullName>
+        <default>false</default>
+        <label>Factory</label>
+    </customValue>
+    <customValue>
+        <fullName>FactoryPurchase</fullName>
+        <default>false</default>
+        <label>Factory Purchase</label>
+    </customValue>
+    <customValue>
+        <fullName>Installation</fullName>
+        <default>false</default>
+        <label>Installation</label>
+    </customValue>
+    <customValue>
+        <fullName>Manhours</fullName>
+        <default>false</default>
+        <label>Installation Manhours</label>
+    </customValue>
+    <customValue>
+        <fullName>InstallSupplies</fullName>
+        <default>false</default>
+        <label>Installation Supplies</label>
+    </customValue>
+    <customValue>
+        <fullName>Supplies</fullName>
+        <default>false</default>
+        <label>Supplies</label>
+    </customValue>
+    <customValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </customValue>
+    <customValue>
+        <fullName>Quarantee</fullName>
+        <default>false</default>
+        <label>Quarantee Cost Reservation</label>
+    </customValue>
+    <customValue>
+        <fullName>RentedMachinery</fullName>
+        <default>false</default>
+        <label>Rental Machinery</label>
+    </customValue>
+    <customValue>
+        <fullName>Machinery</fullName>
+        <default>false</default>
+        <label>Machinery</label>
+    </customValue>
+    <customValue>
+        <fullName>SalesFreight</fullName>
+        <default>false</default>
+        <label>Sales Freight</label>
+    </customValue>
+    <customValue>
+        <fullName>SalesService</fullName>
+        <default>false</default>
+        <label>Sales Services</label>
+    </customValue>
+    <customValue>
+        <fullName>TravelExpenses</fullName>
+        <default>false</default>
+        <label>Travel Expenses</label>
+    </customValue>
+    <customValue>
+        <fullName>Travel</fullName>
+        <default>false</default>
+        <label>Travel</label>
+    </customValue>
+    <customValue>
+        <fullName>Wages</fullName>
+        <default>false</default>
+        <label>Wages</label>
+    </customValue>
+    <customValue>
+        <fullName>Freight</fullName>
+        <default>false</default>
+        <label>Freight</label>
+    </customValue>
+    <customValue>
+        <fullName>Installation Time</fullName>
+        <default>false</default>
+        <label>Installation Time</label>
+    </customValue>
+    <customValue>
+        <fullName>Products</fullName>
+        <default>false</default>
+        <label>Products</label>
+    </customValue>
+    <masterLabel>Lumon Cost Categories</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

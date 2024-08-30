@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Short description of what should not be offered to this customer. --></help>
+    <label>Mitä ei myydä</label>
+    <name>What_not_to_sell__c</name>
+</CustomFieldTranslation>

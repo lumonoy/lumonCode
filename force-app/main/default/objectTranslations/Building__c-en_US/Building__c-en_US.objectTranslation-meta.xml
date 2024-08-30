@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Building</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Buildings</value>
+    </caseValues>
+    <layouts>
+        <layout>Building Layout</layout>
+        <sections>
+            <label><!-- Address &amp; Location --></label>
+            <section>Address &amp; Location</section>
+        </sections>
+        <sections>
+            <label><!-- Country Defaults --></label>
+            <section>Country Defaults</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Building Details --></label>
+        <name>Building_Details</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Update Building --></label>
+        <name>Update_Building</name>
+    </quickActions>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

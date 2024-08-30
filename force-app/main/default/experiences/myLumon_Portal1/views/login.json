@@ -1,0 +1,94 @@
+{
+  "appPageId" : "69d14c7a-128e-432e-a37b-50b00b56055b",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "e9406c4f-b0e0-4683-94b5-1872dff89869",
+  "label" : "Login",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : { },
+      "componentName" : "salesforceIdentity:communityLogo2",
+      "id" : "ee89277e-9734-4990-86f6-0c9620686abe",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : { },
+      "componentName" : "c:lpLoginHeader",
+      "id" : "67052f83-001f-42b1-b88a-c32e93ff9431",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "forgotPasswordLabel" : "Forgot your password?",
+        "forgotPasswordUrl" : "/login/ForgotPassword",
+        "loginButtonLabel" : "Log in",
+        "passwordLabel" : "Password",
+        "selfRegisterLabel" : "",
+        "selfRegisterUrl" : "/SelfRegister",
+        "startUrl" : "",
+        "usernameLabel" : "Email Address"
+      },
+      "componentName" : "salesforceIdentity:loginForm2",
+      "id" : "54d23d8e-8936-4fab-a770-b8bfbc04bad5",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : {
+        "fi" : "5f5068b0-af4c-46cc-b2d5-003f92fe0f1c",
+        "sv" : "75213bd2-0d7a-42b8-bd36-0d734fc11bb1"
+      },
+      "renditions" : [ {
+        "id" : "75213bd2-0d7a-42b8-bd36-0d734fc11bb1",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "forgotPasswordLabel" : "Forgot your password? SV",
+            "loginButtonLabel" : "Log in SV",
+            "passwordLabel" : "Password SV",
+            "usernameLabel" : "Email Address SV"
+          }
+        },
+        "type" : "renditionComponent"
+      }, {
+        "id" : "5f5068b0-af4c-46cc-b2d5-003f92fe0f1c",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "forgotPasswordLabel" : "Unohditko salasanasi?",
+            "loginButtonLabel" : "Kirjaudu sisään",
+            "passwordLabel" : "Salasana",
+            "usernameLabel" : "Sähköposti"
+          }
+        },
+        "type" : "renditionComponent"
+      } ],
+      "type" : "component"
+    }, {
+      "componentAttributes" : { },
+      "componentName" : "c:lpLoginFooter",
+      "id" : "2cab4908-7ab1-4fd5-9277-921e379e1a57",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "910e79ef-454d-47b0-b7e1-78df65c5cc0b",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Login"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "d3f0cd00-83e3-4877-aff8-8d079a2f1e8a",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "4fbeea64-5759-4e3b-85c8-3392b7523865",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "LzvttH2BL0XFQPuTyWsLSAt8ZXakpu",
+  "type" : "view",
+  "viewType" : "login-home"
+}

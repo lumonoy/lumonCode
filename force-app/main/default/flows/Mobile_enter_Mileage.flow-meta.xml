@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assignments>
+        <name>Assign_TS_data</name>
+        <label>Assign TS data</label>
+        <locationX>798</locationX>
+        <locationY>172</locationY>
+        <assignmentItems>
+            <assignToReference>TimeSheet.Mileage_to_Site__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>Mileage_from_home_to_office_customer</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>TimeSheet.Mileage_to_Home__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>Mileage_from_office_customer_to_home</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Update_TS_data</targetReference>
+        </connector>
+    </assignments>
+    <description>Screen flow that allows the Installer to add Home - Site - Home Mileage from Time Sheet.
+02.12.2023: Save Active Version as R2</description>
+    <environments>Default</environments>
+    <interviewLabel>Mobile - enter Mileage2 {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Mobile - Enter Mileage R2</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>FREE_FORM_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>FieldServiceMobile</processType>
+    <recordLookups>
+        <name>Get_TS_data</name>
+        <label>Get TS data</label>
+        <locationX>545</locationX>
+        <locationY>172</locationY>
+        <assignNullValuesIfNoRecordsFound>true</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Mileage_to_from_home</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>Id</elementReference>
+            </value>
+        </filters>
+        <object>TimeSheet</object>
+        <outputReference>TimeSheet</outputReference>
+        <queriedFields>Id</queriedFields>
+        <queriedFields>Mileage_to_Home__c</queriedFields>
+        <queriedFields>Mileage_to_Site__c</queriedFields>
+    </recordLookups>
+    <recordUpdates>
+        <name>Update_TS_data</name>
+        <label>Update TS data</label>
+        <locationX>927</locationX>
+        <locationY>172</locationY>
+        <inputReference>TimeSheet</inputReference>
+    </recordUpdates>
+    <screens>
+        <name>Mileage_to_from_home</name>
+        <label>Mileage to/from home</label>
+        <locationX>671</locationX>
+        <locationY>172</locationY>
+        <allowBack>false</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>false</allowPause>
+        <connector>
+            <targetReference>Assign_TS_data</targetReference>
+        </connector>
+        <fields>
+            <name>Mileage_from_home_to_office_customer</name>
+            <dataType>Number</dataType>
+            <fieldText>Mileage from home to office/customer</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>false</isRequired>
+            <scale>0</scale>
+        </fields>
+        <fields>
+            <name>Mileage_from_office_customer_to_home</name>
+            <dataType>Number</dataType>
+            <fieldText>Mileage from office/customer to home</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>false</isRequired>
+            <scale>0</scale>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <start>
+        <locationX>418</locationX>
+        <locationY>48</locationY>
+        <connector>
+            <targetReference>Get_TS_data</targetReference>
+        </connector>
+    </start>
+    <status>Active</status>
+    <variables>
+        <name>Id</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <description>Record Id for the Time Sheet record.</description>
+        <name>recordId</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>TimeSheet</name>
+        <dataType>SObject</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <objectType>TimeSheet</objectType>
+    </variables>
+</Flow>

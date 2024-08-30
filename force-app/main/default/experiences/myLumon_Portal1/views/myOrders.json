@@ -1,0 +1,46 @@
+{
+  "appPageId" : "fc5a03ce-c6e8-4a9f-a04f-7fcfab044561",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "bc44b35a-f09a-4793-9a8f-f6b39a255f34",
+  "label" : "My Orders",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : { },
+      "componentName" : "c:lpContactBlock",
+      "id" : "876ed541-f4f6-4a76-bdb3-31a94e6ccf31",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "5de9de8a-caa9-43cb-811b-d71e49172fc5",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "id" : "6f61767a-c24d-4841-8d35-dfff5dfa52c3",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "9a5b974c-daae-40fc-9ad6-e7faa1d465b6",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "My Orders"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "d3b3ba8c-56fc-41a9-b501-d6c122b5fc78",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "e55e8284-8993-4e10-be58-e98315b80049",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "exRR7jLXqfSFFTnl8FeI0oXto33KI6",
+  "type" : "view",
+  "viewType" : "custom-my-orders"
+}

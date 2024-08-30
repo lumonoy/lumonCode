@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- If selected, link will be displayed in one of the main footers column section. --></help>
+    <label><!-- Is Main Footer Section --></label>
+    <name>Is_Main_Footer_Section__c</name>
+</CustomFieldTranslation>

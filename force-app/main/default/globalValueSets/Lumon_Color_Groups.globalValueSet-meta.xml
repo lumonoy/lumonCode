@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>ColorGroup1</fullName>
+        <default>false</default>
+        <label>Color Group 1</label>
+    </customValue>
+    <customValue>
+        <fullName>ColorGroup2</fullName>
+        <default>false</default>
+        <label>Color Group 2</label>
+    </customValue>
+    <customValue>
+        <fullName>ColorGroup3</fullName>
+        <default>false</default>
+        <label>Color Group 3</label>
+    </customValue>
+    <customValue>
+        <fullName>ColorGroup4</fullName>
+        <default>false</default>
+        <label>Color Group 4</label>
+    </customValue>
+    <customValue>
+        <fullName>ColorGroup5</fullName>
+        <default>false</default>
+        <label>Color Group 5</label>
+    </customValue>
+    <masterLabel>Lumon Color Groups</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

@@ -1,0 +1,16 @@
+<html style="overflow-y: hidden;">
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">Thank you {!Opportunity.AccountFirstName__c}, for your order and for choosing Lumon. You are just about to get More room for life!<br />
+<br />
+Welcome to myLumon - your personal Lumon portal.<br />
+Here you can find information about your products, the delivery, the installation and much much more.<br />
+<br />
+Please sign in by clicking this link<br />
+<a href="https://mylumon.lumon.com">myLumon Portal</a><br />
+<br />
+<br />
+Yours sincerely<br />
+Team Lumon</body>
+</html>

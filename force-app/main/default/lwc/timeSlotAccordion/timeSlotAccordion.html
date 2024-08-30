@@ -1,0 +1,28 @@
+<!--
+ - Created by rinatnadav on 1.11.2022.
+ -->
+
+<!-- Time Slot Accordion -->
+<template>
+	<div class="accordion-container">
+		<div if:true={listOfSlots.length}>
+			<h2 class="list-slot-header">Select the arrival time slot:</h2>
+		</div>
+		<template if:true={listOfSlots.length} for:each={listOfSlots} for:item="groupedSlots">
+			<div key={groupedSlots.slotDateString} class="slot-header" data-id={groupedSlots.id} onclick={handleSlotClick}>
+				{groupedSlots.slotDateString}
+			</div>
+			<div key={groupedSlots.slotDateString} class="slots-wrapper">
+				<template for:each={groupedSlots.slotsGroup} for:item="slot">
+					<div key={slot.id} class="slot-date" data-id={slot.id} onclick={handleSlotSubmit}>
+						<div class="slot-list">
+							<span>{slot.startTime}</span>
+							<span>-</span>
+							<span>{slot.endTime}</span>
+						</div>
+					</div>
+				</template>
+			</div>
+		</template>
+	</div>
+</template>

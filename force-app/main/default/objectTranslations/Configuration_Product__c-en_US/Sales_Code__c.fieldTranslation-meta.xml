@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Code of the Product as using in External Systems --></help>
+    <label><!-- Sales Code --></label>
+    <name>Sales_Code__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Factory</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Factories</value>
+    </caseValues>
+    <layouts>
+        <layout>Factory Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Factory Layout Admin</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Factory Address --></label>
+            <section>Factory Address</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Factory Layout User</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Factory Address --></label>
+            <section>Factory Address</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Factory Details --></label>
+        <name>Factory_Details</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Update Factory --></label>
+        <name>Update_Factory</name>
+    </quickActions>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

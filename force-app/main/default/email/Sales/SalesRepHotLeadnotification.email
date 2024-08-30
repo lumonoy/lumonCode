@@ -1,0 +1,6 @@
+*** NEW HOT LEAD NOTIFICATION ***  
+
+The following lead assigned to you has been rated HOT.  
+Lead Name:  {!Lead.Name}  
+
+Click on the link to access the lead directly:  {!Lead.Link}

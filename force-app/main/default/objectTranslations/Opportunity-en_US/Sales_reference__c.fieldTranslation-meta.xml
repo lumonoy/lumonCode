@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Sales Order number --></help>
+    <label><!-- Sales reference --></label>
+    <name>Sales_reference__c</name>
+</CustomFieldTranslation>

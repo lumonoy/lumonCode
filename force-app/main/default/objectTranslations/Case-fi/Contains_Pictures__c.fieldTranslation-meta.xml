@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Filled in by IM / Support when creating the case. Needs to be checked for the work scheduling to be possible. --></help>
+    <label><!-- Contains Pictures OLD --></label>
+    <name>Contains_Pictures__c</name>
+</CustomFieldTranslation>

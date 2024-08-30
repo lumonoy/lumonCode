@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssignmentRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assignmentRule>
+        <fullName>Lumon Case Assignment rules ACTIVE</fullName>
+        <active>true</active>
+        <ruleEntry>
+            <assignedTo>hanna.makela@lumon.fi</assignedTo>
+            <assignedToType>User</assignedToType>
+            <criteriaItems>
+                <field>EmailMessage.ToAddress</field>
+                <operation>equals</operation>
+                <value>supportmaintori@lumon.fi</value>
+            </criteriaItems>
+        </ruleEntry>
+    </assignmentRule>
+</AssignmentRules>

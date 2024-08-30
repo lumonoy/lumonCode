@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>56.0</apiVersion>
+    <decisions>
+        <name>First_Sales_Event</name>
+        <label>1st Sales Event?</label>
+        <locationX>182</locationX>
+        <locationY>503</locationY>
+        <defaultConnectorLabel>No</defaultConnectorLabel>
+        <rules>
+            <name>Yes</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Event_Type__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>1st sales visit</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Set_30_min_reminder</targetReference>
+            </connector>
+            <label>Yes</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Record_Created</name>
+        <label>Record Created?</label>
+        <locationX>380</locationX>
+        <locationY>395</locationY>
+        <defaultConnectorLabel>Updated</defaultConnectorLabel>
+        <rules>
+            <name>Created</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record__Prior</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>First_Sales_Event</targetReference>
+            </connector>
+            <label>Created</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Skip_Automation_Enabled</name>
+        <label>Skip Automation Enabled?</label>
+        <locationX>611</locationX>
+        <locationY>287</locationY>
+        <defaultConnectorLabel>Skip Automation</defaultConnectorLabel>
+        <rules>
+            <name>Continue</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Setup.AutomationBypass__c.SkipAutomation__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Record_Created</targetReference>
+            </connector>
+            <label>Continue</label>
+        </rules>
+    </decisions>
+    <description>23.1.2023 update subject
+30.1. skip automation enabled, removed subject part,moved it to event after save
+02.12.2023: Save Active Version as R2</description>
+    <environments>Default</environments>
+    <formulas>
+        <name>CalculatedReminder</name>
+        <dataType>DateTime</dataType>
+        <expression>DATETIMEVALUE ({!$Record.StartDateTime} -  0.02073 )</expression>
+    </formulas>
+    <formulas>
+        <name>V_Subject</name>
+        <dataType>String</dataType>
+        <expression>TEXT ( {!$Record.Event_Type__c} ) &amp;&quot; - &quot;&amp; {!$Record.Location} &amp;&quot; - &quot;&amp; {!$Record.Opportunity_number__c}</expression>
+    </formulas>
+    <interviewLabel>Event - Before Save {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Event - Before Save R2</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordUpdates>
+        <name>Set_30_min_reminder</name>
+        <label>Set 30 min reminder</label>
+        <locationX>50</locationX>
+        <locationY>611</locationY>
+        <inputAssignments>
+            <field>IsReminderSet</field>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>ReminderDateTime</field>
+            <value>
+                <elementReference>CalculatedReminder</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <start>
+        <locationX>485</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Skip_Automation_Enabled</targetReference>
+        </connector>
+        <object>Event</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordBeforeSave</triggerType>
+    </start>
+    <status>Active</status>
+</Flow>

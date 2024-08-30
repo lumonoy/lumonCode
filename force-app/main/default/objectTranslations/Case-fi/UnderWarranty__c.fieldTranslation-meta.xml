@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Warranty is considered to be applicable for the case handling. --></help>
+    <label><!-- Warranty applies --></label>
+    <name>UnderWarranty__c</name>
+</CustomFieldTranslation>

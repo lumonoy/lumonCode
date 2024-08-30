@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Project Group --></label>
+    <name>Project_Group__c</name>
+    <picklistValues>
+        <masterLabel>CONSALES</masterLabel>
+        <translation><!-- CONSALES --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CONSDELIV</masterLabel>
+        <translation><!-- CONSDELIV --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CONWAR</masterLabel>
+        <translation><!-- CONWAR --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GROUPSA</masterLabel>
+        <translation><!-- GROUPSA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>INTWAR</masterLabel>
+        <translation><!-- INTWAR --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PRODELIV</masterLabel>
+        <translation><!-- PRODELIV --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PROPROFIT</masterLabel>
+        <translation><!-- PROPROFIT --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PROWAR</masterLabel>
+        <translation><!-- PROWAR --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PROWIP</masterLabel>
+        <translation><!-- PROWIP --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>RESDELIV</masterLabel>
+        <translation><!-- RESDELIV --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>WEBDELIV</masterLabel>
+        <translation><!-- WEBDELIV --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,11 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<table border="1" cellpadding="5" cellspacing="0" height="250" width="650" style="color: rgb(0, 0, 0); font-family: Arial, Helvetica, sans-serif; font-size: 11.36px; background-color: rgb(248, 248, 248);"><tbody><tr><td class="previewCell" style="margin: auto; background-color: rgb(255, 255, 255); vertical-align: top; border-bottom: 0px none rgb(236, 236, 236); border-top-color: rgb(236, 236, 236); border-right-color: rgb(236, 236, 236); border-left-color: rgb(236, 236, 236);"><font size="3"><span class="ui-provider ep bhh bdi dei dej dek del dem den deo dep deq der des det deu dev dew dex dey dez dfa dfb dfc dfd dfe dff dfg dfh dfi dfj dfk dfl dfm dfn" dir="ltr" style=""><font face="Verdana, Helvetica, sans-serif">Hei {!Case.Contact},<br><br>
+Huoltokäyntisi on nyt sovittu. Huollon aika tapaukselle {!Case.CaseNumber}: on&nbsp;{!Case.Maintenance_Visit_Date_Time__c}<br><br>
+Klikkaa alla olevaa linkkiä nähdäksesi tämän tapauksen sinun Lumon-portaalissa.<br>&lt;insert the link to your Self-Service portal login page here&gt;<br><br>
+Ystävällisin terveisin,<br><br>
+Lumon asiakaspalvelu<br>
+{!<a aria-label="Link Organization.Name" title="https://lumonoy--develop1.sandbox.my.salesforce.com/servlet/servlet.externalredirect?url=https%3a%2f%2forganization.name" href="https://lumonoy--develop1.sandbox.my.salesforce.com/servlet/servlet.ExternalRedirect?url=https%3A%2F%2FOrganization.Name" rel="noreferrer noopener" target="_blank" class="fui-Link ___1eya986 f3rmtva f1ewtqcl fyind8e f1k6fduh f1w7gpdv fk6fouc fjoy568 figsok6 f1hu3pq6 f11qmguv f19f4twv f1tyq0we f1g0x7ka fhxju0i f1qch9an f1cnd47f fqv5qza f1vmzxwi f1o700av f13mvf36 f1cmlufx f9n3di6 f1ids18y f1tx3yz7 f1deo86v f1eh06m1 f1iescvh fhgqx19 f1olyrje f1p93eir f1nev41a f1h8hb77 f1x7u7e9 f10aw75t fsle3fq f17ae5zn" style="overflow-wrap: break-word;">Organization.Name</a>}</font></span><font face="Verdana, Helvetica, sans-serif" style=""><br></font></font><br></td></tr></tbody></table>]]></td>
+</tr>
+</table>

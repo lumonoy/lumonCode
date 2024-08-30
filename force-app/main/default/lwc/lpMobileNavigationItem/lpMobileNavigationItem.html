@@ -1,0 +1,7 @@
+<!-- LP Mobile Navigation Item -->
+<template>
+	<a href={href} onclick={handleClick} class="nav-item">
+		<span style={subMenuLinkStyle}>{item.label}</span>
+		<span class="icon-drop-down" if:true={item.subMenuItems}></span>
+	</a>
+</template>

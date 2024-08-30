@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>Customer Callback</masterLabel>
+        <translation>Customer Callback</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Customer Complaint</masterLabel>
+        <translation>Customer Complaint</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Customer Feedback</masterLabel>
+        <translation>Customer Feedback</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Customer Information Request</masterLabel>
+        <translation>Customer Information Request</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Customer Offer</masterLabel>
+        <translation>Customer Offer</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Customer Order</masterLabel>
+        <translation>Customer Order</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Customer Reclamation</masterLabel>
+        <translation>Customer Reclamation</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Customer Request</masterLabel>
+        <translation>Customer Request</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>IT Hardware</masterLabel>
+        <translation>IT Hardware</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>IT Incidents</masterLabel>
+        <translation>IT Incidents</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>IT Long Term Project</masterLabel>
+        <translation>IT Long Term Project</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>IT Orders</masterLabel>
+        <translation>IT Orders</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>IT Outages</masterLabel>
+        <translation>IT Outages</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>IT Problems</masterLabel>
+        <translation>IT Problems</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>IT Servers</masterLabel>
+        <translation>IT Servers</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>IT Software</masterLabel>
+        <translation>IT Software</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>IT Support Request</masterLabel>
+        <translation>IT Support Request</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>IT User Accounts</masterLabel>
+        <translation>IT User Accounts</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>IT User Devices</masterLabel>
+        <translation>IT Devices</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>IT User Rights and Permissions</masterLabel>
+        <translation>IT User Rights and Permissions</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>TS Generic Request</masterLabel>
+        <translation>TS Generic Request</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>TS Internal Order</masterLabel>
+        <translation>TS Internal Order</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>TS Permit Application</masterLabel>
+        <translation>TS Permit Application</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>TS Technical Question</masterLabel>
+        <translation>TS Technical Question</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>X Not Applicable</masterLabel>
+        <translation>Not Applicable</translation>
+    </valueTranslation>
+</GlobalValueSetTranslation>

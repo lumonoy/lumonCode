@@ -1,0 +1,23 @@
+<!-- Lp Mobile Navigation Menu -->
+<template>
+	<ul class="mobileNav">
+		<template for:each={menuItems} for:item="item">
+			<li key={item.id} class="navbar-item" onclick={handleItemClicked} data-id={item.id}>
+				<c-lp-mobile-navigation-item
+					item={item}
+					onnavigation={handleNavigationItemClick}>
+				</c-lp-mobile-navigation-item>
+				<ul if:true={item.subMenuItems} key={item.label} class="sub-menu" data-id="sub-menu">
+					<template for:each={item.subMenuItems} for:item="subMenuItem">
+						<li key={subMenuItem.label} class="navbar-sub-item">
+							<c-lp-mobile-navigation-item
+								item={subMenuItem}
+								>
+							</c-lp-mobile-navigation-item>
+						</li>
+					</template>
+				</ul>
+			</li>
+		</template>
+	</ul>
+</template>

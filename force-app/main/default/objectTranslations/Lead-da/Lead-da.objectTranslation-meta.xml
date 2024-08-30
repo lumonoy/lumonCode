@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- Lead_Edit_Fields --></label>
+        <name>Lead_Edit_Fields</name>
+    </fieldSets>
+    <layouts>
+        <layout>B2C Lead Layout Marketing Users</layout>
+        <sections>
+            <label><!-- Marketing Permissions --></label>
+            <section>Marketing Permissions</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>B2C Lead Layout Other Users</layout>
+        <sections>
+            <label><!-- Marketing Permissions --></label>
+            <section>Marketing Permissions</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>B2C Lead Layout Sales User</layout>
+        <sections>
+            <label><!-- Marketing Permissions --></label>
+            <section>Marketing Permissions</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Book Visit --></label>
+        <name>Book_Visit</name>
+    </quickActions>
+    <recordTypes>
+        <description><!-- Record type for B2B Leads --></description>
+        <label><!-- B2B Lead --></label>
+        <name>B2B_Lead</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- B2B Reseller --></label>
+        <name>B2B_Reseller</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Record type for B2C Leads --></description>
+        <label><!-- B2C Lead --></label>
+        <name>B2C_Lead</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- A City is mandatory for Lead with this status. --></errorMessage>
+        <name>Address_City_Mandatory</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- A Country is mandatory for Lead with this status --></errorMessage>
+        <name>Address_Country_Mandatory</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- A Postal Code is mandatory for Lead with this status --></errorMessage>
+        <name>Address_PostalCode_Mandatory</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- A Street Address is mandatory for Lead with this status --></errorMessage>
+        <name>Address_Street_Mandatory</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- A Lead with this status cannot be saved or created without an address. Please ask customer to provide Street, Postal code, City and Country information. --></errorMessage>
+        <name>Address_mandatory_for_lead_status</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Lead cannot be converted if no customer meeting has been booked. Please log your upcoming customer meeting as event associated to this lead. --></errorMessage>
+        <name>Customer_Meeting_booked_before_lead_conv</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please select a Business &amp; Property Type before saving. --></errorMessage>
+        <name>Customer_Segment_Mandatory</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please fill in Firstname --></errorMessage>
+        <name>First_Name_Mandatory</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- A Lead with this status cannot be saved or created without a Mobile Phone. --></errorMessage>
+        <name>Mobile_mandatory_for_lead_status</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please make sure the customer name details starts with a Capital letter. --></errorMessage>
+        <name>Names_start_with_capital_letter_for_Lead</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- A MQL or Sales Lead needs at minimum a Postal Code and Country --></errorMessage>
+        <name>PostalCode_mandatory_for_MQL</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please select a Property Type before saving. --></errorMessage>
+        <name>Property_Type_Mandatory</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- GoogleMaps --></label>
+        <name>GoogleMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleNews --></label>
+        <name>GoogleNews</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleSearch --></label>
+        <name>GoogleSearch</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- SF_Maps --></label>
+        <name>SF_Maps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- ExactTarget_Resubscribe --></label>
+        <name>et4ae5__ExactTarget_Resubscribe</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- ExactTarget_Unsubscribe --></label>
+        <name>et4ae5__ExactTarget_Unsubscribe</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_ExactTarget_Email --></label>
+        <name>et4ae5__Send_ExactTarget_Email</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_ExactTarget_SMS --></label>
+        <name>et4ae5__Send_ExactTarget_SMS</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- View_ExactTarget_Analytics --></label>
+        <name>et4ae5__View_ExactTarget_Analytics</name>
+    </webLinks>
+</CustomObjectTranslation>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Delivery Schedule</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Delivery Schedules</value>
+    </caseValues>
+    <layouts>
+        <layout>Delivery Schedule Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Delivery Schedule --></label>
+            <section>Delivery Schedule</section>
+        </sections>
+        <sections>
+            <label><!-- Location Attributes --></label>
+            <section>Location Attributes</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

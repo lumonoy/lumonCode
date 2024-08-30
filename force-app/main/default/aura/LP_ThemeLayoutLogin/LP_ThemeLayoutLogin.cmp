@@ -1,0 +1,20 @@
+<aura:component implements="forceCommunity:themeLayout" access="global" description="Lumon Portal Theme Layout Login">
+	<ltng:require styles="{!$Resource.LP_Theme_Style}" />
+	<aura:attribute name="backgroundImageURL" type="String"/>
+	<aura:attribute name="backgroundHeight" type="String"/>
+	<aura:handler name="render" value="{!this}" action="{!c.onRender}"/>
+	<c:lpUtils aura:id="util"></c:lpUtils>
+	<div class="login-wrapper">
+		<div class="login-section">
+			<div class="login-banner"
+				 style="{!'background-image:url(' + v.backgroundImageURL +');height:' + v.backgroundHeight +'px;'}">
+				<div class="banner-overlay"></div>
+				<h1>{!$Label.c.LP_Login_Banner_Text}</h1>
+			</div>
+			<div class="section-container">
+				{!v.body}
+			</div>
+		</div>
+	</div>
+
+</aura:component>

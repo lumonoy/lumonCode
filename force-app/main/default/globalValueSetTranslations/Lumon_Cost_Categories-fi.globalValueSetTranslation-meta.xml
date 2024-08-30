@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>Accessories</masterLabel>
+        <translation><!-- Accessories --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Additional Costs</masterLabel>
+        <translation><!-- Additional Costs --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Additional Sales</masterLabel>
+        <translation><!-- Additional Sales --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Building Permits</masterLabel>
+        <translation><!-- Building Permits --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Cost Reservations</masterLabel>
+        <translation><!-- Cost Reservations --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>External</masterLabel>
+        <translation><!-- External --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>External Services</masterLabel>
+        <translation><!-- External Services --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Extra Sales</masterLabel>
+        <translation><!-- Extra Sales --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Factory</masterLabel>
+        <translation><!-- Factory --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Factory Purchase</masterLabel>
+        <translation><!-- Factory Purchase --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Freight</masterLabel>
+        <translation><!-- Freight --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Installation</masterLabel>
+        <translation><!-- Installation --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Installation Manhours</masterLabel>
+        <translation>Miestyötunti</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Installation Supplies</masterLabel>
+        <translation><!-- Installation Supplies --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Installation Time</masterLabel>
+        <translation><!-- Installation Time --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Machinery</masterLabel>
+        <translation><!-- Machinery --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Other</masterLabel>
+        <translation>Muu</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Permits</masterLabel>
+        <translation><!-- Permits --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Products</masterLabel>
+        <translation><!-- Products --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Quarantee Cost Reservation</masterLabel>
+        <translation>Takuu kustannusvaraus</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Rental Machinery</masterLabel>
+        <translation><!-- Rental Machinery --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Sales Freight</masterLabel>
+        <translation><!-- Sales Freight --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Sales Services</masterLabel>
+        <translation><!-- Sales Services --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Supplies</masterLabel>
+        <translation><!-- Supplies --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Travel</masterLabel>
+        <translation><!-- Travel --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Travel Expenses</masterLabel>
+        <translation><!-- Travel Expenses --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Wages</masterLabel>
+        <translation>Palkat</translation>
+    </valueTranslation>
+</GlobalValueSetTranslation>

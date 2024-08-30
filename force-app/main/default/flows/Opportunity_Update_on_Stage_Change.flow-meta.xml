@@ -1,0 +1,1327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionCalls>
+        <name>Installation_date_cancelled</name>
+        <label>Installation cancelled</label>
+        <locationX>2925</locationX>
+        <locationY>768</locationY>
+        <actionName>Opportunity.Customer_Installation_cancelled</actionName>
+        <actionType>emailAlert</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>SObjectRowId</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputParameters>
+        <nameSegment>Opportunity.Customer_Installation_cancelled</nameSegment>
+        <versionSegment>1</versionSegment>
+    </actionCalls>
+    <actionCalls>
+        <name>Installation_date_changed</name>
+        <label>Installation date changed</label>
+        <locationX>2661</locationX>
+        <locationY>768</locationY>
+        <actionName>Opportunity.Customer_Installation_date_change</actionName>
+        <actionType>emailAlert</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>SObjectRowId</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputParameters>
+        <nameSegment>Opportunity.Customer_Installation_date_change</nameSegment>
+        <versionSegment>1</versionSegment>
+    </actionCalls>
+    <actionCalls>
+        <description>Send installation day confirmation message to customer after it has been confirmed</description>
+        <name>Installation_day_confirmation</name>
+        <label>Installation day confirmation</label>
+        <locationX>1341</locationX>
+        <locationY>1248</locationY>
+        <actionName>Opportunity.Customer_Installation_date_confirmation</actionName>
+        <actionType>emailAlert</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>SObjectRowId</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputParameters>
+        <nameSegment>Opportunity.Customer_Installation_date_confirmation</nameSegment>
+        <versionSegment>1</versionSegment>
+    </actionCalls>
+    <actionCalls>
+        <description>This reminder is posted to sales rep so they remember to proceed with the opportunity.</description>
+        <name>Quoting_status_for_3_days</name>
+        <label>Quoting status for 3 days</label>
+        <locationX>5565</locationX>
+        <locationY>288</locationY>
+        <actionName>chatterPost</actionName>
+        <actionType>chatterPost</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>text</name>
+            <value>
+                <elementReference>Quoting_lasted_3_days</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>subjectNameOrId</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputParameters>
+        <nameSegment>chatterPost</nameSegment>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+        <versionSegment>1</versionSegment>
+    </actionCalls>
+    <actionCalls>
+        <description>This is reminder which is send to sales user when there is 2 days form signing, but opportunity is not yet closed</description>
+        <name>Signed_day_before_yesterday</name>
+        <label>Signed day before yesterday reminder</label>
+        <locationX>5037</locationX>
+        <locationY>408</locationY>
+        <actionName>Opportunity.Sales_Rep_Signed_Contract_Stage_Reminder_2</actionName>
+        <actionType>emailAlert</actionType>
+        <connector>
+            <targetReference>X2_days_from_signing_reminder</targetReference>
+        </connector>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>SObjectRowId</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputParameters>
+        <nameSegment>Opportunity.Sales_Rep_Signed_Contract_Stage_Reminder_2</nameSegment>
+        <versionSegment>1</versionSegment>
+    </actionCalls>
+    <actionCalls>
+        <description>This reminder is send when contract has been signed yesterday</description>
+        <name>Signed_yesterday_reminder</name>
+        <label>Signed yesterday reminder</label>
+        <locationX>4509</locationX>
+        <locationY>528</locationY>
+        <actionName>Opportunity.Sales_Rep_Signed_Contract_Stage_Reminder_1</actionName>
+        <actionType>emailAlert</actionType>
+        <connector>
+            <targetReference>X1_day_from_signing_message</targetReference>
+        </connector>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>SObjectRowId</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputParameters>
+        <nameSegment>Opportunity.Sales_Rep_Signed_Contract_Stage_Reminder_1</nameSegment>
+        <versionSegment>1</versionSegment>
+    </actionCalls>
+    <actionCalls>
+        <description>notify sales rep in chatter that there is 1 day from signing</description>
+        <name>X1_day_from_signing_message</name>
+        <label>1 day from signing message</label>
+        <locationX>4509</locationX>
+        <locationY>648</locationY>
+        <actionName>chatterPost</actionName>
+        <actionType>chatterPost</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>text</name>
+            <value>
+                <elementReference>signed_1_day_chatter</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>subjectNameOrId</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputParameters>
+        <nameSegment>chatterPost</nameSegment>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+        <versionSegment>1</versionSegment>
+    </actionCalls>
+    <actionCalls>
+        <description>This posts chatter message to sales rep to remember to process opportunity</description>
+        <name>X2_days_from_signing_reminder</name>
+        <label>2 days from signing reminder</label>
+        <locationX>5037</locationX>
+        <locationY>528</locationY>
+        <actionName>chatterPost</actionName>
+        <actionType>chatterPost</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>text</name>
+            <value>
+                <elementReference>signed_2_days_reminder</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>subjectNameOrId</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputParameters>
+        <nameSegment>chatterPost</nameSegment>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+        <versionSegment>1</versionSegment>
+    </actionCalls>
+    <apiVersion>56.0</apiVersion>
+    <assignments>
+        <name>Set_Order_Default_Values</name>
+        <label>Set Order Default Values</label>
+        <locationX>549</locationX>
+        <locationY>984</locationY>
+        <assignmentItems>
+            <assignToReference>recOpportunityOrder.AccountId</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>$Record.AccountId</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>recOpportunityOrder.Pricebook2Id</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>$Record.Pricebook2Id</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>recOpportunityOrder.Name</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>$Record.Name</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>recOpportunityOrder.OpportunityId</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>recOpportunityOrder.Status</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>Draft</stringValue>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>recOpportunityOrder.EffectiveDate</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>$Record.CloseDate</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>recOpportunityOrder.BillingAddress</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>$Record.Account.BillingAddress</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Create_Opportunity_Order</targetReference>
+        </connector>
+    </assignments>
+    <constants>
+        <description>This is case description for Building Permit Case type</description>
+        <name>BuildingPermitCaseDescription</name>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>This Case was created automatically because Sales Opportunity related Preliminary Contract has been signed and work regarding Building Permit can start. Please refer to the Opportunity details when proceeding with Building Permit Application.</stringValue>
+        </value>
+    </constants>
+    <constants>
+        <description>This is used to choose Building permit type form case record type picklist</description>
+        <name>BuildingPermitvalue</name>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Building_Permit</stringValue>
+        </value>
+    </constants>
+    <constants>
+        <description>This seaches Building Permit value from case record type picklist</description>
+        <name>BuildingPermitvalueID</name>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>0127E000003q2TxQAI</stringValue>
+        </value>
+    </constants>
+    <constants>
+        <description>This contains special Order handling case detail field content.</description>
+        <name>SpecialOrderCaseDescription</name>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>This Case was created automatically because Sales Opportunity related Preliminary Contract has been signed and work regarding Special Order can start. Please refer to the Opportunity details when proceeding with Special Order Handling.</stringValue>
+        </value>
+    </constants>
+    <constants>
+        <description>This inputs Case Special Order record type ID</description>
+        <name>SpecialOrderRecordTypeID</name>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>0127E000003q2UWQAY</stringValue>
+        </value>
+    </constants>
+    <decisions>
+        <description>The CDD has changed on Oppo. This means that the Installation Manager needs to be notified.</description>
+        <name>Confirmed_Delivery_Date_has_changed</name>
+        <label>Confirmed Delivery Date has changed</label>
+        <locationX>3651</locationX>
+        <locationY>888</locationY>
+        <defaultConnector>
+            <targetReference>Payment_plan_was_changed</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Yes2</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Confirmed_Delivery_Date__c</leftValueReference>
+                <operator>IsChanged</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Confirmed_Delivery_Date__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Confirmed_Delivery_Date__c</leftValueReference>
+                <operator>GreaterThan</operator>
+                <rightValue>
+                    <elementReference>$Record.Delivery_Date__c</elementReference>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>CDD_check_subflow</targetReference>
+            </connector>
+            <label>Yes</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>dummy</name>
+        <label>dummy</label>
+        <locationX>1671</locationX>
+        <locationY>648</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>abc</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>BuildingPermitvalueID</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>1</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>activate_related_final_contract</targetReference>
+            </connector>
+            <label>1</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <description>In case order is returned from closed won to contract signed by admin</description>
+        <name>First_time_contract_signed</name>
+        <label>First time contract signed?</label>
+        <locationX>681</locationX>
+        <locationY>864</locationY>
+        <defaultConnector>
+            <targetReference>Schedule_Work</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Contract_signed_first_time</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Order__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Contract_Signed_Date__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Set_Order_Default_Values</targetReference>
+            </connector>
+            <label>Contract signed first time?</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Has_Preliminary_Contract</name>
+        <label>Has Preliminary Contract?</label>
+        <locationX>681</locationX>
+        <locationY>648</locationY>
+        <defaultConnector>
+            <targetReference>First_time_contract_signed</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>No Prelimary Contract</defaultConnectorLabel>
+        <rules>
+            <name>Preliminary_Contract</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Preliminary_Contract__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Preliminary_Contract_Needed__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>First_time_contract_signed</targetReference>
+            </connector>
+            <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
+            <label>Preliminary Contract</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Installation_date_changes_post_order</name>
+        <label>Installation date changes post order</label>
+        <locationX>3040</locationX>
+        <locationY>648</locationY>
+        <defaultConnector>
+            <targetReference>Installation_resources_to_be_released</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Installation_date_changed_post_order</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Confirmed_installation_time__c</leftValueReference>
+                <operator>IsChanged</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record__Prior.Confirmed_installation_time__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Confirmed_installation_time__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.StageName</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Closed Won</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Contact_Email__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Installation_date_changed</targetReference>
+            </connector>
+            <label>Installation date changed post order</label>
+        </rules>
+        <rules>
+            <name>Installation_cancelled</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record__Prior.Confirmed_installation_time__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Confirmed_installation_time__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.StageName</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Closed Won</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Contact_Email__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Installation_date_cancelled</targetReference>
+            </connector>
+            <label>Installation cancelled</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Installation_resources_to_be_released</name>
+        <label>Installation resources to be released</label>
+        <locationX>3420</locationX>
+        <locationY>768</locationY>
+        <defaultConnector>
+            <targetReference>Confirmed_Delivery_Date_has_changed</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Yes</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Free_Installation_Resources__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Free_Installation_Resources__c</leftValueReference>
+                <operator>IsChanged</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Release_Installation_Resources_for_this_Oppo</targetReference>
+            </connector>
+            <label>Yes</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <description>This is to define whether certain action happens on create or update use cases</description>
+        <name>Is_New_Opportunity</name>
+        <label>Is New Opportunity?</label>
+        <locationX>50</locationX>
+        <locationY>408</locationY>
+        <defaultConnector>
+            <targetReference>Opportunity_Status_Changed</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Existing Opportunity</defaultConnectorLabel>
+        <rules>
+            <name>New_Opportunity</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record__Prior</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.StageName</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Preparation &amp; Analysis</stringValue>
+                </rightValue>
+            </conditions>
+            <label>New Opportunity</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Is_the_previous_stage_Preliminary_Contract</name>
+        <label>Is the previous stage Preliminary Contract?</label>
+        <locationX>681</locationX>
+        <locationY>1560</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Preliminary_Contract_Ready_to_move_to_Final_Contract</name>
+            <conditionLogic>1 AND 2 AND (3 OR 4 OR 5 OR 6)</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.StageName</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Contract Signed</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record__Prior.StageName</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Preliminary Contract</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Other_Reason_Resolved__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Building_Permit_Approved__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.X2nd_Measurement_Completed__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Special_Order_Case_Closed__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Update_Status_to_Contract_Signed</targetReference>
+            </connector>
+            <label>Preliminary Contract Ready to move to Final Contract</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <description>this validates that confirmation email can be send.</description>
+        <name>oppo_email_exists</name>
+        <label>oppo email exists</label>
+        <locationX>1473</locationX>
+        <locationY>1128</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>yes_email_exists</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Contact_Email__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Installation_day_confirmation</targetReference>
+            </connector>
+            <label>yes email exists</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Opportunity_not_closed_quickly</name>
+        <label>Opportunity not closed quickly</label>
+        <locationX>4641</locationX>
+        <locationY>408</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Opportunity_not_closed_within_1_day</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.StageName</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Contract Signed</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Signed_yesterday_reminder</targetReference>
+            </connector>
+            <label>not closed within 1 day</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Opportunity_Status_Changed</name>
+        <label>Opportunity Status Changed?</label>
+        <locationX>1134</locationX>
+        <locationY>528</locationY>
+        <defaultConnector>
+            <targetReference>Installation_date_changes_post_order</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>From_Preparation_to_Quoting</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.StageName</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Quoting</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record__Prior.StageName</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Preparation &amp; Analysis</stringValue>
+                </rightValue>
+            </conditions>
+            <label>From Preparation to Quoting</label>
+        </rules>
+        <rules>
+            <name>From_Quoting_Configure_to_Quoting_Price</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.StageName</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Quoting</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.SyncedQuote.Status</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Configure</stringValue>
+                </rightValue>
+            </conditions>
+            <label>From Quoting (Configure) to Quoting (Price)</label>
+        </rules>
+        <rules>
+            <name>From_Quoting_Price_to_Quoting_Quote</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.StageName</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Quoting</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.SyncedQuote.Status</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Price</stringValue>
+                </rightValue>
+            </conditions>
+            <label>From Quoting (Price) to Quoting (Quote)</label>
+        </rules>
+        <rules>
+            <name>From_Quoting_Quote_to_Quoting_Accepted</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.StageName</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Quoting</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.SyncedQuote.Status</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Accepted</stringValue>
+                </rightValue>
+            </conditions>
+            <label>From Quoting (Quote) to Quoting (Accepted)</label>
+        </rules>
+        <rules>
+            <name>From_Quoting_Quote_to_Quoting_Rejected</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.StageName</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Quoting</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.SyncedQuote.Status</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Rejected</stringValue>
+                </rightValue>
+            </conditions>
+            <label>From Quoting (Quote) to Quoting (Rejected)</label>
+        </rules>
+        <rules>
+            <name>From_Quoting_to_Contract_Signed</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.StageName</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Contract Signed</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Has_Preliminary_Contract</targetReference>
+            </connector>
+            <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
+            <label>From Quoting to Contract Signed</label>
+        </rules>
+        <rules>
+            <name>From_Any_to_Closed_Lost</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.StageName</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Closed Lost</stringValue>
+                </rightValue>
+            </conditions>
+            <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
+            <label>From Any to Closed Lost</label>
+        </rules>
+        <rules>
+            <name>From_Any_to_Closed_Won</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.StageName</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Closed Won</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>dummy</targetReference>
+            </connector>
+            <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
+            <label>From Any to Closed Won</label>
+        </rules>
+        <rules>
+            <name>From_any_to_Preliminary_Contract_signed</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.StageName</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Preliminary Contract</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Create_Building_Permit_Special_Order_case</targetReference>
+            </connector>
+            <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
+            <label>From any to Preliminary Contract (signed)</label>
+        </rules>
+        <rules>
+            <name>From_Any_to_Cancelled</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.StageName</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Cancelled</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Remove_Capacity_Reservation</targetReference>
+            </connector>
+            <label>From Any to Cancelled</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <description>This is condition that alert is send when opportunity hasn&apos;t moved to closed stage during 2 days of signing</description>
+        <name>oppportunity_not_closed</name>
+        <label>oppportunity not closed</label>
+        <locationX>5169</locationX>
+        <locationY>288</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>not_closed_within_2_days</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.StageName</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Contract Signed</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Signed_day_before_yesterday</targetReference>
+            </connector>
+            <label>not closed within 2 days</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Payment_plan_was_changed</name>
+        <label>Payment plan was added or changed?</label>
+        <locationX>3849</locationX>
+        <locationY>1008</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Create_payment_plan_batches</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Payment_Plan__c</leftValueReference>
+                <operator>IsChanged</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Create_Payment_plan</targetReference>
+            </connector>
+            <label>Create payment plan &amp; batches</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Skip_Automation_Enabled</name>
+        <label>Skip Automation Enabled?</label>
+        <locationX>2147</locationX>
+        <locationY>288</locationY>
+        <defaultConnectorLabel>Skip Automation</defaultConnectorLabel>
+        <rules>
+            <name>Continue</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Setup.AutomationBypass__c.SkipAutomation__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Is_New_Opportunity</targetReference>
+            </connector>
+            <label>Continue</label>
+        </rules>
+    </decisions>
+    <environments>Default</environments>
+    <formulas>
+        <description>This formula creates the case subject</description>
+        <name>BuildingPermitCaseSubject</name>
+        <dataType>String</dataType>
+        <expression>&apos;Building Permit &apos; + {!$Record.Name}</expression>
+    </formulas>
+    <formulas>
+        <description>This searches the right case subject</description>
+        <name>SpecialOrderCaseSubject</name>
+        <dataType>String</dataType>
+        <expression>&apos;Special Order Handling &apos; + {!$Record.Name}</expression>
+    </formulas>
+    <formulas>
+        <description>if status is changed yesterday, reminder is send to sales rep</description>
+        <name>yesterday</name>
+        <dataType>DateTime</dataType>
+        <expression>NOW() - 1</expression>
+    </formulas>
+    <interviewLabel>Opportunity - Update on Stage Change {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Opportunity - Update on Stage Change TEST ONLY</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordCreates>
+        <name>Create_Opportunity_Order</name>
+        <label>Create Opportunity Order</label>
+        <locationX>549</locationX>
+        <locationY>1104</locationY>
+        <connector>
+            <targetReference>Update_Order_on_Opportunity</targetReference>
+        </connector>
+        <inputReference>recOpportunityOrder</inputReference>
+    </recordCreates>
+    <recordUpdates>
+        <name>activate_related_final_contract</name>
+        <label>Activate Related Final Contract</label>
+        <locationX>1473</locationX>
+        <locationY>768</locationY>
+        <connector>
+            <targetReference>Update_Work_Order_Line_Items_on_WOs</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Opportunity__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </filters>
+        <filters>
+            <field>Contract_type__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Final Contract</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>ActivatedDate</field>
+            <operator>IsNull</operator>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.ContractId</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>Status</field>
+            <value>
+                <stringValue>Activated</stringValue>
+            </value>
+        </inputAssignments>
+        <object>Contract</object>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Activate_related_order</name>
+        <label>Activate related order</label>
+        <locationX>1473</locationX>
+        <locationY>1008</locationY>
+        <connector>
+            <targetReference>oppo_email_exists</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>OpportunityId</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </filters>
+        <filters>
+            <field>ActivatedDate</field>
+            <operator>IsNull</operator>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </filters>
+        <filters>
+            <field>TotalAmount</field>
+            <operator>IsNull</operator>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>Status</field>
+            <value>
+                <stringValue>Activated</stringValue>
+            </value>
+        </inputAssignments>
+        <object>Order</object>
+    </recordUpdates>
+    <recordUpdates>
+        <name>stamp_1st_reminder_sent</name>
+        <label>stamp 1st reminder sent</label>
+        <locationX>4641</locationX>
+        <locationY>288</locationY>
+        <connector>
+            <targetReference>Opportunity_not_closed_quickly</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>Signed_1st_reminder_sent__c</field>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Update_Order_on_Opportunity</name>
+        <label>Update Order on Opportunity</label>
+        <locationX>549</locationX>
+        <locationY>1224</locationY>
+        <connector>
+            <targetReference>Schedule_Work</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>Order__c</field>
+            <value>
+                <elementReference>recOpportunityOrder.Id</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Update_Status_to_Contract_Signed</name>
+        <label>Update Contract Status to Signed</label>
+        <locationX>549</locationX>
+        <locationY>1680</locationY>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Opportunity__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </filters>
+        <filters>
+            <field>Status</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Preliminary Contract Signed</stringValue>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>Contract_type__c</field>
+            <value>
+                <stringValue>Final Contract</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Status</field>
+            <value>
+                <stringValue>Signed</stringValue>
+            </value>
+        </inputAssignments>
+        <object>Contract</object>
+    </recordUpdates>
+    <start>
+        <locationX>3730</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Skip_Automation_Enabled</targetReference>
+        </connector>
+        <object>Opportunity</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <scheduledPaths>
+            <name>Contract_signed_more_than_24h_ago</name>
+            <connector>
+                <targetReference>stamp_1st_reminder_sent</targetReference>
+            </connector>
+            <label>signed more than 1 day ago</label>
+            <offsetNumber>1</offsetNumber>
+            <offsetUnit>Days</offsetUnit>
+            <recordField>Moved_to_Contract_Signed_date_time__c</recordField>
+            <timeSource>RecordField</timeSource>
+        </scheduledPaths>
+        <scheduledPaths>
+            <name>Contract_signed_more_than</name>
+            <connector>
+                <targetReference>oppportunity_not_closed</targetReference>
+            </connector>
+            <label>signed more than 2 days ago</label>
+            <offsetNumber>2</offsetNumber>
+            <offsetUnit>Days</offsetUnit>
+            <recordField>Moved_to_Contract_Signed_date_time__c</recordField>
+            <timeSource>RecordField</timeSource>
+        </scheduledPaths>
+        <scheduledPaths>
+            <name>Quoted</name>
+            <connector>
+                <targetReference>Quoting_status_for_3_days</targetReference>
+            </connector>
+            <label>Quoted - 3 days after</label>
+            <offsetNumber>3</offsetNumber>
+            <offsetUnit>Days</offsetUnit>
+            <recordField>Moved_to_Quoting_date_time__c</recordField>
+            <timeSource>RecordField</timeSource>
+        </scheduledPaths>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Draft</status>
+    <subflows>
+        <description>If CDD on Oppo has changed, the subflow sends out notification to the Installation Manager.</description>
+        <name>CDD_check_subflow</name>
+        <label>CDD check subflow</label>
+        <locationX>3453</locationX>
+        <locationY>1008</locationY>
+        <flowName>Opportunity_Confirmed_Delivery_Date_check_subflow</flowName>
+        <inputAssignments>
+            <name>OppoId</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputAssignments>
+    </subflows>
+    <subflows>
+        <description>This subflow creates building permit / special order cases</description>
+        <name>Create_Building_Permit_Special_Order_case</name>
+        <label>Create Building Permit / Special Order case</label>
+        <locationX>2133</locationX>
+        <locationY>648</locationY>
+        <flowName>Create_Case_subflow_Building_Permit_Special_Order</flowName>
+        <inputAssignments>
+            <name>recordId</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputAssignments>
+    </subflows>
+    <subflows>
+        <description>Subflow creates payment plan record and payment batches records according to payment plan picklist selection</description>
+        <name>Create_Payment_plan</name>
+        <label>Create Payment plan</label>
+        <locationX>3717</locationX>
+        <locationY>1128</locationY>
+        <flowName>Opportunity_Create_Payment_Plan_Subflow</flowName>
+        <inputAssignments>
+            <name>rOpportunityID</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputAssignments>
+    </subflows>
+    <subflows>
+        <description>The subflow will go through all the Work Orders related to this Opportunity and set all the Service Appointments which have been Scheduled to status None, which effectively unschedules all work and releases the installation resources.</description>
+        <name>Release_Installation_Resources_for_this_Oppo</name>
+        <label>Release Installation Resources for this Oppo</label>
+        <locationX>3189</locationX>
+        <locationY>888</locationY>
+        <flowName>Request_release_of_resources_Subflow</flowName>
+        <inputAssignments>
+            <name>OppoId</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputAssignments>
+    </subflows>
+    <subflows>
+        <description>Finds out all related Work Orders, finds out their related Service Appointments Appointment Dependencies, removes them and then removes all Work Orders.</description>
+        <name>Remove_Capacity_Reservation</name>
+        <label>Remove Capacity Reservation</label>
+        <locationX>2397</locationX>
+        <locationY>648</locationY>
+        <flowName>Opportunity_Remove_Capacity_Reservation_subflow</flowName>
+        <inputAssignments>
+            <name>OppoId</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputAssignments>
+    </subflows>
+    <subflows>
+        <description>Runs a subflow that gets all Service Appointments that have been soft reserved and calls an invocable method to Schedule the Service Appointment(s).</description>
+        <name>Schedule_Work</name>
+        <label>Schedule Work</label>
+        <locationX>681</locationX>
+        <locationY>1440</locationY>
+        <connector>
+            <targetReference>Is_the_previous_stage_Preliminary_Contract</targetReference>
+        </connector>
+        <flowName>Request_Work_Scheduling_Subflow</flowName>
+        <inputAssignments>
+            <name>OppoId</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputAssignments>
+    </subflows>
+    <subflows>
+        <description>Updates the work (WOLIs) to match the sold products (Oppo Products).</description>
+        <name>Update_Work_Order_Line_Items_on_WOs</name>
+        <label>Update Work Order Line Items on WOs</label>
+        <locationX>1473</locationX>
+        <locationY>888</locationY>
+        <connector>
+            <targetReference>Activate_related_order</targetReference>
+        </connector>
+        <flowName>Opportunity_Update_WO_after_Oppo_is_closed</flowName>
+        <inputAssignments>
+            <name>recordId</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputAssignments>
+    </subflows>
+    <textTemplates>
+        <name>Contract_reminder_1</name>
+        <isViewedAsPlainText>true</isViewedAsPlainText>
+        <text>Hi [{!$Record.Owner.Id}], The contract related to this opportunity has been signed 1 day ago. Please make sure you process and close opportunity within 2 days.</text>
+    </textTemplates>
+    <textTemplates>
+        <name>Quoting_lasted_3_days</name>
+        <isViewedAsPlainText>true</isViewedAsPlainText>
+        <text>Hi @[{!$Record.OwnerId}], your opportunity has been in quoting stage for 3 days. Please make sure you follow up the customer and proceed towards closing the deal.</text>
+    </textTemplates>
+    <textTemplates>
+        <description>This is posted to rep in chatter after 1 day of being signed</description>
+        <name>signed_1_day_chatter</name>
+        <isViewedAsPlainText>true</isViewedAsPlainText>
+        <text>Hi @[{!$Record.OwnerId}], The contract related to this opportunity has been signed 1 day ago. Please make sure you process and close opportunity during 2 days.</text>
+    </textTemplates>
+    <textTemplates>
+        <name>Signed_1_day_custom_notif</name>
+        <isViewedAsPlainText>true</isViewedAsPlainText>
+        <text>Hi [{!$Record.OwnerId}], The contract related to this opportunity has been signed 1 day ago. Please make sure you process and close opportunity within 2 days. Thank you!</text>
+    </textTemplates>
+    <textTemplates>
+        <name>signed_2_days_reminder</name>
+        <isViewedAsPlainText>true</isViewedAsPlainText>
+        <text>Hi @[{!$Record.OwnerId}], it has been 2 days when the contract has been signed. You have only 1 day left in time to process and close opportunity.</text>
+    </textTemplates>
+    <triggerOrder>200</triggerOrder>
+    <variables>
+        <name>buildingPermitRecordTypeID</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <description>This stores quote ID when opportunity creation triggers quote creation.</description>
+        <name>QuoteID_from_quote_forsync</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>recOpportunityOrder</name>
+        <dataType>SObject</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <objectType>Order</objectType>
+    </variables>
+    <variables>
+        <name>recOpportunityQuote</name>
+        <dataType>SObject</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <objectType>Quote</objectType>
+    </variables>
+    <variables>
+        <description>This stores special order case ID</description>
+        <name>SpecialOrderCaseID</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>specialOrderRecordType</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>txtSelectedPricebook</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+</Flow>

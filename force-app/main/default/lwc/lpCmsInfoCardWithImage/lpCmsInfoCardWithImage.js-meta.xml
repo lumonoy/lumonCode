@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>55.0</apiVersion>
+    <description>LP CMS Info Card With Image</description>
+    <isExposed>true</isExposed>
+    <masterLabel>LP CMS Info Card With Image</masterLabel>
+    <targets>
+        <target>lightningCommunity__Page</target>
+        <target>lightningCommunity__Default</target>
+    </targets>
+    <targetConfigs>
+        <targetConfig targets="lightningCommunity__Default">
+            <property
+                type="ContentReference"
+                name="contentId"
+                label="Content ID"
+                filter="cms_info_card_with_image"
+            />
+            <property
+                name="imgPosition"
+                type="String"
+                datasource="Left, Right"
+                label="Image Position"
+                description="Select where you want to have the image placed"
+            />
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>

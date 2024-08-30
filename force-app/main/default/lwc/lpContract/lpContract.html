@@ -1,0 +1,20 @@
+<!-- LP Contract -->
+<template>
+<h2 class="os-headline">{contractLabels.headline}</h2>
+	<div class="border-top-box-container contract-section">
+		<div class="date-section">
+			<p class="date-label">{contractLabels.signedDate}</p>
+			<p class="date-value">{signedDate}</p>
+		</div>
+		<div>
+			<template for:each={signedDocuments} for:item="doc">
+				<div key={doc.pdfDownloadLink} class="download-section" if:true={doc.pdfDownloadLink}>
+					<a class="download" target="_blank" href={doc.pdfDownloadLink} data-id={doc.download}>
+						<span class="underline">{doc.fileName}</span>
+						<span class="icon-download"></span>
+					</a>
+				</div>
+			</template>
+		</div>
+	</div>
+</template>

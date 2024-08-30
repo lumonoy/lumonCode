@@ -1,0 +1,122 @@
+.progress-path {
+    border-top: var(--lp-border-gray-xs);
+    padding: var(--lp-padding-s);
+}
+.progress-bar-container {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+}
+.progress-date-container{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    position: relative;
+}
+.date-container {
+    width: 245px;
+}
+.progress-bar-container::before {
+    content: "";
+    background: #D8D8D8;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    height: 6px;
+    width: 100%;
+    z-index: 0;
+}
+.progress-bar {
+    background: var(--lp-color-primary);
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    height: 6px;
+    z-index: 0;
+    transition: 0.4s ease;
+}
+
+.icon-checked {
+    position: relative;
+    background: var(--lp-color-primary);
+    border: var(--lp-border-primary-s);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 30px;
+    height: 30px;
+    color: #fff;
+    border-radius: 100%;
+    font-size: 12px;
+}
+.icon-checked:before{
+    margin-left: -4px;
+}
+.icon-checked.is-disabled{
+    color: var(--lp-color-white);
+    background: var(--lp-color-white);
+    border: var(--lp-border-light-gray-s);
+}
+.icon-checked.is-active{
+    color: var(--lp-color-white);
+    background: var(--lp-color-white);
+}
+.date-label{
+    font-family: var(--lp-font-semibold);
+    font-size: var(--lp-font-size-text-xl);
+    margin-bottom: 8px;
+}
+.date-value{
+    font-size: var(--lp-font-size-text-m);
+    margin-bottom: 24px;
+    min-height: 24px;
+}
+
+@media only screen and (max-width: 767px){
+    .progress-path{
+        display: flex;
+        flex-direction: row-reverse;
+        column-gap: 25px;
+        justify-content: flex-end;
+    }
+    .date-container {
+        width: auto;
+        min-height: 95px;
+    }
+    .date-label {
+        font-size: var(--lp-font-size-text-l);
+    }
+    .progress-date-container {
+        flex-direction: column;
+        text-align: left;
+        align-items: start;
+        justify-content: start;
+    }
+    .progress-bar-container {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 0;
+        width: auto;
+        height: 225px;
+    }
+    .progress-bar-container::before {
+        top: 0;
+        left: 12px;
+        transform: unset;
+        width: 6px;
+        height: 100%;
+    }
+    .progress-bar {
+        top: 0;
+        left: 12px;
+        transform: unset;
+        width: 6px;
+    }
+}

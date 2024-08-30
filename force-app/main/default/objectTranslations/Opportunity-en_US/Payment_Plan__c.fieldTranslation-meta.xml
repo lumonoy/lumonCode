@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Payment Plan --></label>
+    <name>Payment_Plan__c</name>
+    <picklistValues>
+        <masterLabel>25% Advance + 75% Financing</masterLabel>
+        <translation><!-- 25% Advance + 75% Financing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>50% Advance + 50% Financing</masterLabel>
+        <translation><!-- 50% Advance + 50% Financing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Aftersales 100% Final invoice</masterLabel>
+        <translation><!-- Aftersales 100% Final invoice --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Consumer 50/50</masterLabel>
+        <translation><!-- Consumer 50/50 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Consumer Financing</masterLabel>
+        <translation><!-- Consumer Financing --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,18 @@
+<messaging:emailTemplate subject="{!$Label.LP_Email_WelcomeSub}" recipientType="User" relatedToType="Network">
+<messaging:HTMLEmailBody >
+{!$Label.LP_Email_Welcome1} {!recipient.FirstName}, {!$Label.LP_Email_Welcome1b}
+<br> </br><br> </br>
+<br> </br><br> </br>
+{!$Label.LP_Email_Welcome2}
+<br> </br>
+{!$Label.LP_Email_Welcome3}
+<br> </br><br> </br>
+<br> </br><br> </br>
+{!$Label.LP_Email_Welcome4}<br> </br>
+<a href="{!$Network.NetworkUrlForUserEmails}">{!$Label.LP_Email_Welcome5}</a>
+<br> </br><br> </br>
+<br> </br><br> </br>
+{!$Label.LP_Email_Welcome6}
+<br> </br>
+{!$Label.LP_Email_Welcome7}</messaging:HTMLEmailBody>
+</messaging:emailTemplate>

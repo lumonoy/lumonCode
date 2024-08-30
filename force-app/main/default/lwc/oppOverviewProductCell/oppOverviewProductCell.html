@@ -1,0 +1,122 @@
+<!-- Opp Overview Product Cell -->
+<template>
+	<div if:false={editModeEnabled} class="slds-grid slds-grid_vertical-align-center slds-has-flexi-truncate">
+		<lightning-input
+			 if:true={isRowCheckBox}
+			 type={inputType}
+			 class="cell-checkbox"
+			 value={tableCell.value}
+			 data-name={tableCell.apiName}
+			 checked={tableCell.value}
+			 variant="label-hidden"
+			 autocomplete="false"
+			 onchange={handleFieldChange}>
+		</lightning-input>
+		<span if:true={isURLField} title={tableCell.value} onclick={handleTableCellClick} class="slds-truncate cell-link">
+				{tableCell.value}
+		</span>
+		<span if:true={isTextField} title={tableCell.value} class="slds-truncate">
+				{tableCell.value}
+		</span>
+		<span if:true={isNumberField} title={tableCell.value} class="slds-truncate">
+			<lightning-formatted-number
+					value={tableCell.value}>
+			</lightning-formatted-number>
+		</span>
+		<span if:true={isCurrencyField} title={tableCell.value} class="slds-truncate">
+			<lightning-formatted-number
+					value={tableCell.value}
+					format-style="currency"
+					currency-code={oppCurrency}
+					currency-display-as="symbol">
+			</lightning-formatted-number>
+		</span>
+		<span if:true={isDateField} class="slds-truncate">
+			<lightning-formatted-date-time
+				value={tableCell.value}
+				year="numeric"
+				month="short"
+				day="numeric"
+				hour="2-digit"
+				minute="2-digit"
+				time-zone={timeZone}
+				time-zone-name="short"
+				hour12="false"
+			></lightning-formatted-date-time>
+		</span>
+		<!--<span if:true={isDateTimeField} class="slds-truncate">
+			<lightning-formatted-date-time
+					value={tableCell.value}
+					year="numeric"
+					month="short"
+					day="numeric"
+					hour="2-digit"
+					minute="2-digit"
+					time-zone={timeZone}
+					time-zone-name="short"
+					hour12="false"
+			></lightning-formatted-date-time>
+		</span>-->
+		<span if:true={isQuickActionField} class="slds-truncate icon-cell">
+			<lightning-icon
+					class="slds-icon textbox-icon"
+					icon-name="utility:record_update"
+					size="xx-small"
+					alternative-text="icon"
+					onclick={onClickOpenVisualEditPlan}>
+			</lightning-icon>
+		</span>
+		<span if:true={isVerificationField}  class="slds-truncate icon-cell">
+			<lightning-icon
+				class="slds-icon verification-icon"
+				icon-name={tableCell.value}
+				size="xx-small"
+				alternative-text="icon">
+			</lightning-icon>
+		</span>
+		<!--<lightning-icon
+				if:true={displayEditIcon}
+				class="slds-icon edit-icon"
+				icon-name="utility:edit"
+				size="xx-small"
+				alternative-text="icon"
+				onclick={setEditMode}>
+		</lightning-icon>-->
+	</div>
+	<div if:true={editModeEnabled}>
+		<section onclick={setParentSectionPadding}	data-id="expanded-section" class="slds-popover slds-popover slds-popover_edit" role="dialog" style="position:absolute;top:0;left:0.0625rem">
+			<div class="slds-popover__body" id="dialog-body-id-14">
+				<div class="slds-media">
+					<div class="slds-media__body">
+						<div class="slds-form-element slds-grid slds-wrap">
+							<div class="slds-form-element__control slds-grow">
+								<lightning-input
+										if:true={isInput}
+										type={inputType}
+										value={tableCell.value}
+										min="1"
+										data-name={tableCell.apiName}
+										data-id="focus-input"
+										variant="label-hidden"
+										autocomplete="false"
+										onchange={handleFieldChange}
+										onblur={handleOnFieldBlur}>
+								</lightning-input>
+								<lightning-combobox
+										if:true={isPicklist}
+										name={tableCell.apiName}
+										data-name={tableCell.apiName}
+										variant="label-hidden"
+										onchange={handleFieldChange}
+										value={tableCell.value}
+										onblur={handleOnFieldBlur}
+										options={tableCell.pickListOptions}>
+								</lightning-combobox>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
+</template>

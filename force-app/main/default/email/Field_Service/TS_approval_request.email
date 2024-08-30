@@ -1,0 +1,10 @@
+Hello Manager,
+
+I'm requesting your approval for this Time Sheet.
+
+Time Sheet day and number to approve: {!TimeSheet.StartDate} {!TimeSheet.TimeSheetNumber}
+
+Link to this Time Sheet's Approval: {!ApprovalRequest.Internal_URL}
+
+Best Regards,
+{!TimeSheet.CreatedBy}

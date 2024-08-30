@@ -1,0 +1,548 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <layouts>
+        <layout>ICT Support Case Page Layout</layout>
+        <sections>
+            <label><!-- Auto-Generated Information --></label>
+            <section>Auto-Generated Information</section>
+        </sections>
+        <sections>
+            <label><!-- Classification --></label>
+            <section>Classification</section>
+        </sections>
+        <sections>
+            <label><!-- Contact Information --></label>
+            <section>Contact Information</section>
+        </sections>
+        <sections>
+            <label><!-- Description --></label>
+            <section>Description</section>
+        </sections>
+        <sections>
+            <label><!-- Resolution --></label>
+            <section>Resolution</section>
+        </sections>
+        <sections>
+            <label><!-- Subject --></label>
+            <section>Subject</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Lumon CS Case Page Layout</layout>
+        <sections>
+            <label><!-- Auto-Generated Information --></label>
+            <section>Auto-Generated Information</section>
+        </sections>
+        <sections>
+            <label><!-- Classification --></label>
+            <section>Classification</section>
+        </sections>
+        <sections>
+            <label><!-- Contact Information --></label>
+            <section>Contact Information</section>
+        </sections>
+        <sections>
+            <label><!-- Description --></label>
+            <section>Description</section>
+        </sections>
+        <sections>
+            <label><!-- Resolution --></label>
+            <section>Resolution</section>
+        </sections>
+        <sections>
+            <label><!-- Subject --></label>
+            <section>Subject</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Lumon Case Layout</layout>
+        <sections>
+            <label><!-- Auto-Generated Information --></label>
+            <section>Auto-Generated Information</section>
+        </sections>
+        <sections>
+            <label><!-- Contact Information --></label>
+            <section>Contact Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Lumon FAC Case Page Layout</layout>
+        <sections>
+            <label><!-- Auto-Generated Information --></label>
+            <section>Auto-Generated Information</section>
+        </sections>
+        <sections>
+            <label><!-- Classification --></label>
+            <section>Classification</section>
+        </sections>
+        <sections>
+            <label><!-- Contact Information --></label>
+            <section>Contact Information</section>
+        </sections>
+        <sections>
+            <label><!-- Description --></label>
+            <section>Description</section>
+        </sections>
+        <sections>
+            <label><!-- Resolution --></label>
+            <section>Resolution</section>
+        </sections>
+        <sections>
+            <label><!-- Subject --></label>
+            <section>Subject</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Lumon ICT Case Page Layout</layout>
+        <sections>
+            <label><!-- Auto-Generated Information --></label>
+            <section>Auto-Generated Information</section>
+        </sections>
+        <sections>
+            <label><!-- Classification --></label>
+            <section>Classification</section>
+        </sections>
+        <sections>
+            <label><!-- Contact Information --></label>
+            <section>Contact Information</section>
+        </sections>
+        <sections>
+            <label><!-- Description --></label>
+            <section>Description</section>
+        </sections>
+        <sections>
+            <label><!-- Resolution --></label>
+            <section>Resolution</section>
+        </sections>
+        <sections>
+            <label><!-- Subject --></label>
+            <section>Subject</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Lumon INST Case Page Layout</layout>
+        <sections>
+            <label><!-- Auto-Generated Information --></label>
+            <section>Auto-Generated Information</section>
+        </sections>
+        <sections>
+            <label><!-- Classification --></label>
+            <section>Classification</section>
+        </sections>
+        <sections>
+            <label><!-- Contact Information --></label>
+            <section>Contact Information</section>
+        </sections>
+        <sections>
+            <label><!-- Description --></label>
+            <section>Description</section>
+        </sections>
+        <sections>
+            <label><!-- Resolution --></label>
+            <section>Resolution</section>
+        </sections>
+        <sections>
+            <label><!-- Subject --></label>
+            <section>Subject</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Lumon LOG Case Page Layout</layout>
+        <sections>
+            <label><!-- Auto-Generated Information --></label>
+            <section>Auto-Generated Information</section>
+        </sections>
+        <sections>
+            <label><!-- Classification --></label>
+            <section>Classification</section>
+        </sections>
+        <sections>
+            <label><!-- Contact Information --></label>
+            <section>Contact Information</section>
+        </sections>
+        <sections>
+            <label><!-- Description --></label>
+            <section>Description</section>
+        </sections>
+        <sections>
+            <label><!-- Resolution --></label>
+            <section>Resolution</section>
+        </sections>
+        <sections>
+            <label><!-- Subject --></label>
+            <section>Subject</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Lumon PERM Case Page Layout</layout>
+        <sections>
+            <label><!-- Auto-Generated Information --></label>
+            <section>Auto-Generated Information</section>
+        </sections>
+        <sections>
+            <label><!-- Classification --></label>
+            <section>Classification</section>
+        </sections>
+        <sections>
+            <label><!-- Contact Information --></label>
+            <section>Contact Information</section>
+        </sections>
+        <sections>
+            <label><!-- Description --></label>
+            <section>Description</section>
+        </sections>
+        <sections>
+            <label><!-- Permit Application Details --></label>
+            <section>Permit Application Details</section>
+        </sections>
+        <sections>
+            <label><!-- Resolution --></label>
+            <section>Resolution</section>
+        </sections>
+        <sections>
+            <label><!-- Subject --></label>
+            <section>Subject</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Lumon RECL Case Page Layout</layout>
+        <sections>
+            <label><!-- Auto-Generated Information --></label>
+            <section>Auto-Generated Information</section>
+        </sections>
+        <sections>
+            <label><!-- Classification --></label>
+            <section>Classification</section>
+        </sections>
+        <sections>
+            <label><!-- Contact Information --></label>
+            <section>Contact Information</section>
+        </sections>
+        <sections>
+            <label><!-- Description --></label>
+            <section>Description</section>
+        </sections>
+        <sections>
+            <label><!-- Resolution --></label>
+            <section>Resolution</section>
+        </sections>
+        <sections>
+            <label><!-- Subject --></label>
+            <section>Subject</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Lumon SF Case Page Layout</layout>
+        <sections>
+            <label><!-- Auto-Generated Information --></label>
+            <section>Auto-Generated Information</section>
+        </sections>
+        <sections>
+            <label><!-- Classification --></label>
+            <section>Classification</section>
+        </sections>
+        <sections>
+            <label><!-- Contact Information --></label>
+            <section>Contact Information</section>
+        </sections>
+        <sections>
+            <label><!-- Description --></label>
+            <section>Description</section>
+        </sections>
+        <sections>
+            <label><!-- Resolution --></label>
+            <section>Resolution</section>
+        </sections>
+        <sections>
+            <label><!-- Subject --></label>
+            <section>Subject</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Lumon SPEC Case Page Layout</layout>
+        <sections>
+            <label><!-- Auto-Generated Information --></label>
+            <section>Auto-Generated Information</section>
+        </sections>
+        <sections>
+            <label><!-- Classification --></label>
+            <section>Classification</section>
+        </sections>
+        <sections>
+            <label><!-- Contact Information --></label>
+            <section>Contact Information</section>
+        </sections>
+        <sections>
+            <label><!-- Description --></label>
+            <section>Description</section>
+        </sections>
+        <sections>
+            <label><!-- Resolution --></label>
+            <section>Resolution</section>
+        </sections>
+        <sections>
+            <label><!-- Subject --></label>
+            <section>Subject</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Lumon TS Case Page Layout</layout>
+        <sections>
+            <label><!-- Auto-Generated Information --></label>
+            <section>Auto-Generated Information</section>
+        </sections>
+        <sections>
+            <label><!-- Classification --></label>
+            <section>Classification</section>
+        </sections>
+        <sections>
+            <label><!-- Contact Information --></label>
+            <section>Contact Information</section>
+        </sections>
+        <sections>
+            <label><!-- Description --></label>
+            <section>Description</section>
+        </sections>
+        <sections>
+            <label><!-- Resolution --></label>
+            <section>Resolution</section>
+        </sections>
+        <sections>
+            <label><!-- Subject --></label>
+            <section>Subject</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Lumon WEB Case Page Layout</layout>
+        <sections>
+            <label><!-- Auto-Generated Information --></label>
+            <section>Auto-Generated Information</section>
+        </sections>
+        <sections>
+            <label><!-- Classification --></label>
+            <section>Classification</section>
+        </sections>
+        <sections>
+            <label><!-- Contact Information --></label>
+            <section>Contact Information</section>
+        </sections>
+        <sections>
+            <label><!-- Description --></label>
+            <section>Description</section>
+        </sections>
+        <sections>
+            <label><!-- Resolution --></label>
+            <section>Resolution</section>
+        </sections>
+        <sections>
+            <label><!-- Subject --></label>
+            <section>Subject</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>myLumonPortal Case Layout</layout>
+        <sections>
+            <label><!-- Account Information --></label>
+            <section>Account Information</section>
+        </sections>
+        <sections>
+            <label><!-- Auto-Generated Information --></label>
+            <section>Auto-Generated Information</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>Tapahtuma -Aktivoi tilaus</label>
+        <name>Case_Activate_Order</name>
+    </quickActions>
+    <quickActions>
+        <aspect>InfoMessage</aspect>
+        <label>Tapahtuman kommentti luotu.</label>
+        <name>Case_Comment</name>
+    </quickActions>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>Kommentti</label>
+        <name>Case_Comment</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Case Contact Information --></label>
+        <name>Case_Contact_Information</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Change Status --></label>
+        <name>Change_status</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Close Case --></label>
+        <name>CloseCase</name>
+    </quickActions>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>Sulje tapahtuma</label>
+        <name>Close_Case</name>
+    </quickActions>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>Luo reklamaatio</label>
+        <name>Create_Reclamation</name>
+    </quickActions>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>Luo asennuskäynti</label>
+        <name>Create_installation_visit</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Log a Call --></label>
+        <name>Log_a_Call</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Comment --></label>
+        <name>Lumon_Case_Comment</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Lumon Case Contact Information --></label>
+        <name>Lumon_Case_Contact</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Lumon Case Detailed Description --></label>
+        <name>Lumon_Case_Detailed_Description</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Lumon Case Details --></label>
+        <name>Lumon_Case_Details</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Change Status --></label>
+        <name>Lumon_Change_Status</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Log a Call --></label>
+        <name>Lumon_Log_a_Call</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Take Ownership --></label>
+        <name>Lumon_Take_Ownership</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewChildCase --></label>
+        <name>NewChildCase</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Customer Case --></label>
+        <name>NewCustomerCase</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Email --></label>
+        <name>SendEmail</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Take Ownership --></label>
+        <name>Take_Ownership_Flow</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- View Case --></label>
+        <name>ViewCase</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- View Description --></label>
+        <name>ViewDescription</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- View Resolution --></label>
+        <name>ViewResolution</name>
+    </quickActions>
+    <recordTypes>
+        <label><!-- Building Permit --></label>
+        <name>Building_Permit</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Case Record Type for Customer Services --></description>
+        <label><!-- Customer Service Case --></label>
+        <name>CS_Case</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Customer Service --></label>
+        <name>Customer_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Case Record Type for Production --></description>
+        <label><!-- Production Case --></label>
+        <name>FAC_Case</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Case Record Type for ICT Support --></description>
+        <label><!-- ICT Support Case --></label>
+        <name>ICT_Case</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Case Record Type for Installation Related Issues --></description>
+        <label><!-- Installation Case --></label>
+        <name>INST_Case</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Ability to create Internal IT case when flow error appears. --></description>
+        <label><!-- Internal IT --></label>
+        <name>Internal_IT</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Case Record Type for Logistics --></description>
+        <label><!-- Logistics Case --></label>
+        <name>LOG_Case</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- &quot;Freshdesk&quot; 2nd Level IT Support --></description>
+        <label><!-- ICT Support --></label>
+        <name>Lumon_ICT_Support</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Case Record Type for Permit Applications --></description>
+        <label><!-- Permit Application Case --></label>
+        <name>PERM_Case</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Case record type for quality event (both work stop &amp; work continues) --></description>
+        <label><!-- Quality Event --></label>
+        <name>Quality_Event</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Case Record Type for Reclamations --></description>
+        <label><!-- Reclamation Case --></label>
+        <name>RECL_Case</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Reclamation order case record type to handle installer logged reclamation orders --></description>
+        <label><!-- Reclamation Order --></label>
+        <name>Reclamation_Order</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Case Record Type for Salesforce Support --></description>
+        <label><!-- Salesforce Support Case --></label>
+        <name>SF_Case</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Case Record Type for Special Orders --></description>
+        <label><!-- Special Order Case --></label>
+        <name>SPEC_Case</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Special Order Record type --></description>
+        <label><!-- Special Order Handling --></label>
+        <name>Special_Order_Handling</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Case Record Type for Technical Support --></description>
+        <label><!-- Technical Support Case --></label>
+        <name>TS_Case</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Any Technical support query created manually --></description>
+        <label><!-- Technical Support --></label>
+        <name>Technical_Support</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Case Record Type for Webshop Assistance --></description>
+        <label><!-- Webshop Case --></label>
+        <name>WEB_Case</name>
+    </recordTypes>
+</CustomObjectTranslation>

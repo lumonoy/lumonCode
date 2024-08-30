@@ -1,0 +1,119 @@
+<!--
+  @description       : 
+  @author            : Henk Reynders
+  @group             : 
+  @last modified on  : 03-27-2024
+  @last modified by  : Henk Reynders
+-->
+<template>
+    <table class={tableClasses}>
+        <thead>
+            <tr>
+                <th for:each={headerColumns} for:item="column" key={column.fieldName} class={column.headerClass} data-field-name={column.fieldName}>
+                    {column.label}
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr for:each={_data} for:item="item" key={item.key} if:false={item.hidden} class={item.headerClasses}>
+                <td
+                    for:each={item.columns}
+                    for:item="column"
+                    key={column.key}
+                    data-field-name={column.fieldName}
+                    data-id={column.id}
+                    class={column.class}
+                >           
+                    <template if:false={column.valueHidden}>
+                        <template if:true={column.isExpandable}>
+                            <div class="slds-text-link_reset level">
+                                <template if:true={column.expandable}>
+                                    <lightning-icon
+                                        icon-name={column.iconName}
+                                        class={column.iconClass}        
+                                        size={column.iconSize}
+                                        variant={column.iconVariant}
+                                        alternative-text="icon"
+                                    ></lightning-icon>
+                                </template>
+                                {column.value}
+                            </div>
+                        </template>
+                        <template if:true={column.isNumber}>
+                            <template if:true={column.editable}>
+                                <input
+                                    value={column.value}
+                                    default-value={column.value}
+                                    class="slds-input slds-text-align_right"
+                                />
+                            </template>
+                            <template if:false={column.editable}> {column.value} </template>
+                        </template>
+                        <template if:true={column.isIcon}>
+                            <lightning-icon
+                                icon-name={column.iconName}
+                                class={column.iconClass}
+                                size={column.iconSize}
+                                variant={column.iconVariant}
+                                alternative-text="icon">
+                            </lightning-icon>
+                        </template>
+                        <template if:true={column.isCheckbox}>
+                            <input type="checkbox" class="slds-checkbox" checked={column.value} />
+                        </template>
+                        <template if:true={column.isLink}>
+                            <span class="slds-text-link link">{column.value}</span>
+                        </template>
+                        <template if:true={column.isText}>
+                            <template if:true={column.editable}>
+                                <input value={column.value} default-value={column.value} class="slds-input" />
+                            </template>
+                            <template if:false={column.editable}> {column.value} </template>
+                        </template>
+                        <template if:true={column.isAction}>
+                            <button
+                                for:each={column.actions}
+                                for:item="button"
+                                key={button.name}
+                                data-id={button.name}
+                                class={button.class}
+                                disabled={button.disabled}
+                            >
+                                {button.label}
+                            </button>
+                        </template>
+                        <template if:true={column.isPicklist}>
+                            <template if:true={column.editable}>
+                                <lightning-combobox
+                                    variant="label-hidden"
+                                    name={column.fieldName}
+                                    label={column.label}
+                                    value={column.value}
+                                    placeholder="Select Value"
+                                    options={column.options}
+                                    disabled={column.disabled}
+                                ></lightning-combobox>
+                            </template>
+                            <template if:false={column.editable}>
+                                {column.value}
+                            </template>
+                        </template>
+                        <template if:true={column.isLookup}>
+                            <c-custom-lookup
+                                default-record-id={column.value}
+                                default-record={column.record}
+                                fields={column.fields}
+                                search-class={column.lookupSearchClass}
+                                onlookupupdate={handleLookupUpdate}
+                                onsearchchange={handleLookupSearch}
+                                results={column.options}
+                                disabled={column.disabled}
+                            ></c-custom-lookup>
+                        </template>
+                    </template>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <p if:true={noData} class="no-data">No records found</p>
+</template>

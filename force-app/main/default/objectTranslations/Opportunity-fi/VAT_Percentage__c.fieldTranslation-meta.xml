@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- The VAT Percentage to be used in Pricing --></help>
+    <label>Veroprosentti</label>
+    <name>VAT_Percentage__c</name>
+</CustomFieldTranslation>

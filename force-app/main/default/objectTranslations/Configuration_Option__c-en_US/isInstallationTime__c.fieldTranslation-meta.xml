@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Indicates If the Item is Installation Service related Time --></help>
+    <label><!-- isInstallationTime --></label>
+    <name>isInstallationTime__c</name>
+</CustomFieldTranslation>

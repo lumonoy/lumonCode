@@ -1,0 +1,8 @@
+"You've been invited to an event:
+
+Subject: {!Event.Subject}
+Date: {!Event.ActivityDate}
+Start Time: {!Event.StartDateTime}
+End Time: {!Event.EndDateTime}
+
+Click on the link to access the event details directly: {!Event.Link}"

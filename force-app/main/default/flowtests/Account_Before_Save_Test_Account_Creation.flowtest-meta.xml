@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlowTest xmlns="http://soap.sforce.com/2006/04/metadata">
+    <flowApiName>Account_Before_Save</flowApiName>
+    <label>Test Account Creation</label>
+    <testPoints>
+        <elementApiName>Start</elementApiName>
+        <parameters>
+            <leftValueReference>$Record</leftValueReference>
+            <type>InputTriggeringRecordInitial</type>
+            <value>
+                <sobjectValue>{&quot;AccountNumber&quot;:&quot;1905514-0&quot;,&quot;AccountSource&quot;:&quot;WEB&quot;,&quot;Account_Office__c&quot;:&quot;&quot;,&quot;Account_Profit_Center__c&quot;:&quot;4022 LSU Lahti&quot;,&quot;BillingCity&quot;:&quot;Lahti&quot;,&quot;BillingCountry&quot;:&quot;Finland&quot;,&quot;BillingCountryCode&quot;:&quot;FI&quot;,&quot;BillingLatitude&quot;:&quot;60.97866868699193&quot;,&quot;BillingLongitude&quot;:&quot;25.66370164108081&quot;,&quot;BillingPostalCode&quot;:&quot;15100&quot;,&quot;BillingStreet&quot;:&quot;Rajakatu 4&quot;,&quot;BillingToShipping__c&quot;:true,&quot;Business_Type__c&quot;:&quot;Consumer&quot;,&quot;CurrencyIsoCode&quot;:&quot;EUR&quot;,&quot;Current_discounts__pc&quot;:false,&quot;Customer_Location__c&quot;:&quot;&quot;,&quot;Customer_Segment__c&quot;:&quot;1000&quot;,&quot;Delivery_Method__c&quot;:&quot;Inst.Deliv&quot;,&quot;Delivery_Terms__c&quot;:&quot;DAP Delivered at Place&quot;,&quot;Description&quot;:&quot;Updated Account after Fix&quot;,&quot;District_Type__c&quot;:&quot;P4&quot;,&quot;District__c&quot;:&quot;FI_South&quot;,&quot;Email_Opt_In_Date_Time__pc&quot;:&quot;2023-09-29T05:49:30.000Z&quot;,&quot;Email_Opt_In__pc&quot;:true,&quot;EnablePortalLink__c&quot;:false,&quot;Financing_Customer_Number__c&quot;:&quot;33000001&quot;,&quot;Finland_Sync_to_MC__c&quot;:false,&quot;Finland_Sync_to_MC__pc&quot;:false,&quot;FirstName&quot;:&quot;Miika&quot;,&quot;IsExcludedFromRealign&quot;:false,&quot;Is_Converted_Lead__c&quot;:false,&quot;LastName&quot;:&quot;Testi-Kokko&quot;,&quot;MailingToBilling__c&quot;:true,&quot;Marketing_Preference__pc&quot;:false,&quot;Name&quot;:&quot;Miika Testi-Kokko&quot;,&quot;New_products_and_services__pc&quot;:false,&quot;Other_Countries_Sync_to_MC__c&quot;:false,&quot;Other_Countries_Sync_to_MC__pc&quot;:false,&quot;OwnerId&quot;:&quot;0057Q000007LyTXQA0&quot;,&quot;PersonDoNotCall&quot;:false,&quot;PersonEmail&quot;:&quot;miika.lumon+lumtest123@gmail.com&quot;,&quot;PersonHasOptedOutOfEmail&quot;:false,&quot;PersonHasOptedOutOfFax&quot;:false,&quot;PersonLeadSource&quot;:&quot;WEB&quot;,&quot;PersonMailingCity&quot;:&quot;Lahti&quot;,&quot;PersonMailingCountry&quot;:&quot;Finland&quot;,&quot;PersonMailingCountryCode&quot;:&quot;FI&quot;,&quot;PersonMailingLatitude&quot;:&quot;60.97866868699193&quot;,&quot;PersonMailingLongitude&quot;:&quot;25.66370164108081&quot;,&quot;PersonMailingPostalCode&quot;:&quot;15100&quot;,&quot;PersonMailingState&quot;:{},&quot;PersonMailingStateCode&quot;:{},&quot;PersonMailingStreet&quot;:&quot;Rajakatu 4&quot;,&quot;PersonMobilePhone&quot;:&quot;0400747666&quot;,&quot;PersonOtherCountry&quot;:&quot;Finland&quot;,&quot;PersonOtherCountryCode&quot;:&quot;FI&quot;,&quot;PersonTitle&quot;:{},&quot;Preferred_Channel__pc&quot;:{},&quot;RecordTypeId&quot;:&quot;0127Q000000mO7LQAU&quot;,&quot;SMS_Opt_In_Date_Time__pc&quot;:{},&quot;SMS_Opt_In__pc&quot;:false,&quot;SMS_Opt_Out__c&quot;:false,&quot;Salutation&quot;:{},&quot;ShippingCity&quot;:&quot;Lahti&quot;,&quot;ShippingCountry&quot;:&quot;Finland&quot;,&quot;ShippingCountryCode&quot;:&quot;FI&quot;,&quot;ShippingLatitude&quot;:&quot;60.97866868699193&quot;,&quot;ShippingLongitude&quot;:&quot;25.66370164108081&quot;,&quot;ShippingPostalCode&quot;:&quot;15100&quot;,&quot;ShippingStreet&quot;:&quot;Rajakatu 4&quot;,&quot;Spain_Sync_to_MC__c&quot;:false,&quot;Spain_Sync_to_MC__pc&quot;:false,&quot;Sync_to_MC_checkbox__pc&quot;:false,&quot;VAT__c&quot;:24,&quot;et4ae5__HasOptedOutOfMobile__pc&quot;:false,&quot;et4ae5__Mobile_Country_Code__pc&quot;:&quot;US&quot;}</sobjectValue>
+            </value>
+        </parameters>
+    </testPoints>
+    <testPoints>
+        <assertions>
+            <conditions>
+                <leftValueReference>$Record.Finland_Sync_to_MC__pc</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+        </assertions>
+        <elementApiName>Finish</elementApiName>
+    </testPoints>
+</FlowTest>

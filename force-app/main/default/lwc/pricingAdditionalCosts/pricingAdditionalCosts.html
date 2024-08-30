@@ -1,0 +1,23 @@
+<template>
+    <lightning-card>
+        <h1 slot="title">Additional Costs</h1>
+        <lightning-spinner if:true={showSpinner}></lightning-spinner>
+        <c-custom-datatable
+            key-field={keyField}
+            columns={columns}
+            table-data={items}
+            onvaluechanged={handleValueChange}
+            onaction={handleAction}
+            onactionvaluechanged={handleActionValueChange}
+            custom-style-path={cssResourcePath}
+            table-class="pricing-table"
+            full-width
+        ></c-custom-datatable>
+        <div slot="actions">
+            <template if:true={showAddCosts}>
+                <lightning-button icon-name="utility:add" label="Add" onclick={handleAddItem}></lightning-button>
+            </template>
+        </div>
+    </lightning-card>
+    <hr/>
+</template>

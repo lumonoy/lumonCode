@@ -1,0 +1,23 @@
+.THIS.summary{
+    white-space: normal;
+}
+
+
+.THIS .addIcon{display:inline-block;}
+.THIS .dashIcon{display:none;}
+
+
+.THIS .parent1 .child{display: none;}
+.THIS .parent1 .child1{display: none;}
+.THIS .parent1 .children{display: none;}
+.THIS .parent1 .addIcon{display:inline-block;}
+.THIS .parent1 .dashIcon{display:none;}
+
+
+.THIS .parent1.active .child{display: inline-block;}
+.THIS .parent1.active .child.addIcon{display:none;}
+.THIS .parent1.active .child.dashIcon{display:inline-block;}
+
+.THIS .parent1.active .child1{display: inline-block;}
+.THIS .parent1.active .child1.addIcon{display:none;}
+.THIS .parent1.active .child1.dashIcon{display:inline-block;}

@@ -1,0 +1,220 @@
+<template>
+    <lightning-card title="Installation Capacity">
+        <!-- Spinner -->
+        <div if:true={isLoading}>
+            <lightning-spinner
+                alternative-text="Loading..." variant="brand" class="slds-is-fixed">
+            </lightning-spinner>
+        </div>
+
+        <!-- Work Order List View -->
+        <template if:true={show_wo_list_section}>
+            <div class="booking_section" data-id="wo_list_section">
+                <!-- Navigation Buttons -->
+                <div class="slds-no-flex" style="margin-bottom:15px;">
+                    <button style="" class="slds-button slds-button_neutral" onclick={createWorkOrderAndSAJS}>Create New</button>
+                </div>
+                <!-- Content -->
+                <template for:each={workOrders} for:item="wo">
+                    <article key={wo.Id} class="slds-card booking_card" style="margin-bottom:15px; background: aliceblue;">
+                        <div class="slds-card__header slds-grid">
+                            <header class="slds-media slds-media_center slds-has-flexi-truncate">
+                                <div class="slds-media__figure">
+                                    <lightning-icon icon-name="standard:account" alternative-text="Account" title="Account"></lightning-icon>
+                                </div>
+                                
+                                <div class="slds-media__body">
+                                    <h2 class="woSubject">
+                                        <a onclick={viewWORecord} data-woid={wo.Id}><span>{wo.WorkOrderNumber}</span></a>
+                                    </h2>
+                                </div>
+                            </header>
+                        </div>
+                        <div class="slds-card__body slds-card__body_inner">
+                            Subject: {wo.Subject}
+                        </div>
+                        <template if:true={wo.isScheduledOK}>
+                        <div class="slds-card__body slds-card__body_inner">
+                            Confirmed installation Date: <lightning-formatted-date-time value={wo.Hard_Reserved_Date__c} year="numeric" month="numeric" day="numeric" hour="2-digit" minute="2-digit"></lightning-formatted-date-time>
+                        </div>
+                        </template>
+                        <template if:true={wo.isBookedOK}>
+                        <div class="slds-card__body slds-card__body_inner">
+                            Preliminary Installation Date: <lightning-formatted-date-time value={wo.Soft_Reserved_Date__c} year="numeric" month="numeric" day="numeric" hour="2-digit" minute="2-digit"></lightning-formatted-date-time>
+                        </div>
+                        </template>
+                        <div class="slds-card__body slds-card__body_inner">
+                            Status: {wo.Status}
+                        </div>
+                        <template if:true={wo.serviceAppointmentFound}>
+                            <div class="slds-no-flex" style="margin-left:10px">
+                                <button class="slds-button slds-button_neutral" data-woid={wo.Id} onclick={getServiceAppointmentsJS}>Select</button>
+                            </div>
+                        </template>
+                        <template if:false={wo.serviceAppointmentFound}>
+                            <div class="slds-no-flex" style="margin-left:12px; font-weight:bold">
+                                No Service Appointment found!
+                            </div>
+                        </template>
+                        <template if:true={wo.isNotScheduledOK}>
+                            <div class="slds-no-flex" style="margin-left:12px; margin-top:10px; font-weight:bold; color: red">
+                                Not scheduled!
+                            </div>
+                        </template>
+                        <template if:true={wo.manuallyScheduleServices}>
+                            <div class="slds-no-flex" style="margin-left:12px; margin-top:10px; font-weight:bold; color: red">
+                                Contact Installation Manager to manually schedule the rest of the Service Appointments!
+                            </div>
+                        </template>
+                        <lightning-button-icon icon-name="utility:delete" data-woid={wo.Id} onclick={handleDeletePrompt} variant="border-filled" alternative-text="Delete" class="slds-m-left_xx-small" title="Delete" style="position: absolute; right: 10px; top: 10px;"></lightning-button-icon>
+                    </article>
+                </template>
+            </div>
+        </template>
+
+        <!-- Create Work Order View -->
+        <template if:true={show_save_wo_section}>
+            <div class="booking_section" data-id="save_wo_section">
+                <!-- Navigation Buttons -->
+                <div style="margin-bottom:10px;">
+                    <template if:false={startedFromWO}>
+                        <button class="slds-button slds-button_neutral" type="button" onclick={getWorkOrderJS}>Work Order List</button>
+                    </template>
+                </div>
+                <!-- Content -->
+                <lightning-input type="text" name="workOrderNumberField" label="Work Order Number" value={workOrderNumberValue} disabled="true"></lightning-input>
+                <template if:false={showArrivalTimes}>
+                    <lightning-input type="text" name="workOrderSubjectField" label="Work Order Subject" value={workOrderSubjectValue} onchange={changeWOSubjectValue}></lightning-input>
+                    <lightning-input type="number" name="durationField" label="Duration (hours)" value={durationValue} required="true" onchange={changeDurationValue} step="any"></lightning-input>
+                    <lightning-combobox
+                        name="amountOfInstallersField"
+                        label="Amount Of Installers"
+                        value={amountOfInstallers}
+                        options={aOIoptions}
+                        onchange={changeAOIValue}
+                        required="true">
+                    </lightning-combobox>
+                    <lightning-input type="date" name="estField" label="Earliest Start Permitted" value={ESTValue} required="true" onchange={changeESTValue}></lightning-input>
+                    <lightning-input type="date" name="dueDateField" label="Due Date" value={dueDateValue} required="true" onchange={changeDueDateValue}></lightning-input>
+                </template>
+                <template if:true={dontAllowEdit}>
+                    <lightning-input type="text" name="workOrderSubjectField" label="Work Order Subject" value={workOrderSubjectValue} onchange={changeWOSubjectValue} disabled="true"></lightning-input>
+                    <lightning-input type="number" name="durationField" label="Duration (hours)" value={durationValue} required="true" onchange={changeDurationValue} disabled="true"></lightning-input>
+                    <lightning-combobox
+                        name="amountOfInstallersField"
+                        label="Amount Of Installers"
+                        value={amountOfInstallers}
+                        options={aOIoptions}
+                        onchange={changeAOIValue}
+                        required="true"
+                        disabled="true">
+                    </lightning-combobox>
+                    <lightning-input type="date" name="estField" label="Earliest Start Permitted" value={ESTValue} required="true" onchange={changeESTValue} disabled="true"></lightning-input>
+                    <lightning-input type="date" name="dueDateField" label="Due Date" value={dueDateValue} required="true" onchange={changeDueDateValue} disabled="true"></lightning-input>
+                    <lightning-input type="datetime" name="arrivalWindowStartField" label="Arrival Window Start" value={arrivalWindowStartValue} disabled="true"></lightning-input>
+                    <lightning-input type="datetime" name="arrivalWindowEndField" label="Arrival Window End" value={arrivalWindowEndValue} disabled="true"></lightning-input>
+                </template>
+                <!-- Content Buttons -->
+                <div style="display: flex; margin-top:15px;">
+                    <template if:false={showOnlyBack}>
+                        <template if:false={dontAllowEdit}>
+                            <div style="float: left; padding-right: 5px">
+                                <button class="slds-button slds-button_neutral" type="button" onclick={saveSAJS}>Save</button>
+                            </div>
+                        </template>
+                        <div style="float: left; padding-right: 5px">
+                            <button class="slds-button slds-button_neutral" type="button" onclick={bookSlots}>Soft Reserve</button>
+                        </div>
+                        <template if:true={showArrivalTimes}>
+                            <template if:true={isReserveOK}>
+                                <div style="float: left; padding-right: 5px">
+                                    <button class="slds-button slds-button_neutral" type="button" onclick={handleBook}>Reserve</button>
+                                </div>
+                            </template>
+                            <div style="float: left; padding-right: 5px">
+                                <button class="slds-button slds-button_neutral" type="button" onclick={cancelBookingJS}>Cancel Reservation</button>
+                            </div>
+                        </template>
+                    </template>
+                </div>
+                <div>
+                    <template if:true={estNotValid}>
+                        <div class="slds-no-flex" style="margin-top:10px; font-weight:bold; color: red">
+                            Earlist start time can't be before <lightning-formatted-date-time value={estLimitValue}></lightning-formatted-date-time>!
+                        </div>
+                    </template>
+                </div>     
+            </div>
+        </template> 
+
+        <!-- Reschedule View -->
+        <template if:true={show_reschedule_section}>
+            <div class="booking_section" data-id="reschedule_section">
+                <!-- Navigation Buttons -->
+                <div style="margin-bottom:10px;">
+                    <template if:false={startedFromWO}>
+                        <button class="slds-button slds-button_neutral" type="button" onclick={getWorkOrderJS}>Work Order List</button>
+                    </template>
+                </div>
+                <!-- Content -->
+                <lightning-input type="text" name="workOrderNumberField" label="Work Order Number" value={workOrderNumberValue} disabled="true"></lightning-input>
+                <lightning-input type="text" name="workOrderSubjectField" label="Work Order Subject" value={workOrderSubjectValue} disabled="true"></lightning-input>
+                <lightning-input type="datetime" name="scheduledStartField" label="Scheduled Start" value={scheduledStartValue} disabled="true"></lightning-input>
+                <lightning-input type="datetime" name="scheduledEndField" label="Scheduled End" value={scheduledEndValue} disabled="true"></lightning-input>
+                <lightning-input type="datetime" name="arrivalWindowStartField" label="Arrival Window Start" value={arrivalWindowStartValue} disabled="true"></lightning-input>
+                <lightning-input type="datetime" name="arrivalWindowEndField" label="Arrival Window End" value={arrivalWindowEndValue} disabled="true"></lightning-input>
+                <lightning-input type="text" name="statusField" label="Status" value={statusValue} disabled="true"></lightning-input>
+                <lightning-input type="number" name="durationField" label="Duration (hours)" value={durationValue} required="true" onchange={changeDurationValue} disabled="true"></lightning-input>
+                <lightning-combobox
+                    name="amountOfInstallersField"
+                    label="Amount Of Installers"
+                    value={amountOfInstallers}
+                    options={aOIoptions}
+                    onchange={handleChange}
+                    required="true"
+                    disabled="true">
+                </lightning-combobox>
+                <lightning-input type="date" name="estField" label="Earliest Start Permitted" value={ESTValue} disabled="true"></lightning-input>
+                <lightning-input type="date" name="dueDateField" label="Due Date" value={dueDateValue} required="true" onchange={changeDueDateValue} disabled="true"></lightning-input>
+                <!-- Content Buttons -->
+                <div style="margin-top:15px; height: 32px;">
+                    <template if:false={showOnlyBack}>   
+                        <div style="float: left; padding-right: 5px">
+                            <button class="slds-button slds-button_neutral" type="button" onclick={bookSlots}>Reschedule</button>
+                        </div>
+                        <div style="float: left; padding-right: 5px">
+                            <button class="slds-button slds-button_neutral" type="button" onclick={cancelBookingJS}>Cancel Reservation</button>
+                        </div>
+                    </template>
+                </div>
+            </div>
+        </template>    
+
+        <!-- Book Slot View -->
+        <template if:true={showBookViewSection}>
+            <div class="booking_section" data-id="book_view_section">
+                <!-- Navigation Buttons -->
+                <div>
+                    <button class="slds-button slds-button_neutral" type="button" onclick={backFromBookViewSection}>Back</button>
+                </div>
+                <!-- Content -->
+                <template if:true={isEmptyListMessageShown}>
+                    <h2 class="list-slot-header">No available slots were found.</h2>
+                </template>
+                <div if:false={isSaveSelectedSlotShown} class="slots-container slds-m-vertical_small">
+                    <c-time-slot-accordion list-of-slots={listOfSlots} onselect={handleSlotSelect}></c-time-slot-accordion>
+                </div>
+                <div if:true={isSaveSelectedSlotShown} class="slot-booking-modal">
+                    <h2 class="time-slot-msg">The time slot has been successfully saved</h2>
+                </div>
+            </div>
+        </template>    
+
+        <!-- No ServiceAppointment Message View -->
+        <template if:true={noServiceAppointments}>
+            <div class="booking_section">
+                No Service Appointment found!
+            </div>
+        </template>    
+    </lightning-card>
+</template>

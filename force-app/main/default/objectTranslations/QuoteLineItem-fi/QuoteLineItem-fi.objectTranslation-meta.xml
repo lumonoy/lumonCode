@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <layouts>
+        <layout>Quote Line Item Layout</layout>
+        <sections>
+            <label><!-- Attributes --></label>
+            <section>Attributes</section>
+        </sections>
+        <sections>
+            <label><!-- Gross Margin --></label>
+            <section>Gross Margin</section>
+        </sections>
+        <sections>
+            <label><!-- Parameter Attributes --></label>
+            <section>Parameter Attributes</section>
+        </sections>
+        <sections>
+            <label><!-- Prices --></label>
+            <section>Prices</section>
+        </sections>
+        <sections>
+            <label><!-- Product Attributes --></label>
+            <section>Product Attributes</section>
+        </sections>
+        <sections>
+            <label><!-- Tax --></label>
+            <section>Tax</section>
+        </sections>
+        <sections>
+            <label><!-- Volume and Totals --></label>
+            <section>Volume and Totals</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

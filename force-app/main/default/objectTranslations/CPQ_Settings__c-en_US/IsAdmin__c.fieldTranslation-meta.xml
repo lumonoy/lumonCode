@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>
+        <!-- Checkbox to give special permissions for the User
+- See Margins and Costs
+- See item level details
+- Give discount &gt;10% -->
+    </help>
+    <label><!-- IsAdmin --></label>
+    <name>IsAdmin__c</name>
+</CustomFieldTranslation>

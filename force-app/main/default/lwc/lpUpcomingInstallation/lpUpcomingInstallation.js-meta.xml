@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    
+    <apiVersion>55.0</apiVersion>
+    
+    <description>LP Upcoming Installation</description>
+    
+    <isExposed>true</isExposed>
+    
+    <masterLabel>LP Upcoming Installation</masterLabel>
+    
+    <targets>
+        
+        <target>lightningCommunity__Page</target>
+        
+        <target>lightningCommunity__Default</target>
+        
+    </targets>
+    
+    <targetConfigs>
+        
+        <targetConfig targets="lightningCommunity__Default">
+            
+            <property name="contentKey" type="String" default="" label="CMS Content Key" description="Enter the content key from CMS content 'Documentation' to link Preparation before installation."/>
+            
+        </targetConfig>
+        
+    </targetConfigs>
+    
+</LightningComponentBundle>

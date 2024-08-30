@@ -1,0 +1,61 @@
+.booking_card {
+    border: 1px solid rgb(201, 201, 201) !important;
+    padding: 15px !important;
+    border-radius: 3px
+    /*max-width: 500px;*/
+}
+
+.show_section {
+    display: block;
+}
+
+.hide_section {
+    display: none;
+}
+
+.slds-required {
+    float:right;
+}
+
+.woSubject{
+	padding:4px 0;
+	font-size: 16px;
+}
+
+.booking_section {
+    margin: 15px;
+}
+
+.navigation-wrapper {
+	display: flex;
+	justify-content: space-between;
+}
+
+/*.slots-container {*/
+/*	display: flex;*/
+/*	flex-direction: column;*/
+/*	gap: 11px;*/
+/*}*/
+
+.slot-booking-modal {
+	display: flex;
+	flex-direction: column;
+	gap: 14px;
+	font-weight: 500;
+	align-items: center;
+	text-align: center;
+}
+.button-container{
+	display: flex;
+	justify-content: space-evenly;
+	gap: 20px;
+}
+.list-slot-header{
+	text-align: center;
+	padding:4px 0;
+	font-size: 16px;
+}
+.time-slot-msg{
+	font-size: 16px;
+	padding: 20px;
+}

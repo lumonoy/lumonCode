@@ -1,0 +1,1068 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionCalls>
+        <description>This email alert sends customer notification on case closure.</description>
+        <name>Case_Closed_Notification</name>
+        <label>Case Closed Notification</label>
+        <locationX>2514</locationX>
+        <locationY>1271</locationY>
+        <actionName>Case.Customer_Case_Closed</actionName>
+        <actionType>emailAlert</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>SObjectRowId</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputParameters>
+        <nameSegment>Case.Customer_Case_Closed</nameSegment>
+        <versionSegment>1</versionSegment>
+    </actionCalls>
+    <actionCalls>
+        <description>This sends customer notification that case has been created</description>
+        <name>CS_Case_created_notification</name>
+        <label>CS Case created notification</label>
+        <locationX>666</locationX>
+        <locationY>1463</locationY>
+        <actionName>Case.Customer_Case_Created</actionName>
+        <actionType>emailAlert</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>SObjectRowId</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputParameters>
+        <nameSegment>Case.Customer_Case_Created</nameSegment>
+        <versionSegment>1</versionSegment>
+    </actionCalls>
+    <actionCalls>
+        <description>This post is to inform reps on Building permit case closure</description>
+        <name>Inform_sales_reps_on_BP_case_closure</name>
+        <label>Inform sales reps on BP case closure</label>
+        <locationX>1458</locationX>
+        <locationY>1271</locationY>
+        <actionName>chatterPost</actionName>
+        <actionType>chatterPost</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>text</name>
+            <value>
+                <elementReference>Building_Permit_Completed_Notification</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>subjectNameOrId</name>
+            <value>
+                <elementReference>$Record.Opportunity__r.Id</elementReference>
+            </value>
+        </inputParameters>
+        <nameSegment>chatterPost</nameSegment>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+        <versionSegment>1</versionSegment>
+    </actionCalls>
+    <actionCalls>
+        <description>This action informs sales rep on opportunity related special order case closure</description>
+        <name>Inform_sales_SO_case_closure</name>
+        <label>Inform sales SO case closure</label>
+        <locationX>1986</locationX>
+        <locationY>1271</locationY>
+        <actionName>chatterPost</actionName>
+        <actionType>chatterPost</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>text</name>
+            <value>
+                <elementReference>Special_Order_Case_Closure_Notification</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>subjectNameOrId</name>
+            <value>
+                <elementReference>$Record.Opportunity__r.Id</elementReference>
+            </value>
+        </inputParameters>
+        <nameSegment>chatterPost</nameSegment>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+        <versionSegment>1</versionSegment>
+    </actionCalls>
+    <apiVersion>56.0</apiVersion>
+    <assignments>
+        <description>Assign Case data on server side to allow the mobile flow (where case is created) to work in offline mode when needed.</description>
+        <name>Assign_Case_data</name>
+        <label>Assign Case data</label>
+        <locationX>182</locationX>
+        <locationY>2171</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.AccountId</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>Get_WO.AccountId</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>$Record.AssetId</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>Get_WO.AssetId</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>$Record.ContactId</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>Get_WO.ContactId</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>$Record.Work_Order__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>Get_WO.Id</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>$Record.Opportunity__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>Get_WO.Opportunity__c</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Update_Case_values</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Assign_Order_to_Case</name>
+        <label>Assign Order to Case</label>
+        <locationX>50</locationX>
+        <locationY>1979</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.Order__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>Opportunity.Order__c</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Assign_Case_data</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Priority_set</name>
+        <label>Priority set</label>
+        <locationX>204</locationX>
+        <locationY>1355</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.Priority</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>Low</stringValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>WO_exists</targetReference>
+        </connector>
+    </assignments>
+    <decisions>
+        <name>AssetIdChange</name>
+        <label>AssetIdChange</label>
+        <locationX>2448</locationX>
+        <locationY>539</locationY>
+        <defaultConnector>
+            <targetReference>Case_type_updated</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>YesIsChange</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.AssetId</leftValueReference>
+                <operator>IsChanged</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.AssetId</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Get_Entitlement</targetReference>
+            </connector>
+            <label>YesIsChange</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>BP_Case_status_changed</name>
+        <label>BP Case status changed</label>
+        <locationX>1590</locationX>
+        <locationY>1055</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>BP_Case_Closed</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Status</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Permit Approved</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Update_related_opportunity</targetReference>
+            </connector>
+            <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
+            <label>BP Case Closed</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Case_type_created</name>
+        <label>Case type created?</label>
+        <locationX>765</locationX>
+        <locationY>1139</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Reclamation_order_or_quality_event</name>
+            <conditionLogic>or</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Type</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Quality event: work stops</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Type</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Quality event: work continues</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Type</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Reclamation order</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Priority_setting</targetReference>
+            </connector>
+            <label>Reclamation order or quality event</label>
+        </rules>
+        <rules>
+            <name>Customer_service_case</name>
+            <conditionLogic>or</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Type</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Customer reclamation</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Type</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Customer Support</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Type</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Invoicing</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Type</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Rescheduling_installation</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Type</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Warranty work request</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Type</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Reseller</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Assign_Customer_Service_Case_Owner</targetReference>
+            </connector>
+            <label>Customer service case</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Case_type_updated</name>
+        <label>Case type updated?</label>
+        <locationX>2448</locationX>
+        <locationY>947</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Building_Permit</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Type</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Building Permit</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Opportunity__r.StageName</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue>Closed Won</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>BP_Case_status_changed</targetReference>
+            </connector>
+            <label>Building Permit</label>
+        </rules>
+        <rules>
+            <name>Special_Order</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Type</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Special Order</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Opportunity__r.StageName</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue>Closed Won</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Special_order_case_status_updated</targetReference>
+            </connector>
+            <label>Special Order</label>
+        </rules>
+        <rules>
+            <name>Customer_Service</name>
+            <conditionLogic>or</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Type</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Customer reclamation</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Type</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Customer Support</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Type</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Invoicing</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Type</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Rescheduling_installation</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Type</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Warranty work request</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Type</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Reseller</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Customer_support_case_status_changed</targetReference>
+            </connector>
+            <label>Customer Service</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Contact_email_exists</name>
+        <label>Contact email exists?</label>
+        <locationX>798</locationX>
+        <locationY>1355</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Email_exists</name>
+            <conditionLogic>or</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Account.PersonEmail</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.ContactEmail</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>CS_Case_created_notification</targetReference>
+            </connector>
+            <label>Email exists</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Contact_email_Exists_close</name>
+        <label>Contact email Exists?</label>
+        <locationX>2646</locationX>
+        <locationY>1163</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Email_exists_close</name>
+            <conditionLogic>or</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Account.PersonEmail</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Contact.Email</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Case_Closed_Notification</targetReference>
+            </connector>
+            <label>Email exists</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Created_or_Updated</name>
+        <label>New case?</label>
+        <locationX>1606</locationX>
+        <locationY>431</locationY>
+        <defaultConnector>
+            <targetReference>AssetIdChange</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Actions on Update</defaultConnectorLabel>
+        <rules>
+            <name>Created</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>IsNew</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Has_Opportunity</targetReference>
+            </connector>
+            <label>Actions on Create</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Customer_support_case_status_changed</name>
+        <label>Customer support case status changed</label>
+        <locationX>2844</locationX>
+        <locationY>1055</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>CS_Case_Closed</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Status</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Closed</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Opportunity__r.StageName</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue>Closed Won</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Contact_email_Exists_close</targetReference>
+            </connector>
+            <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
+            <label>CS Case Closed</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Has_Opportunity</name>
+        <label>Has Opportunity?</label>
+        <locationX>765</locationX>
+        <locationY>539</locationY>
+        <defaultConnector>
+            <targetReference>Case_type_created</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>No</defaultConnectorLabel>
+        <rules>
+            <name>Yes</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Opportunity__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Oppo</targetReference>
+            </connector>
+            <label>Yes</label>
+        </rules>
+        <rules>
+            <name>Yes_Has_Asset</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.AssetId</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.AssetId</leftValueReference>
+                <operator>IsChanged</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>GetEntitlement</targetReference>
+            </connector>
+            <label>Yes Has Asset?</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <description>If Oppo is closed, validation prevents updating it. So, no updates.</description>
+        <name>Oppo_is_closed</name>
+        <label>Oppo is closed?</label>
+        <locationX>457</locationX>
+        <locationY>755</locationY>
+        <defaultConnector>
+            <targetReference>Update_Opportunity</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>No</defaultConnectorLabel>
+        <rules>
+            <name>Yes4</name>
+            <conditionLogic>or</conditionLogic>
+            <conditions>
+                <leftValueReference>Oppo.StageName</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Closed Won</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>Oppo.StageName</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Closed Lost</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Case_type_created</targetReference>
+            </connector>
+            <label>Yes</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Opportunity_id_exists</name>
+        <label>Opportunity id exists</label>
+        <locationX>182</locationX>
+        <locationY>1763</locationY>
+        <defaultConnector>
+            <targetReference>Assign_Case_data</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>No</defaultConnectorLabel>
+        <rules>
+            <name>Yes3</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Get_WO.Opportunity__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Opportunity</targetReference>
+            </connector>
+            <label>Yes</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Priority_setting</name>
+        <label>Priority setting</label>
+        <locationX>336</locationX>
+        <locationY>1247</locationY>
+        <defaultConnector>
+            <targetReference>WO_exists</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>High</defaultConnectorLabel>
+        <rules>
+            <name>Low</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Type</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Quality Event: Work Continues</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Priority_set</targetReference>
+            </connector>
+            <label>Low</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Skip_Automation_Enabled</name>
+        <label>Skip Automation Enabled?</label>
+        <locationX>2588</locationX>
+        <locationY>323</locationY>
+        <defaultConnectorLabel>Skip Automation</defaultConnectorLabel>
+        <rules>
+            <name>Continue</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Setup.AutomationBypass__c.SkipAutomation__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Created_or_Updated</targetReference>
+            </connector>
+            <label>Continue</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Special_order_case_status_updated</name>
+        <label>Special order case status updated</label>
+        <locationX>2118</locationX>
+        <locationY>1055</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>SO_case_closed</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Status</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Closed</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Update_SO_related_opportunity</targetReference>
+            </connector>
+            <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
+            <label>SO case closed</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <description>If WO exists, then the Case has been created from mobile and the WO is still open. Otherwise the Case is IM created and WO does not yet exist.</description>
+        <name>WO_exists</name>
+        <label>WO exists</label>
+        <locationX>336</locationX>
+        <locationY>1547</locationY>
+        <defaultConnector>
+            <targetReference>Update_Case_values</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>No</defaultConnectorLabel>
+        <rules>
+            <name>Yes2</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Work_Order__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Get_WO</targetReference>
+            </connector>
+            <label>Yes</label>
+        </rules>
+    </decisions>
+    <description>Master Flow for Case
+17.1.2023 Added subflow to assign customer service case owner.
+12.1.2023: Added logic for Quality Event and Reclamation Case creation to update the IM as the case owner.
+14.12. Case priority update for cases with type Quality events, work continues set to low - action added
+02.02. Skip automation added
+03.02.2023 condition to send emails only if email exists
+23.3.2023 Update Case field on related opportunity
+4.4.2023: Moved part of the case data filling from Mobile Flow to this Record Triggered Flow to facilitate offline work.
+5.6.2023: Setting of the images checkbox on Case. Changes in the case assignment subflow.
+29.6.2023: Facilitate deployment to Test. No changes to version from 6.6.2023!
+6.7.2023 Add Asset Update for Warranty
+31.8.2023: Testing branch logic
+31.8.2023: CDL filtering added as a sub flow. Create Case / Update case logic was fixed.
+1.9.2023: Test version 3 - not to be used
+5.9.2023: Test version 4 - not to be used
+6.9.2023: CDL update and Case Ownership assignment removed from this flow (reclamation path)
+2.10.2023 Change Decision for closed Opportunity
+4.10.2023: Added the Oppo and Order links to Case for Installer initiated Reclamation case.
+12.10.2023: Prevent modification of closed Oppo, when new Case is created.
+02.12.2023: Save Active Version as R2</description>
+    <environments>Default</environments>
+    <formulas>
+        <name>IsNew</name>
+        <dataType>Boolean</dataType>
+        <expression>ISNEW()</expression>
+    </formulas>
+    <interviewLabel>Case - After Save on Create {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Case - After Save R2</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordLookups>
+        <description>get entitlement related to the asset</description>
+        <name>Get_Entitlement</name>
+        <label>Get Entitlement</label>
+        <locationX>2316</locationX>
+        <locationY>647</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Asset_Warranty_Update</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>AssetId</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.AssetId</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>Entitlement</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordLookups>
+        <name>Get_WO</name>
+        <label>Get WO</label>
+        <locationX>182</locationX>
+        <locationY>1655</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Opportunity_id_exists</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.Work_Order__c</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>WorkOrder</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordLookups>
+        <description>get entitlement related to the asset</description>
+        <name>GetEntitlement</name>
+        <label>GetEntitlement</label>
+        <locationX>809</locationX>
+        <locationY>647</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Update_Asset_Warranty</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>AssetId</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.AssetId</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>Entitlement</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordLookups>
+        <name>Oppo</name>
+        <label>Oppo</label>
+        <locationX>457</locationX>
+        <locationY>647</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Oppo_is_closed</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.Opportunity__c</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>Opportunity</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordLookups>
+        <name>Opportunity</name>
+        <label>Opportunity</label>
+        <locationX>50</locationX>
+        <locationY>1871</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Assign_Order_to_Case</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>Get_WO.Opportunity__c</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>Opportunity</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordUpdates>
+        <name>Asset_Warranty_Update</name>
+        <label>Asset Warranty Update</label>
+        <locationX>2316</locationX>
+        <locationY>755</locationY>
+        <connector>
+            <targetReference>Case_type_updated</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>AssetWarrantyId</field>
+            <value>
+                <elementReference>Get_Entitlement.AssetWarrantyId</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Update_Asset_Warranty</name>
+        <label>Update Asset Warranty</label>
+        <locationX>809</locationX>
+        <locationY>755</locationY>
+        <connector>
+            <targetReference>Case_type_created</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>AssetWarrantyId</field>
+            <value>
+                <elementReference>GetEntitlement.AssetWarrantyId</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Update_Case_values</name>
+        <label>Update Case values</label>
+        <locationX>336</locationX>
+        <locationY>2363</locationY>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Update_Opportunity</name>
+        <label>Update Opportunity</label>
+        <locationX>545</locationX>
+        <locationY>863</locationY>
+        <connector>
+            <targetReference>Case_type_created</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.Opportunity__r.Id</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>Case__c</field>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputAssignments>
+        <object>Opportunity</object>
+    </recordUpdates>
+    <recordUpdates>
+        <description>Update related opportunity that Building Permit has been granted</description>
+        <name>Update_related_opportunity</name>
+        <label>Update related opportunity</label>
+        <locationX>1458</locationX>
+        <locationY>1163</locationY>
+        <connector>
+            <targetReference>Inform_sales_reps_on_BP_case_closure</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.Opportunity__c</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>Building_Permit_Approved__c</field>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </inputAssignments>
+        <object>Opportunity</object>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Update_SO_related_opportunity</name>
+        <label>Update SO related opportunity</label>
+        <locationX>1986</locationX>
+        <locationY>1163</locationY>
+        <connector>
+            <targetReference>Inform_sales_SO_case_closure</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.Opportunity__c</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>Special_Order_Case_Closed__c</field>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </inputAssignments>
+        <object>Opportunity</object>
+    </recordUpdates>
+    <start>
+        <locationX>2462</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Skip_Automation_Enabled</targetReference>
+        </connector>
+        <object>Case</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+    <subflows>
+        <name>Assign_Customer_Service_Case_Owner</name>
+        <label>Assign Customer Service Case Owner</label>
+        <locationX>798</locationX>
+        <locationY>1247</locationY>
+        <connector>
+            <targetReference>Contact_email_exists</targetReference>
+        </connector>
+        <flowName>Case_Assign_Customer_Service_Case_Owner_Subflow</flowName>
+        <inputAssignments>
+            <name>CaseRecordID</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputAssignments>
+    </subflows>
+    <textTemplates>
+        <description>Notification to sales rep on opportunity feed that the building permit application is approved.</description>
+        <name>Building_Permit_Completed_Notification</name>
+        <isViewedAsPlainText>true</isViewedAsPlainText>
+        <text>Hi @[{!$Record.Opportunity__r.OwnerId}], The Building Permit Case related to your opportunity has been completed, and building permit is approved. Please follow-up accordingly and proceed to the Final contract and order.</text>
+    </textTemplates>
+    <textTemplates>
+        <description>Notification to sales rep on special order case closure</description>
+        <name>Special_Order_Case_Closure_Notification</name>
+        <isViewedAsPlainText>true</isViewedAsPlainText>
+        <text>Hi @[{!$Record.Opportunity__r.OwnerId}],The Special Order Case related to your opportunity is completed. Please follow-up accordingly and proceed to the Final contract and order.</text>
+    </textTemplates>
+    <variables>
+        <name>CDL_to_add</name>
+        <dataType>SObject</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <objectType>ContentDocumentLink</objectType>
+    </variables>
+    <variables>
+        <name>CDLs_to_add</name>
+        <dataType>SObject</dataType>
+        <isCollection>true</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <objectType>ContentDocumentLink</objectType>
+    </variables>
+    <variables>
+        <name>nbrCaseCDLs</name>
+        <dataType>Number</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <scale>0</scale>
+    </variables>
+    <variables>
+        <name>nbrImages</name>
+        <dataType>Number</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <scale>0</scale>
+    </variables>
+    <variables>
+        <name>nbrWOLICDLs</name>
+        <dataType>Number</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <scale>0</scale>
+    </variables>
+</Flow>

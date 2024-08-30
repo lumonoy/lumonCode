@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>
+        <!-- •	Name of the final recipient (company / person name )
+•	Final delivery address
+ 
+•	Recipient&apos;s contact information : 
+   ( required : name, phone number, e-mail address ) 
+ 
+•	Call request wishes ( e.g. 24 hours before delivery ) 
+•	Unloading instructions
+•	FIX delivery Day -->
+    </help>
+    <label><!-- Delivery Note --></label>
+    <name>Delivery_Note__c</name>
+</CustomFieldTranslation>

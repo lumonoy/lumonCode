@@ -1,0 +1,44 @@
+<template>
+	<h2 class="os-headline no-margin">{orderLabels.myOrdersHeadline}</h2>
+	<div if:true={displaySpinner} class="loading-container">
+		<div class="spinnerLWC">
+			<lightning-spinner alternative-text="Loading" size="small"></lightning-spinner>
+		</div>
+	</div>
+	<lightning-tabset if:false={displaySpinner} variant="scoped" class="order-tabs">
+		<template for:each={myOrders} for:item="order">
+			<lightning-tab
+					label={order.orderTabLabel}
+					key={order.orderId}
+					onactive={handleOrderOnActiveTab}
+					data-id={order.orderId}
+					data-number={order.orderNo}
+					data-contract={order.contractId}
+					class="os-tab">
+				<c-lp-my-order-header
+					order={order}
+					order-labels={orderLabels}
+				></c-lp-my-order-header>
+				<div class={order.dynamicContentCss}>
+					<div class="order-products-container">
+						<template for:each={order.orderProducts} for:item="product">
+							<div key={product.productName} class="product-container">
+								<c-lp-my-order-product
+									product-name={product.productName}
+									product-image-name={product.productImageName}>
+								</c-lp-my-order-product>
+							</div>
+						</template>
+					</div>
+					<c-lp-my-order-progress
+							key={order.orderId}
+							order-progress-dates={order.orderDatesProgressSTR}
+					></c-lp-my-order-progress>
+				</div>
+				<div class={order.toggleButtonCss} data-id={order.orderId} onclick={toggleDynamicContent}>
+					<span class="icon-drop-down"></span>
+				</div>
+			</lightning-tab>
+		</template>
+	</lightning-tabset>
+</template>

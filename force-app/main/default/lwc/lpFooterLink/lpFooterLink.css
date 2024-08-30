@@ -1,0 +1,14 @@
+.main-section-link {
+    display: block;
+    letter-spacing: -0.02em;
+    font-size: var(--lp-font-size-text-s);
+    line-height: 20px;
+    margin-bottom: 9px;
+}
+.social-icon{
+    text-align: center;
+    font-size: 35px;
+}
+.social-icon .icon-youtube {
+    font-size: 30px;
+}

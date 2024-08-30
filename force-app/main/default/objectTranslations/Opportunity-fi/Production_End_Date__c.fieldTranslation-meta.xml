@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Production end date (=Earliest load date, Production start date + production time + extra days) --></help>
+    <label>Tuotannon päättymispäivä</label>
+    <name>Production_End_Date__c</name>
+</CustomFieldTranslation>

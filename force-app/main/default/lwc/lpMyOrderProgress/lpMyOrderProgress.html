@@ -1,0 +1,19 @@
+<!-- Lp Ongoing Shipments Progress -->
+<template>
+	<div class="progress-path">
+		<div class="progress-date-container">
+			<template for:each={orderProgressData} for:item="progress">
+				<div key={progress.value} class="date-container">
+					<p class="date-label">{progress.label}</p>
+					<p class="date-value">{progress.value}</p>
+				</div>
+			</template>
+		</div>
+		<div class="progress-bar-container">
+			<div class="progress-bar" id="progressBar" style={progressBarStyle}></div>
+			<template for:each={orderProgressData} for:item="progressCheckBox">
+				<div key={progressCheckBox.value} class={progressCheckBox.cssClass}></div>
+			</template>
+		</div>
+	</div>
+</template>

@@ -1,0 +1,38 @@
+{
+  "appPageId" : "fc5a03ce-c6e8-4a9f-a04f-7fcfab044561",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "6f84b3f9-1910-4a59-a2ee-95ac4a160789",
+  "label" : "Portal Login",
+  "regions" : [ {
+    "id" : "7f39b5ce-7789-47ac-b007-4e8f335fb6c7",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "id" : "e2aa2473-6df1-4c7d-bd10-2deda35509d5",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "19e067f2-a88d-4f1c-a50d-be24136bf873",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Portal Login"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "4eaab4ef-35e6-48bd-a83a-f6aa22fece02",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "d2d86bbf-3966-4d36-9aff-7c0c93835300",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-portal-login"
+}

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Configuration Plan</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Configuration Plans</value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- Plan Fields --></label>
+        <name>ConfigPlan_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Data Table Fields --></label>
+        <name>Data_Table_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Tree Grid Columns --></label>
+        <name>Tree_Grid_Columns</name>
+    </fieldSets>
+    <layouts>
+        <layout>Configuration Layout User</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Edit Installer Message --></label>
+        <name>Edit_Installer_Message</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Edit Plan --></label>
+        <name>Edit_Plan</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Plan --></label>
+        <name>New_Plan</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Update Plan --></label>
+        <name>Update_Plan</name>
+    </quickActions>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>
