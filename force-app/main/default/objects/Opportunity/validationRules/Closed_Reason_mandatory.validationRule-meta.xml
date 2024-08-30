@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Closed_Reason_mandatory</fullName>
+    <active>true</active>
+    <description>This validation ensures that a closed reason is captured before before it can be saved.</description>
+    <errorConditionFormula>$Setup.AutomationBypass__c.SkipValidation__c = false
+&amp;&amp;
+
+(ISPICKVAL(  StageName , &apos;Closed Lost&apos;  )  || ISPICKVAL(  StageName , &apos;Cancelled&apos;  ))
+&amp;&amp;
+ISPICKVAL(  Close_Reason__c,  &apos;&apos;  )</errorConditionFormula>
+    <errorDisplayField>Close_Reason__c</errorDisplayField>
+    <errorMessage>Please select a Close Reason before saving this Opportunity</errorMessage>
+</ValidationRule>

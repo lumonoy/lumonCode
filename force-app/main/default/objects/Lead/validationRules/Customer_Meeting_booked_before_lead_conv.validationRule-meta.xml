@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Customer_Meeting_booked_before_lead_conv</fullName>
+    <active>false</active>
+    <description>Customer meeting needs to be booked before lead conversion</description>
+    <errorConditionFormula>$Setup.AutomationBypass__c.SkipValidation__c = false &amp;&amp; IsConverted &amp;&amp;   NOT(Customer_meeting_booked__c)</errorConditionFormula>
+    <errorMessage>Lead cannot be converted if no customer meeting has been booked. Please log your upcoming customer meeting as event associated to this lead.</errorMessage>
+</ValidationRule>

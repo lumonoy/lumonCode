@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>IT_Support_Item__c</fullName>
+    <externalId>false</externalId>
+    <label>IT Support Item</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>IT_Support_Type__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetName>Lumon_IT_Support_Items</valueSetName>
+        <valueSettings>
+            <controllingFieldValue>Orders</controllingFieldValue>
+            <controllingFieldValue>Workstation problems</controllingFieldValue>
+            <valueName>Phones</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Orders</controllingFieldValue>
+            <valueName>Accessories</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Orders</controllingFieldValue>
+            <valueName>Computers</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Orders</controllingFieldValue>
+            <valueName>Amazon Computers</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Orders</controllingFieldValue>
+            <valueName>Amazon Phones</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Orders</controllingFieldValue>
+            <valueName>Amazon Accesories</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Orders</controllingFieldValue>
+            <valueName>Amazon Gifts</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Orders</controllingFieldValue>
+            <controllingFieldValue>Others</controllingFieldValue>
+            <valueName>Amazon Others</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Orders</controllingFieldValue>
+            <controllingFieldValue>User accounts and rights</controllingFieldValue>
+            <valueName>Licenses</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Others</controllingFieldValue>
+            <controllingFieldValue>Software</controllingFieldValue>
+            <valueName>Others</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Others</controllingFieldValue>
+            <valueName>Mainos/roskaposti</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Others</controllingFieldValue>
+            <valueName>Customer info</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Servers</controllingFieldValue>
+            <controllingFieldValue>Workstation problems</controllingFieldValue>
+            <valueName>General problems</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Servers</controllingFieldValue>
+            <controllingFieldValue>Workstation problems</controllingFieldValue>
+            <valueName>hardware problems</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Servers</controllingFieldValue>
+            <controllingFieldValue>Workstation problems</controllingFieldValue>
+            <valueName>Network</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Servers</controllingFieldValue>
+            <controllingFieldValue>Workstation problems</controllingFieldValue>
+            <valueName>Printer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Servers</controllingFieldValue>
+            <controllingFieldValue>Workstation problems</controllingFieldValue>
+            <valueName>Remote Desktop</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Software</controllingFieldValue>
+            <valueName>Salestori</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Software</controllingFieldValue>
+            <valueName>Maintori</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Software</controllingFieldValue>
+            <valueName>Reptori</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Software</controllingFieldValue>
+            <valueName>Plantori</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Software</controllingFieldValue>
+            <valueName>AX</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Software</controllingFieldValue>
+            <valueName>Mepco</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Software</controllingFieldValue>
+            <valueName>Email</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Software</controllingFieldValue>
+            <valueName>Intori</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Software</controllingFieldValue>
+            <valueName>Precut</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Software</controllingFieldValue>
+            <valueName>Esmi</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Software</controllingFieldValue>
+            <valueName>Mfiles</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Software</controllingFieldValue>
+            <valueName>OneNote</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Software</controllingFieldValue>
+            <valueName>Wmware</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Software</controllingFieldValue>
+            <valueName>Frends</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Software</controllingFieldValue>
+            <valueName>Elisa</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Software</controllingFieldValue>
+            <valueName>Veeam</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Software</controllingFieldValue>
+            <valueName>PRTG</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Software</controllingFieldValue>
+            <valueName>Teams</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Software</controllingFieldValue>
+            <valueName>Sovelia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Software</controllingFieldValue>
+            <valueName>Solidworks</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Software</controllingFieldValue>
+            <valueName>Palette</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Software</controllingFieldValue>
+            <valueName>Office</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Software</controllingFieldValue>
+            <valueName>Install apps</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Software</controllingFieldValue>
+            <valueName>Softphone</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Software</controllingFieldValue>
+            <valueName>Freshdesk</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Software</controllingFieldValue>
+            <valueName>Unifaun</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Software</controllingFieldValue>
+            <valueName>eCon</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Software</controllingFieldValue>
+            <valueName>Pagero</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Software</controllingFieldValue>
+            <valueName>Brandtori</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Software</controllingFieldValue>
+            <valueName>Shopify</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Software</controllingFieldValue>
+            <valueName>Rajobit robot</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Software</controllingFieldValue>
+            <valueName>Salesforce</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Software</controllingFieldValue>
+            <valueName>Autocad + LT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Software</controllingFieldValue>
+            <valueName>Doctori</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Software</controllingFieldValue>
+            <valueName>Syncrontech</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Software</controllingFieldValue>
+            <valueName>Teamviewer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Software</controllingFieldValue>
+            <valueName>Q-factory</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Software</controllingFieldValue>
+            <valueName>Adobe products</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Software</controllingFieldValue>
+            <valueName>Lisec</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Software</controllingFieldValue>
+            <valueName>Defender</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Software</controllingFieldValue>
+            <valueName>Uniflow</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Software</controllingFieldValue>
+            <valueName>Jira</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>User accounts and rights</controllingFieldValue>
+            <valueName>Network folder</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>User accounts and rights</controllingFieldValue>
+            <valueName>Accounts</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>User accounts and rights</controllingFieldValue>
+            <valueName>Passwords</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>User accounts and rights</controllingFieldValue>
+            <valueName>Disable Accounts</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Workstation problems</controllingFieldValue>
+            <valueName>Autopilot</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Workstation problems</controllingFieldValue>
+            <valueName>Unlock devices</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

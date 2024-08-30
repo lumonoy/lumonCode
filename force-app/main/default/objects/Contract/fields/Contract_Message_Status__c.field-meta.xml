@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contract_Message_Status__c</fullName>
+    <description>Status of contract message to ERP</description>
+    <externalId>false</externalId>
+    <formula>IF(Is_Frends_JSON_Processed__c,
+IMAGE(&apos;/img/msg_icons/confirm32.png&apos;,&apos;SUCCESS&apos;,20,20),
+IMAGE(&apos;/img/msg_icons/error32.png&apos;,&apos;ERROR&apos;,20,20)
+)</formula>
+    <label>Contract Message Status</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

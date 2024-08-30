@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Assets_related_notes__c</fullName>
+    <description>Short notes regarding the customer&apos;s assets.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Short notes regarding the customer&apos;s assets.</inlineHelpText>
+    <label>Assets related notes</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>TextArea</type>
+</CustomField>

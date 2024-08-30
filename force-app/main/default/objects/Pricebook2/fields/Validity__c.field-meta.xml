@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Validity__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(IsActive= FALSE, &quot;Not Active&quot;, 
+   IF(AND(ISNULL(Start_Date__c),ISNULL(End_Date__c)), &quot;Never Expires&quot;,
+      IF(AND(NOT(ISNULL(Start_Date__c)),ISNULL(End_Date__c),Start_Date__c&lt;=TODAY()), &quot;Current without End Date&quot;,
+         IF(AND(NOT(ISNULL(Start_Date__c)),NOT(ISNULL(End_Date__c)),Start_Date__c&lt;=TODAY()), &quot;Current with End Date&quot;,
+            IF(AND(NOT(ISNULL(End_Date__c)),End_Date__c&lt;TODAY()), &quot;Expired&quot;,
+               IF(AND(NOT(ISNULL(Start_Date__c)),Start_Date__c&gt;TODAY()), &quot;Future&quot;,&quot;Other&quot;))))))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Validity</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

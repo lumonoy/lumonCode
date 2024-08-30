@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ProductIdentifier__c</fullName>
+    <description>8 Digit Identifier for Configuration Products
+Used in the RVN Identifier &lt;OpportunityNumber&gt;&lt;ProductIdentifier)</description>
+    <displayFormat>6{0000000}</displayFormat>
+    <externalId>true</externalId>
+    <inlineHelpText>Unique Identifier for Configuration Products</inlineHelpText>
+    <label>Product Identifier</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>AutoNumber</type>
+</CustomField>

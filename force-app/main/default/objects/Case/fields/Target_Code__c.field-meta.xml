@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Target_Code__c</fullName>
+    <description>Picklist field for reclamation classification</description>
+    <externalId>false</externalId>
+    <label>Target Code OLD</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>Lumon_Quality_Target_Codes</valueSetName>
+    </valueSet>
+</CustomField>

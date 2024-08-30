@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>WEB_Sweden_Case</fullName>
+    <filterScope>Queue</filterScope>
+    <label>Webshop Sweden</label>
+    <queue>WEB_Sweden</queue>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

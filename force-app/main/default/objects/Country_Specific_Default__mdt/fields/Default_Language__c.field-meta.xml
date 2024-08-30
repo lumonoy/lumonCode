@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Default_Language__c</fullName>
+    <description>The Default Language to use for documentations in a specific country</description>
+    <externalId>false</externalId>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <label>Default Language</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>cz</fullName>
+                <default>true</default>
+                <label>cz</label>
+            </value>
+            <value>
+                <fullName>de</fullName>
+                <default>false</default>
+                <label>de</label>
+            </value>
+            <value>
+                <fullName>en</fullName>
+                <default>false</default>
+                <label>en</label>
+            </value>
+            <value>
+                <fullName>en_ca</fullName>
+                <default>false</default>
+                <label>en_ca</label>
+            </value>
+            <value>
+                <fullName>es</fullName>
+                <default>false</default>
+                <label>es</label>
+            </value>
+            <value>
+                <fullName>fi</fullName>
+                <default>false</default>
+                <label>fi</label>
+            </value>
+            <value>
+                <fullName>no</fullName>
+                <default>false</default>
+                <label>no</label>
+            </value>
+            <value>
+                <fullName>pl</fullName>
+                <default>false</default>
+                <label>pl</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

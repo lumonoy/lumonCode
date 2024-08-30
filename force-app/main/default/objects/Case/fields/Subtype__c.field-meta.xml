@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Subtype__c</fullName>
+    <description>A field for specifying the reason for the quality event case.</description>
+    <externalId>false</externalId>
+    <label>Subtype OLD</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Missing Part</fullName>
+                <default>false</default>
+                <label>Missing Part</label>
+            </value>
+            <value>
+                <fullName>Broken Part</fullName>
+                <default>false</default>
+                <label>Broken Part</label>
+            </value>
+            <value>
+                <fullName>Wrong Measure</fullName>
+                <default>false</default>
+                <label>Wrong Measure</label>
+            </value>
+            <value>
+                <fullName>Broken products</fullName>
+                <default>false</default>
+                <label>Broken products</label>
+            </value>
+            <value>
+                <fullName>Missing  products</fullName>
+                <default>false</default>
+                <label>Missing  products</label>
+            </value>
+            <value>
+                <fullName>Wrong  products</fullName>
+                <default>false</default>
+                <label>Wrong  products</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

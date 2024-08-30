@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Multiplier_within_Range</fullName>
+    <active>false</active>
+    <description>Checks the Multiplier is within Min and Max Values</description>
+    <errorConditionFormula>$Setup.AutomationBypass__c.SkipValidation__c = false &amp;&amp;
+ (Cost_Multiplier__c &lt;  Min_Value__c  || Cost_Multiplier__c &gt; Max_Value__c )</errorConditionFormula>
+    <errorMessage>Multiplier is not within Range</errorMessage>
+</ValidationRule>

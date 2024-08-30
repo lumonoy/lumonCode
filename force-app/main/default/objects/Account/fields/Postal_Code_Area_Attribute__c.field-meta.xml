@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Postal_Code_Area_Attribute__c</fullName>
+    <description>Shows the Area Code of the Postal Code Area assigned</description>
+    <externalId>false</externalId>
+    <formula>Postal_Code_Area__r.Area__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>the Area Code of the Postal Code Area assigned</inlineHelpText>
+    <label>Postal Code Area Attribute</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

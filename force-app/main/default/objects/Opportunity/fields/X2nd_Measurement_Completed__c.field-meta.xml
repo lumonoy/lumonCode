@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>X2nd_Measurement_Completed__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>This field is marked when the 2nd Measurement has been completed.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Please mark this field when the 2nd Measurement has been completed.</inlineHelpText>
+    <label>2nd Measurement Completed</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

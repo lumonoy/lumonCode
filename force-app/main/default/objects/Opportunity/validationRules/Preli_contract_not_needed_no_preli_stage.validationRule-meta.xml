@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Preli_contract_not_needed_no_preli_stage</fullName>
+    <active>true</active>
+    <description>do not allow “preliminary contract” stage if “preliminary contract needed” is false</description>
+    <errorConditionFormula>$Setup.AutomationBypass__c.SkipValidation__c = false
+&amp;&amp; Account.IsPersonAccount
+&amp;&amp; Preliminary_Contract_Needed__c = false
+&amp;&amp; (ISPICKVAL( StageName , &quot;Preliminary Contract&quot; ))</errorConditionFormula>
+    <errorMessage>This stage is not allowed when there is no Preliminary Contract</errorMessage>
+</ValidationRule>

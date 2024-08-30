@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SF_Maps</fullName>
+    <availability>online</availability>
+    <displayType>link</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <height>600</height>
+    <linkType>url</linkType>
+    <masterLabel>SF Maps</masterLabel>
+    <openType>sidebar</openType>
+    <protected>false</protected>
+    <url>https://lumonoy.lightning.force.com/apex/Maps__maps?baseObjectId=a2h7Q000000V7RgQAK&amp;tooltipField=Name&amp;tooltipField2=MobilePhone&amp;tooltipField3=email&amp;tooltipField4=Property_Type__c&amp;tooltipField5=Product_Interest__c&amp;tooltipField6=LeadSource&amp;tooltipField7=OwnerId&amp;zoom=18&amp;color=%23FFFFFF&amp;recordid={!Lead.Id}</url>
+</WebLink>

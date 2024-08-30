@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Preliminary_Contract_Reason_Details2__c</fullName>
+    <description>This Field allows additional text on Preliminary Contract Reasons.
+This custom field is part of the B2C lead to order process.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Please fill in more Preliminary Contract Details.</inlineHelpText>
+    <label>Preliminary Contract Reason Details2</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>TextArea</type>
+</CustomField>

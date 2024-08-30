@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>No_backward_after_contract_signature</fullName>
+    <active>true</active>
+    <description>User cannot move opportunity backward after preliminary or final contract is signed</description>
+    <errorConditionFormula>$Setup.AutomationBypass__c.SkipValidation__c = false
+&amp;&amp;
+not( $Profile.Name = &quot;System Administrator&quot;)
+&amp;&amp; Account.IsPersonAccount
+&amp;&amp;
+CASE
+(StageName,
+&quot;Preparation &amp; Analysis&quot;,1,
+&quot;Quoting&quot;, 2 ,
+&quot;Contract Sent&quot;,3 ,
+&quot;Preliminary contract&quot; ,4,
+&quot;Contract Signed&quot; , 5,
+&quot;Closed Won&quot; , 5,
+&quot;Closed Lost&quot; , 5,0
+)
+&lt;
+Case(
+PRIORVALUE (StageName),
+&quot;Preliminary contract&quot; ,4,
+&quot;Contract Signed&quot; , 5,
+&quot;Closed Won&quot; , 5,
+&quot;Closed Lost&quot; , 5,0 )</errorConditionFormula>
+    <errorMessage>You cannot move opportunity to previous stages when contract has already been signed.</errorMessage>
+</ValidationRule>

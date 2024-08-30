@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Billing_Address_City_Mandatory</fullName>
+    <active>false</active>
+    <description>Rule to Validate that for B2C Accounts, the billing address includes Street, PostalCode, City</description>
+    <errorConditionFormula>AND(
+    $Setup.AutomationBypass__c.SkipValidation__c = false,
+    NOT(IsPersonAccount),
+    ISBLANK(BillingCity)
+)</errorConditionFormula>
+    <errorDisplayField>BillingCity</errorDisplayField>
+    <errorMessage>Please fill in Billing Address City</errorMessage>
+</ValidationRule>

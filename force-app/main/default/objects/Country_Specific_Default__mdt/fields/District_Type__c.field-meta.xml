@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>District_Type__c</fullName>
+    <description>District Type to use for Pricing, values P1-P10</description>
+    <externalId>false</externalId>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <inlineHelpText>District Type to use for Pricing, default P4 &quot;Region&quot;</inlineHelpText>
+    <label>District Type</label>
+    <length>3</length>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

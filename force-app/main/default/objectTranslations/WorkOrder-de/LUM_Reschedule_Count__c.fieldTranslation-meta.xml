@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- The amount of times this work order was rescheduled. --></help>
+    <label><!-- (Re)schedule Count --></label>
+    <name>LUM_Reschedule_Count__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Other_Reason_Resolved</fullName>
+    <active>true</active>
+    <description>Other reason needs to be resolved before moving to contract signed stage.</description>
+    <errorConditionFormula>$Setup.AutomationBypass__c.SkipValidation__c = false     
+&amp;&amp; ISPICKVAL(StageName ,&apos;Contract Signed&apos;)
+&amp;&amp; ISPICKVAL( Reason_for_preliminary_contract__c, &apos;Other&apos;)
+&amp;&amp; NOT( Other_Reason_Resolved__c)
+&amp;&amp; Preliminary_Contract_Needed__c = true</errorConditionFormula>
+    <errorMessage>Opportunity cannot be moved to contract signed stage if other reasons has not been resolved. Please mark this field when other reason has been resolved.</errorMessage>
+</ValidationRule>

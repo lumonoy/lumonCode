@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Account_Number__c</fullName>
+    <description>L5 AccountNumber/BusinessId - Lookup Attribute for Factory Price, Product Cost and Sales Price</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Lookup Attribute for Factory Price, Product Cost and Sales Price</inlineHelpText>
+    <label>Account Number</label>
+    <length>25</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

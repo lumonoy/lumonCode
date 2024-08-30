@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Preliminary_Detail_Reason_Mandatory</fullName>
+    <active>true</active>
+    <description>This validation rule ensures that a Preliminary Contract Detail Reason is captured when &quot;other&quot; Preliminary Contract Reason is given before it can be saved.</description>
+    <errorConditionFormula>$Setup.AutomationBypass__c.SkipValidation__c = false
+&amp;&amp; Account.IsPersonAccount
+&amp;&amp; ISPICKVAL(Reason_for_preliminary_contract__c, &apos;other&apos;)
+&amp;&amp; ISBLANK(Preliminary_Contract_Reason_Details__c)</errorConditionFormula>
+    <errorDisplayField>Preliminary_Contract_Reason_Details__c</errorDisplayField>
+    <errorMessage>Please fill in &apos;Preliminary Contract Reason Details&apos; to provide more details about why the Preliminary Contract is needed.</errorMessage>
+</ValidationRule>

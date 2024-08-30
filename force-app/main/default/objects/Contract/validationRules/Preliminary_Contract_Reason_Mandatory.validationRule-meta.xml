@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Preliminary_Contract_Reason_Mandatory</fullName>
+    <active>false</active>
+    <description>This validation ensures that a preliminary contract detailed reason is captured when other reason is given before it can be saved.</description>
+    <errorConditionFormula>AND(
+NOT(ISBLANK(   Preliminary_Contract_Reason__c))  , 
+ISBLANK(  Preliminary_Contract_Reason_Details__c )
+)</errorConditionFormula>
+    <errorMessage>Please provide more details.</errorMessage>
+</ValidationRule>

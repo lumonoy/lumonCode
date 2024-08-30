@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Preliminary_installation_time__c</fullName>
+    <description>To plan for installation, a preliminary installation date &amp; time will show in this field. 
+This data is captured from the Installation Scheduling component. 
+This custom field is part of the B2C lead to order process.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The Preliminary installation date and time.</inlineHelpText>
+    <label>Preliminary installation time</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>DateTime</type>
+</CustomField>

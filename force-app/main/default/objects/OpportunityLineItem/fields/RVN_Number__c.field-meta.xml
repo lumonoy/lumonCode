@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RVN_Number__c</fullName>
+    <description>Shows the RVN Number which is a concatenation of the two Unique Identifiers
+1) Opportunity Number 8 digits
+2) Visual Structure Number 8 Digits</description>
+    <externalId>false</externalId>
+    <formula>Opportunity_Number__c +  Visual_Structure_Number__c</formula>
+    <inlineHelpText>Shows the RVN Number</inlineHelpText>
+    <label>RVN Number</label>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

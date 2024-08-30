@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reason_Preliminary_Contract_Mandatory</fullName>
+    <active>true</active>
+    <description>This validation rule ensures the reason for a preliminary contract is captured when a preliminary contract is needed.</description>
+    <errorConditionFormula>$Setup.AutomationBypass__c.SkipValidation__c = false
+&amp;&amp; Account.IsPersonAccount
+ &amp;&amp; Preliminary_Contract_Needed__c = true
+ &amp;&amp; (ISPICKVAL(Reason_for_preliminary_contract__c,&apos;&apos;))</errorConditionFormula>
+    <errorDisplayField>Reason_for_preliminary_contract__c</errorDisplayField>
+    <errorMessage>Please fill in &apos;Reason for Preliminary Contract&apos; field to state why a Preliminary Contract is needed.</errorMessage>
+</ValidationRule>

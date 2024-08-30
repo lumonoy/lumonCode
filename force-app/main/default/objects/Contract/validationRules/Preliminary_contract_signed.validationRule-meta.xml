@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Preliminary_contract_signed</fullName>
+    <active>true</active>
+    <description>on contract: does not allow “Preliminary contract signed” status if “contract type” is not Preliminary contract</description>
+    <errorConditionFormula>$Setup.AutomationBypass__c.SkipValidation__c = false
+&amp;&amp;   Not(ISPICKVAL(Contract_type__c, &quot;Preliminary Contract&quot;))
+&amp;&amp; (ISPICKVAL( Status , &quot;Preliminary Contract Signed&quot;))</errorConditionFormula>
+    <errorMessage>The Preliminary Contract  Signed is not allowed, please use the Contract Signed status for Final Contracts</errorMessage>
+</ValidationRule>

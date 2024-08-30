@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Permit_Result_Details__c</fullName>
+    <description>This Field is for additional inforrmation related to the Building Permit Case Handling</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Please provide additional information related to the Building Permit Process</inlineHelpText>
+    <label>Permit Result Details OLD</label>
+    <length>32768</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Account_Profit_Center__c</fullName>
+    <description>Account profit center, taken from postal code areas by using a flow</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Account Profit Center - This fields is automatically updated field based on the account postal code.</inlineHelpText>
+    <label>Account Profit Center</label>
+    <length>100</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

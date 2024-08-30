@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Delivery_Method__c</fullName>
+    <description>Delivery method selected for the installation</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Delivery method selected for the installation</inlineHelpText>
+    <label>Delivery Method</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>Lumon_Delivery_Methods</valueSetName>
+    </valueSet>
+</CustomField>

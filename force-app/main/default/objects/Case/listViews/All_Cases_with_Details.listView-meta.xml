@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_Cases_with_Details</fullName>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>CASES.PRIORITY</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>CaseGroup__c</columns>
+    <columns>CASES.RECORDTYPE</columns>
+    <columns>CaseCategory__c</columns>
+    <columns>CaseType__c</columns>
+    <columns>CaseSubType__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All Cases with Details</label>
+    <sharedTo>
+        <group>Admins</group>
+    </sharedTo>
+</ListView>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Customer_segment_name__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(ISPICKVAL(Opportunity__r.Customer_Segment__c , &quot;1000&quot;),&apos;Consumer Apartment Building&apos;,
+IF(ISPICKVAL(Opportunity__r.Customer_Segment__c , &quot;1100&quot;),&apos;Consumer Single House&apos;,
+IF(ISPICKVAL(Opportunity__r.Customer_Segment__c , &quot;4000&quot;),&apos;Project construction&apos;,
+IF(ISPICKVAL(Opportunity__r.Customer_Segment__c , &quot;4100&quot;),&apos;Project renovation&apos;,
+IF(ISPICKVAL(Opportunity__r.Customer_Segment__c , &quot;9000&quot;),&apos;Reseller project&apos;,
+IF(ISPICKVAL(Opportunity__r.Customer_Segment__c , &quot;9100&quot;),&apos;Reseller consumer&apos;,
+IF(ISPICKVAL(Opportunity__r.Customer_Segment__c , &quot;100&quot;),&apos;Other&apos;,
+NULL)))))))</formula>
+    <label>Customer segment name</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

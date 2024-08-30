@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Mailing_PostalCode_Mandatory</fullName>
+    <active>true</active>
+    <description>Rule to Validate that for B2C Accounts, the mailing address includes PostalCode</description>
+    <errorConditionFormula>$Setup.AutomationBypass__c.SkipValidation__c = false &amp;&amp;
+IsPersonAccount &amp;&amp;
+(ISBLANK( PersonMailingPostalCode   ))</errorConditionFormula>
+    <errorMessage>Please fill in Mailing Postal Code</errorMessage>
+</ValidationRule>

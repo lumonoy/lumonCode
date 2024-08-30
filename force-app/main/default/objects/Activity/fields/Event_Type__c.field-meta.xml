@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Event_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Event Type</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>1st sales visit</fullName>
+                <default>false</default>
+                <label>1st sales visit</label>
+            </value>
+            <value>
+                <fullName>Online meeting</fullName>
+                <default>false</default>
+                <label>Online meeting</label>
+            </value>
+            <value>
+                <fullName>Onsite meeting</fullName>
+                <default>false</default>
+                <label>Onsite meeting</label>
+            </value>
+            <value>
+                <fullName>Showroom visit</fullName>
+                <default>false</default>
+                <label>Showroom visit</label>
+            </value>
+            <value>
+                <fullName>2nd measurement visit</fullName>
+                <default>false</default>
+                <label>2nd measurement visit</label>
+            </value>
+            <value>
+                <fullName>Door knocking</fullName>
+                <default>false</default>
+                <label>Door knocking</label>
+            </value>
+            <value>
+                <fullName>Dropping off flyers</fullName>
+                <default>false</default>
+                <label>Dropping off flyers</label>
+            </value>
+            <value>
+                <fullName>Door hanger/flyer</fullName>
+                <default>false</default>
+                <label>Door hanger/flyer</label>
+            </value>
+            <value>
+                <fullName>Direct calling</fullName>
+                <default>false</default>
+                <label>Direct calling</label>
+            </value>
+            <value>
+                <fullName>Stand/Presentation/Trailer event</fullName>
+                <default>false</default>
+                <label>Stand/Presentation/Trailer event</label>
+            </value>
+            <value>
+                <fullName>Shows</fullName>
+                <default>false</default>
+                <label>Shows</label>
+            </value>
+            <value>
+                <fullName>Referral</fullName>
+                <default>false</default>
+                <label>Referral</label>
+            </value>
+            <value>
+                <fullName>Phone request</fullName>
+                <default>false</default>
+                <label>Phone request</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

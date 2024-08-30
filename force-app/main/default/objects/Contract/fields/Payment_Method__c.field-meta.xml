@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Payment_Method__c</fullName>
+    <description>Payment Methods accepted by Lumon</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Payment Methods accepted by Lumon</inlineHelpText>
+    <label>Payment Method</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>Payment_Methods</valueSetName>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

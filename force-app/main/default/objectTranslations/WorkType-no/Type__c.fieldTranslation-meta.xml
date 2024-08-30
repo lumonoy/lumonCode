@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Type --></label>
+    <name>Type__c</name>
+    <picklistValues>
+        <masterLabel>Internal Work</masterLabel>
+        <translation><!-- Internal Work --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Maintenance and Accessories</masterLabel>
+        <translation><!-- Maintenance and Accessories --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>New Product installation</masterLabel>
+        <translation><!-- New Product installation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other work</masterLabel>
+        <translation><!-- Other work --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Reclamation work</masterLabel>
+        <translation><!-- Reclamation work --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lumon_Account_Highlights</fullName>
+    <fields>AccountNumber</fields>
+    <fields>Name</fields>
+    <fields>Business_Type__c</fields>
+    <fields>OwnerId</fields>
+    <fields>Account_Office__c</fields>
+    <fields>Account_Cost_Center__c</fields>
+    <label>Lumon Account Highlights</label>
+</CompactLayout>

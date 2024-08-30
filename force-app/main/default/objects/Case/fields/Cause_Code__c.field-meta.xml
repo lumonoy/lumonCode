@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cause_Code__c</fullName>
+    <description>Picklist value for reclamation classifications</description>
+    <externalId>false</externalId>
+    <label>Cause Code OLD</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>Lumon_Quality_Cause_Codes</valueSetName>
+    </valueSet>
+</CustomField>

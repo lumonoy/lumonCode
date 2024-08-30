@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Extra_Sales_Prices_Products</fullName>
+    <columns>PRODUCT2.ACTIVE</columns>
+    <columns>Product_Group__c</columns>
+    <columns>Cost_Type__c</columns>
+    <columns>Sales_Code__c</columns>
+    <columns>PRODUCT2.CUSTOMER_PRODUCT_ID</columns>
+    <columns>PRODUCT2.NAME</columns>
+    <columns>Product_Category__c</columns>
+    <columns>Product_Type__c</columns>
+    <columns>Product_Item__c</columns>
+    <columns>PRODUCT2.QTY_UNIT_OF_MEASURE</columns>
+    <columns>Reclamation__c</columns>
+    <columns>Installation__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Product_Group__c</field>
+        <operation>equals</operation>
+        <value>LISAHIN</value>
+    </filters>
+    <label>Extra Sales/Prices Products</label>
+</ListView>

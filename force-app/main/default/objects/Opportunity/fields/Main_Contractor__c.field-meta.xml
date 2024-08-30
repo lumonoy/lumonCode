@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Main_Contractor__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Field to mention whether main contractor or sub contractor</description>
+    <externalId>false</externalId>
+    <label>Main Contractor</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

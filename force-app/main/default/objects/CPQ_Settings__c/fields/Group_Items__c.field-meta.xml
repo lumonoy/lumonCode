@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Group_Items__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>When Enabled Groups Configuration Items per ProductCode</description>
+    <externalId>false</externalId>
+    <inlineHelpText>When Enabled Groups Configuration Items per ProductCode</inlineHelpText>
+    <label>Group Items</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

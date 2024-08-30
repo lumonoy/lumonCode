@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Get Thumbnail Size --></label>
+    <name>Get_Thumbnail_Size__c</name>
+    <picklistValues>
+        <masterLabel>FULL</masterLabel>
+        <translation><!-- FULL --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>THUMB120BY90</masterLabel>
+        <translation><!-- THUMB120BY90 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>THUMB240BY180</masterLabel>
+        <translation><!-- THUMB240BY180 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>THUMB720BY480</masterLabel>
+        <translation><!-- THUMB720BY480 --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

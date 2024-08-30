@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Payment_Plan__c</fullName>
+    <externalId>false</externalId>
+    <label>Payment Plan</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>25% Advance + 75% Financing</fullName>
+                <default>false</default>
+                <label>25% Advance + 75% Financing</label>
+            </value>
+            <value>
+                <fullName>50% Advance + 50% Financing</fullName>
+                <default>false</default>
+                <label>50% Advance + 50% Financing</label>
+            </value>
+            <value>
+                <fullName>Aftersales 100% Final invoice</fullName>
+                <default>false</default>
+                <label>Aftersales 100% Final invoice</label>
+            </value>
+            <value>
+                <fullName>Consumer 50/50</fullName>
+                <default>false</default>
+                <label>Consumer 50/50</label>
+            </value>
+            <value>
+                <fullName>Consumer Financing</fullName>
+                <default>false</default>
+                <label>Consumer Financing</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

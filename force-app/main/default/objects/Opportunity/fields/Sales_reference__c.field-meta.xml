@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sales_reference__c</fullName>
+    <description>Sales Order number (8 digits number, previsously 50XXXXXX)</description>
+    <displayFormat>{00000000}</displayFormat>
+    <externalId>false</externalId>
+    <inlineHelpText>Sales Order number</inlineHelpText>
+    <label>Sales reference</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>AutoNumber</type>
+</CustomField>

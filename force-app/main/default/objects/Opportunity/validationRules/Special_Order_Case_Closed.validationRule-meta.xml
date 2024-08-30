@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Special_Order_Case_Closed</fullName>
+    <active>true</active>
+    <description>Special Order Case needs to be closed before moving to contract signed stage.
+26.09.2023 LUM-1784 ISCHANGED included for special orders to be activated after Contract signed</description>
+    <errorConditionFormula>$Setup.AutomationBypass__c.SkipValidation__c = false 
+&amp;&amp; ISCHANGED(StageName)
+&amp;&amp; ISPICKVAL(StageName ,&apos;Contract Signed&apos;)
+&amp;&amp; ISPICKVAL( Reason_for_preliminary_contract__c, &apos;Special Order&apos;)
+&amp;&amp; NOT( Special_Order_Case_Closed__c)
+&amp;&amp; Preliminary_Contract_Needed__c = true</errorConditionFormula>
+    <errorMessage>Opportunity cannot be moved to contract signed stage if special order case has not been closed.</errorMessage>
+</ValidationRule>

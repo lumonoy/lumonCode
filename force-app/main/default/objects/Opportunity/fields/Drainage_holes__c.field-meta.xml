@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Drainage_holes__c</fullName>
+    <defaultValue>true</defaultValue>
+    <description>LATER: possibly moved</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Indication whether Drainage holes are required</inlineHelpText>
+    <label>Drainage holes</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

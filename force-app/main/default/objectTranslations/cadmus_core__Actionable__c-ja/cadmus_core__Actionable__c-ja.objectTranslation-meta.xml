@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>アクション</value>
+    </caseValues>
+    <layouts>
+        <layout>Get Thumbnails Url</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label><!-- Get Thumbnails Url --></label>
+            <section>Get Thumbnails Url</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Rich Text Pictures</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Rich Text Pictures Fields --></label>
+            <section>Rich Text Pictures Fields</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>アクション名</nameFieldLabel>
+    <recordTypes>
+        <description><!-- Move your FILES into URLS --></description>
+        <label><!-- Get Thumbnails Url --></label>
+        <name>Get_Thumbnails_Url</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Process pictures for RichText fields --></description>
+        <label><!-- Rich Text Pictures --></label>
+        <name>Rich_Text_Pictures</name>
+    </recordTypes>
+</CustomObjectTranslation>

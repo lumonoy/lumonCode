@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Glass_Panel_Amount__c</fullName>
+    <description>&quot;glass_panel_amount&quot; in the Visual Output JSON</description>
+    <externalId>false</externalId>
+    <inlineHelpText>&quot;glass_panel_amount&quot; in the Visual Output JSON</inlineHelpText>
+    <label>Glass Panel Amount</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Area_Profit_Center__c</fullName>
+    <description>Field to hold the Assigned Profit/Cost Center found from the Postal Code Area</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Field to hold the Assigned Profit/Cost Center found from the Postal Code Area</inlineHelpText>
+    <label>Area Profit Center</label>
+    <length>100</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

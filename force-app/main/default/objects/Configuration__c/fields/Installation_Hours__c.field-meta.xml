@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Installation_Hours__c</fullName>
+    <description>Sum of the Installation Hours of each Configuration Product (RVN) in this Configuration Plan</description>
+    <externalId>false</externalId>
+    <label>Installation Hours</label>
+    <summarizedField>Configuration_Product__c.Installation_Hours__c</summarizedField>
+    <summaryForeignKey>Configuration_Product__c.Configuration__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

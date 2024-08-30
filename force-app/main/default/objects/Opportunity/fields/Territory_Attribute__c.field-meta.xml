@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Territory_Attribute__c</fullName>
+    <description>Attribute to Identify the Sales Area (based on Account Territory)</description>
+    <externalId>false</externalId>
+    <formula>Territory2.DeveloperName</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Attribute to Identify the Sales Area</inlineHelpText>
+    <label>Territory Attribute</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reason_for_preliminary_contract__c</fullName>
+    <description>NOT IN USE This indicates why preliminary contract has been made instead of the final contract</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Please mark the preliminary contract reason here</inlineHelpText>
+    <label>Reason for Preliminary Contract</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Building Permit</fullName>
+                <default>false</default>
+                <label>Building Permit</label>
+            </value>
+            <value>
+                <fullName>2nd Measurement Needed</fullName>
+                <default>false</default>
+                <label>2nd Measurement Needed</label>
+            </value>
+            <value>
+                <fullName>Special Order</fullName>
+                <default>false</default>
+                <label>Special Order</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Building Permit Needed</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Building Permit Needed</label>
+            </value>
+            <value>
+                <fullName>Special Order Handling</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Special Order Handling</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

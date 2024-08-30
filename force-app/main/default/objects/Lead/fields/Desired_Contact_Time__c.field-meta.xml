@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Desired_Contact_Time__c</fullName>
+    <description>Lumon web2lead form (customer can propose a desired contact time)</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Please propose a date and time when you would prefer Lumon to contact you.</inlineHelpText>
+    <label>Desired Contact Time</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>DateTime</type>
+</CustomField>

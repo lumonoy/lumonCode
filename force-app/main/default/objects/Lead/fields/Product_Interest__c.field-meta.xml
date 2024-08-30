@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product_Interest__c</fullName>
+    <description>This Field allows selection of one or more products of interest to the lead.
+This custom field is part of the B2C lead to order process</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Please select one or more Products of Interest.</inlineHelpText>
+    <label>Product Interest</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Roofs</fullName>
+                <default>false</default>
+                <label>Roofs</label>
+            </value>
+            <value>
+                <fullName>Glazing</fullName>
+                <default>false</default>
+                <label>Glazing</label>
+            </value>
+            <value>
+                <fullName>Railings</fullName>
+                <default>false</default>
+                <label>Railings</label>
+            </value>
+            <value>
+                <fullName>Blinds</fullName>
+                <default>false</default>
+                <label>Blinds</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

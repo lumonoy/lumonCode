@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Address_PostalCode_Mandatory</fullName>
+    <active>true</active>
+    <description>This validation ensures address information is captured before a specific lead status can be saved.</description>
+    <errorConditionFormula>$Setup.AutomationBypass__c.SkipValidation__c = false &amp;&amp;
+(ISPICKVAL( Status ,&apos;MQL&apos;) || 
+ISPICKVAL( Status ,&apos;Sales Lead&apos;))
+&amp;&amp;
+ISBLANK( PostalCode)</errorConditionFormula>
+    <errorDisplayField>PostalCode</errorDisplayField>
+    <errorMessage>A Postal Code is mandatory for Lead with this status</errorMessage>
+</ValidationRule>

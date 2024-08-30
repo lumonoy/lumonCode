@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Production_End_Date__c</fullName>
+    <description>Shows the Date when the Finished Good is Produced</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Production end date (=Earliest load date, Production start date + production time + extra days)</inlineHelpText>
+    <label>Production End Date</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

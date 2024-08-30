@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Main_Project_Number__c</fullName>
+    <description>The Main Project Number next in sequence based on count of existing Main Projects</description>
+    <externalId>true</externalId>
+    <label>Main Project Number</label>
+    <length>8</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

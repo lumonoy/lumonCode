@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Block_Activatating_Preliminary_contract</fullName>
+    <active>true</active>
+    <description>On Contract: does not allow to activate of the Preliminary Contract.</description>
+    <errorConditionFormula>$Setup.AutomationBypass__c.SkipValidation__c = false
+&amp;&amp;   ISPICKVAL(Contract_type__c, &quot;Preliminary Contract&quot;)
+&amp;&amp; (ISPICKVAL( Status , &quot;Activated&quot;))</errorConditionFormula>
+    <errorMessage>You&apos;re not allowed to activate the Preliminary Contract.</errorMessage>
+</ValidationRule>

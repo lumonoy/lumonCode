@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Customer_Financing__c</fullName>
+    <description>When a customer requires financing to complete the order it is important to log and track this information. 
+This custom field is part of the B2C lead to order process.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Please select Customer Financing option.</inlineHelpText>
+    <label>Customer Financing</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Self funded</fullName>
+                <default>false</default>
+                <label>Self funded</label>
+            </value>
+            <value>
+                <fullName>External financing</fullName>
+                <default>false</default>
+                <label>External financing</label>
+            </value>
+            <value>
+                <fullName>Self-financed</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Self-financed</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

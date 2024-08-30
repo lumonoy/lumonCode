@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Upper_Profile__c</fullName>
+    <description>&quot;upper_profile&quot; in the Visual Output JSON</description>
+    <externalId>false</externalId>
+    <inlineHelpText>&quot;upper_profile&quot; in the Visual Output JSON</inlineHelpText>
+    <label>Upper Profile</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

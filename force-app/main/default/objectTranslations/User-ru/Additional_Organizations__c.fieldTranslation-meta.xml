@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Addtional organizations where the user should have access to --></help>
+    <label><!-- Additional Organizations --></label>
+    <name>Additional_Organizations__c</name>
+</CustomFieldTranslation>

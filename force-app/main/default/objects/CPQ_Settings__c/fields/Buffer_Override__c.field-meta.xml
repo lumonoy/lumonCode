@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Buffer_Override__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Gives permissions to ignore buffers in the Lead Time Calculation</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Gives permissions to ignore buffers in the Lead Time Calculation</inlineHelpText>
+    <label>Buffer Override</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

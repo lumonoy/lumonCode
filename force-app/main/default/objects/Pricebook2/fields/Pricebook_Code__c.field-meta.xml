@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Pricebook_Code__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF (ISNULL(Organization_Attribute__c),&quot;&quot;,(Organization_Attribute__c)+&quot; &quot;)
++IF (ISNULL(Country_Attribute__c),&quot;&quot;,(Country_Attribute__c)+&quot; &quot;)
++IF (ISNULL(Territory_Attribute__c),&quot;&quot;,(Territory_Attribute__c)+&quot; &quot;)
++IF (ISNULL(Profit_Center_Attribute__c),&quot;&quot;,(Profit_Center_Attribute__c)+&quot; &quot;) 
++IF (ISNULL(Business_Type_Attribute__c),&quot;&quot;,(Business_Type_Attribute__c)+&quot; &quot;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Pricebook Code</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

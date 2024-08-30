@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Opportunity_with_Related_Objects</fullName>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Deliver_To__c</columns>
+    <columns>Building__c</columns>
+    <columns>Factory__c</columns>
+    <columns>Warehouse__c</columns>
+    <columns>SYNCEDQUOTE.NAME</columns>
+    <columns>CORE.USERS.FULL_NAME</columns>
+    <columns>TERR2_NAME</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>OPPORTUNITY.CREATED_DATE</field>
+        <operation>equals</operation>
+        <value>TODAY</value>
+    </filters>
+    <label>Opportunity with Related Objects</label>
+</ListView>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Parent_Product__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>The Main Product (Group) this Product Option belongs to</description>
+    <externalId>false</externalId>
+    <label>Parent Product</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>$Source.Product_Category__c</field>
+            <operation>equals</operation>
+            <value>Product Groups</value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>Product2</referenceTo>
+    <relationshipLabel>Products</relationshipLabel>
+    <relationshipName>ProductOptions</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

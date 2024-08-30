@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Customer_Event</fullName>
+    <active>true</active>
+    <label>Customer Event</label>
+    <picklistValues>
+        <picklist>Customer_Segment__c</picklist>
+        <values>
+            <fullName>100</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1000</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1100</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4000</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4100</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>9000</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>9100</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Event_Type__c</picklist>
+        <values>
+            <fullName>1st sales visit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2nd measurement visit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Direct calling</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Door hanger%2Fflyer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Door knocking</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dropping off flyers</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Online meeting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Onsite meeting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Referral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Showroom visit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Shows</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Stand%2FPresentation%2FTrailer event</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>FSL__Event_Type__c</picklist>
+        <values>
+            <fullName>Resource Absence</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Service Appointment</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Subject</picklist>
+        <values>
+            <fullName>Write title here</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type</picklist>
+        <values>
+            <fullName>Call</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Email</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Meeting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

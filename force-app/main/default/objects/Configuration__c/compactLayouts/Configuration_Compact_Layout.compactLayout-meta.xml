@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Configuration_Compact_Layout</fullName>
+    <fields>Name</fields>
+    <fields>Configuration_Name__c</fields>
+    <fields>Opportunity__c</fields>
+    <fields>Plan_Name__c</fields>
+    <fields>Visual_Id__c</fields>
+    <fields>Visual_Version__c</fields>
+    <fields>Count_Products__c</fields>
+    <fields>Installation_Time__c</fields>
+    <fields>Production_Time__c</fields>
+    <label>Configuration Compact Layout</label>
+</CompactLayout>

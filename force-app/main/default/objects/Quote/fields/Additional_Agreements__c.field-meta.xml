@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Additional_Agreements__c</fullName>
+    <description>Additional agreements that should be included in the contract document</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Additional agreements that should be included in the contract document</inlineHelpText>
+    <label>Additional Agreements</label>
+    <length>32768</length>
+    <trackHistory>false</trackHistory>
+    <type>LongTextArea</type>
+    <visibleLines>5</visibleLines>
+</CustomField>

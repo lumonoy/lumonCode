@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Territory_Definition_Vantaa_West__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF((BillingPostalCode=&quot;00770&quot;|| 
+BillingPostalCode=&quot;01280&quot;||
+BillingPostalCode=&quot;01300&quot;||
+BillingPostalCode=&quot;01340&quot;||
+BillingPostalCode=&quot;01350&quot;||
+BillingPostalCode=&quot;01360&quot;||
+BillingPostalCode=&quot;01370&quot; ||
+BillingPostalCode=&quot;01380&quot; ||
+BillingPostalCode=&quot;01390&quot; ||
+BillingPostalCode=&quot;01400&quot; ||
+BillingPostalCode=&quot;01420&quot; ||
+BillingPostalCode=&quot;01450&quot; ||
+BillingPostalCode=&quot;01480&quot; ||
+BillingPostalCode=&quot;01490&quot; ||
+BillingPostalCode=&quot;01830&quot; ||
+BillingPostalCode=&quot;01860&quot; ||
+BillingPostalCode=&quot;02400&quot; ||
+BillingPostalCode=&quot;02410&quot; ||
+BillingPostalCode=&quot;02420&quot; ||
+BillingPostalCode=&quot;02430&quot; ||
+BillingPostalCode=&quot;02440&quot; ||
+BillingPostalCode=&quot;02450&quot; ||
+BillingPostalCode=&quot;02470&quot; ||
+BillingPostalCode=&quot;02480&quot; ||
+BillingPostalCode=&quot;02700&quot; ||
+BillingPostalCode=&quot;02720&quot; ||
+BillingPostalCode=&quot;02730&quot; ||
+BillingPostalCode=&quot;02750&quot; ||
+BillingPostalCode=&quot;02920&quot; ||
+BillingPostalCode=&quot;02940&quot; ||
+BillingPostalCode=&quot;02970&quot; || 
+BillingPostalCode=&quot;02980&quot; || 
+BillingPostalCode=&quot;03250&quot; || 
+BillingPostalCode=&quot;03300&quot; ||
+BillingPostalCode=&quot;03320&quot; ||
+BillingPostalCode=&quot;03400&quot; ||
+BillingPostalCode=&quot;03430&quot; ||
+BillingPostalCode=&quot;03600&quot; ||
+BillingPostalCode=&quot;03620&quot; ||
+BillingPostalCode=&quot;03710&quot; ||
+BillingPostalCode=&quot;03790&quot; ||
+BillingPostalCode=&quot;03810&quot; ||
+BillingPostalCode=&quot;03850&quot; ||
+BillingPostalCode=&quot;03870&quot; ||
+BillingPostalCode=&quot;04130&quot; ||
+BillingPostalCode=&quot;04150&quot; ||
+BillingPostalCode=&quot;04170&quot; ||
+BillingPostalCode=&quot;04200&quot; ||
+BillingPostalCode=&quot;04220&quot; ||
+BillingPostalCode=&quot;04230&quot; ||
+BillingPostalCode=&quot;04240&quot; ||
+BillingPostalCode=&quot;04250&quot; ||
+BillingPostalCode=&quot;04260&quot; ||
+BillingPostalCode=&quot;04300&quot; ||
+BillingPostalCode=&quot;04310&quot; ||
+BillingPostalCode=&quot;04320&quot; ||
+BillingPostalCode=&quot;04330&quot; ||
+BillingPostalCode=&quot;04340&quot; ||
+BillingPostalCode=&quot;04350&quot; ||
+BillingPostalCode=&quot;04360&quot; ||
+BillingPostalCode=&quot;04370&quot; ||
+BillingPostalCode=&quot;04380&quot; ||
+BillingPostalCode=&quot;04390&quot; ||
+BillingPostalCode=&quot;04400&quot; ||
+BillingPostalCode=&quot;04420&quot; ||
+BillingPostalCode=&quot;04430&quot; ||
+BillingPostalCode=&quot;05100&quot; ||
+BillingPostalCode=&quot;05250&quot; ||
+BillingPostalCode=&quot;06830&quot; ||
+BillingPostalCode=&quot;07110&quot; ||
+BillingPostalCode=&quot;07130&quot; ||
+BillingPostalCode=&quot;07150&quot; ||
+BillingPostalCode=&quot;07170&quot; ||
+BillingPostalCode=&quot;07190&quot; ||
+BillingPostalCode=&quot;07220&quot; ||
+BillingPostalCode=&quot;08500&quot; ||
+BillingPostalCode=&quot;09430&quot; ||
+BillingPostalCode=&quot;09520&quot; ||
+BillingPostalCode=&quot;09630&quot; ||
+BillingPostalCode=&quot;10120&quot; ||
+BillingPostalCode=&quot;10140&quot; ||
+BillingPostalCode=&quot;10210&quot; ||
+BillingPostalCode=&quot;10230&quot; ||
+BillingPostalCode=&quot;10250&quot; ||
+BillingPostalCode=&quot;10270&quot; ||
+BillingPostalCode=&quot;10300&quot; ||
+BillingPostalCode=&quot;10320&quot; ||
+BillingPostalCode=&quot;10330&quot; ||
+BillingPostalCode=&quot;10350&quot; ||
+BillingPostalCode=&quot;10360&quot; ||
+BillingPostalCode=&quot;10380&quot; ||
+BillingPostalCode=&quot;10410&quot; ||
+BillingPostalCode=&quot;10420&quot; ||
+BillingPostalCode=&quot;10440&quot; ||
+BillingPostalCode=&quot;10470&quot; ||
+BillingPostalCode=&quot;10520&quot; ||
+BillingPostalCode=&quot;10570&quot; ||
+BillingPostalCode=&quot;10600&quot; ||
+BillingPostalCode=&quot;10620&quot; ||
+BillingPostalCode=&quot;10640&quot; ||
+BillingPostalCode=&quot;10650&quot; ||
+BillingPostalCode=&quot;10660&quot; ||
+BillingPostalCode=&quot;10680&quot; ||
+BillingPostalCode=&quot;10710&quot; ||
+BillingPostalCode=&quot;10820&quot; ||
+BillingPostalCode=&quot;10900&quot; ||
+BillingPostalCode=&quot;10940&quot; ||
+BillingPostalCode=&quot;10960&quot;
+
+), &quot;Vantaa West&quot;, &quot;&quot;)</formula>
+    <label>Territory Definition Vantaa West</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Expiration_Time__c</fullName>
+    <defaultValue>10</defaultValue>
+    <description>Time in Days when Offer Expires</description>
+    <externalId>false</externalId>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <inlineHelpText>Time in Days when Offer Expires</inlineHelpText>
+    <label>Expiration Time</label>
+    <precision>18</precision>
+    <required>true</required>
+    <scale>0</scale>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

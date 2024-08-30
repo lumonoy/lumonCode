@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Count_Opportunity_Products__c</fullName>
+    <description>Rollup Summary: Count of All Opportunity Products
+This means all &quot;synced&quot; Quote Line Items</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Count of All Opportunity Products</inlineHelpText>
+    <label>Count Opportunity Products</label>
+    <summaryForeignKey>OpportunityLineItem.OpportunityId</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

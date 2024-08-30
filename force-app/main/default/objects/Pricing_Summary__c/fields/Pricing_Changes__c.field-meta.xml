@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Pricing_Changes__c</fullName>
+    <description>Pricing changes done by the user in JSON format</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Pricing changes done by the user in JSON format. Do not edit manually.</inlineHelpText>
+    <label>Pricing Changes</label>
+    <length>131072</length>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

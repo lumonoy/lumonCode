@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Link_Section__c</fullName>
+    <description>Each value from picklist represents footer area and its title. This way we can group individual links to footer columns and sections.</description>
+    <externalId>false</externalId>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <inlineHelpText>Select what section should the footer URL be placed in.</inlineHelpText>
+    <label>Link Section</label>
+    <required>true</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Residential</fullName>
+                <default>true</default>
+                <label>Residential</label>
+            </value>
+            <value>
+                <fullName>Company</fullName>
+                <default>false</default>
+                <label>Company</label>
+            </value>
+            <value>
+                <fullName>Social</fullName>
+                <default>false</default>
+                <label>Social</label>
+            </value>
+            <value>
+                <fullName>Privacy</fullName>
+                <default>false</default>
+                <label>Registry and Privacy</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

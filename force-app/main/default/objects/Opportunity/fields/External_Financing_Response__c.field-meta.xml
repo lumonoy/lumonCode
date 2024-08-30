@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>External_Financing_Response__c</fullName>
+    <description>When a customer needs external financing the Credit check &amp; apply for financing process is required. 
+This custom field should be used to log and track the status of the External Financing Response.  
+This custom field is part of the B2C lead to order process.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Please select the External Financing Response status</inlineHelpText>
+    <label>External Financing Response</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Payment_Plan__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Granted</fullName>
+                <default>false</default>
+                <label>Granted</label>
+            </value>
+            <value>
+                <fullName>Declined</fullName>
+                <default>false</default>
+                <label>Declined</label>
+            </value>
+            <value>
+                <fullName>Waiting for response</fullName>
+                <default>false</default>
+                <label>Waiting for response</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>25% Advance + 75% Financing</controllingFieldValue>
+            <controllingFieldValue>50% Advance + 50% Financing</controllingFieldValue>
+            <controllingFieldValue>Consumer Financing</controllingFieldValue>
+            <valueName>Granted</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>25% Advance + 75% Financing</controllingFieldValue>
+            <controllingFieldValue>50% Advance + 50% Financing</controllingFieldValue>
+            <controllingFieldValue>Consumer Financing</controllingFieldValue>
+            <valueName>Declined</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>25% Advance + 75% Financing</controllingFieldValue>
+            <controllingFieldValue>50% Advance + 50% Financing</controllingFieldValue>
+            <controllingFieldValue>Consumer Financing</controllingFieldValue>
+            <valueName>Waiting for response</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

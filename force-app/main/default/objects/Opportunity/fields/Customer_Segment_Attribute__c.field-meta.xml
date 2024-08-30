@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Customer_Segment_Attribute__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(Customer_Type__c=&apos;Consumer&apos;, 
+IF(Property_Type_Attribute__c =&apos;APT&apos;,&quot;Consumer Apartment&quot;,&quot;Consumer Single House&quot;), &quot;Other&quot;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Customer Segment Attribute</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

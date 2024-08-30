@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Email_address_Account_mandatory</fullName>
+    <active>false</active>
+    <description>This validation blocks users from creating an Account without an email address.</description>
+    <errorConditionFormula>ISBLANK(  PersonEmail  )</errorConditionFormula>
+    <errorDisplayField>PersonEmail</errorDisplayField>
+    <errorMessage>Please ask customer for their email address and avoid using an @lumon.com address, as it is used in automated communication.</errorMessage>
+</ValidationRule>

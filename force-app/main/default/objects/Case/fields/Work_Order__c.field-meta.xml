@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Work_Order__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>This field identifies the related Work Order for which the Reclamation Case was created. Filled in by automation.</description>
+    <externalId>false</externalId>
+    <label>Work Order OLD</label>
+    <referenceTo>WorkOrder</referenceTo>
+    <relationshipLabel>Cases</relationshipLabel>
+    <relationshipName>Cases</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

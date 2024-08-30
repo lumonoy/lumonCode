@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Building_Permit_Before_Final_Contract</fullName>
+    <active>true</active>
+    <description>Building permit needs to be approved before moving to contract signed stage.</description>
+    <errorConditionFormula>$Setup.AutomationBypass__c.SkipValidation__c = false 
+&amp;&amp; Account.IsPersonAccount    
+&amp;&amp; ISPICKVAL(StageName ,&apos;Contract Signed&apos;)
+&amp;&amp; ISPICKVAL( Reason_for_preliminary_contract__c, &apos;Building Permit&apos;)
+&amp;&amp; NOT( Building_Permit_Approved__c)
+&amp;&amp; Preliminary_Contract_Needed__c = true</errorConditionFormula>
+    <errorMessage>Opportunity cannot be moved to contract signed stage if building permit has not been approved.</errorMessage>
+</ValidationRule>

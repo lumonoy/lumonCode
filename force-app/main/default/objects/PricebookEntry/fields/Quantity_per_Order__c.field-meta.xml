@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Quantity_per_Order__c</fullName>
+    <description>The Maximum Quantity of an Item on an Order</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The Maximum Quantity of an Item on an Order</inlineHelpText>
+    <label>Quantity per Order</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>5</scale>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

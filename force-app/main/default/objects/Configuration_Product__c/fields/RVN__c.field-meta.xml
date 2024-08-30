@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RVN__c</fullName>
+    <description>Formula Field to generate the RVN Number</description>
+    <externalId>false</externalId>
+    <formula>Opportunity_Number__c + IF (Visual_Structure_Number__c != null, Visual_Structure_Number__c, ProductIdentifier__c)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Generated RVN</inlineHelpText>
+    <label>RVN</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

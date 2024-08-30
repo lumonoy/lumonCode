@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Order_activate_manually_blocked</fullName>
+    <active>false</active>
+    <description>Installation time and contract sign must first be filled in the opportunity  before moving the order to activated.</description>
+    <errorConditionFormula>$Setup.AutomationBypass__c.SkipValidation__c = false     
+&amp;&amp;  (ISPICKVAL(Status, &quot;Activated&quot;) )
+&amp;&amp;  NOT((ISPICKVAL(Opportunity.StageName, &quot;Closed Won&quot; )))</errorConditionFormula>
+    <errorMessage>You are not allowed to activate the order manually. Make sure you have the confirmed installation time &amp; related contract is signed. Order gets automatically activated &amp; send to ERP once you close the opportunity.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Block_editing_closed_opportunity</fullName>
+    <active>true</active>
+    <description>This validation rule prevent users from editing closed opportunity</description>
+    <errorConditionFormula>$Setup.AutomationBypass__c.SkipValidation__c = false 
+&amp;&amp; NOT(ISCHANGED(IsClosed))
+&amp;&amp; IsClosed
+&amp;&amp; NOT(ISCHANGED(Confirmed_installation_time__c))
+&amp;&amp; NOT(ISCHANGED(Preliminary_installation_time__c))</errorConditionFormula>
+    <errorMessage>You cannot edit closed Won Opportunity.</errorMessage>
+</ValidationRule>

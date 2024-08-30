@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>hasInstallation__c</fullName>
+    <description>To decide whether items are part of installation or not</description>
+    <externalId>false</externalId>
+    <formula>OR(TEXT(Cost_Category__c) = &apos;Wages&apos;,TEXT(Cost_Type__c) = &apos;Services&apos;)</formula>
+    <label>hasInstallation</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

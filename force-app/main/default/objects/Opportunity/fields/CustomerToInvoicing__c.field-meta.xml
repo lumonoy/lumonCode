@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CustomerToInvoicing__c</fullName>
+    <defaultValue>true</defaultValue>
+    <description>Use Customer Address as Invoicing Address when Checked</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Use Customer Address as Invoicing Address when Checked.</inlineHelpText>
+    <label>Use Customer Address for Invoicing</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Quote_Accepted_before_Contract_Sent</fullName>
+    <active>false</active>
+    <description>This validation avoids to change the opportunity status to Contract Send before the relating Quote has been accepted.</description>
+    <errorConditionFormula>$Setup.AutomationBypass__c.SkipValidation__c = false
+&amp;&amp; ISPICKVAL(  StageName , &apos;Contract Sent&apos;)
+&amp;&amp; NOT(  Quote_Status__c = &apos;Accepted&apos; )
+&amp;&amp; ISCHANGED(StageName)</errorConditionFormula>
+    <errorMessage>Make sure the related Quote is accepted before sending the contract</errorMessage>
+</ValidationRule>

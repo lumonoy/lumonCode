@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Discount_Total__c</fullName>
+    <description>Calculated Total Quote Discount</description>
+    <externalId>false</externalId>
+    <formula>IF(AND(List_Price_Total__c&gt;0,Sales_Price_Total__c &gt;0),(1 - ( List_Price_Total__c/Sales_Price_Total__c )),0)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Discount Total</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>7</scale>
+    <trackHistory>false</trackHistory>
+    <type>Percent</type>
+</CustomField>

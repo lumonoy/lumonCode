@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sales_Representative__c</fullName>
+    <description>Lumon web2lead form (customer can fill in if they already have been in contact with Lumon sales representative)</description>
+    <externalId>false</externalId>
+    <inlineHelpText>If you have already been talking with one of our sales representatives, please fill in their name here.</inlineHelpText>
+    <label>Sales Representative</label>
+    <length>255</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

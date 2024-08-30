@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Terms_of_Payment__c</fullName>
+    <externalId>false</externalId>
+    <label>Terms of Payment</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>10 days net</fullName>
+                <default>false</default>
+                <label>10 days net</label>
+            </value>
+            <value>
+                <fullName>07 days net</fullName>
+                <default>true</default>
+                <label>07 days net</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

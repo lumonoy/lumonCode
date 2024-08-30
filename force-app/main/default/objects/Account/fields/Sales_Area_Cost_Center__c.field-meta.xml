@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sales_Area_Cost_Center__c</fullName>
+    <description>Formula to determine the Assigned Profit/Cost Center based on the Postal Code Area</description>
+    <externalId>false</externalId>
+    <formula>IF( Country_Attribute__c&lt;&gt;&quot;FI&quot;, TEXT(Postal_Code_Area__r.Profit_Center__c),
+    TEXT(Owner.Profit_Center__c))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Sales Area Cost Center</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

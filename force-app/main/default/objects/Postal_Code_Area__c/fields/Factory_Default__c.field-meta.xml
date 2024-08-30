@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Factory_Default__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
+    <label>Factory Default</label>
+    <lookupFilter>
+        <active>true</active>
+        <errorMessage>Factory does not exist or does not match filter criteria.</errorMessage>
+        <filterItems>
+            <field>Factory__c.Factory_Address__CountryCode__s</field>
+            <operation>equals</operation>
+            <valueField>$Source.Country__c</valueField>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>Factory__c</referenceTo>
+    <relationshipLabel>Postal Code Areas</relationshipLabel>
+    <relationshipName>Postal_Code_Areas</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

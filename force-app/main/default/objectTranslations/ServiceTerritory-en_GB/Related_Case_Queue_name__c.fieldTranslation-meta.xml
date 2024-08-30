@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- This needs to contain the Case Queue name of the queue where all the ST related Reclamation/Quality Event cases will be sent to when they are created. --></help>
+    <label><!-- Related Case Queue name --></label>
+    <name>Related_Case_Queue_name__c</name>
+</CustomFieldTranslation>

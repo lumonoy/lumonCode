@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Structural Analysis</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Structural Analyses</value>
+    </caseValues>
+    <layouts>
+        <layout>Structural Analysis Default Layout</layout>
+        <sections>
+            <label><!-- Building Specific --></label>
+            <section>Building Specific</section>
+        </sections>
+        <sections>
+            <label><!-- Country Specific --></label>
+            <section>Country Specific</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Location Specific --></label>
+            <section>Location Specific</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Update Structure --></label>
+        <name>Update_Structure</name>
+    </quickActions>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

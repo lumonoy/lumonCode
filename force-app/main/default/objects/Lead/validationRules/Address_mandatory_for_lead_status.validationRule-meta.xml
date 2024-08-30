@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Address_mandatory_for_lead_status</fullName>
+    <active>false</active>
+    <description>This validation ensures address information is captured before a specific lead status can be saved.</description>
+    <errorConditionFormula>OR( 
+ISPICKVAL( Status ,&apos;MQL&apos;),
+ISPICKVAL( Status ,&apos;Sales Lead&apos;),
+ISPICKVAL( Status ,&apos;SQL&apos;)
+)
+&amp;&amp;
+OR(
+ISBLANK( Street ),
+ISBLANK( City ),
+ISBLANK( PostalCode),
+ISBLANK( Country )
+)</errorConditionFormula>
+    <errorMessage>A Lead with this status cannot be saved or created without an address. Please ask customer to provide Street, Postal code, City and Country information.</errorMessage>
+</ValidationRule>
