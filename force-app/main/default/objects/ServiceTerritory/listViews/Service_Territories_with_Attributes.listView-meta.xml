@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Service_Territories_with_Attributes</fullName>
+    <columns>ServiceAttribute__c</columns>
+    <columns>Name</columns>
+    <columns>IsActive</columns>
+    <columns>OperatingHours</columns>
+    <columns>FSL__TerritoryLevel__c</columns>
+    <columns>CountryAttribute__c</columns>
+    <columns>ProfitCenterAttribute__c</columns>
+    <columns>CustomerSegmentAttribute__c</columns>
+    <columns>BusinessTypeAttribute__c</columns>
+    <columns>PropertyTypeAttribute__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>Service Territories with Attributes</label>
+    <sharedTo>
+        <group>Admins</group>
+    </sharedTo>
+</ListView>
