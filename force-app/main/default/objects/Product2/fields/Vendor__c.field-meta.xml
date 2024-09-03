@@ -15,6 +15,11 @@
                 <default>true</default>
                 <label>Lumon</label>
             </value>
+            <value>
+                <fullName>Test</fullName>
+                <default>false</default>
+                <label>Test</label>
+            </value>
         </valueSetDefinition>
     </valueSet>
 </CustomField>
