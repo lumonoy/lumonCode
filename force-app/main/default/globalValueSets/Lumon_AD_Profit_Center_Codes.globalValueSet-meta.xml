@@ -116,9 +116,29 @@
         <label>25 SVI Consumer West</label>
     </customValue>
     <customValue>
+        <fullName>271</fullName>
+        <default>false</default>
+        <label>271 LUI R&amp;D</label>
+    </customValue>
+    <customValue>
+        <fullName>272</fullName>
+        <default>false</default>
+        <label>272 LUI HR</label>
+    </customValue>
+    <customValue>
+        <fullName>273</fullName>
+        <default>false</default>
+        <label>273 LUI Technical Support</label>
+    </customValue>
+    <customValue>
         <fullName>274</fullName>
         <default>false</default>
         <label>274 LUI ICT</label>
+    </customValue>
+    <customValue>
+        <fullName>275</fullName>
+        <default>false</default>
+        <label>275 LUI Finance</label>
     </customValue>
     <customValue>
         <fullName>280</fullName>
@@ -349,6 +369,11 @@
         <fullName>512</fullName>
         <default>false</default>
         <label>512 LCE Marbella</label>
+    </customValue>
+    <customValue>
+        <fullName>513</fullName>
+        <default>false</default>
+        <label>513 LCE Sevilla</label>
     </customValue>
     <customValue>
         <fullName>520</fullName>
@@ -596,39 +621,14 @@
         <label>950 LDA Reseller</label>
     </customValue>
     <customValue>
-        <fullName>997</fullName>
-        <default>false</default>
-        <label>997 LFR Reseller</label>
-    </customValue>
-    <customValue>
-        <fullName>273</fullName>
-        <default>false</default>
-        <label>273 LUI Technical Support</label>
-    </customValue>
-    <customValue>
-        <fullName>271</fullName>
-        <default>false</default>
-        <label>271 LUI R&amp;D</label>
-    </customValue>
-    <customValue>
-        <fullName>272</fullName>
-        <default>false</default>
-        <label>272 LUI HR</label>
-    </customValue>
-    <customValue>
-        <fullName>275</fullName>
-        <default>false</default>
-        <label>275 LUI Finance</label>
-    </customValue>
-    <customValue>
-        <fullName>513</fullName>
-        <default>false</default>
-        <label>513 LCE Sevilla</label>
-    </customValue>
-    <customValue>
         <fullName>970</fullName>
         <default>false</default>
         <label>970 LPO Warsaw</label>
+    </customValue>
+    <customValue>
+        <fullName>997</fullName>
+        <default>false</default>
+        <label>997 LFR Reseller</label>
     </customValue>
     <masterLabel>Lumon AD Profit Center Codes</masterLabel>
     <sorted>true</sorted>
