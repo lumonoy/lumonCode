@@ -1,9 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
     <customValue>
+        <fullName>ES-04240</fullName>
+        <default>false</default>
+        <label>Almería</label>
+    </customValue>
+    <customValue>
+        <fullName>ES-08750</fullName>
+        <default>false</default>
+        <label>Barcelona</label>
+    </customValue>
+    <customValue>
+        <fullName>ES-12560</fullName>
+        <default>false</default>
+        <label>Castellón</label>
+    </customValue>
+    <customValue>
+        <fullName>ES-14014</fullName>
+        <default>false</default>
+        <label>Córdoba</label>
+    </customValue>
+    <customValue>
         <fullName>FI-02270</fullName>
         <default>false</default>
         <label>Espoo</label>
+    </customValue>
+    <customValue>
+        <fullName>SE-43361</fullName>
+        <default>false</default>
+        <label>Goteborg</label>
+    </customValue>
+    <customValue>
+        <fullName>ES-18001</fullName>
+        <default>false</default>
+        <label>Granada</label>
     </customValue>
     <customValue>
         <fullName>FI-00880</fullName>
@@ -36,6 +66,61 @@
         <label>Lahti</label>
     </customValue>
     <customValue>
+        <fullName>ES-28925</fullName>
+        <default>false</default>
+        <label>Madrid Loeches</label>
+    </customValue>
+    <customValue>
+        <fullName>ES-28055</fullName>
+        <default>false</default>
+        <label>Madrid North</label>
+    </customValue>
+    <customValue>
+        <fullName>ES-29625</fullName>
+        <default>false</default>
+        <label>Madrid South</label>
+    </customValue>
+    <customValue>
+        <fullName>ES-29004</fullName>
+        <default>false</default>
+        <label>Málaga</label>
+    </customValue>
+    <customValue>
+        <fullName>ES-07141</fullName>
+        <default>false</default>
+        <label>Mallorca</label>
+    </customValue>
+    <customValue>
+        <fullName>SE-21239</fullName>
+        <default>false</default>
+        <label>Malmo</label>
+    </customValue>
+    <customValue>
+        <fullName>ES-29688</fullName>
+        <default>false</default>
+        <label>Marbella</label>
+    </customValue>
+    <customValue>
+        <fullName>CA-L4H3M9</fullName>
+        <default>false</default>
+        <label>Ontario Central</label>
+    </customValue>
+    <customValue>
+        <fullName>CA-L4H3M7</fullName>
+        <default>false</default>
+        <label>Ontario East</label>
+    </customValue>
+    <customValue>
+        <fullName>CA-L4H3M8</fullName>
+        <default>false</default>
+        <label>Ontario South</label>
+    </customValue>
+    <customValue>
+        <fullName>NO-02013</fullName>
+        <default>false</default>
+        <label>Oslo</label>
+    </customValue>
+    <customValue>
         <fullName>FI-28430</fullName>
         <default>false</default>
         <label>Pori</label>
@@ -56,6 +141,16 @@
         <label>Seinäjoki</label>
     </customValue>
     <customValue>
+        <fullName>ES-41001</fullName>
+        <default>false</default>
+        <label>Sevilla</label>
+    </customValue>
+    <customValue>
+        <fullName>SE-16867</fullName>
+        <default>false</default>
+        <label>Stockholm</label>
+    </customValue>
+    <customValue>
         <fullName>FI-33560</fullName>
         <default>false</default>
         <label>Tampere</label>
@@ -66,9 +161,14 @@
         <label>Vaasa</label>
     </customValue>
     <customValue>
-        <fullName>FI-01740</fullName>
+        <fullName>ES-46120</fullName>
         <default>false</default>
-        <label>Vantaa West</label>
+        <label>Valencia</label>
+    </customValue>
+    <customValue>
+        <fullName>CA-V1M0E4</fullName>
+        <default>false</default>
+        <label>Vancouver</label>
     </customValue>
     <customValue>
         <fullName>FI-01200</fullName>
@@ -76,16 +176,24 @@
         <label>Vantaa East</label>
     </customValue>
     <customValue>
-        <fullName>ES-29004</fullName>
+        <fullName>FI-01740</fullName>
         <default>false</default>
-        <isActive>false</isActive>
-        <label>ES-29004</label>
+        <label>Vantaa West</label>
     </customValue>
     <customValue>
-        <fullName>ES-28925</fullName>
+        <fullName>PL-02634</fullName>
         <default>false</default>
-        <isActive>false</isActive>
-        <label>ES-28925</label>
+        <label>Warsaw</label>
+    </customValue>
+    <customValue>
+        <fullName>SE-72134</fullName>
+        <default>false</default>
+        <label>Vasteras</label>
+    </customValue>
+    <customValue>
+        <fullName>ES-50002</fullName>
+        <default>false</default>
+        <label>Zaragoza</label>
     </customValue>
     <masterLabel>Lumon Offices</masterLabel>
     <sorted>true</sorted>
