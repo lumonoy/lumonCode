@@ -18,7 +18,6 @@
             <value>
                 <fullName>Test</fullName>
                 <default>false</default>
-                <isActive>false</isActive>
                 <label>Test</label>
             </value>
         </valueSetDefinition>
