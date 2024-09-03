@@ -86,7 +86,7 @@ public with sharing class LumonTestUsers {
             username='admin.testuser@email123.com'
         );
         insert adminUser;
-        // Role Settings
+        /*// Role Settings
         
         Role_Settings__c roleSettingProfile = new Role_Settings__c();
         roleSettingProfile.Name = 'Admin Role Setting';
@@ -110,28 +110,28 @@ public with sharing class LumonTestUsers {
         cpqSettingUser.SetupOwnerId = adminUser.Id;
         cpqSettingUser.debug__c = true;
         cpqSettingUser.maxDiscount__c = 100;
-        insert cpqSettingUser;
+        insert cpqSettingUser;*/
         System.debug('---  setupAdminUser - adminUser: '+adminUser);
         System.debug('---  setupAdminUser - CPU TIME: '+LIMITS.getCpuTime());
         System.debug('---  setupAdminUser - Queries used: '+LIMITS.getQueries());
     }
-    public static void setupSalesUser(){
+    public static void setupSalesUserB2C(){
         Organization org = [SELECT Id FROM Organization];
-        Profile prof = [SELECT Id FROM profile where name like '%B2C%Sales User'];
+        Profile prof = [SELECT Id FROM profile where name like 'Lumon%B2C%'];
         User salesUser = new User(
-            alias = 'sales123',
-            email='sales.testuser@email123.com',
+            alias = 'salesb2c',
+            email='salesb2c.testuser@email123.com',
             emailencodingkey='UTF-8',
-            firstname='Sales',
+            firstname='Sales B2C',
             lastname='TestUser',
             languagelocalekey='en_US',
             localesidkey='en_GB',
             profileId = prof.Id,
             timezonesidkey='Europe/Helsinki',
-            username='sales.testuser@email123.com'
+            username='salesb2c.testuser@email123.com'
         );
         insert salesUser;
-        // Role Settings
+        /*// Role Settings
         Id orgId = [SELECT Id FROM Organization].Id;
         Role_Settings__c roleSettingProfile = new Role_Settings__c();
         roleSettingProfile.Name = 'Sales Role Setting';
@@ -153,13 +153,56 @@ public with sharing class LumonTestUsers {
         cpqSettingUser.Name = 'Sales User Setting';
         cpqSettingUser.SetupOwnerId = salesUser.Id;
         cpqSettingUser.maxDiscount__c = 100;
-        insert cpqSettingUser;
+        insert cpqSettingUser;*/
+        System.debug('---  setupSalesUser - salesUser: '+salesUser);
+        System.debug('---  setupSalesUser - CPU TIME: '+LIMITS.getCpuTime());
+        System.debug('---  setupSalesUser - Queries used: '+LIMITS.getQueries());
+    }
+    public static void setupSalesUser(){
+        Organization org = [SELECT Id FROM Organization];
+        Profile prof = [SELECT Id FROM profile where name like 'Lumon%B2C%'];
+        User salesUser = new User(
+            alias = 'salesb2b',
+            email='salesb2b.testuser@email123.com',
+            emailencodingkey='UTF-8',
+            firstname='Sales B2B',
+            lastname='TestUser',
+            languagelocalekey='en_US',
+            localesidkey='en_GB',
+            profileId = prof.Id,
+            timezonesidkey='Europe/Helsinki',
+            username='salesb2b.testuser@email123.com'
+        );
+        insert salesUser;
+        /*// Role Settings
+        Id orgId = [SELECT Id FROM Organization].Id;
+        Role_Settings__c roleSettingProfile = new Role_Settings__c();
+        roleSettingProfile.Name = 'Sales Role Setting';
+        roleSettingProfile.SetupOwnerId = prof.Id;
+        roleSettingProfile.isAdmin__c = false;
+        roleSettingProfile.isSales__c = true;
+        roleSettingProfile.isManager__c = false;
+        roleSettingProfile.isService__c = false;
+        roleSettingProfile.isSupport__c = false;
+        roleSettingProfile.isMarketeer__c = false;
+        insert roleSettingProfile;
+        // CPQ Settings
+        CPQ_Settings__c cpqSettingProfile = new CPQ_Settings__c();
+        cpqSettingProfile.Name = 'Sales Profile Setting';
+        cpqSettingProfile.SetupOwnerId = prof.Id;
+        cpqSettingProfile.debug__c = true;
+        insert cpqSettingProfile;
+        CPQ_Settings__c cpqSettingUser = new CPQ_Settings__c();
+        cpqSettingUser.Name = 'Sales User Setting';
+        cpqSettingUser.SetupOwnerId = salesUser.Id;
+        cpqSettingUser.maxDiscount__c = 100;
+        insert cpqSettingUser;*/
         System.debug('---  setupSalesUser - salesUser: '+salesUser);
         System.debug('---  setupSalesUser - CPU TIME: '+LIMITS.getCpuTime());
         System.debug('---  setupSalesUser - Queries used: '+LIMITS.getQueries());
     }
     public static void setupSalesManagerUser(){
-        Profile prof = [SELECT Id FROM profile where name like '%B2C%Sales User'];
+        Profile prof = [SELECT Id FROM profile where name like 'Lumon%Sales%Manager%'];
         User salesManager = new User(
             alias = 'salesmgr',
             email='salesmgr.testuser@email123.com',
@@ -173,7 +216,7 @@ public with sharing class LumonTestUsers {
             username='salesmgr.testuser@email123.com'
         );
         insert salesManager;
-        // Role Settings
+        /*// Role Settings
         Id orgId = [SELECT Id FROM Organization].Id;
         Role_Settings__c roleSettingProfile = new Role_Settings__c();
         roleSettingProfile.Name = 'Manager Role Setting';
@@ -195,7 +238,7 @@ public with sharing class LumonTestUsers {
         cpqSettingUser.Name = 'Sales User Setting';
         cpqSettingUser.SetupOwnerId = salesManager.Id;
         cpqSettingUser.maxDiscount__c = 100;
-        insert cpqSettingUser;
+        insert cpqSettingUser;*/
         System.debug('---  setupSalesManager - salesManager: '+salesManager);
         System.debug('---  setupSalesManager - CPU TIME: '+LIMITS.getCpuTime());
         System.debug('---  setupSalesManager - Queries used: '+LIMITS.getQueries());
@@ -282,7 +325,7 @@ public with sharing class LumonTestUsers {
             username='techsupport.testuser@email123.com'
         );
         insert technicalSupport;
-        // Role Settings
+        /*// Role Settings
         Id orgId = [SELECT Id FROM Organization].Id;
         Role_Settings__c roleSettingProfile = new Role_Settings__c();
         roleSettingProfile.Name = 'Support Role Setting';
@@ -304,7 +347,7 @@ public with sharing class LumonTestUsers {
         cpqSettingUser.Name = 'Support User Setting';
         cpqSettingUser.SetupOwnerId = technicalSupport.Id;
         cpqSettingUser.maxDiscount__c = 100;
-        insert cpqSettingUser;
+        insert cpqSettingUser;*/
 		System.debug('---  setupTechnicalSupport - technicalSupport: '+technicalSupport);
         System.debug('---  setupTechnicalSupport - CPU TIME: '+LIMITS.getCpuTime());
         System.debug('---  setupTechnicalSupport - Queries used: '+LIMITS.getQueries());
@@ -324,7 +367,7 @@ public with sharing class LumonTestUsers {
             username='customerservice.testuser@email123.com'
         );
         insert customerService;
-        // Role Settings
+        /*// Role Settings
         Id orgId = [SELECT Id FROM Organization].Id;
         Role_Settings__c roleSettingProfile = new Role_Settings__c();
         roleSettingProfile.Name = 'Service Role Setting';
@@ -346,13 +389,13 @@ public with sharing class LumonTestUsers {
         cpqSettingUser.Name = 'Service User Setting';
         cpqSettingUser.SetupOwnerId = customerService.Id;
         cpqSettingUser.maxDiscount__c = 0;
-        insert cpqSettingUser;
+        insert cpqSettingUser;*/
 		System.debug('---  setupCustomerService - customerService: '+customerService);
         System.debug('---  setupCustomerService - CPU TIME: '+LIMITS.getCpuTime());
         System.debug('---  setupCustomerService - Queries used: '+LIMITS.getQueries());
     }
     public static void setupMarketingUser(){
-        Profile prof = [SELECT Id FROM profile where name='Lumon Marketing User'];
+        Profile prof = [SELECT Id FROM profile where name='Lumon Marketing'];
         User marketeer = new User(
             alias = 'market',
             email='marketing.testuser@email123.com',
@@ -366,7 +409,7 @@ public with sharing class LumonTestUsers {
             username='marketing.testuser@email123.com'
         );
         insert marketeer;
-        // Role Settings
+        /*// Role Settings
         Id orgId = [SELECT Id FROM Organization].Id;
         Role_Settings__c roleSettingProfile = new Role_Settings__c();
         roleSettingProfile.Name = 'Marketing Role Setting';
@@ -388,7 +431,7 @@ public with sharing class LumonTestUsers {
         cpqSettingUser.Name = 'Marketing User Setting';
         cpqSettingUser.SetupOwnerId = marketeer.Id;
         cpqSettingUser.maxDiscount__c = 100;
-        insert cpqSettingUser;
+        insert cpqSettingUser;*/
 		System.debug('---  setupMarketeer - marketeer: '+marketeer);
         System.debug('---  setupMarketeer - CPU TIME: '+LIMITS.getCpuTime());
         System.debug('---  setupMarketeer - Queries used: '+LIMITS.getQueries());
