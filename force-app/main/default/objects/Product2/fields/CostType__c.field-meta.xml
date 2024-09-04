@@ -8,7 +8,7 @@
     <trackHistory>false</trackHistory>
     <type>Picklist</type>
     <valueSet>
-        <controllingField>Cost_Category__c</controllingField>
+        <controllingField>CostCategory__c</controllingField>
         <restricted>true</restricted>
         <valueSetName>Lumon_Cost_Types</valueSetName>
         <valueSettings>
