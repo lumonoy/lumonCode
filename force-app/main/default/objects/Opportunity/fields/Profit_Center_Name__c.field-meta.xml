@@ -4,7 +4,7 @@
     <externalId>false</externalId>
     <formula>MID(Owner_Profit_Center__c,FIND(Organization_Attribute__c,Owner_Profit_Center__c,1)+4,100)</formula>
     <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
-    <label>Profit Center Name</label>
+    <label>Profit Center Name OLD</label>
     <required>false</required>
     <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>
