@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>Customer_Segment__c</fullName>
-    <description>This selection segments the customer opportunity</description>
+    <fullName>Office__c</fullName>
     <externalId>false</externalId>
-    <inlineHelpText>Please choose which type of customer engagement is about.</inlineHelpText>
-    <label>Customer Segment OLD</label>
+    <label>Office</label>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>false</trackHistory>
@@ -12,6 +10,6 @@
     <type>Picklist</type>
     <valueSet>
         <restricted>true</restricted>
-        <valueSetName>Lumon_Customer_Segments</valueSetName>
+        <valueSetName>Lumon_Offices</valueSetName>
     </valueSet>
 </CustomField>
