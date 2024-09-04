@@ -4,7 +4,7 @@
     <description>Sales price that&apos;s set when contract is sent</description>
     <externalId>false</externalId>
     <inlineHelpText>Sales price that&apos;s set when contract is sent</inlineHelpText>
-    <label>Contracted Sales Price</label>
+    <label>Contracted Sales Price OLD</label>
     <precision>18</precision>
     <required>false</required>
     <scale>2</scale>
