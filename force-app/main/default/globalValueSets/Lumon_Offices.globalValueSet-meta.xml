@@ -195,6 +195,36 @@
         <default>false</default>
         <label>Zaragoza</label>
     </customValue>
+    <customValue>
+        <fullName>FI-53850</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>FI-53850</label>
+    </customValue>
+    <customValue>
+        <fullName>CA-L8E5E3</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>CA-L8E5E3</label>
+    </customValue>
+    <customValue>
+        <fullName>FI-13100</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>FI-13100</label>
+    </customValue>
+    <customValue>
+        <fullName>FI-48770</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>FI-48770</label>
+    </customValue>
+    <customValue>
+        <fullName>FI-80100</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>FI-80100</label>
+    </customValue>
     <masterLabel>Lumon Offices</masterLabel>
     <sorted>true</sorted>
 </GlobalValueSet>
