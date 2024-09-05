@@ -1,17 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
-    <description>Required Permissions for System and Data Administrators</description>
+    <description>Required Permissions for Data Administrators</description>
     <hasActivationRequired>false</hasActivationRequired>
-    <label>Lumon System Admin</label>
-    <mutingPermissionSets>Lumon_Super_Admin_Muted</mutingPermissionSets>
+    <label>Lumon Data Admin</label>
     <permissionSets>AdminAppPermissions</permissionSets>
     <permissionSets>AdminCustomPermission</permissionSets>
     <permissionSets>AdminObjectandFieldPermissions</permissionSets>
-    <permissionSets>AdminPDFButlerPermissions</permissionSets>
-    <permissionSets>CustomPermissions</permissionSets>
+    <permissionSets>CaseHandlingObjectandFieldPermissions</permissionSets>
     <permissionSets>FSL_Admin_License</permissionSets>
     <permissionSets>FSL_Admin_Permissions</permissionSets>
-    <permissionSets>FieldServiceObjectAndFieldPermissions</permissionSets>
     <permissionSets>PDF_Butler_Admin_Local</permissionSets>
     <permissionSets>SoveliaPermissions</permissionSets>
     <permissionSets>cadmus_core__PDF_Butler_Admin</permissionSets>
