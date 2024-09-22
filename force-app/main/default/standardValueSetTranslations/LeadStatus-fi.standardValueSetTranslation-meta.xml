@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>Closed</masterLabel>
+        <translation><!-- Closed --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Marketing Lead</masterLabel>
+        <translation><!-- Marketing Lead --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Marketing Qualified Lead</masterLabel>
+        <translation><!-- Marketing Qualified Lead --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Sales Lead</masterLabel>
+        <translation><!-- Sales Lead --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Sales Qualified Lead</masterLabel>
+        <translation><!-- Sales Qualified Lead --></translation>
+    </valueTranslation>
+</StandardValueSetTranslation>

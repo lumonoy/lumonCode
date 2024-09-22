@@ -20,17 +20,6 @@
         <label><!-- Tree Grid Columns --></label>
         <name>Tree_Grid_Columns</name>
     </fieldSets>
-    <layouts>
-        <layout>Configuration Layout User</layout>
-        <sections>
-            <label><!-- Custom Links --></label>
-            <section>Custom Links</section>
-        </sections>
-    </layouts>
-    <quickActions>
-        <label><!-- Edit Installer Message --></label>
-        <name>Edit_Installer_Message</name>
-    </quickActions>
     <quickActions>
         <label><!-- Edit Plan --></label>
         <name>Edit_Plan</name>

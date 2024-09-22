@@ -38,8 +38,4 @@
         <label><!-- Email --></label>
         <name>SendEmail</name>
     </quickActions>
-    <quickActions>
-        <label><!-- View WorkOrderLineItem --></label>
-        <name>ViewWorkOrderLineItem</name>
-    </quickActions>
 </CustomObjectTranslation>

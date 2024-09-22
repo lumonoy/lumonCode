@@ -1,33 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <layouts>
-        <layout>ICT Support Case Page Layout</layout>
-        <sections>
-            <label><!-- Auto-Generated Information --></label>
-            <section>Auto-Generated Information</section>
-        </sections>
-        <sections>
-            <label><!-- Classification --></label>
-            <section>Classification</section>
-        </sections>
-        <sections>
-            <label><!-- Contact Information --></label>
-            <section>Contact Information</section>
-        </sections>
-        <sections>
-            <label><!-- Description --></label>
-            <section>Description</section>
-        </sections>
-        <sections>
-            <label><!-- Resolution --></label>
-            <section>Resolution</section>
-        </sections>
-        <sections>
-            <label><!-- Subject --></label>
-            <section>Subject</section>
-        </sections>
-    </layouts>
-    <layouts>
         <layout>Lumon CS Case Page Layout</layout>
         <sections>
             <label><!-- Auto-Generated Information --></label>
@@ -52,17 +25,6 @@
         <sections>
             <label><!-- Subject --></label>
             <section>Subject</section>
-        </sections>
-    </layouts>
-    <layouts>
-        <layout>Lumon Case Layout</layout>
-        <sections>
-            <label><!-- Auto-Generated Information --></label>
-            <section>Auto-Generated Information</section>
-        </sections>
-        <sections>
-            <label><!-- Contact Information --></label>
-            <section>Contact Information</section>
         </sections>
     </layouts>
     <layouts>
@@ -94,33 +56,6 @@
     </layouts>
     <layouts>
         <layout>Lumon ICT Case Page Layout</layout>
-        <sections>
-            <label><!-- Auto-Generated Information --></label>
-            <section>Auto-Generated Information</section>
-        </sections>
-        <sections>
-            <label><!-- Classification --></label>
-            <section>Classification</section>
-        </sections>
-        <sections>
-            <label><!-- Contact Information --></label>
-            <section>Contact Information</section>
-        </sections>
-        <sections>
-            <label><!-- Description --></label>
-            <section>Description</section>
-        </sections>
-        <sections>
-            <label><!-- Resolution --></label>
-            <section>Resolution</section>
-        </sections>
-        <sections>
-            <label><!-- Subject --></label>
-            <section>Subject</section>
-        </sections>
-    </layouts>
-    <layouts>
-        <layout>Lumon INST Case Page Layout</layout>
         <sections>
             <label><!-- Auto-Generated Information --></label>
             <section>Auto-Generated Information</section>
@@ -374,10 +309,6 @@
         <name>Change_status</name>
     </quickActions>
     <quickActions>
-        <label><!-- Close Case --></label>
-        <name>CloseCase</name>
-    </quickActions>
-    <quickActions>
         <aspect>Master</aspect>
         <label>Sulje tapahtuma</label>
         <name>Close_Case</name>
@@ -443,14 +374,6 @@
     <quickActions>
         <label><!-- View Case --></label>
         <name>ViewCase</name>
-    </quickActions>
-    <quickActions>
-        <label><!-- View Description --></label>
-        <name>ViewDescription</name>
-    </quickActions>
-    <quickActions>
-        <label><!-- View Resolution --></label>
-        <name>ViewResolution</name>
     </quickActions>
     <recordTypes>
         <label><!-- Building Permit --></label>

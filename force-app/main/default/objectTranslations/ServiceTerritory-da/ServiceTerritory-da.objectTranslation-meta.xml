@@ -11,8 +11,4 @@
             <section>Service Territory details</section>
         </sections>
     </layouts>
-    <quickActions>
-        <label><!-- View Service Territory --></label>
-        <name>ViewServiceTerritory</name>
-    </quickActions>
 </CustomObjectTranslation>

@@ -396,28 +396,5 @@
         <possessive>Second</possessive>
         <value>Buildings</value>
     </caseValues>
-    <layouts>
-        <layout>Building Layout</layout>
-        <sections>
-            <label><!-- Address &amp; Location --></label>
-            <section>Address &amp; Location</section>
-        </sections>
-        <sections>
-            <label><!-- Country Defaults --></label>
-            <section>Country Defaults</section>
-        </sections>
-        <sections>
-            <label><!-- Custom Links --></label>
-            <section>Custom Links</section>
-        </sections>
-    </layouts>
     <nameFieldLabel>Rakennukset</nameFieldLabel>
-    <quickActions>
-        <label><!-- Building Details --></label>
-        <name>Building_Details</name>
-    </quickActions>
-    <quickActions>
-        <label><!-- Update Building --></label>
-        <name>Update_Building</name>
-    </quickActions>
 </CustomObjectTranslation>

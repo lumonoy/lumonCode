@@ -5,22 +5,6 @@
         <name>PersonalInfo_EPIM</name>
     </fieldSets>
     <layouts>
-        <layout>Community Member Layout</layout>
-        <layoutType>CommunityMemberLayout</layoutType>
-        <sections>
-            <label><!-- Basic Information --></label>
-            <section>Basic Information</section>
-        </sections>
-        <sections>
-            <label><!-- Chatter Settings --></label>
-            <section>Chatter Settings</section>
-        </sections>
-        <sections>
-            <label><!-- Language And Locale Settings --></label>
-            <section>Language And Locale Settings</section>
-        </sections>
-    </layouts>
-    <layouts>
         <layout>Lumon User Layout</layout>
         <sections>
             <label><!-- Active Directory --></label>
@@ -37,30 +21,6 @@
         <sections>
             <label><!-- Dimensions --></label>
             <section>Dimensions</section>
-        </sections>
-    </layouts>
-    <layouts>
-        <layout>User Profile Layout</layout>
-        <layoutType>UserAlt</layoutType>
-        <sections>
-            <label><!-- About --></label>
-            <section>About</section>
-        </sections>
-        <sections>
-            <label><!-- Active Directory --></label>
-            <section>Active Directory</section>
-        </sections>
-        <sections>
-            <label><!-- Background --></label>
-            <section>Background</section>
-        </sections>
-        <sections>
-            <label><!-- Contact --></label>
-            <section>Contact</section>
-        </sections>
-        <sections>
-            <label><!-- Corporate Interface --></label>
-            <section>Corporate Interface</section>
         </sections>
     </layouts>
 </CustomObjectTranslation>

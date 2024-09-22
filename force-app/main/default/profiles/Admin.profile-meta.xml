@@ -66,11 +66,6 @@
         <visible>false</visible>
     </applicationVisibilities>
     <applicationVisibilities>
-        <application>Lumon_System_App</application>
-        <default>false</default>
-        <visible>false</visible>
-    </applicationVisibilities>
-    <applicationVisibilities>
         <application>Lumon_TS_App</application>
         <default>false</default>
         <visible>true</visible>
@@ -101,11 +96,6 @@
         <visible>true</visible>
     </applicationVisibilities>
     <applicationVisibilities>
-        <application>standard__AppLauncher</application>
-        <default>false</default>
-        <visible>true</visible>
-    </applicationVisibilities>
-    <applicationVisibilities>
         <application>standard__Chatter</application>
         <default>false</default>
         <visible>true</visible>
@@ -132,11 +122,6 @@
     </applicationVisibilities>
     <applicationVisibilities>
         <application>standard__LightningBolt</application>
-        <default>false</default>
-        <visible>true</visible>
-    </applicationVisibilities>
-    <applicationVisibilities>
-        <application>standard__LightningInstrumentation</application>
         <default>false</default>
         <visible>true</visible>
     </applicationVisibilities>
@@ -1024,10 +1009,6 @@
     </classAccesses>
     <classAccesses>
         <apexClass>RoleSettingsControllerTest</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>SalesTestDataFactory</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -2910,21 +2891,6 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Campaign.Type</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>CampaignInfluence.ContactId</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>CampaignInfluence.Influence</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>CampaignInfluence.RevenueShare</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -5826,131 +5792,6 @@
         <editable>false</editable>
         <field>EmailMessage.IsMigrated__c</field>
         <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>EngagementAttendee.EndDateTime</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>EngagementAttendee.ExternalAttendeeId</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>EngagementAttendee.InternalAttendeeId</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>EngagementAttendee.Role</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>EngagementAttendee.VerificationTime</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>EngagementInteraction.AttendeeVerificationTime</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>EngagementInteraction.ContextId</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>EngagementInteraction.Duration</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>EngagementInteraction.EndDateTime</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>EngagementInteraction.ExternalIdentifier</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>EngagementInteraction.InitiatingAttendeeId</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>EngagementInteraction.MappedState</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>EngagementInteraction.PhoneNumber</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>EngagementInteraction.Reason</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>EngagementInteraction.Sentiment</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>EngagementInteraction.Status</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>EngagementInteraction.Type</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>EngagementTopic.InteractionSummary</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>EngagementTopic.ParentTopicId</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>EngagementTopic.ProcessFailureReason</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>EngagementTopic.ProcessName</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>EngagementTopic.ProcessStatus</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>EngagementTopic.ProcessType</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>EngagementTopic.RelatedPersonId</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>EngagementTopic.TopicId</field>
-        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -8973,51 +8814,6 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
-        <field>Postal_Area__c.Area__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Postal_Area__c.Municipality_Code__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Postal_Area__c.Municipality__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Postal_Area__c.Postal_Code__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Postal_Area__c.Profit_Center__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Postal_Area__c.Region_Code__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Postal_Area__c.Region__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Postal_Area__c.Sub_Region_Code__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Postal_Area__c.Sub_Region__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
         <editable>true</editable>
         <field>Postal_Code_Area__c.Area__c</field>
         <readable>true</readable>
@@ -10641,46 +10437,6 @@
         <editable>false</editable>
         <field>QuoteLineItem.isInstallation__c</field>
         <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>RecordAlert.Description</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>RecordAlert.IsActive</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>RecordAlert.ParentId</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>RecordAlert.RecordAlertCategoryId</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>RecordAlert.Severity</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>RecordAlert.SnoozeUntilDate</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>RecordAlert.SourceSystemIdentifier</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>RecordAlert.Subject</field>
-        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -13897,14 +13653,6 @@
     </flowAccesses>
     <flowAccesses>
         <enabled>false</enabled>
-        <flow>Account_After_Save</flow>
-    </flowAccesses>
-    <flowAccesses>
-        <enabled>false</enabled>
-        <flow>Account_Before_Save</flow>
-    </flowAccesses>
-    <flowAccesses>
-        <enabled>false</enabled>
         <flow>Account_Create_Case</flow>
     </flowAccesses>
     <flowAccesses>
@@ -13985,15 +13733,7 @@
     </flowAccesses>
     <flowAccesses>
         <enabled>false</enabled>
-        <flow>Assign_Structural_Analysis_SubFlow</flow>
-    </flowAccesses>
-    <flowAccesses>
-        <enabled>false</enabled>
         <flow>Assign_Summary_SubFlow</flow>
-    </flowAccesses>
-    <flowAccesses>
-        <enabled>false</enabled>
-        <flow>Assign_Time_Sheets_SubFlow</flow>
     </flowAccesses>
     <flowAccesses>
         <enabled>false</enabled>
@@ -14002,22 +13742,6 @@
     <flowAccesses>
         <enabled>false</enabled>
         <flow>Assign_Warehouse_SubFlow</flow>
-    </flowAccesses>
-    <flowAccesses>
-        <enabled>false</enabled>
-        <flow>Assign_WorkOrderLineItem_Subflow</flow>
-    </flowAccesses>
-    <flowAccesses>
-        <enabled>false</enabled>
-        <flow>Auto_Sign_Contract_Document</flow>
-    </flowAccesses>
-    <flowAccesses>
-        <enabled>false</enabled>
-        <flow>Building_After_Insert_or_Update</flow>
-    </flowAccesses>
-    <flowAccesses>
-        <enabled>false</enabled>
-        <flow>Building_Structural_Analysis_Defaults</flow>
     </flowAccesses>
     <flowAccesses>
         <enabled>false</enabled>
@@ -14065,6 +13789,10 @@
     </flowAccesses>
     <flowAccesses>
         <enabled>false</enabled>
+        <flow>Case_Set_Case_Values</flow>
+    </flowAccesses>
+    <flowAccesses>
+        <enabled>false</enabled>
         <flow>Case_Set_Owner</flow>
     </flowAccesses>
     <flowAccesses>
@@ -14081,10 +13809,6 @@
     </flowAccesses>
     <flowAccesses>
         <enabled>false</enabled>
-        <flow>Check_Territory_Assignments_SubFlow</flow>
-    </flowAccesses>
-    <flowAccesses>
-        <enabled>false</enabled>
         <flow>Clear_Latitude_And_Longitude_Fields_for_Building_Address_SF_Maps</flow>
     </flowAccesses>
     <flowAccesses>
@@ -14093,31 +13817,7 @@
     </flowAccesses>
     <flowAccesses>
         <enabled>false</enabled>
-        <flow>Clone_Opportunity</flow>
-    </flowAccesses>
-    <flowAccesses>
-        <enabled>false</enabled>
         <flow>Clone_Opportunity_SubFlow</flow>
-    </flowAccesses>
-    <flowAccesses>
-        <enabled>false</enabled>
-        <flow>Config_Flow</flow>
-    </flowAccesses>
-    <flowAccesses>
-        <enabled>false</enabled>
-        <flow>Configuration_Plan_Update_quoting_status</flow>
-    </flowAccesses>
-    <flowAccesses>
-        <enabled>false</enabled>
-        <flow>Contact_Before_Save</flow>
-    </flowAccesses>
-    <flowAccesses>
-        <enabled>false</enabled>
-        <flow>Contract_After_Save</flow>
-    </flowAccesses>
-    <flowAccesses>
-        <enabled>false</enabled>
-        <flow>CreateSalesObjectRecordsFlow</flow>
     </flowAccesses>
     <flowAccesses>
         <enabled>false</enabled>
@@ -14129,27 +13829,11 @@
     </flowAccesses>
     <flowAccesses>
         <enabled>false</enabled>
-        <flow>Create_Project_SubFlow</flow>
-    </flowAccesses>
-    <flowAccesses>
-        <enabled>false</enabled>
-        <flow>Create_Quote_SubFlow</flow>
-    </flowAccesses>
-    <flowAccesses>
-        <enabled>false</enabled>
         <flow>Create_Reclamation_Opportunity</flow>
     </flowAccesses>
     <flowAccesses>
         <enabled>false</enabled>
-        <flow>Create_Update_Location_Records_SubFlow</flow>
-    </flowAccesses>
-    <flowAccesses>
-        <enabled>false</enabled>
         <flow>DetermineObjectTypeSubFlow</flow>
-    </flowAccesses>
-    <flowAccesses>
-        <enabled>false</enabled>
-        <flow>Estimate_Delivery_Date_SubFlow</flow>
     </flowAccesses>
     <flowAccesses>
         <enabled>false</enabled>
@@ -14161,43 +13845,11 @@
     </flowAccesses>
     <flowAccesses>
         <enabled>false</enabled>
-        <flow>Factory_After_Insert_or_Update</flow>
-    </flowAccesses>
-    <flowAccesses>
-        <enabled>false</enabled>
-        <flow>Initiate_Configuration_Process_Stage</flow>
-    </flowAccesses>
-    <flowAccesses>
-        <enabled>false</enabled>
-        <flow>Installation_Time_Calculation_SubFlow</flow>
-    </flowAccesses>
-    <flowAccesses>
-        <enabled>false</enabled>
-        <flow>Is_Building_Assigned</flow>
-    </flowAccesses>
-    <flowAccesses>
-        <enabled>false</enabled>
         <flow>JBSystemFlow_Account</flow>
     </flowAccesses>
     <flowAccesses>
         <enabled>false</enabled>
-        <flow>JBSystemFlow_CampaignMember</flow>
-    </flowAccesses>
-    <flowAccesses>
-        <enabled>false</enabled>
-        <flow>JBSystemFlow_Lead</flow>
-    </flowAccesses>
-    <flowAccesses>
-        <enabled>false</enabled>
         <flow>JBSystem_Account_Process</flow>
-    </flowAccesses>
-    <flowAccesses>
-        <enabled>false</enabled>
-        <flow>JBSystem_CampaignMember_Process</flow>
-    </flowAccesses>
-    <flowAccesses>
-        <enabled>false</enabled>
-        <flow>JBSystem_Lead_Process</flow>
     </flowAccesses>
     <flowAccesses>
         <enabled>false</enabled>
@@ -14225,14 +13877,6 @@
     </flowAccesses>
     <flowAccesses>
         <enabled>false</enabled>
-        <flow>Lead_Set_Marketing_Values</flow>
-    </flowAccesses>
-    <flowAccesses>
-        <enabled>false</enabled>
-        <flow>Mobile_Asset_image_handler</flow>
-    </flowAccesses>
-    <flowAccesses>
-        <enabled>false</enabled>
         <flow>Mobile_Create_Quality_Event_Case</flow>
     </flowAccesses>
     <flowAccesses>
@@ -14257,19 +13901,11 @@
     </flowAccesses>
     <flowAccesses>
         <enabled>false</enabled>
-        <flow>Opportunity_After_Insert_or_Update</flow>
-    </flowAccesses>
-    <flowAccesses>
-        <enabled>false</enabled>
         <flow>Opportunity_After_Save</flow>
     </flowAccesses>
     <flowAccesses>
         <enabled>false</enabled>
         <flow>Opportunity_Assign_Install_Manager_to_Oppo_Team_Subflow</flow>
-    </flowAccesses>
-    <flowAccesses>
-        <enabled>false</enabled>
-        <flow>Opportunity_Before_Save</flow>
     </flowAccesses>
     <flowAccesses>
         <enabled>false</enabled>
@@ -14285,31 +13921,11 @@
     </flowAccesses>
     <flowAccesses>
         <enabled>false</enabled>
-        <flow>Opportunity_Control_Stages</flow>
-    </flowAccesses>
-    <flowAccesses>
-        <enabled>false</enabled>
         <flow>Opportunity_Create_Payment_Plan_Subflow</flow>
     </flowAccesses>
     <flowAccesses>
         <enabled>false</enabled>
-        <flow>Opportunity_Create_Quote_On_Creation</flow>
-    </flowAccesses>
-    <flowAccesses>
-        <enabled>false</enabled>
         <flow>Opportunity_Edit_Installer_Message</flow>
-    </flowAccesses>
-    <flowAccesses>
-        <enabled>false</enabled>
-        <flow>Opportunity_From_New_To_Prepare</flow>
-    </flowAccesses>
-    <flowAccesses>
-        <enabled>false</enabled>
-        <flow>Opportunity_Guidance</flow>
-    </flowAccesses>
-    <flowAccesses>
-        <enabled>false</enabled>
-        <flow>Opportunity_Product_After_save</flow>
     </flowAccesses>
     <flowAccesses>
         <enabled>false</enabled>
@@ -14321,43 +13937,7 @@
     </flowAccesses>
     <flowAccesses>
         <enabled>false</enabled>
-        <flow>Opportunity_SubFlow_Template</flow>
-    </flowAccesses>
-    <flowAccesses>
-        <enabled>false</enabled>
-        <flow>Opportunity_Update_Values_After_Save</flow>
-    </flowAccesses>
-    <flowAccesses>
-        <enabled>false</enabled>
         <flow>Opportunity_Update_WO_after_Oppo_is_closed</flow>
-    </flowAccesses>
-    <flowAccesses>
-        <enabled>false</enabled>
-        <flow>Opportunity_Update_on_Deliver_To_Change</flow>
-    </flowAccesses>
-    <flowAccesses>
-        <enabled>false</enabled>
-        <flow>Opportunity_Update_on_Install_To_Change</flow>
-    </flowAccesses>
-    <flowAccesses>
-        <enabled>false</enabled>
-        <flow>Opportunity_Update_on_Stage_Change</flow>
-    </flowAccesses>
-    <flowAccesses>
-        <enabled>false</enabled>
-        <flow>Opportunity_Validate_Process_Stages_Before_Save</flow>
-    </flowAccesses>
-    <flowAccesses>
-        <enabled>false</enabled>
-        <flow>Opportunity_Values_On_Insert</flow>
-    </flowAccesses>
-    <flowAccesses>
-        <enabled>false</enabled>
-        <flow>Opportunity_Values_on_Address_Change</flow>
-    </flowAccesses>
-    <flowAccesses>
-        <enabled>false</enabled>
-        <flow>Opportunity_Values_on_Update</flow>
     </flowAccesses>
     <flowAccesses>
         <enabled>false</enabled>
@@ -14377,19 +13957,7 @@
     </flowAccesses>
     <flowAccesses>
         <enabled>false</enabled>
-        <flow>QuoteLineItem_Before_Save</flow>
-    </flowAccesses>
-    <flowAccesses>
-        <enabled>false</enabled>
         <flow>Quote_After_Creation</flow>
-    </flowAccesses>
-    <flowAccesses>
-        <enabled>false</enabled>
-        <flow>Quote_After_Save</flow>
-    </flowAccesses>
-    <flowAccesses>
-        <enabled>false</enabled>
-        <flow>Quote_Values_After_Create_or_Update</flow>
     </flowAccesses>
     <flowAccesses>
         <enabled>false</enabled>
@@ -14441,27 +14009,7 @@
     </flowAccesses>
     <flowAccesses>
         <enabled>false</enabled>
-        <flow>Sales_Event_After_Save</flow>
-    </flowAccesses>
-    <flowAccesses>
-        <enabled>false</enabled>
-        <flow>Set_Account_Addresses</flow>
-    </flowAccesses>
-    <flowAccesses>
-        <enabled>false</enabled>
-        <flow>Set_Account_Default_Values</flow>
-    </flowAccesses>
-    <flowAccesses>
-        <enabled>false</enabled>
-        <flow>Set_Account_Marketing_OptIn_Values</flow>
-    </flowAccesses>
-    <flowAccesses>
-        <enabled>false</enabled>
         <flow>Set_Customer_Addresses</flow>
-    </flowAccesses>
-    <flowAccesses>
-        <enabled>false</enabled>
-        <flow>Set_Opportunity_Default_Values</flow>
     </flowAccesses>
     <flowAccesses>
         <enabled>false</enabled>
@@ -14470,22 +14018,6 @@
     <flowAccesses>
         <enabled>false</enabled>
         <flow>Sign_Request_After_Save</flow>
-    </flowAccesses>
-    <flowAccesses>
-        <enabled>false</enabled>
-        <flow>Site_After_Insert_or_Update</flow>
-    </flowAccesses>
-    <flowAccesses>
-        <enabled>false</enabled>
-        <flow>SubFlow_Template</flow>
-    </flowAccesses>
-    <flowAccesses>
-        <enabled>false</enabled>
-        <flow>SubFlow_Template_Freeform</flow>
-    </flowAccesses>
-    <flowAccesses>
-        <enabled>false</enabled>
-        <flow>Subflow_Template_AutoLayout</flow>
     </flowAccesses>
     <flowAccesses>
         <enabled>false</enabled>
@@ -14513,10 +14045,6 @@
     </flowAccesses>
     <flowAccesses>
         <enabled>false</enabled>
-        <flow>Trigger_Configuration_Event</flow>
-    </flowAccesses>
-    <flowAccesses>
-        <enabled>false</enabled>
         <flow>User_Set_Business_Attributes</flow>
     </flowAccesses>
     <flowAccesses>
@@ -14533,7 +14061,7 @@
     </flowAccesses>
     <flowAccesses>
         <enabled>false</enabled>
-        <flow>Visit_Event_After_Save</flow>
+        <flow>User_Set_Values</flow>
     </flowAccesses>
     <flowAccesses>
         <enabled>false</enabled>
@@ -14567,17 +14095,6 @@
         <enabled>false</enabled>
         <flow>WO_update_after_save</flow>
     </flowAccesses>
-    <flowAccesses>
-        <enabled>false</enabled>
-        <flow>Warehouse_After_Insert_or_Update</flow>
-    </flowAccesses>
-    <layoutAssignments>
-        <layout>Account-Account Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Account-Account Layout</layout>
-        <recordType>Account.B2B_Account</recordType>
-    </layoutAssignments>
     <layoutAssignments>
         <layout>AccountBrand-Account Brand Layout</layout>
     </layoutAssignments>
@@ -14586,9 +14103,6 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>AccountTeamMember-Account Team Member Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Address-Address Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>AlternativePaymentMethod-Alternative Payment Method Layout</layout>
@@ -14652,9 +14166,6 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>AttributePicklistValue-Attribute Picklist Value Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Building__c-Building Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Business_Default__c-Business Default Layout</layout>
@@ -14721,13 +14232,6 @@
         <recordType>Case.Customer_Service</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Case-Lumon Case Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Case-Lumon Case Layout</layout>
-        <recordType>Case.Internal_IT</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
         <layout>Case-Lumon FAC Case Page Layout</layout>
         <recordType>Case.FAC_Case</recordType>
     </layoutAssignments>
@@ -14738,14 +14242,6 @@
     <layoutAssignments>
         <layout>Case-Lumon ICT Case Page Layout</layout>
         <recordType>Case.Lumon_ICT_Support</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Case-Lumon INST Case Page Layout</layout>
-        <recordType>Case.INST_Case</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Case-Lumon INST Case Page Layout</layout>
-        <recordType>Case.Quality_Event</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Case-Lumon LOG Case Page Layout</layout>
@@ -14792,41 +14288,6 @@
         <recordType>Case.WEB_Case</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>CaseClose-Lumon Close Case Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>CaseClose-Lumon Close Case Layout</layout>
-        <recordType>Case.Building_Permit</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>CaseClose-Lumon Close Case Layout</layout>
-        <recordType>Case.Customer_Service</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>CaseClose-Lumon Close Case Layout</layout>
-        <recordType>Case.Internal_IT</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>CaseClose-Lumon Close Case Layout</layout>
-        <recordType>Case.Lumon_ICT_Support</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>CaseClose-Lumon Close Case Layout</layout>
-        <recordType>Case.Quality_Event</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>CaseClose-Lumon Close Case Layout</layout>
-        <recordType>Case.Reclamation_Order</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>CaseClose-Lumon Close Case Layout</layout>
-        <recordType>Case.Special_Order_Handling</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>CaseClose-Lumon Close Case Layout</layout>
-        <recordType>Case.Technical_Support</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
         <layout>CaseInteraction-Case Feed Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -14846,9 +14307,6 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>CollaborationGroup-Group Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>CommunityMemberLayout-Community Member Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Condominium__c-Condominium Layout</layout>
@@ -14872,16 +14330,7 @@
         <layout>Configuration_Side__c-Configuration Side Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Configuration__c-Configuration Layout User</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Contact-Lumon Contact Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
         <layout>ContactPointAddress-Contact Point Address Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>ContentVersion-Content Version</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Contract-Contract Layout</layout>
@@ -14916,13 +14365,7 @@
         <layout>CustomException__c-CustomException Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Customer_Project__c-Customer Project Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
         <layout>DelegatedAccount-External Managed Account Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Delivery_Batch__c-Delivery Batch Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Delivery_Schedule__c-Delivery Schedule Layout</layout>
@@ -14940,10 +14383,10 @@
         <layout>EmailMessage-Email Message Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>EngagementInteraction-Engagement Interaction Layout</layout>
+        <layout>EmpUserProvisionProcessErr-Employee User Provisioning Process Error Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>EngagementTopic-Engagement Topic Layout</layout>
+        <layout>EmpUserProvisioningProcess-Employee User Provisioning Process Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Entitlement-Lumon Entitlement Layout</layout>
@@ -15002,9 +14445,6 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>FulfillmentOrderLineItem-Fulfillment Order Product Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Global-Lumon Global Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Idea-Idea Layout</layout>
@@ -15192,13 +14632,6 @@
         <layout>Payment_Plan__c-Payment Plan Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>PersonAccount-Person Account Layout Admin</layout>
-        <recordType>PersonAccount.PersonAccount</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Postal_Area__c-Postal Area Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
         <layout>Postal_Code_Area__c-Postal Code Area Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -15298,9 +14731,6 @@
         <layout>QuickText-Quick Text Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Quote-Quote Layout Admin</layout>
-    </layoutAssignments>
-    <layoutAssignments>
         <layout>QuoteLineItem-Quote Line Item Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -15352,12 +14782,6 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>SalesforceContract-Salesforce Contract Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>SalesforceInvoice-Salesforce Invoice Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>SalesforcePayment-Salesforce Payment Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>SchedulingConstraint-Scheduling Constraint Layout</layout>
@@ -15510,9 +14934,6 @@
         <layout>User-Lumon User Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>UserAlt-User Profile Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
         <layout>UserAppMenuItem-Application Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -15526,9 +14947,6 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>UserProvisioningRequest-User Provisioning Request Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>VoiceCall-Voice Call Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Warehouse__c-Warehouse Layout</layout>
@@ -15620,15 +15038,6 @@
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
         <object>AccountBrand</object>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>ActiveScratchOrg</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -16195,24 +15604,6 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
-        <object>Customer_Project__c</object>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>DataKitDeploymentLog</object>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
         <object>DelegatedAccount</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
@@ -16268,33 +15659,6 @@
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
         <object>ElectronicMediaGroup</object>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>EngagementAttendee</object>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>EngagementInteraction</object>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>EngagementTopic</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -16492,15 +15856,6 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
-        <object>IntegrationProviderDef</object>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
         <object>InventoryItemReservation</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
@@ -16628,15 +15983,6 @@
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
         <object>MessagingSession</object>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>NamespaceRegistry</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -16790,15 +16136,6 @@
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
         <object>Payment_Plan__c</object>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>Postal_Area__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -17122,24 +16459,6 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
-        <object>RecordActnSelItemExtrc</object>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>RecordAlert</object>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
         <object>RecordsetFilterCriteria</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
@@ -17248,15 +16567,6 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
-        <object>ScratchOrgInfo</object>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
         <object>SerializedProduct</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
@@ -17321,33 +16631,6 @@
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
         <object>ServiceTerritory</object>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>SharingRecordCollection</object>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>SharingRecordCollectionItem</object>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>SharingRecordCollectionMember</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -18095,10 +17378,6 @@
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>standard-ActiveScratchOrg</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
         <tab>standard-AlternativePaymentMethod</tab>
         <visibility>DefaultOff</visibility>
     </tabVisibilities>
@@ -18207,22 +17486,6 @@
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>standard-EnablementProgram</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>standard-EngagementAttendee</tab>
-        <visibility>DefaultOff</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>standard-EngagementInteraction</tab>
-        <visibility>DefaultOff</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>standard-EngagementTopic</tab>
-        <visibility>DefaultOff</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
         <tab>standard-Entitlement</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
@@ -18299,10 +17562,6 @@
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>standard-LearningItem</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
         <tab>standard-Location</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
@@ -18332,10 +17591,6 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-MessagingSession</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>standard-NamespaceRegistry</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
@@ -18467,10 +17722,6 @@
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>standard-RecordAlert</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
         <tab>standard-RecordsetFilterCriteria</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
@@ -18500,10 +17751,6 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-Scorecard</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>standard-ScratchOrgInfo</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
@@ -18540,10 +17787,6 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-ServiceTerritory</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>standard-SharingRecordCollection</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
@@ -18624,10 +17867,6 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-UserProvisioningRequest</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>standard-VoiceCall</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>

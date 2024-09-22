@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>danish</masterLabel>
+        <translation><!-- danish --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>dutch</masterLabel>
+        <translation><!-- dutch --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>english (Canada)</masterLabel>
+        <translation><!-- english (Canada) --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>english (Default)</masterLabel>
+        <translation><!-- english (Default) --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>english US</masterLabel>
+        <translation><!-- english US --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>finnish</masterLabel>
+        <translation><!-- finnish --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>french</masterLabel>
+        <translation><!-- french --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>french (Canada)</masterLabel>
+        <translation><!-- french (Canada) --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>german</masterLabel>
+        <translation><!-- german --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>german (Swiss)</masterLabel>
+        <translation><!-- german (Swiss) --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>norwegian</masterLabel>
+        <translation><!-- norwegian --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>polish</masterLabel>
+        <translation><!-- polish --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>spanish</masterLabel>
+        <translation><!-- spanish --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>swedish</masterLabel>
+        <translation><!-- swedish --></translation>
+    </valueTranslation>
+</GlobalValueSetTranslation>

@@ -126,10 +126,6 @@
         <label><!-- Status change --></label>
         <name>Status_change</name>
     </quickActions>
-    <quickActions>
-        <label><!-- Update Service Appointment --></label>
-        <name>ViewServiceAppointment</name>
-    </quickActions>
     <validationRules>
         <errorMessage><!-- New service appointment cannot be created in scheduled or  dispatched statuses. --></errorMessage>
         <name>FSL__Dont_allow_scheduled_or_dispatched</name>

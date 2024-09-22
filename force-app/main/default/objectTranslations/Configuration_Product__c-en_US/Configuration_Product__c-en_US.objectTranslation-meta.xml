@@ -64,10 +64,6 @@
         </sections>
     </layouts>
     <quickActions>
-        <label><!-- Edit Installer Message --></label>
-        <name>Edit_Installer_Message</name>
-    </quickActions>
-    <quickActions>
         <label><!-- Edit Plan Test --></label>
         <name>Edit_Plan_Test</name>
     </quickActions>

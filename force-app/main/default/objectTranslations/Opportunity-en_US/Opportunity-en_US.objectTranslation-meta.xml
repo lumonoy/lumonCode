@@ -79,37 +79,6 @@
             <section>Structural Analysis Information</section>
         </sections>
     </layouts>
-    <layouts>
-        <layout>B2C Opportunity Layout User</layout>
-        <sections>
-            <label><!-- Contract Additional Agreements --></label>
-            <section>Contract Additional Agreements</section>
-        </sections>
-        <sections>
-            <label><!-- Contract Information --></label>
-            <section>Contract Information</section>
-        </sections>
-        <sections>
-            <label><!-- Contract Price Agreements --></label>
-            <section>Contract Price Agreements</section>
-        </sections>
-        <sections>
-            <label><!-- Customer Information --></label>
-            <section>Customer Information</section>
-        </sections>
-        <sections>
-            <label><!-- Delivery and Installation --></label>
-            <section>Delivery and Installation</section>
-        </sections>
-        <sections>
-            <label><!-- Opportunity Value --></label>
-            <section>Opportunity Value</section>
-        </sections>
-        <sections>
-            <label><!-- Payment Details --></label>
-            <section>Payment Details</section>
-        </sections>
-    </layouts>
     <quickActions>
         <label><!-- Delivery Location --></label>
         <name>Delivery_Location</name>

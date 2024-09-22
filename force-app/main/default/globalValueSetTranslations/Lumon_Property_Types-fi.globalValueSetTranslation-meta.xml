@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>Apartment Building</masterLabel>
+        <translation><!-- Apartment Building --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Cottage</masterLabel>
+        <translation><!-- Cottage --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>HoReCa</masterLabel>
+        <translation><!-- HoReCa --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Project-A</masterLabel>
+        <translation><!-- Project-A --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Project-B</masterLabel>
+        <translation><!-- Project-B --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Row House</masterLabel>
+        <translation><!-- Row House --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Single Family House</masterLabel>
+        <translation><!-- Single Family House --></translation>
+    </valueTranslation>
+</GlobalValueSetTranslation>
