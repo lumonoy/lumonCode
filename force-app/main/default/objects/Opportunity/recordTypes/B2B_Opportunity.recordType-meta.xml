@@ -9,11 +9,11 @@
     <picklistValues>
         <picklist>Business_Type__c</picklist>
         <values>
-            <fullName>Project</fullName>
+            <fullName>4</fullName>
             <default>false</default>
         </values>
         <values>
-            <fullName>Reseller</fullName>
+            <fullName>9</fullName>
             <default>false</default>
         </values>
     </picklistValues>
@@ -56,6 +56,10 @@
         <picklist>Contract_Language__c</picklist>
         <values>
             <fullName>en</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>fr_CA</fullName>
             <default>false</default>
         </values>
     </picklistValues>

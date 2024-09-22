@@ -125,6 +125,11 @@
         <default>false</default>
         <label>X Not Applicable</label>
     </customValue>
+    <customValue>
+        <fullName>LOG_REQ</fullName>
+        <default>false</default>
+        <label>Logistics Request</label>
+    </customValue>
     <masterLabel>Lumon Case Types</masterLabel>
     <sorted>true</sorted>
 </GlobalValueSet>

@@ -13552,7 +13552,7 @@
         <managerAdjustableCategoryApiNames>bestcaseforecast</managerAdjustableCategoryApiNames>
         <managerAdjustableCategoryApiNames>commitforecast</managerAdjustableCategoryApiNames>
         <masterLabel>Opportunity Revenue by Territory</masterLabel>
-        <name>Lumon_Invest_Oy</name>
+        <name>LumonOy</name>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.NAME</field>
             <label>Opportunity Name</label>
@@ -14649,7 +14649,7 @@
         </opportunityListFieldsUnselectedSettings>
         <ownerAdjustableCategoryApiNames>bestcaseforecast</ownerAdjustableCategoryApiNames>
         <ownerAdjustableCategoryApiNames>commitforecast</ownerAdjustableCategoryApiNames>
-        <territory2ModelName>Lumon_Invest_Oy</territory2ModelName>
+        <territory2ModelName>LumonOy</territory2ModelName>
     </forecastingTypeSettings>
     <forecastingTypeSettings>
         <active>false</active>
@@ -14672,7 +14672,7 @@
         <managerAdjustableCategoryApiNames>bestcaseforecast</managerAdjustableCategoryApiNames>
         <managerAdjustableCategoryApiNames>commitforecast</managerAdjustableCategoryApiNames>
         <masterLabel>Product Family Revenue by Territory</masterLabel>
-        <name>Lumon_Invest_Oy1</name>
+        <name>LumonOy1</name>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.NAME</field>
             <label>Opportunity Name</label>
@@ -15774,7 +15774,7 @@
         </opportunityListFieldsUnselectedSettings>
         <ownerAdjustableCategoryApiNames>bestcaseforecast</ownerAdjustableCategoryApiNames>
         <ownerAdjustableCategoryApiNames>commitforecast</ownerAdjustableCategoryApiNames>
-        <territory2ModelName>Lumon_Invest_Oy</territory2ModelName>
+        <territory2ModelName>LumonOy</territory2ModelName>
     </forecastingTypeSettings>
     <forecastingTypeSettings>
         <active>false</active>
@@ -15797,7 +15797,7 @@
         <managerAdjustableCategoryApiNames>bestcaseforecast</managerAdjustableCategoryApiNames>
         <managerAdjustableCategoryApiNames>commitforecast</managerAdjustableCategoryApiNames>
         <masterLabel>Product Family Revenue by Territory and Schedule Date</masterLabel>
-        <name>Lumon_Invest_Oy2</name>
+        <name>LumonOy2</name>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.NAME</field>
             <label>Opportunity Name</label>
@@ -16899,7 +16899,7 @@
         </opportunityListFieldsUnselectedSettings>
         <ownerAdjustableCategoryApiNames>bestcaseforecast</ownerAdjustableCategoryApiNames>
         <ownerAdjustableCategoryApiNames>commitforecast</ownerAdjustableCategoryApiNames>
-        <territory2ModelName>Lumon_Invest_Oy</territory2ModelName>
+        <territory2ModelName>LumonOy</territory2ModelName>
     </forecastingTypeSettings>
     <forecastingTypeSettings>
         <active>false</active>
@@ -16922,7 +16922,7 @@
         <managerAdjustableCategoryApiNames>bestcaseforecast</managerAdjustableCategoryApiNames>
         <managerAdjustableCategoryApiNames>commitforecast</managerAdjustableCategoryApiNames>
         <masterLabel>Product Family Quantity by Territory and Schedule Date</masterLabel>
-        <name>Lumon_Invest_Oy3</name>
+        <name>LumonOy3</name>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.NAME</field>
             <label>Opportunity Name</label>
@@ -18019,7 +18019,7 @@
         </opportunityListFieldsUnselectedSettings>
         <ownerAdjustableCategoryApiNames>bestcaseforecast</ownerAdjustableCategoryApiNames>
         <ownerAdjustableCategoryApiNames>commitforecast</ownerAdjustableCategoryApiNames>
-        <territory2ModelName>Lumon_Invest_Oy</territory2ModelName>
+        <territory2ModelName>LumonOy</territory2ModelName>
     </forecastingTypeSettings>
     <forecastingTypeSettings>
         <active>false</active>
@@ -18042,7 +18042,7 @@
         <managerAdjustableCategoryApiNames>bestcaseforecast</managerAdjustableCategoryApiNames>
         <managerAdjustableCategoryApiNames>commitforecast</managerAdjustableCategoryApiNames>
         <masterLabel>Opportunity Revenue by Territory and Schedule Date</masterLabel>
-        <name>Lumon_Invest_Oy4</name>
+        <name>LumonOy4</name>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.NAME</field>
             <label>Opportunity Name</label>
@@ -19144,7 +19144,7 @@
         </opportunityListFieldsUnselectedSettings>
         <ownerAdjustableCategoryApiNames>bestcaseforecast</ownerAdjustableCategoryApiNames>
         <ownerAdjustableCategoryApiNames>commitforecast</ownerAdjustableCategoryApiNames>
-        <territory2ModelName>Lumon_Invest_Oy</territory2ModelName>
+        <territory2ModelName>LumonOy</territory2ModelName>
     </forecastingTypeSettings>
     <forecastingTypeSettings>
         <active>false</active>
@@ -19167,7 +19167,7 @@
         <managerAdjustableCategoryApiNames>bestcaseforecast</managerAdjustableCategoryApiNames>
         <managerAdjustableCategoryApiNames>commitforecast</managerAdjustableCategoryApiNames>
         <masterLabel>Opportunity Quantity by Territory and Schedule Date</masterLabel>
-        <name>Lumon_Invest_Oy5</name>
+        <name>LumonOy5</name>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.NAME</field>
             <label>Opportunity Name</label>
@@ -20264,7 +20264,7 @@
         </opportunityListFieldsUnselectedSettings>
         <ownerAdjustableCategoryApiNames>bestcaseforecast</ownerAdjustableCategoryApiNames>
         <ownerAdjustableCategoryApiNames>commitforecast</ownerAdjustableCategoryApiNames>
-        <territory2ModelName>Lumon_Invest_Oy</territory2ModelName>
+        <territory2ModelName>LumonOy</territory2ModelName>
     </forecastingTypeSettings>
     <forecastingTypeSettings>
         <active>false</active>
@@ -20287,7 +20287,7 @@
         <managerAdjustableCategoryApiNames>bestcaseforecast</managerAdjustableCategoryApiNames>
         <managerAdjustableCategoryApiNames>commitforecast</managerAdjustableCategoryApiNames>
         <masterLabel>Opportunity Quantity by Territory</masterLabel>
-        <name>Lumon_Invest_Oy6</name>
+        <name>LumonOy6</name>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.NAME</field>
             <label>Opportunity Name</label>
@@ -21384,7 +21384,7 @@
         </opportunityListFieldsUnselectedSettings>
         <ownerAdjustableCategoryApiNames>bestcaseforecast</ownerAdjustableCategoryApiNames>
         <ownerAdjustableCategoryApiNames>commitforecast</ownerAdjustableCategoryApiNames>
-        <territory2ModelName>Lumon_Invest_Oy</territory2ModelName>
+        <territory2ModelName>LumonOy</territory2ModelName>
     </forecastingTypeSettings>
     <forecastingTypeSettings>
         <active>false</active>
@@ -21407,7 +21407,7 @@
         <managerAdjustableCategoryApiNames>bestcaseforecast</managerAdjustableCategoryApiNames>
         <managerAdjustableCategoryApiNames>commitforecast</managerAdjustableCategoryApiNames>
         <masterLabel>Product Family Quantity by Territory</masterLabel>
-        <name>Lumon_Invest_Oy7</name>
+        <name>LumonOy7</name>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.NAME</field>
             <label>Opportunity Name</label>
@@ -22504,7 +22504,7 @@
         </opportunityListFieldsUnselectedSettings>
         <ownerAdjustableCategoryApiNames>bestcaseforecast</ownerAdjustableCategoryApiNames>
         <ownerAdjustableCategoryApiNames>commitforecast</ownerAdjustableCategoryApiNames>
-        <territory2ModelName>Lumon_Invest_Oy</territory2ModelName>
+        <territory2ModelName>LumonOy</territory2ModelName>
     </forecastingTypeSettings>
     <globalAdjustmentsSettings>
         <enableAdjustments>true</enableAdjustments>

@@ -336,4 +336,12 @@
         <name>Lumon_ICT_Support</name>
         <type>CustomApplication</type>
     </appMenuItems>
+    <appMenuItems>
+        <name>standard__Insights</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>standard__DataManager</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
 </AppMenu>

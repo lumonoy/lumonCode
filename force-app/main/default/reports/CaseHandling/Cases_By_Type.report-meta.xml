@@ -7,9 +7,6 @@
         <field>OWNER</field>
     </columns>
     <columns>
-        <field>Case.CaseType__c</field>
-    </columns>
-    <columns>
         <field>Case.CaseSubType__c</field>
     </columns>
     <columns>

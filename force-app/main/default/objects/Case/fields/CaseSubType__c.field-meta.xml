@@ -13,6 +13,137 @@
         <restricted>true</restricted>
         <valueSetName>Lumon_Case_Items</valueSetName>
         <valueSettings>
+            <controllingFieldValue>CS_CALL</controllingFieldValue>
+            <controllingFieldValue>CS_COFF</controllingFieldValue>
+            <controllingFieldValue>CS_COMP</controllingFieldValue>
+            <controllingFieldValue>CS_CREQ</controllingFieldValue>
+            <controllingFieldValue>CS_INFO</controllingFieldValue>
+            <controllingFieldValue>TS_GEN</controllingFieldValue>
+            <controllingFieldValue>IT_SUPP</controllingFieldValue>
+            <controllingFieldValue>CS_FEED</controllingFieldValue>
+            <controllingFieldValue>TS_TQ</controllingFieldValue>
+            <valueName>Callback Request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CS_CALL</controllingFieldValue>
+            <controllingFieldValue>CS_COFF</controllingFieldValue>
+            <controllingFieldValue>CS_COMP</controllingFieldValue>
+            <controllingFieldValue>CS_CREQ</controllingFieldValue>
+            <controllingFieldValue>CS_INFO</controllingFieldValue>
+            <controllingFieldValue>IT_SUPP</controllingFieldValue>
+            <controllingFieldValue>CS_FEED</controllingFieldValue>
+            <controllingFieldValue>TS_TQ</controllingFieldValue>
+            <valueName>LOG_REQ_Early_Delivery</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CS_CALL</controllingFieldValue>
+            <controllingFieldValue>CS_CORD</controllingFieldValue>
+            <controllingFieldValue>CS_COFF</controllingFieldValue>
+            <controllingFieldValue>CS_COMP</controllingFieldValue>
+            <controllingFieldValue>CS_CREQ</controllingFieldValue>
+            <controllingFieldValue>CS_INFO</controllingFieldValue>
+            <controllingFieldValue>IT_SUPP</controllingFieldValue>
+            <controllingFieldValue>CS_FEED</controllingFieldValue>
+            <controllingFieldValue>TS_TQ</controllingFieldValue>
+            <valueName>Information Requests</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CS_CALL</controllingFieldValue>
+            <controllingFieldValue>CS_CORD</controllingFieldValue>
+            <controllingFieldValue>CS_COFF</controllingFieldValue>
+            <controllingFieldValue>CS_COMP</controllingFieldValue>
+            <controllingFieldValue>CS_CREQ</controllingFieldValue>
+            <controllingFieldValue>CS_INFO</controllingFieldValue>
+            <controllingFieldValue>IT_SUPP</controllingFieldValue>
+            <controllingFieldValue>CS_FEED</controllingFieldValue>
+            <controllingFieldValue>TS_TQ</controllingFieldValue>
+            <valueName>Invoices</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CS_CALL</controllingFieldValue>
+            <controllingFieldValue>CS_CORD</controllingFieldValue>
+            <controllingFieldValue>CS_COFF</controllingFieldValue>
+            <controllingFieldValue>CS_COMP</controllingFieldValue>
+            <controllingFieldValue>CS_CREQ</controllingFieldValue>
+            <controllingFieldValue>CS_INFO</controllingFieldValue>
+            <controllingFieldValue>IT_SUPP</controllingFieldValue>
+            <controllingFieldValue>CS_FEED</controllingFieldValue>
+            <controllingFieldValue>TS_TQ</controllingFieldValue>
+            <valueName>Offers</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CS_CALL</controllingFieldValue>
+            <controllingFieldValue>CS_CORD</controllingFieldValue>
+            <controllingFieldValue>CS_COFF</controllingFieldValue>
+            <controllingFieldValue>CS_COMP</controllingFieldValue>
+            <controllingFieldValue>CS_CREQ</controllingFieldValue>
+            <controllingFieldValue>CS_INFO</controllingFieldValue>
+            <controllingFieldValue>IT_SUPP</controllingFieldValue>
+            <controllingFieldValue>CS_FEED</controllingFieldValue>
+            <controllingFieldValue>TS_TQ</controllingFieldValue>
+            <valueName>Orders</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CS_CALL</controllingFieldValue>
+            <controllingFieldValue>CS_CORD</controllingFieldValue>
+            <controllingFieldValue>CS_COFF</controllingFieldValue>
+            <controllingFieldValue>CS_COMP</controllingFieldValue>
+            <controllingFieldValue>CS_CREQ</controllingFieldValue>
+            <controllingFieldValue>CS_INFO</controllingFieldValue>
+            <controllingFieldValue>IT_SUPP</controllingFieldValue>
+            <controllingFieldValue>CS_FEED</controllingFieldValue>
+            <controllingFieldValue>TS_TQ</controllingFieldValue>
+            <valueName>Permits</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CS_CALL</controllingFieldValue>
+            <controllingFieldValue>CS_CORD</controllingFieldValue>
+            <controllingFieldValue>CS_COFF</controllingFieldValue>
+            <controllingFieldValue>CS_COMP</controllingFieldValue>
+            <controllingFieldValue>CS_CREQ</controllingFieldValue>
+            <controllingFieldValue>CS_INFO</controllingFieldValue>
+            <controllingFieldValue>IT_SUPP</controllingFieldValue>
+            <controllingFieldValue>CS_FEED</controllingFieldValue>
+            <controllingFieldValue>TS_TQ</controllingFieldValue>
+            <valueName>Reclamations</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CS_CALL</controllingFieldValue>
+            <controllingFieldValue>CS_CORD</controllingFieldValue>
+            <controllingFieldValue>CS_COFF</controllingFieldValue>
+            <controllingFieldValue>CS_COMP</controllingFieldValue>
+            <controllingFieldValue>CS_CREQ</controllingFieldValue>
+            <controllingFieldValue>CS_INFO</controllingFieldValue>
+            <controllingFieldValue>IT_SUPP</controllingFieldValue>
+            <controllingFieldValue>CS_FEED</controllingFieldValue>
+            <controllingFieldValue>TS_TQ</controllingFieldValue>
+            <valueName>Requests</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CS_CALL</controllingFieldValue>
+            <controllingFieldValue>CS_CORD</controllingFieldValue>
+            <controllingFieldValue>CS_COFF</controllingFieldValue>
+            <controllingFieldValue>CS_COMP</controllingFieldValue>
+            <controllingFieldValue>CS_CREQ</controllingFieldValue>
+            <controllingFieldValue>CS_INFO</controllingFieldValue>
+            <controllingFieldValue>IT_SUPP</controllingFieldValue>
+            <controllingFieldValue>CS_FEED</controllingFieldValue>
+            <controllingFieldValue>TS_TQ</controllingFieldValue>
+            <valueName>Surveys</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CS_CALL</controllingFieldValue>
+            <controllingFieldValue>CS_CORD</controllingFieldValue>
+            <controllingFieldValue>CS_COFF</controllingFieldValue>
+            <controllingFieldValue>CS_COMP</controllingFieldValue>
+            <controllingFieldValue>CS_CREQ</controllingFieldValue>
+            <controllingFieldValue>CS_INFO</controllingFieldValue>
+            <controllingFieldValue>IT_SUPP</controllingFieldValue>
+            <controllingFieldValue>CS_FEED</controllingFieldValue>
+            <controllingFieldValue>TS_TQ</controllingFieldValue>
+            <valueName>WorkOrders</valueName>
+        </valueSettings>
+        <valueSettings>
             <controllingFieldValue>IT_DEV</controllingFieldValue>
             <valueName>IT_INC_Autopilot</valueName>
         </valueSettings>
@@ -46,19 +177,11 @@
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>IT_SW</controllingFieldValue>
-            <valueName>IT_SW_Salestori</valueName>
+            <valueName>IT_SW_Adobe</valueName>
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>IT_SW</controllingFieldValue>
-            <valueName>IT_SW_Maintori</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>IT_SW</controllingFieldValue>
-            <valueName>IT_SW_Reptori</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>IT_SW</controllingFieldValue>
-            <valueName>IT_SW_Plantori</valueName>
+            <valueName>IT_SW_Autocad</valueName>
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>IT_SW</controllingFieldValue>
@@ -66,7 +189,19 @@
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>IT_SW</controllingFieldValue>
-            <valueName>IT_SW_Mepco</valueName>
+            <valueName>IT_SW_Basware</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IT_SW</controllingFieldValue>
+            <valueName>IT_SW_Brandtori</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IT_SW</controllingFieldValue>
+            <valueName>IT_SW_Doctori</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IT_SW</controllingFieldValue>
+            <valueName>IT_SW_eCon</valueName>
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>IT_SW</controllingFieldValue>
@@ -74,7 +209,15 @@
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>IT_SW</controllingFieldValue>
-            <valueName>IT_SW_Basware</valueName>
+            <valueName>IT_SW_Esmi</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IT_SW</controllingFieldValue>
+            <valueName>IT_SW_Frends</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IT_SW</controllingFieldValue>
+            <valueName>IT_SW_Freshdesk</valueName>
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>IT_SW</controllingFieldValue>
@@ -82,15 +225,27 @@
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>IT_SW</controllingFieldValue>
-            <valueName>IT_SW_Precut</valueName>
+            <valueName>IT_SW_Lisec</valueName>
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>IT_SW</controllingFieldValue>
-            <valueName>IT_SW_Esmi</valueName>
+            <valueName>IT_SW_M2</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IT_SW</controllingFieldValue>
+            <valueName>IT_SW_Maintori</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IT_SW</controllingFieldValue>
+            <valueName>IT_SW_Mepco</valueName>
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>IT_SW</controllingFieldValue>
             <valueName>IT_SW_Mfiles</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IT_SW</controllingFieldValue>
+            <valueName>IT_SW_Office</valueName>
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>IT_SW</controllingFieldValue>
@@ -102,31 +257,7 @@
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>IT_SW</controllingFieldValue>
-            <valueName>IT_SW_Wmware</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>IT_SW</controllingFieldValue>
-            <valueName>IT_SW_Frends</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>IT_SW</controllingFieldValue>
-            <valueName>Veeam</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>IT_SW</controllingFieldValue>
-            <valueName>PRTG</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>IT_SW</controllingFieldValue>
-            <valueName>IT_SW_Teams</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>IT_SW</controllingFieldValue>
-            <valueName>IT_SW_Sovelia</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>IT_SW</controllingFieldValue>
-            <valueName>IT_SW_Solidworks</valueName>
+            <valueName>IT_SW_Pagero</valueName>
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>IT_SW</controllingFieldValue>
@@ -134,63 +265,15 @@
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>IT_SW</controllingFieldValue>
-            <valueName>IT_SW_Office</valueName>
+            <valueName>IT_SW_Plantori</valueName>
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>IT_SW</controllingFieldValue>
-            <valueName>IT_SW_Softphone</valueName>
+            <valueName>IT_SW_Precut</valueName>
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>IT_SW</controllingFieldValue>
-            <valueName>IT_SW_Freshdesk</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>IT_SW</controllingFieldValue>
-            <valueName>IT_SW_Unifaun</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>IT_SW</controllingFieldValue>
-            <valueName>IT_SW_eCon</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>IT_SW</controllingFieldValue>
-            <valueName>IT_SW_Pagero</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>IT_SW</controllingFieldValue>
-            <valueName>IT_SW_Brandtori</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>IT_SW</controllingFieldValue>
-            <valueName>IT_SW_M2</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>IT_SW</controllingFieldValue>
-            <valueName>IT_SW_Shopify</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>IT_SW</controllingFieldValue>
-            <valueName>Rajobit robot</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>IT_SW</controllingFieldValue>
-            <valueName>IT_SW_Salesforce</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>IT_SW</controllingFieldValue>
-            <valueName>IT_SW_Autocad</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>IT_SW</controllingFieldValue>
-            <valueName>IT_SW_Doctori</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>IT_SW</controllingFieldValue>
-            <valueName>IT_SW_Syncrontech</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>IT_SW</controllingFieldValue>
-            <valueName>IT_SW_Teamviewer</valueName>
+            <valueName>PRTG</valueName>
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>IT_SW</controllingFieldValue>
@@ -198,11 +281,59 @@
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>IT_SW</controllingFieldValue>
-            <valueName>IT_SW_Adobe</valueName>
+            <valueName>Rajobit robot</valueName>
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>IT_SW</controllingFieldValue>
-            <valueName>IT_SW_Lisec</valueName>
+            <valueName>IT_SW_Reptori</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IT_SW</controllingFieldValue>
+            <valueName>IT_SW_Salesforce</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IT_SW</controllingFieldValue>
+            <valueName>IT_SW_Salestori</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IT_SW</controllingFieldValue>
+            <valueName>IT_SW_Shopify</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IT_SW</controllingFieldValue>
+            <valueName>IT_SW_Softphone</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IT_SW</controllingFieldValue>
+            <valueName>IT_SW_Solidworks</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IT_SW</controllingFieldValue>
+            <valueName>IT_SW_Sovelia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IT_SW</controllingFieldValue>
+            <valueName>IT_SW_Syncrontech</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IT_SW</controllingFieldValue>
+            <valueName>IT_SW_Teams</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IT_SW</controllingFieldValue>
+            <valueName>IT_SW_Teamviewer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IT_SW</controllingFieldValue>
+            <valueName>IT_SW_Unifaun</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IT_SW</controllingFieldValue>
+            <valueName>Veeam</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IT_SW</controllingFieldValue>
+            <valueName>IT_SW_Wmware</valueName>
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>IT_USER</controllingFieldValue>
@@ -213,102 +344,80 @@
             <valueName>Disable Accounts</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>CS_COMP</controllingFieldValue>
-            <controllingFieldValue>CS_CREQ</controllingFieldValue>
-            <controllingFieldValue>CS_INFO</controllingFieldValue>
-            <controllingFieldValue>TS_GEN</controllingFieldValue>
-            <controllingFieldValue>IT_SUPP</controllingFieldValue>
-            <controllingFieldValue>TS_TQ</controllingFieldValue>
-            <valueName>Callback Request</valueName>
+            <controllingFieldValue>LOG_REQ</controllingFieldValue>
+            <valueName>LOG_REQ_Change_Delivery</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>CS_COMP</controllingFieldValue>
-            <controllingFieldValue>CS_CREQ</controllingFieldValue>
-            <controllingFieldValue>CS_INFO</controllingFieldValue>
-            <controllingFieldValue>IT_SUPP</controllingFieldValue>
-            <controllingFieldValue>TS_TQ</controllingFieldValue>
-            <valueName>Logistics</valueName>
+            <controllingFieldValue>LOG_REQ</controllingFieldValue>
+            <valueName>LOG_REQ_Delivery_Time</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>CS_COMP</controllingFieldValue>
-            <controllingFieldValue>CS_CREQ</controllingFieldValue>
-            <controllingFieldValue>CS_INFO</controllingFieldValue>
-            <controllingFieldValue>IT_SUPP</controllingFieldValue>
-            <controllingFieldValue>TS_TQ</controllingFieldValue>
-            <valueName>Permits</valueName>
+            <controllingFieldValue>LOG_REQ</controllingFieldValue>
+            <valueName>LOG_REQ_Shipping_Location</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>CS_COMP</controllingFieldValue>
-            <controllingFieldValue>CS_CREQ</controllingFieldValue>
-            <controllingFieldValue>CS_INFO</controllingFieldValue>
-            <controllingFieldValue>IT_SUPP</controllingFieldValue>
-            <controllingFieldValue>TS_TQ</controllingFieldValue>
-            <valueName>Reclamations</valueName>
+            <controllingFieldValue>LOG_REQ</controllingFieldValue>
+            <valueName>LOG_REQ_Production_Delay</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>CS_COMP</controllingFieldValue>
-            <controllingFieldValue>CS_CREQ</controllingFieldValue>
-            <controllingFieldValue>CS_INFO</controllingFieldValue>
-            <controllingFieldValue>IT_SUPP</controllingFieldValue>
-            <controllingFieldValue>TS_TQ</controllingFieldValue>
-            <valueName>Requests</valueName>
+            <controllingFieldValue>NA</controllingFieldValue>
+            <valueName>NA_Spam</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>CS_COMP</controllingFieldValue>
-            <controllingFieldValue>CS_CREQ</controllingFieldValue>
-            <controllingFieldValue>CS_INFO</controllingFieldValue>
-            <controllingFieldValue>IT_SUPP</controllingFieldValue>
-            <controllingFieldValue>CS_FEED</controllingFieldValue>
-            <controllingFieldValue>TS_TQ</controllingFieldValue>
-            <valueName>Orders</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>CS_COMP</controllingFieldValue>
-            <controllingFieldValue>CS_CREQ</controllingFieldValue>
-            <controllingFieldValue>CS_INFO</controllingFieldValue>
-            <controllingFieldValue>IT_SUPP</controllingFieldValue>
-            <controllingFieldValue>TS_TQ</controllingFieldValue>
-            <valueName>WorkOrders</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>CS_COMP</controllingFieldValue>
-            <controllingFieldValue>CS_CREQ</controllingFieldValue>
-            <controllingFieldValue>CS_INFO</controllingFieldValue>
-            <controllingFieldValue>IT_SUPP</controllingFieldValue>
-            <controllingFieldValue>TS_TQ</controllingFieldValue>
-            <valueName>Surveys</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>CS_COMP</controllingFieldValue>
-            <controllingFieldValue>CS_CREQ</controllingFieldValue>
-            <controllingFieldValue>CS_INFO</controllingFieldValue>
-            <controllingFieldValue>IT_SUPP</controllingFieldValue>
-            <controllingFieldValue>TS_TQ</controllingFieldValue>
-            <valueName>Information Requests</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>CS_COMP</controllingFieldValue>
-            <controllingFieldValue>CS_CREQ</controllingFieldValue>
-            <controllingFieldValue>CS_INFO</controllingFieldValue>
-            <controllingFieldValue>IT_SUPP</controllingFieldValue>
-            <controllingFieldValue>TS_TQ</controllingFieldValue>
-            <valueName>Invoices</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>CS_COMP</controllingFieldValue>
-            <controllingFieldValue>CS_CREQ</controllingFieldValue>
-            <controllingFieldValue>CS_INFO</controllingFieldValue>
-            <controllingFieldValue>IT_SUPP</controllingFieldValue>
-            <controllingFieldValue>TS_TQ</controllingFieldValue>
-            <valueName>Offers</valueName>
+            <controllingFieldValue>NA</controllingFieldValue>
+            <valueName>Not Applicable</valueName>
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>TS_GEN</controllingFieldValue>
             <valueName>Inquiry</valueName>
         </valueSettings>
         <valueSettings>
+            <controllingFieldValue>TS_GEN</controllingFieldValue>
+            <valueName>TS_REQ_ReturnOrderToContract</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CS_FEED</controllingFieldValue>
+            <valueName>Request</valueName>
+        </valueSettings>
+        <valueSettings>
             <controllingFieldValue>TS_TQ</controllingFieldValue>
             <valueName>Question</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TS_TQ</controllingFieldValue>
+            <valueName>TS_TQ_RedLine</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IT_ORD</controllingFieldValue>
+            <valueName>IT_ORD_Accessories</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IT_ORD</controllingFieldValue>
+            <valueName>IT_ORD_Amazon_Accesories</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IT_ORD</controllingFieldValue>
+            <valueName>IT_ORD_Amazon_Computers</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IT_ORD</controllingFieldValue>
+            <valueName>IT_ORD_Amazon_Gifts</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IT_ORD</controllingFieldValue>
+            <valueName>IT_ORD_Amazon_Others</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IT_ORD</controllingFieldValue>
+            <valueName>IT_ORD_Amazon_Phones</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IT_ORD</controllingFieldValue>
+            <valueName>IT_ORD_Computers</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IT_ORD</controllingFieldValue>
+            <valueName>IT_ORD_Licenses</valueName>
         </valueSettings>
     </valueSet>
 </CustomField>

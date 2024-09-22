@@ -10,6 +10,11 @@
     </classAccesses>
     <description>Gives additional access needed for sales reps</description>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>EmailMessage.IsMigrated__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Opportunity.Contract_base_data_filled__c</field>
         <readable>true</readable>

@@ -114,6 +114,10 @@
             <valueName>IT_PERM</valueName>
         </valueSettings>
         <valueSettings>
+            <controllingFieldValue>LOG</controllingFieldValue>
+            <valueName>LOG_REQ</valueName>
+        </valueSettings>
+        <valueSettings>
             <controllingFieldValue>FAC</controllingFieldValue>
             <controllingFieldValue>TS</controllingFieldValue>
             <valueName>TS_GEN</valueName>

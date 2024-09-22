@@ -6,6 +6,12 @@
         <publicGroups>
             <publicGroup>CS_Spain_ADM</publicGroup>
         </publicGroups>
+        <users>
+            <user>laura.villar@lumon.com</user>
+            <user>maria.martin@lumon.com</user>
+            <user>nahuel.masin@lumon.com</user>
+            <user>raquel.molina@lumon.com</user>
+        </users>
     </queueMembers>
     <queueSobject>
         <sobjectType>Case</sobjectType>

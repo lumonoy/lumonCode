@@ -2,6 +2,11 @@
 <PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
     <description>PDF Butler User Permissions incl view all custom settings</description>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>EmailMessage.IsMigrated__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>cadmus_core__Actionable__c.cadmus_core__Action_Name__c</field>
         <readable>true</readable>

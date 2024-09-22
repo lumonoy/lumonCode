@@ -11,7 +11,7 @@
     <columns>CORE.USERS.ALIAS</columns>
     <columns>CaseGroup__c</columns>
     <columns>CaseType__c</columns>
-    <filterScope>Mine</filterScope>
+    <filterScope>Queue</filterScope>
     <filters>
         <field>CASES.RECORDTYPE</field>
         <operation>equals</operation>
@@ -22,7 +22,13 @@
         <operation>equals</operation>
         <value>1</value>
     </filters>
+    <filters>
+        <field>CASES.STATUS</field>
+        <operation>notEqual</operation>
+        <value>Resolved,Merged,Closed</value>
+    </filters>
     <label>New Logistics Cases</label>
+    <queue>LOG_Spain</queue>
     <sharedTo>
         <group>Admins</group>
         <group>Logistics</group>

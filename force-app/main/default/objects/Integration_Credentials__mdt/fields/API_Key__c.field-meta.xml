@@ -3,7 +3,7 @@
     <fullName>API_Key__c</fullName>
     <externalId>false</externalId>
     <fieldManageability>DeveloperControlled</fieldManageability>
-    <label>API Key</label>
+    <label>API Key OLD</label>
     <length>255</length>
     <required>false</required>
     <type>Text</type>

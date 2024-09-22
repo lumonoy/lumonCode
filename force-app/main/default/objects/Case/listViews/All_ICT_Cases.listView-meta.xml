@@ -8,6 +8,7 @@
     <columns>ACCOUNT.NAME</columns>
     <columns>CASES.CREATED_DATE</columns>
     <columns>CORE.USERS.ALIAS</columns>
+    <columns>CASES.CLOSED_DATE</columns>
     <filterScope>Everything</filterScope>
     <filters>
         <field>CASES.RECORDTYPE</field>

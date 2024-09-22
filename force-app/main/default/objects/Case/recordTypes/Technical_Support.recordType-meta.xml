@@ -8,52 +8,8 @@
     <picklistValues>
         <picklist>CaseCategory__c</picklist>
         <values>
-            <fullName>CS</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>FAC</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>IT</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>LOG</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>NA</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Other</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>PERM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>RECL</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>SF</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>SPEC</fullName>
-            <default>false</default>
-        </values>
-        <values>
             <fullName>TS</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>WEB</fullName>
-            <default>false</default>
+            <default>true</default>
         </values>
     </picklistValues>
     <picklistValues>
@@ -694,6 +650,25 @@
         </values>
     </picklistValues>
     <picklistValues>
+        <picklist>CaseSubType__c</picklist>
+        <values>
+            <fullName>LOG_REQ_Change_Delivery</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LOG_REQ_Delivery_Time</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LOG_REQ_Production_Delay</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LOG_REQ_Shipping_Location</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
         <picklist>CaseType__c</picklist>
         <values>
             <fullName>CS_CALL</fullName>
@@ -776,6 +751,10 @@
             <default>false</default>
         </values>
         <values>
+            <fullName>LOG_REQ</fullName>
+            <default>false</default>
+        </values>
+        <values>
             <fullName>NA</fullName>
             <default>false</default>
         </values>
@@ -795,28 +774,8 @@
     <picklistValues>
         <picklist>Case_Category__c</picklist>
         <values>
-            <fullName>CS</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>FAC</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>LOG</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Other</fullName>
-            <default>false</default>
-        </values>
-        <values>
             <fullName>TS</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>WEB</fullName>
-            <default>false</default>
+            <default>true</default>
         </values>
     </picklistValues>
     <picklistValues>
@@ -1027,6 +986,25 @@
         </values>
     </picklistValues>
     <picklistValues>
+        <picklist>Case_SubType__c</picklist>
+        <values>
+            <fullName>LOG_REQ_Change_Delivery</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LOG_REQ_Delivery_Time</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LOG_REQ_Production_Delay</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LOG_REQ_Shipping_Location</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
         <picklist>Case_Type__c</picklist>
         <values>
             <fullName>CS_CALL</fullName>
@@ -1082,6 +1060,10 @@
         </values>
         <values>
             <fullName>IT_SUPP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LOG_REQ</fullName>
             <default>false</default>
         </values>
         <values>

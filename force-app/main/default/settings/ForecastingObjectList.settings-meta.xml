@@ -14284,7 +14284,7 @@
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
             <field>OPPORTUNITY.PUSH_COUNT</field>
         </forecastingObjectListUnselectedSettings>
-        <forecastingTypeDeveloperName>Lumon_Invest_Oy</forecastingTypeDeveloperName>
+        <forecastingTypeDeveloperName>LumonOy</forecastingTypeDeveloperName>
     </forecastingTypeObjectListSettings>
     <forecastingTypeObjectListSettings>
         <forecastingObjectListLabelMappings>
@@ -15386,7 +15386,7 @@
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
             <field>OPPORTUNITY.PUSH_COUNT</field>
         </forecastingObjectListUnselectedSettings>
-        <forecastingTypeDeveloperName>Lumon_Invest_Oy1</forecastingTypeDeveloperName>
+        <forecastingTypeDeveloperName>LumonOy1</forecastingTypeDeveloperName>
     </forecastingTypeObjectListSettings>
     <forecastingTypeObjectListSettings>
         <forecastingObjectListLabelMappings>
@@ -16488,7 +16488,7 @@
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
             <field>OPPORTUNITY.PUSH_COUNT</field>
         </forecastingObjectListUnselectedSettings>
-        <forecastingTypeDeveloperName>Lumon_Invest_Oy2</forecastingTypeDeveloperName>
+        <forecastingTypeDeveloperName>LumonOy2</forecastingTypeDeveloperName>
     </forecastingTypeObjectListSettings>
     <forecastingTypeObjectListSettings>
         <forecastingObjectListLabelMappings>
@@ -17585,7 +17585,7 @@
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
             <field>OPPORTUNITY.PUSH_COUNT</field>
         </forecastingObjectListUnselectedSettings>
-        <forecastingTypeDeveloperName>Lumon_Invest_Oy3</forecastingTypeDeveloperName>
+        <forecastingTypeDeveloperName>LumonOy3</forecastingTypeDeveloperName>
     </forecastingTypeObjectListSettings>
     <forecastingTypeObjectListSettings>
         <forecastingObjectListLabelMappings>
@@ -18687,7 +18687,7 @@
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
             <field>OPPORTUNITY.PUSH_COUNT</field>
         </forecastingObjectListUnselectedSettings>
-        <forecastingTypeDeveloperName>Lumon_Invest_Oy4</forecastingTypeDeveloperName>
+        <forecastingTypeDeveloperName>LumonOy4</forecastingTypeDeveloperName>
     </forecastingTypeObjectListSettings>
     <forecastingTypeObjectListSettings>
         <forecastingObjectListLabelMappings>
@@ -19784,7 +19784,7 @@
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
             <field>OPPORTUNITY.PUSH_COUNT</field>
         </forecastingObjectListUnselectedSettings>
-        <forecastingTypeDeveloperName>Lumon_Invest_Oy5</forecastingTypeDeveloperName>
+        <forecastingTypeDeveloperName>LumonOy5</forecastingTypeDeveloperName>
     </forecastingTypeObjectListSettings>
     <forecastingTypeObjectListSettings>
         <forecastingObjectListLabelMappings>
@@ -20881,7 +20881,7 @@
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
             <field>OPPORTUNITY.PUSH_COUNT</field>
         </forecastingObjectListUnselectedSettings>
-        <forecastingTypeDeveloperName>Lumon_Invest_Oy6</forecastingTypeDeveloperName>
+        <forecastingTypeDeveloperName>LumonOy6</forecastingTypeDeveloperName>
     </forecastingTypeObjectListSettings>
     <forecastingTypeObjectListSettings>
         <forecastingObjectListLabelMappings>
@@ -21978,6 +21978,6 @@
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
             <field>OPPORTUNITY.PUSH_COUNT</field>
         </forecastingObjectListUnselectedSettings>
-        <forecastingTypeDeveloperName>Lumon_Invest_Oy7</forecastingTypeDeveloperName>
+        <forecastingTypeDeveloperName>LumonOy7</forecastingTypeDeveloperName>
     </forecastingTypeObjectListSettings>
 </ForecastingObjectListSettings>

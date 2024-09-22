@@ -8,8 +8,17 @@
         <enabled>true</enabled>
         <name>Execute_Debug</name>
     </customPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>EmailMessage.IsMigrated__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
     <hasActivationRequired>false</hasActivationRequired>
     <label>Admin - SystemPermissions</label>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>CreateAuditFields</name>
+    </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
         <name>CreateCustomizeFilters</name>
@@ -17,5 +26,9 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>EditPublicFilters</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>UpdateWithInactiveOwner</name>
     </userPermissions>
 </PermissionSet>

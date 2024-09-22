@@ -3,14 +3,13 @@
     <fullName>All_TS_Cases</fullName>
     <columns>CASES.CASE_NUMBER</columns>
     <columns>CASES.SUBJECT</columns>
+    <columns>CASES.EMAIL</columns>
     <columns>CASES.STATUS</columns>
     <columns>CASES.PRIORITY</columns>
-    <columns>ACCOUNT.NAME</columns>
-    <columns>NAME</columns>
     <columns>CASES.CREATED_DATE</columns>
     <columns>CORE.USERS.ALIAS</columns>
-    <columns>CaseGroup__c</columns>
     <columns>CaseType__c</columns>
+    <columns>CaseSubType__c</columns>
     <filterScope>Everything</filterScope>
     <filters>
         <field>CASES.RECORDTYPE</field>

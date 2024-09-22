@@ -81,6 +81,10 @@
         <translation>IT User Rights and Permissions</translation>
     </valueTranslation>
     <valueTranslation>
+        <masterLabel>Logistics Request</masterLabel>
+        <translation>Logistics</translation>
+    </valueTranslation>
+    <valueTranslation>
         <masterLabel>TS Generic Request</masterLabel>
         <translation>TS Generic Request</translation>
     </valueTranslation>

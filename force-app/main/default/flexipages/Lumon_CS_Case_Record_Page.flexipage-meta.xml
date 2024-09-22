@@ -13,6 +13,9 @@
                             <value>MergeCase</value>
                         </valueListItems>
                         <valueListItems>
+                            <value>ChangeOwnerOne</value>
+                        </valueListItems>
+                        <valueListItems>
                             <value>ChangeRecordType</value>
                         </valueListItems>
                         <valueListItems>

@@ -39,6 +39,20 @@
         <localPart>emailtosalesforce</localPart>
         <runAsUser>kati.vainio@lumon.fi</runAsUser>
     </emailServicesAddresses>
+    <emailServicesAddresses>
+        <authorizedSenders>jari.juuti@lumon.fi</authorizedSenders>
+        <developerName>emailtosalesforce5</developerName>
+        <isActive>true</isActive>
+        <localPart>emailtosalesforce</localPart>
+        <runAsUser>jari.juuti@lumon.fi</runAsUser>
+    </emailServicesAddresses>
+    <emailServicesAddresses>
+        <authorizedSenders>raquel.molina@lumon.com</authorizedSenders>
+        <developerName>emailtosalesforce6</developerName>
+        <isActive>true</isActive>
+        <localPart>emailtosalesforce</localPart>
+        <runAsUser>raquel.molina@lumon.com</runAsUser>
+    </emailServicesAddresses>
     <functionInactiveAction>Bounce</functionInactiveAction>
     <functionName>EmailToSalesforce</functionName>
     <isActive>true</isActive>

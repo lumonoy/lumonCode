@@ -173,6 +173,24 @@
                 <identifier>RecordSubjectField</identifier>
             </fieldInstance>
         </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldItem>Record.FreshdeskId__c</fieldItem>
+                <identifier>RecordFreshdesk_Id__cField</identifier>
+            </fieldInstance>
+        </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldItem>Record.IsMigrated__c</fieldItem>
+                <identifier>RecordIsMigrated__cField</identifier>
+            </fieldInstance>
+        </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldItem>Record.FreshdeskType__c</fieldItem>
+                <identifier>RecordFreshdeskType__cField</identifier>
+            </fieldInstance>
+        </itemInstances>
         <name>Facet-542cf06f-c72c-4d5a-8b86-945af4da1e34</name>
         <type>Facet</type>
     </flexiPageRegions>

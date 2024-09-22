@@ -5,8 +5,8 @@
     <externalId>false</externalId>
     <formula>IF(
 AND(
-NOT(ISBLANK( ClosedDate )),
-ClosedDate &lt;= SlaDeadline__c
+NOT(ISBLANK( CaseResolvedDate__c )),
+CaseResolvedDate__c &lt;= SlaDeadline__c
 ),
 1,
 0

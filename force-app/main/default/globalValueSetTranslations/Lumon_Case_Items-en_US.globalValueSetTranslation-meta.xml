@@ -197,6 +197,26 @@
         <translation>Jira</translation>
     </valueTranslation>
     <valueTranslation>
+        <masterLabel>LOG_REQ_Change_Delivery</masterLabel>
+        <translation>Change Delivery Time</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>LOG_REQ_Delivery_Time</masterLabel>
+        <translation>Confirm Delivery Time</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>LOG_REQ_Early_Delivery</masterLabel>
+        <translation>Earlier Delivery</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>LOG_REQ_Production_Delay</masterLabel>
+        <translation>Production Delay</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>LOG_REQ_Shipping_Location</masterLabel>
+        <translation>Confirm Shipping Location</translation>
+    </valueTranslation>
+    <valueTranslation>
         <masterLabel>Licenses(New)</masterLabel>
         <translation>Licenses</translation>
     </valueTranslation>
@@ -205,16 +225,8 @@
         <translation>Lisec</translation>
     </valueTranslation>
     <valueTranslation>
-        <masterLabel>Logistics(New)</masterLabel>
-        <translation>Logistics</translation>
-    </valueTranslation>
-    <valueTranslation>
         <masterLabel>M2(New)</masterLabel>
         <translation>M2</translation>
-    </valueTranslation>
-    <valueTranslation>
-        <masterLabel>Mainos/roskaposti(New)</masterLabel>
-        <translation>Mainos/roskaposti</translation>
     </valueTranslation>
     <valueTranslation>
         <masterLabel>Maintenance(New)</masterLabel>
@@ -321,6 +333,10 @@
         <translation>Plantori</translation>
     </valueTranslation>
     <valueTranslation>
+        <masterLabel>PowerBI / Reptori(New)</masterLabel>
+        <translation>Reptori</translation>
+    </valueTranslation>
+    <valueTranslation>
         <masterLabel>Precut(New)</masterLabel>
         <translation>Precut</translation>
     </valueTranslation>
@@ -361,16 +377,16 @@
         <translation>Reptori Access</translation>
     </valueTranslation>
     <valueTranslation>
-        <masterLabel>Reptori(New)</masterLabel>
-        <translation>Reptori</translation>
-    </valueTranslation>
-    <valueTranslation>
         <masterLabel>Request(New)</masterLabel>
         <translation>Request</translation>
     </valueTranslation>
     <valueTranslation>
         <masterLabel>Requests(New)</masterLabel>
         <translation>Requests</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Return order to Contract Status</masterLabel>
+        <translation><!-- Return order to Contract Status --></translation>
     </valueTranslation>
     <valueTranslation>
         <masterLabel>Sales(New)</masterLabel>
@@ -411,6 +427,10 @@
     <valueTranslation>
         <masterLabel>Sovelia(New)</masterLabel>
         <translation>Sovelia</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Spam(New)</masterLabel>
+        <translation>Mainos/roskaposti</translation>
     </valueTranslation>
     <valueTranslation>
         <masterLabel>Surveys(New)</masterLabel>

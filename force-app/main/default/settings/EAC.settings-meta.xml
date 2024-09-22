@@ -3,7 +3,7 @@
     <autoPopulateGoogleMeetLinks>false</autoPopulateGoogleMeetLinks>
     <automatedEmailFilter>true</automatedEmailFilter>
     <dSThresholdNotification>true</dSThresholdNotification>
-    <enableActivityAnalyticsPref>false</enableActivityAnalyticsPref>
+    <enableActivityAnalyticsPref>true</enableActivityAnalyticsPref>
     <enableActivityCapture>true</enableActivityCapture>
     <enableActivitySyncEngine>true</enableActivitySyncEngine>
     <enableEACForEveryonePref>true</enableEACForEveryonePref>

@@ -909,11 +909,23 @@
             <default>false</default>
         </values>
         <values>
-            <fullName>Logistics</fullName>
+            <fullName>LOG_REQ_Change_Delivery</fullName>
             <default>false</default>
         </values>
         <values>
-            <fullName>Mainos%2Froskaposti</fullName>
+            <fullName>LOG_REQ_Delivery_Time</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LOG_REQ_Early_Delivery</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LOG_REQ_Production_Delay</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LOG_REQ_Shipping_Location</fullName>
             <default>false</default>
         </values>
         <values>
@@ -922,6 +934,10 @@
         </values>
         <values>
             <fullName>Mobile Data</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NA_Spam</fullName>
             <default>false</default>
         </values>
         <values>
@@ -1064,14 +1080,6 @@
     <picklistValues>
         <picklist>CaseType__c</picklist>
         <values>
-            <fullName>CS_CALL</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>CS_RECL</fullName>
-            <default>false</default>
-        </values>
-        <values>
             <fullName>IT_DEV</fullName>
             <default>false</default>
         </values>
@@ -1108,11 +1116,19 @@
             <default>false</default>
         </values>
         <values>
+            <fullName>IT_SUPP</fullName>
+            <default>false</default>
+        </values>
+        <values>
             <fullName>IT_SW</fullName>
             <default>false</default>
         </values>
         <values>
             <fullName>IT_USER</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LOG_REQ</fullName>
             <default>false</default>
         </values>
         <values>
@@ -1355,6 +1371,25 @@
         </values>
     </picklistValues>
     <picklistValues>
+        <picklist>Case_SubType__c</picklist>
+        <values>
+            <fullName>LOG_REQ_Change_Delivery</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LOG_REQ_Delivery_Time</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LOG_REQ_Production_Delay</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LOG_REQ_Shipping_Location</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
         <picklist>Case_Type__c</picklist>
         <values>
             <fullName>CS_CALL</fullName>
@@ -1410,6 +1445,10 @@
         </values>
         <values>
             <fullName>IT_SUPP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LOG_REQ</fullName>
             <default>false</default>
         </values>
         <values>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Standard Field Service Operating hours for Appointments, Users and Territories under this office. --></help>
+    <label><!-- Field Service Operating Hours --></label>
+    <name>FSL_Operating_Hours__c</name>
+    <relationshipLabel><!-- Offices --></relationshipLabel>
+</CustomFieldTranslation>

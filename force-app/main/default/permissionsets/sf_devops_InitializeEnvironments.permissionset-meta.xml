@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
     <description>Allows managers of the DevOps Center to manage connections to development environments. This requires the Modify Metadata Through Metadata API Functions and Customize Application permissions.</description>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>EmailMessage.IsMigrated__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
     <hasActivationRequired>false</hasActivationRequired>
     <label>sf_devops_InitializeEnvironments</label>
     <userPermissions>

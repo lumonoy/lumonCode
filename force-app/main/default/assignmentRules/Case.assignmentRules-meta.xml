@@ -12,5 +12,11 @@
                 <value>supportmaintori@lumon.fi</value>
             </criteriaItems>
         </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.FreshdeskId__c</field>
+                <operation>notEqual</operation>
+            </criteriaItems>
+        </ruleEntry>
     </assignmentRule>
 </AssignmentRules>

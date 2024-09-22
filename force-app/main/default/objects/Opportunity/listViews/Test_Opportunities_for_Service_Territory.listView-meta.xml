@@ -9,9 +9,9 @@
     <columns>CORE.USERS.ALIAS</columns>
     <filterScope>Everything</filterScope>
     <filters>
-        <field>OPPORTUNITY.NAME</field>
-        <operation>contains</operation>
-        <value>owned</value>
+        <field>OPPORTUNITY.CREATED_DATE</field>
+        <operation>equals</operation>
+        <value>THIS_MONTH</value>
     </filters>
     <label>Test Opportunities for Service Territory</label>
 </ListView>

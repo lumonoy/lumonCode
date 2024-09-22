@@ -5645,10 +5645,6 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>sf_devops__AuthControllerGetRepoUserNameTester</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
         <apexClass>sf_devops__AuthControllerUTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -5785,14 +5781,6 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>sf_devops__CancelingEventsFilter</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__CancelingEventsFilterUTest</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
         <apexClass>sf_devops__ChangeBundleInstalls</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -5897,18 +5885,6 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>sf_devops__CloseChangeRequestEventHandler</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__CloseChangeRequestEventHandlerFTest</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__CloseChangeRequestEventHandlerUTest</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
         <apexClass>sf_devops__CloseChangeRequestQueueable</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -5945,22 +5921,6 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>sf_devops__CommitBranchEventHandler</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__CommitBranchEventHandlerFTest</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__CommitBranchEventHandlerUTest</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__CommitProcessorFTestUtils</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
         <apexClass>sf_devops__CommitWorkUseCase</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -5982,14 +5942,6 @@
     </classAccesses>
     <classAccesses>
         <apexClass>sf_devops__ComplexForceIgnoreReducer</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__ComputeRemoteChangesVisibilityQueueable</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__ComputeRemoteChangesVisibilityUTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -6025,47 +5977,11 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>sf_devops__CreateBranchVcsEventHandleUTest</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__CreateBranchVcsEventHandler</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__CreateBranchVcsEventHandlerFTest</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__CreateChangeRequestEventHandler</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__CreateChangeRequestEventHandlerFTest</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__CreateChangeRequestEventHandlerUTest</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
         <apexClass>sf_devops__CreateChangeRequestQueueable</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>sf_devops__CreateChangeRequestQueueableUTest</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__CreateDeleteBranchEventFilter</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__CreateDeleteBranchEventFilterFTest</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__CreateDeleteBranchEventFilterUTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -6182,18 +6098,6 @@
     </classAccesses>
     <classAccesses>
         <apexClass>sf_devops__DeferredRelationshipBuilderFTest</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__DeleteBranchVcsEventHandler</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__DeleteBranchVcsEventHandlerFTest</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__DeleteBranchVcsEventHandlerUTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -6338,10 +6242,6 @@
     </classAccesses>
     <classAccesses>
         <apexClass>sf_devops__DuplicateEnvironmentValidatorUTest</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__DuplicatePullRequestException</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -6633,18 +6533,6 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>sf_devops__GitHubCommitCallback</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__GitHubCommitCallbackFTest</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__GitHubCommitCallbackUTest</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
         <apexClass>sf_devops__GitHubCommitFileHeader</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -6654,22 +6542,6 @@
     </classAccesses>
     <classAccesses>
         <apexClass>sf_devops__GitHubError</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__GitHubEvent</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__GitHubEventCommit</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__GitHubEventPayload</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__GitHubEventRestDeserializerTestData</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -6721,63 +6593,11 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>sf_devops__GitHubVcsService</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__GitHubVcsServiceDeleteBranchTester</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__GitHubVcsServiceDownloadEventsTester</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__GitHubVcsServiceFTest</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__GitHubVcsServiceGetAllBranchesTester</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__GitHubVcsServiceGetAuthUserTester</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__GitHubVcsServiceGetRemoteReferenceTester</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__GitHubVcsServiceGetRepoOwnerTester</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__GitHubVcsServiceGetRepositoryTester</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__GitHubVcsServiceUTest</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__GitHubVcsServiceUpdatePRBranchTester</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__GitHubVcsServiceUpdatePullRequestTester</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
         <apexClass>sf_devops__Guids</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>sf_devops__GuidsFTest</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__HandlerUtils</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -6866,14 +6686,6 @@
     </classAccesses>
     <classAccesses>
         <apexClass>sf_devops__InspectSubmitResultHandlerFTest</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__InspectionQueueable</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__InspectionQueueableUTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -7022,18 +6834,6 @@
     </classAccesses>
     <classAccesses>
         <apexClass>sf_devops__MannySteelThreadTest</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__MergeChangeRequestEventHandler</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__MergeChangeRequestEventHandlerFTest</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__MergeConflictException</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -7369,18 +7169,6 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>sf_devops__OpenCloseEventFilter</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__OpenCloseEventFilterFTest</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__OpenCloseEventFilterUTest</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
         <apexClass>sf_devops__OperationInProgressException</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -7657,10 +7445,6 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>sf_devops__ProcessVcsEventsUseCase</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
         <apexClass>sf_devops__ProjectBulkTriggerData</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -7789,10 +7573,6 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>sf_devops__PullRequestCreateException</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
         <apexClass>sf_devops__QueryCondition</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -7837,14 +7617,6 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>sf_devops__RebaseQueueable</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__RebaseQueueableUTest</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
         <apexClass>sf_devops__RebaseResultHandler</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -7854,14 +7626,6 @@
     </classAccesses>
     <classAccesses>
         <apexClass>sf_devops__RecordCounter</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__ReleaseEnvironmentCreator</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__ReleaseEnvironmentCreatorUTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -8057,27 +7821,11 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>sf_devops__RepositoryServiceImplCreateBranchTester</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
         <apexClass>sf_devops__RepositoryServiceImplCreateTester</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>sf_devops__RepositoryServiceImplDelegateTester</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__RepositoryServiceImplTester</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
         <apexClass>sf_devops__RepositoryServiceImplUTest</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__RepositoryServiceImplUpdateBranchTester</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -8673,10 +8421,6 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>sf_devops__TestEnqueueService</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
         <apexClass>sf_devops__TestEnterpriseConnection</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -8838,10 +8582,6 @@
     </classAccesses>
     <classAccesses>
         <apexClass>sf_devops__TestUserUtil</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__TestVcsEventBuilder</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -9169,22 +8909,6 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>sf_devops__UiEventDataRegistry</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__UiEventDataRegistryUTest</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__UiEventDependentObject</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__UiEventProcessingObject</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
         <apexClass>sf_devops__UiExpandableObjectActivity</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -9202,14 +8926,6 @@
     </classAccesses>
     <classAccesses>
         <apexClass>sf_devops__UiExternalCalloutObject</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__UiGenericVcsEvent</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__UiGenericVcsEventUTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -9365,30 +9081,6 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>sf_devops__UiPipelineStageIssues</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__UiPipelineStageIssuesUTest</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__UiPipelineStageOpenEnvActionUTest</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__UiPipelineStageOpenEnvWIActionUTest</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__UiPipelineStageOpenEnvironmentAction</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__UiPipelineStageOpenEnvironmentWIAction</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
         <apexClass>sf_devops__UiPipelineStagePromoteAction</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -9465,19 +9157,11 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>sf_devops__UiPipelineWorkItem</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
         <apexClass>sf_devops__UiPipelineWorkItemPromotionStatus</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>sf_devops__UiPipelineWorkItemPromotionStatusUTest</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__UiPipelineWorkItemUTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -9665,43 +9349,11 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>sf_devops__UiUnhandledVcsEvent</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__UiUnhandledVcsEventFactory</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__UiUnhandledVcsEventFactoryUTest</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__UiUnhandledVcsEventUTest</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__UiUnknownCommitEvent</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__UiUnknownCommitEventUTest</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
         <apexClass>sf_devops__UiUser</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>sf_devops__UiUserUTest</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__UiVcsEventProcessingResults</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__UiVcsEventProcessingResultsUTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -9714,14 +9366,6 @@
     </classAccesses>
     <classAccesses>
         <apexClass>sf_devops__UiVersionedPipelineStageUTest</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__UiViewChangeRequestAction</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__UiViewChangeRequestActionUTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -9766,14 +9410,6 @@
     </classAccesses>
     <classAccesses>
         <apexClass>sf_devops__UiWorkItemPromoteActivityUTest</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__UiWorkItemRebaseStatus</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__UiWorkItemRebaseStatusUTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -9845,10 +9481,6 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>sf_devops__UnableToDownloadEventsException</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
         <apexClass>sf_devops__UnableToDownloadVcsFileException</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -9861,19 +9493,7 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>sf_devops__UnableToGetPullRequestException</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
         <apexClass>sf_devops__UnableToGetRemoteReferenceException</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__UnableToMergeException</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__UnableToUpdatePullRequestException</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -9889,27 +9509,7 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>sf_devops__UnhandledVcsEventResultHandler</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__UnhandledVcsEventResultHandlerFTest</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__UnknownBranchEventFilter</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__UnknownBranchEventFilterUTest</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
         <apexClass>sf_devops__UnknownRepositoryException</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__UnknownRepositoryOwnerException</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -9922,10 +9522,6 @@
     </classAccesses>
     <classAccesses>
         <apexClass>sf_devops__UnsupportedOperationException</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__UnsupportedVcsException</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -9985,143 +9581,7 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>sf_devops__VcsCommitBranchEvent</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__VcsCommitFileHeader</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
         <apexClass>sf_devops__VcsCommitReference</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__VcsCreateBranchEvent</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__VcsDeleteBranchEvent</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__VcsEvent</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__VcsEventDownLoader</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__VcsEventDownLoaderUTest</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__VcsEventFilter</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__VcsEventHandler</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__VcsEventList</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__VcsEventLoader</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__VcsEventLoaderFTest</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__VcsEventLogger</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__VcsEventLoggerFactory</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__VcsEventLoggerUTest</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__VcsEventManager</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__VcsEventManagerUTest</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__VcsEventProcessingException</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__VcsEventProcessingResults</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__VcsEventProcessingResultsUTest</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__VcsEventProcessor</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__VcsEventProcessorFTest</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__VcsEventRegistry</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__VcsEventRegistryUTest</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__VcsEventTestUtils</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__VcsEventTester</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__VcsEventType</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__VcsEventUtils</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__VcsEventUtilsUTest</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__VcsEvents</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__VcsEventsFTest</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__VcsEventsSelector</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__VcsEventsSelectorFTest</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__VcsPullRequest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -10129,31 +9589,7 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>sf_devops__VcsRepo</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__VcsRepoOwner</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__VcsService</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__VcsServiceFactory</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__VcsServiceFactoryUTest</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
         <apexClass>sf_devops__VcsUnmergableReasonType</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__VcsUpdateChangeRequestEvent</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -10314,10 +9750,6 @@
     </classAccesses>
     <classAccesses>
         <apexClass>sf_devops__WorkItemQueryFilterRequest</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__WorkItemRebaseServiceFTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -11027,6 +10459,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Contact.cadmus_sign2__LocaleSidKey__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>EmailMessage.IsMigrated__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>

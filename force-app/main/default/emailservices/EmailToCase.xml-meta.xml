@@ -5,9 +5,33 @@
     <authenticationFailureAction>Bounce</authenticationFailureAction>
     <authorizationFailureAction>Discard</authorizationFailureAction>
     <emailServicesAddresses>
+        <developerName>sfcustomerserviceadmine</developerName>
+        <isActive>true</isActive>
+        <localPart>sfcustomerserviceadmines</localPart>
+        <runAsUser>sfsupport@lumon.com</runAsUser>
+    </emailServicesAddresses>
+    <emailServicesAddresses>
+        <developerName>sfcustomerservicece</developerName>
+        <isActive>true</isActive>
+        <localPart>sfcustomerservicece</localPart>
+        <runAsUser>sfsupport@lumon.com</runAsUser>
+    </emailServicesAddresses>
+    <emailServicesAddresses>
+        <developerName>sfcustomerservicees</developerName>
+        <isActive>true</isActive>
+        <localPart>sfcustomerservicees</localPart>
+        <runAsUser>sfsupport@lumon.com</runAsUser>
+    </emailServicesAddresses>
+    <emailServicesAddresses>
         <developerName>sfcustomerservicefi</developerName>
         <isActive>true</isActive>
         <localPart>sfcustomerservicefi</localPart>
+        <runAsUser>sfsupport@lumon.com</runAsUser>
+    </emailServicesAddresses>
+    <emailServicesAddresses>
+        <developerName>sfcustomerserviceresell</developerName>
+        <isActive>true</isActive>
+        <localPart>sfcustomerservicereselleres</localPart>
         <runAsUser>sfsupport@lumon.com</runAsUser>
     </emailServicesAddresses>
     <emailServicesAddresses>
@@ -17,9 +41,33 @@
         <runAsUser>sfsupport@lumon.com</runAsUser>
     </emailServicesAddresses>
     <emailServicesAddresses>
+        <developerName>sflogisticses</developerName>
+        <isActive>true</isActive>
+        <localPart>sflogisticses</localPart>
+        <runAsUser>sfsupport@lumon.com</runAsUser>
+    </emailServicesAddresses>
+    <emailServicesAddresses>
         <developerName>sfmaintori</developerName>
         <isActive>true</isActive>
         <localPart>sfmaintori</localPart>
+        <runAsUser>sfsupport@lumon.com</runAsUser>
+    </emailServicesAddresses>
+    <emailServicesAddresses>
+        <developerName>sfservicecallslna</developerName>
+        <isActive>true</isActive>
+        <localPart>sfservicecallslna</localPart>
+        <runAsUser>sfsupport@lumon.com</runAsUser>
+    </emailServicesAddresses>
+    <emailServicesAddresses>
+        <developerName>sftechnicalsupportca</developerName>
+        <isActive>true</isActive>
+        <localPart>sftechnicalsupportca</localPart>
+        <runAsUser>sfsupport@lumon.com</runAsUser>
+    </emailServicesAddresses>
+    <emailServicesAddresses>
+        <developerName>sftechnicalsupportes</developerName>
+        <isActive>true</isActive>
+        <localPart>sftechnicalsupportes</localPart>
         <runAsUser>sfsupport@lumon.com</runAsUser>
     </emailServicesAddresses>
     <functionInactiveAction>Bounce</functionInactiveAction>

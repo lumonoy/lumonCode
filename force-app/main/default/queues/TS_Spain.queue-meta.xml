@@ -6,6 +6,11 @@
         <publicGroups>
             <publicGroup>TS_Spain</publicGroup>
         </publicGroups>
+        <users>
+            <user>alfonso.moraleda@lumon.com</user>
+            <user>antonio.valero@lumon.com</user>
+            <user>nacho.fernandez@lumon.com</user>
+        </users>
     </queueMembers>
     <queueSobject>
         <sobjectType>Case</sobjectType>

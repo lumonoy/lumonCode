@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- User Profit Center Code populated from Azure AD --></help>
+    <label><!-- AD Profit Center Code --></label>
+    <name>AD_ProfitCenterCode__c</name>
+</CustomFieldTranslation>

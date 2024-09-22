@@ -533,6 +533,11 @@
         <field>Configuration__c.Work_Order__c</field>
         <readable>true</readable>
     </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>EmailMessage.IsMigrated__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
     <hasActivationRequired>false</hasActivationRequired>
     <label>DELETE Sales User Configuration</label>
     <objectPermissions>

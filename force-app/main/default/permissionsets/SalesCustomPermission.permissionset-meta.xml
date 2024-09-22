@@ -17,6 +17,11 @@
         <name>Enable_Visual</name>
     </customPermissions>
     <description>Permissions for CPQ Features</description>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>EmailMessage.IsMigrated__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
     <hasActivationRequired>false</hasActivationRequired>
     <label>Sales - Custom Permissions</label>
 </PermissionSet>

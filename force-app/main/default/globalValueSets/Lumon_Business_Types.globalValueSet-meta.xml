@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
     <customValue>
-        <fullName>Business</fullName>
+        <fullName>7</fullName>
         <default>false</default>
-        <label>Business</label>
+        <label>After Sales</label>
     </customValue>
     <customValue>
-        <fullName>Consumer</fullName>
+        <fullName>1</fullName>
         <default>false</default>
         <label>Consumer</label>
     </customValue>
     <customValue>
-        <fullName>Project</fullName>
+        <fullName>4</fullName>
         <default>false</default>
         <label>Project</label>
     </customValue>
     <customValue>
-        <fullName>Reseller</fullName>
+        <fullName>9</fullName>
         <default>false</default>
         <label>Reseller</label>
     </customValue>
     <customValue>
-        <fullName>Customer</fullName>
+        <fullName>0</fullName>
         <default>false</default>
-        <label>Customer</label>
+        <label>Other</label>
     </customValue>
     <masterLabel>Lumon Business Types</masterLabel>
     <sorted>false</sorted>
