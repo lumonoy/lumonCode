@@ -3,7 +3,7 @@
     <fullName>Production_Time__c</fullName>
     <externalId>false</externalId>
     <inlineHelpText>Indication of the Production Time in Calendar Days</inlineHelpText>
-    <label>Production Time</label>
+    <label>Production Time OLD</label>
     <precision>18</precision>
     <required>false</required>
     <scale>0</scale>

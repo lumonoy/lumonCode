@@ -4,7 +4,7 @@
     <description>The Type of Building</description>
     <externalId>false</externalId>
     <inlineHelpText>The Type of Building</inlineHelpText>
-    <label>Property Type</label>
+    <label>Property Type OLD</label>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>false</trackHistory>
