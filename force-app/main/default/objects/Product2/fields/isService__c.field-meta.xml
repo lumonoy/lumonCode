@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>Spare_Part__c</fullName>
+    <fullName>isService__c</fullName>
     <defaultValue>false</defaultValue>
-    <description>Checkbox to indicate if this is a Spare Part Product</description>
+    <description>Flag to indicate if the Product is a Service</description>
     <externalId>false</externalId>
-    <inlineHelpText>Indicates if this is a Spare Part Product</inlineHelpText>
-    <label>Spare Part OLD</label>
+    <inlineHelpText>Indicates if the Product is a Service</inlineHelpText>
+    <label>Service</label>
     <trackHistory>false</trackHistory>
     <type>Checkbox</type>
 </CustomField>
