@@ -3,7 +3,7 @@
     <fullName>Moved_to_Contract_Signed_date_time__c</fullName>
     <description>This field logs the timestap opportunity has been moved to contract signed stage</description>
     <externalId>false</externalId>
-    <label>Moved to Contract Signed date/time</label>
+    <label>Moved to Contract Signed date/time OLD</label>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>false</trackHistory>

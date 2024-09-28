@@ -5,7 +5,7 @@
     <externalId>false</externalId>
     <formula>DateValue(Confirmed_installation_time__c)</formula>
     <inlineHelpText>Confirmed or Planned Day of Installation</inlineHelpText>
-    <label>Confirmed Installation Date</label>
+    <label>Confirmed Installation Date DEL</label>
     <required>false</required>
     <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>

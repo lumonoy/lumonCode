@@ -5,7 +5,7 @@
     <description>This field is marked when the Special Order Case has been closed.</description>
     <externalId>false</externalId>
     <inlineHelpText>Please mark this field when the Special Order Case has been closed.</inlineHelpText>
-    <label>Special Order Case Closed</label>
+    <label>Special Order Case Closed OLD</label>
     <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>
