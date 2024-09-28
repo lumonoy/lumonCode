@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CostType__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Second Level Grouping of Costs</inlineHelpText>
+    <label>Cost Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>CostCategory__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetName>Lumon_Cost_Types</valueSetName>
+        <valueSettings>
+            <controllingFieldValue>FactoryPurchase</controllingFieldValue>
+            <valueName>tarvikeast</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FactoryPurchase</controllingFieldValue>
+            <valueName>tarvikealu</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FactoryPurchase</controllingFieldValue>
+            <valueName>tarvikekmp</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FactoryPurchase</controllingFieldValue>
+            <valueName>tuotekust.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FactoryPurchase</controllingFieldValue>
+            <valueName>verhot</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FactoryPurchase</controllingFieldValue>
+            <valueName>tuotteet</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FactoryPurchase</controllingFieldValue>
+            <controllingFieldValue>SalesService</controllingFieldValue>
+            <valueName>Services</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>InstallSupplies</controllingFieldValue>
+            <valueName>as.tarvike</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RentedMachinery</controllingFieldValue>
+            <valueName>nostvuokra</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RentedMachinery</controllingFieldValue>
+            <valueName>nostokulut</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RentedMachinery</controllingFieldValue>
+            <valueName>nostok. ca</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RentedMachinery</controllingFieldValue>
+            <valueName>nostok. fi</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RentedMachinery</controllingFieldValue>
+            <valueName>nostok. es</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RentedMachinery</controllingFieldValue>
+            <valueName>nostok. se</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SalesFreight</controllingFieldValue>
+            <valueName>rahti</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SalesFreight</controllingFieldValue>
+            <valueName>rahti1</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SalesFreight</controllingFieldValue>
+            <valueName>rahti2</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SalesFreight</controllingFieldValue>
+            <valueName>rahti3</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SalesFreight</controllingFieldValue>
+            <valueName>rahtijm</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SalesService</controllingFieldValue>
+            <valueName>perustus</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SalesService</controllingFieldValue>
+            <valueName>vakuutus</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SalesService</controllingFieldValue>
+            <valueName>reklamaati</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TravelExpenses</controllingFieldValue>
+            <valueName>kulukorv.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Manhours</controllingFieldValue>
+            <valueName>askuormitu</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Wages</controllingFieldValue>
+            <valueName>asennus</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Wages</controllingFieldValue>
+            <valueName>asennus1</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Wages</controllingFieldValue>
+            <valueName>asennus2</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Wages</controllingFieldValue>
+            <valueName>asennus3</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Wages</controllingFieldValue>
+            <valueName>asennus ca</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Wages</controllingFieldValue>
+            <valueName>asennusku</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Wages</controllingFieldValue>
+            <valueName>asennus fi</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Wages</controllingFieldValue>
+            <valueName>asennus es</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Wages</controllingFieldValue>
+            <valueName>asennus se</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BuildingPermits</controllingFieldValue>
+            <valueName>lupahakem.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AdditionalSales</controllingFieldValue>
+            <valueName>myynti ca</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AdditionalSales</controllingFieldValue>
+            <valueName>myynti fi</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AdditionalSales</controllingFieldValue>
+            <valueName>myynti es</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AdditionalSales</controllingFieldValue>
+            <valueName>myynti se</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CostReserv</controllingFieldValue>
+            <valueName>costreserv</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ExternalService</controllingFieldValue>
+            <valueName>ulk.as.pal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ExternalService</controllingFieldValue>
+            <valueName>alihankint</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ExternalService</controllingFieldValue>
+            <valueName>Third Party Installation</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>
