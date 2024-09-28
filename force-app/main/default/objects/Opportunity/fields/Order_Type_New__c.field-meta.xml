@@ -3,7 +3,7 @@
     <fullName>Order_Type_New__c</fullName>
     <description>Select if the order is a reclamation or a normal order</description>
     <externalId>false</externalId>
-    <label>Order Type New</label>
+    <label>Order Type New OLD</label>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>false</trackHistory>

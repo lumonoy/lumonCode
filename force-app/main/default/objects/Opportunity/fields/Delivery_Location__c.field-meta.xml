@@ -3,7 +3,7 @@
     <fullName>Delivery_Location__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <externalId>false</externalId>
-    <label>Delivery Location</label>
+    <label>Delivery Location OLD</label>
     <lookupFilter>
         <active>true</active>
         <errorMessage>Delivery Location is not of allowed Type</errorMessage>

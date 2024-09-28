@@ -4,7 +4,7 @@
     <description>Date when Finished Goods are delivered to Site or Warehouse</description>
     <externalId>false</externalId>
     <inlineHelpText>This is automatic calculation of estimated earliest delivery date</inlineHelpText>
-    <label>Delivery Date</label>
+    <label>Delivery Date OLD</label>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>false</trackHistory>

@@ -4,7 +4,7 @@
     <description>DO NOT USE</description>
     <externalId>false</externalId>
     <inlineHelpText>Indication of the Production Time in Calendar Days</inlineHelpText>
-    <label>Maximum Production Time</label>
+    <label>Maximum Production Time OLD</label>
     <precision>18</precision>
     <required>false</required>
     <scale>0</scale>
