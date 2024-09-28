@@ -5,7 +5,7 @@
     <description>Checkbox to indicate if this is a Additional Cost Product</description>
     <externalId>false</externalId>
     <inlineHelpText>Indicates if this is a Additional Cost Product</inlineHelpText>
-    <label>Additional Cost</label>
+    <label>Additional Cost OLD</label>
     <trackHistory>false</trackHistory>
     <type>Checkbox</type>
 </CustomField>
