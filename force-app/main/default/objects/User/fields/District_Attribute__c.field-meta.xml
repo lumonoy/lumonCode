@@ -3,7 +3,7 @@
     <fullName>District_Attribute__c</fullName>
     <externalId>false</externalId>
     <formula>TEXT(District__c)</formula>
-    <label>District Attribute</label>
+    <label>District Attribute OLD</label>
     <required>false</required>
     <type>Text</type>
     <unique>false</unique>

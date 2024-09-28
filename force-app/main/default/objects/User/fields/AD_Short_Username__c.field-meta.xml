@@ -4,7 +4,7 @@
     <caseSensitive>false</caseSensitive>
     <description>AD Short Username</description>
     <externalId>false</externalId>
-    <inlineHelpText>AD Short Username</inlineHelpText>
+    <inlineHelpText>AD Short Username OLD</inlineHelpText>
     <label>AD Short Username</label>
     <length>50</length>
     <required>false</required>

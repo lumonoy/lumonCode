@@ -4,7 +4,7 @@
     <caseSensitive>false</caseSensitive>
     <description>Employee ID used for financial dimension(Mepco) populated from Azure AD</description>
     <externalId>false</externalId>
-    <label>EmployeeId</label>
+    <label>EmployeeId OLD</label>
     <length>20</length>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>
