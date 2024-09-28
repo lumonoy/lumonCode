@@ -1,0 +1,530 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ProfitCenter__c</fullName>
+    <externalId>false</externalId>
+    <label>Profit Center</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Organization__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetName>Lumon_Profit_Centers</valueSetName>
+        <valueSettings>
+            <controllingFieldValue>SLU</controllingFieldValue>
+            <valueName>410 SLU Stockholm</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SLU</controllingFieldValue>
+            <valueName>411 SLU Göteborg</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SLU</controllingFieldValue>
+            <valueName>412 SLU Malmö</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SLU</controllingFieldValue>
+            <valueName>413 SLU Västerås</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SLU</controllingFieldValue>
+            <valueName>420 SLU Reseller</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SLU</controllingFieldValue>
+            <valueName>430 SLU North Sweden</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SLU</controllingFieldValue>
+            <valueName>440 SLU Aftersales</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SLU</controllingFieldValue>
+            <valueName>450 SLU Administration</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ZAO</controllingFieldValue>
+            <valueName>910 ZAO Reseller</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ZAO</controllingFieldValue>
+            <valueName>920 ZAO St Petersburg</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LDA</controllingFieldValue>
+            <valueName>950 LDA Reseller</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LFE</controllingFieldValue>
+            <valueName>280 LFE Production</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LFE</controllingFieldValue>
+            <valueName>290 LFE Administration</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LFR</controllingFieldValue>
+            <valueName>997 LFR Reseller</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LUI</controllingFieldValue>
+            <controllingFieldValue>LU</controllingFieldValue>
+            <valueName>100 LUI Administration</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LUI</controllingFieldValue>
+            <valueName>210 LUI Kouvola</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LUI</controllingFieldValue>
+            <valueName>220 LUI Jyväskylä</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LUI</controllingFieldValue>
+            <valueName>230 LUI Oulu</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LUI</controllingFieldValue>
+            <valueName>240 LUI Vantaa</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LUI</controllingFieldValue>
+            <valueName>250 LUI Kuopio</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LUI</controllingFieldValue>
+            <controllingFieldValue>INT</controllingFieldValue>
+            <controllingFieldValue>LU</controllingFieldValue>
+            <controllingFieldValue>LSU</controllingFieldValue>
+            <valueName>271 LUI R&amp;D</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LUI</controllingFieldValue>
+            <controllingFieldValue>INT</controllingFieldValue>
+            <controllingFieldValue>LU</controllingFieldValue>
+            <controllingFieldValue>LSU</controllingFieldValue>
+            <valueName>272 LUI HR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LUI</controllingFieldValue>
+            <controllingFieldValue>INT</controllingFieldValue>
+            <controllingFieldValue>LU</controllingFieldValue>
+            <controllingFieldValue>LSU</controllingFieldValue>
+            <valueName>273 LUI Technical Support</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LUI</controllingFieldValue>
+            <controllingFieldValue>INT</controllingFieldValue>
+            <controllingFieldValue>LU</controllingFieldValue>
+            <controllingFieldValue>LSU</controllingFieldValue>
+            <valueName>274 LUI ICT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LUI</controllingFieldValue>
+            <controllingFieldValue>INT</controllingFieldValue>
+            <controllingFieldValue>LU</controllingFieldValue>
+            <controllingFieldValue>LSU</controllingFieldValue>
+            <valueName>275 LUI Finance</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LNP</controllingFieldValue>
+            <valueName>160 LNP Production</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LNP</controllingFieldValue>
+            <valueName>161 LNP Administration</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LSW</controllingFieldValue>
+            <valueName>870 LSW Consumer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LNC</controllingFieldValue>
+            <valueName>172 LNC Vancouver</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LNC</controllingFieldValue>
+            <valueName>173 LNC West dealers</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LNC</controllingFieldValue>
+            <valueName>174 LNC Toronto</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LNC</controllingFieldValue>
+            <valueName>175 LNC Dealers</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LNC</controllingFieldValue>
+            <valueName>176 LNC Hamilton</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LNC</controllingFieldValue>
+            <valueName>177 LNC US</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LNC</controllingFieldValue>
+            <valueName>178 LNC Customer service</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LCE</controllingFieldValue>
+            <valueName>510 LCE Malaga</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LCE</controllingFieldValue>
+            <valueName>511 LCE Almeria</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LCE</controllingFieldValue>
+            <valueName>512 LCE Marbella</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LCE</controllingFieldValue>
+            <valueName>513 LCE Sevilla</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LCE</controllingFieldValue>
+            <valueName>520 LCE Barcelona</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LCE</controllingFieldValue>
+            <valueName>530 LCE Zaragoza</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LCE</controllingFieldValue>
+            <valueName>540 LCE Valencia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LCE</controllingFieldValue>
+            <valueName>550 LCE Madrid Sur</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LCE</controllingFieldValue>
+            <valueName>551 LCE Madrid Norte</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LCE</controllingFieldValue>
+            <valueName>560 LCE Reseller</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LCE</controllingFieldValue>
+            <valueName>570 LCE Aftersales</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LCE</controllingFieldValue>
+            <valueName>590 LCE Administration</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LDE</controllingFieldValue>
+            <valueName>810 LDE Administration</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LDE</controllingFieldValue>
+            <valueName>820 LDE Reseller</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LDE</controllingFieldValue>
+            <valueName>830 LDE Project</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>INT</controllingFieldValue>
+            <valueName>601 INT Spain</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>INT</controllingFieldValue>
+            <valueName>602 INT Sweden</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>INT</controllingFieldValue>
+            <valueName>603 INT Germany</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>INT</controllingFieldValue>
+            <valueName>604 INT Austria</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>INT</controllingFieldValue>
+            <valueName>605 INT Denmark</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>INT</controllingFieldValue>
+            <valueName>606 INT Netherlands</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>INT</controllingFieldValue>
+            <valueName>607 INT France</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>INT</controllingFieldValue>
+            <valueName>608 INT Ireland</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>INT</controllingFieldValue>
+            <valueName>609 INT Belgium</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>INT</controllingFieldValue>
+            <valueName>60 SVI Industrial Sales</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>INT</controllingFieldValue>
+            <valueName>610 INT Latvia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>INT</controllingFieldValue>
+            <valueName>611 INT Slovakia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>INT</controllingFieldValue>
+            <valueName>612 INT Great Britain</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>INT</controllingFieldValue>
+            <valueName>650 INT Canada</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>INT</controllingFieldValue>
+            <valueName>651 INT Other licence</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>INT</controllingFieldValue>
+            <valueName>652 INT Russia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>INT</controllingFieldValue>
+            <valueName>655 INT Norway</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>INT</controllingFieldValue>
+            <valueName>656 INT Czech Republic</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>INT</controllingFieldValue>
+            <valueName>659 INT Poland</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>INT</controllingFieldValue>
+            <valueName>660 INT Iceland</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>INT</controllingFieldValue>
+            <valueName>662 INT Lebanon</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>INT</controllingFieldValue>
+            <valueName>663 INT Switzerland</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>INT</controllingFieldValue>
+            <valueName>664 INT Egypt</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>INT</controllingFieldValue>
+            <valueName>667 INT Chile</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>INT</controllingFieldValue>
+            <valueName>668 INT Middle East</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>INT</controllingFieldValue>
+            <valueName>697 INT Latin America</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>INT</controllingFieldValue>
+            <valueName>698 INT Other reseller</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>INT</controllingFieldValue>
+            <valueName>699 INT Administration</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>INT</controllingFieldValue>
+            <valueName>970 LPO Warsaw</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LNO</controllingFieldValue>
+            <valueName>710 LNO Oslo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LNO</controllingFieldValue>
+            <valueName>720 LNO Reseller</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LNO</controllingFieldValue>
+            <valueName>730 LNO Drammen</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LNO</controllingFieldValue>
+            <valueName>740 LNO Aftersales</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LNO</controllingFieldValue>
+            <valueName>750 LNO Administration</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LNA</controllingFieldValue>
+            <valueName>110 LNA Administration</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LU</controllingFieldValue>
+            <valueName>310 LU Glass processing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LU</controllingFieldValue>
+            <valueName>320 LU Glazing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LU</controllingFieldValue>
+            <valueName>322 LU Balustrade</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LU</controllingFieldValue>
+            <valueName>324 LU Roofs</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LU</controllingFieldValue>
+            <valueName>325 LU Production administration</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LU</controllingFieldValue>
+            <valueName>328 LU Marketing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LU</controllingFieldValue>
+            <valueName>329 LU R&amp;D</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LU</controllingFieldValue>
+            <valueName>330 LU Logistics</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LU</controllingFieldValue>
+            <valueName>331 LU Sourcing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LU</controllingFieldValue>
+            <valueName>350 LU HR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LU</controllingFieldValue>
+            <valueName>390 LU Customer service</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LU</controllingFieldValue>
+            <valueName>398 LU IT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LU</controllingFieldValue>
+            <valueName>399 LU Finance</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LSU</controllingFieldValue>
+            <valueName>4010 LSU Vantaa West</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LSU</controllingFieldValue>
+            <valueName>4011 LSU Vantaa East</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LSU</controllingFieldValue>
+            <valueName>4012 LSU Espoo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LSU</controllingFieldValue>
+            <valueName>4013 LSU Helsinki</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LSU</controllingFieldValue>
+            <valueName>401 LSU Vantaa Project</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LSU</controllingFieldValue>
+            <valueName>4022 LSU Lahti</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LSU</controllingFieldValue>
+            <valueName>402 LSU Kouvola</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LSU</controllingFieldValue>
+            <valueName>4031 LSU Tampere</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LSU</controllingFieldValue>
+            <valueName>4032 LSU Turku</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LSU</controllingFieldValue>
+            <valueName>4033 LSU Vaasa</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LSU</controllingFieldValue>
+            <valueName>4041 LSU Jyväskylä</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LSU</controllingFieldValue>
+            <valueName>4042 LSU Kuopio</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LSU</controllingFieldValue>
+            <valueName>4043 LSU Oulu</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LSU</controllingFieldValue>
+            <valueName>4044 LSU Reseller</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LSU</controllingFieldValue>
+            <valueName>405 LSU Sales center</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LSU</controllingFieldValue>
+            <valueName>406 LSU Industrial sales</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LSU</controllingFieldValue>
+            <valueName>409 LSU Administration</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LNU</controllingFieldValue>
+            <valueName>181 LNU US Dealers</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LNU</controllingFieldValue>
+            <valueName>182 LNU Buffalo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SVI</controllingFieldValue>
+            <valueName>10 SVI Production</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SVI</controllingFieldValue>
+            <valueName>15 SVI Production Aftersales</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SVI</controllingFieldValue>
+            <valueName>20 SVI Consumer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SVI</controllingFieldValue>
+            <valueName>25 SVI Consumer West</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SVI</controllingFieldValue>
+            <valueName>30 SVI B2B Finland</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SVI</controllingFieldValue>
+            <valueName>40 SVI Webshop</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SVI</controllingFieldValue>
+            <valueName>50 SVI B2B Export</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SVI</controllingFieldValue>
+            <valueName>90 SVI Administration</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>
