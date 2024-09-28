@@ -3,7 +3,7 @@
     <fullName>VAT_Percentage__c</fullName>
     <externalId>false</externalId>
     <inlineHelpText>The VAT Percentage to be used in Pricing</inlineHelpText>
-    <label>VAT Percentage</label>
+    <label>VAT Percentage OLD</label>
     <precision>5</precision>
     <required>false</required>
     <scale>2</scale>

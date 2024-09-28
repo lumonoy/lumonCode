@@ -4,7 +4,7 @@
     <description>Contract Additional Agreements (To be filled by salesperson in case that additional agreements are done with the customer). These agreements will show up in the contract</description>
     <externalId>false</externalId>
     <inlineHelpText>To be filled by salesperson in case that additional agreements are done with the customer. These agreements will show up in the contract</inlineHelpText>
-    <label>Contract Additional Agreements</label>
+    <label>Contract Additional Agreements OLD</label>
     <length>32768</length>
     <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>false</trackHistory>

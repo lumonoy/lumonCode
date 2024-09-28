@@ -4,7 +4,7 @@
     <description>The Date when Production is estimated, planned or confirmed to Start</description>
     <externalId>false</externalId>
     <inlineHelpText>First Available Date when Production can Start</inlineHelpText>
-    <label>Production Start Date</label>
+    <label>Production Start Date OLD</label>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>false</trackHistory>

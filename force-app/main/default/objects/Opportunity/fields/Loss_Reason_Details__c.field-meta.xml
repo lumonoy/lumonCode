@@ -5,7 +5,7 @@
 This custom field is part of the B2C lead to order process.</description>
     <externalId>false</externalId>
     <inlineHelpText>Please fill in more details about why the Opportunity was lost.</inlineHelpText>
-    <label>Loss Reason Details</label>
+    <label>Loss Reason Details OLD</label>
     <length>255</length>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>

@@ -3,7 +3,7 @@
     <fullName>Building__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <externalId>false</externalId>
-    <label>Building</label>
+    <label>Building OLD</label>
     <referenceTo>Building__c</referenceTo>
     <relationshipLabel>Opportunities</relationshipLabel>
     <relationshipName>Opportunities</relationshipName>

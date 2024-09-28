@@ -11,7 +11,7 @@
 •	Call request wishes ( e.g. 24 hours before delivery ) 
 •	Unloading instructions
 •	FIX delivery Day</inlineHelpText>
-    <label>Delivery Note</label>
+    <label>Delivery Note OLD</label>
     <length>255</length>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>

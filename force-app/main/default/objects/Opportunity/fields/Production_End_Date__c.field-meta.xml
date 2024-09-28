@@ -4,7 +4,7 @@
     <description>Shows the Date when the Finished Good is Produced</description>
     <externalId>false</externalId>
     <inlineHelpText>Production end date (=Earliest load date, Production start date + production time + extra days)</inlineHelpText>
-    <label>Production End Date</label>
+    <label>Production End Date OLD</label>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>false</trackHistory>

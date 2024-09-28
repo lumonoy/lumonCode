@@ -2,7 +2,7 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Terms_of_Payment__c</fullName>
     <externalId>false</externalId>
-    <label>Terms of Payment</label>
+    <label>Terms of Payment OLD</label>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>false</trackHistory>
