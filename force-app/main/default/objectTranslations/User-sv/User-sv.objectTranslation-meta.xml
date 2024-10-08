@@ -11,8 +11,8 @@
             <section>Active Directory</section>
         </sections>
         <sections>
-            <label><!-- Attributes --></label>
-            <section>Attributes</section>
+            <label><!-- Business Attributes --></label>
+            <section>Business Attributes</section>
         </sections>
         <sections>
             <label><!-- Custom Links --></label>
@@ -21,6 +21,26 @@
         <sections>
             <label><!-- Dimensions --></label>
             <section>Dimensions</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Lumon User Profile Layout</layout>
+        <layoutType>UserAlt</layoutType>
+        <sections>
+            <label><!-- About --></label>
+            <section>About</section>
+        </sections>
+        <sections>
+            <label><!-- Address --></label>
+            <section>Address</section>
+        </sections>
+        <sections>
+            <label><!-- Background --></label>
+            <section>Background</section>
+        </sections>
+        <sections>
+            <label><!-- Contact --></label>
+            <section>Contact</section>
         </sections>
     </layouts>
 </CustomObjectTranslation>

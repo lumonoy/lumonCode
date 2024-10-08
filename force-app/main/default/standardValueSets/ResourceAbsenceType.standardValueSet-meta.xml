@@ -21,4 +21,9 @@
         <default>false</default>
         <label>Other</label>
     </standardValue>
+    <standardValue>
+        <fullName>Public Holiday</fullName>
+        <default>false</default>
+        <label>Public Holiday</label>
+    </standardValue>
 </StandardValueSet>

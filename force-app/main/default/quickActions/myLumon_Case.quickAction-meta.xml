@@ -32,6 +32,6 @@
     </quickActionLayout>
     <successMessage>Your case was submitted successfully.</successMessage>
     <targetObject>Case</targetObject>
-    <targetRecordType>Case.Customer_Service</targetRecordType>
+    <targetRecordType>Case.CS_Case</targetRecordType>
     <type>Create</type>
 </QuickAction>

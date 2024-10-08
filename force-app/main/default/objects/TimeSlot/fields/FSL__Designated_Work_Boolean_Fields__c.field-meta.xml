@@ -5,6 +5,7 @@
     <externalId>false</externalId>
     <label>Designated Work Boolean Fields</label>
     <required>false</required>
+    <trackHistory>false</trackHistory>
     <type>MultiselectPicklist</type>
     <valueSet>
         <valueSetDefinition>

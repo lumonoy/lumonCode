@@ -5,7 +5,7 @@
     <externalId>false</externalId>
     <formula>Configuration_Product__r.Product__r.Name</formula>
     <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
-    <label>Config Product name</label>
+    <label>Config Product name OLD</label>
     <required>false</required>
     <trackHistory>false</trackHistory>
     <type>Text</type>

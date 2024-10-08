@@ -5,7 +5,7 @@
     <externalId>false</externalId>
     <formula>Postal_Code_Area__r.Region__c</formula>
     <inlineHelpText>The Region of the Postal Code Area assigned</inlineHelpText>
-    <label>Region Attribute</label>
+    <label>Region Attribute OLD</label>
     <required>false</required>
     <trackHistory>false</trackHistory>
     <type>Text</type>

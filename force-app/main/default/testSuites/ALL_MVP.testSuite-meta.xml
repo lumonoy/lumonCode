@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ApexTestSuite xmlns="http://soap.sforce.com/2006/04/metadata">
     <testClassName>AccountControllerTest</testClassName>
+    <testClassName>AccountTestDataFactory</testClassName>
     <testClassName>ChangePasswordControllerTest</testClassName>
     <testClassName>CommunitiesLandingControllerTest</testClassName>
     <testClassName>CommunitiesLoginControllerTest</testClassName>
@@ -9,7 +10,6 @@
     <testClassName>ConfigurationControllerTest</testClassName>
     <testClassName>ConfigurationEventTest</testClassName>
     <testClassName>ConfigurationEventTriggerHandlerTest</testClassName>
-    <testClassName>ConfigurationItemControllerTest</testClassName>
     <testClassName>ConfigurationItemsTest</testClassName>
     <testClassName>ConfigurationProcessorTest</testClassName>
     <testClassName>ConfigurationProductControllerTest</testClassName>
@@ -55,7 +55,6 @@
     <testClassName>ProcessVisualOutputTest</testClassName>
     <testClassName>QuoteLineItemControllerTest</testClassName>
     <testClassName>QuotingManagerTest</testClassName>
-    <testClassName>SalesTestDataFactory</testClassName>
     <testClassName>SiteLoginControllerTest</testClassName>
     <testClassName>SiteRegisterControllerTest</testClassName>
     <testClassName>StructureGeneratorTest</testClassName>

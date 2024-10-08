@@ -1,0 +1,730 @@
+{
+	"order": {
+		"order_info": {
+			"axcompanyid": "LSU",
+			"currency": "EUR",
+			"customer_reference": "",
+			"order_type": "Normal",
+			"order_number": "90007559",
+			"vendorid": "LU",
+			"project_number": "803019",
+			"parent_project": "",
+			"project_group": "PROWIP",
+			"customer_segmentid": "4000",
+			"customer_segmentname": "Project new construction",
+			"promised_deliveryweek": "2024/28",
+			"promised_date": "02.10.2024",
+			"main_contractor": "no",
+			"business_unit": "4031",
+			"order_attachment": "\\\\frendsprod\\D365TEST\\SalesTori\\OUT\\attachments\\",
+			"subproject_info": {
+				"subproject_number": "803019_01",
+				"subproject_group": "PROWar",
+				"subproject_category": "Warranty",
+				"subproject_cost": "145.74",
+				"subproject_ordertype": "Reclamation",
+				"subproject_parentproject": "803019",
+				"subproject_chargeable": "non-chargeable"
+			},
+			"budget": {
+				"project_category": [
+					{
+						"category": "FactoryPurchase",
+						"cost": "11785.74"
+					},
+					{
+						"category": "InstallSupplies",
+						"cost": "505.80"
+					},
+					{
+						"category": "SalesFreight",
+						"cost": "410.22"
+					},
+					{
+						"category": "Wages",
+						"cost": "2369.64"
+					},
+					{
+						"category": "CostReserv",
+						"cost": "408.24"
+					}
+				]
+			},
+			"domestic_help": "4708.06",
+			"domestic_text": "Kotitalousv\ufffdhennykseen oikeuttava ty\ufffdnosuus on 4708.06 euroa, sis alv",
+			"chargeable": "chargeable",
+			"worknumbername": "",
+			"pricelist": {
+				"pricelist_name": "Basic price list 1.4.2022"
+			},
+			"customer_address": {
+				"address_description": "Tampereen Taloteko Oy",
+				"firstname": "Rrrr",
+				"lastname": "",
+				"contact_person": "",
+				"street_address": "Pereentie 27",
+				"city": "Pirkkala",
+				"postal_code": "33950",
+				"fax": "",
+				"country": "FIN",
+				"province": "",
+				"county": "",
+				"phone_number": "(03) 233 8700",
+				"email": "m@a.fi",
+				"note": "",
+				"number": "320533",
+				"customer_id": "",
+				"customer_name": "Tampereen Taloteko Oy"
+			},
+			"invoice_address": {
+				"address_description": "Tampereen Taloteko Oy",
+				"firstname": "Rrrr",
+				"lastname": "",
+				"contact_person": "",
+				"street_address": "Pereentie 27",
+				"city": "Pirkkala",
+				"postal_code": "33950",
+				"fax": "",
+				"country": "FIN",
+				"province": "",
+				"county": "",
+				"phone_number": "(03) 233 8700",
+				"email": "m@a.fi",
+				"note": "",
+				"payment_terms": "07",
+				"invoice_type": "Email",
+				"number": "320533",
+				"payment": "REF",
+				"paytrail_reference_id": ""
+			},
+			"install_address": {
+				"address_description": "Tampereen Taloteko Oy",
+				"firstname": "Rrrr",
+				"lastname": "",
+				"name": "Tampere Project Plantori Test",
+				"contact_person": "",
+				"street_address": "Versionnostotesti 1",
+				"city": "Fr\ufffds\ufffdn",
+				"postal_code": "838 75",
+				"fax": "",
+				"country": "FIN",
+				"province": "",
+				"county": "",
+				"phone_number": "(03) 233 8700",
+				"email": "m@a.fi",
+				"note": "",
+				"number": null
+			},
+			"delivery_address": {
+				"address_description": "Tampereen Taloteko Oy",
+				"firstname": "Rrrr",
+				"lastname": "",
+				"contact_person": "M\ufffdkel\ufffd Hanna",
+				"street_address": "Versionnostotesti 1",
+				"city": "Fr\ufffds\ufffdn",
+				"postal_code": "838 75",
+				"fax": "",
+				"country": "FIN",
+				"province": "",
+				"county": "",
+				"phone_number": "(03) 233 8700",
+				"email": "hanna.makela@lumon.fi",
+				"note": "",
+				"number": null,
+				"delivery_terms": "DAP",
+				"delivery_type": "delivery"
+			},
+			"sales_person": {
+				"username": "riikkak",
+				"supervisor": "hannam",
+				"firstname": "Riikka",
+				"lastname": "Kuiri"
+			},
+			"propertytype": "Apartment",
+			"order_leadreference_vch": "Event for professionals",
+			"language_code_lan": "fi-FI"
+		},
+		"groups": {
+			"group": [
+				{
+					"delivery_batch": "3",
+					"delivery_batch_status": "Mitattu",
+					"delivery_batch_receive_date": "05.09.2024",
+					"delivery_batch_delivery_date": "02.09.2024",
+					"group_attachment": "",
+					"AXconfiguration": "no",
+					"group_name": "Avautuva (LGR)",
+					"pcs": "1",
+					"structurenumber": "9000755930016782",
+					"originalstructurenumber": "",
+					"install_start_date": "05.09.2024",
+					"install_end_date": "02.10.2024",
+					"additional_deliverytime": "1",
+					"process": "Normal",
+					"product_code": "90240001",
+					"storageid": "TRE",
+					"packing_order": "1",
+					"unit": "5",
+					"line": "3",
+					"floor": "1",
+					"chargeable": "chargeable",
+					"sales_price": "1659.30",
+					"sproduct": "1206.20",
+					"sfreight": "58.30",
+					"sinstall": "240.70",
+					"sother": "154.20",
+					"purchase_price": "919.50",
+					"pproduct": "919.50",
+					"pfreight": "0.00",
+					"pinstall": "0.00",
+					"pother": "0.00",
+					"calculated_salesprice": "1659.30",
+					"factory_price": "919.50",
+					"fproduct": "919.50",
+					"ffreight": "0.00",
+					"finstall": "0.00",
+					"fother": "0.00",
+					"contract_price": "66.14",
+					"salestori_plan_name": "Plan 5",
+					"glass_m2": "5.50",
+					"blinds_m2": "0.00",
+					"glass_pcs": "8",
+					"product_length": "5000",
+					"group_weight": "235.106",
+					"product_attributes": {
+						"attributeid": "20090018"
+					},
+					"installed": "True",
+					"OrderLine": {
+						"BOMVersion": "9000755930016782",
+						"ItemID": "90240001",
+						"ItemName": "LG",
+						"InventLocationID": "TRE",
+						"Dimension1": "4031",
+						"Dimension5": "hannam",
+						"DeliveryName": "Rrrr ",
+						"DeliveryStreet": "Versionnostotesti 1",
+						"DeliveryZipCode": "838 75",
+						"DeliveryCity": "Frösön",
+						"DeliveryCountryRegionID": "FI",
+						"LineAmount": "1659.30",
+						"Apartment": "5",
+						"Floor": "1",
+						"DlvBatchID": "3",
+						"Line": "3",
+						"FactoryConfirmedDlv": "",
+						"InstallHours": "12.10",
+						"InstallStart": "05.09.2024",
+						"ReservationStart": "2024-09-05T00.00.00",
+						"DeliveryDatePromised": "12.07.2024",
+						"Plan_name": "Plan 5",
+						"PieceWork_pay": "66.14"
+					},
+					"AssemblyInstructions": {
+						"InstallNotes": "",
+						"Attachments": {
+							"Attachment": "salestori-asennuskortti-9000755930016782.pdf",
+							"Folder": "\\269000\\269760\\"
+						},
+						"AssemblyDocument": [
+							{
+								"name": "Tilaustiedot",
+								"Chapter": [
+									{
+										"name": "Perustiedot",
+										"Paragraph": [
+											{
+												"name": "Content",
+												"text": " Rrrr\r\nVersionnostotesti 1 838 75 Frösön\r\nPuhelin (03) 233 8700"
+											}
+										]
+									},
+									{
+										"name": "Tilaustiedot",
+										"Paragraph": [
+											{
+												"name": "Content",
+												"text": "Asiakaslupaus 12.7.2024\r\nTilausnumero 90007559\r\nLinja 3\r\nKerros 1\r\nAsunto 5\r\nRVN 9000755930016782"
+											}
+										]
+									}
+								]
+							},
+							{
+								"name": "Asennustiedot",
+								"Chapter": [
+									{
+										"name": "Tuotetiedot",
+										"Paragraph": [
+											{
+												"name": "Tuote",
+												"text": "LG , sides:2"
+											},
+											{
+												"name": "Kiinnitystapa",
+												"text": "Upper: To roof, Lower: To floor"
+											},
+											{
+												"name": "Profiilit",
+												"text": "Upper: 11241205 RAL1006, Lower: 11243001 11243001 "
+											},
+											{
+												"name": "Varusteet",
+												"text": "Plastic parts: Dark grey, End plugs"
+											}
+										]
+									},
+									{
+										"name": "Tuotemitat",
+										"Paragraph": [
+											{
+												"name": "Sivu1,H3=973",
+												"text": "SA=90 EA= Length=2500 Z=0 Height=2000 X=0 Y=0 Lpcs=4 Rpcs=0 SA=90 Cbypass=No Adjus= \r\nUpper profile: 11241205 RAL1006\r\nLower profile: 11243001 RAL1006\r\nTeles. Profile: 11222206 RAL1006\r\nG1: W=611 H=961\r\nG2: W=611 H=961\r\nG3: W=611 H=961\r\nG4: W=611 H=961\r\n"
+											},
+											{
+												"name": "Sivu2,H3=973",
+												"text": "SA= EA=90 Length=2500 Z=0 Height=2000 X=0 Y=0 Lpcs=4 Rpcs=0 SA= Cbypass=No Adjus= \r\nUpper profile: 11241205 RAL1006\r\nLower profile: 11243001 RAL1006\r\nTeles. Profile: 11222206 RAL1006\r\nG1: W=611 H=961\r\nG2: W=611 H=961\r\nG3: W=611 H=961\r\nG4: W=611 H=961\r\n"
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				},
+				{
+					"delivery_batch": "3",
+					"delivery_batch_status": "Mitattu",
+					"delivery_batch_receive_date": "05.09.2024",
+					"delivery_batch_delivery_date": "02.09.2024",
+					"group_attachment": "",
+					"AXconfiguration": "no",
+					"group_name": "Lumon Kaide",
+					"pcs": "1",
+					"structurenumber": "9000755930016783",
+					"originalstructurenumber": "",
+					"install_start_date": "05.09.2024",
+					"install_end_date": "02.10.2024",
+					"additional_deliverytime": "1",
+					"process": "Normal",
+					"product_code": "90370001",
+					"storageid": "TRE",
+					"packing_order": "1",
+					"unit": "5",
+					"line": "3",
+					"floor": "1",
+					"chargeable": "chargeable",
+					"sales_price": "1641.40",
+					"sproduct": "1287.00",
+					"sfreight": "34.00",
+					"sinstall": "277.40",
+					"sother": "43.00",
+					"purchase_price": "1006.20",
+					"pproduct": "1006.20",
+					"pfreight": "0.00",
+					"pinstall": "0.00",
+					"pother": "0.00",
+					"calculated_salesprice": "1657.80",
+					"factory_price": "1006.20",
+					"fproduct": "1006.20",
+					"ffreight": "0.00",
+					"finstall": "0.00",
+					"fother": "0.00",
+					"contract_price": "87.71",
+					"salestori_plan_name": "Plan 5",
+					"glass_m2": "4.50",
+					"blinds_m2": "0.00",
+					"glass_pcs": "0",
+					"product_length": "5000",
+					"group_weight": "0",
+					"product_attributes": "",
+					"installed": "True",
+					"OrderLine": {
+						"BOMVersion": "9000755930016783",
+						"ItemID": "90370001",
+						"ItemName": "LUMONKAIDE",
+						"InventLocationID": "TRE",
+						"Dimension1": "4031",
+						"Dimension5": "hannam",
+						"DeliveryName": "Rrrr ",
+						"DeliveryStreet": "Versionnostotesti 1",
+						"DeliveryZipCode": "838 75",
+						"DeliveryCity": "Frösön",
+						"DeliveryCountryRegionID": "FI",
+						"LineAmount": "1641.40",
+						"Apartment": "5",
+						"Floor": "1",
+						"DlvBatchID": "3",
+						"Line": "3",
+						"FactoryConfirmedDlv": "",
+						"InstallHours": "1.55",
+						"InstallStart": "05.09.2024",
+						"ReservationStart": "2024-09-05T00.00.00",
+						"DeliveryDatePromised": "12.07.2024",
+						"Plan_name": "Plan 5",
+						"PieceWork_pay": "87.71"
+					},
+					"AssemblyInstructions": {
+						"InstallNotes": "",
+						"Attachments": {
+							"Attachment": "salestori-asennuskortti-9000755930016783.pdf",
+							"Folder": "\\269000\\269760\\"
+						},
+						"AssemblyDocument": [
+							{
+								"name": "Tilaustiedot",
+								"Chapter": [
+									{
+										"name": "Perustiedot",
+										"Paragraph": [
+											{
+												"name": "Content",
+												"text": " Rrrr\r\nVersionnostotesti 1 838 75 Frösön\r\nPuhelin (03) 233 8700"
+											}
+										]
+									},
+									{
+										"name": "Tilaustiedot",
+										"Paragraph": [
+											{
+												"name": "Content",
+												"text": "Asiakaslupaus 12.7.2024\r\nTilausnumero 90007559\r\nLinja 3\r\nKerros 1\r\nAsunto 5\r\nRVN 9000755930016783"
+											}
+										]
+									}
+								]
+							},
+							{
+								"name": "Asennustiedot",
+								"Chapter": [
+									{
+										"name": "Tuotetiedot",
+										"Paragraph": [
+											{
+												"name": "Tuote",
+												"text": "Kaide1.1 , sides:2"
+											},
+											{
+												"name": "Kiinnitystapa",
+												"text": "Side installation"
+											},
+											{
+												"name": "Profiilit",
+												"text": "INST_XML_COLOR:RAL8004, Handrail 160 "
+											},
+											{
+												"name": "Varusteet"
+											}
+										]
+									},
+									{
+										"name": "Tuotemitat",
+										"Paragraph": [
+											{
+												"name": "Sivu1",
+												"text": "SA=90 SA=90 Length=2500 Z=0  INST_XML_PULLOUT=0 INST_XML_UPHOLSTERY_PCS=3 INST_XML_HANDRAIL: Handrail 160, INST_XML_ELEVATION: 900, RAL8004 INST_XML_HANDRAIL_PIPE: Handrail 160, RAL8004 INST_XML_TOE_LIST: No gap profile INST_XML_WEDGE_CRACK_SEAL: No seal INST_XML_LOWER_UPHOLSTERY: Lower frame for side installation, only for side installation , INST_XML_ELEVATION: -250, RAL8004 INST_XML_UPHOLSTERY_PROFILE: No INST_XML_DECO_PIPE:  INST_XML_WALL_FASTENING_LEFT: BRACKET_PD9370278 INST_XML_WALL_FASTENING_RIGHT: BRACKET_PD9370278 INST_XML_WALL_FASTENING_ANCHOR_LEFT: Concrete screw A5 TX30, 7,5x75, 68980466 INST_XML_WALL_FASTENING_RIGHT: Concrete screw A5 TX30, 7,5x75, 68980466 INST_XML_HEAT_PLASTER_LEFT: INST_XML_NO INST_XML_HEAT_PLASTER_RIGHT: INST_XML_NOINST_XML_UPHOLSTERY_SHORT1: W=827 H=1108, INST_XML_NO INST_XML_UPHOLSTERY_SHORT2: W=827 H=1108, INST_XML_NO INST_XML_UPHOLSTERY_SHORT3: W=827 H=1108, INST_XML_NO "
+											},
+											{
+												"name": "Sivu2",
+												"text": "EA=90 Length=2500 Z=0  INST_XML_PULLOUT=0 INST_XML_UPHOLSTERY_PCS=3 INST_XML_HANDRAIL: Handrail 160, INST_XML_ELEVATION: 900, RAL8004 INST_XML_HANDRAIL_PIPE: Handrail 160, RAL8004 INST_XML_TOE_LIST: No gap profile INST_XML_WEDGE_CRACK_SEAL: No seal INST_XML_LOWER_UPHOLSTERY: Lower frame for side installation, only for side installation , INST_XML_ELEVATION: -250, RAL8004 INST_XML_UPHOLSTERY_PROFILE: No INST_XML_DECO_PIPE:  INST_XML_WALL_FASTENING_LEFT: BRACKET_PD9370278 INST_XML_WALL_FASTENING_RIGHT: BRACKET_PD9370278 INST_XML_WALL_FASTENING_ANCHOR_LEFT: Concrete screw A5 TX30, 7,5x75, 68980466 INST_XML_WALL_FASTENING_RIGHT: Concrete screw A5 TX30, 7,5x75, 68980466 INST_XML_HEAT_PLASTER_LEFT: INST_XML_NO INST_XML_HEAT_PLASTER_RIGHT: INST_XML_NOINST_XML_UPHOLSTERY_SHORT1: W=831 H=1108, INST_XML_NO INST_XML_UPHOLSTERY_SHORT2: W=831 H=1108, INST_XML_NO INST_XML_UPHOLSTERY_SHORT3: W=831 H=1108, INST_XML_NO "
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				},
+				{
+					"delivery_batch": "3",
+					"delivery_batch_status": "Mitattu",
+					"delivery_batch_receive_date": "05.09.2024",
+					"delivery_batch_delivery_date": "02.09.2024",
+					"group_attachment": "",
+					"AXconfiguration": "no",
+					"group_name": "Avautuva (LGR)",
+					"pcs": "1",
+					"structurenumber": "9000755930016790",
+					"originalstructurenumber": "",
+					"install_start_date": "05.09.2024",
+					"install_end_date": "02.10.2024",
+					"additional_deliverytime": "1",
+					"process": "Normal",
+					"product_code": "90240001",
+					"storageid": "TRE",
+					"packing_order": "1",
+					"unit": "6",
+					"line": "3",
+					"floor": "2",
+					"chargeable": "chargeable",
+					"sales_price": "1659.30",
+					"sproduct": "1206.20",
+					"sfreight": "58.30",
+					"sinstall": "240.70",
+					"sother": "154.20",
+					"purchase_price": "919.50",
+					"pproduct": "919.50",
+					"pfreight": "0.00",
+					"pinstall": "0.00",
+					"pother": "0.00",
+					"calculated_salesprice": "1659.30",
+					"factory_price": "919.50",
+					"fproduct": "919.50",
+					"ffreight": "0.00",
+					"finstall": "0.00",
+					"fother": "0.00",
+					"contract_price": "66.14",
+					"salestori_plan_name": "Plan 6",
+					"glass_m2": "5.50",
+					"blinds_m2": "0.00",
+					"glass_pcs": "8",
+					"product_length": "5000",
+					"group_weight": "235.106",
+					"product_attributes": {
+						"attributeid": "20090018"
+					},
+					"installed": "True",
+					"OrderLine": {
+						"BOMVersion": "9000755930016790",
+						"ItemID": "90240001",
+						"ItemName": "LG",
+						"InventLocationID": "TRE",
+						"Dimension1": "4031",
+						"Dimension5": "hannam",
+						"DeliveryName": "Rrrr ",
+						"DeliveryStreet": "Versionnostotesti 1",
+						"DeliveryZipCode": "838 75",
+						"DeliveryCity": "Frösön",
+						"DeliveryCountryRegionID": "FI",
+						"LineAmount": "1659.30",
+						"Apartment": "6",
+						"Floor": "2",
+						"DlvBatchID": "3",
+						"Line": "3",
+						"FactoryConfirmedDlv": "",
+						"InstallHours": "12.10",
+						"InstallStart": "05.09.2024",
+						"ReservationStart": "2024-09-05T00.00.00",
+						"DeliveryDatePromised": "12.07.2024",
+						"Plan_name": "Plan 6",
+						"PieceWork_pay": "66.14"
+					},
+					"AssemblyInstructions": {
+						"InstallNotes": "",
+						"Attachments": {
+							"Attachment": "salestori-asennuskortti-9000755930016790.pdf",
+							"Folder": "\\269000\\269760\\"
+						},
+						"AssemblyDocument": [
+							{
+								"name": "Tilaustiedot",
+								"Chapter": [
+									{
+										"name": "Perustiedot",
+										"Paragraph": [
+											{
+												"name": "Content",
+												"text": " Rrrr\r\nVersionnostotesti 1 838 75 Frösön\r\nPuhelin (03) 233 8700"
+											}
+										]
+									},
+									{
+										"name": "Tilaustiedot",
+										"Paragraph": [
+											{
+												"name": "Content",
+												"text": "Asiakaslupaus 12.7.2024\r\nTilausnumero 90007559\r\nLinja 3\r\nKerros 2\r\nAsunto 6\r\nRVN 9000755930016790"
+											}
+										]
+									}
+								]
+							},
+							{
+								"name": "Asennustiedot",
+								"Chapter": [
+									{
+										"name": "Tuotetiedot",
+										"Paragraph": [
+											{
+												"name": "Tuote",
+												"text": "LG , sides:2"
+											},
+											{
+												"name": "Kiinnitystapa",
+												"text": "Upper: To roof, Lower: To floor"
+											},
+											{
+												"name": "Profiilit",
+												"text": "Upper: 11241205 RAL1006, Lower: 11243001 11243001 "
+											},
+											{
+												"name": "Varusteet",
+												"text": "Plastic parts: Dark grey, End plugs"
+											}
+										]
+									},
+									{
+										"name": "Tuotemitat",
+										"Paragraph": [
+											{
+												"name": "Sivu1,H3=973",
+												"text": "SA=90 EA= Length=2500 Z=0 Height=2000 X=0 Y=0 Lpcs=4 Rpcs=0 SA=90 Cbypass=No Adjus= \r\nUpper profile: 11241205 RAL1006\r\nLower profile: 11243001 RAL1006\r\nTeles. Profile: 11222206 RAL1006\r\nG1: W=611 H=961\r\nG2: W=611 H=961\r\nG3: W=611 H=961\r\nG4: W=611 H=961\r\n"
+											},
+											{
+												"name": "Sivu2,H3=973",
+												"text": "SA= EA=90 Length=2500 Z=0 Height=2000 X=0 Y=0 Lpcs=4 Rpcs=0 SA= Cbypass=No Adjus= \r\nUpper profile: 11241205 RAL1006\r\nLower profile: 11243001 RAL1006\r\nTeles. Profile: 11222206 RAL1006\r\nG1: W=611 H=961\r\nG2: W=611 H=961\r\nG3: W=611 H=961\r\nG4: W=611 H=961\r\n"
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				},
+				{
+					"delivery_batch": "3",
+					"delivery_batch_status": "Mitattu",
+					"delivery_batch_receive_date": "05.09.2024",
+					"delivery_batch_delivery_date": "02.09.2024",
+					"group_attachment": "",
+					"AXconfiguration": "no",
+					"group_name": "Lumon Kaide",
+					"pcs": "1",
+					"structurenumber": "9000755930016791",
+					"originalstructurenumber": "",
+					"install_start_date": "05.09.2024",
+					"install_end_date": "02.10.2024",
+					"additional_deliverytime": "1",
+					"process": "Normal",
+					"product_code": "90370001",
+					"storageid": "TRE",
+					"packing_order": "1",
+					"unit": "6",
+					"line": "3",
+					"floor": "2",
+					"chargeable": "chargeable",
+					"sales_price": "1641.40",
+					"sproduct": "1287.00",
+					"sfreight": "34.00",
+					"sinstall": "277.40",
+					"sother": "43.00",
+					"purchase_price": "1006.20",
+					"pproduct": "1006.20",
+					"pfreight": "0.00",
+					"pinstall": "0.00",
+					"pother": "0.00",
+					"calculated_salesprice": "1657.80",
+					"factory_price": "1006.20",
+					"fproduct": "1006.20",
+					"ffreight": "0.00",
+					"finstall": "0.00",
+					"fother": "0.00",
+					"contract_price": "87.71",
+					"salestori_plan_name": "Plan 6",
+					"glass_m2": "4.50",
+					"blinds_m2": "0.00",
+					"glass_pcs": "0",
+					"product_length": "5000",
+					"group_weight": "0",
+					"product_attributes": "",
+					"installed": "True",
+					"OrderLine": {
+						"BOMVersion": "9000755930016791",
+						"ItemID": "90370001",
+						"ItemName": "LUMONKAIDE",
+						"InventLocationID": "TRE",
+						"Dimension1": "4031",
+						"Dimension5": "hannam",
+						"DeliveryName": "Rrrr ",
+						"DeliveryStreet": "Versionnostotesti 1",
+						"DeliveryZipCode": "838 75",
+						"DeliveryCity": "Frösön",
+						"DeliveryCountryRegionID": "FI",
+						"LineAmount": "1641.40",
+						"Apartment": "6",
+						"Floor": "2",
+						"DlvBatchID": "3",
+						"Line": "3",
+						"FactoryConfirmedDlv": "",
+						"InstallHours": "1.55",
+						"InstallStart": "05.09.2024",
+						"ReservationStart": "2024-09-05T00.00.00",
+						"DeliveryDatePromised": "12.07.2024",
+						"Plan_name": "Plan 6",
+						"PieceWork_pay": "87.71"
+					},
+					"AssemblyInstructions": {
+						"InstallNotes": "",
+						"Attachments": {
+							"Attachment": "salestori-asennuskortti-9000755930016791.pdf",
+							"Folder": "\\269000\\269760\\"
+						},
+						"AssemblyDocument": [
+							{
+								"name": "Tilaustiedot",
+								"Chapter": [
+									{
+										"name": "Perustiedot",
+										"Paragraph": [
+											{
+												"name": "Content",
+												"text": " Rrrr\r\nVersionnostotesti 1 838 75 Frösön\r\nPuhelin (03) 233 8700"
+											}
+										]
+									},
+									{
+										"name": "Tilaustiedot",
+										"Paragraph": [
+											{
+												"name": "Content",
+												"text": "Asiakaslupaus 12.7.2024\r\nTilausnumero 90007559\r\nLinja 3\r\nKerros 2\r\nAsunto 6\r\nRVN 9000755930016791"
+											}
+										]
+									}
+								]
+							},
+							{
+								"name": "Asennustiedot",
+								"Chapter": [
+									{
+										"name": "Tuotetiedot",
+										"Paragraph": [
+											{
+												"name": "Tuote",
+												"text": "Kaide1.1 , sides:2"
+											},
+											{
+												"name": "Kiinnitystapa",
+												"text": "Side installation"
+											},
+											{
+												"name": "Profiilit",
+												"text": "INST_XML_COLOR:RAL8004, Handrail 160 "
+											},
+											{
+												"name": "Varusteet"
+											}
+										]
+									},
+									{
+										"name": "Tuotemitat",
+										"Paragraph": [
+											{
+												"name": "Sivu1",
+												"text": "SA=90 SA=90 Length=2500 Z=0  INST_XML_PULLOUT=0 INST_XML_UPHOLSTERY_PCS=3 INST_XML_HANDRAIL: Handrail 160, INST_XML_ELEVATION: 900, RAL8004 INST_XML_HANDRAIL_PIPE: Handrail 160, RAL8004 INST_XML_TOE_LIST: No gap profile INST_XML_WEDGE_CRACK_SEAL: No seal INST_XML_LOWER_UPHOLSTERY: Lower frame for side installation, only for side installation , INST_XML_ELEVATION: -250, RAL8004 INST_XML_UPHOLSTERY_PROFILE: No INST_XML_DECO_PIPE:  INST_XML_WALL_FASTENING_LEFT: BRACKET_PD9370278 INST_XML_WALL_FASTENING_RIGHT: BRACKET_PD9370278 INST_XML_WALL_FASTENING_ANCHOR_LEFT: Concrete screw A5 TX30, 7,5x75, 68980466 INST_XML_WALL_FASTENING_RIGHT: Concrete screw A5 TX30, 7,5x75, 68980466 INST_XML_HEAT_PLASTER_LEFT: INST_XML_NO INST_XML_HEAT_PLASTER_RIGHT: INST_XML_NOINST_XML_UPHOLSTERY_SHORT1: W=827 H=1108, INST_XML_NO INST_XML_UPHOLSTERY_SHORT2: W=827 H=1108, INST_XML_NO INST_XML_UPHOLSTERY_SHORT3: W=827 H=1108, INST_XML_NO "
+											},
+											{
+												"name": "Sivu2",
+												"text": "EA=90 Length=2500 Z=0  INST_XML_PULLOUT=0 INST_XML_UPHOLSTERY_PCS=3 INST_XML_HANDRAIL: Handrail 160, INST_XML_ELEVATION: 900, RAL8004 INST_XML_HANDRAIL_PIPE: Handrail 160, RAL8004 INST_XML_TOE_LIST: No gap profile INST_XML_WEDGE_CRACK_SEAL: No seal INST_XML_LOWER_UPHOLSTERY: Lower frame for side installation, only for side installation , INST_XML_ELEVATION: -250, RAL8004 INST_XML_UPHOLSTERY_PROFILE: No INST_XML_DECO_PIPE:  INST_XML_WALL_FASTENING_LEFT: BRACKET_PD9370278 INST_XML_WALL_FASTENING_RIGHT: BRACKET_PD9370278 INST_XML_WALL_FASTENING_ANCHOR_LEFT: Concrete screw A5 TX30, 7,5x75, 68980466 INST_XML_WALL_FASTENING_RIGHT: Concrete screw A5 TX30, 7,5x75, 68980466 INST_XML_HEAT_PLASTER_LEFT: INST_XML_NO INST_XML_HEAT_PLASTER_RIGHT: INST_XML_NOINST_XML_UPHOLSTERY_SHORT1: W=831 H=1108, INST_XML_NO INST_XML_UPHOLSTERY_SHORT2: W=831 H=1108, INST_XML_NO INST_XML_UPHOLSTERY_SHORT3: W=831 H=1108, INST_XML_NO "
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				}
+			]
+		}
+	}
+}

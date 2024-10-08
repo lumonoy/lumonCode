@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <help><!-- Estimated Date for Goods to arrive on Site  (Delivery Start Date +Delivery Time) --></help>
-    <label><!-- Delivery End Date --></label>
+    <label><!-- Delivery End Date OLD --></label>
     <name>Delivery_End_Date__c</name>
 </CustomFieldTranslation>

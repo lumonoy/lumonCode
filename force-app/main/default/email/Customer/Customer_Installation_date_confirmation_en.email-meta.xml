@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Confirmation of customer installation date</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Lumon_Email_Letterhead</letterhead>
+    <name>Customer - Installation date confirmation EN</name>
+    <style>freeForm</style>
+    <subject>Lumon - Confirmation of your installation date {!Opportunity.Confirmed_installation_time__c}</subject>
+    <textOnly>Hi {!Account.Name},
+
+We confirm our appointment for the installation as {!Opportunity.Confirmed_installation_time__c}
+
+In case you have any questions, please do not hesitate to contact me directly.
+
+Thank you for your interest and best regards,
+{!Opportunity.OwnerFullName}
+{!Opportunity.OwnerPhone}
+{!Opportunity.OwnerEmail}
+{!Organization.Name}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

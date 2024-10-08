@@ -13,4 +13,10 @@
         <label>Completed</label>
         <closed>true</closed>
     </standardValue>
+    <standardValue>
+        <fullName>Not Started</fullName>
+        <default>false</default>
+        <label>Not Started</label>
+        <closed>false</closed>
+    </standardValue>
 </StandardValueSet>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LSU_FI_Consumer_South_LGR</fullName>
+    <columns>NAME</columns>
+    <columns>Organization__c</columns>
+    <columns>Country__c</columns>
+    <columns>Business_Type__c</columns>
+    <columns>District__c</columns>
+    <columns>BusinessId__c</columns>
+    <columns>Product_Group__c</columns>
+    <columns>Product_Model__c</columns>
+    <columns>Cost_Type__c</columns>
+    <columns>Cost_Multiplier__c</columns>
+    <columns>IsActive__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Organization__c</field>
+        <operation>equals</operation>
+        <value>LSU</value>
+    </filters>
+    <filters>
+        <field>Country__c</field>
+        <operation>equals</operation>
+        <value>FI</value>
+    </filters>
+    <filters>
+        <field>IsActive__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>Product_Group__c</field>
+        <operation>equals</operation>
+        <value>LG</value>
+    </filters>
+    <filters>
+        <field>District__c</field>
+        <operation>equals</operation>
+        <value>FI_South</value>
+    </filters>
+    <label>LSU FI Consumer South LGR</label>
+</ListView>

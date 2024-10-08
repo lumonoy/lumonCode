@@ -6,11 +6,11 @@
     <assetLookupLimitedToSameContact>false</assetLookupLimitedToSameContact>
     <enableEntitlementVersioning>false</enableEntitlementVersioning>
     <enableEntitlements>true</enableEntitlements>
-    <enableMilestoneFeedItem>false</enableMilestoneFeedItem>
-    <enableMilestoneStoppedTime>false</enableMilestoneStoppedTime>
-    <entitlementLookupLimitedToActiveStatus>false</entitlementLookupLimitedToActiveStatus>
+    <enableMilestoneFeedItem>true</enableMilestoneFeedItem>
+    <enableMilestoneStoppedTime>true</enableMilestoneStoppedTime>
+    <entitlementLookupLimitedToActiveStatus>true</entitlementLookupLimitedToActiveStatus>
     <entitlementLookupLimitedToSameAccount>false</entitlementLookupLimitedToSameAccount>
     <entitlementLookupLimitedToSameAsset>false</entitlementLookupLimitedToSameAsset>
     <entitlementLookupLimitedToSameContact>false</entitlementLookupLimitedToSameContact>
-    <ignoreMilestoneBusinessHours>false</ignoreMilestoneBusinessHours>
+    <ignoreMilestoneBusinessHours>true</ignoreMilestoneBusinessHours>
 </EntitlementSettings>

@@ -76,7 +76,7 @@
         </schedule>
         <triggerType>Scheduled</triggerType>
     </start>
-    <status>Active</status>
+    <status>Obsolete</status>
     <subflows>
         <description>Releases all installation releases that are related to the Opportunity.</description>
         <name>Release_Resources</name>

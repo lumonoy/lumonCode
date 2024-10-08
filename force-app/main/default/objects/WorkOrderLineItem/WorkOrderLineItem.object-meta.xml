@@ -130,7 +130,7 @@
         <actionName>View</actionName>
         <comment>Action override created by Lightning App Builder during activation.</comment>
         <content>Lumon_WorkOrderLineItem_Record_Page</content>
-        <formFactor>Small</formFactor>
+        <formFactor>Large</formFactor>
         <skipRecordTypeSelect>false</skipRecordTypeSelect>
         <type>Flexipage</type>
     </actionOverrides>
@@ -138,7 +138,7 @@
         <actionName>View</actionName>
         <comment>Action override created by Lightning App Builder during activation.</comment>
         <content>Lumon_WorkOrderLineItem_Record_Page</content>
-        <formFactor>Large</formFactor>
+        <formFactor>Small</formFactor>
         <skipRecordTypeSelect>false</skipRecordTypeSelect>
         <type>Flexipage</type>
     </actionOverrides>
@@ -146,14 +146,19 @@
         <actionName>View</actionName>
         <type>Default</type>
     </actionOverrides>
-    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <compactLayoutAssignment>WorkOrderLineItem_HighLights</compactLayoutAssignment>
     <enableFeeds>true</enableFeeds>
     <externalSharingModel>ControlledByParent</externalSharingModel>
     <searchLayouts>
         <customTabListAdditionalFields>WorkOrder</customTabListAdditionalFields>
         <lookupDialogsAdditionalFields>WorkOrder</lookupDialogsAdditionalFields>
         <lookupPhoneDialogsAdditionalFields>WorkOrder</lookupPhoneDialogsAdditionalFields>
+        <searchResultsAdditionalFields>Subject</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>ProjectNumber__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>OfferNumber__c</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>WorkOrder</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>NumberOfGlassPanels__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Duration</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>ControlledByParent</sharingModel>
 </CustomObject>

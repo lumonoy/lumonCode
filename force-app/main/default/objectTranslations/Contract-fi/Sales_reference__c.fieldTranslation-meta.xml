@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-    <label><!-- Sales reference --></label>
+    <label><!-- Sales reference OLD --></label>
     <name>Sales_reference__c</name>
 </CustomFieldTranslation>

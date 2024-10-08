@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fxCost__c</fullName>
+    <description>Calculated Result of Base Price * Cost Multiplier * Quantity</description>
+    <externalId>false</externalId>
+    <formula>IF(Cost_Multiplier__c &gt; 0,  fxUnitCost__c *  Quantity__c, 0)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Total Line Item Cost</inlineHelpText>
+    <label>Product Cost</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>7</scale>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

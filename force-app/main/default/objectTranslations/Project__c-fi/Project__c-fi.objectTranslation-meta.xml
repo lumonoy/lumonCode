@@ -409,15 +409,15 @@
         <name>New_Project_Action</name>
     </quickActions>
     <recordTypes>
-        <label><!-- Delivery Project --></label>
+        <label>Toimitusprojekti</label>
         <name>Delivery_Project</name>
     </recordTypes>
     <recordTypes>
-        <label><!-- Main Project --></label>
+        <label>Pääprojekti</label>
         <name>Main_Project</name>
     </recordTypes>
     <recordTypes>
-        <label><!-- Warranty Project --></label>
+        <label>Takuuprojekti</label>
         <name>Warranty_Project</name>
     </recordTypes>
 </CustomObjectTranslation>

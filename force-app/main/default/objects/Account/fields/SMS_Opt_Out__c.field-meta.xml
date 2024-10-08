@@ -3,7 +3,7 @@
     <fullName>SMS_Opt_Out__c</fullName>
     <defaultValue>false</defaultValue>
     <externalId>false</externalId>
-    <label>SMS Opt Out</label>
+    <label>SMS Opt Out OLD</label>
     <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>false</trackHistory>
     <type>Checkbox</type>

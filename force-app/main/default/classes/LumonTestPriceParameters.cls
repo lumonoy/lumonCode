@@ -63,8 +63,8 @@ public with sharing class LumonTestPriceParameters {
             for(AggregateResult agr : aggrGroupCosttype){
                 String productGroup = (STRING) agr.get('productGroup');
                 String costType = (STRING) agr.get('costType');
-                //System.debug('--- productGroup: '+productGroup);
-                //System.debug('--- costType: '+costType);
+                System.debug('--- productGroup: '+productGroup);
+                System.debug('--- costType: '+costType);
                 if (!productGroups.contains(productGroup)) {
                 	productGroups.add(productGroup);
                 }

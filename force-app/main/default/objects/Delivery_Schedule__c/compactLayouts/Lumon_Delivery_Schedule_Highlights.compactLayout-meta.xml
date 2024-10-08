@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lumon_Delivery_Schedule_Highlights</fullName>
+    <fields>Name</fields>
+    <fields>CountryCode__c</fields>
+    <fields>PostalCode__c</fields>
+    <fields>Monday__c</fields>
+    <fields>Tuesday__c</fields>
+    <fields>Wednesday__c</fields>
+    <fields>Thursday__c</fields>
+    <fields>Friday__c</fields>
+    <fields>Saturday__c</fields>
+    <fields>Sunday__c</fields>
+    <label>Lumon Delivery Schedule Highlights</label>
+</CompactLayout>

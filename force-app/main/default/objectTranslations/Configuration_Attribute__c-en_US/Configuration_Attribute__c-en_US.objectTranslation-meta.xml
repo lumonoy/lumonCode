@@ -8,5 +8,40 @@
         <plural>true</plural>
         <value>Configuration Attributes</value>
     </caseValues>
+    <layouts>
+        <layout>Lumon Configuration Attribute Layout</layout>
+        <sections>
+            <label><!-- Balustrade --></label>
+            <section>Balustrade</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Dimensions --></label>
+            <section>Dimensions</section>
+        </sections>
+        <sections>
+            <label><!-- Drainage --></label>
+            <section>Drainage</section>
+        </sections>
+        <sections>
+            <label><!-- Frame --></label>
+            <section>Frame</section>
+        </sections>
+        <sections>
+            <label><!-- Glass --></label>
+            <section>Glass</section>
+        </sections>
+        <sections>
+            <label><!-- Profiles --></label>
+            <section>Profiles</section>
+        </sections>
+        <sections>
+            <label><!-- Seals --></label>
+            <section>Seals</section>
+        </sections>
+    </layouts>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

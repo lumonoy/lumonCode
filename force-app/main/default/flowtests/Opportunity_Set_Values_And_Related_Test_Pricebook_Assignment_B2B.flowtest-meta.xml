@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlowTest xmlns="http://soap.sforce.com/2006/04/metadata">
+    <flowApiName>Opportunity_Set_Values_And_Related</flowApiName>
+    <label>Test Pricebook Assignment B2B</label>
+    <testPoints>
+        <elementApiName>Start</elementApiName>
+        <parameters>
+            <leftValueReference>$Record</leftValueReference>
+            <type>InputTriggeringRecordInitial</type>
+            <value>
+                <sobjectValue>{&quot;AccountId&quot;:&quot;001JW00000KadNpYAJ&quot;,&quot;BillingToCustomer__c&quot;:true,&quot;Budget_Confirmed__c&quot;:false,&quot;Building_Permit_Approved__c&quot;:false,&quot;Business_Type__c&quot;:&quot;Business&quot;,&quot;CloseDate&quot;:&quot;2024-06-12&quot;,&quot;CurrencyIsoCode&quot;:&quot;EUR&quot;,&quot;CustomerToInvoicing__c&quot;:true,&quot;Customer_Address__CountryCode__s&quot;:&quot;FI&quot;,&quot;Customer_Segment__c&quot;:&quot;100&quot;,&quot;Deliver_To__c&quot;:&quot;Building&quot;,&quot;Delivery_Method__c&quot;:&quot;Inst.Deliv&quot;,&quot;Delivery_Type__c&quot;:&quot;Building&quot;,&quot;Discovery_Completed__c&quot;:false,&quot;Drainage_holes__c&quot;:true,&quot;Factory__c&quot;:&quot;a0n7Q000000bB2rQAE&quot;,&quot;Finland_Sync_to_MC__c&quot;:false,&quot;ForecastCategoryName&quot;:&quot;Pipeline&quot;,&quot;Heatsoak__c&quot;:false,&quot;Install_At__c&quot;:&quot;Building&quot;,&quot;Invoicing_Address__CountryCode__s&quot;:&quot;FI&quot;,&quot;IsExcludedFromTerritory2Filter&quot;:false,&quot;IsLocked__c&quot;:false,&quot;IsPrivate&quot;:false,&quot;Main_Contractor__c&quot;:false,&quot;Name&quot;:&quot;- 70000643&quot;,&quot;On_a_Hill_or_Slope__c&quot;:false,&quot;Order_Type_New__c&quot;:&quot;Normal&quot;,&quot;Order_type__c&quot;:&quot;Normal&quot;,&quot;Other_Countries_Sync_to_MC__c&quot;:false,&quot;Other_Reason_Resolved__c&quot;:false,&quot;OwnerId&quot;:&quot;0057Q000008qSs4QAE&quot;,&quot;Preliminary_Contract_Needed__c&quot;:false,&quot;Pricebook2Id&quot;:&quot;&quot;,&quot;Probability&quot;:55,&quot;Project_Number__c&quot;:&quot;a1eJW000001d2RBYAY&quot;,&quot;Property_Type__c&quot;:&quot;APA&quot;,&quot;ROI_Analysis_Completed__c&quot;:false,&quot;RecordTypeId&quot;:&quot;0127Q000000mPhmQAE&quot;,&quot;Seals_between_panes__c&quot;:false,&quot;ShipToInstall__c&quot;:false,&quot;Signed_1st_reminder_sent__c&quot;:false,&quot;Spain_Sync_to_MC__c&quot;:false,&quot;Special_Order_Case_Closed__c&quot;:false,&quot;StageName&quot;:&quot;Quoting&quot;,&quot;Status__c&quot;:&quot;New&quot;,&quot;SyncedQuoteId&quot;:&quot;0Q0JW0000036cos0AA&quot;,&quot;Terms_of_Payment__c&quot;:&quot;10 days net&quot;,&quot;Territory2Id&quot;:&quot;0MI7Q000000LlaAWAS&quot;,&quot;Warehouse__c&quot;:&quot;a0o3N000004b9eUQAQ&quot;,&quot;X2nd_Measurement_Completed__c&quot;:false,&quot;attributes&quot;:{&quot;type&quot;:&quot;Opportunity&quot;}}</sobjectValue>
+            </value>
+        </parameters>
+    </testPoints>
+    <testPoints>
+        <assertions>
+            <conditions>
+                <leftValueReference>pricebookId</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+        </assertions>
+        <elementApiName>Finish</elementApiName>
+    </testPoints>
+</FlowTest>

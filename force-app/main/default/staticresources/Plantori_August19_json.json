@@ -1,0 +1,1283 @@
+{
+	"order": {
+		"order_info": {
+			"axcompanyid": "LSU",
+			"currency": "EUR",
+			"customer_reference": "",
+			"order_type": "Normal",
+			"order_number": "42227804",
+			"vendorid": "LU",
+			"project_number": "803203",
+			"parent_project": "",
+			"project_group": "CONSales",
+			"customer_segmentid": "1000",
+			"customer_segmentname": "Consumer apartment building",
+			"promised_deliveryweek": "2024/42",
+			"promised_date": "18.10.2024",
+			"main_contractor": "no",
+			"business_unit": "4011",
+			"order_attachment": "\\\\frendsprod\\D365TEST\\SalesTori\\OUT\\attachments\\",
+			"subproject_info": {
+				"subproject_number": "803203_01",
+				"subproject_group": "CONWar",
+				"subproject_category": "Warranty",
+				"subproject_cost": "53.76",
+				"subproject_ordertype": "Reclamation",
+				"subproject_parentproject": "803203",
+				"subproject_chargeable": "non-chargeable"
+			},
+			"budget": {
+				"project_category": [
+					{
+						"category": "FactoryPurchase",
+						"cost": "5255.61"
+					},
+					{
+						"category": "InstallSupplies",
+						"cost": "313.00"
+					},
+					{
+						"category": "SalesFreight",
+						"cost": "1390.32"
+					},
+					{
+						"category": "Wages",
+						"cost": "1950.28"
+					},
+					{
+						"category": "CostReserv",
+						"cost": "75.43"
+					}
+				]
+			},
+			"domestic_help": "",
+			"domestic_text": "",
+			"chargeable": "chargeable",
+			"worknumbername": "",
+			"pricelist": {
+				"pricelist_name": "Basic price list 1.4.2022"
+			},
+			"customer_address": {
+				"address_description": "Plantori 19.8",
+				"firstname": "Test Plantori",
+				"lastname": "19.8",
+				"contact_person": "",
+				"street_address": "Kytäjänkatu 112345",
+				"city": "HYVINKÄÄ",
+				"postal_code": "05830",
+				"fax": "",
+				"country": "FIN",
+				"province": "",
+				"county": "",
+				"phone_number": "+3581234",
+				"email": "19_8@plantori.com",
+				"note": "",
+				"number": "",
+				"customer_id": "TestBI",
+				"customer_name": "Test Plantori 19.8"
+			},
+			"invoice_address": {
+				"address_description": "Integration 19.8 Test FS",
+				"firstname": "Test FS",
+				"lastname": "Integration 19.8",
+				"contact_person": "",
+				"street_address": "Kytäjänkatu 12 B I 19.8",
+				"city": "HYVINKÄÄ",
+				"postal_code": "05830",
+				"fax": "",
+				"country": "FIN",
+				"province": "",
+				"county": "",
+				"phone_number": "+3581234",
+				"email": "test@fsintegration19.8.com",
+				"note": "",
+				"payment_terms": "07",
+				"invoice_type": "Email",
+				"number": "",
+				"payment": "REF",
+				"paytrail_reference_id": ""
+			},
+			"install_address": {
+				"address_description": "Integration 19.8 Test FS",
+				"firstname": "Test FS",
+				"lastname": "Integration 19.8",
+				"name": "Test FS Integration 19.8",
+				"contact_person": "Test CP",
+				"street_address": "Varikonkatu 44 BI 19.8",
+				"city": "HYVINKÄÄ",
+				"postal_code": "05830",
+				"fax": "",
+				"country": "FIN",
+				"province": "",
+				"county": "",
+				"phone_number": "Test Install Phone",
+				"email": "test@fsintegration19.8.com",
+				"note": "",
+				"number": null
+			},
+			"delivery_address": {
+				"address_description": "Integration 19.8 Test FS",
+				"firstname": "Test FS",
+				"lastname": "Integration 19.8",
+				"contact_person": "Integration 19.8 Test FS",
+				"street_address": "Varikonkatu 44 BI 19.8",
+				"city": "HYVINKÄÄ",
+				"postal_code": "05830",
+				"fax": "",
+				"country": "FIN",
+				"province": "",
+				"county": "",
+				"phone_number": "+3581234",
+				"email": "test@fsintegration19.8.com",
+				"note": "",
+				"number": null,
+				"delivery_terms": "DAP",
+				"delivery_type": "delivery"
+			},
+			"sales_person": {
+				"username": "teemuas",
+				"supervisor": "petrihu",
+				"firstname": "Teemu",
+				"lastname": "Asikainen"
+			},
+			"propertytype": "House",
+			"order_leadreference_vch": "Stand/Presentation/Trailer event",
+			"language_code_lan": "fi-FI"
+		},
+		"groups": {
+			"group": [
+				{
+					"delivery_batch": "1",
+					"delivery_batch_status": "Mitattu",
+					"delivery_batch_receive_date": "14.10.2024",
+					"delivery_batch_delivery_date": "09.10.2024",
+					"group_attachment": "",
+					"AXconfiguration": "no",
+					"group_name": "Liukuva (LGS)",
+					"pcs": "1",
+					"structurenumber": "9000780430016895",
+					"originalstructurenumber": "",
+					"install_start_date": "14.10.2024",
+					"install_end_date": "18.10.2024",
+					"additional_deliverytime": "0",
+					"process": "Normal",
+					"product_code": "90260001",
+					"storageid": "VAN",
+					"packing_order": "1",
+					"unit": "",
+					"line": "",
+					"floor": "",
+					"chargeable": "chargeable",
+					"sales_price": "1887.40",
+					"sproduct": "1060.10",
+					"sfreight": "381.90",
+					"sinstall": "237.00",
+					"sother": "208.40",
+					"purchase_price": "517.10",
+					"pproduct": "517.10",
+					"pfreight": "0.00",
+					"pinstall": "0.00",
+					"pother": "0.00",
+					"calculated_salesprice": "1887.40",
+					"factory_price": "517.10",
+					"fproduct": "517.10",
+					"ffreight": "0.00",
+					"finstall": "0.00",
+					"fother": "0.00",
+					"contract_price": "34.46",
+					"salestori_plan_name": "Plan 1",
+					"glass_m2": "4.00",
+					"blinds_m2": "3.83",
+					"glass_pcs": "2",
+					"product_length": "2000",
+					"group_weight": "115.439",
+					"product_attributes": {
+						"attributeid": "20090016"
+					},
+					"installed": "True",
+					"OrderLine": {
+						"BOMVersion": "9000780430016895",
+						"ItemID": "90260001",
+						"ItemName": "LGS",
+						"InventLocationID": "VAN",
+						"Dimension1": "401",
+						"Dimension5": "petrihu",
+						"DeliveryName": "Test FS Integration 19.8",
+						"DeliveryStreet": "Varikonkatu 44 BI 19.8",
+						"DeliveryZipCode": "05830",
+						"DeliveryCity": "HYVINKÄÄ",
+						"DeliveryCountryRegionID": "FI",
+						"LineAmount": "1887.40",
+						"Apartment": "",
+						"Floor": "",
+						"DlvBatchID": "0",
+						"Line": "",
+						"FactoryConfirmedDlv": "",
+						"InstallHours": "2.44",
+						"InstallStart": "14.10.2024",
+						"ReservationStart": "2024-10-14T00.00.00",
+						"DeliveryDatePromised": "18.10.2024",
+						"Plan_name": "Plan 1",
+						"PieceWork_pay": "34.46"
+					},
+					"AssemblyInstructions": {
+						"InstallNotes": "",
+						"Attachments": {
+							"Attachment": "salestori-asennuskortti-9000780430016895.pdf",
+							"Folder": "\\270000\\270016\\"
+						},
+						"AssemblyDocument": [
+							{
+								"name": "Tilaustiedot",
+								"Chapter": [
+									{
+										"name": "Perustiedot",
+										"Paragraph": [
+											{
+												"name": "Content",
+												"text": "Integration 19.8 Test FS\r\nVarikonkatu 44 BI 19.8 05830 HYVINKÄÄ\r\nPuhelin +3581234"
+											}
+										]
+									},
+									{
+										"name": "Tilaustiedot",
+										"Paragraph": [
+											{
+												"name": "Content",
+												"text": "Asiakaslupaus 18/10/2024\r\nTilausnumero 90007804\r\nLinja \r\nKerros \r\nAsunto \r\nRVN 9000780430016895"
+											}
+										]
+									}
+								]
+							},
+							{
+								"name": "Asennustiedot",
+								"Chapter": [
+									{
+										"name": "Tuotetiedot",
+										"Paragraph": [
+											{
+												"name": "Tuote",
+												"text": "LGS , lados:1"
+											},
+											{
+												"name": "Kiinnitystapa",
+												"text": "Superior: A techo, Inferior: A suelo"
+											},
+											{
+												"name": "Profiilit",
+												"text": "Cantidad de rieles: 3 11260022,  "
+											},
+											{
+												"name": "Varusteet",
+												"text": "Piezas plásticas: Gris oscuro, Tapaderas"
+											}
+										]
+									},
+									{
+										"name": "Tuotemitat",
+										"Paragraph": [
+											{
+												"name": "Sivu1,H3=19368",
+												"text": "Angulo inicial=90 Angulo final=90 Ancho=2000 Medida-Z=0 Altura=2000 Descuento inferior (X)=0 Descuento superior (Y)=0 Hojas izq=1 Hojas dcha=1 Angulo sistema= Pasa-ángulo=No Tornillo= \r\nPerfil pared izq:  \r\nPerfil pared dcha:  \r\nCantidad de rieles: 1\r\nManeta izq: \r\nAltura maneta izq: \r\nManeta dcha: \r\nAltura maneta dcha: \r\nDeslizamiento: INST_XML_VALUE_False\r\nProlongación perfil izq: 0 \r\nProlongación perfil dcha: 0 \r\nVidrio1: Ancho=992 Altura=1939 Tipo de vidrio=Fixed\r\nVidrio2: Ancho=992 Altura=1939 Tipo de vidrio=Fixed\r\n"
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				},
+				{
+					"delivery_batch": "1",
+					"delivery_batch_status": "Mitattu",
+					"delivery_batch_receive_date": "14.10.2024",
+					"delivery_batch_delivery_date": "09.10.2024",
+					"group_attachment": "",
+					"AXconfiguration": "no",
+					"group_name": "Avautuva (LGR)",
+					"pcs": "1",
+					"structurenumber": "9000780430016894",
+					"originalstructurenumber": "",
+					"install_start_date": "14.10.2024",
+					"install_end_date": "18.10.2024",
+					"additional_deliverytime": "0",
+					"process": "Normal",
+					"product_code": "90240001",
+					"storageid": "VAN",
+					"packing_order": "1",
+					"unit": "",
+					"line": "",
+					"floor": "",
+					"chargeable": "chargeable",
+					"sales_price": "2185.70",
+					"sproduct": "1334.00",
+					"sfreight": "295.80",
+					"sinstall": "312.60",
+					"sother": "243.30",
+					"purchase_price": "582.00",
+					"pproduct": "582.00",
+					"pfreight": "0.00",
+					"pinstall": "0.00",
+					"pother": "0.00",
+					"calculated_salesprice": "2185.70",
+					"factory_price": "582.00",
+					"fproduct": "582.00",
+					"ffreight": "0.00",
+					"finstall": "0.00",
+					"fother": "0.00",
+					"contract_price": "49.34",
+					"salestori_plan_name": "Plan 1",
+					"glass_m2": "4.00",
+					"blinds_m2": "3.63",
+					"glass_pcs": "3",
+					"product_length": "2000",
+					"group_weight": "109.7857",
+					"product_attributes": {
+						"attributeid": "20090016"
+					},
+					"installed": "True",
+					"OrderLine": {
+						"BOMVersion": "9000780430016894",
+						"ItemID": "90240001",
+						"ItemName": "LG",
+						"InventLocationID": "VAN",
+						"Dimension1": "401",
+						"Dimension5": "petrihu",
+						"DeliveryName": "Test FS Integration 19.8",
+						"DeliveryStreet": "Varikonkatu 44 BI 19.8",
+						"DeliveryZipCode": "05830",
+						"DeliveryCity": "HYVINKÄÄ",
+						"DeliveryCountryRegionID": "FI",
+						"LineAmount": "2185.70",
+						"Apartment": "",
+						"Floor": "",
+						"DlvBatchID": "0",
+						"Line": "",
+						"FactoryConfirmedDlv": "",
+						"InstallHours": "3.69",
+						"InstallStart": "14.10.2024",
+						"ReservationStart": "2024-10-14T00.00.00",
+						"DeliveryDatePromised": "18.10.2024",
+						"Plan_name": "Plan 1",
+						"PieceWork_pay": "49.34"
+					},
+					"AssemblyInstructions": {
+						"InstallNotes": "",
+						"Attachments": {
+							"Attachment": "salestori-asennuskortti-9000780430016894.pdf",
+							"Folder": "\\270000\\270016\\"
+						},
+						"AssemblyDocument": [
+							{
+								"name": "Tilaustiedot",
+								"Chapter": [
+									{
+										"name": "Perustiedot",
+										"Paragraph": [
+											{
+												"name": "Content",
+												"text": "Integration 19.8 Test FS\r\nVarikonkatu 44 BI 19.8 05830 HYVINKÄÄ\r\nPuhelin +3581234"
+											}
+										]
+									},
+									{
+										"name": "Tilaustiedot",
+										"Paragraph": [
+											{
+												"name": "Content",
+												"text": "Asiakaslupaus 18/10/2024\r\nTilausnumero 90007804\r\nLinja \r\nKerros \r\nAsunto \r\nRVN 9000780430016894"
+											}
+										]
+									}
+								]
+							},
+							{
+								"name": "Asennustiedot",
+								"Chapter": [
+									{
+										"name": "Tuotetiedot",
+										"Paragraph": [
+											{
+												"name": "Tuote",
+												"text": "LG , lados:1"
+											},
+											{
+												"name": "Kiinnitystapa",
+												"text": "Superior: A techo, Inferior: A suelo"
+											},
+											{
+												"name": "Profiilit",
+												"text": "Superior: 11241205 RAL8019, Inferior: 11243001 11243001 "
+											},
+											{
+												"name": "Varusteet",
+												"text": "Piezas plásticas: Gris oscuro, Tapaderas"
+											}
+										]
+									},
+									{
+										"name": "Tuotemitat",
+										"Paragraph": [
+											{
+												"name": "Sivu2,H3=1873",
+												"text": "Angulo inicial=90 Angulo final=90 Ancho=2000 Medida-Z=0 Altura=2000 Descuento inferior (X)=0 Descuento superior (Y)=0 Hojas izq=2 Hojas dcha=1 Angulo sistema= Pasa-ángulo=No Tornillo= \r\nPerfil superior: 11241205 RAL8019\r\nPerfil inferior: 11243001 RAL8019\r\nPerfil expansor: 11222206 RAL8019\r\nVidrio1: Ancho=655 Altura=1861\r\nVidrio2: Ancho=655 Altura=1861\r\nVidrio3: Ancho=655 Altura=1861\r\n"
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				},
+				{
+					"delivery_batch": "1",
+					"delivery_batch_status": "Mitattu",
+					"delivery_batch_receive_date": "14.10.2024",
+					"delivery_batch_delivery_date": "09.10.2024",
+					"group_attachment": "",
+					"AXconfiguration": "no",
+					"group_name": "Avautuva (LGR)",
+					"pcs": "1",
+					"structurenumber": "9000780430016983",
+					"originalstructurenumber": "",
+					"install_start_date": "14.10.2024",
+					"install_end_date": "18.10.2024",
+					"additional_deliverytime": "0",
+					"process": "Normal",
+					"product_code": "90240001",
+					"storageid": "VAN",
+					"packing_order": "1",
+					"unit": "",
+					"line": "",
+					"floor": "",
+					"chargeable": "chargeable",
+					"sales_price": "2048.50",
+					"sproduct": "1209.30",
+					"sfreight": "295.80",
+					"sinstall": "301.10",
+					"sother": "242.40",
+					"purchase_price": "528.70",
+					"pproduct": "528.70",
+					"pfreight": "0.00",
+					"pinstall": "0.00",
+					"pother": "0.00",
+					"calculated_salesprice": "2048.50",
+					"factory_price": "528.70",
+					"fproduct": "528.70",
+					"ffreight": "0.00",
+					"finstall": "0.00",
+					"fother": "0.00",
+					"contract_price": "47.64",
+					"salestori_plan_name": "Plan 2",
+					"glass_m2": "3.72",
+					"blinds_m2": "3.37",
+					"glass_pcs": "3",
+					"product_length": "1845",
+					"group_weight": "102.0572",
+					"product_attributes": {
+						"attributeid": "20090016"
+					},
+					"installed": "True",
+					"OrderLine": {
+						"BOMVersion": "9000780430016983",
+						"ItemID": "90240001",
+						"ItemName": "LG",
+						"InventLocationID": "VAN",
+						"Dimension1": "401",
+						"Dimension5": "petrihu",
+						"DeliveryName": "Test FS Integration 19.8",
+						"DeliveryStreet": "Varikonkatu 44 BI 19.8",
+						"DeliveryZipCode": "05830",
+						"DeliveryCity": "HYVINKÄÄ",
+						"DeliveryCountryRegionID": "FI",
+						"LineAmount": "2048.50",
+						"Apartment": "",
+						"Floor": "",
+						"DlvBatchID": "0",
+						"Line": "",
+						"FactoryConfirmedDlv": "",
+						"InstallHours": "3.62",
+						"InstallStart": "14.10.2024",
+						"ReservationStart": "2024-10-14T00.00.00",
+						"DeliveryDatePromised": "18.10.2024",
+						"Plan_name": "Plan 2",
+						"PieceWork_pay": "47.64"
+					},
+					"AssemblyInstructions": {
+						"InstallNotes": "",
+						"Attachments": {
+							"Attachment": "salestori-asennuskortti-9000780430016983.pdf",
+							"Folder": "\\270000\\270016\\"
+						},
+						"AssemblyDocument": [
+							{
+								"name": "Tilaustiedot",
+								"Chapter": [
+									{
+										"name": "Perustiedot",
+										"Paragraph": [
+											{
+												"name": "Content",
+												"text": "Integration 19.8 Test FS\r\nVarikonkatu 44 BI 19.8 05830 HYVINKÄÄ\r\nPuhelin +3581234"
+											}
+										]
+									},
+									{
+										"name": "Tilaustiedot",
+										"Paragraph": [
+											{
+												"name": "Content",
+												"text": "Asiakaslupaus 18/10/2024\r\nTilausnumero 90007804\r\nLinja \r\nKerros \r\nAsunto \r\nRVN 9000780430016983"
+											}
+										]
+									}
+								]
+							},
+							{
+								"name": "Asennustiedot",
+								"Chapter": [
+									{
+										"name": "Tuotetiedot",
+										"Paragraph": [
+											{
+												"name": "Tuote",
+												"text": "LG , lados:1"
+											},
+											{
+												"name": "Kiinnitystapa",
+												"text": "Superior: A techo, Inferior: A suelo"
+											},
+											{
+												"name": "Profiilit",
+												"text": "Superior: 11241205 RAL7024, Inferior: 11243001 11243001 "
+											},
+											{
+												"name": "Varusteet",
+												"text": "Piezas plásticas: Gris oscuro, Tapaderas"
+											}
+										]
+									},
+									{
+										"name": "Tuotemitat",
+										"Paragraph": [
+											{
+												"name": "Sivu1,H3=1888",
+												"text": "Angulo inicial=90 Angulo final=90 Ancho=1845 Medida-Z=0 Altura=2015 Descuento inferior (X)=0 Descuento superior (Y)=0 Hojas izq=3 Hojas dcha=0 Angulo sistema= Pasa-ángulo=No Tornillo= \r\nPerfil superior: 11241205 RAL7024\r\nPerfil inferior: 11243001 RAL7024\r\nPerfil expansor: 11222206 RAL7024\r\nVidrio1: Ancho=604 Altura=1876\r\nVidrio2: Ancho=604 Altura=1876\r\nVidrio3: Ancho=604 Altura=1876\r\n"
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				},
+				{
+					"delivery_batch": "1",
+					"delivery_batch_status": "Mitattu",
+					"delivery_batch_receive_date": "14.10.2024",
+					"delivery_batch_delivery_date": "09.10.2024",
+					"group_attachment": "",
+					"AXconfiguration": "no",
+					"group_name": "Liukuva (LGS)",
+					"pcs": "1",
+					"structurenumber": "9000780430016984",
+					"originalstructurenumber": "",
+					"install_start_date": "14.10.2024",
+					"install_end_date": "18.10.2024",
+					"additional_deliverytime": "0",
+					"process": "Normal",
+					"product_code": "90260001",
+					"storageid": "VAN",
+					"packing_order": "1",
+					"unit": "",
+					"line": "",
+					"floor": "",
+					"chargeable": "chargeable",
+					"sales_price": "1819.30",
+					"sproduct": "999.10",
+					"sfreight": "381.90",
+					"sinstall": "231.20",
+					"sother": "207.10",
+					"purchase_price": "487.40",
+					"pproduct": "487.40",
+					"pfreight": "0.00",
+					"pinstall": "0.00",
+					"pother": "0.00",
+					"calculated_salesprice": "1819.30",
+					"factory_price": "487.40",
+					"fproduct": "487.40",
+					"ffreight": "0.00",
+					"finstall": "0.00",
+					"fother": "0.00",
+					"contract_price": "33.61",
+					"salestori_plan_name": "Plan 2",
+					"glass_m2": "3.64",
+					"blinds_m2": "3.51",
+					"glass_pcs": "2",
+					"product_length": "1804",
+					"group_weight": "105.8362",
+					"product_attributes": {
+						"attributeid": "20090016"
+					},
+					"installed": "True",
+					"OrderLine": {
+						"BOMVersion": "9000780430016984",
+						"ItemID": "90260001",
+						"ItemName": "LGS",
+						"InventLocationID": "VAN",
+						"Dimension1": "401",
+						"Dimension5": "petrihu",
+						"DeliveryName": "Test FS Integration 19.8",
+						"DeliveryStreet": "Varikonkatu 44 BI 19.8",
+						"DeliveryZipCode": "05830",
+						"DeliveryCity": "HYVINKÄÄ",
+						"DeliveryCountryRegionID": "FI",
+						"LineAmount": "1819.30",
+						"Apartment": "",
+						"Floor": "",
+						"DlvBatchID": "0",
+						"Line": "",
+						"FactoryConfirmedDlv": "",
+						"InstallHours": "2.37",
+						"InstallStart": "14.10.2024",
+						"ReservationStart": "2024-10-14T00.00.00",
+						"DeliveryDatePromised": "18.10.2024",
+						"Plan_name": "Plan 2",
+						"PieceWork_pay": "33.61"
+					},
+					"AssemblyInstructions": {
+						"InstallNotes": "",
+						"Attachments": {
+							"Attachment": "salestori-asennuskortti-9000780430016984.pdf",
+							"Folder": "\\270000\\270016\\"
+						},
+						"AssemblyDocument": [
+							{
+								"name": "Tilaustiedot",
+								"Chapter": [
+									{
+										"name": "Perustiedot",
+										"Paragraph": [
+											{
+												"name": "Content",
+												"text": "Integration 19.8 Test FS\r\nVarikonkatu 44 BI 19.8 05830 HYVINKÄÄ\r\nPuhelin +3581234"
+											}
+										]
+									},
+									{
+										"name": "Tilaustiedot",
+										"Paragraph": [
+											{
+												"name": "Content",
+												"text": "Asiakaslupaus 18/10/2024\r\nTilausnumero 90007804\r\nLinja \r\nKerros \r\nAsunto \r\nRVN 9000780430016984"
+											}
+										]
+									}
+								]
+							},
+							{
+								"name": "Asennustiedot",
+								"Chapter": [
+									{
+										"name": "Tuotetiedot",
+										"Paragraph": [
+											{
+												"name": "Tuote",
+												"text": "LGS , lados:1"
+											},
+											{
+												"name": "Kiinnitystapa",
+												"text": "Superior: A techo, Inferior: A suelo"
+											},
+											{
+												"name": "Profiilit",
+												"text": "Cantidad de rieles: 3 11260022,  "
+											},
+											{
+												"name": "Varusteet",
+												"text": "Piezas plásticas: Gris oscuro, Tapaderas"
+											}
+										]
+									},
+									{
+										"name": "Tuotemitat",
+										"Paragraph": [
+											{
+												"name": "Sivu2,H3=19518",
+												"text": "Angulo inicial=90 Angulo final=90 Ancho=1804 Medida-Z=0 Altura=2015 Descuento inferior (X)=0 Descuento superior (Y)=0 Hojas izq=2 Hojas dcha=0 Angulo sistema= Pasa-ángulo=No Tornillo= \r\nPerfil pared izq:  \r\nPerfil pared dcha:  \r\nCantidad de rieles: 1\r\nManeta izq: PD9260061\r\nAltura maneta izq: 0\r\nManeta dcha: \r\nAltura maneta dcha: \r\nDeslizamiento: INST_XML_VALUE_False\r\nProlongación perfil izq: 0 \r\nProlongación perfil dcha: 0 \r\nVidrio1: Ancho=902 Altura=1954 Tipo de vidrio=Fixed\r\nVidrio2: Ancho=902 Altura=1954 Tipo de vidrio=SlidingLeft\r\n"
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				},
+				{
+					"delivery_batch": "1",
+					"delivery_batch_status": "Mitattu",
+					"delivery_batch_receive_date": "14.10.2024",
+					"delivery_batch_delivery_date": "09.10.2024",
+					"group_attachment": "",
+					"AXconfiguration": "no",
+					"group_name": "Lumon Kiinteä seinä (uusi)",
+					"pcs": "1",
+					"structurenumber": "9000780430016987",
+					"originalstructurenumber": "",
+					"install_start_date": "14.10.2024",
+					"install_end_date": "18.10.2024",
+					"additional_deliverytime": "0",
+					"process": "Normal",
+					"product_code": "90400001",
+					"storageid": "VAN",
+					"packing_order": "1",
+					"unit": "",
+					"line": "",
+					"floor": "",
+					"chargeable": "chargeable",
+					"sales_price": "797.30",
+					"sproduct": "290.70",
+					"sfreight": "240.60",
+					"sinstall": "204.20",
+					"sother": "61.80",
+					"purchase_price": "290.70",
+					"pproduct": "290.70",
+					"pfreight": "0.00",
+					"pinstall": "0.00",
+					"pother": "0.00",
+					"calculated_salesprice": "797.30",
+					"factory_price": "290.70",
+					"fproduct": "290.70",
+					"ffreight": "0.00",
+					"finstall": "0.00",
+					"fother": "0.00",
+					"contract_price": "71.46",
+					"salestori_plan_name": "Plan 2",
+					"glass_m2": "0.00",
+					"blinds_m2": "0.00",
+					"glass_pcs": "0",
+					"product_length": "0",
+					"group_weight": "45.14324",
+					"product_attributes": {
+						"attributeid": "20090016"
+					},
+					"installed": "True",
+					"OrderLine": {
+						"BOMVersion": "9000780430016987",
+						"ItemID": "90400001",
+						"ItemName": "LFIXEDWALL",
+						"InventLocationID": "VAN",
+						"Dimension1": "401",
+						"Dimension5": "petrihu",
+						"DeliveryName": "Test FS Integration 19.8",
+						"DeliveryStreet": "Varikonkatu 44 BI 19.8",
+						"DeliveryZipCode": "05830",
+						"DeliveryCity": "HYVINKÄÄ",
+						"DeliveryCountryRegionID": "FI",
+						"LineAmount": "797.30",
+						"Apartment": "",
+						"Floor": "",
+						"DlvBatchID": "0",
+						"Line": "",
+						"FactoryConfirmedDlv": "",
+						"InstallHours": "0.00",
+						"InstallStart": "14.10.2024",
+						"ReservationStart": "2024-10-14T00.00.00",
+						"DeliveryDatePromised": "18.10.2024",
+						"Plan_name": "Plan 2",
+						"PieceWork_pay": "71.46"
+					},
+					"AssemblyInstructions": {
+						"InstallNotes": "",
+						"Attachments": {
+							"Attachment": "salestori-asennuskortti-9000780430016987.pdf",
+							"Folder": "\\270000\\270016\\"
+						},
+						"AssemblyDocument": [
+							{
+								"name": "Tilaustiedot",
+								"Chapter": [
+									{
+										"name": "Perustiedot",
+										"Paragraph": [
+											{
+												"name": "Content",
+												"text": "Integration 19.8 Test FS\r\nVarikonkatu 44 BI 19.8 05830 HYVINKÄÄ\r\nPuhelin +3581234"
+											}
+										]
+									},
+									{
+										"name": "Tilaustiedot",
+										"Paragraph": [
+											{
+												"name": "Content",
+												"text": "Asiakaslupaus 18/10/2024\r\nTilausnumero 90007804\r\nLinja \r\nKerros \r\nAsunto \r\nRVN 9000780430016987"
+											}
+										]
+									}
+								]
+							},
+							{
+								"name": "Asennustiedot",
+								"Chapter": [
+									{
+										"name": "Tuotetiedot",
+										"Paragraph": [
+											{
+												"name": "Tuote",
+												"text": "LFW , lados:1"
+											},
+											{
+												"name": "Kiinnitystapa",
+												"text": "Superior: A techo, Inferior: A suelo"
+											},
+											{
+												"name": "Profiilit",
+												"text": "Superior: 11241205 RAL7024, Inferior: 11243001 11243001 "
+											},
+											{
+												"name": "Varusteet",
+												"text": "Piezas plásticas: Gris oscuro, Tapaderas"
+											}
+										]
+									},
+									{
+										"name": "Tuotemitat",
+										"Paragraph": [
+											{
+												"name": "Sivu3,H3=8268",
+												"text": "Angulo inicial=90 Angulo final=90 Ancho=1845 Medida-Z=0 Altura=2015 Descuento inferior (X)=0 Descuento superior (Y)=0 Hojas izq=3 Hojas dcha=0 Angulo sistema= Pasa-ángulo=No Tornillo= \r\nPerfil superior: 11241205 RAL7024\r\nPerfil inferior: 11243001 RAL7024\r\nPerfil expansor: 11222206 RAL7024\r\nVidrio1: Ancho=603 Altura=831\r\nVidrio2: Ancho=603 Altura=831\r\nVidrio3: Ancho=603 Altura=831\r\n"
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				},
+				{
+					"delivery_batch": "1",
+					"delivery_batch_status": "Mitattu",
+					"delivery_batch_receive_date": "14.10.2024",
+					"delivery_batch_delivery_date": "09.10.2024",
+					"group_attachment": "",
+					"AXconfiguration": "no",
+					"group_name": "Lumon Kaide",
+					"pcs": "1",
+					"structurenumber": "9000780430016986",
+					"originalstructurenumber": "",
+					"install_start_date": "14.10.2024",
+					"install_end_date": "18.10.2024",
+					"additional_deliverytime": "0",
+					"process": "Normal",
+					"product_code": "90370001",
+					"storageid": "VAN",
+					"packing_order": "1",
+					"unit": "",
+					"line": "",
+					"floor": "",
+					"chargeable": "chargeable",
+					"sales_price": "1912.90",
+					"sproduct": "845.70",
+					"sfreight": "224.40",
+					"sinstall": "838.00",
+					"sother": "4.80",
+					"purchase_price": "446.70",
+					"pproduct": "446.70",
+					"pfreight": "0.00",
+					"pinstall": "0.00",
+					"pother": "0.00",
+					"calculated_salesprice": "1912.90",
+					"factory_price": "446.70",
+					"fproduct": "446.70",
+					"ffreight": "0.00",
+					"finstall": "0.00",
+					"fother": "0.00",
+					"contract_price": "211.66",
+					"salestori_plan_name": "Plan 2",
+					"glass_m2": "2.03",
+					"blinds_m2": "0.00",
+					"glass_pcs": "0",
+					"product_length": "1844",
+					"group_weight": "0",
+					"product_attributes": "",
+					"installed": "True",
+					"OrderLine": {
+						"BOMVersion": "9000780430016986",
+						"ItemID": "90370001",
+						"ItemName": "LUMONKAIDE",
+						"InventLocationID": "VAN",
+						"Dimension1": "401",
+						"Dimension5": "petrihu",
+						"DeliveryName": "Test FS Integration 19.8",
+						"DeliveryStreet": "Varikonkatu 44 BI 19.8",
+						"DeliveryZipCode": "05830",
+						"DeliveryCity": "HYVINKÄÄ",
+						"DeliveryCountryRegionID": "FI",
+						"LineAmount": "1912.90",
+						"Apartment": "",
+						"Floor": "",
+						"DlvBatchID": "0",
+						"Line": "",
+						"FactoryConfirmedDlv": "",
+						"InstallHours": "0.57",
+						"InstallStart": "14.10.2024",
+						"ReservationStart": "2024-10-14T00.00.00",
+						"DeliveryDatePromised": "18.10.2024",
+						"Plan_name": "Plan 2",
+						"PieceWork_pay": "211.66"
+					},
+					"AssemblyInstructions": {
+						"InstallNotes": "",
+						"Attachments": {
+							"Attachment": "salestori-asennuskortti-9000780430016986.pdf",
+							"Folder": "\\270000\\270016\\"
+						},
+						"AssemblyDocument": [
+							{
+								"name": "Tilaustiedot",
+								"Chapter": [
+									{
+										"name": "Perustiedot",
+										"Paragraph": [
+											{
+												"name": "Content",
+												"text": "Integration 19.8 Test FS\r\nVarikonkatu 44 BI 19.8 05830 HYVINKÄÄ\r\nPuhelin +3581234"
+											}
+										]
+									},
+									{
+										"name": "Tilaustiedot",
+										"Paragraph": [
+											{
+												"name": "Content",
+												"text": "Asiakaslupaus 18/10/2024\r\nTilausnumero 90007804\r\nLinja \r\nKerros \r\nAsunto \r\nRVN 9000780430016986"
+											}
+										]
+									}
+								]
+							},
+							{
+								"name": "Asennustiedot",
+								"Chapter": [
+									{
+										"name": "Tuotetiedot",
+										"Paragraph": [
+											{
+												"name": "Tuote",
+												"text": "Barandillas , lados:1"
+											},
+											{
+												"name": "Kiinnitystapa",
+												"text": "FASTENING_METHOD_TOP"
+											},
+											{
+												"name": "Profiilit",
+												"text": "INST_XML_COLOR:RAL7024, HANDRAIL_160X45 "
+											},
+											{
+												"name": "Varusteet"
+											}
+										]
+									},
+									{
+										"name": "Tuotemitat",
+										"Paragraph": [
+											{
+												"name": "Sivu1",
+												"text": "Angulo inicial=90 Angulo final=90 Ancho=1845 Medida-Z=0  INST_XML_PULLOUT=0 INST_XML_UPHOLSTERY_PCS=2 INST_XML_HANDRAIL: HANDRAIL_160X45, INST_XML_ELEVATION: 1100, RAL7024 INST_XML_HANDRAIL_PIPE: HANDRAIL_160X45, RAL7024 INST_XML_TOE_LIST: LOWER_GAP_PROFILE_NO INST_XML_WEDGE_CRACK_SEAL: LOWER_GAP_SEAL_NO INST_XML_LOWER_UPHOLSTERY: LOWER_FRAME_PD9370205, INST_XML_ELEVATION: 0, RAL7024 INST_XML_UPHOLSTERY_PROFILE: FACADE_PROFILE_PD9370217 INST_XML_DECO_PIPE:  INST_XML_WALL_FASTENING_LEFT: BRACKET_PD9370212 INST_XML_WALL_FASTENING_RIGHT: BRACKET_PD9370212 INST_XML_WALL_FASTENING_ANCHOR_LEFT: ANCHOR_PD9370257 INST_XML_WALL_FASTENING_RIGHT: ANCHOR_PD9370257 INST_XML_HEAT_PLASTER_LEFT: INST_XML_NO INST_XML_HEAT_PLASTER_RIGHT: INST_XML_NOINST_XML_UPHOLSTERY_SHORT1: Ancho=892 Altura=1067, INST_XML_NO INST_XML_UPHOLSTERY_SHORT2: Ancho=892 Altura=1067, INST_XML_NO "
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				},
+				{
+					"delivery_batch": "1",
+					"delivery_batch_status": "Mitattu",
+					"delivery_batch_receive_date": "14.10.2024",
+					"delivery_batch_delivery_date": "09.10.2024",
+					"group_attachment": "",
+					"AXconfiguration": "yes",
+					"group_name": "Valmisterassi 3",
+					"pcs": "1",
+					"structurenumber": "9000780430016982",
+					"originalstructurenumber": "",
+					"install_start_date": "14.10.2024",
+					"install_end_date": "18.10.2024",
+					"additional_deliverytime": "0",
+					"process": "Normal",
+					"product_code": "90750001",
+					"storageid": "VAN",
+					"packing_order": "1",
+					"unit": "",
+					"line": "",
+					"floor": "",
+					"chargeable": "chargeable",
+					"sales_price": "4507.10",
+					"sproduct": "3349.80",
+					"sfreight": "188.80",
+					"sinstall": "911.70",
+					"sother": "56.90",
+					"purchase_price": "1842.30",
+					"pproduct": "1842.30",
+					"pfreight": "0.00",
+					"pinstall": "0.00",
+					"pother": "0.00",
+					"calculated_salesprice": "4507.10",
+					"factory_price": "1842.30",
+					"fproduct": "1842.30",
+					"ffreight": "0.00",
+					"finstall": "0.00",
+					"fother": "0.00",
+					"contract_price": "203.90",
+					"salestori_plan_name": "Plan 2",
+					"glass_m2": "0.00",
+					"blinds_m2": "0.00",
+					"glass_pcs": "0",
+					"product_length": "0",
+					"group_weight": "0",
+					"product_attributes": "",
+					"installed": "True",
+					"OrderLine": {
+						"BOMVersion": "9000780430016982",
+						"ItemID": "90750001",
+						"ItemName": "VT3",
+						"InventLocationID": "VAN",
+						"Dimension1": "401",
+						"Dimension5": "petrihu",
+						"DeliveryName": "Test FS Integration 19.8",
+						"DeliveryStreet": "Varikonkatu 44 BI 19.8",
+						"DeliveryZipCode": "05830",
+						"DeliveryCity": "HYVINKÄÄ",
+						"DeliveryCountryRegionID": "FI",
+						"LineAmount": "4507.10",
+						"Apartment": "",
+						"Floor": "",
+						"DlvBatchID": "0",
+						"Line": "",
+						"FactoryConfirmedDlv": "",
+						"InstallHours": "4.83",
+						"InstallStart": "14.10.2024",
+						"ReservationStart": "2024-10-14T00.00.00",
+						"DeliveryDatePromised": "18.10.2024",
+						"Plan_name": "Plan 2",
+						"PieceWork_pay": "203.90"
+					},
+					"AssemblyInstructions": {
+						"InstallNotes": "",
+						"Attachments": {
+							"Attachment": "salestori-asennuskortti-9000780430016982.pdf",
+							"Folder": "\\270000\\270016\\"
+						},
+						"AssemblyDocument": [
+							{
+								"name": "Tilaustiedot",
+								"Chapter": [
+									{
+										"name": "Perustiedot",
+										"Paragraph": [
+											{
+												"name": "Content",
+												"text": "Integration 19.8 Test FS\r\nVarikonkatu 44 BI 19.8 05830 HYVINKÄÄ\r\nPuhelin +3581234"
+											}
+										]
+									},
+									{
+										"name": "Tilaustiedot",
+										"Paragraph": [
+											{
+												"name": "Content",
+												"text": "Asiakaslupaus 18/10/2024\r\nTilausnumero 90007804\r\nLinja \r\nKerros \r\nAsunto \r\nRVN 9000780430016982"
+											}
+										]
+									}
+								]
+							},
+							{
+								"name": "Asennustiedot",
+								"Chapter": [
+									{
+										"name": "Tuotetiedot",
+										"Paragraph": [
+											{
+												"name": "Tuote",
+												"text": "VT3, Modelo:1"
+											},
+											{
+												"name": "Kiinnitystapa",
+												"text": "Superior: A techo, Inferior: A suelo"
+											},
+											{
+												"name": "Profiilit",
+												"text": "Poste en medio: INST_XML_TERRACE_SIDE_POST:  "
+											},
+											{
+												"name": "Varusteet",
+												"text": "INST_XML_TERRACE_SNOW_STOPPER: DOCXML_NO INST_XML_TERRACE_DRAIN_PIPE: DOCXML_NO INST_XML_TERRACE_VENTILATION_CURTAIN: DOC_TERRACE_VENTILATIONNET_NO INST_XML_TERRACE_POWER_ADAPTER: 0 INST_XML_TERRACE_LED_LIGHTS: 0 INST_XML_TERRACE_UPPER_CONNECTION_FLASHING:  INST_XML_TERRACE_ROOF_CONNECTION_ACCESSORIES:  INST_XML_TERRACE_SIDE_CONNECTION_FLASHING:  INST_XML_TERRACE_FIXED_END: DOC_TERRACE_FIXEDEND_NO"
+											}
+										]
+									},
+									{
+										"name": "Tuotemitat",
+										"Paragraph": [
+											{
+												"name": "Kattolasit:3, Kattopalkit:4, Perustus",
+												"text": "INST_XML_TERRACE_WIDTH1:2000. INST_XML_TERRACE_DEPTH1:2000. INST_XML_TERRACE_FRONT_HEIGHT:2000. INST_XML_TERRACE_BACK_HEIGHT1:2500. INST_XML_TERRACE_WIDTH2:. INST_XML_TERRACE_DEPTH2:. INST_XML_TERRACE_BACK_HEIGHT2:. \r\nINST_XML_TERRACE_ROOF_GLASSES_INDEX1: 20090017 INST_XML_TERRACE_ROOF_GLASSES_WIDTH=601 INST_XML_TERRACE_ROOF_GLASSES_HEIGHT=2175\r\nINST_XML_TERRACE_ROOF_GLASSES_INDEX2: 20090017 INST_XML_TERRACE_ROOF_GLASSES_WIDTH=601 INST_XML_TERRACE_ROOF_GLASSES_HEIGHT=2175\r\nINST_XML_TERRACE_ROOF_GLASSES_INDEX3: 20090017 INST_XML_TERRACE_ROOF_GLASSES_WIDTH=601 INST_XML_TERRACE_ROOF_GLASSES_HEIGHT=2175\r\nINST_XML_TERRACE_CROSS_MEASUREMENT: INST_XML_LEFT:2828 INST_XML_RIGHT:0\r\nINST_XML_TERRACE_FOUNDATION: \r\nINST_XML_TERRACE_EXTRA_DECK: INST_XML_FRONT: / INST_XML_LEFT: / INST_XML_RIGHT: / INST_XML_BACK:\r\nINST_XML_TERRACE_FLOOR_BEAMS: \r\nINST_XML_TERRACE_PAALU_COUNT: \r\nINST_XML_TERRACE_PONTTILAUTA_LENGTH: \r\nINST_XML_TERRACE_PONTTILAUTA_COUNT: \r\nINST_XML_TERRACE_PONTTILAUTA_TOTAL_WIDTH: \r\nINST_XML_TERRACE_AVOLAUTA_LENGTH: \r\nINST_XML_TERRACE_AVOLAUTA_COUNT: \r\nINST_XML_TERRACE_AVOLAUTA_TOTAL_WIDTH: \r\nINST_XML_TERRACE_VERHOUSLAUTA_LENGTH: \r\nINST_XML_TERRACE_VERHOUSLAUTA_COUNT: \r\n[INST_XML_TERRACE_VERHOUSLAUTA_TOTAL_WIDTH: \r\n[INST_XML_TERRACE_PAALU_PLACES: \r\n"
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				},
+				{
+					"delivery_batch": "1",
+					"delivery_batch_status": "Mitattu",
+					"delivery_batch_receive_date": "14.10.2024",
+					"delivery_batch_delivery_date": "09.10.2024",
+					"group_attachment": "",
+					"AXconfiguration": "no",
+					"group_name": "Avautuva (LGR)",
+					"pcs": "1",
+					"structurenumber": "9000780430016893",
+					"originalstructurenumber": "",
+					"install_start_date": "14.10.2024",
+					"install_end_date": "18.10.2024",
+					"additional_deliverytime": "0",
+					"process": "Normal",
+					"product_code": "90240001",
+					"storageid": "VAN",
+					"packing_order": "1",
+					"unit": "",
+					"line": "",
+					"floor": "",
+					"chargeable": "chargeable",
+					"sales_price": "2132.60",
+					"sproduct": "1280.90",
+					"sfreight": "295.80",
+					"sinstall": "312.60",
+					"sother": "243.30",
+					"purchase_price": "560.80",
+					"pproduct": "560.80",
+					"pfreight": "0.00",
+					"pinstall": "0.00",
+					"pother": "0.00",
+					"calculated_salesprice": "2132.60",
+					"factory_price": "560.80",
+					"fproduct": "560.80",
+					"ffreight": "0.00",
+					"finstall": "0.00",
+					"fother": "0.00",
+					"contract_price": "49.34",
+					"salestori_plan_name": "Plan 3",
+					"glass_m2": "4.00",
+					"blinds_m2": "3.64",
+					"glass_pcs": "3",
+					"product_length": "2000",
+					"group_weight": "109.903",
+					"product_attributes": {
+						"attributeid": "20090016"
+					},
+					"installed": "True",
+					"OrderLine": {
+						"BOMVersion": "9000780430016893",
+						"ItemID": "90240001",
+						"ItemName": "LG",
+						"InventLocationID": "VAN",
+						"Dimension1": "401",
+						"Dimension5": "petrihu",
+						"DeliveryName": "Test FS Integration 19.8",
+						"DeliveryStreet": "Varikonkatu 44 BI 19.8",
+						"DeliveryZipCode": "05830",
+						"DeliveryCity": "HYVINKÄÄ",
+						"DeliveryCountryRegionID": "FI",
+						"LineAmount": "2132.60",
+						"Apartment": "",
+						"Floor": "",
+						"DlvBatchID": "0",
+						"Line": "",
+						"FactoryConfirmedDlv": "",
+						"InstallHours": "3.69",
+						"InstallStart": "14.10.2024",
+						"ReservationStart": "2024-10-14T00.00.00",
+						"DeliveryDatePromised": "18.10.2024",
+						"Plan_name": "Plan 3",
+						"PieceWork_pay": "49.34"
+					},
+					"AssemblyInstructions": {
+						"InstallNotes": "",
+						"Attachments": {
+							"Attachment": "salestori-asennuskortti-9000780430016893.pdf",
+							"Folder": "\\270000\\270016\\"
+						},
+						"AssemblyDocument": [
+							{
+								"name": "Tilaustiedot",
+								"Chapter": [
+									{
+										"name": "Perustiedot",
+										"Paragraph": [
+											{
+												"name": "Content",
+												"text": "Integration 19.8 Test FS\r\nVarikonkatu 44 BI 19.8 05830 HYVINKÄÄ\r\nPuhelin +3581234"
+											}
+										]
+									},
+									{
+										"name": "Tilaustiedot",
+										"Paragraph": [
+											{
+												"name": "Content",
+												"text": "Asiakaslupaus 18/10/2024\r\nTilausnumero 90007804\r\nLinja \r\nKerros \r\nAsunto \r\nRVN 9000780430016893"
+											}
+										]
+									}
+								]
+							},
+							{
+								"name": "Asennustiedot",
+								"Chapter": [
+									{
+										"name": "Tuotetiedot",
+										"Paragraph": [
+											{
+												"name": "Tuote",
+												"text": "LG , lados:1"
+											},
+											{
+												"name": "Kiinnitystapa",
+												"text": "Superior: A techo, Inferior: A suelo"
+											},
+											{
+												"name": "Profiilit",
+												"text": "Superior: 11241205 RAL7024, Inferior: 11243001 11243001 "
+											},
+											{
+												"name": "Varusteet",
+												"text": "Piezas plásticas: Gris oscuro, Tapaderas"
+											}
+										]
+									},
+									{
+										"name": "Tuotemitat",
+										"Paragraph": [
+											{
+												"name": "Sivu1,H3=1873",
+												"text": "Angulo inicial=90 Angulo final=90 Ancho=2000 Medida-Z=0 Altura=2000 Descuento inferior (X)=0 Descuento superior (Y)=0 Hojas izq=3 Hojas dcha=0 Angulo sistema= Pasa-ángulo=No Tornillo= \r\nPerfil superior: 11241205 RAL7024\r\nPerfil inferior: 11243001 RAL7024\r\nPerfil expansor: 11222206 RAL7024\r\nVidrio1: Ancho=656 Altura=1861\r\nVidrio2: Ancho=656 Altura=1861\r\nVidrio3: Ancho=656 Altura=1861\r\n"
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				}
+			]
+		}
+	}
+}

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- deliveryway_display_nme --></label>
+    <name>deliveryway_display_nme__c</name>
+</CustomFieldTranslation>

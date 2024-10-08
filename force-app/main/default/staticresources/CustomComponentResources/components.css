@@ -1,10 +1,12 @@
-/*div.LARGE {
+div.LARGE {
     background: red;
   }
 div.SMALL {
     background: blue;
-  }*/
+  }
 :host {
+  --slds-c-button-brand-color-background: purple;
+  --slds-c-button-brand-color-border: purple;
   /* Other CSS custom properties here */
   --error-color: red;
   --warning-color: darkorange;

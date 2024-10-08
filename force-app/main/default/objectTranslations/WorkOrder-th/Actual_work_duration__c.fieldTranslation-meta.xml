@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-    <label><!-- Actual work duration --></label>
+    <label><!-- Actual work duration OLD --></label>
     <name>Actual_work_duration__c</name>
 </CustomFieldTranslation>

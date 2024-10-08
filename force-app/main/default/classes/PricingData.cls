@@ -1,4 +1,52 @@
-public class PricingData{
+/**
+ * @description       : 
+ * @author            : Henk Reynders
+ * @group             : 
+ * @last modified on  : 06-15-2024
+ * @last modified by  : Henk Reynders
+**/
+public class PricingData {
+    public static ConfigurationPlan parsePricingJSON(String pricingJSON) {
+        return (ConfigurationPlan) System.JSON.deserialize(pricingJSON, ConfigurationPlan.class);
+    }
+    // Pricing File Contain a Tree Structure of the Configuration
+    // Level 1: Configuration Plan
+    // Level 2: Configuration Product(s)
+    // Level 3: Configuration Option(s)
+    //          Configuration Message(s) aka Inspect Messages
+    public class ConfigurationPlan {
+        @AuraEnabled public String apartment{get; set;} // User Input Text, Number or Null
+        @AuraEnabled public String floor{get; set;} // User Input Text, Number or Null
+        @AuraEnabled public String id{get; set;} // Configurator unique Id
+        @AuraEnabled public String line{get; set;} // User Input Text, Number or Null
+        @AuraEnabled public String name{get; set;} // User Input Text, Number or Null
+        @AuraEnabled public List<ConfigurationProduct> products{get; set;} // Product Included with the Plan
+        @AuraEnabled public String version{get; set;} // Configurator Version
+    }
+    public class ConfigurationProduct {
+        @AuraEnabled public String hasFeaturesBeenConfirmed{get; set;}
+        @AuraEnabled public String hasMeasurementsBeenVerified{get; set;}
+        @AuraEnabled public String id{get; set;}
+        @AuraEnabled public String name{get; set;}
+        @AuraEnabled public List<ConfigurationItem> configurationItems{get; set;}
+        @AuraEnabled public String productInspectCode{get; set;}
+        @AuraEnabled public List<ConfigurationMessages> productInspectMessageKeys{get; set;}
+        @AuraEnabled public String productLength{get; set;}
+        @AuraEnabled public List<String> reclaimedFeatureMessageKeys{get; set;}
+        @AuraEnabled public String rvn{get; set;}
+    }
+    public class ConfigurationItem {
+        @AuraEnabled public Double Amount{get; set;}
+        @AuraEnabled public Boolean LocalSupplier{get; set;}
+        @AuraEnabled public String ParameterCode{get; set;}
+        @AuraEnabled public String SalesCode{get; set;}
+        @AuraEnabled public String UniqueId{get; set;}
+        @AuraEnabled public String Unit{get; set;}
+    }
+    public class ConfigurationMessages {
+        @AuraEnabled public String MessageKey{get; set;}
+        @AuraEnabled public String SpaceSideNumber{get; set;}
+    }
     @AuraEnabled public Id recordId {get; set;}
 	@AuraEnabled public String sObjectType {get; set;}
 	@AuraEnabled public Id opportunityId {get; set;}
@@ -35,10 +83,10 @@ public class PricingData{
     @AuraEnabled public Map<String,PricebookEntry> sellableProductsMap {get;set;}
     @AuraEnabled public List<PricebookEntry> basePrices {get;set;}
     @AuraEnabled public Map<String,PricebookEntry> pricelistEntryMap {get;set;}
-    // Price Parameters
-    @AuraEnabled public List<Factory_Price__c> factoryParameters {get;set;}
-    @AuraEnabled public List<Product_Cost__c> costParameters {get;set;}
-    @AuraEnabled public List<Sales_Price__c> salesParameters {get;set;}
+    // Price Multipliers
+    @AuraEnabled public List<Factory_Price__c> factoryMultipliers {get;set;}
+    @AuraEnabled public List<Product_Cost__c> costMultipliers {get;set;}
+    @AuraEnabled public List<Sales_Price__c> salesMultipliers {get;set;}
     @AuraEnabled public List<String> productGroups {get;set;}
     @AuraEnabled public List<String> costTypes {get;set;}
     // Installation Time Data
@@ -59,9 +107,9 @@ public class PricingData{
         @AuraEnabled public String salesParameter{get; set;} // The relevant Sales Price Parameter -> Business Attribute
         @AuraEnabled public String name{get; set;} // Name of the Pricing Table
         @AuraEnabled public String description{get; set;} // Description of the Pricing Table
-        //@AuraEnabled public List<PricingItem> pricingItems{get; set;} // Product Model aka Configurable Product
+        //@AuraEnabled public List<PricingParameter> ConfigurationPlan{get; set;} // Product Model aka Configurable Product
     }       
-    public class PricingItem {
+    public class PricingParameter {
         // Pricebook Attributes
         @AuraEnabled public Boolean sellable {get; set;} 
         // PriceList Attributes
@@ -108,11 +156,9 @@ public class PricingData{
         // Field Attributes
         @AuraEnabled public String fieldLabel {get;set;}
 		@AuraEnabled public String fieldName {get;set;}
-
         @AuraEnabled public Decimal itemLineNumber {get; set;} 
-
     }
-    public class PricingParameter {
+    public class BusinessAttribute {
         @AuraEnabled public String organization;
         @AuraEnabled public String countryCode;
         @AuraEnabled public String territory;
@@ -121,8 +167,5 @@ public class PricingData{
         @AuraEnabled public String profitCenter;
         @AuraEnabled public String office;
         @AuraEnabled public String customerNumber;
-    }
-    public static PricingData parsePricingData(String pricingJSON) {
-        return (PricingData) System.JSON.deserialize(pricingJSON, PricingData.class);
     }
 }

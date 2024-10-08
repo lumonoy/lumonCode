@@ -84,11 +84,12 @@
     </layoutSections>
     <relatedLists>
         <fields>Name</fields>
+        <fields>OperatingHours</fields>
+        <fields>Resource_Name__c</fields>
         <fields>ServiceResource</fields>
         <fields>TerritoryType</fields>
         <fields>EffectiveStartDate</fields>
         <fields>EffectiveEndDate</fields>
-        <fields>OperatingHours</fields>
         <relatedList>ServiceTerritoryMembers</relatedList>
     </relatedLists>
     <relatedLists>

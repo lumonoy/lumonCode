@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
-    <description>Required Permissions for ICT Support</description>
+    <description>Access Rights and Permissions for ICT Support User</description>
     <hasActivationRequired>false</hasActivationRequired>
     <label>Lumon ICT Support</label>
-    <permissionSets>CaseHandlingPermissions</permissionSets>
-    <permissionSets>ICTSupport</permissionSets>
-    <permissionSets>ICTSupportObjectandFieldPermissions</permissionSets>
+    <permissionSets>CPQFeaturePermissions</permissionSets>
+    <permissionSets>CaseHandlingObjectandFieldPermissions</permissionSets>
     <permissionSets>SoveliaPermissions</permissionSets>
-    <permissionSets>UserMobileAppAccessPermissions</permissionSets>
-    <permissionSets>VisualPermissions</permissionSets>
-    <permissionSets>force__StandardEinsteinActivityCapturePsl</permissionSets>
+    <permissionSets>SoveliaTestPermissions</permissionSets>
     <status>Updated</status>
 </PermissionSetGroup>

@@ -42,9 +42,9 @@ export default class OfferContent extends NavigationMixin(LightningElement) {
     keyField = 'id';
     columns = [];
     cssResourcePath = customComponentResources + '/datatable.css';
-    componentStyles = customComponentResources + '/components.css';
-    buttonStyles = customComponentResources + '/buttons.css';
-    tableStyles= customComponentResources + '/datatable.css';
+    //componentStyles = customComponentResources + '/components.css';
+    //buttonStyles = customComponentResources + '/buttons.css';
+    //tableStyles= customComponentResources + '/datatable.css';
     sortBy;
     sortOrder = SORT_ORDER_DESC;
     processing = false;
@@ -286,7 +286,6 @@ export default class OfferContent extends NavigationMixin(LightningElement) {
                 console.log('--- configuration event - Type: '+data.payload.configType__c);
                 console.log('--- configuration event - Action: '+data.payload.configAction__c);
                 console.log('--- configuration event - Record: '+data.payload.recordId__c);
-
                 if (data?.payload?.recordId__c === this.recordId &&
                     data?.payload?.configAction__c === 'Configure'
                 ) { this.processing = true;}
@@ -552,7 +551,7 @@ export default class OfferContent extends NavigationMixin(LightningElement) {
                 showToast(this, 'Error', reduceErrors(e), 'error');
             }
             this.processing = false;
-            this.componentStyles= customComponentResources + '/components.css';
+            //this.componentStyles= customComponentResources + '/components.css';
             this.buttonStyles = customComponentResources + '/buttons.css';
             this.tableStyles= customComponentResources + '/datatable.css';
         });

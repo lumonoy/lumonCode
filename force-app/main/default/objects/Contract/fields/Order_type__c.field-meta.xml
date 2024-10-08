@@ -3,7 +3,7 @@
     <fullName>Order_type__c</fullName>
     <externalId>false</externalId>
     <formula>TEXT(Opportunity__r.Order_type__c)</formula>
-    <label>Order type</label>
+    <label>Order type OLD</label>
     <required>false</required>
     <trackHistory>false</trackHistory>
     <type>Text</type>

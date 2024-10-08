@@ -5,7 +5,7 @@
 
 Considers only items that are still to be done i.e. in &quot;new and in progress&quot; status.</description>
     <externalId>false</externalId>
-    <label>Total Duration</label>
+    <label>Total Duration OLD</label>
     <summarizedField>WorkOrderLineItem.Duration</summarizedField>
     <summaryFilterItems>
         <field>WorkOrderLineItem.Status</field>

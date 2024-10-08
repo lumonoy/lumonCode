@@ -4,7 +4,7 @@
     <description>Pricebook used for Quote. Field used only for integration</description>
     <externalId>false</externalId>
     <formula>Opportunity__r.Pricebook2.Name</formula>
-    <label>PriceBook Name</label>
+    <label>PriceBook Name OLD</label>
     <required>false</required>
     <trackHistory>false</trackHistory>
     <type>Text</type>

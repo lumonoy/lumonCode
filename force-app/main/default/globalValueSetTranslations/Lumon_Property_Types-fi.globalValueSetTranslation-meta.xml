@@ -2,11 +2,11 @@
 <GlobalValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <valueTranslation>
         <masterLabel>Apartment Building</masterLabel>
-        <translation><!-- Apartment Building --></translation>
+        <translation>Kerrostalo</translation>
     </valueTranslation>
     <valueTranslation>
         <masterLabel>Cottage</masterLabel>
-        <translation><!-- Cottage --></translation>
+        <translation>Kesämökki</translation>
     </valueTranslation>
     <valueTranslation>
         <masterLabel>HoReCa</masterLabel>
@@ -22,10 +22,10 @@
     </valueTranslation>
     <valueTranslation>
         <masterLabel>Row House</masterLabel>
-        <translation><!-- Row House --></translation>
+        <translation>Rivitalo</translation>
     </valueTranslation>
     <valueTranslation>
         <masterLabel>Single Family House</masterLabel>
-        <translation><!-- Single Family House --></translation>
+        <translation>Omakotitalo</translation>
     </valueTranslation>
 </GlobalValueSetTranslation>

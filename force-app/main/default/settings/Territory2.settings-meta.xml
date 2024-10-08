@@ -8,6 +8,7 @@
     <opportunityFilterSettings>
         <apexClassName>OppTerrAssignDefaultLogicFilter</apexClassName>
         <enableFilter>true</enableFilter>
+        <runMultiThreaded>false</runMultiThreaded>
         <runOnCreate>true</runOnCreate>
     </opportunityFilterSettings>
     <showTM2EnabledBanner>false</showTM2EnabledBanner>

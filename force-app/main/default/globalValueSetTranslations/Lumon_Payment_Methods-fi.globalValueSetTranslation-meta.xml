@@ -2,15 +2,15 @@
 <GlobalValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <valueTranslation>
         <masterLabel>Cash</masterLabel>
-        <translation><!-- Cash --></translation>
+        <translation>käteinen</translation>
     </valueTranslation>
     <valueTranslation>
         <masterLabel>Financing</masterLabel>
-        <translation><!-- Financing --></translation>
+        <translation>rahoitus</translation>
     </valueTranslation>
     <valueTranslation>
         <masterLabel>Paytrail</masterLabel>
-        <translation><!-- Paytrail --></translation>
+        <translation>Paytrail</translation>
     </valueTranslation>
     <valueTranslation>
         <masterLabel>Transfer</masterLabel>

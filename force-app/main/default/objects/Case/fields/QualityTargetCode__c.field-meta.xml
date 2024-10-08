@@ -14,32 +14,20 @@
         <restricted>true</restricted>
         <valueSetName>Lumon_Quality_Target_Codes</valueSetName>
         <valueSettings>
-            <controllingFieldValue>01</controllingFieldValue>
-            <valueName>01.01</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>01</controllingFieldValue>
-            <valueName>01.02</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>02</controllingFieldValue>
-            <valueName>02.01</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>02</controllingFieldValue>
-            <valueName>02.02</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>02</controllingFieldValue>
-            <valueName>02.03</valueName>
-        </valueSettings>
-        <valueSettings>
             <controllingFieldValue>03</controllingFieldValue>
             <valueName>03.01</valueName>
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>03</controllingFieldValue>
             <valueName>03.02</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>01</controllingFieldValue>
+            <valueName>01.01</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>01</controllingFieldValue>
+            <valueName>01.02</valueName>
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>04</controllingFieldValue>
@@ -52,6 +40,18 @@
         <valueSettings>
             <controllingFieldValue>04</controllingFieldValue>
             <valueName>04.03</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>02</controllingFieldValue>
+            <valueName>02.01</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>02</controllingFieldValue>
+            <valueName>02.02</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>02</controllingFieldValue>
+            <valueName>02.03</valueName>
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>05</controllingFieldValue>

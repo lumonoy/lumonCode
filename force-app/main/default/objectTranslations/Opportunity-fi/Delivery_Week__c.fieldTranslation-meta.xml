@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-    <label><!-- Delivery Week --></label>
+    <label>Toimitusviikko</label>
     <name>Delivery_Week__c</name>
 </CustomFieldTranslation>

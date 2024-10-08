@@ -4,8 +4,8 @@
     <decisions>
         <name>Is_work_estimate_over_8h</name>
         <label>Is work estimate over 8h</label>
-        <locationX>660</locationX>
-        <locationY>351</locationY>
+        <locationX>182</locationX>
+        <locationY>323</locationY>
         <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
         <rules>
             <name>Yes</name>
@@ -23,10 +23,10 @@
             <label>Yes</label>
         </rules>
     </decisions>
-    <description>02.12.2023: Save Active Version as R2</description>
+    <description>06.09.2024: Save Active Version as R4</description>
     <environments>Default</environments>
     <interviewLabel>SA - On Create After Save {!$Flow.CurrentDateTime}</interviewLabel>
-    <label>SA - On Create After Save R2</label>
+    <label>SA - On Create After Save R4</label>
     <processMetadataValues>
         <name>BuilderType</name>
         <value>
@@ -36,7 +36,7 @@
     <processMetadataValues>
         <name>CanvasMode</name>
         <value>
-            <stringValue>FREE_FORM_CANVAS</stringValue>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
         </value>
     </processMetadataValues>
     <processMetadataValues>
@@ -49,8 +49,8 @@
     <recordUpdates>
         <name>Set_Multi_Day_flag</name>
         <label>Set Multi Day flag</label>
-        <locationX>770</locationX>
-        <locationY>449</locationY>
+        <locationX>50</locationX>
+        <locationY>431</locationY>
         <inputAssignments>
             <field>FSL__IsMultiDay__c</field>
             <value>
@@ -60,8 +60,8 @@
         <inputReference>$Record</inputReference>
     </recordUpdates>
     <start>
-        <locationX>543</locationX>
-        <locationY>48</locationY>
+        <locationX>56</locationX>
+        <locationY>0</locationY>
         <connector>
             <targetReference>Is_work_estimate_over_8h</targetReference>
         </connector>

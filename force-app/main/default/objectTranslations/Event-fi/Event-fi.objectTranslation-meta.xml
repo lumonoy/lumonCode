@@ -16,7 +16,7 @@
         </sections>
     </layouts>
     <recordTypes>
-        <label><!-- Customer Event --></label>
+        <label>Asiakastilaisuus</label>
         <name>Customer_Event</name>
     </recordTypes>
     <validationRules>

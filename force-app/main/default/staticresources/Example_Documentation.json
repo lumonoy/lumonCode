@@ -1,0 +1,478 @@
+{
+	"products": {
+		"name": "LGR 2x2 + 2",
+		"space": {
+			"corner_multiplier": "No",
+			"floor_height": {
+				"_xsi:nil": "true"
+			},
+			"balcony_plate_height": "0",
+			"sides": {
+				"side": [
+					{
+						"number": "0",
+						"height": "2000",
+						"width": "2000",
+						"start_angle": "90",
+						"system_angle": "90",
+						"end_angle": {
+							"_xsi:nil": "true"
+						},
+						"products": "BalconyGlazing",
+						"connecting_profiles_right": "Both"
+					},
+					{
+						"number": "1",
+						"height": "2000",
+						"width": "2000",
+						"start_angle": {
+							"_xsi:nil": "true"
+						},
+						"system_angle": {
+							"_xsi:nil": "true"
+						},
+						"end_angle": "90",
+						"products": "BalconyGlazing",
+						"connecting_profiles_left": "Both"
+					}
+				]
+			}
+		},
+		"balconyglazing": {
+			"product_code": "LG",
+			"product_code_short": "LG",
+			"structural_version_number": "30014185",
+			"unique_system_id": "R1a-z_gfO0KV7yb665kk0w",
+			"is_reclaimed": "false",
+			"product_status": "1",
+			"product_weight": "434.5858",
+			"order_xml_info": {
+				"rivipaino": "434.5858",
+				"sivut": {
+					"sivu": [
+						{
+							"numero": "1",
+							"profiilivari-yla": "E6/EV1",
+							"profiilivari-ala": "E6/EV1",
+							"lasi-vahvuus": "12",
+							"lasi-vari": "20090020",
+							"lasi-karkaisu": "1",
+							"muovivari-yla": "Tummanharmaa",
+							"muovivari-ala": "Tummanharmaa",
+							"profiili-yla": "11222206",
+							"profiili-ala": "11243001",
+							"profiili-saato": "11241205",
+							"profiilipituus": "2000",
+							"lasitus-pituus": "2000",
+							"lasitus-korkeus": "2000",
+							"lasivasen-kpl": "3",
+							"lasioikea-kpl": "0",
+							"kulmanylitys": "CORNER_BYPASS_NO",
+							"sivun-paino": "217.292907714844",
+							"alkukulma": "90",
+							"loppukulma": "90",
+							"jarjestelmakulma": "90"
+						},
+						{
+							"numero": "2",
+							"profiilivari-yla": "E6/EV1",
+							"profiilivari-ala": "E6/EV1",
+							"lasi-vahvuus": "12",
+							"lasi-vari": "20090020",
+							"lasi-karkaisu": "1",
+							"muovivari-yla": "Tummanharmaa",
+							"muovivari-ala": "Tummanharmaa",
+							"profiili-yla": "11222206",
+							"profiili-ala": "11243001",
+							"profiili-saato": "11241205",
+							"profiilipituus": "2000",
+							"lasitus-pituus": "2000",
+							"lasitus-korkeus": "2000",
+							"lasivasen-kpl": "3",
+							"lasioikea-kpl": "0",
+							"kulmanylitys": "CORNER_BYPASS_NO",
+							"sivun-paino": "217.292907714844",
+							"alkukulma": "90",
+							"loppukulma": "90",
+							"jarjestelmakulma": ""
+						}
+					]
+				}
+			},
+			"installation_xml_info": {
+				"AssemblyDocument": {
+					"Chapter": [
+						{
+							"Paragraph": [
+								{
+									"_name": "Tuote",
+									"__text": "LG , [INST_XML_SIDES]:2"
+								},
+								{
+									"_name": "Kiinnitystapa",
+									"__text": "[INST_XML_UPPER]: [INST_XML_TO_ROOF], [INST_XML_LOWER]: [INST_XML_TO_FLOOR]"
+								},
+								{
+									"_name": "Profiilit",
+									"__text": "[INST_XML_UPPER]: 11241205 E6/EV1, [INST_XML_LOWER]: 11243001 11243001"
+								},
+								{
+									"_name": "Varusteet",
+									"__text": "[INST_XML_PLASTIC_PARTS]: [INST_XML_DARK_GREY], [INST_XML_END_PLUGS]"
+								}
+							],
+							"_name": "Tuotetiedot"
+						},
+						{
+							"Paragraph": [
+								{
+									"_name": "Sivu1,H3=1873",
+									"__text": "[INST_XML_START_ANGLE]=90 [INST_XML_END_ANGLE]= [INST_XML_LENGTH]=2000 [INST_XML_ZMEASURE]=0 [INST_XML_HEIGHT]=2000 [INST_XML_LOWER_REDUCTION]=0 [INST_XML_UPPER_REDUCTION]=0 [INST_XML_LEFT_GLASSES]=3 [INST_XML_RIGHT_GLASSES]=0 [INST_XML_SYSTEM_ANGLE]=90 [INST_XML_CORNER_BYPASS]=[INST_XML_VALUE_NO] [INST_XML_ADJUSTMENT_SCREW]= [INST_XML_UPPER_PROFILE]: 11241205 E6/EV1 [INST_XML_LOWER_PROFILE]: 11243001 E6/EV1 [INST_XML_TELESCOPIC_PROFILE]: 11222206 E6/EV1 [INST_XML_GLASS]1: [INST_XML_WIDTH_SHORT]=648 [INST_XML_HEIGHT_SHORT]=1861 [INST_XML_GLASS]2: [INST_XML_WIDTH_SHORT]=648 [INST_XML_HEIGHT_SHORT]=1861 [INST_XML_GLASS]3: [INST_XML_WIDTH_SHORT]=648 [INST_XML_HEIGHT_SHORT]=1861"
+								},
+								{
+									"_name": "Sivu2,H3=1873",
+									"__text": "[INST_XML_START_ANGLE]= [INST_XML_END_ANGLE]=90 [INST_XML_LENGTH]=2000 [INST_XML_ZMEASURE]=0 [INST_XML_HEIGHT]=2000 [INST_XML_LOWER_REDUCTION]=0 [INST_XML_UPPER_REDUCTION]=0 [INST_XML_LEFT_GLASSES]=3 [INST_XML_RIGHT_GLASSES]=0 [INST_XML_SYSTEM_ANGLE]= [INST_XML_CORNER_BYPASS]=[INST_XML_VALUE_NO] [INST_XML_ADJUSTMENT_SCREW]= [INST_XML_UPPER_PROFILE]: 11241205 E6/EV1 [INST_XML_LOWER_PROFILE]: 11243001 E6/EV1 [INST_XML_TELESCOPIC_PROFILE]: 11222206 E6/EV1 [INST_XML_GLASS]1: [INST_XML_WIDTH_SHORT]=648 [INST_XML_HEIGHT_SHORT]=1861 [INST_XML_GLASS]2: [INST_XML_WIDTH_SHORT]=648 [INST_XML_HEIGHT_SHORT]=1861 [INST_XML_GLASS]3: [INST_XML_WIDTH_SHORT]=648 [INST_XML_HEIGHT_SHORT]=1861"
+								}
+							],
+							"_name": "Tuotemitat"
+						}
+					],
+					"_name": "Asennustiedot"
+				}
+			},
+			"start_reduction": "0",
+			"end_reduction": "0",
+			"plastic_color": "PLASTIC_COLOR_DARK_GREY",
+			"heat_soak": "LUMON_NO_HEATSOAK",
+			"glass_default_width": {
+				"_xsi:nil": "true"
+			},
+			"glass_type": "20090020",
+			"glass_thickness": "12",
+			"glass_color": "GLASS_COLOR_OF88_CLEAR",
+			"external_sill": "LG_NoWaterFlashing",
+			"external_sill_seal": "DOCXML_NO",
+			"end_plugs": "DOCXML_YES",
+			"upper_profile": "UPPER_PROFILE_11251205_11222206",
+			"upper_profile_color": "E6/EV1",
+			"upper_profile_connection_material": "CrackedConcreteC20",
+			"lower_profile": "LOWER_PROFILE_11253001",
+			"lower_profile_color": "E6/EV1",
+			"lower_profile_connection_material": "CrackedConcreteC20",
+			"upper_brackets": "NO_UPPER_BRACKET",
+			"lower_brackets": "LowerBracket_NoBracket",
+			"left_edge_seal": "LEFT_EDGE_SEAL_54042024",
+			"left_edge_seal_color": "",
+			"right_edge_seal": "RIGHT_EDGE_SEAL_54042024",
+			"right_edge_seal_color": "",
+			"watering_holes": "YES_DRAINHOLE",
+			"glass_seals": "NO_H-SEAL",
+			"attention_tape": "DOCXML_YES",
+			"pull_latch": "DOCXML_NO",
+			"upper_seal": "DOCXML_NO",
+			"lower_seal": "NO_LowerSeal",
+			"decibel_sealing": "DOCXML_NO",
+			"balustrade_seal": "NO_LowerSeal",
+			"vertical_frame": "DOCXML_NO",
+			"embedded_feature": "LUMON_NO_EMBEDDED_SYSTEM",
+			"lower_profile_fastening_holes": "NO_MILLING",
+			"sides": {
+				"side": [
+					{
+						"number": "0",
+						"space_side_number": "0",
+						"is_reclaimed": "false",
+						"product_side_status": "1",
+						"side_weight": "217.292907714844",
+						"start_angle": "90",
+						"system_angle": "90",
+						"end_angle": "90",
+						"z_measure": "0",
+						"structural_height": "2000",
+						"structural_width": "2000",
+						"product_height": "2000",
+						"product_width": "2000",
+						"opening_width": "2000",
+						"opening_height": "2000",
+						"lower_reduction": "0",
+						"upper_reduction": "0",
+						"start_reduction": "0",
+						"end_reduction": "0",
+						"glasses_left": "3",
+						"glasses_right": "0",
+						"glasses_left_allowed": "DOCXML_NO",
+						"glasses_right_allowed": "DOCXML_NO",
+						"corner_bypass": "CORNER_BYPASS_NO",
+						"latch": "LUMON_PD9240061",
+						"adjustment_screw": "10",
+						"h3": "1873",
+						"glass_height": "1861",
+						"connecting_profiles_right": "Both",
+						"balustrade_width": "0",
+						"latch_left": "LUMON_PD9240061",
+						"latch_left_height": "0",
+						"latch_right": "DOCXML_NO",
+						"latch_right_height": "0",
+						"profile": "0",
+						"profile_extension_left": "0",
+						"profile_extension_right": "0",
+						"sliding": "DOCXML_NO",
+						"bracket_color": "Tummanharmaa",
+						"differences": "",
+						"reclaimed_features": "",
+						"glasses": {
+							"glass": [
+								{
+									"is_reclaimed": "false",
+									"number": "0",
+									"height": "1861",
+									"width": "648",
+									"rail": "0",
+									"blinds": "LUMON_BLIND_ONE_PART",
+									"sandblasting": "DOCXML_NO",
+									"differences": {
+										"difference": [
+											{
+												"feature_name": "Blinds",
+												"value": "LUMON_BLIND_ONE_PART",
+												"translation": "DOCXML_BLINDS"
+											},
+											{
+												"feature_name": "BlindsColor",
+												"value": "LUMON_BLIND_COLOR_1288",
+												"translation": "DOCXML_BLINDS_COLOR"
+											},
+											{
+												"feature_name": "BlindsProfileColor",
+												"value": "LUMON_BLIND_PROFILE_COLOR_RAL9010",
+												"translation": "DOCXML_BLINDS_PROFILE_COLOR"
+											},
+											{
+												"feature_name": "MiddleLatchLeft",
+												"value": "LUMON_PD9240061",
+												"translation": "DOCXML_MIDDLE_LATCH_LEFT"
+											},
+											{
+												"feature_name": "MiddleLatchHeightLeft",
+												"value": "0 mm",
+												"translation": "DOCXML_MIDDLE_LATCH_HEIGHT_LEFT"
+											}
+										]
+									},
+									"reclaimed_features": ""
+								},
+								{
+									"is_reclaimed": "false",
+									"number": "1",
+									"height": "1861",
+									"width": "648",
+									"rail": "0",
+									"blinds": "LUMON_BLIND_ONE_PART",
+									"sandblasting": "DOCXML_NO",
+									"differences": {
+										"difference": [
+											{
+												"feature_name": "Blinds",
+												"value": "LUMON_BLIND_ONE_PART",
+												"translation": "DOCXML_BLINDS"
+											},
+											{
+												"feature_name": "BlindsColor",
+												"value": "LUMON_BLIND_COLOR_1288",
+												"translation": "DOCXML_BLINDS_COLOR"
+											},
+											{
+												"feature_name": "BlindsProfileColor",
+												"value": "LUMON_BLIND_PROFILE_COLOR_RAL9010",
+												"translation": "DOCXML_BLINDS_PROFILE_COLOR"
+											}
+										]
+									},
+									"reclaimed_features": ""
+								},
+								{
+									"is_reclaimed": "false",
+									"number": "2",
+									"height": "1861",
+									"width": "648",
+									"rail": "0",
+									"blinds": "LUMON_BLIND_ONE_PART",
+									"sandblasting": "DOCXML_NO",
+									"differences": {
+										"difference": [
+											{
+												"feature_name": "Blinds",
+												"value": "LUMON_BLIND_ONE_PART",
+												"translation": "DOCXML_BLINDS"
+											},
+											{
+												"feature_name": "BlindsColor",
+												"value": "LUMON_BLIND_COLOR_1288",
+												"translation": "DOCXML_BLINDS_COLOR"
+											},
+											{
+												"feature_name": "BlindsProfileColor",
+												"value": "LUMON_BLIND_PROFILE_COLOR_RAL9010",
+												"translation": "DOCXML_BLINDS_PROFILE_COLOR"
+											}
+										]
+									},
+									"reclaimed_features": ""
+								}
+							]
+						}
+					},
+					{
+						"number": "1",
+						"space_side_number": "1",
+						"is_reclaimed": "false",
+						"product_side_status": "1",
+						"side_weight": "217.292907714844",
+						"start_angle": "90",
+						"system_angle": "0",
+						"end_angle": "90",
+						"z_measure": "0",
+						"structural_height": "2000",
+						"structural_width": "2000",
+						"product_height": "2000",
+						"product_width": "2000",
+						"opening_width": "2000",
+						"opening_height": "2000",
+						"lower_reduction": "0",
+						"upper_reduction": "0",
+						"start_reduction": "0",
+						"end_reduction": "0",
+						"glasses_left": "3",
+						"glasses_right": "0",
+						"glasses_left_allowed": "DOCXML_NO",
+						"glasses_right_allowed": "DOCXML_NO",
+						"corner_bypass": "CORNER_BYPASS_NO",
+						"latch": "LUMON_PD9240061",
+						"adjustment_screw": "10",
+						"h3": "1873",
+						"glass_height": "1861",
+						"connecting_profiles_left": "Both",
+						"balustrade_width": "0",
+						"latch_left": "LUMON_PD9240061",
+						"latch_left_height": "0",
+						"latch_right": "DOCXML_NO",
+						"latch_right_height": "0",
+						"profile": "0",
+						"profile_extension_left": "0",
+						"profile_extension_right": "0",
+						"sliding": "DOCXML_NO",
+						"bracket_color": "Tummanharmaa",
+						"differences": "",
+						"reclaimed_features": "",
+						"glasses": {
+							"glass": [
+								{
+									"is_reclaimed": "false",
+									"number": "0",
+									"height": "1861",
+									"width": "648",
+									"rail": "0",
+									"blinds": "LUMON_BLIND_ONE_PART",
+									"sandblasting": "DOCXML_NO",
+									"differences": {
+										"difference": [
+											{
+												"feature_name": "Blinds",
+												"value": "LUMON_BLIND_ONE_PART",
+												"translation": "DOCXML_BLINDS"
+											},
+											{
+												"feature_name": "BlindsColor",
+												"value": "LUMON_BLIND_COLOR_1288",
+												"translation": "DOCXML_BLINDS_COLOR"
+											},
+											{
+												"feature_name": "BlindsProfileColor",
+												"value": "LUMON_BLIND_PROFILE_COLOR_RAL9010",
+												"translation": "DOCXML_BLINDS_PROFILE_COLOR"
+											},
+											{
+												"feature_name": "MiddleLatchLeft",
+												"value": "LUMON_PD9240061",
+												"translation": "DOCXML_MIDDLE_LATCH_LEFT"
+											},
+											{
+												"feature_name": "MiddleLatchHeightLeft",
+												"value": "0 mm",
+												"translation": "DOCXML_MIDDLE_LATCH_HEIGHT_LEFT"
+											}
+										]
+									},
+									"reclaimed_features": ""
+								},
+								{
+									"is_reclaimed": "false",
+									"number": "1",
+									"height": "1861",
+									"width": "648",
+									"rail": "0",
+									"blinds": "LUMON_BLIND_ONE_PART",
+									"sandblasting": "DOCXML_NO",
+									"differences": {
+										"difference": [
+											{
+												"feature_name": "Blinds",
+												"value": "LUMON_BLIND_ONE_PART",
+												"translation": "DOCXML_BLINDS"
+											},
+											{
+												"feature_name": "BlindsColor",
+												"value": "LUMON_BLIND_COLOR_1288",
+												"translation": "DOCXML_BLINDS_COLOR"
+											},
+											{
+												"feature_name": "BlindsProfileColor",
+												"value": "LUMON_BLIND_PROFILE_COLOR_RAL9010",
+												"translation": "DOCXML_BLINDS_PROFILE_COLOR"
+											}
+										]
+									},
+									"reclaimed_features": ""
+								},
+								{
+									"is_reclaimed": "false",
+									"number": "2",
+									"height": "1861",
+									"width": "648",
+									"rail": "0",
+									"blinds": "LUMON_BLIND_ONE_PART",
+									"sandblasting": "DOCXML_NO",
+									"differences": {
+										"difference": [
+											{
+												"feature_name": "Blinds",
+												"value": "LUMON_BLIND_ONE_PART",
+												"translation": "DOCXML_BLINDS"
+											},
+											{
+												"feature_name": "BlindsColor",
+												"value": "LUMON_BLIND_COLOR_1288",
+												"translation": "DOCXML_BLINDS_COLOR"
+											},
+											{
+												"feature_name": "BlindsProfileColor",
+												"value": "LUMON_BLIND_PROFILE_COLOR_RAL9010",
+												"translation": "DOCXML_BLINDS_PROFILE_COLOR"
+											}
+										]
+									},
+									"reclaimed_features": ""
+								}
+							]
+						}
+					}
+				]
+			},
+			"other_products": {
+				"order_xml_info": "",
+				"installation_xml_info": "",
+				"is_reclaimed": "false"
+			}
+		}
+	}
+}

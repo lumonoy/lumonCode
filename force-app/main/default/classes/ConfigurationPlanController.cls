@@ -2,7 +2,7 @@
  * @description       : 
  * @author            : Henk Reynders
  * @group             : 
- * @last modified on  : 04-29-2024
+ * @last modified on  : 08-16-2024
  * @last modified by  : Henk Reynders
 **/
 public with sharing class ConfigurationPlanController {
@@ -11,211 +11,78 @@ public with sharing class ConfigurationPlanController {
 	private static String visibleFieldSet = 'Table_View';
 	private static String editableFieldSet = 'Table_Edit';
 	@AuraEnabled(cacheable=true)
-    public static List<Configuration__c> getConfigurationPlans(Id configId, Id relatedRecordId, String visualPlanId){
-        System.debug('--- Get Configuration Plan for Processing');
-        Configuration__c configPlan = New Configuration__c(); // Existing Configuration Plan
-        List<Configuration__c> configPlans = New List<Configuration__c>(); // Existing Configuration Plans  
-        // Find Configuration based on configId, recordId or VisualPlanId
-        if(String.isNotBlank(configId)){
-            System.debug('--- Getting Configuration Plan Id for Config Id '+configId); 
-            configPlans = getConfigurationPlansById(configId);
-            System.debug('--- Found '+configPlans.size()+' Configuration Plan(s) with Id: '+ configId);
-        } else if (String.isNotBlank(relatedRecordId)) {
-            System.debug('--- Getting Configuration Plans from Record');       
-            configPlans = getConfigurationsByRelatedId(relatedRecordId);
-            System.debug('--- Found '+configPlans.size()+' related Configuration Plan(s) for Id: '+ relatedRecordId);
-        }  else if (String.isNotBlank(visualPlanId)){ 
-            System.debug('--- Getting Configuration Plan Id for Visual Plan Id '+visualPlanId);  
-            configPlans = getConfigurationsByVisualId(visualPlanId);
-            System.debug('--- Found '+configPlans.size()+' Configuration Plan(s) for Visual Id: '+ visualPlanId);
-        }
-        return configPlans;
+    public static Configuration__c getConfigurationPlan(Id recordId) { 
+        // Find Configuration Plan based on recordId
+        List<Id> recordIds = new List<Id>{recordId};
+        List<Configuration__c> configPlans = getConfigurationPlans(recordIds);
+        Configuration__c configPlan = configPlans[0];
+        return configPlan;
+    }   
+    @AuraEnabled(cacheable=false)
+    public static Configuration__c getConfigurationPlanByNumber(String planIdentifier) {
+        // Populate List from SOQL query on Plan
+        Id configPlanId = [SELECT Id, ConfigurationNumber__c FROM Configuration__c WHERE ConfigurationNumber__c =: planIdentifier LIMIT 1]?.Id; 
+        List<Id> configPlanIds = new List<Id>();
+        configPlanIds.add(configPlanId);
+        Configuration__c configPlan = new Configuration__c();
+        System.debug('--- ConfigurationPlanController - Get Configuration Plan with Id '+configPlanId); 
+        List<Configuration__c> configPlans =  getConfigurationPlans(configPlanIds); 
+        if  (configPlans?.size()>0) {
+            configPlan = configPlans[0];
+            System.debug('--- ConfigurationPlanController - Configuration Plan: '+configPlan.Name); 
+        }        
+        return configPlan;
     }
+	
 	@AuraEnabled(cacheable=true)
-	public static List<Configuration__c> getConfigurationPlansByBatchId(Id batchId){
-		List<Configuration__c> configPlans = New List<Configuration__c>(); // Existing Configuration Plans  
-		// Find Configuration based on Delivery BatchId
-        if (String.isNotEmpty(batchId)){
-            configPlans =  [ SELECT Id,
-                        Name,
-                        Account__c,
-                        Opportunity__c,
-                        Quote__c,
-                        Delivery_Batch__c,
-						Delivery_Batch_Number__c,
-						Plan_Type__c,
-						Plan_Name__c,
-						Plan_Floor__c,
-						Plan_Line__c,
-						Plan_Apartment__c
-                FROM Configuration__c 
-                WHERE Delivery_Batch__c =: batchId];
-		}
-		return configPlans;
-	}
-    @AuraEnabled(cacheable=true)
-	public static List<Configuration__c> getConfigurationPlansById(Id configurationId){
-		List<Configuration__c> configPlans = New List<Configuration__c>(); // Existing Configuration Plans  
-		// Find Configuration based on ConfigurationId
-        if (String.isNotEmpty(configurationId)){
-            configPlans =  [ SELECT Id,
-                        Name,
-                        Account__c,
-                        Opportunity__c,
-                        Quote__c,
-                        Contract__c,
-                        Order__c,
-                        Work_Order__c,
-                        Case__c,
-                        Plan_Type__c,
-						Plan_Name__c,
-						Plan_Floor__c,
-						Plan_Line__c,
-						Plan_Apartment__c
-                FROM Configuration__c 
-                WHERE Id =: configurationId];
-		}
-		return configPlans;
-	}
-	@AuraEnabled(cacheable=true)
-	public static List<Configuration__c> getConfigurationPlansByIds(List<Id> configurationIds){
+	public static List<Configuration__c> getConfigurationPlans(List<Id> recordIds){
 		List<Configuration__c> configPlans = New List<Configuration__c>(); // Existing Configuration Plans  
 		// Find Configuration based on ConfigurationIs
-		if (configurationIds.size()>0 && configurationIds != null) {
+		if (recordIds.size()>0 && recordIds != null) {
 			configPlans =  [ SELECT Id,
 									Name,
 									Account__c,
-									Opportunity__c,
-									Quote__c,
-									Contract__c,
-									Order__c,
-									Work_Order__c,
-									Case__c,
-									Plan_Type__c,
-									Visual_Id__c
-							FROM Configuration__c 
-							WHERE Id IN: configurationIds];
-		}
-		return configPlans;
-	}
-	@AuraEnabled(cacheable=true)
-	public static List<Configuration__c> getConfigurationsByRelatedId(Id relatedRecordId){
-		List<Configuration__c> configPlans = New List<Configuration__c>(); // Existing Configuration Plans  
-		// Find Configuration based on Opportunity or Quote recordId
-		if (String.isNotBlank(relatedRecordId)) {
-			configPlans = getConfigurationsByRelatedIds(new List<Id>{relatedRecordId});
-		}
-		return configPlans;
-	}
-	@AuraEnabled(cacheable=true)
-	public static List<Configuration__c> getConfigurationsByRelatedIds(List<Id> relatedRecordIds){
-		List<Configuration__c> configPlans = New List<Configuration__c>(); // Existing Configuration Plans  
-		// Find Configuration based on Opportunity or Quote recordId
-		if (relatedRecordIds.size()>0) {
-			configPlans = [ SELECT Id,
-									Name,
-									//OwnerId, Not available for Child Records
-									IsDeleted, 
-									Account__c,
 									Building__c,
-									//Apartment__c,
+									Apartment__c,	
+									BuildingProject__c,
+									DeliveryProject__c,
+									DeliveryBatch__c,
 									Opportunity__c,
 									Quote__c,
 									Contract__c,
 									Order__c,
-									Work_Order__c,
-									Case__c,									
+									WorkOrder__c,
+									Case__c,	
+									ConfigurationNumber__c,						
 									Status__c,
-									Configuration_Name__c,
-									Configuration_Status__c, 
-									Opportunity_Number__c, 
-									Opportunity_Project__c,  
-									Lock_RVN__c,
-									LockPlan__c,
-									Plan_Type__c, 
-									Plan_Apartment__c, 
-									Plan_Floor__c, 
-									Plan_Line__c, 
+									Floor__c,
+									Line__c,
+									ApartmentUnit__c,
 									Plan_Name__c,
-									Visual_Id__c, 
-									Config_JSON__c, 
-									Pricing_JSON__c,
-									Visual_Pricing_JSON__c, 
-									Visual_Products_JSON__c,
-									Visual_Version__c, 
-									Count_Products__c,
-									Sovelia_Id__c, 
-									Sovelia_Pricing_JSON__c, 
-									Sovelia_Products_JSON__c, 
-									//Sovelia_Statistics__c, 
-									Sovelia_Version__c, 
+									DeliveryBatchNumber__c,
+									ConfigurationIdentifier__c,
+									OfferNumber__c,
+									OriginalConfigurationPlan__c,
 									hasInstallationTime__c,
-									Installation_Duration__c,
-									Installation_Time__c, 
-									Installation_Hours__c, 
-									fxInstallationMins__c,  
-									hasProductionTime__c, 
-									Production_Time__c, 
-									Production_Time_Max__c
+									hasProductionTime__c,
+									CountConfigurationProducts__c,
+									EstimatedInstallationHours__c,
+									PlannedInstallationHours__c,
+									SalesToriConfigKey__c,
+									isMigrated__c
 							FROM Configuration__c 
-							WHERE Account__c IN : relatedRecordIds
-							OR Building__c IN: relatedRecordIds
-							OR Opportunity__c IN: relatedRecordIds
-							OR Quote__c IN: relatedRecordIds
-							OR Contract__c IN: relatedRecordIds
-							OR Order__c IN: relatedRecordIds
-							OR Work_Order__c IN: relatedRecordIds
-							OR Case__c IN: relatedRecordIds];
+							WHERE Id IN: recordIds
+								OR Account__c IN: recordIds
+								OR Building__c IN: recordIds
+								OR Apartment__c IN: recordIds
+								//OR Project__c IN: recordIds
+								OR Opportunity__c IN: recordIds
+								OR Quote__c IN: recordIds
+								OR Contract__c IN: recordIds
+								OR Order__c IN: recordIds
+								OR WorkOrder__c IN: recordIds
+								OR Case__c IN: recordIds];
 		}
 		return configPlans;
-	}
-	@AuraEnabled(cacheable=true)
-	public static List<Configuration__c> getConfigurationsByVisualId(String visualPlanId){
-		List<Configuration__c> configPlans = New List<Configuration__c>(); // Existing Configuration Plans  
-		// Find Configuration based on Visual Confguration Id
-		if (String.isNotBlank(visualPlanId)) {
-			configPlans = [ SELECT Id,
-									Name,
-									Account__c,
-									Opportunity__c,
-									Quote__c,
-									Contract__c,
-									Order__c,
-									Work_Order__c,
-									Case__c,
-									Plan_Type__c,
-									Visual_Id__c
-							FROM Configuration__c 
-							WHERE Visual_Id__c =: visualPlanId];
-		}
-		return configPlans;
-	}
-	@AuraEnabled(cacheable=true)
-	// Create a Map of Configuration Products and Visual Structure Number
-	public static Map<String,Configuration__c> getVisualIdsToPlanMap(List<Configuration__c> configurations){
-		Map<String,Configuration__c> visualToPlanMap = new Map<String,Configuration__c>();
-		if (configurations.size()>0 && configurations != null) {
-			for (Configuration__c configPlan : configurations){
-				String visualId = configPlan.Visual_Id__c;
-				if(!visualToPlanMap.containsKey(visualId)){
-					visualToPlanMap.put(visualId,configPlan);
-				}
-			}
-		}
-		return visualToPlanMap;
-	}
-    @AuraEnabled(cacheable=true)
-	// Create a Map of Configuration Products and Visual Structure Number
-	public static Map<Id,Configuration__c> getOpportunitiesToPlanMap(List<Configuration__c> configurations){
-		Map<Id,Configuration__c> opportunitiesToPlanMap = new Map<Id,Configuration__c>();
-		if (configurations.size()>0 && configurations != null) {
-			for (Configuration__c configPlan : configurations){
-				Id opportunityId = configPlan.Opportunity__c;
-				if(!opportunitiesToPlanMap.containsKey(opportunityId)){
-					opportunitiesToPlanMap.put(opportunityId,configPlan);
-				}
-			}
-		}
-		return opportunitiesToPlanMap;
 	}
 }

@@ -4,7 +4,7 @@
     <description>Profit center code value</description>
     <externalId>false</externalId>
     <formula>LEFT(TEXT(Profit_Center__c),FIND(TEXT(Organization__c),TEXT(Profit_Center__c),1)-2)</formula>
-    <label>Profit Center Code</label>
+    <label>Profit Center Code OLD</label>
     <required>false</required>
     <trackTrending>false</trackTrending>
     <type>Text</type>

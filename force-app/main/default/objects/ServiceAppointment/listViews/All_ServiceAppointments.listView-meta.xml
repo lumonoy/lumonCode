@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ListView xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>All_ServiceAppointments</fullName>
+    <columns>Name</columns>
+    <columns>LUM_Parent_Work_Order__c</columns>
+    <columns>Account</columns>
+    <columns>Status</columns>
+    <columns>STREET</columns>
+    <columns>EstDuration</columns>
+    <columns>ArrivalWindowStartTime</columns>
+    <columns>ServiceTerritory</columns>
+    <columns>Subject</columns>
+    <columns>ActualStartTime</columns>
+    <columns>ActualDuration</columns>
+    <columns>LatestEndTime</columns>
+    <columns>Delivery_Batch__c</columns>
     <filterScope>Everything</filterScope>
     <label>All Service Appointments</label>
 </ListView>

@@ -52,6 +52,10 @@
             <default>false</default>
         </values>
         <values>
+            <fullName>Public Holiday</fullName>
+            <default>false</default>
+        </values>
+        <values>
             <fullName>Sick leave</fullName>
             <default>false</default>
         </values>

@@ -1,0 +1,609 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>56.0</apiVersion>
+    <assignments>
+        <name>Set_Field_Service_Office</name>
+        <label>Set Field Service Office</label>
+        <locationX>50</locationX>
+        <locationY>2051</locationY>
+        <assignmentItems>
+            <assignToReference>txtFieldServiceOffice</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>Get_Field_Service_Office.OfficeCode__c</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>txtFieldServiceOfficeId</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>Get_Field_Service_Office.Id</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>txtOfficeId</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>txtFieldServiceOfficeId</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Update_Opportunity</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Set_Opportunity_Business_Attributes</name>
+        <label>Set Opportunity Business Attributes</label>
+        <locationX>671</locationX>
+        <locationY>395</locationY>
+        <assignmentItems>
+            <assignToReference>txtOrganizationAttribute</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>$Record.Organization__c</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>txtCountryAttribute</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>$Record.DeliveryAddress__CountryCode__s</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>txtDistrictAttribute</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>$Record.District__c</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>txtProfitCenterAttribute</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>$Record.ProfitCenter__c</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>txtOfficeAttribute</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>$Record.Office__c</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>txtBusinessTypeAttribute</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>$Record.BusinessType__c</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>txtCustomerSegmentAttribute</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>$Record.CustomerSegment__c</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Is_Migrated_Opportunity</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Set_Sales_Office</name>
+        <label>Set Sales Office</label>
+        <locationX>215</locationX>
+        <locationY>1235</locationY>
+        <assignmentItems>
+            <assignToReference>txtOfficeAttribute</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>Get_Sales_Office.OfficeCode__c</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>txtSalesOfficeId</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>Get_Sales_Office.Id</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>txtOfficeId</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>txtSalesOfficeId</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Has_Installation_Manager</targetReference>
+        </connector>
+    </assignments>
+    <decisions>
+        <name>Field_Service_Office_Returned</name>
+        <label>Field Service Office Returned?</label>
+        <locationX>182</locationX>
+        <locationY>1943</locationY>
+        <defaultConnector>
+            <targetReference>Update_Opportunity</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>No Field Service Office</defaultConnectorLabel>
+        <rules>
+            <name>FieldServiceOffice</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Get_Field_Service_Office</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Set_Field_Service_Office</targetReference>
+            </connector>
+            <label>Field Service Office</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Has_Installation_Manager</name>
+        <label>Has Installation Manager?</label>
+        <locationX>501</locationX>
+        <locationY>1511</locationY>
+        <defaultConnector>
+            <targetReference>Update_Opportunity</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>No Installation Manager</defaultConnectorLabel>
+        <rules>
+            <name>Installation_Manager</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.InstallationManagerUser__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Get_Installation_Manager_User</targetReference>
+            </connector>
+            <label>Installation Manager</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Has_Sales_Person</name>
+        <label>Has Sales Person?</label>
+        <locationX>671</locationX>
+        <locationY>695</locationY>
+        <defaultConnector>
+            <targetReference>Update_Opportunity</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>No Sales Person</defaultConnectorLabel>
+        <rules>
+            <name>Sales_Person</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.SalesPersonUser__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Get_SalesPerson_User</targetReference>
+            </connector>
+            <label>Sales Person</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Installation_Manager_User_Returned</name>
+        <label>Installation Manager User Returned?</label>
+        <locationX>336</locationX>
+        <locationY>1727</locationY>
+        <defaultConnector>
+            <targetReference>Update_Opportunity</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>No Installation Manager User</defaultConnectorLabel>
+        <rules>
+            <name>Installation_Manager_User</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Get_Installation_Manager_User</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Get_Field_Service_Office</targetReference>
+            </connector>
+            <label>Installation Manager User</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Is_Migrated_Opportunity</name>
+        <label>Is Migrated Opportunity?</label>
+        <locationX>671</locationX>
+        <locationY>503</locationY>
+        <defaultConnector>
+            <targetReference>Has_Sales_Person</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Created</defaultConnectorLabel>
+        <rules>
+            <name>Migrated</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.isMigrated__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Has_Sales_Person</targetReference>
+            </connector>
+            <label>Migrated</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Sales_Office_Returned</name>
+        <label>Sales Office Returned?</label>
+        <locationX>347</locationX>
+        <locationY>1127</locationY>
+        <defaultConnector>
+            <targetReference>Has_Installation_Manager</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>No Sales Office</defaultConnectorLabel>
+        <rules>
+            <name>Sales_Office</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Get_Sales_Office</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Set_Sales_Office</targetReference>
+            </connector>
+            <label>Sales Office</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Sales_User_Returned</name>
+        <label>Sales User Returned?</label>
+        <locationX>501</locationX>
+        <locationY>911</locationY>
+        <defaultConnector>
+            <targetReference>Has_Installation_Manager</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>No Sales User</defaultConnectorLabel>
+        <rules>
+            <name>Sales_User</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Get_SalesPerson_User</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Get_Sales_Office</targetReference>
+            </connector>
+            <label>Sales User</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Skip_Automation</name>
+        <label>Skip Automation?</label>
+        <locationX>228</locationX>
+        <locationY>287</locationY>
+        <defaultConnector>
+            <targetReference>Set_Opportunity_Business_Attributes</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Continue</defaultConnectorLabel>
+        <rules>
+            <name>Abort</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Setup.AutomationBypass__c.SkipAutomation__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <label>Abort</label>
+        </rules>
+    </decisions>
+    <description>Trigger Flow to Set the Opportunity Business Attributes</description>
+    <environments>Default</environments>
+    <formulas>
+        <name>fxSalesAttribute</name>
+        <dataType>String</dataType>
+        <expression>/* Sales Area Flow*/
+SUBSTITUTE(
+	TRIM(
+		/* 1. Organization - LSU */
+		IF(NOT(ISBLANK({!txtOrganizationAttribute})),
+			{!txtOrganizationAttribute} ,&apos;&apos;)
+		/* 2. Country - LSU_FI */
+		+IF(AND(NOT(ISBLANK({!txtCountryAttribute})),NOT(ISBLANK({!txtOrganizationAttribute}))),
+			&apos;_&apos;+{!txtCountryAttribute} ,&apos;&apos;)
+		+IF(AND(NOT(ISBLANK({!txtCountryAttribute})),ISBLANK({!txtOrganizationAttribute})),
+			{!txtCountryAttribute} ,&apos;&apos;)
+		/* 3. District/Sales Area - LSU_FI_South */
+		+IF(AND(NOT(ISBLANK({!txtDistrictAttribute})),NOT(ISBLANK({!txtCountryAttribute})),ISBLANK({!txtProfitCenterAttribute})),
+			&apos;_&apos;+ SUBSTITUTE({!txtDistrictAttribute} , {!txtCountryAttribute}+&apos;_&apos;, &apos;&apos;) ,&apos;&apos;)
+		/* 4. Profit Center - LSU_FI_402 */
+		+IF(NOT(ISBLANK({!txtProfitCenterAttribute})),
+			&apos;_&apos;+{!txtProfitCenterAttribute} ,&apos;&apos;)
+		/* 5. Office - LSU_FI_402_12345 */
+		+IF(NOT(ISBLANK({!txtOfficeAttribute})),
+			&apos;_&apos;+SUBSTITUTE({!txtOfficeAttribute} , {!txtCountryAttribute}+&apos;_&apos;, &apos;&apos;),&apos;&apos;)
+		/* 6. Business Type - LSU_FI_402_12345_1 */
+		+IF(AND(NOT(ISBLANK( {!txtBusinessTypeAttribute})),ISBLANK({!txtCustomerSegmentAttribute})),
+			&apos;_&apos;+{!txtBusinessTypeAttribute} ,&apos;&apos;)
+		/* 7. Customer Segment - LSU_FI_402_12345_1100 */
+		+IF(NOT(ISBLANK({!txtCustomerSegmentAttribute})),
+			&apos;_&apos;+{!txtCustomerSegmentAttribute} ,&apos;&apos;)
+	),
+&apos; &apos;, &apos;_&apos;)</expression>
+    </formulas>
+    <formulas>
+        <name>fxServiceAttribute</name>
+        <dataType>String</dataType>
+        <expression>/* Field Service Area Flow*/ 
+SUBSTITUTE(
+	TRIM(
+		/* 1. Organization - LSU */
+		IF(NOT(ISBLANK({!txtOrganizationAttribute})),
+			{!txtOrganizationAttribute} ,&apos;&apos;)
+		/* 2. Country - LSU_FI */
+		+IF(NOT(ISBLANK({!txtCountryAttribute})),
+			&apos;_&apos;+{!txtCountryAttribute} ,&apos;&apos;)
+		/* 3. District/Sales Area - LSU_FI_South */
+		+IF(NOT(ISBLANK({!txtDistrictAttribute})),
+			&apos;_&apos;+ SUBSTITUTE({!txtDistrictAttribute}, {!txtCountryAttribute}+&apos;_&apos;, &apos;&apos;) ,&apos;&apos;)
+		/* 4. Profit Center - LSU_FI_402 */
+		+IF(NOT(ISBLANK({!txtProfitCenterAttribute})),
+			&apos;_&apos;+{!txtProfitCenterAttribute} ,&apos;&apos;)
+		/* 5. Office - LSU_FI_402_12345 */
+		+IF(NOT(ISBLANK({!txtOfficeAttribute})),
+			&apos;_&apos;+SUBSTITUTE({!txtOfficeAttribute} , {!txtCountryAttribute}+&apos;_&apos;, &apos;&apos;),&apos;&apos;)
+		/* 6. Business Type - LSU_FI_402_12345_1 */
+		+IF(AND(NOT(ISBLANK( {!txtBusinessTypeAttribute})),ISBLANK({!txtCustomerSegmentAttribute})),
+			&apos;_&apos;+{!txtBusinessTypeAttribute} ,&apos;&apos;)
+		/* 7. Customer Segment - LSU_FI_402_12345_1100 */
+		+IF(NOT(ISBLANK({!txtCustomerSegmentAttribute})),
+			&apos;_&apos;+{!txtCustomerSegmentAttribute} ,&apos;&apos;)
+	),
+&apos; &apos;, &apos;_&apos;)</expression>
+    </formulas>
+    <interviewLabel>Opportunity - Set Business Attributes {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Opportunity - Set Business Attributes R4</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordLookups>
+        <name>Get_Field_Service_Office</name>
+        <label>Get Field Service Office</label>
+        <locationX>182</locationX>
+        <locationY>1835</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Field_Service_Office_Returned</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>OfficeCode__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>Get_Installation_Manager_User.OfficeAttribute__c</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>Office__c</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordLookups>
+        <name>Get_Installation_Manager_User</name>
+        <label>Get Installation Manager User</label>
+        <locationX>336</locationX>
+        <locationY>1619</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Installation_Manager_User_Returned</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.InstallationManagerUser__c</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>User</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordLookups>
+        <name>Get_Sales_Office</name>
+        <label>Get Sales Office</label>
+        <locationX>347</locationX>
+        <locationY>1019</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Sales_Office_Returned</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>OfficeCode__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>Get_SalesPerson_User.OfficeAttribute__c</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>Office__c</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordLookups>
+        <name>Get_SalesPerson_User</name>
+        <label>Get SalesPerson User</label>
+        <locationX>501</locationX>
+        <locationY>803</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Sales_User_Returned</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.SalesPersonUser__c</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>User</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordUpdates>
+        <name>Update_Opportunity</name>
+        <label>Update Opportunity</label>
+        <locationX>671</locationX>
+        <locationY>2495</locationY>
+        <inputAssignments>
+            <field>FieldServiceOffice__c</field>
+            <value>
+                <elementReference>txtFieldServiceOfficeId</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Office__c</field>
+            <value>
+                <elementReference>txtOfficeId</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>SalesOffice__c</field>
+            <value>
+                <elementReference>txtSalesOfficeId</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <start>
+        <locationX>102</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Skip_Automation</targetReference>
+        </connector>
+        <object>Opportunity</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordBeforeSave</triggerType>
+    </start>
+    <status>Active</status>
+    <triggerOrder>600</triggerOrder>
+    <variables>
+        <name>txtBusinessTypeAttribute</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>txtCountryAttribute</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>txtCustomerSegmentAttribute</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>txtDistrictAttribute</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>txtFieldServiceOffice</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>txtFieldServiceOfficeId</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>txtOfficeAttribute</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>txtOfficeId</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>txtOrganizationAttribute</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>txtProfitCenterAttribute</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>txtSalesOffice</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>txtSalesOfficeId</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+</Flow>

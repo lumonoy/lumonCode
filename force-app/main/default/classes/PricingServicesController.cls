@@ -2,12 +2,16 @@
  * @description       : 
  * @author            : Henk Reynders
  * @group             : 
- * @last modified on  : 11-21-2023
+ * @last modified on  : 04-15-2024
  * @last modified by  : Henk Reynders
 **/
 public with sharing class PricingServicesController {
+    //@TestVisible
+    //public static final List<String> SERVICES_PRODUCT_GROUPS = new List<String>{'HUOLTO','PERUSHUOLTO', 'MÄÄRÄAIKAISHUOLTO','TUNTITYÖ'};
     @TestVisible
-    public static final List<String> SERVICES_PRODUCT_GROUPS = new List<String>{'HUOLTO','PERUSHUOLTO', 'MÄÄRÄAIKAISHUOLTO','TUNTITYÖ'};
+    public static final List<String> SERVICES_PRODUCT_GROUPS = new List<String>{'MAINT','BASIC', 'INSPECT','HOURS','EXTEND','FIRST','RENOV'};
+
+    public static final String SERVICES_PLAN_TYPE = 'Services';
 
     public with sharing class ComponentData {
         @AuraEnabled

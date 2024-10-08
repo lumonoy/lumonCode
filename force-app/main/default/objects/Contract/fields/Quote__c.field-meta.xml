@@ -4,7 +4,7 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <description>Lookup field to bring quote data to contract - Integration purpose</description>
     <externalId>false</externalId>
-    <label>Quote</label>
+    <label>Quote OLD</label>
     <referenceTo>Quote</referenceTo>
     <relationshipLabel>Contracts</relationshipLabel>
     <relationshipName>Contracts</relationshipName>

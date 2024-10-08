@@ -1,0 +1,141 @@
+{
+    "apartment": null,
+    "floor": null,
+    "id": "UJRBX",
+    "line": null,
+    "name": "UJRBX",
+    "products": [
+        {
+            "hasFeaturesBeenConfirmed": false,
+            "hasMeasurementsBeenVerified": false,
+            "id": "mnuBOLTqB02CfGFtFzSDxg",
+            "name": "LG",
+            "priceParameters": [
+                {
+                    "Amount": 0.729144,
+                    "LocalSupplier": false,
+                    "ParameterCode": "",
+                    "SalesCode": "20090016",
+                    "UniqueId": 0,
+                    "Unit": "M2"
+                },
+                {
+                    "Amount": 1.0,
+                    "LocalSupplier": false,
+                    "ParameterCode": "",
+                    "SalesCode": "PD9240153",
+                    "UniqueId": 0,
+                    "Unit": "kpl"
+                },
+                {
+                    "Amount": 1.0,
+                    "LocalSupplier": false,
+                    "ParameterCode": "",
+                    "SalesCode": "PD9240161",
+                    "UniqueId": 0,
+                    "Unit": "kpl"
+                },
+                {
+                    "Amount": 1.0,
+                    "LocalSupplier": false,
+                    "ParameterCode": "",
+                    "SalesCode": "PD9240169",
+                    "UniqueId": 0,
+                    "Unit": "kpl"
+                },
+                {
+                    "Amount": 1.0,
+                    "LocalSupplier": false,
+                    "ParameterCode": "",
+                    "SalesCode": "PD9240096",
+                    "UniqueId": 0,
+                    "Unit": "kpl"
+                },
+                {
+                    "Amount": 0.729144,
+                    "LocalSupplier": false,
+                    "ParameterCode": "",
+                    "SalesCode": "PD9240098",
+                    "UniqueId": 0,
+                    "Unit": "M2"
+                },
+                {
+                    "Amount": 1.0,
+                    "LocalSupplier": false,
+                    "ParameterCode": "",
+                    "SalesCode": "PD9240142",
+                    "UniqueId": 0,
+                    "Unit": "kpl"
+                },
+                {
+                    "Amount": 1.0,
+                    "LocalSupplier": false,
+                    "ParameterCode": "",
+                    "SalesCode": "PD9240131",
+                    "UniqueId": 0,
+                    "Unit": "kpl"
+                },
+                {
+                    "Amount": 1.0,
+                    "LocalSupplier": false,
+                    "ParameterCode": "",
+                    "SalesCode": "PD9240120",
+                    "UniqueId": 0,
+                    "Unit": "kpl"
+                },
+                {
+                    "Amount": 1.0,
+                    "LocalSupplier": false,
+                    "ParameterCode": "",
+                    "SalesCode": "PD9240202",
+                    "UniqueId": 0,
+                    "Unit": "kpl"
+                },
+                {
+                    "Amount": 1.0,
+                    "LocalSupplier": false,
+                    "ParameterCode": "",
+                    "SalesCode": "PD9240151",
+                    "UniqueId": 0,
+                    "Unit": "kpl"
+                },
+                {
+                    "Amount": 1.0,
+                    "LocalSupplier": false,
+                    "ParameterCode": "",
+                    "SalesCode": "PD9240155",
+                    "UniqueId": 0,
+                    "Unit": "kpl"
+                },
+                {
+                    "Amount": 1.0,
+                    "LocalSupplier": false,
+                    "ParameterCode": "",
+                    "SalesCode": "PD9240163",
+                    "UniqueId": 0,
+                    "Unit": "kpl"
+                },
+                {
+                    "Amount": 1.0,
+                    "LocalSupplier": false,
+                    "ParameterCode": "",
+                    "SalesCode": "PD9240171",
+                    "UniqueId": 0,
+                    "Unit": "kpl"
+                }
+            ],
+            "productInspectCode": 2,
+            "productInspectMessageKeys": [
+                {
+                    "MessageKey": "E24402"
+                }
+            ],
+            "productLength": 0.0,
+            "reclaimedFeatureMessageKeys": [
+                "[RECL_SIDE]1: [RECL_GLASS]2"
+            ],
+            "rvn": "30003710"
+        }
+    ],
+    "version": 2
+}

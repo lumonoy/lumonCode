@@ -1,3 +1,10 @@
+/**
+ * @description       : 
+ * @author            : Henk Reynders
+ * @group             : 
+ * @last modified on  : 06-19-2024
+ * @last modified by  : Henk Reynders
+**/
 @isTest
 public with sharing class ConfigurationTestDataFactory { 
     /** Determine if person account is enabled in current org **/
@@ -73,7 +80,7 @@ public with sharing class ConfigurationTestDataFactory {
             Opportunity__c = o1.Id,
             Name='Test Config 1',
             Plan_Apartment__c = 'A1',// public String apartment; // Door Nbr in Apartment
-            Plan_Floor__c = 6,// public Integer floor; // Floor Nbr in Building
+            Plan_Floor__c = '6',// public Integer floor; // Floor Nbr in Building
             Visual_Id__c = 'ABCDE1',//public String id; // Unique Visual Configuration Id
             Plan_Line__c = '100',// public String line; //?
             Plan_Name__c = 'NAME',// public String name; // Name of the Configuration
@@ -260,7 +267,7 @@ public with sharing class ConfigurationTestDataFactory {
             Opportunity__c = o3.Id,
             Name='Test Config 2',
             Plan_Apartment__c = 'A3',// public String apartment; // Door Nbr in Apartment
-            Plan_Floor__c = 6,// public Integer floor; // Floor Nbr in Building
+            Plan_Floor__c = '6',// public Integer floor; // Floor Nbr in Building
             Visual_Id__c = 'ABCDE2',//public String id; // Unique Visual Configuration Id
             Plan_Line__c = '100',// public String line; //?
             Plan_Name__c = 'NAME',// public String name; // Name of the Configuration
@@ -308,7 +315,7 @@ public with sharing class ConfigurationTestDataFactory {
             Space_Side_Number__c = 1);
         insert cfgMsg;  
         List<Object> nestedConfigs =   [SELECT  Configuration__r.Id,
-                                                Configuration__r.Plan_Floor__c,
+                                                //Configuration__r.Plan_Floor__c,
                                                 Configuration__r.Plan_Apartment__c,
                                                 Configuration__r.Visual_Id__c,
                                                 (SELECT Message_Key__c,
@@ -472,7 +479,7 @@ public with sharing class ConfigurationTestDataFactory {
             Opportunity__c = o5.Id,
             Name='Test Config 3',
             Plan_Apartment__c = 'A3',// public String apartment; // Door Nbr in Apartment
-            Plan_Floor__c = 6,// public Integer floor; // Floor Nbr in Building
+            Plan_Floor__c = '6',// public Integer floor; // Floor Nbr in Building
             Visual_Id__c = 'ABCDE3',//public String id; // Unique Visual Configuration Id
             Plan_Line__c = '100',// public String line; //?
             Plan_Name__c = 'NAME',// public String name; // Name of the Configuration

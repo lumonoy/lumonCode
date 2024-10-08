@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- language_code_lan --></label>
+    <name>language_code_lan__c</name>
+    <picklistValues>
+        <masterLabel>de-CH</masterLabel>
+        <translation><!-- de-CH --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>de-DE</masterLabel>
+        <translation><!-- de-DE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>en-CA</masterLabel>
+        <translation><!-- en-CA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>en-US</masterLabel>
+        <translation><!-- en-US --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>es-ES</masterLabel>
+        <translation><!-- es-ES --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>fi-FI</masterLabel>
+        <translation><!-- fi-FI --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>fr-FR</masterLabel>
+        <translation><!-- fr-FR --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>nb-NO</masterLabel>
+        <translation><!-- nb-NO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>sv-SE</masterLabel>
+        <translation><!-- sv-SE --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- The Quote Number related to the Configuration Plan --></help>
+    <label><!-- Plan Offer Number --></label>
+    <name>OfferNumber__c</name>
+</CustomFieldTranslation>

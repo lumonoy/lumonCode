@@ -7,7 +7,7 @@
 IMAGE(&apos;/img/msg_icons/confirm32.png&apos;,&apos;SUCCESS&apos;,20,20),
 IMAGE(&apos;/img/msg_icons/error32.png&apos;,&apos;ERROR&apos;,20,20)
 )</formula>
-    <label>Contract Message Status</label>
+    <label>Contract Message Status OLD</label>
     <required>false</required>
     <trackHistory>false</trackHistory>
     <type>Text</type>

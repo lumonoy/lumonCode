@@ -4,7 +4,7 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <description>Configuration Product related to the WOLI.</description>
     <externalId>false</externalId>
-    <label>Configuration Product</label>
+    <label>Configuration Product OLD</label>
     <referenceTo>Configuration_Product__c</referenceTo>
     <relationshipLabel>Assets</relationshipLabel>
     <relationshipName>Assets</relationshipName>

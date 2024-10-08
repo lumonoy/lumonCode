@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product_Translations</fullName>
+    <columns>PRODUCT2.FAMILY</columns>
+    <columns>Product_Group__c</columns>
+    <columns>Cost_Category__c</columns>
+    <columns>Cost_Type__c</columns>
+    <columns>PRODUCT2.NAME</columns>
+    <columns>Product_Name_EN__c</columns>
+    <columns>Product_Name_ES__c</columns>
+    <columns>Product_Name_FI__c</columns>
+    <columns>PRODUCT2.CUSTOMER_PRODUCT_ID</columns>
+    <columns>Sales_Code__c</columns>
+    <columns>PRODUCT2.ACTIVE</columns>
+    <columns>Unit_Of_Measure__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>Product Translations</label>
+</ListView>

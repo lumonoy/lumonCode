@@ -17,10 +17,5 @@
         <operation>equals</operation>
         <value>asennus,asennus1,asennus2,asennus3</value>
     </filters>
-    <filters>
-        <field>Product_Group__c</field>
-        <operation>equals</operation>
-        <value>LG</value>
-    </filters>
     <label>Installation Prices</label>
 </ListView>

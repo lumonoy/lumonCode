@@ -74,6 +74,7 @@ public class CloneConfigurationController {
 
 		Http http = new Http();
 		String endpoint = credentials.Endpoint__c;
+        System.debug('*** endpoint ***'+endpoint);
 		HttpRequest request = new HttpRequest();
 		request.setEndpoint(endpoint);
 		request.setMethod('POST');
@@ -81,11 +82,14 @@ public class CloneConfigurationController {
 		request.setHeader('Content-Type', 'application/json;charset=UTF-8');
 		String body = signedRequest + '.' + encodedBody;
 		request.setBody(body);
+        System.debug('*** body ***'+body);
 		HttpResponse visualResponse = http.send(request);
 
 		Integer statusCode = visualResponse.getStatusCode();
+        System.debug('*** statusCode ***'+statusCode);
 		if (statusCode >= 200 && statusCode < 300) {
 			ResponseWrapper response = (ResponseWrapper) JSON.deserialize(visualResponse.getBody(), ResponseWrapper.class);
+            System.debug('*** response ***'+response);
 			if (String.isBlank(response.error) && response.items != null) {
 				for(Integer i = 0; i < response.items.size(); i++) {
 					ItemWrapper item = response.items.get(i);

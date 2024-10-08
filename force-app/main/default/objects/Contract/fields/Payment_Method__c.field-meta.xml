@@ -4,7 +4,7 @@
     <description>Payment Methods accepted by Lumon</description>
     <externalId>false</externalId>
     <inlineHelpText>Payment Methods accepted by Lumon</inlineHelpText>
-    <label>Payment Method</label>
+    <label>Payment Method OLD</label>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>false</trackHistory>

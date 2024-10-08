@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- I am the approver --></label>
+    <name>I_am_the_approver__c</name>
+</CustomFieldTranslation>

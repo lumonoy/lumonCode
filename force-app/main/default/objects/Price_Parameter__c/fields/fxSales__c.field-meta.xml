@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fxSales__c</fullName>
+    <description>The ListPrice calculated from Base Price with a Sales Multiplier</description>
+    <externalId>false</externalId>
+    <formula>IF( Price_Multiplier__c &gt; 0,   fxUnitSalesPrice__c *  Quantity__c, 0)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>The Price on the PriceList aka List Price</inlineHelpText>
+    <label>fxSales</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>7</scale>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

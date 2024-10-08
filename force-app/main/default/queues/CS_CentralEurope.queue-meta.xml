@@ -6,14 +6,6 @@
         <publicGroups>
             <publicGroup>CS_CentralEurope</publicGroup>
         </publicGroups>
-        <users>
-            <user>anna.karas@lumon.com</user>
-            <user>jari.lipponen@lumon.fi</user>
-            <user>lotta.luukkanen@lumon.fi</user>
-            <user>mateusz.kalecinski@lumon.com</user>
-            <user>nadezhda.ivanova@lumon.com</user>
-            <user>vsevolod.abakumov@lumon.fi</user>
-        </users>
     </queueMembers>
     <queueSobject>
         <sobjectType>Case</sobjectType>

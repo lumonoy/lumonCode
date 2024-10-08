@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Cost of Goods Sold (COGS) refers to the business expenses directly tied to the production and sale of a company&apos;s goods and services --></help>
+    <label><!-- Cost Of Goods Sold --></label>
+    <name>Cost_Of_Goods_Sold__c</name>
+</CustomFieldTranslation>

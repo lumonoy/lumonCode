@@ -9,7 +9,7 @@ IF(Opportunity__r.Project_Number__r.Chargeable__c = TRUE ,&apos;chargeable&apos;
 
 IF(TEXT(Opportunity__r.Order_type__c) == &apos;Reclamation&apos;,
 IF(TEXT(Opportunity__r.Case__r.Process_Class__c) == &apos;Additional_order_11&apos;,&apos;chargeable&apos;,&apos;non-chargeable&apos;),&apos;&apos;))</formula>
-    <label>Chargeable</label>
+    <label>Chargeable OLD</label>
     <required>false</required>
     <trackHistory>false</trackHistory>
     <type>Text</type>

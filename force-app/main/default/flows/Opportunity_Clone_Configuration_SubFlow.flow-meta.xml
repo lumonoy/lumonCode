@@ -225,7 +225,7 @@
             </value>
         </assignmentItems>
         <assignmentItems>
-            <assignToReference>recTargetConfigurationPlan.Parent_Configuration_Plan__c</assignToReference>
+            <assignToReference>recTargetConfigurationPlan.OriginalConfigurationPlan__c</assignToReference>
             <operator>Assign</operator>
             <value>
                 <elementReference>sourceConfigurationPlanId</elementReference>
@@ -420,7 +420,7 @@
         <expression>{!$Flow.FaultMessage}</expression>
     </formulas>
     <interviewLabel>Opportunity - Clone Configuration SubFlow {!$Flow.CurrentDateTime}</interviewLabel>
-    <label>Opportunity - Clone Configuration SubFlow R2.5.2</label>
+    <label>Opportunity - Clone Configuration SubFlow R2</label>
     <processMetadataValues>
         <name>BuilderType</name>
         <value>

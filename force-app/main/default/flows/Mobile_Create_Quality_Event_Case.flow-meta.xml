@@ -386,7 +386,7 @@
             <targetReference>Get_WOLI_data</targetReference>
         </connector>
     </start>
-    <status>Active</status>
+    <status>Obsolete</status>
     <variables>
         <description>Reclamation Case that Installer fills in and sends when the WOLI cannot be completed. This means that Installation Manager needs to order new part(s) and new visit needs to be scheduled.</description>
         <name>CaseRecord</name>

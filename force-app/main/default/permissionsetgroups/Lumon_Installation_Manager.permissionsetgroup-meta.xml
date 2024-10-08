@@ -1,14 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
-    <description>Required Permissions Installation Managers</description>
+    <description>Access Rights and Permissions for Installation Manager</description>
     <hasActivationRequired>false</hasActivationRequired>
     <label>Lumon Installation Manager</label>
-    <permissionSets>CaseHandlingPermissions</permissionSets>
-    <permissionSets>CustomerServiceCaseHandlingPermissions</permissionSets>
-    <permissionSets>CustomerServicesAppPermissions</permissionSets>
+    <mutingPermissionSets>Lumon_Installation_Manager_Muted</mutingPermissionSets>
+    <permissionSets>CrewManagementPermissions</permissionSets>
+    <permissionSets>DispatcherFieldServicePermissions</permissionSets>
+    <permissionSets>FSL_Bundle_License</permissionSets>
+    <permissionSets>FSL_Bundle_Permissions</permissionSets>
+    <permissionSets>FSL_Dispatcher_License</permissionSets>
+    <permissionSets>FSL_Dispatcher_Permissions</permissionSets>
     <permissionSets>FieldServiceDispatchingPermissions</permissionSets>
-    <permissionSets>InstallationManagerFieldServicePermissions</permissionSets>
-    <permissionSets>InstallationManagerObjectandFieldPermissions</permissionSets>
+    <permissionSets>FieldServiceStandardPermissions</permissionSets>
+    <permissionSets>FieldServicesCustomPermissions</permissionSets>
+    <permissionSets>PricingCustomSettings</permissionSets>
+    <permissionSets>SalesPermissions</permissionSets>
+    <permissionSets>SoveliaPermissions</permissionSets>
+    <permissionSets>SoveliaTestPermissions</permissionSets>
+    <permissionSets>SuperVisorCustomSettings</permissionSets>
+    <permissionSets>SupervisorConfigurationPermissions</permissionSets>
+    <permissionSets>SupervisorObjectandFieldPermissions</permissionSets>
+    <permissionSets>VisualPermissions</permissionSets>
+    <permissionSets>maps__MapsUser</permissionSets>
     <permissionSets>tspa__VRA_Coummunity_End_User</permissionSets>
     <status>Updated</status>
 </PermissionSetGroup>

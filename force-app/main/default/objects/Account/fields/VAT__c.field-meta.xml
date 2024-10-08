@@ -3,7 +3,7 @@
     <fullName>VAT__c</fullName>
     <description>VAT value respective to the corporate interface</description>
     <externalId>false</externalId>
-    <label>VAT-%</label>
+    <label>VAT-% OLD</label>
     <precision>4</precision>
     <required>false</required>
     <scale>2</scale>

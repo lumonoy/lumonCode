@@ -1,0 +1,429 @@
+{
+	"order": {
+		"order_info": {
+			"axcompanyid": "LNC",
+			"currency": "CAD",
+			"customer_reference": "",
+			"order_type": "Normal",
+			"order_number": "66666666",
+			"vendorid": "LNP",
+			"project_number": "803153",
+			"parent_project": "",
+			"project_group": "CONSales",
+			"customer_segmentid": "1100",
+			"customer_segmentname": "Consumer single house",
+			"promised_deliveryweek": "2024/37",
+			"promised_date": "23.09.2024",
+			"main_contractor": "no",
+			"business_unit": "174",
+			"order_attachment": "\\\\frendsprod\\D365TEST\\SalesTori\\OUT\\attachments\\",
+			"subproject_info": {
+				"subproject_number": "803153_01",
+				"subproject_group": "CONWar",
+				"subproject_category": "Warranty",
+				"subproject_cost": "0.00",
+				"subproject_ordertype": "Reclamation",
+				"subproject_parentproject": "803153",
+				"subproject_chargeable": "non-chargeable"
+			},
+			"budget": {
+				"project_category": [
+					{
+						"category": "FactoryPurchase",
+						"cost": "3365.60"
+					},
+					{
+						"category": "InstallSupplies",
+						"cost": "7.88"
+					},
+					{
+						"category": "SalesFreight",
+						"cost": "400.47"
+					},
+					{
+						"category": "Wages",
+						"cost": "641.79"
+					}
+				]
+			},
+			"domestic_help": "",
+			"domestic_text": "",
+			"chargeable": "chargeable",
+			"worknumbername": "",
+			"pricelist": {
+				"pricelist_name": "Basic price list 1.4.2022"
+			},
+			"customer_address": {
+				"address_description": "Test Test",
+				"firstname": "Test",
+				"lastname": "Test",
+				"contact_person": "",
+				"street_address": "LNP test",
+				"city": "Vancouver",
+				"postal_code": "V6H 1Z9",
+				"fax": "",
+				"country": "CAN",
+				"province": "BC",
+				"county": "",
+				"phone_number": "+11111111",
+				"email": "robo@test.fi",
+				"note": "",
+				"number": "",
+				"customer_id": "",
+				"customer_name": "Test Test"
+			},
+			"invoice_address": {
+				"address_description": "Test Test",
+				"firstname": "Test",
+				"lastname": "Test",
+				"contact_person": "",
+				"street_address": "LNP test",
+				"city": "Vancouver",
+				"postal_code": "V6H 1Z9",
+				"fax": "",
+				"country": "CAN",
+				"province": "BC",
+				"county": "",
+				"phone_number": "+11111111",
+				"email": "robo@test.fi",
+				"note": "",
+				"payment_terms": "14",
+				"invoice_type": "Email",
+				"number": "",
+				"payment": "REF",
+				"paytrail_reference_id": ""
+			},
+			"install_address": {
+				"address_description": "Test Test",
+				"firstname": "Test",
+				"lastname": "Test",
+				"name": "LNP test",
+				"contact_person": "",
+				"street_address": "LNP test",
+				"city": "Vancouver",
+				"postal_code": "V6H 1Z9",
+				"fax": "",
+				"country": "CAN",
+				"province": "BC",
+				"county": "",
+				"phone_number": "+11111111",
+				"email": "robo@test.fi",
+				"note": "",
+				"number": null
+			},
+			"delivery_address": {
+				"address_description": "Test Test",
+				"firstname": "Test",
+				"lastname": "Test",
+				"contact_person": "Test Test",
+				"street_address": "LNP test",
+				"city": "Vancouver",
+				"postal_code": "V6H 1Z9",
+				"fax": "",
+				"country": "CAN",
+				"province": "BC",
+				"county": "",
+				"phone_number": "+11111111",
+				"email": "robo@test.fi",
+				"note": "",
+				"number": null,
+				"delivery_terms": "DAP",
+				"delivery_type": "delivery"
+			},
+			"sales_person": {
+				"username": "ristoku",
+				"supervisor": "jimb",
+				"firstname": "Risto",
+				"lastname": "Kujala"
+			},
+			"propertytype": "House",
+			"order_leadreference_vch": "Stand/Presentation/Trailer event",
+			"language_code_lan": "en-CA"
+		},
+		"groups": {
+			"group": [
+				{
+					"delivery_batch": "1",
+					"delivery_batch_status": "Mitattu",
+					"delivery_batch_receive_date": "16.09.2024",
+					"delivery_batch_delivery_date": "09.09.2024",
+					"group_attachment": "",
+					"AXconfiguration": "no",
+					"group_name": "Lumon Railing",
+					"pcs": "1",
+					"structurenumber": "9000775030017432",
+					"originalstructurenumber": "",
+					"install_start_date": "16.09.2024",
+					"install_end_date": "23.09.2024",
+					"additional_deliverytime": "0",
+					"process": "Normal",
+					"product_code": "90370001",
+					"storageid": "TOR",
+					"packing_order": "1",
+					"unit": "",
+					"line": "",
+					"floor": "",
+					"chargeable": "chargeable",
+					"sales_price": "3486.06",
+					"sproduct": "2427.53",
+					"sfreight": "365.21",
+					"sinstall": "677.10",
+					"sother": "16.22",
+					"purchase_price": "1791.46",
+					"pproduct": "1791.46",
+					"pfreight": "0.00",
+					"pinstall": "0.00",
+					"pother": "0.00",
+					"calculated_salesprice": "3486.06",
+					"factory_price": "1791.46",
+					"fproduct": "1791.46",
+					"ffreight": "0.00",
+					"finstall": "0.00",
+					"fother": "0.00",
+					"contract_price": "160.45",
+					"salestori_plan_name": "MYKLK",
+					"glass_m2": "4.45",
+					"blinds_m2": "0.00",
+					"glass_pcs": "0",
+					"product_length": "4041",
+					"group_weight": "0",
+					"product_attributes": "",
+					"installed": "True",
+					"OrderLine": {
+						"BOMVersion": "9000775030017432",
+						"ItemID": "90370001",
+						"ItemName": "LUMONKAIDE",
+						"InventLocationID": "TOR",
+						"Dimension1": "174",
+						"Dimension5": "jimb",
+						"DeliveryName": "Test Test",
+						"DeliveryStreet": "LNP test",
+						"DeliveryZipCode": "V6H 1Z9",
+						"DeliveryCity": "Vancouver",
+						"DeliveryCountryRegionID": "CA",
+						"LineAmount": "3486.10",
+						"Apartment": "",
+						"Floor": "",
+						"DlvBatchID": "0",
+						"Line": "",
+						"FactoryConfirmedDlv": "",
+						"InstallHours": "1.25",
+						"InstallStart": "16.09.2024",
+						"ReservationStart": "2024-09-16T00.00.00",
+						"DeliveryDatePromised": "23.09.2024",
+						"Plan_name": "MYKLK",
+						"PieceWork_pay": "160.45"
+					},
+					"AssemblyInstructions": {
+						"InstallNotes": "",
+						"Attachments": {
+							"Attachment": "salestori-installation card-9000775030017432.pdf",
+							"Folder": "\\269000\\269961\\"
+						},
+						"AssemblyDocument": [
+							{
+								"name": "Tilaustiedot",
+								"Chapter": [
+									{
+										"name": "Perustiedot",
+										"Paragraph": [
+											{
+												"name": "Content",
+												"text": "Test Test\r\nLNP test V6H 1Z9 Vancouver\r\nPuhelin +11111111"
+											}
+										]
+									},
+									{
+										"name": "Tilaustiedot",
+										"Paragraph": [
+											{
+												"name": "Content",
+												"text": "Asiakaslupaus 23/09/2024\r\nTilausnumero 66666666\r\nLinja \r\nKerros \r\nAsunto \r\nRVN 9000775030017432"
+											}
+										]
+									}
+								]
+							},
+							{
+								"name": "Asennustiedot",
+								"Chapter": [
+									{
+										"name": "Tuotetiedot",
+										"Paragraph": [
+											{
+												"name": "Tuote",
+												"text": "Kaide1.1 , sivuja:1"
+											},
+											{
+												"name": "Kiinnitystapa",
+												"text": "Päälle"
+											},
+											{
+												"name": "Profiilit",
+												"text": "INST_XML_COLOR:RAL7024, Käsijohde 160 "
+											},
+											{
+												"name": "Varusteet"
+											}
+										]
+									},
+									{
+										"name": "Tuotemitat",
+										"Paragraph": [
+											{
+												"name": "Sivu1",
+												"text": "Ak=90 Lk=90 Pituus=4042 Erom.(Z)=0  INST_XML_PULLOUT=0 INST_XML_UPHOLSTERY_PCS=5 INST_XML_HANDRAIL: Käsijohde 160, INST_XML_ELEVATION: 1100, RAL7024 INST_XML_HANDRAIL_PIPE: Käsijohde 160, RAL7024 INST_XML_TOE_LIST: Ei varvaslistaa INST_XML_WEDGE_CRACK_SEAL: Kiilarakotiiviste 20mm INST_XML_LOWER_UPHOLSTERY: Lattiapaarre, INST_XML_ELEVATION: 0, RAL7024 INST_XML_UPHOLSTERY_PROFILE: Ei INST_XML_DECO_PIPE:  INST_XML_WALL_FASTENING_LEFT: Käsijohteen pystykiinnike INST_XML_WALL_FASTENING_RIGHT: Käsijohteen pystykiinnike INST_XML_WALL_FASTENING_ANCHOR_LEFT: Betoniruuvi HUS-HR 10x115 INST_XML_WALL_FASTENING_RIGHT: Betoniruuvi HUS-HR 10x115 INST_XML_HEAT_PLASTER_LEFT: INST_XML_NO INST_XML_HEAT_PLASTER_RIGHT: INST_XML_NOINST_XML_UPHOLSTERY_SHORT1: LEV=797 K=1058, INST_XML_NO INST_XML_UPHOLSTERY_SHORT2: LEV=797 K=1058, INST_XML_NO INST_XML_UPHOLSTERY_SHORT3: LEV=797 K=1058, INST_XML_NO INST_XML_UPHOLSTERY_SHORT4: LEV=797 K=1058, INST_XML_NO INST_XML_UPHOLSTERY_SHORT5: LEV=797 K=1058, INST_XML_NO "
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				},
+				{
+					"delivery_batch": "1",
+					"delivery_batch_status": "Mitattu",
+					"delivery_batch_receive_date": "16.09.2024",
+					"delivery_batch_delivery_date": "09.09.2024",
+					"group_attachment": "",
+					"AXconfiguration": "no",
+					"group_name": "Lumon Fixed Wall",
+					"pcs": "1",
+					"structurenumber": "9000775030017433",
+					"originalstructurenumber": "",
+					"install_start_date": "16.09.2024",
+					"install_end_date": "23.09.2024",
+					"additional_deliverytime": "0",
+					"process": "Normal",
+					"product_code": "90400001",
+					"storageid": "TOR",
+					"packing_order": "1",
+					"unit": "",
+					"line": "",
+					"floor": "",
+					"chargeable": "chargeable",
+					"sales_price": "3020.00",
+					"sproduct": "2690.30",
+					"sfreight": "329.70",
+					"sinstall": "0.00",
+					"sother": "0.00",
+					"purchase_price": "1574.14",
+					"pproduct": "1574.14",
+					"pfreight": "0.00",
+					"pinstall": "0.00",
+					"pother": "0.00",
+					"calculated_salesprice": "3020.00",
+					"factory_price": "1574.14",
+					"fproduct": "1574.14",
+					"ffreight": "0.00",
+					"finstall": "0.00",
+					"fother": "0.00",
+					"contract_price": "0.00",
+					"salestori_plan_name": "MYKLK",
+					"glass_m2": "0.00",
+					"blinds_m2": "0.00",
+					"glass_pcs": "0",
+					"product_length": "0",
+					"group_weight": "192.0233",
+					"product_attributes": {
+						"attributeid": "20090016"
+					},
+					"installed": "True",
+					"OrderLine": {
+						"BOMVersion": "9000775030017433",
+						"ItemID": "90400001",
+						"ItemName": "LFIXEDWALL",
+						"InventLocationID": "TOR",
+						"Dimension1": "174",
+						"Dimension5": "jimb",
+						"DeliveryName": "Test Test",
+						"DeliveryStreet": "LNP test",
+						"DeliveryZipCode": "V6H 1Z9",
+						"DeliveryCity": "Vancouver",
+						"DeliveryCountryRegionID": "CA",
+						"LineAmount": "3020.00",
+						"Apartment": "",
+						"Floor": "",
+						"DlvBatchID": "0",
+						"Line": "",
+						"FactoryConfirmedDlv": "",
+						"InstallHours": "0.00",
+						"InstallStart": "16.09.2024",
+						"ReservationStart": "2024-09-16T00.00.00",
+						"DeliveryDatePromised": "23.09.2024",
+						"Plan_name": "MYKLK",
+						"PieceWork_pay": "0.00"
+					},
+					"AssemblyInstructions": {
+						"InstallNotes": "",
+						"Attachments": {
+							"Attachment": "salestori-installation card-9000775030017433.pdf",
+							"Folder": "\\269000\\269961\\"
+						},
+						"AssemblyDocument": [
+							{
+								"name": "Tilaustiedot",
+								"Chapter": [
+									{
+										"name": "Perustiedot",
+										"Paragraph": [
+											{
+												"name": "Content",
+												"text": "Test Test\r\nLNP test V6H 1Z9 Vancouver\r\nPuhelin +11111111"
+											}
+										]
+									},
+									{
+										"name": "Tilaustiedot",
+										"Paragraph": [
+											{
+												"name": "Content",
+												"text": "Asiakaslupaus 23/09/2024\r\nTilausnumero 66666666\r\nLinja \r\nKerros \r\nAsunto \r\nRVN 9000775030017433"
+											}
+										]
+									}
+								]
+							},
+							{
+								"name": "Asennustiedot",
+								"Chapter": [
+									{
+										"name": "Tuotetiedot",
+										"Paragraph": [
+											{
+												"name": "Tuote",
+												"text": "LFW , sivuja:1"
+											},
+											{
+												"name": "Kiinnitystapa",
+												"text": "Ylä: Kattoon, Ala: Lattiaan"
+											},
+											{
+												"name": "Profiilit",
+												"text": "Ylä: 11241205 RAL7024, Ala: 11243001 11243001 "
+											},
+											{
+												"name": "Varusteet",
+												"text": "Muoviosat: Tumman harmaa, Päätytulpat"
+											}
+										]
+									},
+									{
+										"name": "Tuotemitat",
+										"Paragraph": [
+											{
+												"name": "Sivu1,H3=15928",
+												"text": "Ak=90 Lk=90 Pituus=4048 Erom.(Z)=0 Korkeus=2781 Alav. (X)=0 Ylav. (Y)=0 Vkpl=6 Okpl=0 JK= Kyli=Ei Saator.= \r\nYläprof: 11241205 RAL7024\r\nAlaprof: 11243001 RAL7024\r\nSäätöprof: 11222206 RAL7024\r\nL1: LEV=668 K=1597\r\nL2: LEV=668 K=1597\r\nL3: LEV=668 K=1597\r\nL4: LEV=668 K=1597\r\nL5: LEV=668 K=1597\r\nL6: LEV=668 K=1597\r\n"
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				}
+			]
+		}
+	}
+}

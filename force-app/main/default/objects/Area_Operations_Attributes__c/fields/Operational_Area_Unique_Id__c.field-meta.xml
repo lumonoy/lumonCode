@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Operational_Area_Unique_Id__c</fullName>
+    <caseSensitive>false</caseSensitive>
+    <description>Operational Area Unique Identifier, added as Country Alpha2 Code - Customer Segment Id - Postal Code. Example FI-1000-00100</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Operational Area Unique Identifier, added as Country Alpha2 Code - Customer Segment Id - Postal Code. Example FI-1000-00100</inlineHelpText>
+    <label>Operational Area Unique Id</label>
+    <length>255</length>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>true</unique>
+</CustomField>

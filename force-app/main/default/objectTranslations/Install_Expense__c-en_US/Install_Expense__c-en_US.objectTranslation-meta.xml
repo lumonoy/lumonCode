@@ -11,6 +11,10 @@
     <layouts>
         <layout>Install Expense Layout</layout>
         <sections>
+            <label><!-- Business Attributes --></label>
+            <section>Business Attributes</section>
+        </sections>
+        <sections>
             <label><!-- Custom Links --></label>
             <section>Custom Links</section>
         </sections>

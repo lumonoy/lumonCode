@@ -3,9 +3,9 @@
     <fullName>fxCostCategory__c</fullName>
     <description>Lookup of Cost Category from Product2</description>
     <externalId>false</externalId>
-    <formula>Text(Product2.Cost_Category__c)</formula>
+    <formula>Text(Product2.CostCategory__c)</formula>
     <inlineHelpText>Lookup of Cost Category from Product2</inlineHelpText>
-    <label>Product Cost Category</label>
+    <label>Cost Category Lookup</label>
     <required>false</required>
     <trackHistory>false</trackHistory>
     <type>Text</type>

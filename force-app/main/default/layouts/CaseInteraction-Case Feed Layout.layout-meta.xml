@@ -102,11 +102,7 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>FreshdeskId__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>IsMigrated__c</field>
+                <field>Freshdesk_Id__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>

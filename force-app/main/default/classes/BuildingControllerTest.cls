@@ -2,7 +2,7 @@
  * @description       : 
  * @author            : Henk Reynders
  * @group             : 
- * @last modified on  : 02-13-2024
+ * @last modified on  : 06-02-2024
  * @last modified by  : Henk Reynders
 **/
 @IsTest
@@ -10,39 +10,31 @@ public class BuildingControllerTest {
     @TestSetup
     static void prepareData(){
         Test.startTest();
-        LumonTestDataFactory.setupProducts();
-        LumonTestDataFactory.setupPrices();
-        // B2C Setup
-        LumonTestDataFactory.setupAccountB2C();
-        LumonTestDataFactory.setupOpportunityB2C();
+        LumonTestLocations.setupBuildings();
         Test.stopTest();
     }
-    private static Id b2cAccountId = LumonTestDataFactory.b2cAccountId;
-    private static Id b2cOpportunityId = LumonTestDataFactory.b2cOpportunityId;
-    private static Id b2cSyncedQuoteId = LumonTestDataFactory.b2cSyncedQuoteId;
+    private static List<Building__c> buildings = LumonTestVariables.buildings;
+    private static List<Id> buildingIds = LumonTestVariables.buildingIds;
     @IsTest
-    static void getBuildingRecordTest(){      
-		Opportunity opp = OpportunityController.getOpportunityRecord(b2copportunityId);     
-        Id buildingId = [SELECT Id FROM Building__c LIMIT 1]?.Id;
+    static void getBuildingRecordTest(){   
+        System.Debug ('--- BuildingControllerTest - Building to Query: '+buildings[0]?.Id);   
         Test.startTest();
-        Building__c buildingRecord = BuildingController.getBuildingRecord(buildingId);
-        System.Debug ('--- '+ buildingRecord.Id +' Building Returned');
+        Building__c buildingRecord = BuildingController.getBuildingRecord(buildings[0]?.Id);
+        System.Debug ('--- BuildingControllerTest - '+ buildingRecord.Id +' Building Returned');
         System.assertNotEquals(null,buildingRecord, 'Expected Building Record to be returned');
-        System.debug('--- getBuildingRecordTest - CPU TIME: '+LIMITS.getCpuTime()); 
-        System.debug('--- getBuildingRecordTest - SOQL USED: ' + LIMITS.getQueries());
+        System.debug('--- BuildingControllerTest - getBuildingRecordTest - CPU TIME: '+LIMITS.getCpuTime()); 
+        System.debug('--- BuildingControllerTest - getBuildingRecordTest - SOQL USED: ' + LIMITS.getQueries());
         Test.stopTest();
     }
     @IsTest
     static void getBuildingsTest(){
-        Opportunity opp = OpportunityController.getOpportunityRecord(b2copportunityId);     
-        Id buildingId = [SELECT Id FROM Building__c LIMIT 1]?.Id;
+        System.Debug ('--- BuildingControllerTest - Buildings to Query: '+buildingIds);   
         Test.startTest();
-        List<Id> buildingIds = new List<Id> {buildingId};
         List<Building__c> buildings = BuildingController.getBuildings(buildingIds);
-        System.Debug ('--- '+ buildings.size() +' Buildings Returned');
+        System.Debug ('--- BuildingControllerTest - '+ buildings.size() +' Buildings Returned');
         System.assertNotEquals(0,buildings.size(), 'Expected Building Record to be returned');
-        System.debug('--- getBuildingsTest - CPU TIME: '+LIMITS.getCpuTime()); 
-        System.debug('--- getBuildingsTest - SOQL USED: ' + LIMITS.getQueries());
+        System.debug('--- BuildingControllerTest - getBuildingsTest - CPU TIME: '+LIMITS.getCpuTime()); 
+        System.debug('--- BuildingControllerTest - getBuildingsTest - SOQL USED: ' + LIMITS.getQueries());
         Test.stopTest();
     }
 }

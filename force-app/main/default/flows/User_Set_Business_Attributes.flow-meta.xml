@@ -317,7 +317,8 @@
         </rules>
     </decisions>
     <description>Trigger Flow to Set User Organization and Profit Center
-Updated 23.08.2024</description>
+Updated 23.08.2024
+Updated Field Mappings</description>
     <environments>Default</environments>
     <formulas>
         <name>fxProfitCenterString</name>
@@ -400,7 +401,7 @@ Updated 23.08.2024</description>
             </value>
         </inputAssignments>
         <inputAssignments>
-            <field>Profit_Center__c</field>
+            <field>ProfitCenter__c</field>
             <value>
                 <elementReference>txtUserProfitCenter</elementReference>
             </value>
@@ -418,7 +419,7 @@ Updated 23.08.2024</description>
         <recordTriggerType>CreateAndUpdate</recordTriggerType>
         <triggerType>RecordBeforeSave</triggerType>
     </start>
-    <status>Active</status>
+    <status>Draft</status>
     <variables>
         <name>nbrUserMappings</name>
         <dataType>Number</dataType>

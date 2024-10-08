@@ -1,0 +1,298 @@
+{
+	"order": {
+		"order_info": {
+			"axcompanyid": "LSU",
+			"currency": "EUR",
+			"customer_reference": "",
+			"order_type": "Normal",
+			"order_number": "90007520",
+			"vendorid": "LU",
+			"project_number": "803002",
+			"parent_project": "",
+			"project_group": "CONSales",
+			"customer_segmentid": "1000",
+			"customer_segmentname": "Consumer apartment building",
+			"promised_deliveryweek": "2024/28",
+			"promised_date": "12.07.2024",
+			"main_contractor": "no",
+			"business_unit": "401",
+			"order_attachment": "\\\\frendsprod\\D365TEST\\SalesTori\\OUT\\attachments\\",
+			"subproject_info": {
+				"subproject_number": "803002_01",
+				"subproject_group": "CONWar",
+				"subproject_category": "Warranty",
+				"subproject_cost": "18.34",
+				"subproject_ordertype": "Reclamation",
+				"subproject_parentproject": "803002",
+				"subproject_chargeable": "non-chargeable"
+			},
+			"budget": {
+				"project_category": [
+					{
+						"category": "FactoryPurchase",
+						"cost": "1395.20"
+					},
+					{
+						"category": "InstallSupplies",
+						"cost": "72.20"
+					},
+					{
+						"category": "SalesFreight",
+						"cost": "282.72"
+					},
+					{
+						"category": "Wages",
+						"cost": "336.74"
+					},
+					{
+						"category": "CostReserv",
+						"cost": "20.65"
+					}
+				]
+			},
+			"domestic_help": "",
+			"domestic_text": "",
+			"chargeable": "chargeable",
+			"worknumbername": "",
+			"pricelist": {
+				"pricelist_name": "Basic price list 1.4.2022"
+			},
+			"customer_address": {
+				"address_description": "Test Fieldservice",
+				"firstname": "Fieldservice",
+				"lastname": "Test",
+				"contact_person": "",
+				"street_address": "Testikatu 1",
+				"city": "KOUVOLA",
+				"postal_code": "45100",
+				"fax": "",
+				"country": "FIN",
+				"province": "",
+				"county": "",
+				"phone_number": "+3581111111",
+				"email": "robo@test.fi",
+				"note": "",
+				"number": "",
+				"customer_id": "",
+				"customer_name": "Fieldservice Test"
+			},
+			"invoice_address": {
+				"address_description": "Test Fieldservice",
+				"firstname": "Fieldservice",
+				"lastname": "Test",
+				"contact_person": "",
+				"street_address": "Testikatu 1",
+				"city": "KOUVOLA",
+				"postal_code": "45100",
+				"fax": "",
+				"country": "FIN",
+				"province": "",
+				"county": "",
+				"phone_number": "+3581111111",
+				"email": "robo@test.fi",
+				"note": "",
+				"payment_terms": "07",
+				"invoice_type": "Email",
+				"number": "",
+				"payment": "REF",
+				"paytrail_reference_id": ""
+			},
+			"install_address": {
+				"address_description": "Test Fieldservice",
+				"firstname": "Fieldservice",
+				"lastname": "Test",
+				"name": "FieldServiceTest",
+				"contact_person": "",
+				"street_address": "Testikatu 1",
+				"city": "KOUVOLA",
+				"postal_code": "45100",
+				"fax": "",
+				"country": "FIN",
+				"province": "",
+				"county": "",
+				"phone_number": "+3581111111",
+				"email": "robo@test.fi",
+				"note": "",
+				"number": null
+			},
+			"delivery_address": {
+				"address_description": "Test FieldService",
+				"firstname": "Fieldservice",
+				"lastname": "Test",
+				"contact_person": "Test FieldService",
+				"street_address": "Testikatu 1",
+				"city": "KOUVOLA",
+				"postal_code": "45100",
+				"fax": "",
+				"country": "FIN",
+				"province": "",
+				"county": "",
+				"phone_number": "+3581111111",
+				"email": "robo@test.fi",
+				"note": "",
+				"number": null,
+				"delivery_terms": "DAP",
+				"delivery_type": "delivery"
+			},
+			"sales_person": {
+				"username": "villes",
+				"supervisor": "ollih",
+				"firstname": "Ville",
+				"lastname": "Salmen"
+			},
+			"propertytype": "Apartment",
+			"order_leadreference_vch": "Other",
+			"language_code_lan": "fi-FI"
+		},
+		"groups": {
+			"group": [
+				{
+					"delivery_batch": "1",
+					"delivery_batch_status": "Mitattu",
+					"delivery_batch_receive_date": "08.07.2024",
+					"delivery_batch_delivery_date": "05.07.2024",
+					"group_attachment": "",
+					"AXconfiguration": "no",
+					"group_name": "Avautuva (LGR)",
+					"pcs": "1",
+					"structurenumber": "9000752020698169",
+					"originalstructurenumber": "",
+					"install_start_date": "08.07.2024",
+					"install_end_date": "12.07.2024",
+					"additional_deliverytime": "0",
+					"process": "SpecialTreatment",
+					"product_code": "90240001",
+					"storageid": "VAN",
+					"packing_order": "1",
+					"unit": "",
+					"line": "",
+					"floor": "",
+					"chargeable": "chargeable",
+					"sales_price": "4973.30",
+					"sproduct": "3304.00",
+					"sfreight": "464.70",
+					"sinstall": "842.70",
+					"sother": "361.90",
+					"purchase_price": "1395.20",
+					"pproduct": "1395.20",
+					"pfreight": "0.00",
+					"pinstall": "0.00",
+					"pother": "0.00",
+					"calculated_salesprice": "4973.30",
+					"factory_price": "1395.20",
+					"fproduct": "1395.20",
+					"ffreight": "0.00",
+					"finstall": "0.00",
+					"fother": "0.00",
+					"contract_price": "124.28",
+					"salestori_plan_name": "WQTRS",
+					"glass_m2": "9.00",
+					"blinds_m2": "0.00",
+					"glass_pcs": "7",
+					"product_length": "4500",
+					"group_weight": "180",
+					"product_attributes": {
+						"attributeid": "20090017"
+					},
+					"installed": "True",
+					"OrderLine": {
+						"BOMVersion": "9000752020698169",
+						"ItemID": "90240001",
+						"ItemName": "LG",
+						"InventLocationID": "VAN",
+						"Dimension1": "401",
+						"Dimension5": "ollih",
+						"DeliveryName": "Fieldservice Test",
+						"DeliveryStreet": "Testikatu 1",
+						"DeliveryZipCode": "45100",
+						"DeliveryCity": "KOUVOLA",
+						"DeliveryCountryRegionID": "FI",
+						"LineAmount": "4973.30",
+						"Apartment": "",
+						"Floor": "",
+						"DlvBatchID": "0",
+						"Line": "",
+						"FactoryConfirmedDlv": "",
+						"InstallHours": "4.60",
+						"InstallStart": "08.07.2024",
+						"ReservationStart": "2024-07-08T00.00.00",
+						"DeliveryDatePromised": "12.07.2024",
+						"Plan_name": "WQTRS",
+						"PieceWork_pay": "124.28"
+					},
+					"AssemblyInstructions": {
+						"InstallNotes": "",
+						"Attachments": {
+							"Attachment": "salestori-asennuskortti-9000752020698169.pdf",
+							"Folder": "\\269000\\269718\\"
+						},
+						"AssemblyDocument": [
+							{
+								"name": "Tilaustiedot",
+								"Chapter": [
+									{
+										"name": "Perustiedot",
+										"Paragraph": [
+											{
+												"name": "Content",
+												"text": "Test Fieldservice\r\nTestikatu 1 45100 KOUVOLA\r\nPuhelin +3581111111"
+											}
+										]
+									},
+									{
+										"name": "Tilaustiedot",
+										"Paragraph": [
+											{
+												"name": "Content",
+												"text": "Asiakaslupaus 12.7.2024\r\nTilausnumero 90007520\r\nLinja \r\nKerros \r\nAsunto \r\nRVN 9000752020698169"
+											}
+										]
+									}
+								]
+							},
+							{
+								"name": "Asennustiedot",
+								"Chapter": [
+									{
+										"name": "Tuotetiedot",
+										"Paragraph": [
+											{
+												"name": "Tuote",
+												"text": "LG , sides:2"
+											},
+											{
+												"name": "Kiinnitystapa",
+												"text": "Upper: To roof, Lower: To floor"
+											},
+											{
+												"name": "Profiilit",
+												"text": "Upper: 11222206+11241205 RAL7024, Lower: 11243001 RAL7024 "
+											},
+											{
+												"name": "Varusteet",
+												"text": "Plastic parts: Dark grey, End plugs"
+											}
+										]
+									},
+									{
+										"name": "Tuotemitat",
+										"Paragraph": [
+											{
+												"name": "Sivu1,H3=1873",
+												"text": "SA=90 EA= Length=2500 Z=0 Height=2000 X=0 Y=0 Lpcs=4 Rpcs=0 SA=90 Cbypass=No Adjus= \r\nUpper profile: 11241205 RAL7024\r\nLower profile: 11243001 RAL7024\r\nTeles. Profile: 11222206 RAL7024\r\nG1: W=611 H=1861\r\nG2: W=611 H=1861\r\nG3: W=611 H=1861\r\nG4: W=611 H=1861\r\n"
+											},
+											{
+												"name": "Sivu2,H3=1873",
+												"text": "SA= EA=90 Length=2000 Z=0 Height=2000 X=0 Y=0 Lpcs=3 Rpcs=0 SA= Cbypass=No Adjus= \r\nUpper profile: 11241205 RAL7024\r\nLower profile: 11243001 RAL7024\r\nTeles. Profile: 11222206 RAL7024\r\nG1: W=649 H=1861\r\nG2: W=649 H=1861\r\nG3: W=649 H=1861\r\n"
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				}
+			]
+		}
+	}
+}

@@ -9,7 +9,7 @@
    FALSE
 )</formula>
     <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
-    <label>Installable Product</label>
+    <label>Installable Product OLD</label>
     <trackHistory>false</trackHistory>
     <type>Checkbox</type>
 </CustomField>

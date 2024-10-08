@@ -4,7 +4,7 @@
     <description>Field to hold the Assigned Profit/Cost Center found from the Postal Code Area</description>
     <externalId>false</externalId>
     <inlineHelpText>Field to hold the Assigned Profit/Cost Center found from the Postal Code Area</inlineHelpText>
-    <label>Area Profit Center</label>
+    <label>Area Profit Center OLD</label>
     <length>100</length>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>

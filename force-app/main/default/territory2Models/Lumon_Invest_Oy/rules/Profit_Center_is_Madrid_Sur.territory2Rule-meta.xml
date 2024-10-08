@@ -4,12 +4,12 @@
     <name>Profit Center is Madrid Sur</name>
     <objectType>Account</objectType>
     <ruleItems>
-        <field>Account.Account_Profit_Center__c</field>
+        <field>Account.Area_Profit_Center__c</field>
         <operation>startsWith</operation>
         <value>550</value>
     </ruleItems>
     <ruleItems>
-        <field>Account.Account_Profit_Center__c</field>
+        <field>Account.Area_Profit_Center__c</field>
         <operation>contains</operation>
         <value>LCE</value>
     </ruleItems>

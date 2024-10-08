@@ -10,7 +10,7 @@ IF(ISPICKVAL(Opportunity__r.Customer_Segment__c , &quot;9000&quot;),&apos;Resell
 IF(ISPICKVAL(Opportunity__r.Customer_Segment__c , &quot;9100&quot;),&apos;Reseller consumer&apos;,
 IF(ISPICKVAL(Opportunity__r.Customer_Segment__c , &quot;100&quot;),&apos;Other&apos;,
 NULL)))))))</formula>
-    <label>Customer segment name</label>
+    <label>Customer segment name OLD</label>
     <required>false</required>
     <trackHistory>false</trackHistory>
     <type>Text</type>

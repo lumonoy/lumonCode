@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
-    <description>Required Permissions for Test Users</description>
+    <description>Access Rights and Permissions for Consumer Sales Users in lumonTest</description>
     <hasActivationRequired>false</hasActivationRequired>
     <label>Lumon Salesforce Testing</label>
     <permissionSets>B2CSalesConfigurationPermissions</permissionSets>
@@ -8,9 +8,11 @@
     <permissionSets>B2CSalesObjectandFieldPermissions</permissionSets>
     <permissionSets>B2CSalesPDFButlerPermissions</permissionSets>
     <permissionSets>B2CSalesPricingPermissions</permissionSets>
-    <permissionSets>CaseHandlingPermissions</permissionSets>
+    <permissionSets>CPQFeaturePermissions</permissionSets>
+    <permissionSets>CaseHandlingObjectandFieldPermissions</permissionSets>
     <permissionSets>FSL_Agent_License</permissionSets>
     <permissionSets>FSL_Agent_Permissions</permissionSets>
+    <permissionSets>SoveliaTestPermissions</permissionSets>
     <permissionSets>cadmus_core__PDF_Butler_User</permissionSets>
     <permissionSets>cadmus_sign2__SIGN_Butler_User</permissionSets>
     <permissionSets>force__SalesUserPsl</permissionSets>

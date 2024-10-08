@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- business_servicecalendar_in_use --></label>
+    <name>business_servicecalendar_in_use__c</name>
+</CustomFieldTranslation>

@@ -20,7 +20,6 @@
     <label>All Installation Cases</label>
     <sharedTo>
         <group>Admins</group>
-        <group>Customer_Services</group>
         <group>ICT_Support</group>
         <group>Installation_Managers</group>
         <group>Technical_Support</group>

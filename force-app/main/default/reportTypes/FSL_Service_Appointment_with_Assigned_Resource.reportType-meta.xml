@@ -185,6 +185,11 @@
             <field>FSL_Compliance__c</field>
             <table>ServiceAppointment</table>
         </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Name__c</field>
+            <table>ServiceAppointment</table>
+        </columns>
         <masterLabel>Service Appointments</masterLabel>
     </sections>
     <sections>

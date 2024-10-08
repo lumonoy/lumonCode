@@ -13,5 +13,14 @@
     <columns>Sales_Code__c</columns>
     <columns>PRODUCT2.ACTIVE</columns>
     <filterScope>Everything</filterScope>
+    <filters>
+        <field>Product_Group__c</field>
+        <operation>notEqual</operation>
+    </filters>
+    <filters>
+        <field>Product_Category__c</field>
+        <operation>equals</operation>
+        <value>Product Groups</value>
+    </filters>
     <label>All Products with Attributes</label>
 </ListView>

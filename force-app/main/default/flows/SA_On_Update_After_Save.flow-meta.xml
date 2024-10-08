@@ -4,8 +4,8 @@
     <assignments>
         <name>Assign_End_to_TimeSheet_Entry_In_Progress</name>
         <label>Assign End to TimeSheet Entry In Progress</label>
-        <locationX>1515</locationX>
-        <locationY>2778</locationY>
+        <locationX>2008</locationX>
+        <locationY>3887</locationY>
         <assignmentItems>
             <assignToReference>Get_Completed_Time_Sheet_Entry.EndTime</assignToReference>
             <operator>Assign</operator>
@@ -20,8 +20,8 @@
     <assignments>
         <name>Assign_End_to_TimeSheet_Entry_Travel</name>
         <label>Assign End to TimeSheet Entry Travel</label>
-        <locationX>438</locationX>
-        <locationY>2818</locationY>
+        <locationX>578</locationX>
+        <locationY>4427</locationY>
         <assignmentItems>
             <assignToReference>Get_Travel_Time_Sheet_Entry.EndTime</assignToReference>
             <operator>Assign</operator>
@@ -37,8 +37,8 @@
         <description>Confirmed Installation date is set to enable SMS sending to Customer.</description>
         <name>Assign_Oppo_id1</name>
         <label>Assign Oppo id</label>
-        <locationX>1949</locationX>
-        <locationY>1904</locationY>
+        <locationX>3922</locationX>
+        <locationY>3779</locationY>
         <assignmentItems>
             <assignToReference>recOppo.Id</assignToReference>
             <operator>Assign</operator>
@@ -54,8 +54,8 @@
         <description>Confirmed Installation date is set to enable SMS sending to Customer.</description>
         <name>Assign_Oppo_id2</name>
         <label>Assign Oppo id</label>
-        <locationX>1950</locationX>
-        <locationY>2132</locationY>
+        <locationX>4186</locationX>
+        <locationY>3779</locationY>
         <assignmentItems>
             <assignToReference>recOppo.Id</assignToReference>
             <operator>Assign</operator>
@@ -71,8 +71,8 @@
         <description>Confirmed Installation date is set to enable SMS sending to Customer.</description>
         <name>Assign_Oppo_id3</name>
         <label>Assign Oppo id</label>
-        <locationX>1955</locationX>
-        <locationY>2318</locationY>
+        <locationX>3130</locationX>
+        <locationY>3779</locationY>
         <assignmentItems>
             <assignToReference>recOppo.Id</assignToReference>
             <operator>Assign</operator>
@@ -88,8 +88,8 @@
         <description>Confirmed Installation date is set to enable SMS sending to Customer.</description>
         <name>Assign_Oppo_id4</name>
         <label>Assign Oppo id</label>
-        <locationX>1956</locationX>
-        <locationY>2546</locationY>
+        <locationX>3394</locationX>
+        <locationY>3779</locationY>
         <assignmentItems>
             <assignToReference>recOppo.Id</assignToReference>
             <operator>Assign</operator>
@@ -104,8 +104,8 @@
     <assignments>
         <name>Assign_reschedule_info_to_SA_name</name>
         <label>Assign reschedule info to SA name</label>
-        <locationX>782</locationX>
-        <locationY>1123</locationY>
+        <locationX>2382</locationX>
+        <locationY>1871</locationY>
         <assignmentItems>
             <assignToReference>recSA.FSL__GanttLabel__c</assignToReference>
             <operator>Assign</operator>
@@ -128,8 +128,8 @@
         <description>Confirmed Installation date is set to enable SMS sending to Customer.</description>
         <name>Assign_scheduled_date_to_Oppo1</name>
         <label>Assign scheduled date to Oppo and WO</label>
-        <locationX>2172</locationX>
-        <locationY>2029</locationY>
+        <locationX>4186</locationX>
+        <locationY>3971</locationY>
         <assignmentItems>
             <assignToReference>recOppo.Preliminary_installation_time__c</assignToReference>
             <operator>Assign</operator>
@@ -159,8 +159,8 @@
         <description>Confirmed Installation date is set to enable SMS sending to Customer.</description>
         <name>Assign_scheduled_date_to_Oppo2</name>
         <label>Assign scheduled date to Oppo</label>
-        <locationX>2172</locationX>
-        <locationY>2434</locationY>
+        <locationX>3394</locationX>
+        <locationY>3971</locationY>
         <assignmentItems>
             <assignToReference>recOppo.Confirmed_installation_time__c</assignToReference>
             <operator>Assign</operator>
@@ -203,8 +203,8 @@
     <assignments>
         <name>Assign_to</name>
         <label>Assign to TimeSheetEntryVAR</label>
-        <locationX>1533</locationX>
-        <locationY>2393</locationY>
+        <locationX>50</locationX>
+        <locationY>3671</locationY>
         <assignmentItems>
             <assignToReference>TimeSheetEntryVAR.StartTime</assignToReference>
             <operator>Assign</operator>
@@ -241,8 +241,8 @@
         <description>When travel is complete, the Work entry needs to be also created.</description>
         <name>Assign_to_0</name>
         <label>Assign to TimeSheetEntryVAR</label>
-        <locationX>195</locationX>
-        <locationY>2818</locationY>
+        <locationX>710</locationX>
+        <locationY>4727</locationY>
         <assignmentItems>
             <assignToReference>TimeSheetEntryVAR.StartTime</assignToReference>
             <operator>Assign</operator>
@@ -278,8 +278,8 @@
     <assignments>
         <name>Assign_to_TSEVAR</name>
         <label>Assign to TSEVAR</label>
-        <locationX>645</locationX>
-        <locationY>689</locationY>
+        <locationX>2228</locationX>
+        <locationY>755</locationY>
         <assignmentItems>
             <assignToReference>TimeSheetEntryVAR.Id</assignToReference>
             <operator>Assign</operator>
@@ -308,8 +308,8 @@
     <assignments>
         <name>Assign_Work_Duration</name>
         <label>Assign Work Duration</label>
-        <locationX>1786</locationX>
-        <locationY>3153</locationY>
+        <locationX>2074</locationX>
+        <locationY>4427</locationY>
         <assignmentItems>
             <assignToReference>Get_WO_data_3.Actual_work_duration__c</assignToReference>
             <operator>Add</operator>
@@ -324,8 +324,8 @@
     <assignments>
         <name>Installation_type_for_TSE</name>
         <label>Installation type for TSE</label>
-        <locationX>919</locationX>
-        <locationY>2634</locationY>
+        <locationX>314</locationX>
+        <locationY>3995</locationY>
         <assignmentItems>
             <assignToReference>varTSEType</assignToReference>
             <operator>Assign</operator>
@@ -334,14 +334,15 @@
             </value>
         </assignmentItems>
         <connector>
+            <isGoTo>true</isGoTo>
             <targetReference>Get_Time_Sheet_In_Progress</targetReference>
         </connector>
     </assignments>
     <assignments>
         <name>Multiday</name>
         <label>Multiday</label>
-        <locationX>1509</locationX>
-        <locationY>1428</locationY>
+        <locationX>2068</locationX>
+        <locationY>2387</locationY>
         <assignmentItems>
             <assignToReference>DayType</assignToReference>
             <operator>Assign</operator>
@@ -356,8 +357,8 @@
     <assignments>
         <name>Other_type_for_TSE</name>
         <label>Other type for TSE</label>
-        <locationX>919</locationX>
-        <locationY>2812</locationY>
+        <locationX>710</locationX>
+        <locationY>3995</locationY>
         <assignmentItems>
             <assignToReference>varTSEType</assignToReference>
             <operator>Assign</operator>
@@ -372,8 +373,8 @@
     <assignments>
         <name>Other_type_for_TSE_0</name>
         <label>Other type for TSE</label>
-        <locationX>918</locationX>
-        <locationY>2952</locationY>
+        <locationX>1018</locationX>
+        <locationY>3995</locationY>
         <assignmentItems>
             <assignToReference>varTSEType</assignToReference>
             <operator>Assign</operator>
@@ -382,14 +383,15 @@
             </value>
         </assignmentItems>
         <connector>
+            <isGoTo>true</isGoTo>
             <targetReference>Get_Time_Sheet_In_Progress</targetReference>
         </connector>
     </assignments>
     <assignments>
         <name>Single_day</name>
         <label>Single day</label>
-        <locationX>1338</locationX>
-        <locationY>1432</locationY>
+        <locationX>2332</locationX>
+        <locationY>2387</locationY>
         <assignmentItems>
             <assignToReference>DayType</assignToReference>
             <operator>Assign</operator>
@@ -404,8 +406,8 @@
     <assignments>
         <name>Update_Reschedule_Counter</name>
         <label>Update Reschedule Counter</label>
-        <locationX>909</locationX>
-        <locationY>950</locationY>
+        <locationX>2382</locationX>
+        <locationY>1655</locationY>
         <assignmentItems>
             <assignToReference>recWO.LUM_Reschedule_Count__c</assignToReference>
             <operator>Assign</operator>
@@ -435,8 +437,8 @@
         <description>Add Installer user to the Opportunity Team, when AR is added.</description>
         <name>Assigned_Resource_was_added</name>
         <label>Assigned Resource was added?</label>
-        <locationX>1240</locationX>
-        <locationY>680</locationY>
+        <locationX>2514</locationX>
+        <locationY>1139</locationY>
         <defaultConnector>
             <targetReference>Reschedule_happened</targetReference>
         </defaultConnector>
@@ -467,8 +469,8 @@
     <decisions>
         <name>Can_WO_actuals_be_updated</name>
         <label>Can WO actuals be updated?</label>
-        <locationX>1527</locationX>
-        <locationY>3058</locationY>
+        <locationX>2206</locationX>
+        <locationY>4211</locationY>
         <defaultConnectorLabel>No</defaultConnectorLabel>
         <rules>
             <name>Yes</name>
@@ -490,8 +492,8 @@
         <description>Set the Multiday flag on the SA based on the duration.</description>
         <name>Changes_to</name>
         <label>Changes to</label>
-        <locationX>1412</locationX>
-        <locationY>1306</locationY>
+        <locationX>2200</locationX>
+        <locationY>2279</locationY>
         <defaultConnector>
             <targetReference>Single_day</targetReference>
         </defaultConnector>
@@ -515,8 +517,8 @@
     <decisions>
         <name>Determine_TSE_Type</name>
         <label>Determine TSE Type</label>
-        <locationX>1123</locationX>
-        <locationY>2812</locationY>
+        <locationX>798</locationX>
+        <locationY>3887</locationY>
         <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
         <rules>
             <name>Installations</name>
@@ -582,8 +584,8 @@
         <description>If Arrival Window End time is exceeded with the new Scheduled End time, the Arrival Window End time is set to be the same as the Scheduled End time.</description>
         <name>Exceeds_Arrival_Window</name>
         <label>Exceeds Arrival Window?</label>
-        <locationX>1626</locationX>
-        <locationY>1761</locationY>
+        <locationX>2255</locationX>
+        <locationY>2903</locationY>
         <defaultConnector>
             <targetReference>Update_SA_1</targetReference>
         </defaultConnector>
@@ -607,8 +609,8 @@
     <decisions>
         <name>Feasible_value</name>
         <label>Feasible value?</label>
-        <locationX>1321</locationX>
-        <locationY>1753</locationY>
+        <locationX>2453</locationX>
+        <locationY>2795</locationY>
         <defaultConnector>
             <targetReference>Was_Status_changed</targetReference>
         </defaultConnector>
@@ -632,8 +634,8 @@
     <decisions>
         <name>Found_Completed_Time_Sheet_Entry</name>
         <label>Found Completed Time Sheet Entry?</label>
-        <locationX>1383</locationX>
-        <locationY>2647</locationY>
+        <locationX>2305</locationX>
+        <locationY>3779</locationY>
         <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
         <rules>
             <name>Found_Completed</name>
@@ -654,8 +656,8 @@
     <decisions>
         <name>Found_Travel_Time_Sheet_Entry</name>
         <label>Found Travel Time Sheet Entry?</label>
-        <locationX>430</locationX>
-        <locationY>3034</locationY>
+        <locationX>710</locationX>
+        <locationY>4319</locationY>
         <defaultConnector>
             <targetReference>Assign_to_0</targetReference>
         </defaultConnector>
@@ -679,8 +681,8 @@
     <decisions>
         <name>Found_Travel_TSE</name>
         <label>Found Travel TSE?</label>
-        <locationX>541</locationX>
-        <locationY>598</locationY>
+        <locationX>2360</locationX>
+        <locationY>647</locationY>
         <defaultConnector>
             <targetReference>Assigned_Resource_was_added</targetReference>
         </defaultConnector>
@@ -704,8 +706,8 @@
     <decisions>
         <name>Installation_duration_is_changed</name>
         <label>Installation duration is changed</label>
-        <locationX>1242</locationX>
-        <locationY>1125</locationY>
+        <locationX>2514</locationX>
+        <locationY>2171</locationY>
         <defaultConnector>
             <targetReference>Was_Status_changed</targetReference>
         </defaultConnector>
@@ -730,8 +732,8 @@
         <description>In Multi Day SA, the FSL logic handles the Scheduled End time changing. No need for custom logic in that case.</description>
         <name>Is_this_Multi_Day_SA</name>
         <label>Is this Multi Day SA?</label>
-        <locationX>1419</locationX>
-        <locationY>1665</locationY>
+        <locationX>2200</locationX>
+        <locationY>2687</locationY>
         <defaultConnector>
             <targetReference>Feasible_value</targetReference>
         </defaultConnector>
@@ -756,8 +758,8 @@
         <description>Handles the situation where SA is put to Paused status and later on completed. The mileage and trailer use information needs to go to correct TSEs.</description>
         <name>Mileage_was_filled_in</name>
         <label>Mileage was filled in?</label>
-        <locationX>788</locationX>
-        <locationY>362</locationY>
+        <locationX>2514</locationX>
+        <locationY>323</locationY>
         <defaultConnector>
             <targetReference>Assigned_Resource_was_added</targetReference>
         </defaultConnector>
@@ -782,8 +784,8 @@
         <description>If Oppo is closed, then the information in it cannot be modified.</description>
         <name>Oppo_is_already_closed</name>
         <label>Oppo is already closed</label>
-        <locationX>2373</locationX>
-        <locationY>2251</locationY>
+        <locationX>2514</locationX>
+        <locationY>5411</locationY>
         <defaultConnector>
             <targetReference>Update_Oppo</targetReference>
         </defaultConnector>
@@ -815,8 +817,8 @@
         <description>Rescheduling may mean change in the Soft Reservation (Arrival Window Start/End) or in the Hard Reservation (Scheduled Start/End).</description>
         <name>Reschedule_happened</name>
         <label>(Re)schedule happened?</label>
-        <locationX>1243</locationX>
-        <locationY>951</locationY>
+        <locationX>2514</locationX>
+        <locationY>1439</locationY>
         <defaultConnector>
             <targetReference>Installation_duration_is_changed</targetReference>
         </defaultConnector>
@@ -875,9 +877,10 @@
     <decisions>
         <name>SA_has_Work_Type</name>
         <label>SA has Work Type</label>
-        <locationX>1124</locationX>
-        <locationY>2515</locationY>
+        <locationX>1172</locationX>
+        <locationY>3671</locationY>
         <defaultConnector>
+            <isGoTo>true</isGoTo>
             <targetReference>Installation_type_for_TSE</targetReference>
         </defaultConnector>
         <defaultConnectorLabel>No</defaultConnectorLabel>
@@ -900,8 +903,8 @@
     <decisions>
         <name>Was_Status_changed</name>
         <label>Was Status changed?</label>
-        <locationX>1260</locationX>
-        <locationY>2245</locationY>
+        <locationX>2514</locationX>
+        <locationY>3455</locationY>
         <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
         <rules>
             <name>Status_changed_to_Travel</name>
@@ -987,6 +990,7 @@
                 </rightValue>
             </conditions>
             <connector>
+                <isGoTo>true</isGoTo>
                 <targetReference>Get_Time_Sheet_Completed</targetReference>
             </connector>
             <label>Status changed to Completed or Cannot Complete</label>
@@ -1048,8 +1052,8 @@
         <description>Only the Opportunity field is filled in, if this is normal installation case. If also the Reclamation Oppo field is filled in then this is reclamation case.</description>
         <name>What_kind_of_Opportunity_exists1</name>
         <label>What kind of Opportunity exists</label>
-        <locationX>1814</locationX>
-        <locationY>2031</locationY>
+        <locationX>4186</locationX>
+        <locationY>3671</locationY>
         <defaultConnectorLabel>No</defaultConnectorLabel>
         <rules>
             <name>Original1</name>
@@ -1093,8 +1097,8 @@
         <description>Only the Opportunity field is filled in, if this is normal installation case. If also the Reclamation Oppo field is filled in then this is reclamation case.</description>
         <name>What_kind_of_Opportunity_exists2</name>
         <label>What kind of Opportunity exists</label>
-        <locationX>1816</locationX>
-        <locationY>2435</locationY>
+        <locationX>3394</locationX>
+        <locationY>3671</locationY>
         <defaultConnectorLabel>No</defaultConnectorLabel>
         <rules>
             <name>Original2</name>
@@ -1137,8 +1141,8 @@
     <decisions>
         <name>Work_is_Paused</name>
         <label>Work is Paused?</label>
-        <locationX>1651</locationX>
-        <locationY>2922</locationY>
+        <locationX>2008</locationX>
+        <locationY>4103</locationY>
         <defaultConnector>
             <targetReference>Can_WO_actuals_be_updated</targetReference>
         </defaultConnector>
@@ -1218,7 +1222,7 @@
         <scale>2</scale>
     </formulas>
     <interviewLabel>SA - On Update After Save {!$Flow.CurrentDateTime}</interviewLabel>
-    <label>SA - On Update After Save R2</label>
+    <label>SA - On Update After Save Auto Layout</label>
     <processMetadataValues>
         <name>BuilderType</name>
         <value>
@@ -1228,7 +1232,7 @@
     <processMetadataValues>
         <name>CanvasMode</name>
         <value>
-            <stringValue>FREE_FORM_CANVAS</stringValue>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
         </value>
     </processMetadataValues>
     <processMetadataValues>
@@ -1241,22 +1245,22 @@
     <recordCreates>
         <name>Create_Time_Sheet_Entry_In_Progress</name>
         <label>Create Time Sheet Entry In Progress</label>
-        <locationX>50</locationX>
-        <locationY>2818</locationY>
+        <locationX>710</locationX>
+        <locationY>4835</locationY>
         <inputReference>TimeSheetEntryVAR</inputReference>
     </recordCreates>
     <recordCreates>
         <name>Create_TimeSheet_Entry_Travel</name>
         <label>Create TimeSheet Entry Travel</label>
-        <locationX>1684</locationX>
-        <locationY>2393</locationY>
+        <locationX>50</locationX>
+        <locationY>3779</locationY>
         <inputReference>TimeSheetEntryVAR</inputReference>
     </recordCreates>
     <recordLookups>
         <name>Get_Completed_Time_Sheet_Entry</name>
         <label>Get Completed Time Sheet Entry</label>
-        <locationX>1390</locationX>
-        <locationY>2515</locationY>
+        <locationX>2305</locationX>
+        <locationY>3671</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>Found_Completed_Time_Sheet_Entry</targetReference>
@@ -1290,8 +1294,8 @@
     <recordLookups>
         <name>Get_Time_Sheet_Completed</name>
         <label>Get Time Sheet Completed</label>
-        <locationX>1265</locationX>
-        <locationY>2515</locationY>
+        <locationX>2305</locationX>
+        <locationY>3563</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>Get_Completed_Time_Sheet_Entry</targetReference>
@@ -1325,8 +1329,8 @@
     <recordLookups>
         <name>Get_Time_Sheet_In_Progress</name>
         <label>Get Time Sheet In Progress</label>
-        <locationX>712</locationX>
-        <locationY>2812</locationY>
+        <locationX>710</locationX>
+        <locationY>4103</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>Get_Travel_Time_Sheet_Entry</targetReference>
@@ -1360,8 +1364,8 @@
     <recordLookups>
         <name>Get_Time_Sheet_In_Progress_0</name>
         <label>Get Time Sheet In Progress</label>
-        <locationX>681</locationX>
-        <locationY>452</locationY>
+        <locationX>2360</locationX>
+        <locationY>431</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>Get_Travel_Time_Sheet_Entry_0</targetReference>
@@ -1395,8 +1399,8 @@
     <recordLookups>
         <name>Get_Time_Sheet_Travel</name>
         <label>Get Time Sheet Travel</label>
-        <locationX>1385</locationX>
-        <locationY>2393</locationY>
+        <locationX>50</locationX>
+        <locationY>3563</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>Assign_to</targetReference>
@@ -1430,8 +1434,8 @@
     <recordLookups>
         <name>Get_Travel_Time_Sheet_Entry</name>
         <label>Get Travel Time Sheet Entry</label>
-        <locationX>594</locationX>
-        <locationY>2812</locationY>
+        <locationX>710</locationX>
+        <locationY>4211</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>Found_Travel_Time_Sheet_Entry</targetReference>
@@ -1474,8 +1478,8 @@
     <recordLookups>
         <name>Get_Travel_Time_Sheet_Entry_0</name>
         <label>Get Travel Time Sheet Entry</label>
-        <locationX>549</locationX>
-        <locationY>452</locationY>
+        <locationX>2360</locationX>
+        <locationY>539</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>Found_Travel_TSE</targetReference>
@@ -1511,8 +1515,8 @@
     <recordLookups>
         <name>Get_WO</name>
         <label>Get WO</label>
-        <locationX>1036</locationX>
-        <locationY>950</locationY>
+        <locationX>2382</locationX>
+        <locationY>1547</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>Update_Reschedule_Counter</targetReference>
@@ -1532,8 +1536,8 @@
     <recordLookups>
         <name>Get_WO_data_1</name>
         <label>Get WO data 1</label>
-        <locationX>1822</locationX>
-        <locationY>2199</locationY>
+        <locationX>4186</locationX>
+        <locationY>3563</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>What_kind_of_Opportunity_exists1</targetReference>
@@ -1556,8 +1560,8 @@
     <recordLookups>
         <name>Get_WO_data_2</name>
         <label>Get WO data 2</label>
-        <locationX>1824</locationX>
-        <locationY>2297</locationY>
+        <locationX>3394</locationX>
+        <locationY>3563</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>What_kind_of_Opportunity_exists2</targetReference>
@@ -1581,8 +1585,8 @@
     <recordLookups>
         <name>Get_WO_data_3</name>
         <label>Get WO data 3</label>
-        <locationX>1656</locationX>
-        <locationY>3153</locationY>
+        <locationX>2074</locationX>
+        <locationY>4319</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>Assign_Work_Duration</targetReference>
@@ -1604,8 +1608,8 @@
     <recordLookups>
         <name>Get_Work_Type</name>
         <label>Get Work Type</label>
-        <locationX>1131</locationX>
-        <locationY>2680</locationY>
+        <locationX>798</locationX>
+        <locationY>3779</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>Determine_TSE_Type</targetReference>
@@ -1625,8 +1629,8 @@
     <recordLookups>
         <name>Oppo</name>
         <label>Oppo</label>
-        <locationX>2172</locationX>
-        <locationY>2242</locationY>
+        <locationX>2514</locationX>
+        <locationY>5303</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>Oppo_is_already_closed</targetReference>
@@ -1646,8 +1650,8 @@
     <recordUpdates>
         <name>Update_Oppo</name>
         <label>Update Oppo</label>
-        <locationX>2283</locationX>
-        <locationY>2389</locationY>
+        <locationX>2602</locationX>
+        <locationY>5519</locationY>
         <connector>
             <targetReference>Update_WO2</targetReference>
         </connector>
@@ -1656,8 +1660,8 @@
     <recordUpdates>
         <name>Update_SA</name>
         <label>Update SA</label>
-        <locationX>1427</locationX>
-        <locationY>1531</locationY>
+        <locationX>2200</locationX>
+        <locationY>2579</locationY>
         <connector>
             <targetReference>Is_this_Multi_Day_SA</targetReference>
         </connector>
@@ -1672,8 +1676,8 @@
     <recordUpdates>
         <name>Update_SA3</name>
         <label>Update SA</label>
-        <locationX>1132</locationX>
-        <locationY>2393</locationY>
+        <locationX>1172</locationX>
+        <locationY>3563</locationY>
         <connector>
             <targetReference>SA_has_Work_Type</targetReference>
         </connector>
@@ -1685,8 +1689,8 @@
     <recordUpdates>
         <name>Update_SA4</name>
         <label>Update SA</label>
-        <locationX>1768</locationX>
-        <locationY>3005</locationY>
+        <locationX>1810</locationX>
+        <locationY>4211</locationY>
         <inputAssignments>
             <field>FSL__GanttColor__c</field>
             <value>
@@ -1698,8 +1702,8 @@
     <recordUpdates>
         <name>Update_SA_1</name>
         <label>Update SA</label>
-        <locationX>1477</locationX>
-        <locationY>1887</locationY>
+        <locationX>2387</locationX>
+        <locationY>3011</locationY>
         <connector>
             <targetReference>Was_Status_changed</targetReference>
         </connector>
@@ -1714,8 +1718,8 @@
     <recordUpdates>
         <name>Update_SA_1_0</name>
         <label>Update SA</label>
-        <locationX>1781</locationX>
-        <locationY>1886</locationY>
+        <locationX>2123</locationX>
+        <locationY>3011</locationY>
         <connector>
             <targetReference>Was_Status_changed</targetReference>
         </connector>
@@ -1736,8 +1740,8 @@
     <recordUpdates>
         <name>Update_SA_2</name>
         <label>Update SA</label>
-        <locationX>986</locationX>
-        <locationY>2117</locationY>
+        <locationX>4714</locationX>
+        <locationY>3563</locationY>
         <inputAssignments>
             <field>FSL__GanttLabel__c</field>
             <value>
@@ -1749,8 +1753,8 @@
     <recordUpdates>
         <name>Update_SA_2_0</name>
         <label>Update SA</label>
-        <locationX>938</locationX>
-        <locationY>1123</locationY>
+        <locationX>2382</locationX>
+        <locationY>1979</locationY>
         <connector>
             <targetReference>Installation_duration_is_changed</targetReference>
         </connector>
@@ -1759,8 +1763,8 @@
     <recordUpdates>
         <name>Update_Time_Sheet_Entry</name>
         <label>Update Time Sheet Entry</label>
-        <locationX>776</locationX>
-        <locationY>689</locationY>
+        <locationX>2228</locationX>
+        <locationY>863</locationY>
         <connector>
             <targetReference>Assigned_Resource_was_added</targetReference>
         </connector>
@@ -1769,8 +1773,8 @@
     <recordUpdates>
         <name>Update_Time_Sheet_Entry_Completed</name>
         <label>Update Time Sheet Entry Completed</label>
-        <locationX>1660</locationX>
-        <locationY>2778</locationY>
+        <locationX>2008</locationX>
+        <locationY>3995</locationY>
         <connector>
             <targetReference>Work_is_Paused</targetReference>
         </connector>
@@ -1779,8 +1783,8 @@
     <recordUpdates>
         <name>Update_Time_Sheet_Entry_Travel</name>
         <label>Update Time Sheet Entry Travel</label>
-        <locationX>317</locationX>
-        <locationY>2818</locationY>
+        <locationX>578</locationX>
+        <locationY>4535</locationY>
         <connector>
             <targetReference>Assign_to_0</targetReference>
         </connector>
@@ -1789,31 +1793,31 @@
     <recordUpdates>
         <name>Update_WO</name>
         <label>Update WO</label>
-        <locationX>1919</locationX>
-        <locationY>3153</locationY>
+        <locationX>2074</locationX>
+        <locationY>4535</locationY>
         <inputReference>Get_WO_data_3</inputReference>
     </recordUpdates>
     <recordUpdates>
         <description>Updates the Soft and Hard Reservation dates to WO at the same time when to Oppo.</description>
         <name>Update_WO2</name>
         <label>Update WO</label>
-        <locationX>2485</locationX>
-        <locationY>2389</locationY>
+        <locationX>2514</locationX>
+        <locationY>5711</locationY>
         <inputReference>recWO</inputReference>
     </recordUpdates>
     <recordUpdates>
         <name>Update_WO_Reschedule_Counter</name>
         <label>Update WO</label>
-        <locationX>782</locationX>
-        <locationY>950</locationY>
+        <locationX>2382</locationX>
+        <locationY>1763</locationY>
         <connector>
             <targetReference>Assign_reschedule_info_to_SA_name</targetReference>
         </connector>
         <inputReference>recWO</inputReference>
     </recordUpdates>
     <start>
-        <locationX>670</locationX>
-        <locationY>50</locationY>
+        <locationX>2388</locationX>
+        <locationY>0</locationY>
         <connector>
             <targetReference>Mileage_was_filled_in</targetReference>
         </connector>
@@ -1826,8 +1830,8 @@
         <description>Assign Installer to Oppo team and thus add access to Oppo and Account to him.</description>
         <name>Assign_Installer_to_Oppo_team</name>
         <label>Assign Installer to Oppo team</label>
-        <locationX>1374</locationX>
-        <locationY>780</locationY>
+        <locationX>2382</locationX>
+        <locationY>1247</locationY>
         <connector>
             <targetReference>Reschedule_happened</targetReference>
         </connector>

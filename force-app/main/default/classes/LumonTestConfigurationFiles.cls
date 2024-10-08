@@ -2,7 +2,7 @@
  * @description       : 
  * @author            : Henk Reynders
  * @group             : 
- * @last modified on  : 12-07-2023
+ * @last modified on  : 06-19-2024
  * @last modified by  : Henk Reynders
 **/
 @IsTest 
@@ -56,7 +56,7 @@ public with sharing class LumonTestConfigurationFiles {
                                             Opportunity__c = opportunityId,
                                             Name='Configuration Plan 1',
                                             Plan_Apartment__c = 'C1',// public String apartment; // Door Nbr in Apartment
-                                            Plan_Floor__c = 6,// public Integer floor; // Floor Nbr in Building
+                                            Plan_Floor__c = '6',// public Integer floor; // Floor Nbr in Building
                                             Visual_Id__c = 'B2C-ABCDE1',//public String Id; // Unique Visual Configuration Id
                                             Plan_Line__c = '100',// public String line; //?
                                             Plan_Name__c = 'B2C Plan 1',// public String name; // Name of the Configuration

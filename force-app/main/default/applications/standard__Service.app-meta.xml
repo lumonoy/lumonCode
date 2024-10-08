@@ -12,5 +12,6 @@
     <tabs>standard-Dashboard</tabs>
     <tabs>standard-Chatter</tabs>
     <tabs>standard-File</tabs>
-    <tabs>standard-WaveHome</tabs>
+    <tabs>Install_Expense__c</tabs>
+    <tabs>Delivery_Batch__c</tabs>
 </CustomApplication>

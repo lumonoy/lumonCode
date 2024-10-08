@@ -8,5 +8,36 @@
         <plural>true</plural>
         <value>Delivery Batches</value>
     </caseValues>
+    <layouts>
+        <layout>Lumon Delivery Batch Layout</layout>
+        <sections>
+            <label><!-- Address --></label>
+            <section>Address</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Installation --></label>
+            <section>Installation</section>
+        </sections>
+        <sections>
+            <label><!-- Related Persons --></label>
+            <section>Related Persons</section>
+        </sections>
+        <sections>
+            <label><!-- Related Records --></label>
+            <section>Related Records</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Batch Information --></label>
+        <name>Batch_Information</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Split work to Installers --></label>
+        <name>Split_work_to_Installers</name>
+    </quickActions>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

@@ -5,7 +5,7 @@
 ({
     doInit : function(component, evt, helper) {
         window.addEventListener("message", (event) => {
-            console.log('!! event: ' + event.data);
+            console.log('--- VisualApp -  event: ' + event.data);
             if (event.data.indexOf('closeVisual') != -1) {
                 var toastEvent = $A.get("e.force:showToast");
 				toastEvent.setParams({
@@ -24,6 +24,7 @@
 		}, false);
 
         var pageReference = component.get("v.pageReference");
+		console.log('--- VisualApp -  pageReference: ' + pageReference);
 		var recId = pageReference.state.c__recId;
 
 		var action;
@@ -36,8 +37,7 @@
 		action.setCallback(this, function(resp){
 			if(resp.getState() === "SUCCESS") {
 				var resp = resp.getReturnValue();
-				console.log('!! params:');
-				console.log(resp);
+                console.log('--- VisualApp -  parameters: ' + resp);
 				component.set("v.canvasParameters", resp);
 //				window.postMessage('test mess');
 			} else {

@@ -58,7 +58,7 @@
     </valueTranslation>
     <valueTranslation>
         <masterLabel>Installation Time</masterLabel>
-        <translation><!-- Installation Time --></translation>
+        <translation>Asennusaika</translation>
     </valueTranslation>
     <valueTranslation>
         <masterLabel>Machinery</masterLabel>
@@ -78,7 +78,7 @@
     </valueTranslation>
     <valueTranslation>
         <masterLabel>Quarantee Cost Reservation</masterLabel>
-        <translation>Takuu kustannusvaraus</translation>
+        <translation><!-- Quarantee Cost Reservation --></translation>
     </valueTranslation>
     <valueTranslation>
         <masterLabel>Rental Machinery</masterLabel>

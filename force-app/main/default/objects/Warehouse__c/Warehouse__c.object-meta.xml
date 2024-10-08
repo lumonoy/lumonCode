@@ -163,6 +163,6 @@
         <searchResultsAdditionalFields>Organization__c</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>Owned_By__c</searchResultsAdditionalFields>
     </searchLayouts>
-    <sharingModel>Read</sharingModel>
+    <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>

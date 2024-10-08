@@ -88,7 +88,7 @@
         <actionName>View</actionName>
         <comment>Action override created by Lightning App Builder during activation.</comment>
         <content>Lumon_Asset_Record_Page</content>
-        <formFactor>Small</formFactor>
+        <formFactor>Large</formFactor>
         <skipRecordTypeSelect>false</skipRecordTypeSelect>
         <type>Flexipage</type>
     </actionOverrides>
@@ -96,7 +96,7 @@
         <actionName>View</actionName>
         <comment>Action override created by Lightning App Builder during activation.</comment>
         <content>Lumon_Asset_Record_Page</content>
-        <formFactor>Large</formFactor>
+        <formFactor>Small</formFactor>
         <skipRecordTypeSelect>false</skipRecordTypeSelect>
         <type>Flexipage</type>
     </actionOverrides>
@@ -104,9 +104,10 @@
         <actionName>View</actionName>
         <type>Default</type>
     </actionOverrides>
-    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <compactLayoutAssignment>Lumon_Asset_Highlights</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
     <externalSharingModel>Private</externalSharingModel>
+    <recordTypeTrackHistory>false</recordTypeTrackHistory>
     <searchLayouts>
         <customTabListAdditionalFields>ASSET.NAME</customTabListAdditionalFields>
         <customTabListAdditionalFields>ASSET.SERIAL_NUMBER</customTabListAdditionalFields>
@@ -114,6 +115,9 @@
         <customTabListAdditionalFields>ACCOUNT.NAME</customTabListAdditionalFields>
         <customTabListAdditionalFields>CONTACT.NAME</customTabListAdditionalFields>
         <customTabListAdditionalFields>PRODUCT2.NAME</customTabListAdditionalFields>
+        <excludedStandardButtons>OpenListInQuip</excludedStandardButtons>
+        <excludedStandardButtons>NewFromDocument</excludedStandardButtons>
+        <excludedStandardButtons>New</excludedStandardButtons>
         <lookupDialogsAdditionalFields>ASSET.NAME</lookupDialogsAdditionalFields>
         <lookupDialogsAdditionalFields>ASSET.SERIAL_NUMBER</lookupDialogsAdditionalFields>
         <lookupDialogsAdditionalFields>ASSET.INSTALL_DATE</lookupDialogsAdditionalFields>

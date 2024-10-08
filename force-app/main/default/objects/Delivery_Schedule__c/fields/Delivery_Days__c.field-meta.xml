@@ -10,7 +10,7 @@
 +IF(Saturday__c,&quot;7&quot;,&quot;&quot;)
 +IF(Sunday__c,&quot;1&quot;,&quot;&quot;)</formula>
     <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
-    <label>Delivery Days</label>
+    <label>Delivery Days OLD</label>
     <required>false</required>
     <trackTrending>false</trackTrending>
     <type>Text</type>

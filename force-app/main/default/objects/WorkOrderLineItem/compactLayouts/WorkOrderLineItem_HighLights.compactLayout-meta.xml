@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>WorkOrderLineItem_HighLights</fullName>
+    <fields>ProjectNumber__c</fields>
+    <fields>OfferNumber__c</fields>
+    <fields>WorkOrderId</fields>
+    <fields>Subject</fields>
+    <fields>AssetId</fields>
+    <fields>Address</fields>
+    <label>Work Order Line Item HighLights</label>
+</CompactLayout>

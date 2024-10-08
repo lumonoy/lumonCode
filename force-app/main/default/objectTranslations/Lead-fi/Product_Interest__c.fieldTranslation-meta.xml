@@ -5,18 +5,18 @@
     <name>Product_Interest__c</name>
     <picklistValues>
         <masterLabel>Blinds</masterLabel>
-        <translation><!-- Blinds --></translation>
+        <translation>Kaihtimet</translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Glazing</masterLabel>
-        <translation><!-- Glazing --></translation>
+        <translation>Lasitus</translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Railings</masterLabel>
-        <translation><!-- Railings --></translation>
+        <translation>Kaiteet</translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Roofs</masterLabel>
-        <translation><!-- Roofs --></translation>
+        <translation>Katot</translation>
     </picklistValues>
 </CustomFieldTranslation>

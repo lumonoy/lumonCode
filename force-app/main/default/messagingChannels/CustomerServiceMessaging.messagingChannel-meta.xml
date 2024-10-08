@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MessagingChannel xmlns="http://soap.sforce.com/2006/04/metadata">
+    <automatedResponses>
+        <response>You&apos;ve opted out of receiving messages from us, so we won&apos;t contact you again.</response>
+        <type>OptOutConfirmation</type>
+    </automatedResponses>
+    <automatedResponses>
+        <response>Text STOP to opt out of further messages.</response>
+        <type>HelpResponse</type>
+    </automatedResponses>
+    <masterLabel>Customer Service Messaging</masterLabel>
+    <messagingChannelType>EmbeddedMessaging</messagingChannelType>
+    <sessionHandlerQueue>Service_Messaging</sessionHandlerQueue>
+    <sessionHandlerType>Queue</sessionHandlerType>
+</MessagingChannel>

@@ -2,22 +2,22 @@
 <StandardValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <valueTranslation>
         <masterLabel>Closed</masterLabel>
-        <translation><!-- Closed --></translation>
+        <translation>Suljettu</translation>
     </valueTranslation>
     <valueTranslation>
         <masterLabel>Marketing Lead</masterLabel>
-        <translation><!-- Marketing Lead --></translation>
+        <translation>Markkinointiliidi</translation>
     </valueTranslation>
     <valueTranslation>
         <masterLabel>Marketing Qualified Lead</masterLabel>
-        <translation><!-- Marketing Qualified Lead --></translation>
+        <translation>Markkinoinnin kvalifioima liidi</translation>
     </valueTranslation>
     <valueTranslation>
         <masterLabel>Sales Lead</masterLabel>
-        <translation><!-- Sales Lead --></translation>
+        <translation>Myyntiliidi</translation>
     </valueTranslation>
     <valueTranslation>
         <masterLabel>Sales Qualified Lead</masterLabel>
-        <translation><!-- Sales Qualified Lead --></translation>
+        <translation>Myynnin kvalifioima liidi</translation>
     </valueTranslation>
 </StandardValueSetTranslation>

@@ -6,7 +6,7 @@
     <label>Case Type</label>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>
-    <trackHistory>false</trackHistory>
+    <trackHistory>true</trackHistory>
     <trackTrending>false</trackTrending>
     <type>Picklist</type>
     <valueSet>
@@ -14,19 +14,23 @@
         <restricted>true</restricted>
         <valueSetName>Lumon_Case_Types</valueSetName>
         <valueSettings>
+            <controllingFieldValue>RECL</controllingFieldValue>
+            <controllingFieldValue>CS</controllingFieldValue>
+            <valueName>CS_RECL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RECL</controllingFieldValue>
             <controllingFieldValue>WEB</controllingFieldValue>
             <controllingFieldValue>INST</controllingFieldValue>
-            <controllingFieldValue>Other</controllingFieldValue>
             <controllingFieldValue>CS</controllingFieldValue>
-            <controllingFieldValue>IT</controllingFieldValue>
             <controllingFieldValue>LOG</controllingFieldValue>
-            <controllingFieldValue>FAC</controllingFieldValue>
             <controllingFieldValue>TS</controllingFieldValue>
+            <controllingFieldValue>FAC</controllingFieldValue>
+            <controllingFieldValue>IT</controllingFieldValue>
             <controllingFieldValue>NA</controllingFieldValue>
             <controllingFieldValue>SF</controllingFieldValue>
             <controllingFieldValue>SPEC</controllingFieldValue>
             <controllingFieldValue>PERM</controllingFieldValue>
-            <controllingFieldValue>RECL</controllingFieldValue>
             <valueName>NA</valueName>
         </valueSettings>
         <valueSettings>
@@ -53,17 +57,36 @@
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>CS</controllingFieldValue>
+            <controllingFieldValue>TS</controllingFieldValue>
             <controllingFieldValue>SPEC</controllingFieldValue>
             <valueName>CS_CORD</valueName>
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>CS</controllingFieldValue>
-            <controllingFieldValue>RECL</controllingFieldValue>
-            <valueName>CS_RECL</valueName>
+            <valueName>CS_CREQ</valueName>
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>CS</controllingFieldValue>
-            <valueName>CS_CREQ</valueName>
+            <controllingFieldValue>TS</controllingFieldValue>
+            <controllingFieldValue>FAC</controllingFieldValue>
+            <valueName>TS_GEN</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CS</controllingFieldValue>
+            <controllingFieldValue>TS</controllingFieldValue>
+            <valueName>TS_INT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CS</controllingFieldValue>
+            <controllingFieldValue>TS</controllingFieldValue>
+            <controllingFieldValue>PERM</controllingFieldValue>
+            <valueName>TS_PERM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CS</controllingFieldValue>
+            <controllingFieldValue>TS</controllingFieldValue>
+            <controllingFieldValue>SPEC</controllingFieldValue>
+            <valueName>TS_TQ</valueName>
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>IT</controllingFieldValue>
@@ -112,28 +135,6 @@
         <valueSettings>
             <controllingFieldValue>IT</controllingFieldValue>
             <valueName>IT_PERM</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>LOG</controllingFieldValue>
-            <valueName>LOG_REQ</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>FAC</controllingFieldValue>
-            <controllingFieldValue>TS</controllingFieldValue>
-            <valueName>TS_GEN</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>TS</controllingFieldValue>
-            <valueName>TS_INT</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>TS</controllingFieldValue>
-            <controllingFieldValue>PERM</controllingFieldValue>
-            <valueName>TS_PERM</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>TS</controllingFieldValue>
-            <valueName>TS_TQ</valueName>
         </valueSettings>
     </valueSet>
 </CustomField>

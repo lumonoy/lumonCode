@@ -2,7 +2,7 @@
  * @description       : 
  * @author            : Henk Reynders
  * @group             : 
- * @last modified on  : 11-22-2023
+ * @last modified on  : 08-09-2024
  * @last modified by  : Henk Reynders
 **/
 public with sharing class ConfigurationProductController {
@@ -14,12 +14,29 @@ public with sharing class ConfigurationProductController {
         Configuration_Product__c configProduct = configProducts[0];
         return configProduct;
     }   
+    @AuraEnabled(cacheable=false)
+    public static Configuration_Product__c getConfigurationProductByNumber(String rvnNumber) {
+        // Populate List from SOQL query on Product
+        Id configProductId = [SELECT Id, SerialNumber__c FROM Configuration_Product__c WHERE ProductIdentifier__c =: rvnNumber LIMIT 1]?.Id; 
+        List<Id> configProductIds = new List<Id>();
+        configProductIds.add(configProductId);
+        Configuration_Product__c configProduct = new Configuration_Product__c();
+        System.debug('--- ConfigurationProductController - Get Configuration Product with Id '+configProductId); 
+        List<Configuration_Product__c> configProducts =  getConfigurationProducts(configProductIds); 
+        if  (configProducts?.size()>0) {
+            configProduct = configProducts[0];
+            System.debug('--- ConfigurationProductController - Configuration Product: '+configProduct.Name); 
+        }        
+        return configProduct;
+    }
     @AuraEnabled(cacheable=true)
-    public static List<Configuration_Product__c> getConfigurationProducts(List<Id> configIds){
+    public static List<Configuration_Product__c> getConfigurationProducts(List<Id> recordIds){
         List<Configuration_Product__c> configProducts = new List<Configuration_Product__c>();
         configProducts = [  SELECT  Id,
                                     Name,
-                                    Configuration__c,
+                                    Configuration__c, // Keep
+                                    ProductCode__c, //New
+                                    SerialNumber__c, //New
                                     Configuration__r.Opportunity__c,
                                     Configuration__r.Plan_Type__c,
                                     Product_Group__c,
@@ -46,9 +63,13 @@ public with sharing class ConfigurationProductController {
                                     Configuration__r.Plan_Apartment__c,
                                     Configuration__r.Plan_Line__c,
                                     Configuration__r.Plan_Floor__c,
-                                    Configuration__r.Plan_Name__c
+                                    Configuration__r.Plan_Name__c,
+                                    Count_Items__c
                             FROM Configuration_Product__c 
-                            WHERE Configuration__c IN: configIds];
+                            WHERE Id IN: recordIds
+                            OR Configuration__c IN: recordIds
+                            OR Configuration__r.Opportunity__c IN: recordIds 
+                            OR Product__c IN: recordIds];
         return configProducts;
     }
 }

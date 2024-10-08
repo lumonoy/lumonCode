@@ -503,7 +503,7 @@ This can be anything from sick leave spanning over two days or 4 weeks of vacati
         </schedule>
         <triggerType>Scheduled</triggerType>
     </start>
-    <status>Active</status>
+    <status>Obsolete</status>
     <variables>
         <name>TSE</name>
         <dataType>SObject</dataType>

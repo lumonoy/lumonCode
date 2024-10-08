@@ -2,7 +2,7 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Planned_Installation_End_Date__c</fullName>
     <externalId>false</externalId>
-    <label>Planned Installation End Date</label>
+    <label>Planned End</label>
     <required>false</required>
     <trackTrending>false</trackTrending>
     <type>Date</type>

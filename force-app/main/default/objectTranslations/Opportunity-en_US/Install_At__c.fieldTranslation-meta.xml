@@ -2,12 +2,4 @@
 <CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <label><!-- Install At --></label>
     <name>Install_At__c</name>
-    <picklistValues>
-        <masterLabel>Building</masterLabel>
-        <translation><!-- Building --></translation>
-    </picklistValues>
-    <picklistValues>
-        <masterLabel>Other</masterLabel>
-        <translation><!-- Other --></translation>
-    </picklistValues>
 </CustomFieldTranslation>

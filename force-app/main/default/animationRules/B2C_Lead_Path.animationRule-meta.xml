@@ -2,7 +2,7 @@
 <AnimationRule xmlns="http://soap.sforce.com/2006/04/metadata">
     <animationFrequency>always</animationFrequency>
     <developerName>B2C_Lead_Path</developerName>
-    <isActive>true</isActive>
+    <isActive>false</isActive>
     <masterLabel>B2C Lead Path</masterLabel>
     <recordTypeContext>Custom</recordTypeContext>
     <recordTypeName>B2C_Lead</recordTypeName>

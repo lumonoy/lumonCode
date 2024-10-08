@@ -1,8 +1,8 @@
 {
-    "apartment": null,
-    "floor": null,
+    "apartment": "A1",
+    "floor": "2",
     "id": "EACAT",
-    "line": null,
+    "line": 1,
     "name": "EACAT",
     "products": [
         {

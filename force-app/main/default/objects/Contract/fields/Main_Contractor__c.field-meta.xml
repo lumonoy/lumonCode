@@ -5,7 +5,7 @@
     <externalId>false</externalId>
     <formula>IF(Opportunity__r.Main_Contractor__c = TRUE ,&apos;Yes&apos;,
 IF(Opportunity__r.Main_Contractor__c = FALSE,&apos;No&apos;,&apos;No&apos;))</formula>
-    <label>Main Contractor</label>
+    <label>Main Contractor OLD</label>
     <required>false</required>
     <trackHistory>false</trackHistory>
     <type>Text</type>

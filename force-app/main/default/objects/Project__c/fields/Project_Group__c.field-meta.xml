@@ -9,63 +9,6 @@
     <type>Picklist</type>
     <valueSet>
         <restricted>true</restricted>
-        <valueSetDefinition>
-            <sorted>false</sorted>
-            <value>
-                <fullName>CONSALES</fullName>
-                <default>false</default>
-                <label>CONSALES</label>
-            </value>
-            <value>
-                <fullName>CONSDELIV</fullName>
-                <default>false</default>
-                <label>CONSDELIV</label>
-            </value>
-            <value>
-                <fullName>CONWAR</fullName>
-                <default>false</default>
-                <label>CONWAR</label>
-            </value>
-            <value>
-                <fullName>GROUPSA</fullName>
-                <default>false</default>
-                <label>GROUPSA</label>
-            </value>
-            <value>
-                <fullName>INTWAR</fullName>
-                <default>false</default>
-                <label>INTWAR</label>
-            </value>
-            <value>
-                <fullName>PRODELIV</fullName>
-                <default>false</default>
-                <label>PRODELIV</label>
-            </value>
-            <value>
-                <fullName>PROPROFIT</fullName>
-                <default>false</default>
-                <label>PROPROFIT</label>
-            </value>
-            <value>
-                <fullName>PROWAR</fullName>
-                <default>false</default>
-                <label>PROWAR</label>
-            </value>
-            <value>
-                <fullName>PROWIP</fullName>
-                <default>false</default>
-                <label>PROWIP</label>
-            </value>
-            <value>
-                <fullName>RESDELIV</fullName>
-                <default>false</default>
-                <label>RESDELIV</label>
-            </value>
-            <value>
-                <fullName>WEBDELIV</fullName>
-                <default>false</default>
-                <label>WEBDELIV</label>
-            </value>
-        </valueSetDefinition>
+        <valueSetName>Lumon_Project_Groups</valueSetName>
     </valueSet>
 </CustomField>

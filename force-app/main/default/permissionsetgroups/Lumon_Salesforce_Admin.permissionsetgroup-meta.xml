@@ -1,18 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
-    <description>Required Permissions for Salesforce Admin (System User)</description>
+    <description>Access Rights and Permissions for System and Data Administrators</description>
     <hasActivationRequired>false</hasActivationRequired>
     <label>Lumon Salesforce Admin</label>
-    <mutingPermissionSets>Basic_Admin_User_Muted</mutingPermissionSets>
+    <mutingPermissionSets>Lumon_Super_Admin_Muted</mutingPermissionSets>
     <permissionSets>AdminAppPermissions</permissionSets>
     <permissionSets>AdminCustomPermission</permissionSets>
-    <permissionSets>AdminManageAccountUsers</permissionSets>
-    <permissionSets>AdminManageListViews</permissionSets>
     <permissionSets>AdminObjectandFieldPermissions</permissionSets>
-    <permissionSets>AdminPDFButlerPermissions</permissionSets>
     <permissionSets>AdminSystemPermissions</permissionSets>
-    <permissionSets>FSL_Admin_License</permissionSets>
-    <permissionSets>ManageUserActivityPermissions</permissionSets>
-    <permissionSets>UserMobileAppAccessPermissions</permissionSets>
+    <permissionSets>CPQFeaturePermissions</permissionSets>
+    <permissionSets>FSL_Admin_Permissions</permissionSets>
+    <permissionSets>FieldServiceDispatchingPermissions</permissionSets>
+    <permissionSets>FieldServiceMobilePermissions</permissionSets>
+    <permissionSets>FieldServiceSchedulingPermissions</permissionSets>
+    <permissionSets>FieldServiceStandardPermissions</permissionSets>
+    <permissionSets>PDFButlerAdminPermissions</permissionSets>
+    <permissionSets>PDF_Butler_Admin_Local</permissionSets>
+    <permissionSets>QueryAllFilesPermissions</permissionSets>
+    <permissionSets>SoveliaPermissions</permissionSets>
+    <permissionSets>SoveliaTestPermissions</permissionSets>
+    <permissionSets>cadmus_core__PDF_Butler_Admin</permissionSets>
+    <permissionSets>cadmus_sign2__SIGN_Butler_Admin</permissionSets>
+    <permissionSets>et4ae5__ExactTarget_Integration_Admin</permissionSets>
     <status>Updated</status>
 </PermissionSetGroup>

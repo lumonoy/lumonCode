@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>15</fullName>
+        <default>false</default>
+        <label>15 Flexi hours (pekkanen)</label>
+    </customValue>
+    <customValue>
+        <fullName>25</fullName>
+        <default>false</default>
+        <label>25 Hourly Work (tuntityö)</label>
+    </customValue>
+    <customValue>
+        <fullName>30</fullName>
+        <default>false</default>
+        <label>30 Sickness (sairaus)</label>
+    </customValue>
+    <customValue>
+        <fullName>35</fullName>
+        <default>false</default>
+        <label>35 Absense (poissaolo)</label>
+    </customValue>
+    <customValue>
+        <fullName>40</fullName>
+        <default>false</default>
+        <label>40 Holiday (loma)</label>
+    </customValue>
+    <customValue>
+        <fullName>45</fullName>
+        <default>false</default>
+        <label>45 Lay-off (lomautus)</label>
+    </customValue>
+    <customValue>
+        <fullName>50</fullName>
+        <default>false</default>
+        <label>50 Internal Work (sisäinen työ)</label>
+    </customValue>
+    <masterLabel>Lumon Time Sheet Codes</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

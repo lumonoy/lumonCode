@@ -30,10 +30,11 @@
             <label>Yes opportunity exists</label>
         </rules>
     </decisions>
-    <description>02.12.2023: Save Active Version as R2</description>
+    <description>02.10.2024 Opportunity not in use
+02.12.2023: Save Active Version as R2</description>
     <environments>Default</environments>
     <interviewLabel>SA - assign Installer to Opportunity team {!$Flow.CurrentDateTime}</interviewLabel>
-    <label>SA - Assign Installer to Opportunity Team R2</label>
+    <label>SA - Assign Installer to Opportunity Team R4 NOT IN USE</label>
     <processMetadataValues>
         <name>BuilderType</name>
         <value>
@@ -155,7 +156,7 @@
             <targetReference>Get_Service_Appointment</targetReference>
         </connector>
     </start>
-    <status>Active</status>
+    <status>Obsolete</status>
     <variables>
         <name>SA_ID</name>
         <dataType>String</dataType>

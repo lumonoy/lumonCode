@@ -155,11 +155,11 @@
     <externalSharingModel>Private</externalSharingModel>
     <label>Condominium</label>
     <nameField>
-        <label>Condiminium Name</label>
+        <label>Condominium Name</label>
         <type>Text</type>
     </nameField>
     <pluralLabel>Condominiums</pluralLabel>
     <searchLayouts></searchLayouts>
-    <sharingModel>Read</sharingModel>
+    <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>

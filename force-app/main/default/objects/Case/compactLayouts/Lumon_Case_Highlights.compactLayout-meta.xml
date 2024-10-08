@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lumon_Case_Highlights</fullName>
+    <fields>CaseNumber</fields>
+    <fields>Subject</fields>
+    <fields>Priority</fields>
+    <fields>Status</fields>
+    <fields>CaseGroup__c</fields>
+    <fields>OwnerId</fields>
+    <fields>CaseCategory__c</fields>
+    <fields>CaseType__c</fields>
+    <label>Lumon Case Highlights</label>
+</CompactLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cost_Of_Revenue__c</fullName>
+    <externalId>false</externalId>
+    <formula>fxFactory__c + fxCost__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Costs of revenue exist for ongoing contract services that can include raw materials, direct labor, shipping costs, and commissions paid to sales employees</inlineHelpText>
+    <label>Cost Of Revenue</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

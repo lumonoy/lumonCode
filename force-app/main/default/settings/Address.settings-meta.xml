@@ -716,7 +716,7 @@
                 <standard>true</standard>
                 <visible>false</visible>
             </states>
-            <visible>false</visible>
+            <visible>true</visible>
         </countries>
         <countries>
             <active>true</active>
@@ -1177,7 +1177,7 @@
             <label>Denmark</label>
             <orgDefault>false</orgDefault>
             <standard>true</standard>
-            <visible>false</visible>
+            <visible>true</visible>
         </countries>
         <countries>
             <active>true</active>
@@ -3719,7 +3719,7 @@
             <label>Netherlands</label>
             <orgDefault>false</orgDefault>
             <standard>true</standard>
-            <visible>false</visible>
+            <visible>true</visible>
         </countries>
         <countries>
             <active>true</active>
@@ -3728,7 +3728,7 @@
             <label>Norway</label>
             <orgDefault>false</orgDefault>
             <standard>true</standard>
-            <visible>false</visible>
+            <visible>true</visible>
         </countries>
         <countries>
             <active>true</active>
@@ -3836,7 +3836,7 @@
             <label>Poland</label>
             <orgDefault>false</orgDefault>
             <standard>true</standard>
-            <visible>false</visible>
+            <visible>true</visible>
         </countries>
         <countries>
             <active>true</active>
@@ -3980,7 +3980,7 @@
             <label>Sweden</label>
             <orgDefault>false</orgDefault>
             <standard>true</standard>
-            <visible>false</visible>
+            <visible>true</visible>
         </countries>
         <countries>
             <active>true</active>

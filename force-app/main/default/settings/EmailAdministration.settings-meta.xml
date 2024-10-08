@@ -18,7 +18,7 @@
     <enableSendViaGmailPref>false</enableSendViaGmailPref>
     <enableUseOrgFootersForExtTrans>false</enableUseOrgFootersForExtTrans>
     <enableVerifyEmailDomainByDkim>false</enableVerifyEmailDomainByDkim>
-    <sendEmailsEvenWhenAutomationUpdatesSameRecord>false</sendEmailsEvenWhenAutomationUpdatesSameRecord>
+    <sendEmailsEvenWhenAutomationUpdatesSameRecord>true</sendEmailsEvenWhenAutomationUpdatesSameRecord>
     <sendMassEmailNotification>true</sendMassEmailNotification>
     <sendTextOnlySystemEmails>false</sendTextOnlySystemEmails>
 </EmailAdministrationSettings>

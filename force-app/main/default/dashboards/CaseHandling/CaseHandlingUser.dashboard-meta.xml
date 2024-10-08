@@ -105,7 +105,7 @@
                 </groupingSortProperties>
                 <header>Cases per Owner</header>
                 <legendPosition>Right</legendPosition>
-                <report>CaseHandling/Cases</report>
+                <report>Service_Dashboards_Reports/CaseHandling/Cases</report>
                 <showPercentage>false</showPercentage>
                 <showTotal>true</showTotal>
                 <showValues>true</showValues>
@@ -145,7 +145,7 @@
                 <indicatorHighColor>#00716B</indicatorHighColor>
                 <indicatorLowColor>#C23934</indicatorLowColor>
                 <indicatorMiddleColor>#FFB75D</indicatorMiddleColor>
-                <report>CaseHandling/Cases_Fullfilment</report>
+                <report>Service_Dashboards_Reports/CaseHandling/Cases_Fullfilment</report>
                 <showPercentage>false</showPercentage>
                 <showRange>false</showRange>
                 <showTotal>true</showTotal>
@@ -189,7 +189,7 @@
                 </groupingSortProperties>
                 <header>Cases per Status</header>
                 <legendPosition>Right</legendPosition>
-                <report>CaseHandling/Cases</report>
+                <report>Service_Dashboards_Reports/CaseHandling/Cases</report>
                 <showPercentage>false</showPercentage>
                 <showValues>true</showValues>
                 <sortBy>RowLabelAscending</sortBy>
@@ -238,7 +238,7 @@
                 </groupingSortProperties>
                 <header>Avg Age Cases</header>
                 <legendPosition>Right</legendPosition>
-                <report>CaseHandling/Cases</report>
+                <report>Service_Dashboards_Reports/CaseHandling/Cases</report>
                 <showPercentage>false</showPercentage>
                 <showValues>true</showValues>
                 <sortBy>RowLabelAscending</sortBy>
@@ -287,7 +287,7 @@
                 </groupingSortProperties>
                 <header>Cases per Priority</header>
                 <legendPosition>Right</legendPosition>
-                <report>CaseHandling/Cases</report>
+                <report>Service_Dashboards_Reports/CaseHandling/Cases</report>
                 <showPercentage>false</showPercentage>
                 <showValues>true</showValues>
                 <sortBy>RowLabelAscending</sortBy>
@@ -336,7 +336,7 @@
                 </groupingSortProperties>
                 <header>Closed Cases</header>
                 <legendPosition>Right</legendPosition>
-                <report>CaseHandling/Cases_Closed_Monthly</report>
+                <report>Service_Dashboards_Reports/CaseHandling/Cases_Closed_Monthly</report>
                 <showPercentage>false</showPercentage>
                 <showValues>false</showValues>
                 <sortBy>RowLabelAscending</sortBy>
@@ -386,7 +386,7 @@
                 </groupingSortProperties>
                 <header>Cases Open</header>
                 <legendPosition>Right</legendPosition>
-                <report>CaseHandling/Cases_Open_Monthly</report>
+                <report>Service_Dashboards_Reports/CaseHandling/Cases_Open_Monthly</report>
                 <showPercentage>false</showPercentage>
                 <showValues>true</showValues>
                 <sortBy>RowLabelAscending</sortBy>
@@ -436,7 +436,7 @@
                 </groupingSortProperties>
                 <header>Cases Assigned</header>
                 <legendPosition>Right</legendPosition>
-                <report>CaseHandling/Cases_Workload</report>
+                <report>Service_Dashboards_Reports/CaseHandling/Cases_Workload</report>
                 <showPercentage>false</showPercentage>
                 <showValues>false</showValues>
                 <sortBy>RowLabelAscending</sortBy>

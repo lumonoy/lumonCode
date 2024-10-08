@@ -3,7 +3,7 @@
     <fullName>Case__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <externalId>false</externalId>
-    <label>Case</label>
+    <label>Case OLD</label>
     <referenceTo>Case</referenceTo>
     <relationshipLabel>Work Orders</relationshipLabel>
     <relationshipName>Work_Orders</relationshipName>

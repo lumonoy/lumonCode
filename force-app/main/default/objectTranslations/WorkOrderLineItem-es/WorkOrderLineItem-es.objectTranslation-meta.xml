@@ -28,14 +28,73 @@
         </sections>
     </layouts>
     <layouts>
-        <layout>Lumon Installer WOLI Layout</layout>
+        <layout>Lumon Installer WorkOrderLineItem Page Layout</layout>
         <sections>
             <label><!-- Address --></label>
             <section>Address</section>
         </sections>
+        <sections>
+            <label><!-- Asset --></label>
+            <section>Asset</section>
+        </sections>
+        <sections>
+            <label><!-- Product Information --></label>
+            <section>Product Information</section>
+        </sections>
+        <sections>
+            <label><!-- Work Time --></label>
+            <section>Work Time</section>
+        </sections>
     </layouts>
+    <layouts>
+        <layout>Lumon Work Order Line Item Layout</layout>
+        <sections>
+            <label><!-- Address --></label>
+            <section>Address</section>
+        </sections>
+        <sections>
+            <label><!-- Installation Address --></label>
+            <section>Installation Address</section>
+        </sections>
+        <sections>
+            <label><!-- Installation Files --></label>
+            <section>Installation Files</section>
+        </sections>
+        <sections>
+            <label><!-- Related Records --></label>
+            <section>Related Records</section>
+        </sections>
+        <sections>
+            <label><!-- Work Planning --></label>
+            <section>Work Planning</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Report Issue --></label>
+        <name>Report_Issue</name>
+    </quickActions>
     <quickActions>
         <label><!-- Email --></label>
         <name>SendEmail</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Show Installation Card --></label>
+        <name>ShowInstallationCard</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Upload File --></label>
+        <name>Upload_File</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- View Work Order Line Item --></label>
+        <name>View_Work_Order_Line_Item</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Installation Document --></label>
+        <name>vfInstallationDocument</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- View Installation Card --></label>
+        <name>viewInstallationCard</name>
     </quickActions>
 </CustomObjectTranslation>

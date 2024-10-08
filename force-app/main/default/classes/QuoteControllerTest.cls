@@ -2,41 +2,41 @@
  * @description       : 
  * @author            : Henk Reynders
  * @group             : 
- * @last modified on  : 12-03-2023
+ * @last modified on  : 07-06-2024
  * @last modified by  : Henk Reynders
 **/
 @IsTest
 public class QuoteControllerTest {
+    
     @TestSetup
     static void prepareData(){
         Test.startTest();
-        LumonTestDataFactory.setupProducts();
-        LumonTestDataFactory.setupPrices();
-        // B2C Setup
-        LumonTestDataFactory.setupAccountB2C();
-        LumonTestDataFactory.setupOpportunityB2C();        
-        LumonTestDataFactory.setupConfigurationB2C();
-        LumonTestDataFactory.setupConfigurationProductsB2C();
-        LumonTestDataFactory.setupConfigurationOptionsB2C();       
-        LumonTestDataFactory.setupConfigurationMessagesB2C();
+        LumonTestQuotes.setupQuoteData();
         Test.stopTest();
     }
-    private static Id b2cAccountId = LumonTestDataFactory.b2cAccountId;
-    private static Id b2cOpportunityId = LumonTestDataFactory.b2cOpportunityId;
-    private static Id b2cSyncedQuoteId = LumonTestDataFactory.b2cSyncedQuoteId;
-    private static List<Configuration__c> b2cConfigurations = LumonTestDataFactory.b2cConfigurations;
-    private static List<Configuration_Product__c> b2cConfigProducts = LumonTestDataFactory.b2cConfigProducts;
-    private static List<Configuration_Option__c> b2cConfigOptions = LumonTestDataFactory.b2cConfigOptions;
-    private static List<Configuration_Message__c> b2cConfigMessages = LumonTestDataFactory.b2cConfigMessages;
+    public static Id b2cQuoteId = LumonTestVariables.b2cQuoteId;
+    public static Id b2bQuoteId = LumonTestVariables.b2bQuoteId;
+    public static String b2cQuoteNumber = LumonTestVariables.b2cQuoteNumber;
+    public static String b2bQuoteNumber = LumonTestVariables.b2bQuoteNumber;
+
     @IsTest
-    static void GetQuoteRecordTest(){
+    static void getQuoteTest(){
         Test.startTest();
-        Quote quote = QuoteController.GetQuoteRecord(b2cSyncedQuoteId);
-        System.Debug ('--- '+ quote.Id +' Quote Returned');
+        Quote quote = QuoteController.getQuote(b2cQuoteId);
+        System.Debug ('--- QuoteControllerTest - getQuoteTest '+ quote.Id +' Quote Returned');
         System.assertNotEquals(null,quote, 'Expected Quote Record to be returned');
-        System.debug('--- GetQuoteRecordTest - CPU TIME: '+LIMITS.getCpuTime()); 
-        System.debug('--- GetQuoteRecordTest - SOQL USED: ' + LIMITS.getQueries());
+        System.debug('--- QuoteControllerTest - getQuoteTest - CPU TIME: '+LIMITS.getCpuTime()); 
+        System.debug('--- QuoteControllerTest - getQuoteTest - SOQL USED: ' + LIMITS.getQueries());
+        Test.stopTest();
+    }    
+    @IsTest
+    static void getQuoteByNumberTest(){
+        Test.startTest();
+        Quote quote = QuoteController.getQuoteByNumber(b2cQuoteNumber);
+        System.Debug ('--- QuoteControllerTest - getQuoteByNumberTest '+ quote.Id +' Quote Returned');
+        System.assertNotEquals(null,quote, 'Expected Quote Record to be returned');
+        System.debug('--- QuoteControllerTest - getQuoteByNumberTest - CPU TIME: '+LIMITS.getCpuTime()); 
+        System.debug('--- QuoteControllerTest - getQuoteByNumberTest - SOQL USED: ' + LIMITS.getQueries());
         Test.stopTest();
     }
-    
 }

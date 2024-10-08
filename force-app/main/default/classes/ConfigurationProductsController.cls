@@ -2,7 +2,7 @@
  * @description       : 
  * @author            : Henk Reynders
  * @group             : 
- * @last modified on  : 12-05-2023
+ * @last modified on  : 06-19-2024
  * @last modified by  : Henk Reynders
 **/
 public with sharing class ConfigurationProductsController {

@@ -5,4 +5,5 @@
     <mayForecastManagerShare>false</mayForecastManagerShare>
     <name>Lumon Salesforce Admin</name>
     <opportunityAccessLevel>Edit</opportunityAccessLevel>
+    <parentRole>Global</parentRole>
 </Role>

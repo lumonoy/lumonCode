@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-    <label><!-- Signed 1st reminder sent --></label>
+    <label><!-- Signed 1st reminder sent OLD --></label>
     <name>Signed_1st_reminder_sent__c</name>
 </CustomFieldTranslation>

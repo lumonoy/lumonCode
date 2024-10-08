@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-    <label><!-- Loss Reason --></label>
+    <label><!-- Loss Reason OLD --></label>
     <name>Loss_Reason__c</name>
     <picklistValues>
         <masterLabel>Lost to Competitor</masterLabel>

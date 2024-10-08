@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <help><!-- Please fill in more Preliminary Contract Details. --></help>
-    <label><!-- Preliminary Contract Reason Details2 --></label>
+    <label><!-- Preliminary Contract Reason Details2 OLD --></label>
     <name>Preliminary_Contract_Reason_Details2__c</name>
 </CustomFieldTranslation>

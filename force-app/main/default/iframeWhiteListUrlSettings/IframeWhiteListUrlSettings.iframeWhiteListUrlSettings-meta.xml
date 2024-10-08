@@ -2,6 +2,10 @@
 <IframeWhiteListUrlSettings xmlns="http://soap.sforce.com/2006/04/metadata">
     <iframeWhiteListUrls>
         <context>VisualforcePages</context>
-        <url>lumonoy.lightning.force.com</url>
+        <url>https://lumonoy--lumontest.lightning.force.com</url>
+    </iframeWhiteListUrls>
+    <iframeWhiteListUrls>
+        <context>VisualforcePages</context>
+        <url>https://lumonoy--lumontest.sandbox.lightning.force.com</url>
     </iframeWhiteListUrls>
 </IframeWhiteListUrlSettings>

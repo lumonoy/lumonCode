@@ -2,7 +2,7 @@
  * @description       : 
  * @author            : Henk Reynders
  * @group             : 
- * @last modified on  : 05-22-2024
+ * @last modified on  : 09-12-2024
  * @last modified by  : Henk Reynders
 **/
 public with sharing class QuotingManager {
@@ -211,6 +211,23 @@ public with sharing class QuotingManager {
             }
         // Stage 6 Produce
         // Stage 7 Deliver
+        } else if (configAction == 'Process'){
+            // Only for Visual Configuration Processing -> One Plan at a Time
+            if (configType == 'Plantori'){ 
+                System.debug('--- QuotingManager - Process Inbound Plantori Data!');
+                try{
+                    statusMessage ='Processing Plantori Data';
+                    sendFeedback(key,recordId,title,statusMessage,mode,'info');
+                    processingResult = FieldServiceInstallationHelper.processInboundOrderData(configJSON);
+                } catch (Exception e) {
+                    errorMessage = 'Error in Processing Inbound Order Message' + e.getMessage();
+                    sendFeedback(key,recordId,title,errorMessage,mode,'error');
+                }
+                if (String.isNotBlank(processingResult)) {
+                    System.debug('--- QuotingManager - Processing Inbound Order Message '+processingResult);
+                    
+                }
+            }
         // Stage 8 Install
         // Stage 9 Warrant - After Sales/Reclamation      
         // Stage 10 Close                              

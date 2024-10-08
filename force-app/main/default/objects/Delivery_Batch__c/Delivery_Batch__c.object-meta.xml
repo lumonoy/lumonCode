@@ -128,20 +128,26 @@
     </actionOverrides>
     <actionOverrides>
         <actionName>View</actionName>
-        <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
-        <actionName>View</actionName>
-        <formFactor>Large</formFactor>
-        <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
-        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Lumon_Delivery_Batch_Record_Page</content>
         <formFactor>Small</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Lumon_Delivery_Batch_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
         <type>Default</type>
     </actionOverrides>
     <allowInChatterGroups>false</allowInChatterGroups>
-    <compactLayoutAssignment>Lumon_Delivery_Batch_Hightlights</compactLayoutAssignment>
+    <compactLayoutAssignment>Lumon_Delivery_Batch_Highlights</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
     <description>Contains details about project work part (delivery batch).</description>
     <enableActivities>false</enableActivities>
@@ -169,11 +175,14 @@
         <excludedStandardButtons>Import</excludedStandardButtons>
         <excludedStandardButtons>MassChangeOwner</excludedStandardButtons>
         <excludedStandardButtons>MassAssignRecordLabel</excludedStandardButtons>
+        <searchResultsAdditionalFields>Batch_Name__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>OfferId__c</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>Batch_Number__c</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>Installation_Address__c</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>Batch_Installation_Date__c</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>Batch_Installation_End__c</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>Batch_Installation_Start__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Planned_Installation_Address__City__s</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Planned_Installation_Address__Street__s</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Planned_Installation_Address__PostalCode__s</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>

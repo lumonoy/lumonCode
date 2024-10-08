@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- The Address where the Balcony or Terrace Glazing is Installed --></help>
+    <label><!-- Installation Address --></label>
+    <name>InstallationAddress__c</name>
+</CustomFieldTranslation>

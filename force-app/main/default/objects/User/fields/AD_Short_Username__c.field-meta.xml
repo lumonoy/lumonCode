@@ -5,7 +5,7 @@
     <description>AD Short Username</description>
     <externalId>false</externalId>
     <inlineHelpText>AD Short Username</inlineHelpText>
-    <label>AD Short Username</label>
+    <label>AD Short Username OLD</label>
     <length>50</length>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>

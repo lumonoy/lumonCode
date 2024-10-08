@@ -79,6 +79,69 @@
             <section>Structural Analysis Information</section>
         </sections>
     </layouts>
+    <layouts>
+        <layout>Lumon Opportunity Layout</layout>
+        <sections>
+            <label><!-- Business Attributes --></label>
+            <section>Business Attributes</section>
+        </sections>
+        <sections>
+            <label><!-- Contract Additional Agreements --></label>
+            <section>Contract Additional Agreements</section>
+        </sections>
+        <sections>
+            <label><!-- Contract Information --></label>
+            <section>Contract Information</section>
+        </sections>
+        <sections>
+            <label><!-- Contract Price Agreements --></label>
+            <section>Contract Price Agreements</section>
+        </sections>
+        <sections>
+            <label><!-- Customer Information --></label>
+            <section>Customer Information</section>
+        </sections>
+        <sections>
+            <label><!-- Delivery Date and Time --></label>
+            <section>Delivery Date and Time</section>
+        </sections>
+        <sections>
+            <label><!-- Delivery Information --></label>
+            <section>Delivery Information</section>
+        </sections>
+        <sections>
+            <label><!-- Delivery Note --></label>
+            <section>Delivery Note</section>
+        </sections>
+        <sections>
+            <label><!-- Delivery Terms --></label>
+            <section>Delivery Terms</section>
+        </sections>
+        <sections>
+            <label><!-- Delivery and Installation --></label>
+            <section>Delivery and Installation</section>
+        </sections>
+        <sections>
+            <label><!-- Opportunity Value --></label>
+            <section>Opportunity Value</section>
+        </sections>
+        <sections>
+            <label><!-- Payment Information --></label>
+            <section>Payment Information</section>
+        </sections>
+        <sections>
+            <label><!-- Project Information --></label>
+            <section>Project Information</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Create Installation Card --></label>
+        <name>Create_Installation_Card</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Create Installation Card Button --></label>
+        <name>Create_Installation_Card_Button</name>
+    </quickActions>
     <quickActions>
         <label><!-- Delivery Location --></label>
         <name>Delivery_Location</name>
@@ -92,6 +155,10 @@
         <name>Lead_Times</name>
     </quickActions>
     <quickActions>
+        <label><!-- New B2C Opportunity --></label>
+        <name>New_B2C_Opportunity</name>
+    </quickActions>
+    <quickActions>
         <label><!-- New Plan --></label>
         <name>New_Plan</name>
     </quickActions>
@@ -102,6 +169,10 @@
     <quickActions>
         <label><!-- Pricing Attributes --></label>
         <name>Pricing_Attributes</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Split work to Installers --></label>
+        <name>Split_work_to_Installers</name>
     </quickActions>
     <quickActions>
         <label><!-- Update Opportunity --></label>
@@ -169,4 +240,12 @@
         <errorMessage><!-- Opportunity cannot be moved to contract signed stage if 2nd measurement has not been completed. --></errorMessage>
         <name>X2nd_Measurement_Completed_before_status</name>
     </validationRules>
+    <webLinks>
+        <label><!-- Create_Offer --></label>
+        <name>Create_Offer</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Generate_Offer --></label>
+        <name>Generate_Offer</name>
+    </webLinks>
 </CustomObjectTranslation>

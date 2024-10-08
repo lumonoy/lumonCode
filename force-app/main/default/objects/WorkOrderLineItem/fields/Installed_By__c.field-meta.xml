@@ -4,7 +4,7 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <description>Contains the installer&apos;s (user) reference after the WOLi has been set to Completed status.</description>
     <externalId>false</externalId>
-    <label>Installed By</label>
+    <label>Installed By OLD</label>
     <referenceTo>User</referenceTo>
     <relationshipName>Work_Order_Line_Items</relationshipName>
     <required>false</required>

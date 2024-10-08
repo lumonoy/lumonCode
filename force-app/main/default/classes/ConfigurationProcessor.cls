@@ -211,7 +211,7 @@ public with sharing class ConfigurationProcessor {
             // Step 4: Get the Visual or Sovelia Configuration by parsing the pricing File content
             if (String.IsNotBlank(pricingJSON)) {
                 System.debug('--- Checking the Type of Pricing File!');
-				System.debug('--- Pricing File:'+pricingJSON);
+                System.debug('--- Pricing File:'+pricingJSON);
                 System.debug('--- Get Visual Products: '+visualProducts);
                 List<String> visualProductCodes = visualProducts.split(';');
                 System.debug('--- Checking if Pricing File includes on of these: '+visualProductCodes);
@@ -288,8 +288,9 @@ public with sharing class ConfigurationProcessor {
                     planToUpsert.Name = String.IsNotBlank(planName)? planName : '';
                     // Set Plan Values based on Visual Update
                     planToUpsert.Unit__c = String.IsNotBlank(planUnit) ? planUnit : '';
-                    planToUpsert.Floor__c = String.IsNotBlank(planFloor)? planFloor : '';
-                    planToUpsert.Line__c = String.IsNotBlank(planLine)? planLine : '';
+                    planToUpsert.Plan_Apartment__c = String.IsNotBlank(planFloor)? planFloor : '';
+                    planToUpsert.Plan_Floor__c = String.IsNotBlank(planFloor)? planFloor : '';
+                    planToUpsert.Plan_Line__c = String.IsNotBlank(planLine)? planLine : '';
                     planToUpsert.Plan_Name__c = String.IsNotBlank(planName)? planName : '';
                     planToUpsert.Visual_Id__c = String.IsNotBlank(planVisualId)? planVisualId : '';
                     planToUpsert.Visual_Version__c = planVisualVersion;

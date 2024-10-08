@@ -38,6 +38,6 @@
     <successMessage>Case is created</successMessage>
     <targetObject>Case</targetObject>
     <targetParentField>Asset</targetParentField>
-    <targetRecordType>Case.Customer_Service</targetRecordType>
+    <targetRecordType>Case.CS_Case</targetRecordType>
     <type>Create</type>
 </QuickAction>

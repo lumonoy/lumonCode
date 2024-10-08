@@ -17,4 +17,7 @@
         <value>New</value>
     </filters>
     <label>All New Cases</label>
+    <sharedTo>
+        <group>Admins</group>
+    </sharedTo>
 </ListView>

@@ -4,5 +4,5 @@
     <entityName>Case</entityName>
     <fieldName>Status</fieldName>
     <masterLabel>Special Order Case Path</masterLabel>
-    <recordTypeName>Special_Order_Handling</recordTypeName>
+    <recordTypeName>SPEC_Case</recordTypeName>
 </PathAssistant>

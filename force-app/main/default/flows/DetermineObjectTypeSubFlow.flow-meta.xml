@@ -72,7 +72,7 @@
             <targetReference>GetEntity</targetReference>
         </connector>
     </start>
-    <status>Active</status>
+    <status>Obsolete</status>
     <variables>
         <name>recordId</name>
         <dataType>String</dataType>

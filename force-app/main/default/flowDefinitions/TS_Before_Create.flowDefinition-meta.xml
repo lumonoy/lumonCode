@@ -1,12 +1,3 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<FlowDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
-    <activeVersionNumber>1</activeVersionNumber>
-    <description>Actions done, when a Time Sheet record is created. Mainly to automatically update the TS Status to &quot;Approved&quot; if the TS Start Date is a public holiday.
-02.12.2023: Save Active Version as R2
+<FlowDefinition xmlns="http://soap.sforce.com/2006/04/metadata"/>
 
-23.11.2023: Change flow to run as Before Save to improve performance.
-22.11.2023: Additional check on STM validity and if Service Resource is active.
-22.11.2023: Added error handling.
-21.11.2023: First version.</description>
-    <masterLabel>TimeSheet - Before Create R2</masterLabel>
-</FlowDefinition>

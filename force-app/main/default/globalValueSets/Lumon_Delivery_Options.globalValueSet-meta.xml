@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Building</fullName>
+        <default>true</default>
+        <label>Building</label>
+    </customValue>
+    <customValue>
+        <fullName>Factory</fullName>
+        <default>false</default>
+        <label>Factory</label>
+    </customValue>
+    <customValue>
+        <fullName>Warehouse</fullName>
+        <default>false</default>
+        <label>Warehouse</label>
+    </customValue>
+    <customValue>
+        <fullName>Account</fullName>
+        <default>false</default>
+        <label>Account</label>
+    </customValue>
+    <customValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </customValue>
+    <customValue>
+        <fullName>Site</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Site</label>
+    </customValue>
+    <customValue>
+        <fullName>Customer</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Customer</label>
+    </customValue>
+    <masterLabel>Lumon Delivery Options</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

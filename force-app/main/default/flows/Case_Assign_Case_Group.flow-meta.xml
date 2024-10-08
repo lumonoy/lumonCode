@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>56.0</apiVersion>
+    <assignments>
+        <name>Set_Case_Group</name>
+        <label>Set Case Group</label>
+        <locationX>506</locationX>
+        <locationY>395</locationY>
+        <assignmentItems>
+            <assignToReference>SetCaseGroup</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>$Record.CaseGroup__c</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Is_case_group_set</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Set_Case_Owner</name>
+        <label>Set Case Owner</label>
+        <locationX>902</locationX>
+        <locationY>611</locationY>
+        <assignmentItems>
+            <assignToReference>txtCaseOwner</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>$Record.OwnerId</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Is_case_Owner_Set</targetReference>
+        </connector>
+    </assignments>
+    <decisions>
+        <name>Is_case_group_set</name>
+        <label>Is case group set?</label>
+        <locationX>506</locationX>
+        <locationY>503</locationY>
+        <defaultConnector>
+            <targetReference>Set_Case_Owner</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Group not set</defaultConnectorLabel>
+        <rules>
+            <name>Group_is_Set</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>SetCaseGroup</leftValueReference>
+                <operator>IsBlank</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <label>Group is Set</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Is_case_Owner_Set</name>
+        <label>Is case Owner Set?</label>
+        <locationX>902</locationX>
+        <locationY>719</locationY>
+        <defaultConnectorLabel>Owner not set</defaultConnectorLabel>
+        <rules>
+            <name>Owner_Set</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>txtCaseOwner</leftValueReference>
+                <operator>IsBlank</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Owner_type</targetReference>
+            </connector>
+            <label>Owner Set</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Owner_type</name>
+        <label>Owner type?</label>
+        <locationX>638</locationX>
+        <locationY>827</locationY>
+        <defaultConnectorLabel>Unknown Owner</defaultConnectorLabel>
+        <rules>
+            <name>User_owned</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>OwnerType</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>User</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Update_Group_to_User_Default</targetReference>
+            </connector>
+            <label>User owned</label>
+        </rules>
+        <rules>
+            <name>Queue_Owned</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>OwnerType</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Queue</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Update_Group_to_Queue_Default</targetReference>
+            </connector>
+            <label>Queue Owned</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Skip_Automation</name>
+        <label>Skip Automation?</label>
+        <locationX>176</locationX>
+        <locationY>287</locationY>
+        <defaultConnector>
+            <targetReference>Set_Case_Group</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Continue</defaultConnectorLabel>
+        <rules>
+            <name>Abort</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Setup.AutomationBypass__c.SkipAutomation__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <label>Abort</label>
+        </rules>
+    </decisions>
+    <description>Trigger Flow to Set the Case Group</description>
+    <environments>Default</environments>
+    <formulas>
+        <name>fxRecordTypeIdentifier</name>
+        <dataType>String</dataType>
+        <expression>LEFT({!txtRecordTypeName},FIND(&quot;_&quot;,{!txtRecordTypeName},1)-1)</expression>
+    </formulas>
+    <formulas>
+        <description>Defines if the owner is a queue or a user</description>
+        <name>OwnerType</name>
+        <dataType>String</dataType>
+        <expression>CASE( LEFT({!txtCaseOwner},3),
+&quot;005&quot; , &quot;User&quot;,
+&quot;00G&quot;, &quot;Queue&quot;,
+&quot;Unknown&quot;)</expression>
+    </formulas>
+    <formulas>
+        <name>UserDefaultQueue</name>
+        <dataType>String</dataType>
+        <expression>CASE({!$Record.Owner:User.Profile.Name},
+&quot;Lumon Customer Service&quot;,&quot;CS&quot;,
+&quot;Lumon ICT Support&quot;,&quot;ICT&quot;,
+&quot;Lumon Installation Manager&quot;, &quot;TS&quot;,
+&quot;Lumon Installer&quot;, &quot;TS&quot;,
+&quot;Lumon Logistics	Salesforce&quot;, &quot;LOG&quot;,
+&quot;Lumon Production&quot;, &quot;FAC&quot;,
+&quot;Lumon Salesforce Admin&quot;, &quot;ICT&quot;,
+&quot;Lumon System Admin&quot;, &quot;SF&quot;,
+&quot;Lumon Technical Support&quot;, &quot;TS&quot;,
+&quot;CS&quot;) + {!$Record.Owner:User.Country}</expression>
+    </formulas>
+    <interviewLabel>Case - Assign Case Group {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Case - Assign Case Group R3</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordUpdates>
+        <name>Update_Group_to_Queue_Default</name>
+        <label>Update Group to Queue Default</label>
+        <locationX>638</locationX>
+        <locationY>935</locationY>
+        <inputAssignments>
+            <field>CaseGroup__c</field>
+            <value>
+                <elementReference>$Record.Owner:Group.DeveloperName</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Update_Group_to_User_Default</name>
+        <label>Update Group to User Default</label>
+        <locationX>374</locationX>
+        <locationY>935</locationY>
+        <inputAssignments>
+            <field>CaseGroup__c</field>
+            <value>
+                <elementReference>UserDefaultQueue</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Skip_Automation</targetReference>
+        </connector>
+        <object>Case</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordBeforeSave</triggerType>
+    </start>
+    <status>Draft</status>
+    <textTemplates>
+        <description>Notification to sales rep on opportunity feed that the building permit application is approved.</description>
+        <name>Building_Permit_Completed_Notification</name>
+        <isViewedAsPlainText>true</isViewedAsPlainText>
+        <text>Hi @[{!$Record.Opportunity__r.OwnerId}], The Building Permit Case related to your opportunity has been completed, and building permit is approved. Please follow-up accordingly and proceed to the Final contract and order.</text>
+    </textTemplates>
+    <textTemplates>
+        <description>Notification to sales rep on special order case closure</description>
+        <name>Special_Order_Case_Closure_Notification</name>
+        <isViewedAsPlainText>true</isViewedAsPlainText>
+        <text>Hi @[{!$Record.Opportunity__r.OwnerId}],The Special Order Case related to your opportunity is completed. Please follow-up accordingly and proceed to the Final contract and order.</text>
+    </textTemplates>
+    <variables>
+        <name>caseCreatedOn</name>
+        <dataType>DateTime</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>caseId</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>currentItem_Filter_on_ICT</name>
+        <dataType>SObject</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <objectType>RecordType</objectType>
+    </variables>
+    <variables>
+        <name>groupId</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>groupIds</name>
+        <dataType>String</dataType>
+        <isCollection>true</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>ownerId</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>QueueName</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>recCase</name>
+        <dataType>SObject</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <objectType>Case</objectType>
+    </variables>
+    <variables>
+        <name>recLumonContact</name>
+        <dataType>SObject</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <objectType>Contact</objectType>
+    </variables>
+    <variables>
+        <description>Checks if the case group is set before trying to set new</description>
+        <name>SetCaseGroup</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>txtCaseCategory</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>txtCaseGroup</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>txtCaseOwner</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>txtCaseOwnerPrior</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>txtCaseQueue</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>txtCaseQueuePrior</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>txtCaseSubject</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>txtOwnerGroup</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>txtOwnerUser</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>txtRecordTypeName</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+</Flow>

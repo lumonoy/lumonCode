@@ -89,11 +89,11 @@
                 <componentInstanceProperties>
                     <name>label</name>
                     <type>decorator</type>
-                    <value>My FAC Cases</value>
+                    <value>My PROD Cases</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>pageSize</name>
-                    <value>10</value>
+                    <value>5</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>scrollable</name>

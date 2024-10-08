@@ -3,7 +3,7 @@
     <fullName>Hourly_Expense__c</fullName>
     <description>Average Hourly Expense respect to BU</description>
     <externalId>false</externalId>
-    <label>Hourly Expense</label>
+    <label>Hourly Expense OLD</label>
     <precision>18</precision>
     <required>false</required>
     <scale>2</scale>

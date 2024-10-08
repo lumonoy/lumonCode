@@ -1,7 +1,17 @@
+<!--
+  @description       : 
+  @author            : Sai Naraharisetti
+  @group             : 
+  @last modified on  : 03-26-2024
+  @last modified by  : Sai Naraharisetti
+-->
 <template>
     <lightning-card title="Installer documents" icon-name="standard:document">
         <p class="slds-p-horizontal_small">
             <lightning-button label="Installer instructions" icon-name="utility:document_preview" disabled={disableBtn} onclick={generatePDF}></lightning-button>
+        </p><br/>
+        <p class="slds-p-horizontal_small">
+            <lightning-button label="Blinds Installer instructions" icon-name="utility:document_preview" disabled={disableBlindsBtn} onclick={generateBlindsPDF}></lightning-button>
         </p>
     </lightning-card>
 </template>

@@ -16,6 +16,6 @@
         <operation>equals</operation>
         <value>Lumon Installation Manager</value>
     </filters>
-    <label>Installation Manager</label>
+    <label>Installation Managers</label>
     <language>en_US</language>
 </ListView>

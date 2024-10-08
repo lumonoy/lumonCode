@@ -114,31 +114,41 @@
     </actionOverrides>
     <actionOverrides>
         <actionName>View</actionName>
-        <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
-        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Lumon_Address_Record_Page</content>
         <formFactor>Large</formFactor>
-        <type>Default</type>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
     </actionOverrides>
     <actionOverrides>
         <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Lumon_Address_Record_Page</content>
         <formFactor>Small</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
         <type>Default</type>
     </actionOverrides>
-    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <compactLayoutAssignment>Lumon_Address_Highlights</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
     <externalSharingModel>ControlledByParent</externalSharingModel>
     <searchLayouts>
         <customTabListAdditionalFields>AddressType</customTabListAdditionalFields>
         <customTabListAdditionalFields>Parent</customTabListAdditionalFields>
         <customTabListAdditionalFields>LocationType</customTabListAdditionalFields>
+        <excludedStandardButtons>New</excludedStandardButtons>
+        <excludedStandardButtons>OpenListInQuip</excludedStandardButtons>
+        <excludedStandardButtons>NewFromDocument</excludedStandardButtons>
         <lookupDialogsAdditionalFields>AddressType</lookupDialogsAdditionalFields>
         <lookupDialogsAdditionalFields>Parent</lookupDialogsAdditionalFields>
         <lookupDialogsAdditionalFields>LocationType</lookupDialogsAdditionalFields>
         <lookupPhoneDialogsAdditionalFields>AddressType</lookupPhoneDialogsAdditionalFields>
         <lookupPhoneDialogsAdditionalFields>Parent</lookupPhoneDialogsAdditionalFields>
         <lookupPhoneDialogsAdditionalFields>LocationType</lookupPhoneDialogsAdditionalFields>
+        <searchResultsAdditionalFields>StreetAddress__c</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>AddressType</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>Parent</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>LocationType</searchResultsAdditionalFields>

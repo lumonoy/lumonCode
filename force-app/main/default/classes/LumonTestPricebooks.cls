@@ -2,24 +2,15 @@
  * @description       : 
  * @author            : Henk Reynders
  * @group             : 
- * @last modified on  : 12-09-2023
+ * @last modified on  : 05-12-2024
  * @last modified by  : Henk Reynders
 **/
 @IsTest(isParallel=false)
-public with sharing class LumonTestPricebooks {
-	@TestVisible private static Id pricebookId{
-        get{
-            return Test.getStandardPricebookId();
-        }
-    }
-    @TestVisible private static List<PricebookEntry> pricebookEntries{
-        get{
-            return [SELECT Id,Name,Product2Id,IsActive FROM PricebookEntry WHERE Pricebook2Id =: pricebookId];
-        }
-    }
-    public static void setupPrices(){      
-        List<Product2> products = [SELECT Id, Name,ProductCode,Product_Group__c,Cost_Type__c,IsActive FROM Product2];
+public with sharing class LumonTestPricebooks {   
+    public static void setupPrices(){  
+        List<Product2> products = LumonTestVariables.products;          
         for (Product2 p : products) {
+            System.debug('--- LumonTestPricebooks - adding Price for Product: '+p);
             if (p.ProductCode != p.Product_Group__c) {
             	String setting = p.ProductCode.remove(p.Product_Group__c+'-');
             	setupPricebookEntry(p.Id,setting);
@@ -29,6 +20,7 @@ public with sharing class LumonTestPricebooks {
         }
     }
     public static void setupPricebookEntry(Id productId){
+        Id pricebookId = LumonTestVariables.pricebookId;
         PricebookEntry pbe = new PricebookEntry(Pricebook2Id=pricebookId,
                                                 Product2Id=productId,
                                                 UnitPrice=5,
@@ -37,8 +29,8 @@ public with sharing class LumonTestPricebooks {
                                                 Base_Price__c=5);
         insert pbe;
     }
-    public static void setupPricebookEntry(Id productId,String setting){
-        
+    public static void setupPricebookEntry(Id productId,String setting){ 
+        Id pricebookId = LumonTestVariables.pricebookId;       
         PricebookEntry pbe = new PricebookEntry(Pricebook2Id=pricebookId,
                                                 Product2Id=productId,
                                                 UnitPrice=5,
@@ -63,11 +55,9 @@ public with sharing class LumonTestPricebooks {
         insert pbe;
     }
     public static void setupPricebookEntries(){
-        List<Product2> products = [SELECT Id,Name,ProductCode,IsActive FROM Product2];
+        Id pricebookId = LumonTestVariables.pricebookId;
+        List<Product2> products = [SELECT Id,Name,ProductCode,IsActive FROM Product2 WHERE Cost_Category__c !='Manhours'];
         List<Id> productIds = new List<Id>(new Map<Id, Product2>(products).keySet()); 
-        setupPricebookEntries(productIds);
-    }
-    public static void setupPricebookEntries(List<Id> productIds){
         List<PricebookEntry> pricebookEntries = new List<PricebookEntry>();
         for (Integer i = 0; i<productIds.size();i++) {
             Integer counter= i+1;
@@ -86,22 +76,39 @@ public with sharing class LumonTestPricebooks {
             pricebookEntries.add(pbe);
         }
         insert pricebookEntries;
+        System.debug('--- LumonTestPricebooks - setupPricebookEntries - '+pricebookEntries.size()+' Pricebook Entries Added'); 
+        return;
     }
-    @IsTest
-    static void setupPricesTest(){
-        String testResult;
-        LumonTestDataFactory.setupProducts();
+    public static void setupPricebookData(){ 
+        setupPricebookEntries();
+        System.debug('--- LumonTestPricebooks - Setup Pricebooks SOQL USED: ' + LIMITS.getQueries());
+    }  
+    @TestSetup
+    static void prepareData() {
         Test.startTest();
-        Try {
-            LumonTestDataFactory.setupPricebookEntries();
-            testResult = 'successfully inserted Prices';
-            System.debug('--- setupPricesTest: '+pricebookEntries);
-        } catch (exception e){
-            testResult = 'error when inserting Prices: '+e.getMessage();
+        List<Product2> products = LumonTestVariables.products; 
+        if(products?.size()>0){
+            System.debug('--- LumonTestPricebooks - Using Existing Products');
+        } else {
+            lumonTestProducts.setupProductData();
         }
         Test.stopTest();
-        System.debug('--- setupPricesTest: '+testResult);
-        
-        System.AssertNotEquals(true, testResult.contains('error'));
+    }
+    @Istest
+    public static void setupPricebookDataTest(){
+        String testResult;
+        Test.startTest();       
+        try {
+            setupPricebookData();
+            List<PricebookEntry> pricebookEntries = LumonTestVariables.pricebookEntries; 
+            testResult = ('Inserted '+pricebookEntries.size()+' Test PricebookEntries');
+            System.assertNotEquals(0,pricebookEntries?.size(), 'Expected Pricebook Entries to be Created');
+        } catch (exception e){
+            testResult = ('Error when inserting PricebookEntries: '+e.getMessage());
+        }
+        System.debug('--- LumonTestPricebooks - CPU TIME: '+LIMITS.getCpuTime()); 
+        System.debug('--- LumonTestPricebooks - SOQL USED: ' + LIMITS.getQueries());
+        Test.stopTest();
+        System.debug('--- LumonTestPricebooks - Test Result = '+testResult);
     }
 }

@@ -42,7 +42,7 @@
                 <header>Top 10 Cases by Age</header>
                 <legendPosition>Right</legendPosition>
                 <maxValuesDisplayed>10</maxValuesDisplayed>
-                <report>CaseHandling/Top_10_Cases_by_Age</report>
+                <report>Service_Dashboards_Reports/CaseHandling/Top_10_Cases_by_Age</report>
                 <showPercentage>false</showPercentage>
                 <showValues>true</showValues>
                 <sortBy>RowLabelAscending</sortBy>
@@ -61,31 +61,26 @@
                     <axisBinding>y</axisBinding>
                     <column>RowCount</column>
                 </chartSummary>
-                <componentType>BarStacked</componentType>
+                <componentType>Donut</componentType>
                 <decimalPrecision>-1</decimalPrecision>
                 <displayUnits>Auto</displayUnits>
                 <drillEnabled>false</drillEnabled>
                 <drillToDetailEnabled>false</drillToDetailEnabled>
                 <enableHover>false</enableHover>
                 <expandOthers>false</expandOthers>
-                <groupingColumn>OWNER</groupingColumn>
-                <groupingColumn>Case.CaseGroup__c</groupingColumn>
+                <groupingColumn>Case.CaseType__c</groupingColumn>
                 <groupingSortProperties>
                     <groupingSorts>
                         <groupingLevel>g1</groupingLevel>
-                        <sortColumn>RowCount</sortColumn>
-                        <sortOrder>d</sortOrder>
-                    </groupingSorts>
-                    <groupingSorts>
-                        <groupingLevel>g2</groupingLevel>
                         <sortOrder>a</sortOrder>
                     </groupingSorts>
                 </groupingSortProperties>
-                <header>Cases By Owner</header>
+                <header>Cases By Type</header>
                 <legendPosition>Right</legendPosition>
-                <report>CaseHandling/Cases_By_Owner</report>
+                <report>Service_Dashboards_Reports/CaseHandling/Cases_By_Type</report>
                 <showPercentage>false</showPercentage>
-                <showValues>false</showValues>
+                <showTotal>true</showTotal>
+                <showValues>true</showValues>
                 <sortBy>RowLabelAscending</sortBy>
                 <useReportChart>false</useReportChart>
             </dashboardComponent>
@@ -120,7 +115,7 @@
                 <header>Top 10 Cases by Account</header>
                 <legendPosition>Bottom</legendPosition>
                 <maxValuesDisplayed>10</maxValuesDisplayed>
-                <report>CaseHandling/Top_10_Cases_by_Account</report>
+                <report>Service_Dashboards_Reports/CaseHandling/Top_10_Cases_by_Account</report>
                 <showPercentage>false</showPercentage>
                 <showPicturesOnCharts>false</showPicturesOnCharts>
                 <showValues>true</showValues>
@@ -157,7 +152,7 @@
                         <type>detail</type>
                     </flexTableColumn>
                     <flexTableColumn>
-                        <reportColumn>Case.CaseSubType__c</reportColumn>
+                        <reportColumn>Case.CaseSubTypeOLD__c</reportColumn>
                         <showSubTotal>false</showSubTotal>
                         <showTotal>true</showTotal>
                         <type>detail</type>
@@ -182,7 +177,7 @@
                 </flexComponentProperties>
                 <groupingSortProperties/>
                 <header>Cases Report</header>
-                <report>CaseHandling/Cases_Report</report>
+                <report>Service_Dashboards_Reports/CaseHandling/Cases_Report</report>
             </dashboardComponent>
             <rowIndex>8</rowIndex>
             <rowSpan>8</rowSpan>

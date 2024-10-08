@@ -59,13 +59,13 @@
         <fullName>Permit Rejected</fullName>
         <default>false</default>
         <label>Permit Rejected</label>
-        <closed>true</closed>
+        <closed>false</closed>
     </standardValue>
     <standardValue>
         <fullName>Permit Approved</fullName>
         <default>false</default>
         <label>Permit Approved</label>
-        <closed>true</closed>
+        <closed>false</closed>
     </standardValue>
     <standardValue>
         <fullName>Resolved</fullName>
@@ -89,6 +89,12 @@
         <fullName>Response Received</fullName>
         <default>false</default>
         <label>Response Received</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Cancelled</fullName>
+        <default>false</default>
+        <label>Cancelled</label>
         <closed>false</closed>
     </standardValue>
 </StandardValueSet>

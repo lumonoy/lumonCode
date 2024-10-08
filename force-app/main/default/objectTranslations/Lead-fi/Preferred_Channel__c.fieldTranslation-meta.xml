@@ -4,10 +4,10 @@
     <name>Preferred_Channel__c</name>
     <picklistValues>
         <masterLabel>Email</masterLabel>
-        <translation><!-- Email --></translation>
+        <translation>Sähköposti</translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>SMS</masterLabel>
-        <translation><!-- SMS --></translation>
+        <translation>Tekstiviesti</translation>
     </picklistValues>
 </CustomFieldTranslation>

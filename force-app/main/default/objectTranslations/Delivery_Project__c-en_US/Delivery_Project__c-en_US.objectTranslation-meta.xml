@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Delivery Project</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Delivery Projects</value>
+    </caseValues>
+    <layouts>
+        <layout>Lumon Delivery Project Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Project Information --></label>
+        <name>Project_Information</name>
+    </quickActions>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -2,7 +2,7 @@
  * @description       : 
  * @author            : Henk Reynders
  * @group             : 
- * @last modified on  : 12-02-2023
+ * @last modified on  : 02-12-2024
  * @last modified by  : Henk Reynders
 **/
 public with sharing class InstallationTimeController {
@@ -21,6 +21,7 @@ public with sharing class InstallationTimeController {
                                                             Product__r.Product_Type__c,
                                                             Product__r.Product_Item__c,
                                                             Product__r.IsActive,
+                                                            Product__r.Batch_Size__c,
                                                             Product_Name__c, 
                                                             Product_Code__c, 
                                                             Product_Group__c,
@@ -29,15 +30,15 @@ public with sharing class InstallationTimeController {
                                                             IsActive__c
                                                     FROM Installation_Time__c
                                                     WHERE IsActive__c =: isActive]);
-        System.debug('---  Installation Times: '+installationTimes);                                         
+        System.debug('---  InstallationTimeController - Installation Times: '+installationTimes);                                         
         return installationTimes;
     } 
     @AuraEnabled(cacheable=false)
     public static Map<String,Installation_Time__c> getInstallationTimeMap(Boolean isActive) {
         // Populate List from SOQL query on Installation Time
-        System.debug('---  Get Installation Times'); 
+        System.debug('--- InstallationTimeController - Get Installation Times'); 
         List<Installation_Time__c> installationTimes = getInstallationTimes(isActive);
-        System.debug('---  Returned Installation Times: '+installationTimes.size()); 
+        System.debug('--- InstallationTimeController - Returned Installation Times: '+installationTimes.size()); 
         Map<String,Installation_Time__c> installationTimeMap  = New Map<String,Installation_Time__c>();  
         if (installationTimes.size()>0)  {                                
             for (Installation_Time__c installationTime :installationTimes) {
@@ -60,24 +61,25 @@ public with sharing class InstallationTimeController {
                                                             Product_Type__c,
                                                             Product_Item__c, 
                                                             Cost_Category__c,
+                                                            Batch_Size__c,
                                                             Cost_Type__c,
                                                             Sales_Code__c,
                                                             QuantityUnitOfMeasure,
                                                             IsActive
                                                     FROM Product2
                                                     WHERE IsActive =: isActive
-                                                    AND (Cost_Category__c =: 'Installation Manhours'
+                                                    AND (Cost_Category__c =: 'Manhours'
                                                     OR QuantityUnitOfMeasure =: 'h'
                                                     OR Cost_Type__c =: 'askuormitu')]);
-        System.debug('---  Installation Time Products: '+installationTimeProducts);                                         
+        System.debug('--- InstallationTimeController - Installation Time Products: '+installationTimeProducts);                                         
         return installationTimeProducts;
     } 
     @AuraEnabled(cacheable=false)
     public static Map<String,Product2> getInstallationTimeProductMap(Boolean isActive) {
         // Populate List from SOQL query on Product2
-        System.debug('---  Get Installation Time Products'); 
+        System.debug('--- InstallationTimeController - Get Installation Time Products'); 
         List<Product2> installationTimeProducts = getInstallationTimeProducts(isActive);
-        System.debug('---  Returned Installation Time Products: '+installationTimeProducts.size()); 
+        System.debug('--- InstallationTimeController - Returned Installation Time Products: '+installationTimeProducts.size()); 
         Map<String,Product2> installationTimeProductMap  = New Map<String,Product2>();  
         if (installationTimeProducts.size()>0)  {                                
             for (Product2 installationTimeProduct :installationTimeProducts) {

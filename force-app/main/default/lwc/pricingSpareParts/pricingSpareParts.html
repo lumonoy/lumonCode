@@ -1,0 +1,32 @@
+<!--
+  @description       : 
+  @author            : Henk Reynders
+  @group             : 
+  @last modified on  : 03-11-2024
+  @last modified by  : Henk Reynders
+-->
+<template>
+    <lightning-card class="card">
+        <h1 slot="title">Spare Parts</h1>
+        <lightning-spinner if:true={showSpinner}></lightning-spinner>   
+        <c-custom-datatable
+            key-field={keyField}
+            columns={columns}
+            table-data={items}
+            onvaluechanged={handleValueChange}
+            onlookupchanged={handleLookupChange}
+            onaction={handleAction}
+            custom-style-path={cssResourcePath}
+            table-class="pricing-table"
+        ></c-custom-datatable>       
+        <div slot="actions">
+            <lightning-button 
+                if:false={disabled} 
+                icon-name="utility:add" 
+                label="Add" 
+                onclick={handleAddLineItem}>
+            </lightning-button>
+        </div>
+    </lightning-card>
+    <hr />
+</template>

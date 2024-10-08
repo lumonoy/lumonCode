@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Territory2Rule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <booleanFilter>1 OR 2</booleanFilter>
+    <name>Andalucía Postal Code Area</name>
+    <objectType>Account</objectType>
+    <ruleItems>
+        <field>Account.Sales_Area_Attribute__c</field>
+        <operation>equals</operation>
+        <value>Andalusia</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.Sales_Area_Attribute__c</field>
+        <operation>equals</operation>
+        <value>Andalucía</value>
+    </ruleItems>
+</Territory2Rule>

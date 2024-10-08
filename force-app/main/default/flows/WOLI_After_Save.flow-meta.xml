@@ -2,36 +2,92 @@
 <Flow xmlns="http://soap.sforce.com/2006/04/metadata">
     <apiVersion>59.0</apiVersion>
     <assignments>
-        <name>Update_to_WOLI</name>
-        <label>Update to WOLI</label>
-        <locationX>1219</locationX>
-        <locationY>1146</locationY>
+        <name>Set_serviceTerritoryId</name>
+        <label>Set serviceTerritoryId</label>
+        <locationX>341</locationX>
+        <locationY>539</locationY>
         <assignmentItems>
-            <assignToReference>recWOLI.Id</assignToReference>
+            <assignToReference>serviceTerritoryId</assignToReference>
             <operator>Assign</operator>
             <value>
-                <elementReference>$Record.Id</elementReference>
-            </value>
-        </assignmentItems>
-        <assignmentItems>
-            <assignToReference>recWOLI.Install_Expense__c</assignToReference>
-            <operator>Assign</operator>
-            <value>
-                <elementReference>Install_Expense.Id</elementReference>
+                <elementReference>$Record.ServiceTerritoryId</elementReference>
             </value>
         </assignmentItems>
         <connector>
-            <targetReference>Update_WOLI</targetReference>
+            <targetReference>Get_Service_Territory</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Set_workOrderId</name>
+        <label>Set workOrderId</label>
+        <locationX>605</locationX>
+        <locationY>539</locationY>
+        <assignmentItems>
+            <assignToReference>workOrderId</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>$Record.WorkOrderId</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Get_Service_Territory_for_WorkOrder</targetReference>
         </connector>
     </assignments>
     <decisions>
-        <name>Install_Expense_exists</name>
-        <label>Install Expense exists?</label>
-        <locationX>1104</locationX>
-        <locationY>1055</locationY>
-        <defaultConnectorLabel>No</defaultConnectorLabel>
+        <name>Has_Profit_Center</name>
+        <label>Has Profit Center?</label>
+        <locationX>473</locationX>
+        <locationY>947</locationY>
+        <defaultConnectorLabel>No Profit Center</defaultConnectorLabel>
         <rules>
-            <name>Yes3</name>
+            <name>Profit_Center</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>txtProfitCenter</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Install_Expense</targetReference>
+            </connector>
+            <label>Profit Center</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Has_Service_Territory</name>
+        <label>Has Service Territory?</label>
+        <locationX>473</locationX>
+        <locationY>431</locationY>
+        <defaultConnector>
+            <targetReference>Set_workOrderId</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>No Service Territory</defaultConnectorLabel>
+        <rules>
+            <name>Service_Territory</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.ServiceTerritoryId</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Set_serviceTerritoryId</targetReference>
+            </connector>
+            <label>Service Territory</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Hourly_Rate_returned</name>
+        <label>Hourly Rate returned?</label>
+        <locationX>275</locationX>
+        <locationY>1163</locationY>
+        <defaultConnectorLabel>No Hourly Rate</defaultConnectorLabel>
+        <rules>
+            <name>Hourly_Rate</name>
             <conditionLogic>and</conditionLogic>
             <conditions>
                 <leftValueReference>Install_Expense</leftValueReference>
@@ -41,84 +97,41 @@
                 </rightValue>
             </conditions>
             <connector>
-                <targetReference>Update_to_WOLI</targetReference>
+                <targetReference>Update_Work_Order_Line_Item</targetReference>
             </connector>
-            <label>Yes</label>
+            <label>Hourly Rate</label>
         </rules>
     </decisions>
     <decisions>
-        <name>Oppo_contains_Profit_Center_of_the_Sales_Person</name>
-        <label>Oppo contains Profit Center of the Sales Person</label>
-        <locationX>984</locationX>
-        <locationY>819</locationY>
-        <defaultConnectorLabel>No</defaultConnectorLabel>
+        <name>Skip_Automation</name>
+        <label>Skip Automation?</label>
+        <locationX>176</locationX>
+        <locationY>323</locationY>
+        <defaultConnector>
+            <targetReference>Has_Service_Territory</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Continue</defaultConnectorLabel>
         <rules>
-            <name>Yes2</name>
+            <name>Abort</name>
             <conditionLogic>and</conditionLogic>
             <conditions>
-                <leftValueReference>Oppo.Owner_Profit_Center__c</leftValueReference>
-                <operator>IsNull</operator>
+                <leftValueReference>$Setup.AutomationBypass__c.SkipAutomation__c</leftValueReference>
+                <operator>EqualTo</operator>
                 <rightValue>
-                    <booleanValue>false</booleanValue>
+                    <booleanValue>true</booleanValue>
                 </rightValue>
             </conditions>
-            <connector>
-                <targetReference>Install_Expense</targetReference>
-            </connector>
-            <label>Yes</label>
-        </rules>
-    </decisions>
-    <decisions>
-        <name>WO_is_related_to_Oppo</name>
-        <label>WO is related to Oppo</label>
-        <locationX>903</locationX>
-        <locationY>582</locationY>
-        <defaultConnectorLabel>No</defaultConnectorLabel>
-        <rules>
-            <name>Yes1</name>
-            <conditionLogic>and</conditionLogic>
-            <conditions>
-                <leftValueReference>WO.Opportunity__c</leftValueReference>
-                <operator>IsNull</operator>
-                <rightValue>
-                    <booleanValue>false</booleanValue>
-                </rightValue>
-            </conditions>
-            <connector>
-                <targetReference>Oppo</targetReference>
-            </connector>
-            <label>Yes</label>
-        </rules>
-    </decisions>
-    <decisions>
-        <name>WOLI_has_WO_id</name>
-        <label>WOLI has WO id</label>
-        <locationX>809</locationX>
-        <locationY>348</locationY>
-        <defaultConnectorLabel>No</defaultConnectorLabel>
-        <rules>
-            <name>Yes</name>
-            <conditionLogic>and</conditionLogic>
-            <conditions>
-                <leftValueReference>$Record.WorkOrderId</leftValueReference>
-                <operator>IsNull</operator>
-                <rightValue>
-                    <booleanValue>false</booleanValue>
-                </rightValue>
-            </conditions>
-            <connector>
-                <targetReference>WO</targetReference>
-            </connector>
-            <label>Yes</label>
+            <label>Abort</label>
         </rules>
     </decisions>
     <description>Actions to WOLI after record has been saved.
+=&gt; refactoring to reduce DML
 
 9.10.2023: First version.&apos;
 02.12.2023: Save Active Version as R2</description>
     <environments>Default</environments>
     <interviewLabel>WOLI - After Save {!$Flow.CurrentDateTime}</interviewLabel>
-    <label>WOLI - After Save R2</label>
+    <label>WOLI - After Save R4</label>
     <processMetadataValues>
         <name>BuilderType</name>
         <value>
@@ -128,7 +141,7 @@
     <processMetadataValues>
         <name>CanvasMode</name>
         <value>
-            <stringValue>FREE_FORM_CANVAS</stringValue>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
         </value>
     </processMetadataValues>
     <processMetadataValues>
@@ -139,86 +152,114 @@
     </processMetadataValues>
     <processType>AutoLaunchedFlow</processType>
     <recordLookups>
+        <name>Get_Service_Territory</name>
+        <label>Get Service Territory</label>
+        <locationX>473</locationX>
+        <locationY>839</locationY>
+        <assignNullValuesIfNoRecordsFound>true</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Has_Profit_Center</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>serviceTerritoryId</elementReference>
+            </value>
+        </filters>
+        <object>ServiceTerritory</object>
+        <outputAssignments>
+            <assignToReference>txtProfitCenter</assignToReference>
+            <field>ProfitCenterAttribute__c</field>
+        </outputAssignments>
+    </recordLookups>
+    <recordLookups>
         <name>Install_Expense</name>
         <label>Install Expense</label>
-        <locationX>1112</locationX>
-        <locationY>919</locationY>
-        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <locationX>275</locationX>
+        <locationY>1055</locationY>
+        <assignNullValuesIfNoRecordsFound>true</assignNullValuesIfNoRecordsFound>
         <connector>
-            <targetReference>Install_Expense_exists</targetReference>
+            <targetReference>Hourly_Rate_returned</targetReference>
         </connector>
         <filterLogic>and</filterLogic>
         <filters>
-            <field>Profit_Center__c</field>
+            <field>ProfitCenterAttribute__c</field>
             <operator>EqualTo</operator>
             <value>
-                <elementReference>Oppo.Owner_Profit_Center__c</elementReference>
+                <elementReference>txtProfitCenter</elementReference>
             </value>
         </filters>
-        <getFirstRecordOnly>true</getFirstRecordOnly>
         <object>Install_Expense__c</object>
-        <storeOutputAutomatically>true</storeOutputAutomatically>
-    </recordLookups>
-    <recordLookups>
-        <name>Oppo</name>
-        <label>Oppo</label>
-        <locationX>992</locationX>
-        <locationY>695</locationY>
-        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
-        <connector>
-            <targetReference>Oppo_contains_Profit_Center_of_the_Sales_Person</targetReference>
-        </connector>
-        <filterLogic>and</filterLogic>
-        <filters>
+        <outputAssignments>
+            <assignToReference>curHourlyRate</assignToReference>
+            <field>HourlyRate__c</field>
+        </outputAssignments>
+        <outputAssignments>
+            <assignToReference>expenseId</assignToReference>
             <field>Id</field>
-            <operator>EqualTo</operator>
-            <value>
-                <elementReference>WO.Opportunity__c</elementReference>
-            </value>
-        </filters>
-        <getFirstRecordOnly>true</getFirstRecordOnly>
-        <object>Opportunity</object>
-        <storeOutputAutomatically>true</storeOutputAutomatically>
-    </recordLookups>
-    <recordLookups>
-        <name>WO</name>
-        <label>WO</label>
-        <locationX>911</locationX>
-        <locationY>455</locationY>
-        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
-        <connector>
-            <targetReference>WO_is_related_to_Oppo</targetReference>
-        </connector>
-        <filterLogic>and</filterLogic>
-        <filters>
-            <field>Id</field>
-            <operator>EqualTo</operator>
-            <value>
-                <elementReference>$Record.WorkOrderId</elementReference>
-            </value>
-        </filters>
-        <getFirstRecordOnly>true</getFirstRecordOnly>
-        <object>WorkOrder</object>
-        <storeOutputAutomatically>true</storeOutputAutomatically>
+        </outputAssignments>
     </recordLookups>
     <recordUpdates>
-        <name>Update_WOLI</name>
-        <label>Update WOLI</label>
-        <locationX>1341</locationX>
-        <locationY>1146</locationY>
-        <inputReference>recWOLI</inputReference>
+        <name>Update_Work_Order_Line_Item</name>
+        <label>Update Work Order Line Item</label>
+        <locationX>143</locationX>
+        <locationY>1271</locationY>
+        <inputAssignments>
+            <field>Install_Expense__c</field>
+            <value>
+                <elementReference>expenseId</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
     </recordUpdates>
     <start>
-        <locationX>691</locationX>
-        <locationY>48</locationY>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
         <connector>
-            <targetReference>WOLI_has_WO_id</targetReference>
+            <targetReference>Skip_Automation</targetReference>
         </connector>
         <object>WorkOrderLineItem</object>
-        <recordTriggerType>Create</recordTriggerType>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
         <triggerType>RecordAfterSave</triggerType>
     </start>
     <status>Active</status>
+    <subflows>
+        <name>Get_Service_Territory_for_WorkOrder</name>
+        <label>Get Service Territory for WorkOrder</label>
+        <locationX>605</locationX>
+        <locationY>647</locationY>
+        <connector>
+            <targetReference>Get_Service_Territory</targetReference>
+        </connector>
+        <flowName>Assign_Service_Territory_SubFlow</flowName>
+        <inputAssignments>
+            <name>recordId</name>
+            <value>
+                <elementReference>workOrderId</elementReference>
+            </value>
+        </inputAssignments>
+        <outputAssignments>
+            <assignToReference>serviceTerritoryId</assignToReference>
+            <name>serviceTerritoryId</name>
+        </outputAssignments>
+    </subflows>
+    <variables>
+        <name>curHourlyRate</name>
+        <dataType>Currency</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <scale>2</scale>
+    </variables>
+    <variables>
+        <name>expenseId</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
     <variables>
         <name>recWOLI</name>
         <dataType>SObject</dataType>
@@ -226,5 +267,26 @@
         <isInput>false</isInput>
         <isOutput>false</isOutput>
         <objectType>WorkOrderLineItem</objectType>
+    </variables>
+    <variables>
+        <name>serviceTerritoryId</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>txtProfitCenter</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>workOrderId</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
     </variables>
 </Flow>

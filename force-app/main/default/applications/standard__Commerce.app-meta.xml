@@ -22,8 +22,16 @@
     <tabs>standard-OrderSummary</tabs>
     <tabs>standard-BusinessObjectivesRecommendations</tabs>
     <tabs>standard-CommerceSetup</tabs>
+    <tabs>Install_Expense__c</tabs>
+    <tabs>Delivery_Batch__c</tabs>
     <uiType>Lightning</uiType>
     <workspaceConfig>
+        <mappings>
+            <tab>Delivery_Batch__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Install_Expense__c</tab>
+        </mappings>
         <mappings>
             <tab>standard-Account</tab>
         </mappings>

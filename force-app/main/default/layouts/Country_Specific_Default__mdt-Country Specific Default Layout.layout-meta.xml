@@ -8,7 +8,7 @@
         <layoutColumns>
             <layoutItems>
                 <behavior>Required</behavior>
-                <field>Expiration_Time__c</field>
+                <field>QuoteExpirationTime__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Required</behavior>
@@ -20,7 +20,7 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>Business_Type__c</field>
+                <field>BusinessType__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
@@ -28,7 +28,7 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>District_Type__c</field>
+                <field>DistrictType__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
@@ -37,6 +37,10 @@
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>Account_Number__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>DefaultLanguage__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
@@ -50,23 +54,23 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Required</behavior>
-                <field>VAT__c</field>
+                <field>ValueAddedTax__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>Quote_Expiration__c</field>
+                <field>QuoteExpiration__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>Default_Currency__c</field>
+                <field>DefaultCurrency__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Required</behavior>
-                <field>Country_Code__c</field>
+                <field>CountryCode__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>Financing_Customer_Number__c</field>
+                <field>DefaultFinancingIdentifier__c</field>
             </layoutItems>
         </layoutColumns>
         <style>TwoColumnsTopToBottom</style>
@@ -101,7 +105,7 @@
         <style>CustomLinks</style>
     </layoutSections>
     <miniLayout>
-        <fields>Expiration_Time__c</fields>
+        <fields>QuoteExpirationTime__c</fields>
     </miniLayout>
     <showEmailCheckbox>false</showEmailCheckbox>
     <showHighlightsPanel>false</showHighlightsPanel>
@@ -109,7 +113,7 @@
     <showRunAssignmentRulesCheckbox>false</showRunAssignmentRulesCheckbox>
     <showSubmitAndAttachButton>false</showSubmitAndAttachButton>
     <summaryLayout>
-        <masterLabel>00h7E000003ZYgF</masterLabel>
+        <masterLabel>00h7Q00000G8gTj</masterLabel>
         <sizeX>4</sizeX>
         <sizeY>0</sizeY>
         <summaryLayoutStyle>Default</summaryLayoutStyle>

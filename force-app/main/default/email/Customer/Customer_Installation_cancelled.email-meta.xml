@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Customer Notification on installation cancellation</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Lumon_Email_Letterhead</letterhead>
+    <name>Customer - Installation cancelled</name>
+    <style>freeForm</style>
+    <subject>Lumon - Installation cancelled</subject>
+    <textOnly>Hi {!Account.Name},
+
+We regret to inform that your installation time has been cancelled.
+
+In case you have any questions, please do not hesitate to contact me directly.
+
+Thank you for your interest and best regards,
+{!Opportunity.OwnerFullName}
+{!Opportunity.OwnerPhone}
+{!Opportunity.OwnerEmail}
+{!Organization.Name}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -4,7 +4,7 @@
     <description>this defines contract type</description>
     <externalId>false</externalId>
     <inlineHelpText>please mark contract type</inlineHelpText>
-    <label>Contract type</label>
+    <label>Contract type OLD</label>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>false</trackHistory>

@@ -2,7 +2,7 @@
  * @description       : 
  * @author            : Henk Reynders
  * @group             : 
- * @last modified on  : 12-02-2023
+ * @last modified on  : 04-09-2024
  * @last modified by  : Henk Reynders
 **/
 public class VisualConfiguration { 
@@ -23,7 +23,7 @@ public class VisualConfiguration {
         @AuraEnabled public Integer productInspectCode{get;set;}
         @AuraEnabled public List<ProductInspectMessageKey> productInspectMessageKeys{get;set;}
         @AuraEnabled public Double productLength{get;set;}
-        //public List<ReclaimedFeatureMessageKey> reclaimedFeatureMessageKeys{get;set;}
+        @AuraEnabled public List<String> reclaimedFeatureMessageKeys{get;set;}
         @AuraEnabled public String rvn{get;set;} //ProjectNbr + Structure
     }
 

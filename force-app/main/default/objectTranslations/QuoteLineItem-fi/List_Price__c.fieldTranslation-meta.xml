@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <help><!-- List Price --></help>
-    <label><!-- List Price --></label>
+    <label><!-- List Price OLD --></label>
     <name>List_Price__c</name>
 </CustomFieldTranslation>

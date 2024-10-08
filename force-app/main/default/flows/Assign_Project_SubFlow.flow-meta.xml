@@ -255,7 +255,7 @@
             <assignToReference>nbrPlanInstallationHours</assignToReference>
             <operator>Assign</operator>
             <value>
-                <elementReference>Loop_Configuration_Plans.Installation_Hours__c</elementReference>
+                <elementReference>Loop_Configuration_Plans.EstimatedInstallationHours__c</elementReference>
             </value>
         </assignmentItems>
         <assignmentItems>
@@ -1021,7 +1021,7 @@ IF(({!nbrPlanInstallationHoursTotal}&gt; 0),&apos;CONSALES&apos;,&apos;CONSDELIV
         <recordTriggerType>CreateAndUpdate</recordTriggerType>
         <triggerType>RecordAfterSave</triggerType>
     </start>
-    <status>Draft</status>
+    <status>Obsolete</status>
     <triggerOrder>105</triggerOrder>
     <variables>
         <name>currentItem_Filter_on_Plans_with_Installation_Hours</name>

@@ -5,6 +5,7 @@
     <columns>Country__c</columns>
     <columns>Business_Type__c</columns>
     <columns>Product_Group__c</columns>
+    <columns>Product_Model__c</columns>
     <columns>Cost_Type__c</columns>
     <columns>Factory_Multiplier__c</columns>
     <columns>IsActive__c</columns>

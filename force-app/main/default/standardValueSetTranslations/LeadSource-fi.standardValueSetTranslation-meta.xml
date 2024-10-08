@@ -2,70 +2,70 @@
 <StandardValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <valueTranslation>
         <masterLabel>Direct Traffic</masterLabel>
-        <translation><!-- Direct Traffic --></translation>
+        <translation>Suora liikenne</translation>
     </valueTranslation>
     <valueTranslation>
         <masterLabel>Direct calling</masterLabel>
-        <translation><!-- Direct calling --></translation>
+        <translation>Suora soitto</translation>
     </valueTranslation>
     <valueTranslation>
         <masterLabel>Door hanger/flyer</masterLabel>
-        <translation><!-- Door hanger/flyer --></translation>
+        <translation>Lappu</translation>
     </valueTranslation>
     <valueTranslation>
         <masterLabel>Door knocking</masterLabel>
-        <translation><!-- Door knocking --></translation>
+        <translation>Luukku</translation>
     </valueTranslation>
     <valueTranslation>
         <masterLabel>Email Marketing</masterLabel>
-        <translation><!-- Email Marketing --></translation>
+        <translation>Email</translation>
     </valueTranslation>
     <valueTranslation>
         <masterLabel>Organic Search</masterLabel>
-        <translation><!-- Organic Search --></translation>
+        <translation>Orgaaninen haku</translation>
     </valueTranslation>
     <valueTranslation>
         <masterLabel>Other</masterLabel>
-        <translation><!-- Other --></translation>
+        <translation>Muu</translation>
     </valueTranslation>
     <valueTranslation>
         <masterLabel>Other Campaigns</masterLabel>
-        <translation><!-- Other Campaigns --></translation>
+        <translation>Muu kampanja</translation>
     </valueTranslation>
     <valueTranslation>
         <masterLabel>Other Referrals</masterLabel>
-        <translation><!-- Other Referrals --></translation>
+        <translation>Muut sivustot</translation>
     </valueTranslation>
     <valueTranslation>
         <masterLabel>Paid Search</masterLabel>
-        <translation><!-- Paid Search --></translation>
+        <translation>Maksettu haku</translation>
     </valueTranslation>
     <valueTranslation>
         <masterLabel>Paid Social</masterLabel>
-        <translation><!-- Paid Social --></translation>
+        <translation>Sosiaalinen media maksettu</translation>
     </valueTranslation>
     <valueTranslation>
         <masterLabel>Phone request</masterLabel>
-        <translation><!-- Phone request --></translation>
+        <translation>Kysyntä</translation>
     </valueTranslation>
     <valueTranslation>
         <masterLabel>Referral</masterLabel>
-        <translation><!-- Referral --></translation>
+        <translation>Suositus</translation>
     </valueTranslation>
     <valueTranslation>
         <masterLabel>Shows</masterLabel>
-        <translation><!-- Shows --></translation>
+        <translation>Messut</translation>
     </valueTranslation>
     <valueTranslation>
         <masterLabel>Social Media</masterLabel>
-        <translation><!-- Social Media --></translation>
+        <translation>Sosiaalinen media ansaittu</translation>
     </valueTranslation>
     <valueTranslation>
         <masterLabel>Stand/Presentation/Trailer event</masterLabel>
-        <translation><!-- Stand/Presentation/Trailer event --></translation>
+        <translation>Standi/esittely</translation>
     </valueTranslation>
     <valueTranslation>
         <masterLabel>WEB</masterLabel>
-        <translation><!-- WEB --></translation>
+        <translation>Online</translation>
     </valueTranslation>
 </StandardValueSetTranslation>

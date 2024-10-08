@@ -4,7 +4,7 @@
     <externalId>false</externalId>
     <formula>Product__r.ProductCode</formula>
     <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
-    <label>Product Code</label>
+    <label>Product Code OLD</label>
     <required>false</required>
     <trackTrending>false</trackTrending>
     <type>Text</type>

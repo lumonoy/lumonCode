@@ -6,5 +6,5 @@
     <mayForecastManagerShare>false</mayForecastManagerShare>
     <name>Spain</name>
     <opportunityAccessLevel>Edit</opportunityAccessLevel>
-    <parentRole>Global</parentRole>
+    <parentRole>Lumon_Salesforce_Admin</parentRole>
 </Role>

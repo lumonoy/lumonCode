@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <help><!-- Please mark this field when the 2nd Measurement has been completed. --></help>
-    <label><!-- 2nd Measurement Completed --></label>
+    <label><!-- 2nd Measurement Completed DEL --></label>
     <name>X2nd_Measurement_Completed__c</name>
 </CustomFieldTranslation>

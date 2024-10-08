@@ -5,12 +5,12 @@
     <canStoreMobileAnalytics>true</canStoreMobileAnalytics>
     <doesAllowEditSaForCrew>true</doesAllowEditSaForCrew>
     <doesAvlCalcInclOvertime>false</doesAvlCalcInclOvertime>
-    <doesAvlCalcInclPrimOnly>false</doesAvlCalcInclPrimOnly>
+    <doesAvlCalcInclPrimOnly>true</doesAvlCalcInclPrimOnly>
     <doesShareSaParentWoWithAr>true</doesShareSaParentWoWithAr>
     <doesShareSaWithAr>true</doesShareSaWithAr>
     <enableBatchWindow>false</enableBatchWindow>
     <enableFloatingWorkOrder>false</enableFloatingWorkOrder>
-    <enablePopulateWorkOrderAddress>false</enablePopulateWorkOrderAddress>
+    <enablePopulateWorkOrderAddress>true</enablePopulateWorkOrderAddress>
     <enableWorkOrders>false</enableWorkOrders>
     <enableWorkPlansAutoGeneration>false</enableWorkPlansAutoGeneration>
     <enableWorkStepManualStatusUpdate>false</enableWorkStepManualStatusUpdate>
@@ -18,6 +18,7 @@
     <fieldServiceOrgPref>true</fieldServiceOrgPref>
     <isGeoCodeSyncEnabled>false</isGeoCodeSyncEnabled>
     <isLocationHistoryEnabled>false</isLocationHistoryEnabled>
+    <mobileFeedbackEmails>sfsupport@lumon.com</mobileFeedbackEmails>
     <o2EngineEnabled>false</o2EngineEnabled>
     <optimizationServiceAccess>true</optimizationServiceAccess>
     <serviceAppointmentsDueDateOffsetOrgValue>7</serviceAppointmentsDueDateOffsetOrgValue>

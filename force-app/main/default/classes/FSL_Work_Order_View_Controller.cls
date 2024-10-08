@@ -2,21 +2,21 @@
  * @description       : 
  * @author            : Henk Reynders
  * @group             : 
- * @last modified on  : 12-07-2023
+ * @last modified on  : 06-07-2024
  * @last modified by  : Henk Reynders
 **/
 public  class FSL_Work_Order_View_Controller {
 
-    /*--- Getter methods ****/
+    /*--- WorkOrderViewController - Getter methods ****/
 
     /*
     * Return ServiceAppointments by WorkOrderId
     */
     @AuraEnabled
     public static List<ServiceAppointment>  getServiceAppointments (String workOrderId) {
-        System.debug('--- WorkOrder: '+workOrderId);
+        System.debug('--- WorkOrderViewController - WorkOrder: '+workOrderId);
         List<ServiceAppointment> saList = [SELECT Id, AppointmentNumber, Status, EarliestStartTime, DueDate, ParentRecordId, Duration, SchedStartTime, SchedEndTime, ArrivalWindowStartTime, ArrivalWindowEndTime FROM ServiceAppointment WHERE ParentRecordId =: workOrderId /*AND (Status = 'None' OR Status = 'Scheduled' OR Status = 'Dispatched')*/ ORDER BY CreatedDate ASC];
-        System.debug('--- Appointment List: '+saList);
+        System.debug('--- WorkOrderViewController - Appointment List: '+saList);
         return [SELECT Id, AppointmentNumber, Status, EarliestStartTime, DueDate, ParentRecordId, Duration, SchedStartTime, SchedEndTime, ArrivalWindowStartTime, ArrivalWindowEndTime FROM ServiceAppointment WHERE ParentRecordId =: workOrderId /*AND (Status = 'None' OR Status = 'Scheduled' OR Status = 'Dispatched')*/ ORDER BY CreatedDate ASC];
         
     }
@@ -30,7 +30,7 @@ public  class FSL_Work_Order_View_Controller {
                                             Opportunity__r.StageName, Soft_Reserved_Date__c, Hard_Reserved_Date__c, Duration 
                                     FROM WorkOrder 
                                     WHERE Opportunity__c =: oppoId ORDER BY CreatedDate DESC]);
-        System.debug('--- WorkOrder List: '+workOrders);      
+        System.debug('--- WorkOrderViewController - WorkOrder List: '+workOrders);      
         return workOrders;
     }
 
@@ -43,7 +43,7 @@ public  class FSL_Work_Order_View_Controller {
                                             Opportunity__r.StageName, Soft_Reserved_Date__c, Hard_Reserved_Date__c, Duration 
                                     FROM WorkOrder 
                                     WHERE Id =: woId ORDER BY CreatedDate DESC]);
-        System.debug('--- WorkOrder List: '+workOrders);      
+        System.debug('--- WorkOrderViewController - WorkOrder List: '+workOrders);      
         return workOrders;
     }
 
@@ -85,7 +85,7 @@ public  class FSL_Work_Order_View_Controller {
             return false;
         }
         catch(Exception e){
-            System.debug('--- getSAScheduled failed: '+e);
+            System.debug('--- WorkOrderViewController - getSAScheduled failed: '+e);
             return false;
         }
     }
@@ -110,7 +110,7 @@ public  class FSL_Work_Order_View_Controller {
         return false;
     }
 
-    /*--- DML methods ****/
+    /*--- WorkOrderViewController - DML methods ****/
 
     /*
     * Create WorkOrder and ServiceAppointment for Opportynity
@@ -136,15 +136,15 @@ public  class FSL_Work_Order_View_Controller {
                 return 'oppo_error';
             }
             Opportunity o = oList[0];
-            System.debug('--- Source Opportunity: '+o);
+            System.debug('--- WorkOrderViewController - Source Opportunity: '+o);
             //Show the user error message if these fields are missing
             if(o.Delivery_date__c == null){
-                System.debug('--- Delivery Date Missing!');
+                System.debug('--- WorkOrderViewController - Delivery Date Missing!');
                 return 'oppo_fields_error';
             }
             //if(o.Installation_Address__c.getStreet() == null ){
             /*if(o.Installation_Address__Street__s == null ){  
-                System.debug('--- Installation Address Missing!');
+                System.debug('--- WorkOrderViewController - Installation Address Missing!');
                 return 'oppo_fields_error';
             }*/
             List<Account> a = [SELECT Id, PersonContactId FROM Account WHERE Id =: o.AccountId]; 
@@ -154,13 +154,13 @@ public  class FSL_Work_Order_View_Controller {
             }
             //Check if user has access to location
             List<Schema.Location> loc = [SELECT Id FROM Location WHERE Id =: o.Delivery_Location__c];
-            System.debug('--- Opportunity Delivery Location: '+o.Delivery_Location__c);
+            System.debug('--- WorkOrderViewController - Opportunity Delivery Location: '+o.Delivery_Location__c);
             if(loc.isEmpty() && o.Delivery_Location__c != null){
                 return 'location_error';
             }
-            System.debug('--- Installation Country Code: '+o.Installation_Address__CountryCode__s);
-            System.debug('--- Installation Country: '+o.Installation_Address__c.getCountry());
-            System.debug('--- Installation State: '+o.Installation_Address__StateCode__s);
+            System.debug('--- WorkOrderViewController - Installation Country Code: '+o.Installation_Address__CountryCode__s);
+            System.debug('--- WorkOrderViewController - Installation Country: '+o.Installation_Address__c.getCountry());
+            System.debug('--- WorkOrderViewController - Installation State: '+o.Installation_Address__StateCode__s);
             WorkOrder wo = new WorkOrder(Subject = o.Name, 
                                          Opportunity__c = oppoId, 
                                          AccountId = o.AccountId, 
@@ -178,15 +178,16 @@ public  class FSL_Work_Order_View_Controller {
                                          Country = o.Installation_Address__c.getCountry(),
                                          State = o.Installation_Address__c.getState());
             insert wo;
-            System.debug('--- Created WorkOrder: '+wo.Id);
+            System.debug('--- WorkOrderViewController - WorkOrder without Territory: '+wo.Id);
             //Call Flow to add ServiceTerritory for the WorkOrder
             callTerritoryFlow(wo.Id);
             wo = [SELECT Id, ServiceTerritoryId FROM WorkOrder WHERE Id =: wo.Id];
+            System.debug('--- WorkOrderViewController - WorkOrder with Territory: '+wo.Id);
             String stId = null; //Default value just in case
             if(wo.ServiceTerritoryId != null){
                 stId = wo.ServiceTerritoryId;
             }
-            System.debug('--- Service Territory: '+stId);
+            System.debug('--- WorkOrderViewController - Service Territory: '+stId);
             //Get bookingOffset from ServiceTerritory or from Metadata
             List<ServiceTerritory> st = [SELECT Id, Appointment_Booking_Offset__c FROM ServiceTerritory WHERE Id =: stId];
             Integer bookingOffset = 0;
@@ -205,20 +206,20 @@ public  class FSL_Work_Order_View_Controller {
             }
 
             //Call Flow to add WorkOrderLineItems for the WorkOrder
-            System.debug('--- Trigger WOLI Flow!');
+            System.debug('--- WorkOrderViewController - Trigger WOLI Flow!');
             callWOLIFlow(wo.Id);
 
             Decimal duration = [SELECT Total_Duration__c FROM WorkOrder WHERE Id =: wo.Id].Total_Duration__c;
-            System.debug('--- Installation Duration: '+duration);
+            System.debug('--- WorkOrderViewController - Installation Duration: '+duration);
             //Value 0 is not valid duration so replace with 1
             if(duration == 0){
                 duration = 1;
-                System.debug('--- Min Installation Duration: '+duration);
+                System.debug('--- WorkOrderViewController - Min Installation Duration: '+duration);
             }
             //Otherwise convert to hours
             else{
                 duration = duration.setScale(4);
-                System.debug('--- Installation Hours: '+duration);
+                System.debug('--- WorkOrderViewController - Installation Hours: '+duration);
             }
 
             ServiceAppointment sa = new ServiceAppointment(ParentRecordId = wo.Id, 
@@ -226,7 +227,7 @@ public  class FSL_Work_Order_View_Controller {
                                                            DueDate = o.Delivery_date__c.addDays(bookingOffset+7), 
                                                            Duration = duration);
             insert sa;
-            System.debug('--- Service Appointment: '+sa);
+            System.debug('--- WorkOrderViewController - Service Appointment: '+sa);
             return wo.Id;
         }
         catch(Exception e){
@@ -367,7 +368,7 @@ public  class FSL_Work_Order_View_Controller {
         }    
 	}
 
-    /*--- Flow methods ****/
+    /*--- WorkOrderViewController - Flow methods ****/
 
     /*
     * Call Flow to create WorkOrderLineItems for WorkOrder
@@ -399,7 +400,7 @@ public  class FSL_Work_Order_View_Controller {
         stage.start();
     }
 
-    /*--- Helper methods ****/
+    /*--- WorkOrderViewController - Helper methods ****/
 
     @AuraEnabled
     public static Opportunity getNull(String recordId){

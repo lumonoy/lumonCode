@@ -16,4 +16,7 @@
         <value>0</value>
     </filters>
     <label>All Open Cases</label>
+    <sharedTo>
+        <group>Admins</group>
+    </sharedTo>
 </ListView>

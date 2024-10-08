@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<order>
+  <order_info>
+    <axcompanyid>LSU</axcompanyid>
+    <currency>EUR</currency>
+    <customer_reference></customer_reference>
+    <order_type>Normal</order_type>
+    <order_number>90006452</order_number>
+    <vendorid>LU</vendorid>
+    <project_number>802306</project_number>
+    <parent_project></parent_project>
+    <project_group>CONSales</project_group>
+    <customer_segmentid>1000</customer_segmentid>
+    <customer_segmentname>Consumer apartment building</customer_segmentname>
+    <promised_deliveryweek>2023/46</promised_deliveryweek>
+    <promised_date>17.11.2023</promised_date>
+    <main_contractor>no</main_contractor>
+    <business_unit>401</business_unit>
+    <order_attachment>\\frendsprod\D365TEST\SalesTori\OUT\attachments\</order_attachment>
+    <subproject_info>
+      <subproject_number>802306_01</subproject_number>
+      <subproject_group>CONWar</subproject_group>
+      <subproject_category>Warranty</subproject_category>
+      <subproject_cost>0.00</subproject_cost>
+      <subproject_ordertype>Reclamation</subproject_ordertype>
+      <subproject_parentproject>802306</subproject_parentproject>
+      <subproject_chargeable>non-chargeable</subproject_chargeable>
+    </subproject_info>
+    <budget>
+      <project_category>
+        <category>FactoryPurchase</category>
+        <cost>175.47</cost>
+      </project_category>
+      <project_category>
+        <category>SalesFreight</category>
+        <cost>28.80</cost>
+      </project_category>
+      <project_category>
+        <category>Wages</category>
+        <cost>106.38</cost>
+      </project_category>
+    </budget>
+    <domestic_help></domestic_help>
+    <domestic_text></domestic_text>
+    <chargeable>chargeable</chargeable>
+    <worknumbername></worknumbername>
+    <pricelist>
+      <pricelist_name>Basic price list 1.4.2022</pricelist_name>
+    </pricelist>
+    <customer_address>
+      <address_description>B2C Lead My</address_description>
+      <firstname>My</firstname>
+      <lastname>B2C Lead</lastname>
+      <contact_person></contact_person>
+      <street_address>Tammistontie</street_address>
+      <city>Vantaa</city>
+      <postal_code>01520</postal_code>
+      <fax></fax>
+      <country>FIN</country>
+      <province></province>
+      <county></county>
+      <phone_number>+35823123123 d</phone_number>
+      <email>b2c.lead@me.com</email>
+      <note></note>
+      <number></number>
+      <customer_id></customer_id>
+    </customer_address>
+    <invoice_address>
+      <address_description>B2C Lead My</address_description>
+      <firstname>My</firstname>
+      <lastname>B2C Lead</lastname>
+      <contact_person></contact_person>
+      <street_address>Tammistontie</street_address>
+      <city>Vantaa</city>
+      <postal_code>01520</postal_code>
+      <fax></fax>
+      <country>FIN</country>
+      <province></province>
+      <county></county>
+      <phone_number>+35823123123 d</phone_number>
+      <email>b2c.lead@me.com</email>
+      <note></note>
+      <payment_terms>07</payment_terms>
+      <invoice_type>Email</invoice_type>
+      <number></number>
+      <payment>REF</payment>
+      <paytrail_reference_id></paytrail_reference_id>
+    </invoice_address>
+    <install_address>
+      <address_description>B2C Lead My</address_description>
+      <firstname>My</firstname>
+      <lastname>B2C Lead</lastname>
+      <name></name>
+      <contact_person></contact_person>
+      <street_address>Tammistontie</street_address>
+      <city>Vantaa</city>
+      <postal_code>01520</postal_code>
+      <fax></fax>
+      <country>FIN</country>
+      <province></province>
+      <county></county>
+      <phone_number>+35823123123 d</phone_number>
+      <email>b2c.lead@me.com</email>
+      <note></note>
+      <number />
+    </install_address>
+    <delivery_address>
+      <address_description>B2C Lead My</address_description>
+      <firstname>My</firstname>
+      <lastname>B2C Lead</lastname>
+      <contact_person>B2C Lead My</contact_person>
+      <street_address>Tammistontie</street_address>
+      <city>Vantaa</city>
+      <postal_code>01520</postal_code>
+      <fax></fax>
+      <country>FIN</country>
+      <province></province>
+      <county></county>
+      <phone_number>+35823123123 d</phone_number>
+      <email>b2c.lead@me.com</email>
+      <note></note>
+      <number />
+      <delivery_terms>DAP</delivery_terms>
+      <delivery_type>Matka-MH10</delivery_type>
+    </delivery_address>
+    <sales_person>
+      <username>hendrikusr</username>
+      <supervisor>hannam</supervisor>
+      <firstname>Hendrikus</firstname>
+      <lastname>Reynders</lastname>
+    </sales_person>
+  </order_info>
+  <payment_batches>
+    <payment_batch>
+      <number>1</number>
+      <type>Deposit</type>
+      <description>50</description>
+      <sum>299.33</sum>
+    </payment_batch>
+  </payment_batches>
+</order>

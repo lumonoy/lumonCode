@@ -268,7 +268,7 @@
             </value>
         </assignmentItems>
         <connector>
-            <targetReference>Get_Internal_IT_Queue</targetReference>
+            <targetReference>Send_UI_Feedback</targetReference>
         </connector>
     </assignments>
     <assignments>
@@ -849,13 +849,6 @@
                     <booleanValue>false</booleanValue>
                 </rightValue>
             </conditions>
-            <conditions>
-                <leftValueReference>$Record.Confirmed_Installation_Date__c</leftValueReference>
-                <operator>IsNull</operator>
-                <rightValue>
-                    <booleanValue>false</booleanValue>
-                </rightValue>
-            </conditions>
             <connector>
                 <targetReference>Installation_day_confirmation</targetReference>
             </connector>
@@ -1133,6 +1126,13 @@
                 <operator>GreaterThan</operator>
                 <rightValue>
                     <numberValue>0.0</numberValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Confirmed_installation_time__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
                 </rightValue>
             </conditions>
             <conditions>
@@ -1437,9 +1437,7 @@
 31.10.2023: Corrected the Stage transition decision to bypass the Contract Signed Stage branch for any change in Oppo. Removed the Quoting Stage from here as well (related to manual signing, which is going to be removed).
 02.11.2023 Bypass booking for Reclamation
 14.11.2023 Allow updated of Times after Closed Won
-02.12.2023: Save Active Version as R2
-29.1.2024: Removed the check for Confirmed Installation date from Oppo closing to support sales w/o installation.
-31.1.2024: Added check to customer email notification of installation. Now it checks that confirmed installation date exists.</description>
+02.12.2023: Save Active Version as R2</description>
     <environments>Default</environments>
     <formulas>
         <description>This formula creates the case subject</description>
@@ -1470,7 +1468,7 @@
         <expression>NOW() - 1</expression>
     </formulas>
     <interviewLabel>Opportunity - After Save {!$Flow.CurrentDateTime}</interviewLabel>
-    <label>Opportunity - After Save R3</label>
+    <label>Opportunity - After Save R2.5.4b</label>
     <processMetadataValues>
         <name>BuilderType</name>
         <value>
@@ -1501,57 +1499,10 @@
         <inputReference>recOpportunityOrder</inputReference>
     </recordCreates>
     <recordCreates>
-        <name>Create_support_Case_for_Internal_IT_Queue</name>
-        <label>Create support Case for Internal IT Queue</label>
-        <locationX>1458</locationX>
-        <locationY>2508</locationY>
-        <connector>
-            <targetReference>Send_UI_Feedback</targetReference>
-        </connector>
-        <inputAssignments>
-            <field>Description</field>
-            <value>
-                <stringValue>This case is created because the Opportunity process failed to activate the Order, and the Opportunity was moved back to previous status &quot;Contract Signed&quot;. Please check that Opportunity has relevant base data (e.g. delivery date is filled in) which may cause failure, and proceed to assist the sales user to close their opportunity: Opportunity: {!$Record.Id} {!$Record.Name}</stringValue>
-            </value>
-        </inputAssignments>
-        <inputAssignments>
-            <field>OwnerId</field>
-            <value>
-                <elementReference>Get_Internal_IT_Queue.Id</elementReference>
-            </value>
-        </inputAssignments>
-        <inputAssignments>
-            <field>Priority</field>
-            <value>
-                <stringValue>High</stringValue>
-            </value>
-        </inputAssignments>
-        <inputAssignments>
-            <field>Status</field>
-            <value>
-                <stringValue>New</stringValue>
-            </value>
-        </inputAssignments>
-        <inputAssignments>
-            <field>Subject</field>
-            <value>
-                <stringValue>Subject&gt; Failed Order Activation: {!$Record.Id}</stringValue>
-            </value>
-        </inputAssignments>
-        <inputAssignments>
-            <field>Type</field>
-            <value>
-                <stringValue>Internal IT Queue</stringValue>
-            </value>
-        </inputAssignments>
-        <object>Case</object>
-        <storeOutputAutomatically>true</storeOutputAutomatically>
-    </recordCreates>
-    <recordCreates>
         <name>Send_UI_Feedback</name>
         <label>Send UI Feedback</label>
         <locationX>1458</locationX>
-        <locationY>2616</locationY>
+        <locationY>2400</locationY>
         <connector>
             <targetReference>Update_Opportunity_Record</targetReference>
         </connector>
@@ -1594,27 +1545,6 @@
         <object>FeedbackEvent__e</object>
         <storeOutputAutomatically>true</storeOutputAutomatically>
     </recordCreates>
-    <recordLookups>
-        <name>Get_Internal_IT_Queue</name>
-        <label>Get Internal IT Queue</label>
-        <locationX>1458</locationX>
-        <locationY>2400</locationY>
-        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
-        <connector>
-            <targetReference>Create_support_Case_for_Internal_IT_Queue</targetReference>
-        </connector>
-        <filterLogic>and</filterLogic>
-        <filters>
-            <field>DeveloperName</field>
-            <operator>EqualTo</operator>
-            <value>
-                <stringValue>Internal_IT_Queue</stringValue>
-            </value>
-        </filters>
-        <getFirstRecordOnly>true</getFirstRecordOnly>
-        <object>Group</object>
-        <storeOutputAutomatically>true</storeOutputAutomatically>
-    </recordLookups>
     <recordLookups>
         <name>GetPhoneFromAccount</name>
         <label>GetPhoneFromAccount</label>
@@ -1942,7 +1872,7 @@
         </scheduledPaths>
         <triggerType>RecordAfterSave</triggerType>
     </start>
-    <status>Active</status>
+    <status>Obsolete</status>
     <subflows>
         <name>Assign_Install_mgr_to_Oppo_Team</name>
         <label>Assign Install mgr to Oppo Team</label>
@@ -2082,7 +2012,7 @@ Owner: {!$Record.Owner.Id}</text>
         <isViewedAsPlainText>true</isViewedAsPlainText>
         <text>Failed Order Activation: {!$Record.Id}</text>
     </textTemplates>
-    <triggerOrder>102</triggerOrder>
+    <triggerOrder>108</triggerOrder>
     <variables>
         <name>buildingPermitRecordTypeID</name>
         <dataType>String</dataType>

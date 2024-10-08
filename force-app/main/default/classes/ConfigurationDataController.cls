@@ -9,7 +9,7 @@ public with sharing class ConfigurationDataController {
 
 	@AuraEnabled(cacheable=true)
     public static Map<ID, String> getVisualPricingFiles(String recordId){
-        List<Configuration__c> configPlans = ConfigurationPlanController.getConfigurationsByRelatedId(recordId);
+        List<Configuration__c> configPlans = ConfigurationPlanController.getConfigurationPlans(new List<Id> {recordId});
         List<Id> configIds = new List<Id>(new Map<Id, Configuration__c>(configPlans).keySet()); 
         // Get pricing file IDs        
         List<ContentDocumentLink> files = [ SELECT  ContentDocumentId,

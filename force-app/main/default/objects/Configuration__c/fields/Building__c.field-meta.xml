@@ -3,8 +3,9 @@
     <fullName>Building__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <externalId>false</externalId>
-    <label>Building</label>
+    <label>Plan Building</label>
     <referenceTo>Building__c</referenceTo>
+    <relationshipLabel>Configuration Plans</relationshipLabel>
     <relationshipName>Configurations</relationshipName>
     <required>false</required>
     <trackHistory>false</trackHistory>

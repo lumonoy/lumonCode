@@ -2,56 +2,97 @@
  * @description       : 
  * @author            : Henk Reynders
  * @group             : 
- * @last modified on  : 12-02-2023
+ * @last modified on  : 07-05-2024
  * @last modified by  : Henk Reynders
 **/
- @RestResource(urlMapping='/processOutput/*')
- global with sharing class ProcessVisualOutput {
-	 @HttpPost
-	 global static void doPost() {
-		 String result = '';
-		 RestRequest request = RestContext.request;
-		 String allParams = request.requestURI.substringAfter('/processOutput/');
-		 Integer indexOfSlash = allParams.indexOf('/');
-		 String configsId = allParams.substring(0, indexOfSlash);
-		 String confAndSlash = configsId + '/';
-		 String methodAndExt = allParams.substringAfter(confAndSlash);
-		 String method = methodAndExt.substring(0, methodAndExt.indexOf('/'));
-		 String fileExtension = allParams.substringAfter(method + '/');
-		 List<String> imagesExtensions = new List<String>{'jpg', 'jpeg', 'png', 'pdf'};
-		 String visualId = '';
-		 String configId = '';
-		 String recordId = '';
- 
-		 if (configsId.contains('&')) {
-			 recordId = configsId.substringBefore('&');
-			 System.debug('---  recordId: ' +recordId);
-			 visualId = configsId.substringBetween('&');
-			 System.debug('---  visualId --- '+visualId);
-			 configId = configsId.substringAfterLast('&');
-			 System.debug('---  configId --- '+configId);
-		 } else {
-			 recordId = configsId;
-			 System.debug('---  recordId --- '+recordId);
-		 }
-		 //Find Configuration parent Record 
-		 List<Opportunity> opps = [SELECT Id FROM Opportunity WHERE Id =: recordId];
-		 if (!opps.isEmpty()) {
-			 Configuration__c configToInsert;
-			 String methodName = method.replaceAll('%20', ' ');
-			 String structureNumber = '';
-			 System.debug('---  methodName: '+methodName);
-			 structureNumber = methodName.contains('Visual Output_') ? methodName.substringAfter('Visual Output_') : methodName.substringAfter('Visual_Structure_');
-			 System.debug('---  Structure number: ' + structureNumber);
-			 
-			 if (!String.isBlank(structureNumber) && structureNumber.contains('.')) {
+@RestResource(urlMapping='/processOutput/*')
+global with sharing class ProcessVisualOutput {
+	@HttpPost
+	global static void doPost() {
+		String result = '';
+		RestRequest request = RestContext.request;
+		String requestURL = request.requestURI.substringAfter('/processOutput/');
+		System.debug('--- ProcessVisualOutput - requestURL: ' +requestURL);
+		
+		Integer indexOfSlash = requestURL.indexOf('/');
+		String recordIds = requestURL.substring(0, indexOfSlash);
+		String confAndSlash = recordIds + '/';
+		String methodAndExt = requestURL.substringAfter(confAndSlash);
+		String method = methodAndExt.substring(0, methodAndExt.indexOf('/'));
+		String fileExtension = requestURL.substringAfter(method + '/');
+		List<String> imagesExtensions = new List<String>{'jpg', 'jpeg', 'png', 'pdf'};
+
+
+		String visualId = '';
+		String configId = '';
+		String recordId = '';
+
+		if (recordIds.contains('&')) {
+			recordId = recordIds.substringBefore('&');
+			System.debug('--- ProcessVisualOutput - recordId: ' +recordId);
+			visualId = recordIds.substringBetween('&');
+			System.debug('--- ProcessVisualOutput - visualId: '+visualId);
+			configId = recordIds.substringAfterLast('&');
+			System.debug('--- ProcessVisualOutput - configId: '+configId);
+		} else {
+			recordId = recordIds;
+			System.debug('--- ProcessVisualOutput - recordId: '+recordId);
+		}
+		//Find Configuration parent Record 
+		// Which recordId 
+		Id opportunityId;
+		Id quoteId;
+		Id mainProjectId;
+		Id subProjectId;
+		Id caseId;
+		String parentObjectType = dynamicObjectUtils.getObjectType(recordId);
+		switch on parentObjectType {
+			when 'Opportunity' {
+				opportunityId = recordId;
+			}
+			when 'Customer_Project__c' {
+				mainProjectId = recordId;
+			}
+			when 'Delivery_Project__c' {
+				subProjectId = recordId;
+			}
+			when 'Quote' {
+				quoteId = recordId;
+			}
+			when 'Case' {
+				caseId = recordId;
+			}
+		}
+		 // Get Parent Record
+		List<sObject> queryResult = DynamicQueryUtils.getObjectRecords(parentObjectType, new List<String> {'Id'},1,recordId,'Id','DESC');
+		Boolean parentExists = queryResult.size()>0 ? true : false;
+		System.debug('--- ProcessVisualOutput - parentExists: '+parentExists);
+		
+		if (!queryResult.isEmpty()) {
+			Configuration__c configToInsert;
+			String methodName = method.replaceAll('%20', ' ');
+			String structureNumber = '';
+			System.debug('--- ProcessVisualOutput - methodName: '+methodName);
+			structureNumber = methodName.contains('Visual Output_') ? methodName.substringAfter('Visual Output_') : methodName.substringAfter('Visual_Structure_');
+			System.debug('--- ProcessVisualOutput - Structure number: ' + structureNumber);
+			
+			if (!String.isBlank(structureNumber) && structureNumber.contains('.')) {
 				structureNumber = structureNumber.substringBefore('.');
 			 }
 			 Id relatedConfigId;
-			 System.debug('---  configs for record with Id: '+recordId);
 			 ContentVersion contVerFile = new ContentVersion();
 			 if (imagesExtensions.contains(fileExtension)) {
 				 contVerFile.VersionData = EncodingUtil.base64Decode(request.requestBody.toString());
+			 }	else if (fileExtension == 'xml' && methodName.contains('Documentation')) {
+				String docXmlString = request.requestBody.toString();
+					// 01.02.2024 replace CDATA tag if it is present
+					if (docXmlString.contains('[CDATA[')){
+						docXmlString = docXmlString.replace('<![CDATA[', '');
+						docXmlString = docXmlString.replace(']]>', '');
+						docXmlString = docXmlString.replace('&lt;![CDATA[', '');
+						docXmlString = docXmlString.replace(']]&gt;', '');
+					}
+					contVerFile.VersionData = Blob.valueOf(docXmlString);
 			 } else {
 				 contVerFile.VersionData = request.requestBody;
 			 }
@@ -61,15 +102,17 @@
  
 			 String planName = '';
 			 String planApartment = '';
-			 Integer planFloor;
+			 String planFloor;
              String planType = 'Visual';
 			 String planLine = '';
 			 Boolean isPricingJson = false;
 			 String content = '';
 			 System.debug('---  fileExtension: ' + fileExtension + ', name: ' + methodName);
+			 // Store Pricing File and trigger Processing
 			 if (fileExtension == 'json' && methodName.contains('Pricing')) {
 				 System.debug('---  Visual Pricing Data');
 				 isPricingJson = true;
+				 // Move this elsewhere
 				 VisualConfiguration configObject = VisualConfiguration.parseVisualConfiguration(request.requestBody.toString());
 				 System.debug('---  configObject: ' + configObject);
 				 content = request.requestBody.toString();
@@ -77,10 +120,10 @@
 				 if (configObject != null) {
 					 planName = configObject.name != null ? configObject.name : '';
 					 planApartment = configObject.apartment != null ? configObject.apartment : '';
-					 planFloor = configObject.floor != null && configObject.floor.isNumeric()? Integer.valueOf(configObject.floor) : null;
+					 planFloor = configObject.floor != null ? configObject.floor : '';
 					 planLine = configObject.line != null ? configObject.line : '';
 				 }
-			 }
+			 } 
 			 System.debug('--- planName: ' + planName);
 			 System.debug('--- planApartment: ' + planApartment);
 			 System.debug('--- planFloor: ' + planFloor);
@@ -143,9 +186,7 @@
 					 }
 					 if (isPricingJson) {
 						 configToInsert.Plan_Apartment__c = planApartment;
-						 if (planFloor != null) {
-							 configToInsert.Plan_Floor__c = planFloor;
-						 }
+						 configToInsert.Plan_Floor__c = planFloor;
 						 configToInsert.Plan_Line__c = planLine;
 						 configToInsert.Plan_Name__c = planName;
                          configToInsert.Plan_Type__c = planType;
@@ -160,13 +201,11 @@
 					 configToInsert.Visual_Structure_Number__c = structureNumber;
 				 }
 				 if (isPricingJson) {
-					 configToInsert.Plan_Apartment__c = planApartment;
-					 if (planFloor != null) {
-						 configToInsert.Plan_Floor__c = planFloor;
-					 }
-					 configToInsert.Plan_Line__c = planLine;
-					 configToInsert.Plan_Name__c = planName;
-                     configToInsert.Plan_Type__c = planType;
+					configToInsert.Plan_Apartment__c = planApartment;
+					configToInsert.Plan_Floor__c = planFloor;
+					configToInsert.Plan_Line__c = planLine;
+					configToInsert.Plan_Name__c = planName;
+					configToInsert.Plan_Type__c = planType;
 				 }
 				 insert configToInsert;
 				 relatedConfigId = configToInsert.Id;

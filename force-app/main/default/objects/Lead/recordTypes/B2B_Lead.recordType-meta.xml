@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>B2B_Lead</fullName>
-    <active>false</active>
+    <active>true</active>
     <businessProcess>B2B Lead Process</businessProcess>
     <description>Record type for B2B Leads</description>
     <label>B2B Lead</label>
     <picklistValues>
         <picklist>Business_Type__c</picklist>
         <values>
-            <fullName>1</fullName>
+            <fullName>0</fullName>
             <default>false</default>
         </values>
         <values>
@@ -208,11 +208,35 @@
     <picklistValues>
         <picklist>Language__c</picklist>
         <values>
-            <fullName>en</fullName>
+            <fullName>da</fullName>
             <default>false</default>
         </values>
         <values>
-            <fullName>fr_CA</fullName>
+            <fullName>de</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>es</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>fi</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>fr</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>nb</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>nl</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>se</fullName>
             <default>false</default>
         </values>
     </picklistValues>
@@ -330,18 +354,6 @@
     <picklistValues>
         <picklist>Property_Type__c</picklist>
         <values>
-            <fullName>APA</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>COT</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>HOU</fullName>
-            <default>false</default>
-        </values>
-        <values>
             <fullName>HRC</fullName>
             <default>false</default>
         </values>
@@ -351,10 +363,6 @@
         </values>
         <values>
             <fullName>PRJB</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>ROW</fullName>
             <default>false</default>
         </values>
     </picklistValues>

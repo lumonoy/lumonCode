@@ -4,7 +4,7 @@
     <externalId>false</externalId>
     <formula>Owner.CompanyName</formula>
     <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
-    <label>Owner Company Name</label>
+    <label>Owner Company Name OLD</label>
     <required>false</required>
     <trackHistory>false</trackHistory>
     <type>Text</type>

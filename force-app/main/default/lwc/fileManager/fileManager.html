@@ -1,0 +1,27 @@
+<!--
+  @description       : 
+  @author            : Henk Reynders
+  @group             : 
+  @last modified on  : 08-13-2024
+  @last modified by  : Henk Reynders
+-->
+<template>
+  <lightning-card title={fileManagerTitle}>
+    <c-file-data-table
+          columns={columns}
+          key-field="id"
+          data={relatedFiles}
+          onrowaction={handleRowAction}
+          data-tablename="relatedFiles"
+          resize-column-disabled
+        ></c-file-data-table>
+  </lightning-card> 
+  <lightning-card title={fileManagerTitle}>    
+    <a href="javascript:void(0)" onmouseover={handleMouseOver} onmouseout={handleMouseOut} onclick={navigateToFile}>{label}</a>
+    <template if:true={showPreview}>
+      <div class="overlay">
+        <c-file-preview file-id={fileOrVersionId} height-in-rem="3" message={message}></c-file-preview>
+      </div>
+    </template>
+  </lightning-card>
+</template>

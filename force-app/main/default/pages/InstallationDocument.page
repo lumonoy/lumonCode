@@ -1,0 +1,48 @@
+<!--
+  @description       : 
+  @author            : Henk Reynders
+  @group             : 
+  @last modified on  : 08-14-2024
+  @last modified by  : Henk Reynders
+-->
+<apex:page id="InstallationDocument"
+            showHeader="false"
+            applyHtmlTag="false"
+            applyBodyTag="false"
+            renderAs="pdf"
+            cache="true" 
+            readOnly="false"
+            sidebar="true"
+            standardcontroller="WorkOrderLineItem" 
+            extensions="InstallationDocumentController"
+            action="{!uploadInstallationPDF}"
+    >
+    <apex:includeLightning />
+    <script>
+        function loadInstallationPDF() {
+        //var contentVersion = '{getContentVersionRecord}';       
+        var base64Data = '{getInstallationPDF}'; //Already base64 String
+        var fileType = 'application/pdf';
+        var binaryData = atob(base64Data);     
+        // Create a Uint8Array from the binary data      
+        var byteArray = new Uint8Array(binaryData.length);       
+        for (var i = 0; i < binaryData.length; i++) {
+            byteArray[i] = binaryData.charCodeAt(i) & 0xff;
+        }       
+        // Create a Blob from the Uint8Array       
+        console.log("base64Type.type: "+ base64Data.type);       
+        var blob = new Blob([byteArray], {type: byteArray.type});      
+        var objectUrl = window.URL.createObjectURL(blob);       
+        // Set the object URL as the iframe's src attribute      
+        document.getElementById('pdf-viewer').src = objectUrl;      
+        }    
+    </script> 
+        
+    <iframe id="pdf-viewer" height="800px" width="100%" title="InstallationDocument"></iframe>
+        
+    <script>    
+        window.onload = loadInstallationPDF;       
+    </script>
+    <!--<embed type="application/pdf" src="data:application/pdf;base64,{!installationPDF}" style="width: 100%; height: 100vh; display: inline-block" />-->
+    <!--<iframe  src="data:application/pdf;base64,{!installationPDF}" ></iframe>-->    
+</apex:page>

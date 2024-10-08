@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>60.0</apiVersion>
+    <decisions>
+        <name>has_WorkOrders</name>
+        <label>has WorkOrders?</label>
+        <locationX>374</locationX>
+        <locationY>539</locationY>
+        <defaultConnectorLabel>No WorkOrders</defaultConnectorLabel>
+        <rules>
+            <name>WorkOrders</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Get_Related_WorkOrders</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Update_Total_Duration_to_DB</targetReference>
+            </connector>
+            <label>WorkOrders</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Skip_Automation</name>
+        <label>Skip Automation?</label>
+        <locationX>176</locationX>
+        <locationY>323</locationY>
+        <defaultConnector>
+            <targetReference>Get_Related_WorkOrders</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Continue</defaultConnectorLabel>
+        <rules>
+            <name>Abort</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Setup.AutomationBypass__c.SkipAutomation__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <label>Abort</label>
+        </rules>
+    </decisions>
+    <description>Triggered Flow to set the summarized Work Durations</description>
+    <environments>Default</environments>
+    <interviewLabel>Delivery Batch - Set Work Duration R3 {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Delivery Batch - Set Work Duration R3</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordLookups>
+        <name>Get_Related_WorkOrders</name>
+        <label>Get Related WorkOrders</label>
+        <locationX>374</locationX>
+        <locationY>431</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>has_WorkOrders</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Delivery_Batch__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>WorkOrder</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordUpdates>
+        <name>Update_Total_Duration_to_DB</name>
+        <label>Update Total Duration to DB</label>
+        <locationX>242</locationX>
+        <locationY>647</locationY>
+        <inputAssignments>
+            <field>Estimated_Work_Duration_Total__c</field>
+            <value>
+                <elementReference>Get_Related_WorkOrders.Total_Duration__c</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Skip_Automation</targetReference>
+        </connector>
+        <object>Delivery_Batch__c</object>
+        <recordTriggerType>Update</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+</Flow>

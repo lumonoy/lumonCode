@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-    <label><!-- Is installable --></label>
+    <label><!-- Is installable OLD --></label>
     <name>Is_installable__c</name>
 </CustomFieldTranslation>

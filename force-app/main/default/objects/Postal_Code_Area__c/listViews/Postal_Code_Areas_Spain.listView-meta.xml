@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Postal_Code_Areas_Spain</fullName>
+    <columns>NAME</columns>
+    <columns>Region_Code__c</columns>
+    <columns>Region__c</columns>
+    <columns>Sub_Region_Code__c</columns>
+    <columns>Sub_Region__c</columns>
+    <columns>Municipality_Code__c</columns>
+    <columns>Municipality__c</columns>
+    <columns>Postal_Code__c</columns>
+    <columns>Area__c</columns>
+    <columns>District__c</columns>
+    <columns>Profit_Center__c</columns>
+    <columns>Country__c</columns>
+    <columns>Office__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Country__c</field>
+        <operation>equals</operation>
+        <value>ES</value>
+    </filters>
+    <label>Postal Code Areas Spain</label>
+</ListView>

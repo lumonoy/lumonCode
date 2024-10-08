@@ -2,7 +2,7 @@
  * @description       : 
  * @author            : Henk Reynders
  * @group             : 
- * @last modified on  : 12-01-2023
+ * @last modified on  : 01-15-2024
  * @last modified by  : Henk Reynders
 **/
 public with sharing class ConfigurationOptionController {
@@ -18,10 +18,12 @@ public with sharing class ConfigurationOptionController {
         List<Configuration_Option__c> configOptions = new List<Configuration_Option__c>();
         configOptions = [   SELECT Id,
                                     Name,
+                                    Line_Number__c,                                   
                                     Product_Group__c,
                                     Product_Model__c,
                                     Product_Code__c,
                                     Sales_Code__c,
+                                    RVN_Number__c,
                                     Quantity__c,
                                     Product__c,
                                     Product__r.Name,
@@ -39,8 +41,15 @@ public with sharing class ConfigurationOptionController {
                                     Product__r.IsActive,
                                     Configuration_Product__c,
                                     Configuration_Product__r.RVN__c,
+                                    Configuration_Product__r.RVN_Number__c,
                          			Configuration_Product__r.Configuration__c,
-                                    Configuration_Product__r.Configuration__r.Opportunity__c                                          
+                                    Configuration_Product__r.Configuration__r.Opportunity__c ,
+                                    hasProductionTime__c,
+                                    Production_Days__c,
+                                    Production_Extra_Days__c,
+                                    hasInstallationTime__c,
+                                    Installation_Hours__c,
+                                    Installation_Time_Per_Unit__c                                                                                                           
                             FROM Configuration_Option__c 
                             WHERE Id IN: recordIds
                             OR Configuration_Product__c IN: recordIds

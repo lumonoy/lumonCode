@@ -19,7 +19,7 @@
         <operation>equals</operation>
         <value>1</value>
     </filters>
-    <label>New Selesforce Cases</label>
+    <label>New Salesforce Cases</label>
     <sharedTo>
         <group>Admins</group>
         <group>ICT_Support</group>

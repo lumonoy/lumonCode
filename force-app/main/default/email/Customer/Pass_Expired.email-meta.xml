@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Password expired</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Lumon_Email_Letterhead</letterhead>
+    <name>Pass Expired</name>
+    <style>freeForm</style>
+    <subject>Solicitud contraseña {!Case.Id}</subject>
+    <textOnly>Hola {!Case.Contact},
+Las solicitudes de contraseñas deben hacerlas los responsables de cada equipo y a través de este enlace:
+https://forms.office.com/Pages/ResponsePage.aspx?id=tnwEbRQdyUOiLj-PGtCyEdALAKV8KjxBnzD_bPZpItZURVlVUFU3S1BWWVNGVDNFNzcxQ1RMMFBBUiQlQCN0PWcu
+
+También puedes usar el siguiente QR
+
+
+
+
+Aprovechamos el correo para recordar que en este canal podrás encontrar vídeos sobre casi todo lo que te haga falta con respecto a IT:
+https://lumon365.sharepoint.com/sites/SpainITTutoriales/Shared%20Documents/Forms/AllItems.aspx?FolderCTID=0x012000A614300412CAEF48B976657EE8056DC4&amp;id=%2Fsites%2FSpainITTutoriales%2FShared%20Documents%2FGeneral&amp;viewid=affb4a90%2Dc00c%2D4b5c%2Da0f6%2D7d7c0449870b
+
+Un saludo.</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

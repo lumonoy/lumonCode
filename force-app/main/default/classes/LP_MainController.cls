@@ -1,3 +1,10 @@
+/**
+ * @description       : 
+ * @author            : Henk Reynders
+ * @group             : 
+ * @last modified on  : 04-18-2024
+ * @last modified by  : Henk Reynders
+**/
 public without sharing class LP_MainController extends LP_MainControllerUtil{
 
 	public static Map<String, String> orderProductNameImageMap = getOrderProductsImageMap();
@@ -8,6 +15,7 @@ public without sharing class LP_MainController extends LP_MainControllerUtil{
 		for(LP_Product_Image_Map__mdt prodImg : productImageMaps) {
 			orderProductNameImageMap.put(prodImg.Product_Name__c, prodImg.Product_Image_Name__c);
 		}
+		System.debug('--- LP_MainController - Product to Image Mappings '+orderProductNameImageMap);
 		return orderProductNameImageMap;
 	}
 
@@ -31,14 +39,15 @@ public without sharing class LP_MainController extends LP_MainControllerUtil{
 			oD.odProducts = createOrderDetailProducts(orderItems, entitlements);
 		}
 		if(!orders.isEmpty()){
-			oD.installDate = String.valueOf(orders[0]?.Opportunity.Installation_Time_Calc__c);
+			/*oD.installDate = String.valueOf(orders[0]?.Opportunity.Installation_Time_Calc__c);
 			oD.installAddressStreet = orders[0]?.Opportunity.Building__r.Building_Address__c?.street;
 			oD.installAddressZipCityState = getInstallAddressZipCityState(orders[0]?.Opportunity.Building__r.Building_Address__c);
 			oD.totalCost = orders[0]?.Opportunity.Net_Total_Price__c;
-			oD.orderNo = orders[0]?.OrderNumber;
+			oD.orderNo = orders[0]?.OrderNumber; //orders[0]?.Opportunity.Opportunity_Number__c;//orders[0]?.OrderNumber;
 			oD.currencyIsoCode = orders[0]?.CurrencyIsoCode;
-			oD.orderContractSTR = getOrdersContractSTR(orders[0]?.Contract?.CustomerSignedDate, orders[0].OpportunityId);
+			oD.orderContractSTR = getOrdersContractSTR(orders[0]?.Contract?.CustomerSignedDate, orders[0].OpportunityId);*/
 		}
+		System.debug('--- LP_MainController - Order Details '+oD);
 		return JSON.serialize(oD);
 	}
 
@@ -53,31 +62,33 @@ public without sharing class LP_MainController extends LP_MainControllerUtil{
 		List<Account> account = fetchAccount(contactId);
 		List<Order> orders = queryOrders(account[0].Id);
 		Integer orderTabNumber = 0;
-
-		for(Order o : orders){
-			OrderWrapper oW = createOrderWrapper(o, ++orderTabNumber);
-			orderWrappers.add(oW);
-			orderIds.add(o.Id);
-			oppOrderIdsMap.put(o.OpportunityId, o.Id);
-			orderIdContractSignDateMap.put(o.Id, o.Contract.CustomerSignedDate);
+		System.debug('--- LP_MainController - Orders '+orders);
+		if (orders.size()>0){ 
+			for(Order o : orders){
+				OrderWrapper oW = createOrderWrapper(o, ++orderTabNumber);
+				orderWrappers.add(oW);
+				orderIds.add(o.Id);
+				oppOrderIdsMap.put(o.OpportunityId, o.Id);
+				orderIdContractSignDateMap.put(o.Id, o.Contract.CustomerSignedDate);
+			}
 		}
-
 		Map<String, List<OrderProduct>> orderIdProductsMap = createOrderIdProductsMap(orderIds);
 		Map<String, List<SignedDocument>> orderIdSignedDocumentsMap = createOrderIdSignedDocumentsMap(oppOrderIdsMap);
 		// update orderWRapper with products and contract data
-		for(OrderWrapper oW : orderWrappers){
-			OrderContract oContract = new OrderContract();
-			oContract.signedDate = orderIdContractSignDateMap.get(oW.orderId);
-			oContract.signedDocuments = orderIdSignedDocumentsMap.get(oW.orderId);
-			oW.orderContractSTR = JSON.serialize(oContract);
-			oW.orderProducts = orderIdProductsMap.get(oW.orderId);
-
+		if (orderWrappers.size()>0) {
+			for(OrderWrapper oW : orderWrappers){
+				OrderContract oContract = new OrderContract();
+				oContract.signedDate = orderIdContractSignDateMap.get(oW.orderId);
+				oContract.signedDocuments = orderIdSignedDocumentsMap.get(oW.orderId);
+				oW.orderContractSTR = JSON.serialize(oContract);
+				oW.orderProducts = orderIdProductsMap.get(oW.orderId);
+			}
 		}
+		System.debug('--- LP_MainController - Order Wrappers '+orderWrappers);
 		return JSON.serialize(orderWrappers);
 	}
 
 	private static Map<String, List<SignedDocument>> createOrderIdSignedDocumentsMap(Map<Id, Id> oppOrderIdsMap){
-
 		Map<String, List<SignedDocument>> orderIdContractLinksMap = new Map<String, List<SignedDocument>>();
 		List<ContentVersion> contentVersions = new List<ContentVersion>();
 		Set<Id> oppIdSet = oppOrderIdsMap.keySet();
@@ -91,8 +102,10 @@ public without sharing class LP_MainController extends LP_MainControllerUtil{
 			AND ContentDocument.Title LIKE '%signed%'
 			LIMIT 50
 		];
+		
 		Map<Id, Id> cDocIdOrderIdMap = new Map<Id, Id>();
 		if(!cdLinks.isEmpty()) {
+			System.debug('--- LP_MainController - Order Documents '+cdLinks);
 			cDocIdOrderIdMap = createContentDocIdOrderIdMap(cdLinks, oppOrderIdsMap);
 			Set<Id> cDocIdSet = cDocIdOrderIdMap.keySet();
 			contentVersions = [
@@ -107,6 +120,7 @@ public without sharing class LP_MainController extends LP_MainControllerUtil{
 		}
 
 		if(!contentVersions.isEmpty()){
+			System.debug('--- LP_MainController - Order Document Versions '+contentVersions);
 			String baseURL = Url.getOrgDomainUrl().toExternalForm();
 			for(ContentVersion cV : contentVersions){
 				String orderId = cDocIdOrderIdMap.get(cV.ContentDocumentId);
@@ -119,7 +133,6 @@ public without sharing class LP_MainController extends LP_MainControllerUtil{
 				}
 			}
 		}
-
 		return orderIdContractLinksMap;
 	}
 
@@ -137,14 +150,14 @@ public without sharing class LP_MainController extends LP_MainControllerUtil{
 	private static OrderWrapper createOrderWrapper(Order o, Integer orderTabNumber){
 		OrderWrapper oW = new OrderWrapper();
 		oW.orderTabLabel = System.Label.LP_Active_Order_Tab + ' ' + String.valueOf(orderTabNumber);
-		oW.orderNo = o.OrderNumber;
+		oW.orderNo = o.OrderNumber; //o.Opportunity.Opportunity_Number__c; //OrderNumber;
 		oW.orderId = o.Id;
 		oW.opportunityId = o.OpportunityId;
 		oW.currencyIsoCode = o.CurrencyIsoCode;
 		oW.totalCost = o.Opportunity.Net_Total_Price__c;
 		oW.orderComment = o.Opportunity.Order_Comments_for_Customer__c;
-		oW.installAddressStreet = o.Opportunity.Building__r.Building_Address__c?.street;
-		oW.installAddressZipCityState = getInstallAddressZipCityState(o.Opportunity.Building__r.Building_Address__c);
+		//oW.installAddressStreet = o.Opportunity.Building__r.Building_Address__c?.street;
+		//oW.installAddressZipCityState = getInstallAddressZipCityState(o.Opportunity.Building__r.Building_Address__c);
 		oW.orderDatesProgressSTR = getOrderProgressDates(o);
 		oW.installationDataSTR = getUpcomingInstallation(o);
 		return oW;
@@ -176,9 +189,12 @@ public without sharing class LP_MainController extends LP_MainControllerUtil{
 		];
 		Map<String, List<OrderProduct>> orderIdProductsWrapperMap = new Map<String, List<OrderProduct>>();
 		for(OrderItem oItem : orderItems){
+			System.debug('--- LP_MainController - set Order Item '+oItem);
 			OrderProduct oP = new OrderProduct();
 			oP.productName = oItem.Product_Group__c;
+			System.debug('--- LP_MainController - set Product Name '+oP.productName);
 			oP.productImageName = getProductImageName(oItem.Product_Group__c);
+			System.debug('--- LP_MainController - set Product Image Name '+oP.productImageName);
 			if(!orderIdProductsWrapperMap.containsKey(oItem.OrderId)){
 				orderIdProductsWrapperMap.put(oItem.OrderId, new List<OrderProduct>{oP});
 			}else{

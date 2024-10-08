@@ -72,7 +72,7 @@
             </value>
         </assignmentItems>
         <connector>
-            <targetReference>Is_Delivery_Address_Set</targetReference>
+            <targetReference>Is_Address_Set</targetReference>
         </connector>
     </assignments>
     <assignments>
@@ -84,53 +84,53 @@
             <assignToReference>recDeliveryAddress.CountryCode</assignToReference>
             <operator>Assign</operator>
             <value>
-                <elementReference>Get_Building.Building_Address__CountryCode__s</elementReference>
+                <elementReference>Get_Building.BuildingAddress__CountryCode__s</elementReference>
             </value>
         </assignmentItems>
         <assignmentItems>
             <assignToReference>recDeliveryAddress.StateCode</assignToReference>
             <operator>Assign</operator>
             <value>
-                <elementReference>Get_Building.Building_Address__StateCode__s</elementReference>
+                <elementReference>Get_Building.BuildingAddress__StateCode__s</elementReference>
             </value>
         </assignmentItems>
         <assignmentItems>
             <assignToReference>recDeliveryAddress.PostalCode</assignToReference>
             <operator>Assign</operator>
             <value>
-                <elementReference>Get_Building.Building_Address__PostalCode__s</elementReference>
+                <elementReference>Get_Building.BuildingAddress__PostalCode__s</elementReference>
             </value>
         </assignmentItems>
         <assignmentItems>
             <assignToReference>recDeliveryAddress.City</assignToReference>
             <operator>Assign</operator>
             <value>
-                <elementReference>Get_Building.Building_Address__City__s</elementReference>
+                <elementReference>Get_Building.BuildingAddress__City__s</elementReference>
             </value>
         </assignmentItems>
         <assignmentItems>
             <assignToReference>recDeliveryAddress.Street</assignToReference>
             <operator>Assign</operator>
             <value>
-                <elementReference>Get_Building.Building_Address__Street__s</elementReference>
+                <elementReference>Get_Building.BuildingAddress__Street__s</elementReference>
             </value>
         </assignmentItems>
         <assignmentItems>
             <assignToReference>recDeliveryAddress.Latitude</assignToReference>
             <operator>Assign</operator>
             <value>
-                <elementReference>Get_Building.Building_Address__Latitude__s</elementReference>
+                <elementReference>Get_Building.BuildingAddress__Latitude__s</elementReference>
             </value>
         </assignmentItems>
         <assignmentItems>
             <assignToReference>recDeliveryAddress.Longitude</assignToReference>
             <operator>Assign</operator>
             <value>
-                <elementReference>Get_Building.Building_Address__Longitude__s</elementReference>
+                <elementReference>Get_Building.BuildingAddress__Longitude__s</elementReference>
             </value>
         </assignmentItems>
         <connector>
-            <targetReference>Is_Delivery_Address_Set</targetReference>
+            <targetReference>Is_Address_Set</targetReference>
         </connector>
     </assignments>
     <assignments>
@@ -188,7 +188,7 @@
             </value>
         </assignmentItems>
         <connector>
-            <targetReference>Is_Delivery_Address_Set</targetReference>
+            <targetReference>Is_Address_Set</targetReference>
         </connector>
     </assignments>
     <assignments>
@@ -246,7 +246,7 @@
             </value>
         </assignmentItems>
         <connector>
-            <targetReference>Is_Delivery_Address_Set</targetReference>
+            <targetReference>Is_Address_Set</targetReference>
         </connector>
     </assignments>
     <assignments>
@@ -304,7 +304,7 @@
             </value>
         </assignmentItems>
         <connector>
-            <targetReference>Is_Delivery_Address_Set</targetReference>
+            <targetReference>Is_Address_Set</targetReference>
         </connector>
     </assignments>
     <assignments>
@@ -340,13 +340,13 @@
         </connector>
     </assignments>
     <decisions>
-        <name>Is_Delivery_Address_Set</name>
-        <label>Is Delivery Address Set?</label>
+        <name>Is_Address_Set</name>
+        <label>Is Address Set?</label>
         <locationX>710</locationX>
         <locationY>1190</locationY>
-        <defaultConnectorLabel>No Delivery Address</defaultConnectorLabel>
+        <defaultConnectorLabel>No Address</defaultConnectorLabel>
         <rules>
-            <name>Delivery_Address</name>
+            <name>Address</name>
             <conditionLogic>and</conditionLogic>
             <conditions>
                 <leftValueReference>recDeliveryAddress</leftValueReference>
@@ -355,7 +355,7 @@
                     <booleanValue>false</booleanValue>
                 </rightValue>
             </conditions>
-            <label>Delivery Address</label>
+            <label>Address</label>
         </rules>
     </decisions>
     <decisions>
@@ -408,7 +408,7 @@
         <locationX>710</locationX>
         <locationY>782</locationY>
         <defaultConnector>
-            <targetReference>Is_Delivery_Address_Set</targetReference>
+            <targetReference>Is_Address_Set</targetReference>
         </defaultConnector>
         <defaultConnectorLabel>Not Selected</defaultConnectorLabel>
         <rules>
@@ -493,7 +493,7 @@ Updated Version for Deliver To Change 27.07.2023
 02.12.2023: Save Active Version as R2</description>
     <environments>Default</environments>
     <interviewLabel>Opportunity - Assign Delivery AddressSubFlow {!$Flow.CurrentDateTime}</interviewLabel>
-    <label>Opportunity - Assign Delivery Address SubFlow R2.1</label>
+    <label>Opportunity - Assign Delivery Address SubFlow R2</label>
     <processMetadataValues>
         <name>BuilderType</name>
         <value>
@@ -626,7 +626,7 @@ Updated Version for Deliver To Change 27.07.2023
             <targetReference>Skip_Automation</targetReference>
         </connector>
     </start>
-    <status>Draft</status>
+    <status>Active</status>
     <variables>
         <name>opportunityId</name>
         <dataType>String</dataType>

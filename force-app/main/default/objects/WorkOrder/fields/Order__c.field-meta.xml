@@ -3,7 +3,7 @@
     <fullName>Order__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <externalId>false</externalId>
-    <label>Order</label>
+    <label>Order OLD</label>
     <referenceTo>Order</referenceTo>
     <relationshipLabel>Work Orders</relationshipLabel>
     <relationshipName>Work_Orders</relationshipName>

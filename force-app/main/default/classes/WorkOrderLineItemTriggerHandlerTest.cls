@@ -2,7 +2,7 @@
  * @description       : 
  * @author            : Henk Reynders
  * @group             : 
- * @last modified on  : 12-01-2023
+ * @last modified on  : 08-18-2024
  * @last modified by  : Henk Reynders
 **/
 
@@ -11,10 +11,34 @@ private class WorkOrderLineItemTriggerHandlerTest {
 	@TestSetup
     public static void prepareData(){
         Test.startTest();
-        //SalesTestDataFactory.setupAccountRecords();
-        LumonTestDataFactory.setupAccountB2C();
+		LumonTestDataFactory.setupAccountB2C();
+        //LumonTestAccounts.setupAccountB2C();
         Test.stopTest();
-    }   
+    }  
+	@TestVisible private static Id b2cAccountId{
+        get{
+            return LumonTestVariables.b2cAccountId;
+        }
+    }
+	@IsTest
+	static void getRemoteInstallationDocumentsTest () {
+		WorkOrder workOrderRecord = new WorkOrder(AccountId = b2cAccountId);
+		insert workOrderRecord;
+		String body = '{"response": "success"}';
+		MockResponseGenerator mockResp = new MockResponseGenerator(body, 200);
+		Test.setMock(HttpCalloutMock.class, mockResp);
+
+		Test.startTest();
+		
+			WorkOrderLineItem woli = new WorkOrderLineItem();
+			woli.WorkOrderId = workOrderRecord.Id; 
+			woli.RemoteFile__c = '123456.pdf';
+			woli.RemoteFolder__c = '"\\12345\\56789\\"'; //\\269000\\269961\\
+			insert woli;
+		
+
+		Test.stopTest();
+	} 
 	@IsTest
 	static void updateToCompletedTest () {
 		Account acc = [SELECT Id FROM Account WHERE Name =: 'My Person Account' LIMIT 1];

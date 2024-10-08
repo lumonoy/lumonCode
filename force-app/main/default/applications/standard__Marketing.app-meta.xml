@@ -13,4 +13,6 @@
     <tabs>standard-Chatter</tabs>
     <tabs>standard-File</tabs>
     <tabs>standard-Quote</tabs>
+    <tabs>Install_Expense__c</tabs>
+    <tabs>Delivery_Batch__c</tabs>
 </CustomApplication>

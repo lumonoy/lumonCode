@@ -4,7 +4,7 @@
     <description>Project number from Opportunity used for Integration</description>
     <externalId>false</externalId>
     <formula>Opportunity__r.Project_Number__r.Project_Value__c</formula>
-    <label>Opportunity Project</label>
+    <label>Opportunity Project OLD</label>
     <required>false</required>
     <trackHistory>false</trackHistory>
     <type>Text</type>

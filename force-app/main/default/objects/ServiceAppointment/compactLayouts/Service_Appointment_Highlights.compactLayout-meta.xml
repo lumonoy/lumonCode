@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Service_Appointment_Highlights</fullName>
+    <fields>AccountId</fields>
+    <fields>ParentRecordId</fields>
+    <fields>Status</fields>
+    <fields>SchedStartTime</fields>
+    <fields>SchedEndTime</fields>
+    <fields>FSL__Duration_In_Minutes__c</fields>
+    <fields>ServiceTerritoryId</fields>
+    <fields>IsBundle</fields>
+    <label>Service Appointment Highlights</label>
+</CompactLayout>

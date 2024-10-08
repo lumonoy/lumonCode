@@ -8,7 +8,31 @@
         </sections>
     </layouts>
     <quickActions>
+        <label><!-- Edit Asset --></label>
+        <name>EditAsset</name>
+    </quickActions>
+    <quickActions>
         <label><!-- New Case --></label>
         <name>New_CS_Case</name>
     </quickActions>
+    <quickActions>
+        <label><!-- View Asset --></label>
+        <name>ViewAsset</name>
+    </quickActions>
+    <recordTypes>
+        <label><!-- Apartment --></label>
+        <name>Apartment</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Building --></label>
+        <name>Building</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Plan --></label>
+        <name>Plan</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Product --></label>
+        <name>Product</name>
+    </recordTypes>
 </CustomObjectTranslation>

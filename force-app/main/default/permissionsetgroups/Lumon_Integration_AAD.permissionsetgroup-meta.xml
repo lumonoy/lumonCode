@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Access Rights and Permissions for the Ad Provisioning User</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Lumon Integration AAD</label>
+    <permissionSets>AzureADUserObjectAccess</permissionSets>
+    <permissionSets>PasswordNeverExpires</permissionSets>
+    <status>Updated</status>
+</PermissionSetGroup>

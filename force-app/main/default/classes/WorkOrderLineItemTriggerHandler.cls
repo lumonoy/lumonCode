@@ -2,15 +2,37 @@
  * @description       : 
  * @author            : Henk Reynders
  * @group             : 
- * @last modified on  : 12-02-2023
+ * @last modified on  : 09-17-2024
  * @last modified by  : Henk Reynders
 **/
 public without sharing class WorkOrderLineItemTriggerHandler {
-	public static void populateJSON(List<WorkOrderLineItem> newWorkOrderLineItems, Map<Id, WorkOrderLineItem> oldWorkOrderLineItems, Boolean resubmitOrder) { //Added resubmitOrder as part of LUM-1282
+	/**
+	* @description Fetch the remote Installation Files for WorkOrderLineItems created by Integration
+	* @author Henk Reynders | 09-03-2024 
+	* @param newWorkOrderLineItems 
+	**/
+	public static void getRemoteInstallationDocuments(List<WorkOrderLineItem> newWorkOrderLineItems){
+		List<Id> workOrderLineItemIds = new List<Id>();
+		for (WorkOrderLineItem updatedWorkOrderLineItem : newWorkOrderLineItems) {
+			workOrderLineItemIds.add(updatedWorkOrderLineItem.Id);
+		}
+		if (workOrderLineItemIds?.size()>0) {
+			for (Id workOrderLineItemId : workOrderLineItemIds) {
+				//Id callOutJobId = System.enqueueJob(new QueuableCalloutController(new List<Id> {workOrderLineItemId}));
+			}
+		}
+	}
+
+
+
+
+	public static void populateJSON(List<WorkOrderLineItem> updatedWorkOrderLineItems, Map<Id, WorkOrderLineItem> oldWorkOrderLineItems, Boolean resubmitOrder) { //Added resubmitOrder as part of LUM-1282
 		List<WorkOrderLineItem> itemsToProcess = new List<WorkOrderLineItem>();
+		
 		Set<Id> installExpenseIds = new Set<Id>();
 		Set<Id> installerIds = new Set<Id>();
         
+		// ------------------- eRplace with IntegrationController Method
         Boolean isSandbox = [SELECT IsSandbox FROM Organization LIMIT 1].IsSandbox;
 		System.debug('--- isSandbox ---'+isSandbox);
 		String envName = 'production';
@@ -23,9 +45,9 @@ public without sharing class WorkOrderLineItemTriggerHandler {
 		}
 		Integration_Credentials__mdt credentials;
 		credentials = [SELECT API_Key__c, Endpoint__c FROM Integration_Credentials__mdt WHERE Integration_Name__c = 'FrendsInstallation' AND Environment_Name__c =: envName];
-        
+        //---------
 		//Added resubmitOrder as part of LUM-1282
-        for (WorkOrderLineItem worOrdLinItem : newWorkOrderLineItems) {
+        for (WorkOrderLineItem worOrdLinItem : updatedWorkOrderLineItems) {
 			WorkOrderLineItem oldItem = oldWorkOrderLineItems.containsKey(worOrdLinItem.Id) ? oldWorkOrderLineItems.get(worOrdLinItem.Id): new WorkOrderLineItem();
 			
             if ((worOrdLinItem.Status == 'Completed'&& oldItem.Status != 'Completed' && 

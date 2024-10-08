@@ -1,0 +1,9 @@
+/*dynamicListView.css*/
+.btn-container {
+    display: flex;
+    justify-content: center;
+}
+.navigatelist {
+    cursor: pointer;
+    font-size: 20px;
+}

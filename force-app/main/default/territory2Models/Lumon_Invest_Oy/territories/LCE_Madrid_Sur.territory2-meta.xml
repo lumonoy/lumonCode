@@ -14,5 +14,5 @@
         <inherited>true</inherited>
         <ruleName>Profit_Center_is_Madrid_Sur</ruleName>
     </ruleAssociations>
-    <territory2Type>Business_Unit</territory2Type>
+    <territory2Type>Profit_Center</territory2Type>
 </Territory2>

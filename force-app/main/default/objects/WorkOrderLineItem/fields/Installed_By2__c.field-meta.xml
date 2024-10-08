@@ -4,7 +4,7 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <description>Contains the installer&apos;s reference after the WOLI has been set to Completed status.</description>
     <externalId>false</externalId>
-    <label>Installed By2</label>
+    <label>Installed By2 OLD</label>
     <referenceTo>ServiceResource</referenceTo>
     <relationshipLabel>Work Order Line Items</relationshipLabel>
     <relationshipName>Work_Order_Line_Items</relationshipName>

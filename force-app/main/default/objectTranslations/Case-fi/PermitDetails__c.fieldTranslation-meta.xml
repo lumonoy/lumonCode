@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <help><!-- Please provide additional information related to the Building Permit Process --></help>
-    <label><!-- Permit Result Details --></label>
+    <label>Luvan Tulosten Tiedot</label>
     <name>PermitDetails__c</name>
 </CustomFieldTranslation>

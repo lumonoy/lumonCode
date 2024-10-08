@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lumon_Delivery_Batch_Highlights</fullName>
+    <fields>Identifiers__c</fields>
+    <fields>Batch_Number__c</fields>
+    <fields>Installation_Address__c</fields>
+    <fields>Batch_Name__c</fields>
+    <fields>Batch_Installation_Hours__c</fields>
+    <fields>Batch_Installation_Date__c</fields>
+    <fields>Batch_Status__c</fields>
+    <fields>Work_Completed__c</fields>
+    <fields>Service_Territory__c</fields>
+    <label>Lumon Delivery Batch Highlights</label>
+</CompactLayout>

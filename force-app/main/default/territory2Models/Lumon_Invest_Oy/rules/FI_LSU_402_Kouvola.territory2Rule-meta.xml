@@ -4,7 +4,7 @@
     <name>FI LSU 402 Kouvola</name>
     <objectType>Account</objectType>
     <ruleItems>
-        <field>Account.Account_Cost_Center__c</field>
+        <field>Account.Sales_Profit_Center__c</field>
         <operation>equals</operation>
         <value>402 LSU Kouvola</value>
     </ruleItems>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Customer Notification on changed installation date</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Lumon_Email_Letterhead</letterhead>
+    <name>Customer - Installation date changed FI</name>
+    <style>freeForm</style>
+    <subject>Lumon - Asennuksen aloitusaika on muuttunut</subject>
+    <textOnly>Hei {!Account.Name},
+
+Asennuksen aloitusaika on muuttunut. Uusi asennusaika on {!Opportunity.Confirmed_installation_time__c}
+Jos sinulla on kysyttävää, voit ottaa minuun yhteyttä suoraan.
+
+Ystävällisin terveisin,
+{!Opportunity.OwnerFullName}
+{!Opportunity.OwnerPhone}
+{!Opportunity.OwnerEmail}
+{!Organization.Name}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

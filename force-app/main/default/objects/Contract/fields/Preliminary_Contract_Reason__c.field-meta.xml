@@ -4,7 +4,7 @@
     <externalId>false</externalId>
     <formula>Text(Opportunity__r.Reason_for_preliminary_contract__c)</formula>
     <inlineHelpText>This field is automatically populated by opportunity data</inlineHelpText>
-    <label>Preliminary Contract Reason</label>
+    <label>Preliminary Contract Reason OLD</label>
     <required>false</required>
     <trackHistory>false</trackHistory>
     <type>Text</type>

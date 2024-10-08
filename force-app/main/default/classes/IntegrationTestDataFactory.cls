@@ -1,3 +1,10 @@
+/**
+ * @description       : 
+ * @author            : Henk Reynders
+ * @group             : 
+ * @last modified on  : 06-19-2024
+ * @last modified by  : Henk Reynders
+**/
 @isTest
 public class IntegrationTestDataFactory {
 
@@ -208,7 +215,7 @@ public class IntegrationTestDataFactory {
             Opportunity__c = o1.Id,
             Name='Test Order Config 1',
             Plan_Apartment__c = 'A1',// public String apartment; // Door Nbr in Apartment
-            Plan_Floor__c = 6,// public Integer floor; // Floor Nbr in Building
+            Plan_Floor__c = '6',// public Integer floor; // Floor Nbr in Building
             Visual_Id__c = 'ABCDE1',//public String id; // Unique Visual Configuration Id
             Plan_Line__c = '100',// public String line; //?
             Plan_Name__c = 'plan 1',// public String name; // Name of the Configuration
@@ -220,7 +227,7 @@ public class IntegrationTestDataFactory {
             Opportunity__c = o2.Id,
             Name='Test Order Config 2',
             Plan_Apartment__c = 'A2',// public String apartment; // Door Nbr in Apartment
-            Plan_Floor__c = 6,// public Integer floor; // Floor Nbr in Building
+            Plan_Floor__c = '6',// public Integer floor; // Floor Nbr in Building
             Visual_Id__c = 'ABCDE2',//public String id; // Unique Visual Configuration Id
             Plan_Line__c = '100',// public String line; //?
             Plan_Name__c = 'plan 2',// public String name; // Name of the Configuration

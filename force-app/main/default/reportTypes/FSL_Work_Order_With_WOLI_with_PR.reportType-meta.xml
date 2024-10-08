@@ -244,6 +244,21 @@
             <field>SuggestedMaintenanceDate</field>
             <table>WorkOrder</table>
         </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>isMigrated__c</field>
+            <table>WorkOrder</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>ProfitCenter__c</field>
+            <table>WorkOrder</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>CountStoppedWorkOrderLineITems__c</field>
+            <table>WorkOrder</table>
+        </columns>
         <masterLabel>Work Orders</masterLabel>
     </sections>
     <sections>
@@ -435,6 +450,76 @@
         <columns>
             <checkedByDefault>false</checkedByDefault>
             <field>Location</field>
+            <table>WorkOrder.WorkOrderLineItems</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Combined_info__c</field>
+            <table>WorkOrder.WorkOrderLineItems</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>RVN__c</field>
+            <table>WorkOrder.WorkOrderLineItems</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>RemoteFolder__c</field>
+            <table>WorkOrder.WorkOrderLineItems</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>RemoteFile__c</field>
+            <table>WorkOrder.WorkOrderLineItems</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>InstallationDocumentLink__c</field>
+            <table>WorkOrder.WorkOrderLineItems</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Detailed_Description__c</field>
+            <table>WorkOrder.WorkOrderLineItems</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>NumberOfGlassPanels__c</field>
+            <table>WorkOrder.WorkOrderLineItems</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>NextStatus__c</field>
+            <table>WorkOrder.WorkOrderLineItems</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>ProductName__c</field>
+            <table>WorkOrder.WorkOrderLineItems</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>ProductWeight__c</field>
+            <table>WorkOrder.WorkOrderLineItems</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>GlassSurface__c</field>
+            <table>WorkOrder.WorkOrderLineItems</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>BlindsSurface__c</field>
+            <table>WorkOrder.WorkOrderLineItems</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>SerialNumber__c</field>
+            <table>WorkOrder.WorkOrderLineItems</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>ProductLength__c</field>
             <table>WorkOrder.WorkOrderLineItems</table>
         </columns>
         <masterLabel>Work Order Line Items</masterLabel>

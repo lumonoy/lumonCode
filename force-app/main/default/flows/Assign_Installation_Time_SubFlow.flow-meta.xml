@@ -421,10 +421,7 @@
             <label>Abort</label>
         </rules>
     </decisions>
-    <description>Autolaunched Flow to Calculate the Installation Time
-03.04.2023 fixed Total time calculation
-19.09.2023 Filter on Installable Products and allow record as Input
-02.12.2023: Save Active Version as R2</description>
+    <description>SubFlow to retrieve the Installation Time for Configurations</description>
     <environments>Default</environments>
     <formulas>
         <name>fxItemInstallationHours</name>
@@ -433,7 +430,7 @@
         <scale>2</scale>
     </formulas>
     <interviewLabel>Opportunity - Assign Installation Time SubFlow {!$Flow.CurrentDateTime}</interviewLabel>
-    <label>Opportunity - Assign Installation Time SubFlow R2</label>
+    <label>Opportunity - Assign Installation Time SubFlow R2.5.5</label>
     <loops>
         <name>Loop_Config_Item_Collection</name>
         <label>Loop Config Item Collection</label>

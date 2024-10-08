@@ -3,17 +3,52 @@
     <fullName>B2C_Opportunity</fullName>
     <active>true</active>
     <businessProcess>B2C Sales Process</businessProcess>
-    <compactLayoutAssignment>Opportunity_Compact_Layout</compactLayoutAssignment>
+    <compactLayoutAssignment>Opportunity_Highlights</compactLayoutAssignment>
     <description>This is record type for B2C opportunities (Consumers)</description>
     <label>B2C Opportunity</label>
     <picklistValues>
+        <picklist>BusinessType__c</picklist>
+        <values>
+            <fullName>0</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>7</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>9</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
         <picklist>Business_Type__c</picklist>
+        <values>
+            <fullName>0</fullName>
+            <default>false</default>
+        </values>
         <values>
             <fullName>1</fullName>
             <default>true</default>
         </values>
         <values>
             <fullName>4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>7</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>9</fullName>
             <default>false</default>
         </values>
     </picklistValues>
@@ -55,11 +90,148 @@
     <picklistValues>
         <picklist>Contract_Language__c</picklist>
         <values>
-            <fullName>en</fullName>
+            <fullName>da</fullName>
             <default>false</default>
         </values>
         <values>
-            <fullName>fr_CA</fullName>
+            <fullName>de</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>es</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>fi</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>fr</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>nb</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>nl</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>se</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>CountryCode__c</picklist>
+        <values>
+            <fullName>CA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>US</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Country_Code__c</picklist>
+        <values>
+            <fullName>CA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>US</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>CustomerSegment__c</picklist>
+        <values>
+            <fullName>100</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1000</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1100</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4000</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4100</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>7000</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>9000</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>9100</fullName>
             <default>false</default>
         </values>
     </picklistValues>
@@ -77,11 +249,42 @@
     <picklistValues>
         <picklist>Customer_Segment__c</picklist>
         <values>
+            <fullName>100</fullName>
+            <default>false</default>
+        </values>
+        <values>
             <fullName>1000</fullName>
             <default>false</default>
         </values>
         <values>
             <fullName>1100</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>7000</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>DeliverToType__c</picklist>
+        <values>
+            <fullName>Account</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Building</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Factory</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Warehouse</fullName>
             <default>false</default>
         </values>
     </picklistValues>
@@ -97,6 +300,10 @@
         </values>
         <values>
             <fullName>Factory</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
             <default>false</default>
         </values>
         <values>
@@ -271,7 +478,7 @@
             <default>false</default>
         </values>
         <values>
-            <fullName>Finland</fullName>
+            <fullName>NL_Test</fullName>
             <default>false</default>
         </values>
     </picklistValues>
@@ -810,7 +1017,1083 @@
             <default>false</default>
         </values>
         <values>
+            <fullName>TST</fullName>
+            <default>false</default>
+        </values>
+        <values>
             <fullName>ZAO</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>ProfitCenterCode__c</picklist>
+        <values>
+            <fullName>0</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>10</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>100</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>110</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>160</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>161</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>172</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>173</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>174</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>175</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>176</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>177</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>178</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>181</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>182</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>20</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>200</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>210</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>220</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>230</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>240</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>25</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>250</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>273</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>274</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>280</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>290</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>30</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>310</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>320</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>322</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>324</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>325</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>328</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>329</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>330</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>331</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>350</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>390</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>398</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>399</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>40</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>401</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4010</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4011</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4012</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4013</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>402</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4022</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4031</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4032</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4033</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4041</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4042</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4043</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4044</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>405</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>406</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>409</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>410</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>411</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>412</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>413</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>420</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>430</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>440</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>450</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>50</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>510</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>511</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>512</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>513</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>520</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>530</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>540</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>550</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>551</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>560</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>570</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>590</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>60</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>601</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>602</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>603</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>604</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>605</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>606</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>607</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>608</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>609</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>610</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>611</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>612</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>650</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>651</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>652</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>655</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>656</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>659</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>660</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>662</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>663</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>664</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>667</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>668</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>697</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>698</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>699</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>710</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>720</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>730</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>740</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>750</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>810</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>820</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>830</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>870</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>90</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>910</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>920</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>950</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>997</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>ProfitCenter__c</picklist>
+        <values>
+            <fullName>0 Lumon Test</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>10 SVI Production</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>100 LUI Administration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>110 LNA Administration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15 SVI Production Aftersales</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>160 LNP Production</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>161 LNP Administration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>172 LNC Vancouver</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>173 LNC West dealers</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>174 LNC Toronto</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>175 LNC Dealers</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>176 LNC Hamilton</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>177 LNC US</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>178 LNC Customer service</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>181 LNU US Dealers</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>182 LNU Buffalo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>20 SVI Consumer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>200 LUI International</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>210 LUI Kouvola</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>220 LUI Jyväskylä</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>230 LUI Oulu</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>240 LUI Vantaa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>25 SVI Consumer West</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>250 LUI Kuopio</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>271 LUI R%26D</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>271 LUI RD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>272 LUI HR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>273 LUI Technical Support</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>274 LUI ICT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>275 LUI Finance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>280 LFE Production</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>290 LFE Administration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>30 SVI B2B Finland</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>310 LU Glass processing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>320 LU Glazing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>322 LU Balustrade</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>324 LU Roofs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>325 LU Production administration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>328 LU Marketing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>329 LU R%26D</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>330 LU Logistics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>331 LU Sourcing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>350 LU HR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>390 LU Customer service</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>398 LU IT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>399 LU Finance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>40 FI Webshop</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>40 SVI Webshop</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>401 LSU Vantaa Project</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4010 LSU Vantaa West</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4011 LSU Vantaa East</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4012 LSU Espoo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4013 LSU Helsinki</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>402 LSU Kouvola</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4022 LSU Lahti</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4031 LSU Tampere</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4032 LSU Turku</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4033 LSU Vaasa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4041 LSU Jyväskylä</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4042 LSU Kuopio</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4043 LSU Oulu</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4044 LSU Reseller</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>405 LSU Sales center</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>406 LSU Industrial sales</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>409 LSU Administration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>410 SLU Stockholm</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>411 SLU Göteborg</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>412 SLU Malmö</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>413 SLU Västerås</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>420 SLU Reseller</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>430 SLU North Sweden</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>440 SLU Aftersales</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>450 SLU Administration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>50 SVI B2B Export</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>510 LCE Malaga</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>511 LCE Almeria</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>512 LCE Marbella</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>513 LCE Sevilla</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>520 LCE Barcelona</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>530 LCE Zaragoza</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>540 LCE Valencia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>550 LCE Madrid Sur</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>551 LCE Madrid Norte</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>560 LCE Reseller</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>570 LCE Aftersales</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>590 LCE Administration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>60 SVI Industrial Sales</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>601 INT Spain</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>602 INT Sweden</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>603 INT Germany</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>604 INT Austria</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>605 INT Denmark</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>606 INT Netherlands</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>607 INT France</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>608 INT Ireland</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>609 INT Belgium</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>610 INT Latvia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>611 INT Slovakia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>612 INT Great Britain</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>650 INT Canada</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>651 INT Other licence</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>652 INT Russia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>655 INT Norway</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>656 INT Czech Republic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>659 INT Poland</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>660 INT Iceland</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>662 INT Lebanon</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>663 INT Switzerland</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>664 INT Egypt</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>667 INT Chile</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>668 INT Middle East</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>697 INT Latin America</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>698 INT Other reseller</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>699 INT Administration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>710 LNO Oslo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>720 LNO Reseller</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>730 LNO Drammen</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>740 LNO Aftersales</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>750 LNO Administration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>810 LDE Administration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>820 LDE Reseller</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>830 LDE Project</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>870 LSW Consumer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>90 SVI Administration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>910 ZAO Reseller</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>920 ZAO St Petersburg</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>950 LDA Reseller</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>970 LPO Warsaw</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>997 LFR Reseller</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Project_Type__c</picklist>
+        <values>
+            <fullName>AFT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CON</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NB</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>REC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>REN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RES</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>PropertyType__c</picklist>
+        <values>
+            <fullName>APA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>COT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HOU</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HRC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRJA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRJB</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ROW</fullName>
             <default>false</default>
         </values>
     </picklistValues>
@@ -853,6 +2136,29 @@
         </values>
     </picklistValues>
     <picklistValues>
+        <picklist>Status__c</picklist>
+        <values>
+            <fullName>Closed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Configured</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Contracted</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Offered</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
         <picklist>Terms_of_Payment__c</picklist>
         <values>
             <fullName>07 days net</fullName>
@@ -862,23 +2168,23 @@
     <picklistValues>
         <picklist>Terrain_Type__c</picklist>
         <values>
-            <fullName>Terrain Class 0</fullName>
+            <fullName>0</fullName>
             <default>false</default>
         </values>
         <values>
-            <fullName>Terrain Class I</fullName>
+            <fullName>1</fullName>
             <default>false</default>
         </values>
         <values>
-            <fullName>Terrain Class II</fullName>
+            <fullName>2</fullName>
             <default>false</default>
         </values>
         <values>
-            <fullName>Terrain Class III</fullName>
+            <fullName>3</fullName>
             <default>false</default>
         </values>
         <values>
-            <fullName>Terrain Class IV</fullName>
+            <fullName>4</fullName>
             <default>false</default>
         </values>
     </picklistValues>

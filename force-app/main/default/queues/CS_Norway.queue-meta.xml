@@ -6,9 +6,6 @@
         <publicGroups>
             <publicGroup>CS_Norway</publicGroup>
         </publicGroups>
-        <users>
-            <user>milos.stamenovic@lumon.com</user>
-        </users>
     </queueMembers>
     <queueSobject>
         <sobjectType>Case</sobjectType>

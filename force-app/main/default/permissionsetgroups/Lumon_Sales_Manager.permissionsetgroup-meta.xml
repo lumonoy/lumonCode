@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
-    <description>Required Permissions for Sales Managers</description>
+    <description>Access Rights and Permissions for Consumer Sales Managers</description>
     <hasActivationRequired>false</hasActivationRequired>
     <label>Lumon Sales Manager</label>
-    <permissionSets>CaseHandlingPermissions</permissionSets>
+    <permissionSets>CPQFeaturePermissions</permissionSets>
+    <permissionSets>CaseHandlingObjectandFieldPermissions</permissionSets>
     <permissionSets>FSL_Agent_License</permissionSets>
     <permissionSets>PDF_Butler_User_Local</permissionSets>
     <permissionSets>PDF_Sign_Butler_sales_user_additional</permissionSets>
     <permissionSets>Sales_User_PDF_Butler</permissionSets>
     <permissionSets>SoveliaPermissions</permissionSets>
+    <permissionSets>SoveliaTestPermissions</permissionSets>
     <permissionSets>cadmus_core__PDF_Butler_User</permissionSets>
     <permissionSets>cadmus_sign2__SIGN_Butler_User</permissionSets>
     <permissionSets>force__SalesUserPsl</permissionSets>

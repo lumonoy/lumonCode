@@ -16,16 +16,12 @@
             <outputField>Finland_Sync_to_MC__c</outputField>
         </mappingFields>
         <mappingFields>
-            <inputField>Language__c</inputField>
-            <outputField>Language_Preference__c</outputField>
+            <inputField>Spain_Sync_to_MC__c</inputField>
+            <outputField>Spain_Sync_to_MC__c</outputField>
         </mappingFields>
         <mappingFields>
             <inputField>Other_Countries_Sync_to_MC__c</inputField>
             <outputField>Other_Countries_Sync_to_MC__c</outputField>
-        </mappingFields>
-        <mappingFields>
-            <inputField>Spain_Sync_to_MC__c</inputField>
-            <outputField>Spain_Sync_to_MC__c</outputField>
         </mappingFields>
         <outputObject>Account</outputObject>
     </objectMapping>
@@ -80,6 +76,14 @@
     <objectMapping>
         <inputObject>Lead</inputObject>
         <mappingFields>
+            <inputField>Other_Countries_Sync_to_MC__c</inputField>
+            <outputField>Other_Countries_Sync_to_MC__c</outputField>
+        </mappingFields>
+        <mappingFields>
+            <inputField>Property_Type__c</inputField>
+            <outputField>Property_Type__c</outputField>
+        </mappingFields>
+        <mappingFields>
             <inputField>Business_Type__c</inputField>
             <outputField>Business_Type__c</outputField>
         </mappingFields>
@@ -94,14 +98,6 @@
         <mappingFields>
             <inputField>Language__c</inputField>
             <outputField>Language__c</outputField>
-        </mappingFields>
-        <mappingFields>
-            <inputField>Other_Countries_Sync_to_MC__c</inputField>
-            <outputField>Other_Countries_Sync_to_MC__c</outputField>
-        </mappingFields>
-        <mappingFields>
-            <inputField>Property_Type__c</inputField>
-            <outputField>Property_Type__c</outputField>
         </mappingFields>
         <mappingFields>
             <inputField>Spain_Sync_to_MC__c</inputField>

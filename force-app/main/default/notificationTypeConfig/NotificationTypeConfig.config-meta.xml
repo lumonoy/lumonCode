@@ -9,13 +9,6 @@
     </notificationTypeSettings>
     <notificationTypeSettings>
         <notificationChannels>
-            <desktopEnabled>true</desktopEnabled>
-            <mobileEnabled>false</mobileEnabled>
-        </notificationChannels>
-        <notificationType>activity_team_member</notificationType>
-    </notificationTypeSettings>
-    <notificationTypeSettings>
-        <notificationChannels>
             <desktopEnabled>false</desktopEnabled>
             <mobileEnabled>false</mobileEnabled>
         </notificationChannels>
@@ -39,13 +32,6 @@
             <mobileEnabled>true</mobileEnabled>
         </notificationChannels>
         <notificationType>approval_request</notificationType>
-    </notificationTypeSettings>
-    <notificationTypeSettings>
-        <notificationChannels>
-            <desktopEnabled>true</desktopEnabled>
-            <mobileEnabled>false</mobileEnabled>
-        </notificationChannels>
-        <notificationType>ase_inbox_conflict_resolution</notificationType>
     </notificationTypeSettings>
     <notificationTypeSettings>
         <notificationChannels>
@@ -175,6 +161,21 @@
         <notificationType>direct_message</notificationType>
     </notificationTypeSettings>
     <notificationTypeSettings>
+        <appSettings>
+            <connectedAppName>sf_fieldservice__Salesforce_Field_Service_for_Android</connectedAppName>
+            <enabled>true</enabled>
+        </appSettings>
+        <appSettings>
+            <connectedAppName>sf_fieldservice__Salesforce_Field_Service_for_iOS</connectedAppName>
+            <enabled>true</enabled>
+        </appSettings>
+        <notificationChannels>
+            <desktopEnabled>true</desktopEnabled>
+            <mobileEnabled>true</mobileEnabled>
+        </notificationChannels>
+        <notificationType>document_generation</notificationType>
+    </notificationTypeSettings>
+    <notificationTypeSettings>
         <notificationChannels>
             <desktopEnabled>true</desktopEnabled>
             <mobileEnabled>false</mobileEnabled>
@@ -288,41 +289,6 @@
             <desktopEnabled>true</desktopEnabled>
             <mobileEnabled>false</mobileEnabled>
         </notificationChannels>
-        <notificationType>learning_item_completion</notificationType>
-    </notificationTypeSettings>
-    <notificationTypeSettings>
-        <notificationChannels>
-            <desktopEnabled>true</desktopEnabled>
-            <mobileEnabled>false</mobileEnabled>
-        </notificationChannels>
-        <notificationType>learning_item_due</notificationType>
-    </notificationTypeSettings>
-    <notificationTypeSettings>
-        <notificationChannels>
-            <desktopEnabled>true</desktopEnabled>
-            <mobileEnabled>false</mobileEnabled>
-        </notificationChannels>
-        <notificationType>learning_item_milestone_due</notificationType>
-    </notificationTypeSettings>
-    <notificationTypeSettings>
-        <notificationChannels>
-            <desktopEnabled>true</desktopEnabled>
-            <mobileEnabled>false</mobileEnabled>
-        </notificationChannels>
-        <notificationType>learning_item_not_started</notificationType>
-    </notificationTypeSettings>
-    <notificationTypeSettings>
-        <notificationChannels>
-            <desktopEnabled>true</desktopEnabled>
-            <mobileEnabled>false</mobileEnabled>
-        </notificationChannels>
-        <notificationType>learning_item_start</notificationType>
-    </notificationTypeSettings>
-    <notificationTypeSettings>
-        <notificationChannels>
-            <desktopEnabled>true</desktopEnabled>
-            <mobileEnabled>false</mobileEnabled>
-        </notificationChannels>
         <notificationType>mailapp_alert</notificationType>
     </notificationTypeSettings>
     <notificationTypeSettings>
@@ -387,9 +353,9 @@
     <notificationTypeSettings>
         <notificationChannels>
             <desktopEnabled>true</desktopEnabled>
-            <mobileEnabled>false</mobileEnabled>
+            <mobileEnabled>true</mobileEnabled>
         </notificationChannels>
-        <notificationType>record_collection_share</notificationType>
+        <notificationType>quote_to_order</notificationType>
     </notificationTypeSettings>
     <notificationTypeSettings>
         <notificationChannels>
@@ -397,13 +363,6 @@
             <mobileEnabled>false</mobileEnabled>
         </notificationChannels>
         <notificationType>reply_recommendation_notify</notificationType>
-    </notificationTypeSettings>
-    <notificationTypeSettings>
-        <notificationChannels>
-            <desktopEnabled>true</desktopEnabled>
-            <mobileEnabled>false</mobileEnabled>
-        </notificationChannels>
-        <notificationType>siq_connect_exchange</notificationType>
     </notificationTypeSettings>
     <notificationTypeSettings>
         <notificationChannels>
@@ -476,28 +435,7 @@
             <desktopEnabled>true</desktopEnabled>
             <mobileEnabled>false</mobileEnabled>
         </notificationChannels>
-        <notificationType>view_all_emails</notificationType>
-    </notificationTypeSettings>
-    <notificationTypeSettings>
-        <notificationChannels>
-            <desktopEnabled>true</desktopEnabled>
-            <mobileEnabled>false</mobileEnabled>
-        </notificationChannels>
-        <notificationType>view_siq_object</notificationType>
-    </notificationTypeSettings>
-    <notificationTypeSettings>
-        <notificationChannels>
-            <desktopEnabled>true</desktopEnabled>
-            <mobileEnabled>false</mobileEnabled>
-        </notificationChannels>
         <notificationType>voice_call_share</notificationType>
-    </notificationTypeSettings>
-    <notificationTypeSettings>
-        <notificationChannels>
-            <desktopEnabled>true</desktopEnabled>
-            <mobileEnabled>true</mobileEnabled>
-        </notificationChannels>
-        <notificationType>wave_condition</notificationType>
     </notificationTypeSettings>
     <notificationTypeSettings>
         <notificationChannels>

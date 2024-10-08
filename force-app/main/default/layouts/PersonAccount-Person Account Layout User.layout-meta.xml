@@ -30,7 +30,11 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>IsMigrated__pc</field>
+                <field>Sales_Country__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Customer_Number__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
@@ -85,10 +89,6 @@
             <layoutItems>
                 <behavior>Required</behavior>
                 <field>PersonEmail</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Language__c</field>
             </layoutItems>
         </layoutColumns>
         <style>TwoColumnsLeftToRight</style>
@@ -191,10 +191,6 @@
                 <field>LastModifiedById</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Readonly</behavior>
-                <field>Owner_s_BU__c</field>
-            </layoutItems>
-            <layoutItems>
                 <behavior>Edit</behavior>
                 <field>Sales_Office__c</field>
             </layoutItems>
@@ -266,7 +262,7 @@
             <sortOrder>9</sortOrder>
         </platformActionListItems>
         <platformActionListItems>
-            <actionName>Account.Create_Customer_Service_Case</actionName>
+            <actionName>Account.NewCaseFlow</actionName>
             <actionType>QuickAction</actionType>
             <sortOrder>7</sortOrder>
         </platformActionListItems>
@@ -491,6 +487,14 @@
         <fields>CORE.USERS.FULL_NAME</fields>
         <fields>TASK.WHAT_NAME</fields>
         <relatedList>RelatedHistoryList</relatedList>
+    </relatedLists>
+    <relatedLists>
+        <fields>NAME</fields>
+        <relatedList>Delivery_Batch__c.Contact__c</relatedList>
+    </relatedLists>
+    <relatedLists>
+        <fields>NAME</fields>
+        <relatedList>Building_Project__c.Customer__c</relatedList>
     </relatedLists>
     <runAssignmentRulesDefault>false</runAssignmentRulesDefault>
     <showEmailCheckbox>false</showEmailCheckbox>

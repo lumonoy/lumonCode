@@ -31,11 +31,6 @@
         <label>Production Support</label>
     </customValue>
     <customValue>
-        <fullName>INST</fullName>
-        <default>false</default>
-        <label>Installation Support</label>
-    </customValue>
-    <customValue>
         <fullName>RECL</fullName>
         <default>false</default>
         <label>Reclamation Support</label>
@@ -61,8 +56,19 @@
         <label>Webshop Support</label>
     </customValue>
     <customValue>
+        <fullName>QUAL</fullName>
+        <default>false</default>
+        <label>Process Quality</label>
+    </customValue>
+    <customValue>
+        <fullName>INST</fullName>
+        <default>false</default>
+        <label>Installation Support</label>
+    </customValue>
+    <customValue>
         <fullName>Other</fullName>
         <default>false</default>
+        <isActive>false</isActive>
         <label>Other</label>
     </customValue>
     <masterLabel>Lumon Case Categories</masterLabel>

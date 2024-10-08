@@ -29,12 +29,12 @@
     </quickActions>
     <recordTypes>
         <description><!-- Record type for marketing campaigns --></description>
-        <label><!-- Marketing Campaign --></label>
+        <label>Markkinointikampanja</label>
         <name>Marketing_Campaign</name>
     </recordTypes>
     <recordTypes>
         <description><!-- Record type for campaigns relating to sales events --></description>
-        <label><!-- Sales Campaign --></label>
+        <label>Myyntikampanja</label>
         <name>Sales_Campaign</name>
     </recordTypes>
     <webLinks>

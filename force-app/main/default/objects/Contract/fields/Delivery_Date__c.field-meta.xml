@@ -5,7 +5,7 @@
     <externalId>false</externalId>
     <formula>IF(TEXT(DATEVALUE(Opportunity__r.Preliminary_installation_time__c)) != &apos;&apos;,
 TEXT(DATEVALUE(Opportunity__r.Preliminary_installation_time__c)),&apos;&apos;)</formula>
-    <label>Delivery Date</label>
+    <label>Delivery Date OLD</label>
     <required>false</required>
     <trackHistory>false</trackHistory>
     <type>Text</type>

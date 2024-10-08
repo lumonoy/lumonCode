@@ -43,6 +43,10 @@
             <start>199.122.126.99</start>
         </ipRanges>
         <ipRanges>
+            <end>192.130.16.255</end>
+            <start>192.130.16.0</start>
+        </ipRanges>
+        <ipRanges>
             <end>184.72.230.214</end>
             <start>184.72.230.214</start>
         </ipRanges>
@@ -65,6 +69,10 @@
         <ipRanges>
             <end>136.147.128.14</end>
             <start>136.147.128.1</start>
+        </ipRanges>
+        <ipRanges>
+            <end>104.47.11.255</end>
+            <start>104.47.11.0</start>
         </ipRanges>
         <ipRanges>
             <end>100.65.255.254</end>
@@ -107,6 +115,10 @@
             <start>64.79.134.164</start>
         </ipRanges>
         <ipRanges>
+            <end>40.94.87.255</end>
+            <start>40.94.87.0</start>
+        </ipRanges>
+        <ipRanges>
             <end>13.111.251.28</end>
             <start>13.111.251.0</start>
         </ipRanges>
@@ -124,14 +136,14 @@
         </ipRanges>
     </networkAccess>
     <passwordPolicies>
-        <complexity>SpecialCharacters</complexity>
+        <complexity>AlphaNumeric</complexity>
         <expiration>NinetyDays</expiration>
         <historyRestriction>3</historyRestriction>
-        <lockoutInterval>ThirtyMinutes</lockoutInterval>
-        <maxLoginAttempts>ThreeAttempts</maxLoginAttempts>
+        <lockoutInterval>FifteenMinutes</lockoutInterval>
+        <maxLoginAttempts>TenAttempts</maxLoginAttempts>
         <minimumPasswordLength>8</minimumPasswordLength>
-        <minimumPasswordLifetime>true</minimumPasswordLifetime>
-        <obscureSecretAnswer>true</obscureSecretAnswer>
+        <minimumPasswordLifetime>false</minimumPasswordLifetime>
+        <obscureSecretAnswer>false</obscureSecretAnswer>
         <questionRestriction>DoesNotContainPassword</questionRestriction>
     </passwordPolicies>
     <redirectBlockModeEnabled>false</redirectBlockModeEnabled>
@@ -156,7 +168,7 @@
         <enableCoopHeader>false</enableCoopHeader>
         <enableLightningLogin>true</enableLightningLogin>
         <enableLightningLoginOnlyWithUserPerm>false</enableLightningLoginOnlyWithUserPerm>
-        <enableMFADirectUILoginOptIn>true</enableMFADirectUILoginOptIn>
+        <enableMFADirectUILoginOptIn>false</enableMFADirectUILoginOptIn>
         <enableOauthCorsPolicy>false</enableOauthCorsPolicy>
         <enablePermissionsPolicy>false</enablePermissionsPolicy>
         <enablePostForSessions>false</enablePostForSessions>
@@ -165,7 +177,7 @@
         <enforceIpRangesEveryRequest>false</enforceIpRangesEveryRequest>
         <enforceUserDeviceRevoked>false</enforceUserDeviceRevoked>
         <forceLogoutOnSessionTimeout>true</forceLogoutOnSessionTimeout>
-        <forceRelogin>true</forceRelogin>
+        <forceRelogin>false</forceRelogin>
         <grantCameraAccess>TrustedUrls</grantCameraAccess>
         <grantMicrophoneAccess>TrustedUrls</grantMicrophoneAccess>
         <hasRetainedLoginHints>false</hasRetainedLoginHints>
@@ -174,7 +186,7 @@
         <identityConfirmationOnTwoFactorRegistrationEnabled>true</identityConfirmationOnTwoFactorRegistrationEnabled>
         <lockSessionsToDomain>true</lockSessionsToDomain>
         <lockSessionsToIp>false</lockSessionsToIp>
-        <lockerServiceCSP>true</lockerServiceCSP>
+        <lockerServiceCSP>false</lockerServiceCSP>
         <lockerServiceNext>true</lockerServiceNext>
         <lockerServiceNextControl>false</lockerServiceNextControl>
         <redirectBlockModeEnabled>false</redirectBlockModeEnabled>

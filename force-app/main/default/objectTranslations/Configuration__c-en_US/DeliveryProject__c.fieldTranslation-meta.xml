@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- The Delivery Sub Project this Configuration belongs to --></help>
+    <label><!-- Delivery Project --></label>
+    <name>DeliveryProject__c</name>
+    <relationshipLabel><!-- Configuration Plans (Delivery Project) --></relationshipLabel>
+</CustomFieldTranslation>

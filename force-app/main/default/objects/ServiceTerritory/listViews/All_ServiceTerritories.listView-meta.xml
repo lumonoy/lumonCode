@@ -7,6 +7,9 @@
     <columns>ParentTerritory</columns>
     <columns>LUM_Dispatching_Offset__c</columns>
     <columns>Related_Case_Queue_name__c</columns>
+    <columns>ServiceTerritoryCode__c</columns>
+    <columns>FSL__TerritoryLevel__c</columns>
+    <columns>TopLevelTerritory</columns>
     <filterScope>Everything</filterScope>
     <label>All Service Territories</label>
 </ListView>

@@ -4,7 +4,7 @@
     <description>NOT IN USE This indicates why preliminary contract has been made instead of the final contract</description>
     <externalId>false</externalId>
     <inlineHelpText>Please mark the preliminary contract reason here</inlineHelpText>
-    <label>Reason for Preliminary Contract</label>
+    <label>Reason for Preliminary Contract OLD</label>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>false</trackHistory>

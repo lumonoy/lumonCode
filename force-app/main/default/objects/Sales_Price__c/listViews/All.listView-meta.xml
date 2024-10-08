@@ -6,16 +6,23 @@
     <columns>District__c</columns>
     <columns>Business_Type__c</columns>
     <columns>Profit_Center__c</columns>
+    <columns>Product_Group__c</columns>
     <columns>Cost_Type__c</columns>
     <columns>Sales_Multiplier__c</columns>
     <columns>IsSellable__c</columns>
     <columns>IsActive__c</columns>
-    <columns>Product_Group__c</columns>
+    <columns>OBJECT_ID</columns>
+    <columns>NAME</columns>
     <filterScope>Everything</filterScope>
     <filters>
         <field>IsActive__c</field>
         <operation>equals</operation>
         <value>1</value>
+    </filters>
+    <filters>
+        <field>Country__c</field>
+        <operation>equals</operation>
+        <value>FI</value>
     </filters>
     <label>All</label>
 </ListView>

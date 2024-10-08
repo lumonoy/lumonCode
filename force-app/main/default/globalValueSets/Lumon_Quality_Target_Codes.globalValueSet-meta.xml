@@ -222,16 +222,130 @@
         <label>Planning_Purchasing_06_04</label>
     </customValue>
     <customValue>
-        <fullName>Changes_after_ordering_made_by_the_client_11_03</fullName>
+        <fullName>Others_09_05</fullName>
         <default>false</default>
         <isActive>false</isActive>
-        <label>Changes_after_ordering_made_by_the_client_11_03</label>
+        <label>Others_09_05</label>
     </customValue>
     <customValue>
-        <fullName>Components_09_03</fullName>
+        <fullName>Other_damage_01_02</fullName>
         <default>false</default>
         <isActive>false</isActive>
-        <label>Components_09_03</label>
+        <label>Other_damage_01_02</label>
+    </customValue>
+    <customValue>
+        <fullName>Missing_package_05_03</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Missing_package_05_03</label>
+    </customValue>
+    <customValue>
+        <fullName>Measurements_during_installation_11_02</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Measurements_during_installation_11_02</label>
+    </customValue>
+    <customValue>
+        <fullName>Measurements_09_04</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Measurements_09_04</label>
+    </customValue>
+    <customValue>
+        <fullName>Measurement_mistake_02_02</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Measurement_mistake_02_02</label>
+    </customValue>
+    <customValue>
+        <fullName>Left_unnoticed_missing_from_the_order_02_03</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Left_unnoticed_missing_from_the_order_02_03</label>
+    </customValue>
+    <customValue>
+        <fullName>Installer_03_01</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Installer_03_01</label>
+    </customValue>
+    <customValue>
+        <fullName>Input_mistake_02_01</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Input_mistake_02_01</label>
+    </customValue>
+    <customValue>
+        <fullName>Incomplete_delivery_08_10</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Incomplete_delivery_08_10</label>
+    </customValue>
+    <customValue>
+        <fullName>Incomplete_delivery_07_07</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Incomplete_delivery_07_07</label>
+    </customValue>
+    <customValue>
+        <fullName>Incomplete_delivery_06_06</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Incomplete_delivery_06_06</label>
+    </customValue>
+    <customValue>
+        <fullName>Glazing_assembly_08_06</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Glazing_assembly_08_06</label>
+    </customValue>
+    <customValue>
+        <fullName>Glasses_broken_01_01</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Glasses_broken_01_01</label>
+    </customValue>
+    <customValue>
+        <fullName>Glass_pane_07_01</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Glass_pane_07_01</label>
+    </customValue>
+    <customValue>
+        <fullName>Glass processing_glass_defects_08_07</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Glass processing_glass_defects_08_07</label>
+    </customValue>
+    <customValue>
+        <fullName>Flashings_production_08_01</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Flashings_production_08_01</label>
+    </customValue>
+    <customValue>
+        <fullName>Fabric_09_02</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Fabric_09_02</label>
+    </customValue>
+    <customValue>
+        <fullName>Damaged_profiles_05_02</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Damaged_profiles_05_02</label>
+    </customValue>
+    <customValue>
+        <fullName>Damaged_glass_pane_05_01</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Damaged_glass_pane_05_01</label>
+    </customValue>
+    <customValue>
+        <fullName>Customer_service_centre_08_08</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Customer_service_centre_08_08</label>
     </customValue>
     <customValue>
         <fullName>Components_and_seals_07_03</fullName>
@@ -246,34 +360,16 @@
         <label>Components_and_seals_06_03</label>
     </customValue>
     <customValue>
-        <fullName>Missing_package_05_03</fullName>
+        <fullName>Additional_order_by_the_client_reclamation_not_covered_by_the_warranty_11_01</fullName>
         <default>false</default>
         <isActive>false</isActive>
-        <label>Missing_package_05_03</label>
+        <label>Additional_order_by_the_client_reclamation_not_covered_by_the_warranty_11_01</label>
     </customValue>
     <customValue>
-        <fullName>Technical_support_04_03</fullName>
+        <fullName>Components_09_03</fullName>
         <default>false</default>
         <isActive>false</isActive>
-        <label>Technical_support_04_03</label>
-    </customValue>
-    <customValue>
-        <fullName>Left_unnoticed_missing_from_the_order_02_03</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Left_unnoticed_missing_from_the_order_02_03</label>
-    </customValue>
-    <customValue>
-        <fullName>Measurements_during_installation_11_02</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Measurements_during_installation_11_02</label>
-    </customValue>
-    <customValue>
-        <fullName>Fabric_09_02</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Fabric_09_02</label>
+        <label>Components_09_03</label>
     </customValue>
     <customValue>
         <fullName>Profile_production_profile_package_08_02</fullName>
@@ -282,70 +378,10 @@
         <label>Profile_production_profile_package_08_02</label>
     </customValue>
     <customValue>
-        <fullName>Profiles_07_02</fullName>
+        <fullName>Changes_after_ordering_made_by_the_client_11_03</fullName>
         <default>false</default>
         <isActive>false</isActive>
-        <label>Profiles_07_02</label>
-    </customValue>
-    <customValue>
-        <fullName>Profiles_06_02</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Profiles_06_02</label>
-    </customValue>
-    <customValue>
-        <fullName>Damaged_profiles_05_02</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Damaged_profiles_05_02</label>
-    </customValue>
-    <customValue>
-        <fullName>R_D_04_02</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>R_D_04_02</label>
-    </customValue>
-    <customValue>
-        <fullName>Supervisor_03_02</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Supervisor_03_02</label>
-    </customValue>
-    <customValue>
-        <fullName>Measurement_mistake_02_02</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Measurement_mistake_02_02</label>
-    </customValue>
-    <customValue>
-        <fullName>Other_damage_01_02</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Other_damage_01_02</label>
-    </customValue>
-    <customValue>
-        <fullName>Additional_order_by_the_client_reclamation_not_covered_by_the_warranty_11_01</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Additional_order_by_the_client_reclamation_not_covered_by_the_warranty_11_01</label>
-    </customValue>
-    <customValue>
-        <fullName>Profiles_09_01</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Profiles_09_01</label>
-    </customValue>
-    <customValue>
-        <fullName>Flashings_production_08_01</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Flashings_production_08_01</label>
-    </customValue>
-    <customValue>
-        <fullName>Glass_pane_07_01</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Glass_pane_07_01</label>
+        <label>Changes_after_ordering_made_by_the_client_11_03</label>
     </customValue>
     <customValue>
         <fullName>Cladding_06_01</fullName>
@@ -354,16 +390,28 @@
         <label>Cladding_06_01</label>
     </customValue>
     <customValue>
-        <fullName>Damaged_glass_pane_05_01</fullName>
+        <fullName>Profiles_06_02</fullName>
         <default>false</default>
         <isActive>false</isActive>
-        <label>Damaged_glass_pane_05_01</label>
+        <label>Profiles_06_02</label>
     </customValue>
     <customValue>
-        <fullName>Glasses_broken_01_01</fullName>
+        <fullName>Profiles_07_02</fullName>
         <default>false</default>
         <isActive>false</isActive>
-        <label>Glasses_broken_01_01</label>
+        <label>Profiles_07_02</label>
+    </customValue>
+    <customValue>
+        <fullName>Profiles_09_01</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Profiles_09_01</label>
+    </customValue>
+    <customValue>
+        <fullName>R_D_04_02</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>R_D_04_02</label>
     </customValue>
     <customValue>
         <fullName>Software_04_01</fullName>
@@ -372,52 +420,10 @@
         <label>Software_04_01</label>
     </customValue>
     <customValue>
-        <fullName>Measurements_09_04</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Measurements_09_04</label>
-    </customValue>
-    <customValue>
-        <fullName>Input_mistake_02_01</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Input_mistake_02_01</label>
-    </customValue>
-    <customValue>
-        <fullName>Installer_03_01</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Installer_03_01</label>
-    </customValue>
-    <customValue>
         <fullName>Software_malfunction_06_05</fullName>
         <default>false</default>
         <isActive>false</isActive>
         <label>Software_malfunction_06_05</label>
-    </customValue>
-    <customValue>
-        <fullName>Planning_Purchasing_07_05</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Planning_Purchasing_07_05</label>
-    </customValue>
-    <customValue>
-        <fullName>Sun_blinds_08_05</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Sun_blinds_08_05</label>
-    </customValue>
-    <customValue>
-        <fullName>Others_09_05</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Others_09_05</label>
-    </customValue>
-    <customValue>
-        <fullName>Incomplete_delivery_06_06</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Incomplete_delivery_06_06</label>
     </customValue>
     <customValue>
         <fullName>Software_malfunction_07_06</fullName>
@@ -426,46 +432,40 @@
         <label>Software_malfunction_07_06</label>
     </customValue>
     <customValue>
-        <fullName>Glazing_assembly_08_06</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Glazing_assembly_08_06</label>
-    </customValue>
-    <customValue>
-        <fullName>Incomplete_delivery_07_07</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Incomplete_delivery_07_07</label>
-    </customValue>
-    <customValue>
-        <fullName>Glass processing_glass_defects_08_07</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Glass processing_glass_defects_08_07</label>
-    </customValue>
-    <customValue>
-        <fullName>Customer_service_centre_08_08</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Customer_service_centre_08_08</label>
-    </customValue>
-    <customValue>
         <fullName>Software_malfunction_08_09</fullName>
         <default>false</default>
         <isActive>false</isActive>
         <label>Software_malfunction_08_09</label>
     </customValue>
     <customValue>
-        <fullName>Incomplete_delivery_08_10</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Incomplete_delivery_08_10</label>
-    </customValue>
-    <customValue>
         <fullName>Sun_blinds_07_04</fullName>
         <default>false</default>
         <isActive>false</isActive>
         <label>Sun_blinds_07_04</label>
+    </customValue>
+    <customValue>
+        <fullName>Sun_blinds_08_05</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Sun_blinds_08_05</label>
+    </customValue>
+    <customValue>
+        <fullName>Supervisor_03_02</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Supervisor_03_02</label>
+    </customValue>
+    <customValue>
+        <fullName>Technical_support_04_03</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Technical_support_04_03</label>
+    </customValue>
+    <customValue>
+        <fullName>Planning_Purchasing_07_05</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Planning_Purchasing_07_05</label>
     </customValue>
     <masterLabel>Lumon Quality Target Codes</masterLabel>
     <sorted>false</sorted>

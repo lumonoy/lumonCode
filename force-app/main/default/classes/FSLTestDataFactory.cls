@@ -1,3 +1,10 @@
+/**
+ * @description       : 
+ * @author            : Henk Reynders
+ * @group             : 
+ * @last modified on  : 06-19-2024
+ * @last modified by  : Henk Reynders
+**/
 @isTest
 public with sharing class FSLTestDataFactory { 
     /** Determine if person account is enabled in current org **/
@@ -116,7 +123,7 @@ public with sharing class FSLTestDataFactory {
             Opportunity__c = o1.Id,
             Name='Test Config 1',
             Plan_Apartment__c = 'A1',// public String apartment; // Door Nbr in Apartment
-            Plan_Floor__c = 1,// public Integer floor; // Floor Nbr in Building
+            Plan_Floor__c = '1',// public Integer floor; // Floor Nbr in Building
             Visual_Id__c = 'ABCDE1',//public String id; // Unique Visual Configuration Id
             Plan_Line__c = '100',// public String line; //?
             Plan_Name__c = 'NAME',// public String name; // Name of the Configuration
@@ -127,7 +134,7 @@ public with sharing class FSLTestDataFactory {
             Opportunity__c = o2.Id,
             Name='Test Config 2',
             Plan_Apartment__c = 'B2',// public String apartment; // Door Nbr in Apartment
-            Plan_Floor__c = 2,// public Integer floor; // Floor Nbr in Building
+            Plan_Floor__c = '2',// public Integer floor; // Floor Nbr in Building
             Visual_Id__c = 'ABCDE2',//public String id; // Unique Visual Configuration Id
             Plan_Line__c = '200',// public String line; //?
             Plan_Name__c = 'NAME',// public String name; // Name of the Configuration

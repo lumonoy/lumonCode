@@ -111,7 +111,7 @@
                 </flexComponentProperties>
                 <groupingSortProperties/>
                 <header>Cases per Team</header>
-                <report>CaseHandling/Cases</report>
+                <report>Service_Dashboards_Reports/CaseHandling/Cases</report>
             </dashboardComponent>
             <rowIndex>0</rowIndex>
             <rowSpan>33</rowSpan>
@@ -157,7 +157,7 @@
                     </groupingSorts>
                 </groupingSortProperties>
                 <header>Cases per Owner</header>
-                <report>CaseHandling/Cases</report>
+                <report>Service_Dashboards_Reports/CaseHandling/Cases</report>
             </dashboardComponent>
             <rowIndex>0</rowIndex>
             <rowSpan>10</rowSpan>
@@ -203,7 +203,7 @@
                     </groupingSorts>
                 </groupingSortProperties>
                 <header>Cases per Priority</header>
-                <report>CaseHandling/Cases</report>
+                <report>Service_Dashboards_Reports/CaseHandling/Cases</report>
             </dashboardComponent>
             <rowIndex>10</rowIndex>
             <rowSpan>6</rowSpan>
@@ -249,7 +249,7 @@
                     </groupingSorts>
                 </groupingSortProperties>
                 <header>Cases per Status</header>
-                <report>CaseHandling/Cases</report>
+                <report>Service_Dashboards_Reports/CaseHandling/Cases</report>
             </dashboardComponent>
             <rowIndex>16</rowIndex>
             <rowSpan>6</rowSpan>

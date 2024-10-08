@@ -1,0 +1,137 @@
+{
+	"order": {
+		"order_info": {
+			"axcompanyid": "SVI",
+			"currency": "EUR",
+			"customer_reference": "",
+			"order_type": "Normal",
+			"order_number": "90007676",
+			"vendorid": "LU",
+			"project_number": "803099",
+			"parent_project": "",
+			"project_group": "CONSDeliv",
+			"customer_segmentid": "7000",
+			"customer_segmentname": "Aftersales",
+			"promised_deliveryweek": "2024/32",
+			"promised_date": "22.07.2024",
+			"main_contractor": "no",
+			"business_unit": "40",
+			"order_attachment": "\\\\frendsprod\\D365TEST\\SalesTori\\OUT\\attachments\\",
+			"subproject_info": {
+				"subproject_number": "803099_01",
+				"subproject_group": "CONWar",
+				"subproject_category": "Warranty",
+				"subproject_cost": "0.00",
+				"subproject_ordertype": "Reclamation",
+				"subproject_parentproject": "803099",
+				"subproject_chargeable": "non-chargeable"
+			},
+			"budget": {
+				"project_category": [
+					{
+						"category": "FactoryPurchase",
+						"cost": "62.88"
+					},
+					{
+						"category": "SalesFreight",
+						"cost": "28.23"
+					}
+				]
+			},
+			"domestic_help": "",
+			"domestic_text": "",
+			"chargeable": "chargeable",
+			"worknumbername": "",
+			"pricelist": {
+				"pricelist_name": "Pohjahinnasto 1.4.2014"
+			},
+			"customer_address": {
+				"address_description": "Testaaja Timo",
+				"firstname": "Timo",
+				"lastname": "Testaaja",
+				"contact_person": "",
+				"street_address": "Kirkkotie",
+				"city": "Oulu",
+				"postal_code": "90230",
+				"fax": "",
+				"country": "FIN",
+				"province": "",
+				"county": "",
+				"phone_number": "0444935014",
+				"email": "timo.kotajarvi@visor.fi",
+				"note": "",
+				"number": "",
+				"customer_id": "",
+				"customer_name": "Timo Testaaja"
+			},
+			"invoice_address": {
+				"address_description": "Testaaja Timo",
+				"firstname": "Timo",
+				"lastname": "Testaaja",
+				"contact_person": "",
+				"street_address": "Kirkkotie",
+				"city": "Oulu",
+				"postal_code": "90230",
+				"fax": "",
+				"country": "FIN",
+				"province": "",
+				"county": "",
+				"phone_number": "0444935014",
+				"email": "timo.kotajarvi@visor.fi",
+				"note": "",
+				"payment_terms": "07",
+				"invoice_type": "Email",
+				"number": "",
+				"payment": "REF",
+				"paytrail_reference_id": ""
+			},
+			"install_address": {
+				"address_description": "Testaaja Timo",
+				"firstname": "Timo",
+				"lastname": "Testaaja",
+				"name": "Mattotesti 1.2",
+				"contact_person": "",
+				"street_address": "Kirkkotie",
+				"city": "Oulu",
+				"postal_code": "90230",
+				"fax": "",
+				"country": "FIN",
+				"province": "",
+				"county": "",
+				"phone_number": "0444935014",
+				"email": "timo.kotajarvi@visor.fi",
+				"note": "",
+				"number": null
+			},
+			"delivery_address": {
+				"address_description": "Testaaja Timo",
+				"firstname": "Timo",
+				"lastname": "Testaaja",
+				"contact_person": "Testaaja Timo",
+				"street_address": "Kirkkotie",
+				"city": "Oulu",
+				"postal_code": "90230",
+				"fax": "",
+				"country": "FIN",
+				"province": "",
+				"county": "",
+				"phone_number": "0444935014",
+				"email": "timo.kotajarvi@visor.fi",
+				"note": "",
+				"number": null,
+				"delivery_terms": "DAP",
+				"delivery_type": "delivery"
+			},
+			"sales_person": {
+				"username": "heikkim",
+				"supervisor": "visortj",
+				"firstname": "Heikki",
+				"lastname": "- M\ufffdnnikk\ufffd"
+			},
+			"propertytype": "House",
+			"order_leadreference_vch": "Stand/Presentation/Trailer event",
+			"language_code_lan": "fi-FI"
+		},
+		"groups": null
+	}
+}

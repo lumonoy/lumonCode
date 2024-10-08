@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-    <label><!-- District Type --></label>
+    <label><!-- District Type OLD --></label>
     <name>District_Type__c</name>
 </CustomFieldTranslation>

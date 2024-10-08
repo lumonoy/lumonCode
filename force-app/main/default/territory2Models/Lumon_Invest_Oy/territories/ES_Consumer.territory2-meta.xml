@@ -10,5 +10,9 @@
     </objectAccessLevels>
     <opportunityAccessLevel>None</opportunityAccessLevel>
     <parentTerritory>Spain</parentTerritory>
+    <ruleAssociations>
+        <inherited>true</inherited>
+        <ruleName>Consumer_Account</ruleName>
+    </ruleAssociations>
     <territory2Type>Business_Type</territory2Type>
 </Territory2>

@@ -3,7 +3,7 @@
     <fullName>Hard_Reserved_Date__c</fullName>
     <description>&quot;Scheduled Start&quot; field information from Service Appointment.</description>
     <externalId>false</externalId>
-    <label>Hard Reserved Date</label>
+    <label>Hard Reserved Date OLD</label>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>false</trackHistory>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Defines the delivery address. For address updates, see Account address, Delivery Location (Building/Factory), or Delivery Address (Other) --></help>
+    <label><!-- Deliver To --></label>
+    <name>DeliverToType__c</name>
+</CustomFieldTranslation>

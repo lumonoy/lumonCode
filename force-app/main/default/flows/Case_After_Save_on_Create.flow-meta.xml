@@ -170,7 +170,7 @@
         <locationX>2448</locationX>
         <locationY>539</locationY>
         <defaultConnector>
-            <targetReference>Case_type_updated</targetReference>
+            <targetReference>What_Case_Update</targetReference>
         </defaultConnector>
         <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
         <rules>
@@ -197,13 +197,13 @@
         </rules>
     </decisions>
     <decisions>
-        <name>BP_Case_status_changed</name>
-        <label>BP Case status changed</label>
+        <name>Building_Permit_Case_Updated</name>
+        <label>Building Permit Case Updated</label>
         <locationX>1590</locationX>
         <locationY>1055</locationY>
-        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <defaultConnectorLabel>Other Status</defaultConnectorLabel>
         <rules>
-            <name>BP_Case_Closed</name>
+            <name>Building_Permit_Approved</name>
             <conditionLogic>and</conditionLogic>
             <conditions>
                 <leftValueReference>$Record.Status</leftValueReference>
@@ -216,7 +216,7 @@
                 <targetReference>Update_related_opportunity</targetReference>
             </connector>
             <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
-            <label>BP Case Closed</label>
+            <label>Building Permit Approved</label>
         </rules>
     </decisions>
     <decisions>
@@ -303,107 +303,6 @@
                 <targetReference>Assign_Customer_Service_Case_Owner</targetReference>
             </connector>
             <label>Customer service case</label>
-        </rules>
-    </decisions>
-    <decisions>
-        <name>Case_type_updated</name>
-        <label>Case type updated?</label>
-        <locationX>2448</locationX>
-        <locationY>947</locationY>
-        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
-        <rules>
-            <name>Building_Permit</name>
-            <conditionLogic>and</conditionLogic>
-            <conditions>
-                <leftValueReference>$Record.Type</leftValueReference>
-                <operator>EqualTo</operator>
-                <rightValue>
-                    <stringValue>Building Permit</stringValue>
-                </rightValue>
-            </conditions>
-            <conditions>
-                <leftValueReference>$Record.Opportunity__r.StageName</leftValueReference>
-                <operator>NotEqualTo</operator>
-                <rightValue>
-                    <stringValue>Closed Won</stringValue>
-                </rightValue>
-            </conditions>
-            <connector>
-                <targetReference>BP_Case_status_changed</targetReference>
-            </connector>
-            <label>Building Permit</label>
-        </rules>
-        <rules>
-            <name>Special_Order</name>
-            <conditionLogic>and</conditionLogic>
-            <conditions>
-                <leftValueReference>$Record.Type</leftValueReference>
-                <operator>EqualTo</operator>
-                <rightValue>
-                    <stringValue>Special Order</stringValue>
-                </rightValue>
-            </conditions>
-            <conditions>
-                <leftValueReference>$Record.Opportunity__r.StageName</leftValueReference>
-                <operator>NotEqualTo</operator>
-                <rightValue>
-                    <stringValue>Closed Won</stringValue>
-                </rightValue>
-            </conditions>
-            <connector>
-                <targetReference>Special_order_case_status_updated</targetReference>
-            </connector>
-            <label>Special Order</label>
-        </rules>
-        <rules>
-            <name>Customer_Service</name>
-            <conditionLogic>or</conditionLogic>
-            <conditions>
-                <leftValueReference>$Record.Type</leftValueReference>
-                <operator>EqualTo</operator>
-                <rightValue>
-                    <stringValue>Customer reclamation</stringValue>
-                </rightValue>
-            </conditions>
-            <conditions>
-                <leftValueReference>$Record.Type</leftValueReference>
-                <operator>EqualTo</operator>
-                <rightValue>
-                    <stringValue>Customer Support</stringValue>
-                </rightValue>
-            </conditions>
-            <conditions>
-                <leftValueReference>$Record.Type</leftValueReference>
-                <operator>EqualTo</operator>
-                <rightValue>
-                    <stringValue>Invoicing</stringValue>
-                </rightValue>
-            </conditions>
-            <conditions>
-                <leftValueReference>$Record.Type</leftValueReference>
-                <operator>EqualTo</operator>
-                <rightValue>
-                    <stringValue>Rescheduling_installation</stringValue>
-                </rightValue>
-            </conditions>
-            <conditions>
-                <leftValueReference>$Record.Type</leftValueReference>
-                <operator>EqualTo</operator>
-                <rightValue>
-                    <stringValue>Warranty work request</stringValue>
-                </rightValue>
-            </conditions>
-            <conditions>
-                <leftValueReference>$Record.Type</leftValueReference>
-                <operator>EqualTo</operator>
-                <rightValue>
-                    <stringValue>Reseller</stringValue>
-                </rightValue>
-            </conditions>
-            <connector>
-                <targetReference>Customer_support_case_status_changed</targetReference>
-            </connector>
-            <label>Customer Service</label>
         </rules>
     </decisions>
     <decisions>
@@ -672,13 +571,13 @@
         </rules>
     </decisions>
     <decisions>
-        <name>Special_order_case_status_updated</name>
-        <label>Special order case status updated</label>
+        <name>Special_Order_Update</name>
+        <label>Special Order Update</label>
         <locationX>2118</locationX>
         <locationY>1055</locationY>
         <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
         <rules>
-            <name>SO_case_closed</name>
+            <name>Special_Order_Case_Closed</name>
             <conditionLogic>and</conditionLogic>
             <conditions>
                 <leftValueReference>$Record.Status</leftValueReference>
@@ -687,11 +586,119 @@
                     <stringValue>Closed</stringValue>
                 </rightValue>
             </conditions>
+            <conditions>
+                <leftValueReference>$Record.RecordType.DeveloperName</leftValueReference>
+                <operator>Contains</operator>
+                <rightValue>
+                    <stringValue>Special</stringValue>
+                </rightValue>
+            </conditions>
             <connector>
                 <targetReference>Update_SO_related_opportunity</targetReference>
             </connector>
             <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
-            <label>SO case closed</label>
+            <label>Special Order Case Closed</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>What_Case_Update</name>
+        <label>What Case Update?</label>
+        <locationX>2448</locationX>
+        <locationY>947</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Building_Permit</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Type</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Building Permit</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Opportunity__r.StageName</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue>Closed Won</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Building_Permit_Case_Updated</targetReference>
+            </connector>
+            <label>Building Permit</label>
+        </rules>
+        <rules>
+            <name>Special_Order</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Type</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Special Order</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Opportunity__r.StageName</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue>Closed Won</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Special_Order_Update</targetReference>
+            </connector>
+            <label>Special Order</label>
+        </rules>
+        <rules>
+            <name>Customer_Service</name>
+            <conditionLogic>or</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Type</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Customer reclamation</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Type</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Customer Support</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Type</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Invoicing</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Type</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Rescheduling_installation</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Type</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Warranty work request</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Type</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Reseller</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Customer_support_case_status_changed</targetReference>
+            </connector>
+            <label>Customer Service</label>
         </rules>
     </decisions>
     <decisions>
@@ -747,7 +754,7 @@
         <expression>ISNEW()</expression>
     </formulas>
     <interviewLabel>Case - After Save on Create {!$Flow.CurrentDateTime}</interviewLabel>
-    <label>Case - After Save R2</label>
+    <label>Case - After Save R2.5.4</label>
     <processMetadataValues>
         <name>BuilderType</name>
         <value>
@@ -880,7 +887,7 @@
         <locationX>2316</locationX>
         <locationY>755</locationY>
         <connector>
-            <targetReference>Case_type_updated</targetReference>
+            <targetReference>What_Case_Update</targetReference>
         </connector>
         <inputAssignments>
             <field>AssetWarrantyId</field>
@@ -996,7 +1003,7 @@
         <recordTriggerType>CreateAndUpdate</recordTriggerType>
         <triggerType>RecordAfterSave</triggerType>
     </start>
-    <status>Active</status>
+    <status>Obsolete</status>
     <subflows>
         <name>Assign_Customer_Service_Case_Owner</name>
         <label>Assign Customer Service Case Owner</label>

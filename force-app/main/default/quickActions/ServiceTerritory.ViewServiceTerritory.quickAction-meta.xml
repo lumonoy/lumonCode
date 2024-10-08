@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QuickAction xmlns="http://soap.sforce.com/2006/04/metadata">
+    <icon>FSL__service_territory_map_icon</icon>
     <label>View Service Territory</label>
     <optionsCreateFeedItem>false</optionsCreateFeedItem>
     <quickActionLayout>
@@ -10,17 +11,12 @@
                 <field>Name</field>
                 <uiBehavior>Required</uiBehavior>
             </quickActionLayoutItems>
-            <quickActionLayoutItems>
-                <emptySpace>false</emptySpace>
-                <field>OperatingHoursId</field>
-                <uiBehavior>Required</uiBehavior>
-            </quickActionLayoutItems>
         </quickActionLayoutColumns>
         <quickActionLayoutColumns>
             <quickActionLayoutItems>
                 <emptySpace>false</emptySpace>
-                <field>IsActive</field>
-                <uiBehavior>Edit</uiBehavior>
+                <field>OperatingHoursId</field>
+                <uiBehavior>Required</uiBehavior>
             </quickActionLayoutItems>
         </quickActionLayoutColumns>
     </quickActionLayout>

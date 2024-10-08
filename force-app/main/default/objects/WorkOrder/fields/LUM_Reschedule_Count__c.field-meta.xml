@@ -5,7 +5,7 @@
     <description>The amount of times this work order was rescheduled.</description>
     <externalId>false</externalId>
     <inlineHelpText>The amount of times this work order was rescheduled.</inlineHelpText>
-    <label>(Re)schedule Count</label>
+    <label>(Re)schedule Count OLD</label>
     <precision>18</precision>
     <required>false</required>
     <scale>0</scale>

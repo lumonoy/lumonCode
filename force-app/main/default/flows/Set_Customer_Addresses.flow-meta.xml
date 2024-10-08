@@ -592,7 +592,7 @@
         <recordTriggerType>CreateAndUpdate</recordTriggerType>
         <triggerType>RecordBeforeSave</triggerType>
     </start>
-    <status>Draft</status>
+    <status>Obsolete</status>
     <triggerOrder>800</triggerOrder>
     <variables>
         <name>MailingAddress</name>

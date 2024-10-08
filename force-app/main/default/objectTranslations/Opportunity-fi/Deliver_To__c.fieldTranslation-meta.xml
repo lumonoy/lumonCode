@@ -3,24 +3,4 @@
     <help><!-- Defines the delivery address. For address updates, see Account address, Delivery Location (Building/Factory), or Delivery Address (Other) --></help>
     <label>Toimitus</label>
     <name>Deliver_To__c</name>
-    <picklistValues>
-        <masterLabel>Account</masterLabel>
-        <translation><!-- Account --></translation>
-    </picklistValues>
-    <picklistValues>
-        <masterLabel>Building</masterLabel>
-        <translation><!-- Building --></translation>
-    </picklistValues>
-    <picklistValues>
-        <masterLabel>Factory</masterLabel>
-        <translation><!-- Factory --></translation>
-    </picklistValues>
-    <picklistValues>
-        <masterLabel>Other</masterLabel>
-        <translation><!-- Other --></translation>
-    </picklistValues>
-    <picklistValues>
-        <masterLabel>Warehouse</masterLabel>
-        <translation><!-- Warehouse --></translation>
-    </picklistValues>
 </CustomFieldTranslation>

@@ -7,6 +7,10 @@
         <value xsi:type="xsd:string">New Build</value>
     </values>
     <values>
+        <field>Case_Handling_Group__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
         <field>Comments__c</field>
         <value xsi:nil="true"/>
     </values>

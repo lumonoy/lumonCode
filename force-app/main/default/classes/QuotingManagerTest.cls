@@ -2,7 +2,7 @@
  * @description       : 
  * @author            : Henk Reynders
  * @group             : 
- * @last modified on  : 05-16-2024
+ * @last modified on  : 06-14-2024
  * @last modified by  : Henk Reynders
 **/
 @IsTest
@@ -36,7 +36,7 @@ public with sharing class QuotingManagerTest {
 	* Stage 6 Reclamation:Draft, Update
 	*/
     @IsTest
-    public static void QuotingManagerVisualConfigurationTest() {
+    public static void visualConfigurationTest() {
         String errorMessage;
         String configId  = b2cConfigurationPlanId;
         Id docId = [SELECT Id FROM ContentDocumentLink WHERE LinkedEntityId =:b2cConfigurationPlanId  LIMIT 1]?.Id;
@@ -65,7 +65,7 @@ public with sharing class QuotingManagerTest {
         Test.stopTest(); 
     }
     @IsTest
-    public static void QuotingManagerSoveliaTest() {
+    public static void soveliaTest() {
         String errorMessage;
         String configId  = b2cConfigurationPlanId;
         Id docId = [SELECT Id FROM ContentDocumentLink WHERE LinkedEntityId =:b2cConfigurationPlanId  LIMIT 1]?.Id;
@@ -92,7 +92,7 @@ public with sharing class QuotingManagerTest {
         Test.stopTest(); 
     }
     @IsTest
-    public static void QuotingManagerReclamationTest() {
+    public static void reclamationTest() {
         Opportunity opp = [SELECT Id,Order_type__c from Opportunity where Id = :b2cOpportunityId limit 1];
         opp.Order_type__c = 'Reclamation';
         update opp;
@@ -124,7 +124,7 @@ public with sharing class QuotingManagerTest {
         Test.stopTest(); 
     }
 	@IsTest
-    public static void QuotingManagerConfiguratorTest() {
+    public static void configuratorTest() {
         String errorMessage;
         String configId  = b2cConfigurationPlanId;
         Id docId = [SELECT Id FROM ContentDocumentLink WHERE LinkedEntityId =:b2cConfigurationPlanId  LIMIT 1]?.Id;
@@ -152,7 +152,7 @@ public with sharing class QuotingManagerTest {
         Test.stopTest(); 
     }
     @IsTest
-    public static void QuotingManagerSparesTest() {
+    public static void sparesTest() {
         String errorMessage;
         String configId  = b2cConfigurationPlanId;
         Id docId = [SELECT Id FROM ContentDocumentLink WHERE LinkedEntityId =:b2cConfigurationPlanId  LIMIT 1]?.Id;
@@ -178,7 +178,7 @@ public with sharing class QuotingManagerTest {
         Test.stopTest(); 
     }
     @IsTest
-    public static void QuotingManagerServicesTest() {
+    public static void servicesTest() {
         String errorMessage;
         String configId  = b2cConfigurationPlanId;
         Id docId = [SELECT Id FROM ContentDocumentLink WHERE LinkedEntityId =:b2cConfigurationPlanId  LIMIT 1]?.Id;
@@ -204,7 +204,53 @@ public with sharing class QuotingManagerTest {
         Test.stopTest(); 
     }
     @IsTest
-    public static void QuotingManagerQuoteTest() {
+    public static void scheduleTest() {
+        String errorMessage;
+        String configId  = b2cConfigurationPlanId;
+        Id docId = [SELECT Id FROM ContentDocumentLink WHERE LinkedEntityId =:b2cConfigurationPlanId  LIMIT 1]?.Id;
+        String recordId = b2cOpportunityId;
+        String objectType = 'Opportunity';
+        String configAction = 'Quote';
+        String configType = 'Schedule';        
+        Test.startTest();
+        try {
+            QuotingManager.executeQuotingProcess( configType, configAction, configId, recordId,
+                                                                objectType, '','', '');
+        } catch (Exception e) {
+            //Any other exceptions that occur will go here
+            errorMessage = e.getMessage(); 
+            System.Debug ('--- QuotingManagerTest - scheduleTest - An Exception Occured:'+errorMessage);
+        }
+        System.assertEquals(null,errorMessage, 'Expected to process Sovelia Plan');
+        System.debug('--- QuotingManagerTest - scheduleTest - CPU TIME: '+LIMITS.getCpuTime()); 
+        System.debug('--- QuotingManagerTest - scheduleTest - SOQL USED: ' + LIMITS.getQueries());
+        Test.stopTest(); 
+    }
+    @IsTest
+    public static void generateTest() {
+        String errorMessage;
+        String configId  = b2cConfigurationPlanId;
+        Id docId = [SELECT Id FROM ContentDocumentLink WHERE LinkedEntityId =:b2cConfigurationPlanId  LIMIT 1]?.Id;
+        String recordId = b2cOpportunityId;
+        String objectType = 'Opportunity';
+        String configAction = 'Quote';
+        String configType = 'Generate';        
+        Test.startTest();
+        try {
+            QuotingManager.executeQuotingProcess( configType, configAction, configId, recordId,
+                                                                objectType, '','', '');
+        } catch (Exception e) {
+            //Any other exceptions that occur will go here
+            errorMessage = e.getMessage(); 
+            System.Debug ('--- QuotingManagerTest - generateTest - An Exception Occured:'+errorMessage);
+        }
+        System.assertEquals(null,errorMessage, 'Expected to process Sovelia Plan');
+        System.debug('--- QuotingManagerTest - generateTest - CPU TIME: '+LIMITS.getCpuTime()); 
+        System.debug('--- QuotingManagerTest - generateTest - SOQL USED: ' + LIMITS.getQueries());
+        Test.stopTest(); 
+    }
+    @IsTest
+    public static void quoteTest() {
         String errorMessage;
         String configId  = b2cConfigurationPlanId;
         Id docId = [SELECT Id FROM ContentDocumentLink WHERE LinkedEntityId =:b2cConfigurationPlanId  LIMIT 1]?.Id;
@@ -230,7 +276,7 @@ public with sharing class QuotingManagerTest {
         Test.stopTest(); 
     }
      @IsTest
-    public static void QuotingManagerOrderTest() {
+    public static void orderTest() {
         String errorMessage;
         String configId  = b2cConfigurationPlanId;
         Id docId = [SELECT Id FROM ContentDocumentLink WHERE LinkedEntityId =:b2cConfigurationPlanId  LIMIT 1]?.Id;
@@ -256,7 +302,30 @@ public with sharing class QuotingManagerTest {
         Test.stopTest(); 
     }
     @IsTest
-    public static void QuotingManagerFeedbackTest() {
+    public static void updateTest() {
+        String errorMessage;
+        String configId  = b2cConfigurationPlanId;
+        Id docId = [SELECT Id FROM ContentDocumentLink WHERE LinkedEntityId =:b2cConfigurationPlanId  LIMIT 1]?.Id;
+        String recordId = b2cOpportunityId;
+        String objectType = 'Opportunity';
+        String configAction = 'Order';
+        String configType = 'Update';        
+        Test.startTest();
+        try {
+            QuotingManager.executeQuotingProcess( configType, configAction, configId, recordId,
+                                                                objectType, '','', '');
+        } catch (Exception e) {
+            //Any other exceptions that occur will go here
+            errorMessage = e.getMessage(); 
+            System.Debug ('--- QuotingManagerTest - updateTest - An Exception Occured:'+errorMessage);
+        }
+        System.assertEquals(null,errorMessage, 'Expected to process Sovelia Plan');
+        System.debug('--- QuotingManagerTest - updateTest - CPU TIME: '+LIMITS.getCpuTime()); 
+        System.debug('--- QuotingManagerTest - updateTest - SOQL USED: ' + LIMITS.getQueries());
+        Test.stopTest(); 
+    }
+    @IsTest
+    public static void feedbackTest() {
         String errorMessage;
         String configId  = b2cConfigurationPlanId;
         Id docId = [SELECT Id FROM ContentDocumentLink WHERE LinkedEntityId =:b2cConfigurationPlanId  LIMIT 1]?.Id;
@@ -282,5 +351,27 @@ public with sharing class QuotingManagerTest {
         System.debug('--- QuotingManagerTest - UI Feedback Test - SOQL USED: ' + LIMITS.getQueries());
         Test.stopTest(); 
     }
-    
+    @IsTest
+    public static void deliverTest() {
+        String errorMessage;
+        String configId  = [SELECT Body FROM StaticResource WHERE Name = 'TestOrderMessageJSON' ].Body.toString();  
+        Id docId;
+        String recordId;
+        String objectType;      
+        String configPlanId;
+        String documentId;
+        String configJSON;   
+        Test.startTest();
+        try {
+            QuotingManager.executeQuotingProcess('Process', 'Deliver', configId, recordId,objectType, configPlanId,documentId, configJSON);
+        } catch (Exception e) {
+            //Any other exceptions that occur will go here
+            errorMessage = e.getMessage(); 
+            System.Debug ('--- QuotingManagerTest - UI Feedback Test - An Exception Occured:'+errorMessage);
+        }
+        System.assertEquals(null,errorMessage, 'Expected to send Feedback');
+        System.debug('--- QuotingManagerTest - UI Feedback Test - CPU TIME: '+LIMITS.getCpuTime()); 
+        System.debug('--- QuotingManagerTest - UI Feedback Test - SOQL USED: ' + LIMITS.getQueries());
+        Test.stopTest(); 
+    }
 }

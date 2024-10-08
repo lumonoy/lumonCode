@@ -5,10 +5,6 @@
         <name>Data_Table_Fields</name>
     </fieldSets>
     <fieldSets>
-        <label>Yksityiskohdat</label>
-        <name>Details</name>
-    </fieldSets>
-    <fieldSets>
         <label><!-- Emergency Account Fields --></label>
         <name>FSL__Emergency_Account_Fields</name>
     </fieldSets>
@@ -17,13 +13,32 @@
         <name>FSL__Gantt_Lightbox</name>
     </fieldSets>
     <fieldSets>
-        <label>Tiedot</label>
-        <name>Information</name>
-    </fieldSets>
-    <fieldSets>
         <label><!-- Tree Grid Fields --></label>
         <name>Tree_Grid_Fields</name>
     </fieldSets>
+    <layouts>
+        <layout>Lumon Account Layout</layout>
+        <sections>
+            <label><!-- Account Summary --></label>
+            <section>Account Summary</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Lumon Person Account Layout</layout>
+        <layoutType>PersonAccount</layoutType>
+        <sections>
+            <label><!-- Customer Attributes --></label>
+            <section>Customer Attributes</section>
+        </sections>
+        <sections>
+            <label><!-- Marketing --></label>
+            <section>Marketing</section>
+        </sections>
+        <sections>
+            <label><!-- Marketing Permissions --></label>
+            <section>Marketing Permissions</section>
+        </sections>
+    </layouts>
     <layouts>
         <layout>Person Account Layout</layout>
         <layoutType>PersonAccount</layoutType>
@@ -52,46 +67,34 @@
             <section>Marketing</section>
         </sections>
     </layouts>
+    <quickActions>
+        <label><!-- Edit Account --></label>
+        <name>EditAccount</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Edit Account Addresses --></label>
+        <name>EditAccountAddresses</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Case Flow --></label>
+        <name>NewCaseFlow</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Child Account --></label>
+        <name>NewChildAccount</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- View Account --></label>
+        <name>ViewAccount</name>
+    </quickActions>
     <recordTypes>
         <description><!-- B2B Business account --></description>
         <label>B2B tili</label>
         <name>B2B_Account</name>
     </recordTypes>
     <validationRules>
-        <errorMessage><!-- You can not change the Billing Address when marked to be same as Mailing Address --></errorMessage>
-        <name>Billing_Address_Change_not_Allowed</name>
-    </validationRules>
-    <validationRules>
-        <errorMessage>Ole hyvä ja täytä laskutusosoitteen kaupunki!</errorMessage>
-        <name>Billing_Address_City_Mandatory</name>
-    </validationRules>
-    <validationRules>
-        <errorMessage>Ole hyvä ja täytä laskutusosoitteen maa!</errorMessage>
-        <name>Billing_Address_Country_Mandatory</name>
-    </validationRules>
-    <validationRules>
-        <errorMessage><!-- Please fill in Billing address --></errorMessage>
-        <name>Billing_Address_Mandatory</name>
-    </validationRules>
-    <validationRules>
-        <errorMessage>Ole hyvä ja täytä laskutusosoitteen postinumero!</errorMessage>
-        <name>Billing_Address_PostalCode_Mandatory</name>
-    </validationRules>
-    <validationRules>
-        <errorMessage>Ole hyvä ja täytä laskutusosoitteen katu!</errorMessage>
-        <name>Billing_Address_Street_Mandatory</name>
-    </validationRules>
-    <validationRules>
-        <errorMessage><!-- Please ask customer for their email address and avoid using an @lumon.com address, as it is used in automated communication. --></errorMessage>
-        <name>Email_address_Account_mandatory</name>
-    </validationRules>
-    <validationRules>
         <errorMessage>Ole hyvä ja täytä etunimi!</errorMessage>
         <name>First_Name_Mandatory</name>
-    </validationRules>
-    <validationRules>
-        <errorMessage><!-- Please fill in Mailing Address --></errorMessage>
-        <name>Mailing_Address_Mandatory</name>
     </validationRules>
     <validationRules>
         <errorMessage>Ole hyvä ja täytä postitusosoitteen kaupunki!</errorMessage>
@@ -104,10 +107,6 @@
     <validationRules>
         <errorMessage>Ole hyvä ja täytä postitusosoitteen katu!</errorMessage>
         <name>Mailing_Street_Mandatory</name>
-    </validationRules>
-    <validationRules>
-        <errorMessage><!-- You can not change the Shipping Address when marked to be same as Billing Address --></errorMessage>
-        <name>Shipping_Address_Change_not_Allowed</name>
     </validationRules>
     <webLinks>
         <label>Google kartat</label>
@@ -122,7 +121,7 @@
         <name>GoogleSearch</name>
     </webLinks>
     <webLinks>
-        <label><!-- SendPortalLink --></label>
+        <label>Lähetä Portaalilinkki</label>
         <name>SendPortalLink</name>
     </webLinks>
     <webLinks>

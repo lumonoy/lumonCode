@@ -152,7 +152,7 @@
     <enableSearch>true</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
-    <externalSharingModel>Private</externalSharingModel>
+    <externalSharingModel>ReadWrite</externalSharingModel>
     <label>Sales Price</label>
     <nameField>
         <displayFormat>T3-{000000}</displayFormat>
@@ -162,6 +162,6 @@
     </nameField>
     <pluralLabel>Sales Prices</pluralLabel>
     <searchLayouts></searchLayouts>
-    <sharingModel>Read</sharingModel>
+    <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>

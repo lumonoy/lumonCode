@@ -29,5 +29,5 @@
         <info>&lt;p&gt;The Case is Resolved, meaning a Resolution is Provided.&lt;/p&gt;&lt;p&gt;Once the End-User excepts the Answer or Solution, the Case will be Closed.&lt;/p&gt;&lt;p&gt;Case will automatically Close after 30 days if no response is received.&lt;/p&gt;</info>
         <picklistValueName>Resolved</picklistValueName>
     </pathAssistantSteps>
-    <recordTypeName>Lumon_ICT_Support</recordTypeName>
+    <recordTypeName>ICT_Case</recordTypeName>
 </PathAssistant>

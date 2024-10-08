@@ -2,7 +2,7 @@
  * @description       : 
  * @author            : Henk Reynders
  * @group             : 
- * @last modified on  : 12-02-2023
+ * @last modified on  : 07-07-2024
  * @last modified by  : Henk Reynders
 **/
 public with sharing class PricingController{
@@ -104,7 +104,7 @@ public with sharing class PricingController{
                 quoteId = opportunityRecord.SyncedQuoteId;
                 // Step 1b: get the Quote
                 if (String.isNotBlank(quoteId)) {
-                    quoteRecord = QuoteController.getQuoteRecord(quoteId);
+                    quoteRecord = QuoteController.getQuote(quoteId);
                 }
                 System.debug('--- Using Opportunity '+opportunityId+' and Quote ' +quoteId);
                 // Step 2: Get Existing Pricing 
@@ -250,12 +250,12 @@ public with sharing class PricingController{
                 currencyCode = opportunityRecord.CurrencyIsoCode;
                 syncedQuoteId = opportunityRecord.SyncedQuoteId;
                 if (String.isNotBlank(syncedQuoteId)) {
-                    quoteRecord = QuoteController.getQuoteRecord(syncedQuoteId);
+                    quoteRecord = QuoteController.getQuote(syncedQuoteId);
                 }
             } else if (parentObjectType=='Quote' && String.isNotBlank(recordId)){
                 syncedQuoteId = recordId;
                 //Get quote Record
-                quoteRecord = QuoteController.getQuoteRecord(syncedQuoteId);
+                quoteRecord = QuoteController.getQuote(syncedQuoteId);
                 opportunityId = quoteRecord.opportunityId;
                 opportunityRecord = OpportunityController.getOpportunityRecord(opportunityId);
                 // Set Related Records
@@ -323,6 +323,10 @@ public with sharing class PricingController{
                                         Product2.ProductCode,
                                         Product2.Sales_Code__c,
                                         Product2.Product_Category__c,
+                                        Product2.Product_Group__c,
+                                        Product2.Product_Model__c,
+                                        Product2.Additional_Cost__c,
+                                        Product2.Extra_Sales__c,
                                         Product_Category__c,
                                         Discount__c,
                                         Cost_Category__c,
@@ -473,7 +477,7 @@ public with sharing class PricingController{
                     } else {
                         System.debug('--- NO Pricebook Entry for Item '+itemLookupCode);
                     }
-         /**************** ITEM INITIAL VALUES *********************/
+                    /**************** ITEM INITIAL VALUES *********************/
                     if(pbEntry != null && plEntry != null) {
                         itemBasePrice = 0;
                         itemFactoryMultiplier = 0;
@@ -548,7 +552,7 @@ public with sharing class PricingController{
                             continue;
                         }
                         System.debug('--- Setting Prices!');
-     /**************** PRICE CALCULATIONS *********************/
+                        /**************** PRICE CALCULATIONS *********************/
                         // Cost/Price per Unit -> Quote Line Items have "Unit" Prices as standard SalesCloud Features are applicable
                         //Decimal itemFactoryPricePerUnit = itemBasePrice * itemFactoryMultiplier;
                         //Decimal itemProductCostPerUnit = itemBasePrice * itemCostMultiplier;
@@ -619,7 +623,7 @@ public with sharing class PricingController{
                             // Generate the Updated Configuration Item
                             QuoteLineItem existingQuoteLineItem = uniqueIdToLineItemMap.get(uniquelookupCode);
                             quoteLineItemToUpsert.Id = existingQuoteLineItem?.Id;
-                            quoteLineItemToUpsert.UnitPrice = existingQuoteLineItem?.UnitPrice;
+                            //quoteLineItemToUpsert.UnitPrice = existingQuoteLineItem?.UnitPrice;
                             quoteLineItemToUpsert.Contracted_Sales_Price__c = existingQuoteLineItem?.Contracted_Sales_Price__c;
                             quoteLineItemToUpsert.Product_Category__c = existingQuoteLineItem?.Product2.Product_Category__c;
                             System.debug('--- Found existing QuoteLine Entry: '+quoteLineItemToUpsert.Id );
@@ -632,15 +636,22 @@ public with sharing class PricingController{
                         /************** Price Updates ****************/
                         // Minimum Price Check
                         // Check if there the Item has a Quantity
-                        System.debug('--- Item Total Quantity for '+itemProductCode);
-                        System.debug('--- Item Total Quantity from '+productCodeToQuantityMap);
+                        System.debug('--- Check minimum Price for Item '+itemProductCode);
                         Boolean hasTotalQuantity = productCodeToQuantityMap.containsKey(itemProductCode);
+                        Decimal itemUnitQuantity = 0.0;
+                        Decimal itemProductQuantity = 0.0;
+                        Decimal itemOrderQuantity = 0.0;
+                        Decimal itemSiteQuantity = 0.0;
                         if(hasTotalQuantity) {
-                            itemTotalQuantity = productCodeToQuantityMap.get(itemProductCode);
+                            itemUnitQuantity = quoteLineItemToUpsert.Quantity; // Line Item
+                            itemProductQuantity = productCodeToQuantityMap.get(itemProductCode); // RVN/Product Group
+                            itemOrderQuantity = productCodeToQuantityMap.get(itemProductCode); // Batch/Order
+                            itemSiteQuantity = productCodeToQuantityMap.get(itemProductCode); // Project/Opportunity                            
                             System.debug('--- Item Total Quantity: '+itemTotalQuantity);
                         }
                         // Only for Minimal Price
                         Decimal itemTotalPriceInGroup = itemTotalQuantity * plEntryBasePrice;
+                        Decimal itemTotalPrice = itemQuantity * plEntryBasePrice;
                         if (hasTotalQuantity 
                             && plEntryMinimumPrice > 0 && itemTotalPriceInGroup > 0
                             && itemTotalPriceInGroup < plEntryMinimumPrice && itemTotalQuantity > 0) {
@@ -662,6 +673,11 @@ public with sharing class PricingController{
                             // Update Base Price
                             itemTotalBasePrice = plEntryMinimumPrice;
                             itemBasePrice = itemTotalBasePrice / itemTotalQuantity;
+                        } else if (hasTotalQuantity 
+                            && plEntryMinimumPrice > 0 && itemTotalPrice > 0
+                            && itemTotalPrice < plEntryMinimumPrice && itemUnitQuantity > 0) {
+                                itemMinPricePerUnit = plEntryMinimumPrice/itemQuantity;
+                                System.Debug('--- Min Price per Line: '+itemMinPricePerUnit);
                         } else {
                             itemMinPricePerUnit = 0;
                         }
@@ -669,14 +685,23 @@ public with sharing class PricingController{
                         // Unit Prices
                         quoteLineItemToUpsert.Base_Price__c = itemBasePrice;
                         quoteLineItemToUpsert.Min_Sales_Price__c = itemMinPricePerUnit;               
-                        quoteLineItemToUpsert.Factory_Price__c = itemFactoryPricePerUnit;// Factory Price per Unit
+                        //quoteLineItemToUpsert.Factory_Price__c = itemFactoryPricePerUnit;// Factory Price per Unit
+                        quoteLineItemToUpsert.Factory_Price__c = itemFactoryMultiplier != 0 ? itemFactoryPricePerUnit: 0; // Factory Price per Unit
+                        
                         System.debug('--- Factory Price: '+itemFactoryPricePerUnit);
-                        quoteLineItemToUpsert.Product_Cost__c = itemProductCostPerUnit; // Product Cost per Unit
+                        //quoteLineItemToUpsert.Product_Cost__c = itemProductCostPerUnit; // Product Cost per Unit
+                        quoteLineItemToUpsert.Product_Cost__c = itemCostMultiplier != 0 ? itemProductCostPerUnit: 0; // Product Cost per Unit
+                        
+                        
+                        
                         System.debug('--- Product Cost: '+itemProductCostPerUnit);
-                        quoteLineItemToUpsert.Sales_Price__c = itemSalesPricePerUnit;// Sales Price per Unit (UnitPrice)
+                        //quoteLineItemToUpsert.Sales_Price__c = itemSalesPricePerUnit;// Sales Price per Unit (UnitPrice)
+                        quoteLineItemToUpsert.Sales_Price__c = itemSalesMultiplier !=0 ? itemSalesPricePerUnit: 0;// Sales Price per Unit (UnitPrice)                       
                         System.debug('--- List Price: '+itemSalesPricePerUnit);
                         //quoteLineItemToUpsert.ListPrice = lineTotalPrice; // QuoteLineItem List Price (standard Field) not writeable
-                        quoteLineItemToUpsert.UnitPrice = itemSalesPricePerUnit; // QuoteLineItem Unit Price (standard Field), actual Line Total not Unit Price    
+                        //quoteLineItemToUpsert.UnitPrice = itemSalesPricePerUnit; // QuoteLineItem Unit Price (standard Field), actual Line Total not Unit Price  
+                        quoteLineItemToUpsert.UnitPrice = itemSalesMultiplier !=0 ? itemSalesPricePerUnit: 0; // QuoteLineItem Unit Price (standard Field), actual Line Total not Unit Price  
+                        
                         System.debug('--- Unit Price: '+itemSalesPricePerUnit);                    
                         // Price Attributes
                         quoteLineItemToUpsert.List_Price__c = itemTotalSalesPrice; // For possible check in LWC Component
@@ -691,6 +716,8 @@ public with sharing class PricingController{
             }
             System.debug('--- '+quoteLineItemsToUpsert.size()+' New or Changed QuoteLine(s)');
             if (!quoteLineItemsToUpsert.isEmpty()) {
+                // 15.01.24 Added
+                setOrderSpecificPrices(quoteLineItemsToUpsert);
                 // The additional and extra quote line items are needed here
                 Set<Id> quoteLineItemsToUpsertIds = new Set<Id>();
                 for(QuoteLineItem qli : quoteLineItemsToUpsert) {
@@ -699,18 +726,26 @@ public with sharing class PricingController{
                     }
                 }
                 for(QuoteLineItem quoteLineItem : uniqueIdToLineItemMap.values())  {
-                    if((quoteLineItem.Product_Group__c == PricingExtraSalesController.EXTRA_SALES_PRODUCT_GROUP
-                            || quoteLineItem.Product_Category__c == PricingAdditionalCostsController.ADDITIONAL_COST_PRODUCT_CATEGORY
-                            || quoteLineItem.Product2.Product_Category__c == PricingAdditionalCostsController.ADDITIONAL_COST_PRODUCT_CATEGORY
-                        ) && !quoteLineItemsToUpsertIds.contains(quoteLineItem.Id)
-                    ) {
-                        if(opportunityRecord.Chargeable__c != true) {
-                            quoteLineItem.UnitPrice = 0;
-                            quoteLineItem.Sales_Multiplier__c = 0;
+                    System.Debug('--- Item Product Group: '+quoteLineItem.Product2.Product_Group__c);
+                    System.Debug('--- Item Product Model: '+quoteLineItem.Product2.Product_Model__c);
+                    System.Debug('--- Item Product Category: '+quoteLineItem.Product2.Product_Category__c);                  
+                    System.Debug('--- Extra Sales Product Group: '+PricingExtraSalesController.EXTRA_SALES_PRODUCT_GROUP);
+                    System.Debug('--- Additional Cost Product Category: '+PricingAdditionalCostsController.ADDITIONAL_COST_PRODUCT_CATEGORY);
+                    if(quoteLineItem.Product2.Additional_Cost__c 
+                        || quoteLineItem.Product2.Extra_Sales__c) {
+                        if (!quoteLineItemsToUpsertIds.contains(quoteLineItem.Id)) {
+                            if(!opportunityRecord.Chargeable__c) {
+                                quoteLineItem.UnitPrice = 0;
+                                quoteLineItem.Sales_Multiplier__c = 0;
+                                System.Debug('--- Item not charged: '+quoteLineItem);
+                            }
+                            quoteLineItemsToUpsert.add(quoteLineItem);
+                            System.Debug('--- Missing Item added: '+quoteLineItem);
                         }
-                        quoteLineItemsToUpsert.add(quoteLineItem);
                     }
                 }
+
+
                 setOrderSpecificPrices(quoteLineItemsToUpsert);
 
                 recalculateDiscountOrSalesprice(
@@ -724,6 +759,11 @@ public with sharing class PricingController{
                 }
             }
             System.debug('--- '+lineItemIds.size()+' Created or Updated QuoteLine(s)');
+
+            System.debug('--- upsertQuoteLines - syncedQuoteId: '+syncedQuoteId);
+            System.debug('--- upsertQuoteLines - lineItemIds: '+lineItemIds);
+            System.debug('--- upsertQuoteLines - configPlanIds: '+configPlanIds);
+
             obsoleteQuoteLineItems = [
                 SELECT Id
                 FROM QuoteLineItem
@@ -750,13 +790,24 @@ public with sharing class PricingController{
         Pricing_Summary__c pricingSummary,
         List<QuoteLineItem> quoteLineItems
     ) {
+      	System.debug('--- Prices Locked: '+keepSalesPrice);
+        System.debug('--- Summary: '+pricingSummary);
+        System.debug('--- QuoteLine Count: '+quoteLineItems.size());
         Decimal listPrice = 0.0;
         Decimal salesPrice = 0.0;
         for (QuoteLineItem quoteLineItem : quoteLineItems) {
+            System.debug('--- QuoteLine Price Multiplier: '+quoteLineItem.Sales_Multiplier__c);
+            System.debug('--- QuoteLine List Price : '+quoteLineItem.List_Price__c);
+            System.debug('--- QuoteLine Unit Price : '+quoteLineItem.UnitPrice);
+            System.debug('--- QuoteLine Quantity : '+quoteLineItem.Quantity);
+            System.debug('--- QuoteLine Id : '+quoteLineItem.Id);
             listPrice += quoteLineItem.Sales_Multiplier__c > 0 ? quoteLineItem.List_Price__c : 0;
             salesPrice += quoteLineItem.Sales_Multiplier__c > 0 ? quoteLineItem.UnitPrice * quoteLineItem.Quantity : 0;
+            System.debug('--- QuoteLine recalculated');
         }
+        System.debug('--- Summary SalesPrice: '+pricingSummary.Sales_Price__c);
         if (pricingSummary.Sales_Price__c == null) {
+            System.debug('--- SalesPrice recalculated');
             pricingSummary.Sales_Price__c = salesPrice;
             upsert pricingSummary;
             return;
@@ -781,6 +832,7 @@ public with sharing class PricingController{
             }
         } else {
             Decimal discount = 0.0;
+            System.debug('--- Update Sales Prices');
             if (listPrice != 0) {
                 discount = (1 - pricingSummary.Sales_Price__c / listPrice) * 100;
             }
@@ -810,6 +862,7 @@ public with sharing class PricingController{
         Map<String, Integer> duplicateItemsWithMaxQuantity = new Map<String, Integer>();
         for (QuoteLineItem quoteLineItem : quoteLineItems) {
             if(quoteLineItem.Max_Quantity__c >= 1) {
+                System.debug('--- QuoteLine with Max Quantity: '+quoteLineItem);
                 duplicateItemsWithMaxQuantity.put(quoteLineItem.Sales_Code__c, 0);
                 itemMaxQuantities.put(quoteLineItem.Sales_Code__c, quoteLineItem.Max_Quantity__c);
             }

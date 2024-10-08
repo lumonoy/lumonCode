@@ -34,6 +34,7 @@
     <headlessForgotPasswordTemplate>unfiled$public/CommunityHeadlessForgotPasswordTemplate</headlessForgotPasswordTemplate>
     <headlessRegistrationTemplate>unfiled$public/CommunityHeadlessRegistrationTemplate</headlessRegistrationTemplate>
     <networkMemberGroups>
+        <permissionSet>Experience_Builder_Permissions</permissionSet>
         <profile>Admin</profile>
         <profile>Lumon Customer Portal User</profile>
     </networkMemberGroups>

@@ -11,36 +11,36 @@ public with sharing class ConfigurationControllerTest {
     static void prepareData(){
         Test.startTest();
         //LumonTestDataFactory.setupProducts();
-        LumonTestProducts.setupProducts('LG');
-        //LumonTestProducts.setupProducts('LGS');
-        //LumonTestProducts.setupProducts('LFIXEDWALL');
-        //LumonTestProducts.setupProducts('VT3');
-        //LumonTestProducts.setupProducts('VT4');    
-        LumonTestProducts.setupProducts('VISORBLINDSALES');
-        //LumonTestProducts.setupSoveliaProducts();
-        //LumonTestProducts.setupRetractableProducts();
-        LumonTestPricebooks.setupPricebookEntries();
-        LumonTestPriceParameters.setupPriceParameters();
-        LumonTestInstallationTimes.setupInstallationTimes();
-        LumonTestProductionTimes.setupProductionTimes();
-        LumonTestConfigurations.setupConfigurationData();
+        LumonTestProducts.setupTestProducts();
+        LumonTestDataFactory.setupProductSettings();
+        LumonTestDataFactory.setupPriceBooks();
+        LumonTestDataFactory.setupInstallationTimes();
+        LumonTestDataFactory.setupProductionTimes();
+
         // B2C Setup
-        /*LumonTestDataFactory.setupAccountB2C();
+        LumonTestDataFactory.setupAccountB2C();
         LumonTestDataFactory.setupOpportunityB2C();        
-        LumonTestDataFactory.setupConfigurationB2C();
-        LumonTestDataFactory.setupConfigurationProductsB2C();
-        LumonTestDataFactory.setupConfigurationOptionsB2C();       
-        LumonTestDataFactory.setupConfigurationMessagesB2C();*/
+        LumonTestDataFactory.setupConfigurations();
+        //LumonTestDataFactory.setupConfigurationProductsB2C();
+        //LumonTestDataFactory.setupConfigurationOptionsB2C();       
+        //LumonTestDataFactory.setupConfigurationMessagesB2C();
+
+        // While custom settings data is included in sandbox copies, 
+        // it is treated as data for the purposes of Apex test isolation. 
+        // Apex tests must use SeeAllData=true to see existing custom settings data in the organization. 
+        // As a best practice, create the required custom settings data in your test setup.
+        
         Test.stopTest();
+        
     }
-    private static Id b2cAccountId = LumonTestDataFactory.b2cAccountId;
-    private static Id b2cOpportunityId = LumonTestDataFactory.b2cOpportunityId;
-    private static List<Configuration__c> b2cConfigurations = LumonTestDataFactory.b2cConfigurations;
-    private static List<Configuration_Product__c> b2cConfigProducts = LumonTestDataFactory.b2cConfigProducts;
-    private static List<Configuration_Option__c> b2cConfigOptions = LumonTestDataFactory.b2cConfigOptions;
-    private static List<Configuration_Message__c> b2cConfigMessages = LumonTestDataFactory.b2cConfigMessages;
-    private static String visualPricingJSON = LumonTestConfigurations.visualPricingJSON;
-    private static String soveliaPricingJSON = LumonTestConfigurations.soveliaPricingJSON;
+    private static Id b2cAccountId = LumonTestVariables.b2cAccountId;
+    private static Id b2cOpportunityId = LumonTestVariables.b2cOpportunityId;
+    private static List<Configuration__c> b2cConfigurations = LumonTestVariables.b2cConfigurations;
+    private static List<Configuration_Product__c> b2cConfigProducts = LumonTestVariables.b2cConfigProducts;
+    private static List<Configuration_Option__c> b2cConfigOptions = LumonTestVariables.b2cConfigOptions;
+    private static List<Configuration_Message__c> b2cConfigMessages = LumonTestVariables.b2cConfigMessages;
+    private static String visualPricingJSON = string.valueOf([SELECT Visual_Pricing_JSON__c FROM Configuration__c WHERE plan_Type__c = 'visual' LIMIT 1]);
+    private static String soveliaPricingJSON = string.valueOf([SELECT Sovelia_Pricing_JSON__c FROM Configuration__c WHERE plan_Type__c = 'sovelia' LIMIT 1]);
     //private static String testPricingJSON = LumonTestConfigurations.testPricingJSON;
     @IsTest
     static void getConfigurationsByIdTest(){
@@ -306,7 +306,7 @@ public with sharing class ConfigurationControllerTest {
         List<Configuration__c> configurations =  b2cConfigurations;
         List<Id> configurationIds = new List<Id>(new Map<Id, Configuration__c>(configurations).keySet()); 
         String configPlanId = configurationIds[0];
-        String visualPricingJSON = LumonTestConfigurations.visualPricingJSON;
+        
         Test.startTest();
         VisualConfiguration visualConfigObjects = ConfigurationController.getVisualConfigurationObjects(visualPricingJSON);
         System.assertNotEquals(null, visualPricingJSON, 'Expecting a JSON to be returned');
@@ -461,7 +461,7 @@ public with sharing class ConfigurationControllerTest {
         List<Id> configurationIds = new List<Id>(new Map<Id, Configuration__c>(configurations).keySet()); 
         String recordId = b2cOpportunityId;
         String configPlanId = configurationIds[0];
-        String visualPricingJSON = LumonTestConfigurations.visualPricingJSON;
+
         Test.startTest();
         String visualConfigResult = ConfigurationController.processVisualConfiguration(configPlanId,recordId,visualPricingJSON);
         System.assertNotEquals(null, visualConfigResult, 'Expecting a JSON to be processed');
@@ -471,11 +471,9 @@ public with sharing class ConfigurationControllerTest {
     }
     @IsTest
     static void getAllConfigurationsTest1(){
-        List<Configuration__c> configurations =  b2cConfigurations;
-        List<Id> configurationIds = new List<Id>(new Map<Id, Configuration__c>(configurations).keySet()); 
         String recordId = b2cOpportunityId;
-        String configPlanId = configurationIds[0];
-        String visualPlanId = 'ABCDE';
+        String configPlanId = b2cConfigurations[0]?.Id;
+        String visualPlanId = b2cConfigurations[0]?.Visual_Id__c;//'ABCDE';
         Test.startTest();
         List<Configuration__c> allConfigurations = ConfigurationController.getAllConfigurations(configPlanId,recordId,visualPlanId);
         System.assertNotEquals(0, allConfigurations.size(), 'Expecting a Configuration to be returned');

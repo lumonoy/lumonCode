@@ -2,7 +2,7 @@
  * @description       : 
  * @author            : Henk Reynders
  * @group             : 
- * @last modified on  : 12-07-2023
+ * @last modified on  : 06-07-2024
  * @last modified by  : Henk Reynders
 **/
 @isTest
@@ -26,8 +26,8 @@ public class FSL_Work_Order_View_Controller_Test {
     public static void GetServiceAppointmentsTest() {
         Id WOId = workOrderId;
     	Id SAId = serviceAppointmentId; 
-        System.debug('--- WO: '+WOId);
-        System.debug('--- SA: '+SAId);
+        System.debug('--- WorkOrderViewControllerTest - WO: '+WOId);
+        System.debug('--- WorkOrderViewControllerTest - SA: '+SAId);
         Test.startTest();
         List<ServiceAppointment> SAs = FSL_Work_Order_View_Controller.getServiceAppointments(WOId);
         Test.stopTest();
@@ -74,7 +74,7 @@ public class FSL_Work_Order_View_Controller_Test {
                            			Deliver_To__c, Delivery_Address__c, Delivery_Location__c,
                            			Install_At__c,Installation_Address__c
                            FROM Opportunity LIMIT 1];
-        System.debug('--- Opportunity Before: '+OPP);
+        System.debug('--- WorkOrderViewControllerTest - Opportunity Before: '+OPP);
         OPP.Installation_Address__City__s = 'Helsinki';
         OPP.Installation_Address__Street__s = 'Test Helsinki Street';
         OPP.Installation_Address__PostalCode__s = '00200';
@@ -85,15 +85,15 @@ public class FSL_Work_Order_View_Controller_Test {
 		OPP.Installation_Address__GeocodeAccuracy__s='Address';
         OPP.Description = 'update Oppty';
         update OPP;
-        System.debug('--- Opportunity After: '+OPP);
-        System.debug('--- Account: '+OPP.AccountId);
-        System.debug('--- Contact: '+OPP.Account.PersonContactId);
-        System.debug('--- Location: '+OPP.Delivery_Location__c);
-        System.debug('--- Deliver Address: '+OPP.Delivery_Address__c);
-        System.debug('--- Installation_Address__c ---'+OPP.Installation_Address__c);
-        System.debug('--- Install Address Street: '+OPP.Installation_Address__Street__s);
-        System.debug('--- Install Address Country: '+OPP.Installation_Address__CountryCode__s);
-        System.debug('--- Stage: '+OPP.StageName);
+        System.debug('--- WorkOrderViewControllerTest - Opportunity After: '+OPP);
+        System.debug('--- WorkOrderViewControllerTest - Account: '+OPP.AccountId);
+        System.debug('--- WorkOrderViewControllerTest - Contact: '+OPP.Account.PersonContactId);
+        System.debug('--- WorkOrderViewControllerTest - Location: '+OPP.Delivery_Location__c);
+        System.debug('--- WorkOrderViewControllerTest - Deliver Address: '+OPP.Delivery_Address__c);
+        System.debug('--- WorkOrderViewControllerTest - Installation_Address__c ---'+OPP.Installation_Address__c);
+        System.debug('--- WorkOrderViewControllerTest - Install Address Street: '+OPP.Installation_Address__Street__s);
+        System.debug('--- WorkOrderViewControllerTest - Install Address Country: '+OPP.Installation_Address__CountryCode__s);
+        System.debug('--- WorkOrderViewControllerTest - Stage: '+OPP.StageName);
         Test.startTest();
         String flowResult = FSL_Work_Order_View_Controller.createWorkOrder(OPPId);
         Test.stopTest();

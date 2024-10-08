@@ -12,16 +12,17 @@
     <filters>
         <field>CASES.RECORDTYPE</field>
         <operation>equals</operation>
-        <value>Case.Lumon_ICT_Support,Case.ICT_Case</value>
+        <value>012JW000001Z7Si,Case.ICT_Case</value>
     </filters>
     <filters>
         <field>CASES.STATUS</field>
         <operation>equals</operation>
         <value>New,In Progress</value>
     </filters>
-    <label>My ICT Cases</label>
+    <label>My ICT Support Cases</label>
     <sharedTo>
         <group>Admins</group>
+        <group>ICT_Global</group>
         <group>ICT_Support</group>
     </sharedTo>
 </ListView>

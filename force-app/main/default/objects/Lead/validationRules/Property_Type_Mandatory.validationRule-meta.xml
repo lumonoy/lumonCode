@@ -9,6 +9,7 @@ ISPICKVAL( Status ,&apos;MQL&apos;),
 ISPICKVAL( Status ,&apos;Sales Lead&apos;),
 ISPICKVAL( Status ,&apos;SQL&apos;)
 )
+&amp;&amp; ISPICKVAL (Business_Type__c , &apos;Consumer&apos;)
 &amp;&amp;
  ISBLANK( TEXT(Property_Type__c))</errorConditionFormula>
     <errorMessage>Please select a Property Type before saving.</errorMessage>

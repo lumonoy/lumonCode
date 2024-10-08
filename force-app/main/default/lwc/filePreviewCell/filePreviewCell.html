@@ -1,0 +1,8 @@
+<template>
+    <a href="javascript:void(0)" onmouseover={handleMouseOver} onmouseout={handleMouseOut} onclick={navigateToFile}>{label}</a>
+    <template if:true={showPreview}>
+      <div class="overlay">
+        <c-file-preview file-id={fileOrVersionId} height-in-rem="3" message={message}></c-file-preview>
+      </div>
+    </template>
+  </template>

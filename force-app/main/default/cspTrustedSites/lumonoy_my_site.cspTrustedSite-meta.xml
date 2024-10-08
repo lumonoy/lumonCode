@@ -3,7 +3,9 @@
     <canAccessCamera>false</canAccessCamera>
     <canAccessMicrophone>false</canAccessMicrophone>
     <context>All</context>
-    <endpointUrl>https://lumonoy.my.site.com</endpointUrl>
+    <description>Test	https://lumonoy--lumontest.sandbox.my.site.com
+Prod https://lumonoy.my.site.com</description>
+    <endpointUrl>https://lumonoy--lumontest.sandbox.my.site.com</endpointUrl>
     <isActive>true</isActive>
     <isApplicableToConnectSrc>true</isApplicableToConnectSrc>
     <isApplicableToFontSrc>true</isApplicableToFontSrc>

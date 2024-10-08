@@ -3,7 +3,7 @@
     <fullName>Product_Cost__c</fullName>
     <defaultValue>0</defaultValue>
     <externalId>false</externalId>
-    <label>Product Cost</label>
+    <label>Product Cost OLD</label>
     <precision>12</precision>
     <required>true</required>
     <scale>2</scale>

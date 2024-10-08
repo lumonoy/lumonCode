@@ -7,6 +7,8 @@
     <label>LightningBolt</label>
     <navType>Standard</navType>
     <tabs>standard-LightningBoltHome</tabs>
+    <tabs>Install_Expense__c</tabs>
+    <tabs>Delivery_Batch__c</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>LightningBolt_UtilityBar</utilityBar>
 </CustomApplication>

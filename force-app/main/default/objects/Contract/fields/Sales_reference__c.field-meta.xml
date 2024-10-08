@@ -4,7 +4,7 @@
     <description>Sales Reference/Order number for integration from Opportunity</description>
     <externalId>false</externalId>
     <formula>Opportunity__r.Sales_reference__c</formula>
-    <label>Sales reference</label>
+    <label>Sales reference OLD</label>
     <required>false</required>
     <trackHistory>false</trackHistory>
     <type>Text</type>

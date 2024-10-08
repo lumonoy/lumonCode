@@ -129,7 +129,7 @@ DAY(DateValue({!$Record.CreatedDate}))
         <recordTriggerType>Create</recordTriggerType>
         <triggerType>RecordAfterSave</triggerType>
     </start>
-    <status>Active</status>
+    <status>Obsolete</status>
     <variables>
         <name>EntitlementVAR</name>
         <dataType>SObject</dataType>

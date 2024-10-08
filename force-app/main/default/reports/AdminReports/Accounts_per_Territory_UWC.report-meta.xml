@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Account$Country_Attribute__c</field>
+    </columns>
+    <columns>
+        <field>Account$Business_Type_Attribute__c</field>
+    </columns>
+    <columns>
+        <field>Account$Name</field>
+    </columns>
+    <columns>
+        <field>Account.AccountTerritory2Associations$Name</field>
+    </columns>
+    <columns>
+        <field>Account.AccountTerritory2Associations$Territory2Type</field>
+    </columns>
+    <columns>
+        <field>Account$District_Type__c</field>
+    </columns>
+    <columns>
+        <field>Account$District__c</field>
+    </columns>
+    <columns>
+        <field>Account$LastModifiedDate</field>
+    </columns>
+    <currency>EUR</currency>
+    <format>Tabular</format>
+    <name>Accounts per Territory</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Accounts_assigned_to_Territories__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>Account$CreatedDate</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

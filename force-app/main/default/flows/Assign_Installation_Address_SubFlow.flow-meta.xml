@@ -84,49 +84,49 @@
             <assignToReference>recInstallationAddress.CountryCode</assignToReference>
             <operator>Assign</operator>
             <value>
-                <elementReference>Get_Building.Building_Address__CountryCode__s</elementReference>
+                <elementReference>Get_Building.BuildingAddress__CountryCode__s</elementReference>
             </value>
         </assignmentItems>
         <assignmentItems>
             <assignToReference>recInstallationAddress.StateCode</assignToReference>
             <operator>Assign</operator>
             <value>
-                <elementReference>Get_Building.Building_Address__StateCode__s</elementReference>
+                <elementReference>Get_Building.BuildingAddress__StateCode__s</elementReference>
             </value>
         </assignmentItems>
         <assignmentItems>
             <assignToReference>recInstallationAddress.PostalCode</assignToReference>
             <operator>Assign</operator>
             <value>
-                <elementReference>Get_Building.Building_Address__PostalCode__s</elementReference>
+                <elementReference>Get_Building.BuildingAddress__PostalCode__s</elementReference>
             </value>
         </assignmentItems>
         <assignmentItems>
             <assignToReference>recInstallationAddress.City</assignToReference>
             <operator>Assign</operator>
             <value>
-                <elementReference>Get_Building.Building_Address__City__s</elementReference>
+                <elementReference>Get_Building.BuildingAddress__City__s</elementReference>
             </value>
         </assignmentItems>
         <assignmentItems>
             <assignToReference>recInstallationAddress.Street</assignToReference>
             <operator>Assign</operator>
             <value>
-                <elementReference>Get_Building.Building_Address__Street__s</elementReference>
+                <elementReference>Get_Building.BuildingAddress__Street__s</elementReference>
             </value>
         </assignmentItems>
         <assignmentItems>
             <assignToReference>recInstallationAddress.Latitude</assignToReference>
             <operator>Assign</operator>
             <value>
-                <elementReference>Get_Building.Building_Address__Latitude__s</elementReference>
+                <elementReference>Get_Building.BuildingAddress__Latitude__s</elementReference>
             </value>
         </assignmentItems>
         <assignmentItems>
             <assignToReference>recInstallationAddress.Longitude</assignToReference>
             <operator>Assign</operator>
             <value>
-                <elementReference>Get_Building.Building_Address__Longitude__s</elementReference>
+                <elementReference>Get_Building.BuildingAddress__Longitude__s</elementReference>
             </value>
         </assignmentItems>
         <connector>

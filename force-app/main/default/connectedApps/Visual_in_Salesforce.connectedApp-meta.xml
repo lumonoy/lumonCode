@@ -2,7 +2,7 @@
 <ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
     <canvasConfig>
         <accessMethod>Post</accessMethod>
-        <canvasUrl>https://visual.lumon.com/visual</canvasUrl>
+        <canvasUrl>https://visual-test.lumon.com/visual</canvasUrl>
         <locations>Visualforce</locations>
         <locations>Aura</locations>
         <samlInitiationMethod>None</samlInitiationMethod>
@@ -10,8 +10,8 @@
     <contactEmail>konrad.niewiadomski@fluidogroup.com</contactEmail>
     <label>Visual in Salesforce</label>
     <oauthConfig>
-        <callbackUrl>https://visual.lumon.com/visual</callbackUrl>
-        <consumerKey>3MVG9t0sl2P.pByrLwCwb9N4jyfuD9pLY2BnKOCMKmYC9Uou4YDLtJUlqA6ua7eYRlrCEbVObS5dwwgdIzcvv</consumerKey>
+        <callbackUrl>https://visual-test.lumon.com/visual</callbackUrl>
+        <consumerKey>3MVG9Lu3LaaTCEgJ1gvddPIi1T5OkbgoNEI8.FHfOZz4E.YPTZlfmlo8BX8MZnrlJIKQV3l9pvn.8_koum1CY</consumerKey>
         <isAdminApproved>true</isAdminApproved>
         <isClientCredentialEnabled>false</isClientCredentialEnabled>
         <isCodeCredentialEnabled>false</isCodeCredentialEnabled>
@@ -29,16 +29,22 @@
         <ipRelaxation>ENFORCE</ipRelaxation>
         <refreshTokenPolicy>infinite</refreshTokenPolicy>
     </oauthPolicy>
+    <permissionSetName>Admin - Object and Field Permissions</permissionSetName>
+    <permissionSetName>Visual Configurator Permissions</permissionSetName>
+    <permissionSetName>IntegrationUserTestPermissions</permissionSetName>
+    <profileName>Lumon Customer Service</profileName>
     <profileName>Lumon Installer</profileName>
     <profileName>Lumon Installation Manager</profileName>
     <profileName>Integration User</profileName>
     <profileName>Lumon Sales B2C</profileName>
     <profileName>Lumon Sales Manager</profileName>
+    <profileName>Lumon ICT Support</profileName>
     <profileName>Lumon Technical Support</profileName>
     <profileName>Lumon Salesforce Testing</profileName>
     <profileName>System Administrator</profileName>
-    <profileName>Lumon Salesforce Admin</profileName>
+    <profileName>Lumon Logistics</profileName>
+    <profileName>Lumon Production</profileName>
     <profileName>Lumon Board Member</profileName>
-    <profileName>Lumon External Consultant</profileName>
-    <startUrl>https://visual.lumon.com/visual</startUrl>
+    <profileName>Lumon System Admin</profileName>
+    <startUrl>https://visual-test.lumon.com/visual</startUrl>
 </ConnectedApp>

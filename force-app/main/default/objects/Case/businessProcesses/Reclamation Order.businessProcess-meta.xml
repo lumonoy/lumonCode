@@ -2,7 +2,7 @@
 <BusinessProcess xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Reclamation Order</fullName>
     <description>Reclamation order type of notion logged by installer</description>
-    <isActive>false</isActive>
+    <isActive>true</isActive>
     <values>
         <fullName>In Progress</fullName>
         <default>false</default>

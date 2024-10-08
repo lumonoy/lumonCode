@@ -4,5 +4,5 @@
     <entityName>Case</entityName>
     <fieldName>Status</fieldName>
     <masterLabel>Quality Event Case Path</masterLabel>
-    <recordTypeName>Quality_Event</recordTypeName>
+    <recordTypeName>INST_Case</recordTypeName>
 </PathAssistant>

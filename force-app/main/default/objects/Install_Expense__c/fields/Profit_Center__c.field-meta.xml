@@ -3,7 +3,7 @@
     <fullName>Profit_Center__c</fullName>
     <description>Profit Center value updated from Globsl picklist</description>
     <externalId>false</externalId>
-    <label>Profit Center</label>
+    <label>Profit Center OLD</label>
     <required>false</required>
     <trackTrending>false</trackTrending>
     <type>Picklist</type>

@@ -584,6 +584,7 @@
         <triggerType>RecordAfterSave</triggerType>
     </start>
     <status>Obsolete</status>
+    <triggerOrder>109</triggerOrder>
     <variables>
         <name>ContactId</name>
         <dataType>String</dataType>

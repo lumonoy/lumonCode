@@ -2,10 +2,10 @@
 <Queue xmlns="http://soap.sforce.com/2006/04/metadata">
     <doesSendEmailToMembers>false</doesSendEmailToMembers>
     <email>sfitsupport@lumon.com</email>
-    <name>ICT Global Queue</name>
+    <name>ICT Support Queue</name>
     <queueMembers>
         <publicGroups>
-            <publicGroup>ICT_Support</publicGroup>
+            <publicGroup>ICT_Global</publicGroup>
         </publicGroups>
     </queueMembers>
     <queueSobject>

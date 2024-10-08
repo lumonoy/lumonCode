@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <layouts>
+        <layout>Lumon Installation Manager Time Sheet Layout</layout>
+        <sections>
+            <label><!-- Approver --></label>
+            <section>Approver</section>
+        </sections>
+        <sections>
+            <label><!-- Travel --></label>
+            <section>Travel</section>
+        </sections>
+        <sections>
+            <label><!-- Work Time --></label>
+            <section>Work Time</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Lumon Installer Time Sheet Layout</layout>
+        <sections>
+            <label><!-- Mileage Details --></label>
+            <section>Mileage Details</section>
+        </sections>
+        <sections>
+            <label><!-- Timesheet Details --></label>
+            <section>Timesheet Details</section>
+        </sections>
+        <sections>
+            <label><!-- Timesheet Summary --></label>
+            <section>Timesheet Summary</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>Kirjaa kotityökilometrit</label>
+        <name>Enter_Home_Work_Mileage</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Enter home mileage --></label>
+        <name>Enter_home_mileage</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- View Timesheet --></label>
+        <name>View_Timesheet</name>
+    </quickActions>
+</CustomObjectTranslation>

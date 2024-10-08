@@ -184,16 +184,22 @@
     </actionOverrides>
     <actionOverrides>
         <actionName>View</actionName>
-        <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
-        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Lumon_Account_Record_Page</content>
         <formFactor>Large</formFactor>
-        <type>Default</type>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
     </actionOverrides>
     <actionOverrides>
         <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Lumon_Account_Record_Page</content>
         <formFactor>Small</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
@@ -239,12 +245,13 @@
         <excludedStandardButtons>NewFromDocument</excludedStandardButtons>
         <excludedStandardButtons>DataDotComGetAccountsMultiAddAction</excludedStandardButtons>
         <excludedStandardButtons>DiscoveryGetAccountsAction</excludedStandardButtons>
-        <excludedStandardButtons>PipelineInspection</excludedStandardButtons>
         <excludedStandardButtons>MassCreateCallList</excludedStandardButtons>
         <excludedStandardButtons>SendBulkMessageAction</excludedStandardButtons>
         <excludedStandardButtons>MassAddToActionableList</excludedStandardButtons>
+        <excludedStandardButtons>CreateGroupAction</excludedStandardButtons>
         <excludedStandardButtons>NavigateToAccountDiscoveryDashboard</excludedStandardButtons>
-        <excludedStandardButtons>Import</excludedStandardButtons>
+        <excludedStandardButtons>PipelineInspection</excludedStandardButtons>
+        <excludedStandardButtons>MassAssignRecordLabel</excludedStandardButtons>
         <lookupDialogsAdditionalFields>ACCOUNT.NAME</lookupDialogsAdditionalFields>
         <lookupDialogsAdditionalFields>CORE.USERS.ALIAS</lookupDialogsAdditionalFields>
         <lookupDialogsAdditionalFields>ACCOUNT.TYPE</lookupDialogsAdditionalFields>
@@ -252,12 +259,13 @@
         <lookupPhoneDialogsAdditionalFields>CORE.USERS.ALIAS</lookupPhoneDialogsAdditionalFields>
         <lookupPhoneDialogsAdditionalFields>ACCOUNT.TYPE</lookupPhoneDialogsAdditionalFields>
         <lookupPhoneDialogsAdditionalFields>ACCOUNT.PHONE1</lookupPhoneDialogsAdditionalFields>
-        <massQuickActions>Update_Addresses</massQuickActions>
+        <massQuickActions>EditAccountAddresses</massQuickActions>
         <searchResultsAdditionalFields>ACCOUNT.NAME</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>ACCOUNT.ACCOUNT_NUMBER</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>ACCOUNT.ADDRESS1_STREET</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>CORE.USERS.ALIAS</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>Business_Type__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Street_Address__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Sales_Area__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Sales_Office__c</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>Private</sharingModel>
 </CustomObject>

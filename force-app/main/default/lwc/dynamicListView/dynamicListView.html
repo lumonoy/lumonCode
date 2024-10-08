@@ -1,0 +1,72 @@
+<!--
+  @description       : 
+  @author            : Henk Reynders
+  @group             : 
+  @last modified on  : 07-09-2024
+  @last modified by  : Henk Reynders
+-->
+<template>  
+    <div class='slds-grid slds-wrap' style='width: 280px;'>
+        <div class='slds-m-around_medium'>
+            <lightning-combobox
+                name='listViewSelect'
+                label='Select List View'
+                value={selectedListView}
+                placeholder='Select a List View'
+                options={listViewOptions}
+                onchange={handleListViewChange}>
+            </lightning-combobox>
+        </div>
+    </div>
+    <br>
+    <div class='slds-grid slds-wrap'>
+        <!-- Image column -->
+        <div class='slds-col slds-size_1-of-4'>
+        </div>
+        <!--Print button column --> 
+        <div class='slds-col slds-size_3-of-4 slds-text-align_right'>
+            <lightning-button
+                variant='brand'
+                label='Print'
+                onclick={handlePrint}
+            ></lightning-button>
+        </div>
+    </div>
+    <br>
+    <div if:true={isLoading}>
+        <lightning-spinner alternative-text='Loading'></lightning-spinner>
+    </div>
+    <template if:false={isLoading}>
+        <div class='print-section'>
+            <template if:true={records.length}>
+                <lightning-datatable
+                    key-field='Id'
+                    data={records}
+                    columns={columns}
+                    hide-checkbox-column>
+                </lightning-datatable>
+                <!-- Pagination buttons -->
+                <div class='slds-m-top_medium slds-text-align_center'>
+                    <lightning-button-group>
+                        <lightning-button class='previous'
+                            label='Previous'
+                            onclick={handlePrevious}
+                            disabled={disablePrevious}
+                        ></lightning-button>
+                        <lightning-button class='next'
+                            label='Next'
+                            onclick={handleNext}
+                            disabled={disableNext}
+                        ></lightning-button>
+                    </lightning-button-group>
+                </div>
+            </template>
+            <template if:false={records.length}>
+                <div class='slds-text-align_center'>
+                    No records to display
+                </div>
+            </template>
+        </div>
+    </template>
+
+</template>

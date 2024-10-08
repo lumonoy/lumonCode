@@ -4,7 +4,7 @@
     <description>Short description of what should not be offered to this customer.</description>
     <externalId>false</externalId>
     <inlineHelpText>Short description of what should not be offered to this customer.</inlineHelpText>
-    <label>What not to sell</label>
+    <label>What not to sell OLD</label>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>false</trackHistory>

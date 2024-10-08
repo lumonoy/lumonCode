@@ -2,14 +2,14 @@
 <StandardValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <valueTranslation>
         <masterLabel>Cold</masterLabel>
-        <translation><!-- Cold --></translation>
+        <translation>Kylmä</translation>
     </valueTranslation>
     <valueTranslation>
         <masterLabel>Hot</masterLabel>
-        <translation><!-- Hot --></translation>
+        <translation>Kuuma</translation>
     </valueTranslation>
     <valueTranslation>
         <masterLabel>Warm</masterLabel>
-        <translation><!-- Warm --></translation>
+        <translation>Lämmin</translation>
     </valueTranslation>
 </StandardValueSetTranslation>

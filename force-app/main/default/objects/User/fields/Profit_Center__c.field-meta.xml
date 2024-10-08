@@ -96,7 +96,14 @@
             <controllingFieldValue>INT</controllingFieldValue>
             <controllingFieldValue>LU</controllingFieldValue>
             <controllingFieldValue>LSU</controllingFieldValue>
-            <valueName>274 LUI ICT</valueName>
+            <valueName>271 LUI R&amp;D</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LUI</controllingFieldValue>
+            <controllingFieldValue>INT</controllingFieldValue>
+            <controllingFieldValue>LU</controllingFieldValue>
+            <controllingFieldValue>LSU</controllingFieldValue>
+            <valueName>272 LUI HR</valueName>
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>LUI</controllingFieldValue>
@@ -110,7 +117,7 @@
             <controllingFieldValue>INT</controllingFieldValue>
             <controllingFieldValue>LU</controllingFieldValue>
             <controllingFieldValue>LSU</controllingFieldValue>
-            <valueName>272 LUI HR</valueName>
+            <valueName>274 LUI ICT</valueName>
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>LUI</controllingFieldValue>
@@ -173,6 +180,10 @@
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>LCE</controllingFieldValue>
+            <valueName>513 LCE Sevilla</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LCE</controllingFieldValue>
             <valueName>520 LCE Barcelona</valueName>
         </valueSettings>
         <valueSettings>
@@ -202,10 +213,6 @@
         <valueSettings>
             <controllingFieldValue>LCE</controllingFieldValue>
             <valueName>590 LCE Administration</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>LCE</controllingFieldValue>
-            <valueName>513 LCE Sevilla</valueName>
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>LDE</controllingFieldValue>

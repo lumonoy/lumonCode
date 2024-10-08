@@ -1,6 +1,202 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
     <labels>
+        <fullName>Action_FileManager</fullName>
+        <language>fi</language>
+        <protected>false</protected>
+        <shortDescription>FileManager</shortDescription>
+        <value>Tiedostonhallinta</value>
+    </labels>
+    <labels>
+        <fullName>Button_Add</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Button Add</shortDescription>
+        <value>Add</value>
+    </labels>
+    <labels>
+        <fullName>Button_AddBlinds</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Button</shortDescription>
+        <value>New Blinds</value>
+    </labels>
+    <labels>
+        <fullName>Button_AddPlan</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Button Add Visual Plan</shortDescription>
+        <value>New Plan</value>
+    </labels>
+    <labels>
+        <fullName>Button_Calc</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Button Calc</shortDescription>
+        <value>Calculate</value>
+    </labels>
+    <labels>
+        <fullName>Button_Cancel</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Button Cancel</shortDescription>
+        <value>Cancel</value>
+    </labels>
+    <labels>
+        <fullName>Button_Clone</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Button Clone</shortDescription>
+        <value>Clone</value>
+    </labels>
+    <labels>
+        <fullName>Button_Confirm</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Button Confirm</shortDescription>
+        <value>Confirm</value>
+    </labels>
+    <labels>
+        <fullName>Button_Copy</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Button Copy</shortDescription>
+        <value>Copy</value>
+    </labels>
+    <labels>
+        <fullName>Button_CreateBatch</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Button Create Batch</shortDescription>
+        <value>Create Batch</value>
+    </labels>
+    <labels>
+        <fullName>Button_Delete</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Button Delete</shortDescription>
+        <value>Delete</value>
+    </labels>
+    <labels>
+        <fullName>Button_Edit</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Button Edit</shortDescription>
+        <value>Edit</value>
+    </labels>
+    <labels>
+        <fullName>Button_Expand</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Button Expand</shortDescription>
+        <value>Expand</value>
+    </labels>
+    <labels>
+        <fullName>Button_Mass</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Button Mass Update</shortDescription>
+        <value>Mass Update</value>
+    </labels>
+    <labels>
+        <fullName>Button_MassUpdate</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Button Mass Update</shortDescription>
+        <value>Mass Update</value>
+    </labels>
+    <labels>
+        <fullName>Button_New</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Button New</shortDescription>
+        <value>New</value>
+    </labels>
+    <labels>
+        <fullName>Button_Open</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Button Open Plan</shortDescription>
+        <value>Open</value>
+    </labels>
+    <labels>
+        <fullName>Button_OpenPlan</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Button Open Plan</shortDescription>
+        <value>Open</value>
+    </labels>
+    <labels>
+        <fullName>Button_Refresh</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Button Refresh</shortDescription>
+        <value>Refresh</value>
+    </labels>
+    <labels>
+        <fullName>Button_Save</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Button Save</shortDescription>
+        <value>Save</value>
+    </labels>
+    <labels>
+        <fullName>Button_Split</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Button Split</shortDescription>
+        <value>Split</value>
+    </labels>
+    <labels>
+        <fullName>Button_Update</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Button Update</shortDescription>
+        <value>Update</value>
+    </labels>
+    <labels>
+        <fullName>Button_Use</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Button Use Plan</shortDescription>
+        <value>Use</value>
+    </labels>
+    <labels>
+        <fullName>Button_UsePlan</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Button Use Plan</shortDescription>
+        <value>Use</value>
+    </labels>
+    <labels>
+        <fullName>CPQ_Tab_Config</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CPQ Tab Config</shortDescription>
+        <value>Contents</value>
+    </labels>
+    <labels>
+        <fullName>CPQ_Tab_Contract</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CPQ Tab Contract</shortDescription>
+        <value>Contract</value>
+    </labels>
+    <labels>
+        <fullName>CPQ_Tab_Opportunity</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CPQ Tab Opportunity</shortDescription>
+        <value>Information</value>
+    </labels>
+    <labels>
+        <fullName>CPQ_Tab_Pricing</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CPQ_Tab_Pricing</shortDescription>
+        <value>Pricing</value>
+    </labels>
+    <labels>
         <fullName>LP_Acc_Account</fullName>
         <categories>Lumon Portal</categories>
         <language>en_US</language>
@@ -1063,5 +1259,110 @@
         <protected>false</protected>
         <shortDescription>Summary VAT X%</shortDescription>
         <value>Summary, VAT{0}%, {1}</value>
+    </labels>
+    <labels>
+        <fullName>Tab_Configure</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Tab Configure</shortDescription>
+        <value>Configure</value>
+    </labels>
+    <labels>
+        <fullName>Tab_Contract</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Tab Contract</shortDescription>
+        <value>Contract</value>
+    </labels>
+    <labels>
+        <fullName>Tab_Customer</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Tab Customer</shortDescription>
+        <value>Customer</value>
+    </labels>
+    <labels>
+        <fullName>Tab_Deliver</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Tab Deliver</shortDescription>
+        <value>Delivery</value>
+    </labels>
+    <labels>
+        <fullName>Tab_Information</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Tab Information</shortDescription>
+        <value>Information</value>
+    </labels>
+    <labels>
+        <fullName>Tab_Install</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Tab Install</shortDescription>
+        <value>Installation</value>
+    </labels>
+    <labels>
+        <fullName>Tab_Invoice</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Tab Invoice</shortDescription>
+        <value>Invoice</value>
+    </labels>
+    <labels>
+        <fullName>Tab_Measure</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Tab Measure</shortDescription>
+        <value>Measure</value>
+    </labels>
+    <labels>
+        <fullName>Tab_Offer</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Tab Offer</shortDescription>
+        <value>Offer</value>
+    </labels>
+    <labels>
+        <fullName>Tab_Order</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Tab Order</shortDescription>
+        <value>Order</value>
+    </labels>
+    <labels>
+        <fullName>Tab_Overview</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Tab Overview</shortDescription>
+        <value>Overview</value>
+    </labels>
+    <labels>
+        <fullName>Tab_Prepare</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Tab Prepare</shortDescription>
+        <value>Prepare</value>
+    </labels>
+    <labels>
+        <fullName>Tab_Price</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Tab Price</shortDescription>
+        <value>Price</value>
+    </labels>
+    <labels>
+        <fullName>Tab_Quote</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Tab Quote</shortDescription>
+        <value>Quote</value>
+    </labels>
+    <labels>
+        <fullName>Title_FileManager</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FileManager</shortDescription>
+        <value>File Manager</value>
     </labels>
 </CustomLabels>

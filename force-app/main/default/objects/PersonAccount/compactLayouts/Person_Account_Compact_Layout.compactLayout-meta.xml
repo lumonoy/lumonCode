@@ -4,10 +4,9 @@
     <fields>AccountNumber</fields>
     <fields>Name</fields>
     <fields>PersonMobilePhone</fields>
-    <fields>Phone</fields>
-    <fields>PersonHomePhone</fields>
     <fields>PersonEmail</fields>
     <fields>OwnerId</fields>
-    <fields>RecordTypeId</fields>
+    <fields>Country_Attribute__c</fields>
+    <fields>District__c</fields>
     <label>Person Account Compact Layout</label>
 </CompactLayout>

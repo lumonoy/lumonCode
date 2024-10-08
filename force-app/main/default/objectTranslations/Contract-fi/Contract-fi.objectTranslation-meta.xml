@@ -41,12 +41,12 @@
     </quickActions>
     <recordTypes>
         <description><!-- This contract is order contract which also implies that customer has 5 year warranty --></description>
-        <label><!-- Final Contract --></label>
+        <label>Lopullinen sopimus</label>
         <name>Final_Contract</name>
     </recordTypes>
     <recordTypes>
         <description><!-- This is preliminary contract record type in situations when final contract cannot be made --></description>
-        <label><!-- Preliminary Contract --></label>
+        <label>Alustava sopimus</label>
         <name>Preliminary_Contract</name>
     </recordTypes>
     <validationRules>

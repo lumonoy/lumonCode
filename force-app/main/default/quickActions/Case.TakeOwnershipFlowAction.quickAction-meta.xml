@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QuickAction xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Triggers an screen flow to handle the logic.</description>
+    <flowDefinition>Case_Take_Ownership</flowDefinition>
+    <label>Take Ownership</label>
+    <optionsCreateFeedItem>false</optionsCreateFeedItem>
+    <type>Flow</type>
+</QuickAction>

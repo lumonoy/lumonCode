@@ -1,3 +1,10 @@
+/**
+ * @description       : 
+ * @author            : Henk Reynders
+ * @group             : 
+ * @last modified on  : 04-18-2024
+ * @last modified by  : Henk Reynders
+**/
 public virtual class LP_MainControllerUtil {
 
 	public static String STATUS_SUCCESS = 'success';
@@ -211,8 +218,9 @@ public virtual class LP_MainControllerUtil {
 		return [
 			SELECT
 				OpportunityId,
+				Opportunity.Opportunity_Number__c,
 				Opportunity.Installation_Time_Calc__c,
-				Opportunity.Building__r.Building_Address__c,
+				//Opportunity.Building__r.Building_Address__c,
 				Opportunity.Net_Total_Price__c,
 				OrderNumber,
 				Contract.CustomerSignedDate,
@@ -226,8 +234,8 @@ public virtual class LP_MainControllerUtil {
 		return [
 			SELECT
 				StartDate,
-				EndDate,
-				Asset.Configuration_Product__r.Name
+				EndDate
+				//Asset.Configuration_Product__r.Name
 			FROM Entitlement
 			WHERE AssetId =: assetId
 			LIMIT 1
@@ -260,12 +268,12 @@ public virtual class LP_MainControllerUtil {
 			SELECT
 				Id,
 				OpportunityId,
-				Opportunity.Installation_Comments_for_Customer__c,
-				Opportunity.Order_Comments_for_Customer__c,
-				Opportunity.Delivery_Date_Calc__c,
-				Opportunity.Installation_Time_Calc__c,
-				Opportunity.Building__r.Building_Address__c,
-				Opportunity.Net_Total_Price__c,
+				//Opportunity.Installation_Comments_for_Customer__c,
+				//Opportunity.Order_Comments_for_Customer__c,
+				//Opportunity.Delivery_Date_Calc__c,
+				//Opportunity.Installation_Time_Calc__c,
+				//Opportunity.Building__r.Building_Address__c,
+				//Opportunity.Net_Total_Price__c,
 				Contract.CustomerSignedDate,
 				OrderNumber,
 				CreatedDate,

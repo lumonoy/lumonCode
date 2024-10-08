@@ -1,0 +1,442 @@
+{
+	"order": {
+		"order_info": {
+			"axcompanyid": "LSU",
+			"currency": "EUR",
+			"customer_reference": "",
+			"order_type": "Normal",
+			"order_number": "90007677",
+			"vendorid": "LU",
+			"project_number": "803100",
+			"parent_project": "",
+			"project_group": "CONSales",
+			"customer_segmentid": "1000",
+			"customer_segmentname": "Consumer apartment building",
+			"promised_deliveryweek": "2024/35",
+			"promised_date": "30.08.2024",
+			"main_contractor": "no",
+			"business_unit": "401",
+			"order_attachment": "\\\\frendsprod\\D365TEST\\SalesTori\\OUT\\attachments\\",
+			"subproject_info": {
+				"subproject_number": "803100_01",
+				"subproject_group": "CONWar",
+				"subproject_category": "Warranty",
+				"subproject_cost": "83.86",
+				"subproject_ordertype": "Reclamation",
+				"subproject_parentproject": "803100",
+				"subproject_chargeable": "non-chargeable"
+			},
+			"budget": {
+				"project_category": [
+					{
+						"category": "FactoryPurchase",
+						"cost": "4602.62"
+					},
+					{
+						"category": "InstallSupplies",
+						"cost": "189.20"
+					},
+					{
+						"category": "SalesFreight",
+						"cost": "653.32"
+					},
+					{
+						"category": "Wages",
+						"cost": "1151.16"
+					},
+					{
+						"category": "CostReserv",
+						"cost": "53.90"
+					}
+				]
+			},
+			"domestic_help": "",
+			"domestic_text": "",
+			"chargeable": "chargeable",
+			"worknumbername": "",
+			"pricelist": {
+				"pricelist_name": "Basic price list 1.4.2022"
+			},
+			"customer_address": {
+				"address_description": "Telescopic Lower",
+				"firstname": "Lower",
+				"lastname": "Telescopic",
+				"contact_person": "",
+				"street_address": "Testikatu 1",
+				"city": "VANTAA",
+				"postal_code": "01280",
+				"fax": "",
+				"country": "FIN",
+				"province": "",
+				"county": "",
+				"phone_number": "+35800000",
+				"email": "j@n.fi",
+				"note": "",
+				"number": "",
+				"customer_id": ""
+			},
+			"invoice_address": {
+				"address_description": "Telescopic Lower",
+				"firstname": "Lower",
+				"lastname": "Telescopic",
+				"contact_person": "",
+				"street_address": "Testikatu 1",
+				"city": "VANTAA",
+				"postal_code": "01280",
+				"fax": "",
+				"country": "FIN",
+				"province": "",
+				"county": "",
+				"phone_number": "+35800000",
+				"email": "j@n.fi",
+				"note": "Anna k\ufffdyh\ufffdlle ilmatteeks",
+				"payment_terms": "07",
+				"invoice_type": "Email",
+				"number": "",
+				"payment": "REF",
+				"paytrail_reference_id": ""
+			},
+			"install_address": {
+				"address_description": "Telescopic Lower",
+				"firstname": "Lower",
+				"lastname": "Telescopic",
+				"name": "FSL testi kulu",
+				"contact_person": "",
+				"street_address": "Lowtele",
+				"city": "Vantaa",
+				"postal_code": "07021",
+				"fax": "",
+				"country": "FIN",
+				"province": "",
+				"county": "",
+				"phone_number": "+35800000",
+				"email": "j@n.fi",
+				"note": "",
+				"number": null
+			},
+			"delivery_address": {
+				"address_description": "Telescopic Lower",
+				"firstname": "Lower",
+				"lastname": "Telescopic",
+				"contact_person": "Telescopic Lower",
+				"street_address": "Lowtele",
+				"city": "Vantaa",
+				"postal_code": "07021",
+				"fax": "",
+				"country": "FIN",
+				"province": "",
+				"county": "",
+				"phone_number": "+35800000",
+				"email": "j@n.fi",
+				"note": "",
+				"number": null,
+				"delivery_terms": "DAP",
+				"delivery_type": "delivery"
+			},
+			"sales_person": {
+				"username": "ristoku",
+				"supervisor": "asiakaspalvelu",
+				"firstname": "Risto",
+				"lastname": "Kujala"
+			}
+		},
+		"groups": {
+			"group": [
+				{
+					"delivery_batch": "1",
+					"delivery_batch_status": "Mitattu",
+					"delivery_batch_receive_date": "26.08.2024",
+					"delivery_batch_delivery_date": "21.08.2024",
+					"group_attachment": "",
+					"AXconfiguration": "no",
+					"group_name": "Avautuva (LGR)",
+					"pcs": "1",
+					"structurenumber": "9000767730017027",
+					"originalstructurenumber": "",
+					"install_start_date": "26.08.2024",
+					"install_end_date": "30.08.2024",
+					"additional_deliverytime": "0",
+					"process": "Normal",
+					"product_code": "90240001",
+					"storageid": "VAN",
+					"packing_order": "1",
+					"unit": "",
+					"line": "",
+					"floor": "",
+					"chargeable": "chargeable",
+					"sales_price": "5828.30",
+					"sproduct": "3726.80",
+					"sfreight": "390.70",
+					"sinstall": "1236.90",
+					"sother": "473.90",
+					"purchase_price": "1689.90",
+					"pproduct": "1689.90",
+					"pfreight": "0.00",
+					"pinstall": "0.00",
+					"pother": "0.00",
+					"calculated_salesprice": "5828.30",
+					"factory_price": "1689.90",
+					"fproduct": "1689.90",
+					"ffreight": "0.00",
+					"finstall": "0.00",
+					"fother": "0.00",
+					"contract_price": "182.70",
+					"salestori_plan_name": "SSPYO",
+					"glass_m2": "14.00",
+					"blinds_m2": "0.00",
+					"glass_pcs": "11",
+					"product_length": "7000",
+					"group_weight": "510.3707",
+					"product_attributes": {
+						"attributeid": "20090017"
+					},
+					"installed": "True",
+					"OrderLine": {
+						"BOMVersion": "9000767730017027",
+						"ItemID": "90240001",
+						"ItemName": "LG",
+						"InventLocationID": "VAN",
+						"Dimension1": "401",
+						"Dimension5": "asiakaspalvelu",
+						"DeliveryName": "Lower Telescopic",
+						"DeliveryStreet": "Lowtele",
+						"DeliveryZipCode": "07021",
+						"DeliveryCity": "Vantaa",
+						"DeliveryCountryRegionID": "FI",
+						"LineAmount": "5828.30",
+						"Apartment": "",
+						"Floor": "",
+						"DlvBatchID": "0",
+						"Line": "",
+						"FactoryConfirmedDlv": "",
+						"InstallHours": "7.94",
+						"InstallStart": "26.08.2024",
+						"ReservationStart": "2024-08-26T00.00.00",
+						"DeliveryDatePromised": "30.08.2024",
+						"Plan_name": "SSPYO",
+						"PieceWork_pay": "182.70"
+					},
+					"AssemblyInstructions": {
+						"@taskId": "0",
+						"InstallNotes": "",
+						"Attachments": {
+							"Attachment": "salestori-asennuskortti-9000767730017027.pdf",
+							"Folder": "\\269000\\269878\\"
+						},
+						"AssemblyDocument": [
+							{
+								"@name": "Tilaustiedot",
+								"Chapter": [
+									{
+										"@name": "Perustiedot",
+										"Paragraph": {
+											"@name": "Content",
+											"#text": "Telescopic Lower\r\nLowtele 07021 Vantaa\r\nPuhelin +35800000"
+										}
+									},
+									{
+										"@name": "Tilaustiedot",
+										"Paragraph": {
+											"@name": "Content",
+											"#text": "Asiakaslupaus 30/08/2024\r\nTilausnumero 90007677\r\nLinja \r\nKerros \r\nAsunto \r\nRVN 9000767730017027"
+										}
+									}
+								]
+							},
+							{
+								"@name": "Asennustiedot",
+								"Chapter": [
+									{
+										"@name": "Tuotetiedot",
+										"Paragraph": [
+											{
+												"@name": "Tuote",
+												"#text": "LG , sides:3"
+											},
+											{
+												"@name": "Kiinnitystapa",
+												"#text": "Upper: To roof, Lower: To floor"
+											},
+											{
+												"@name": "Profiilit",
+												"#text": "Upper: 11241205 RAL7024, Lower: 11243001 11243001 "
+											},
+											{
+												"@name": "Varusteet",
+												"#text": "Plastic parts: Dark grey, End plugs"
+											}
+										]
+									},
+									{
+										"@name": "Tuotemitat",
+										"Paragraph": [
+											{
+												"@name": "Sivu1,H3=1848",
+												"#text": "SA=90 EA= Length=2000 Z=0 Height=2000 X=0 Y=0 Lpcs=3 Rpcs=0 SA=90 Cbypass=No Adjus= \r\nUpper profile: 11241205 RAL7024\r\nLower profile: 11243001 RAL7024\r\nTeles. Profile: 11222206 RAL7024\r\nG1: W=649 H=1836\r\nG2: W=649 H=1836\r\nG3: W=649 H=1836\r\n"
+											},
+											{
+												"@name": "Sivu2,H3=1848",
+												"#text": "SA= EA= Length=4000 Z=0 Height=2000 X=0 Y=0 Lpcs=6 Rpcs=0 SA=270 Cbypass=L Adjus= \r\nUpper profile: 11241205 RAL7024\r\nLower profile: 11243001 RAL7024\r\nTeles. Profile: 11222206 RAL7024\r\nG1: W=665 H=1836\r\nG2: W=665 H=1836\r\nG3: W=665 H=1836\r\nG4: W=665 H=1836\r\nG5: W=665 H=1836\r\nG6: W=665 H=1836\r\n"
+											},
+											{
+												"@name": "Sivu3,H3=1848",
+												"#text": "SA= EA=90 Length=1000 Z=0 Height=2000 X=0 Y=0 Lpcs=0 Rpcs=2 SA= Cbypass=No Adjus= \r\nUpper profile: 11241205 RAL7024\r\nLower profile: 11243001 RAL7024\r\nTeles. Profile: 11222206 RAL7024\r\nG1: W=505 H=1836\r\nG2: W=505 H=1836\r\n"
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				},
+				{
+					"delivery_batch": "1",
+					"delivery_batch_status": "Mitattu",
+					"delivery_batch_receive_date": "26.08.2024",
+					"delivery_batch_delivery_date": "21.08.2024",
+					"group_attachment": "",
+					"AXconfiguration": "no",
+					"group_name": "Avautuva (LGR)",
+					"pcs": "1",
+					"structurenumber": "9000767730017028",
+					"originalstructurenumber": "",
+					"install_start_date": "26.08.2024",
+					"install_end_date": "30.08.2024",
+					"additional_deliverytime": "0",
+					"process": "Normal",
+					"product_code": "90240001",
+					"storageid": "VAN",
+					"packing_order": "1",
+					"unit": "",
+					"line": "",
+					"floor": "",
+					"chargeable": "chargeable",
+					"sales_price": "8513.20",
+					"sproduct": "5896.40",
+					"sfreight": "659.10",
+					"sinstall": "1483.80",
+					"sother": "473.90",
+					"purchase_price": "2912.70",
+					"pproduct": "2912.70",
+					"pfreight": "0.00",
+					"pinstall": "0.00",
+					"pother": "0.00",
+					"calculated_salesprice": "8513.20",
+					"factory_price": "2912.70",
+					"fproduct": "2912.70",
+					"ffreight": "0.00",
+					"finstall": "0.00",
+					"fother": "0.00",
+					"contract_price": "249.55",
+					"salestori_plan_name": "SSPYO strong",
+					"glass_m2": "19.60",
+					"blinds_m2": "0.00",
+					"glass_pcs": "11",
+					"product_length": "7000",
+					"group_weight": "1097.451",
+					"product_attributes": {
+						"attributeid": "20090020"
+					},
+					"installed": "True",
+					"OrderLine": {
+						"BOMVersion": "9000767730017028",
+						"ItemID": "90240001",
+						"ItemName": "LG",
+						"InventLocationID": "VAN",
+						"Dimension1": "401",
+						"Dimension5": "asiakaspalvelu",
+						"DeliveryName": "Lower Telescopic",
+						"DeliveryStreet": "Lowtele",
+						"DeliveryZipCode": "07021",
+						"DeliveryCity": "Vantaa",
+						"DeliveryCountryRegionID": "FI",
+						"LineAmount": "8513.20",
+						"Apartment": "",
+						"Floor": "",
+						"DlvBatchID": "0",
+						"Line": "",
+						"FactoryConfirmedDlv": "",
+						"InstallHours": "19.16",
+						"InstallStart": "26.08.2024",
+						"ReservationStart": "2024-08-26T00.00.00",
+						"DeliveryDatePromised": "30.08.2024",
+						"Plan_name": "SSPYO strong",
+						"PieceWork_pay": "249.55"
+					},
+					"AssemblyInstructions": {
+						"@taskId": "0",
+						"InstallNotes": "",
+						"Attachments": {
+							"Attachment": "salestori-asennuskortti-9000767730017028.pdf",
+							"Folder": "\\269000\\269878\\"
+						},
+						"AssemblyDocument": [
+							{
+								"@name": "Tilaustiedot",
+								"Chapter": [
+									{
+										"@name": "Perustiedot",
+										"Paragraph": {
+											"@name": "Content",
+											"#text": "Telescopic Lower\r\nLowtele 07021 Vantaa\r\nPuhelin +35800000"
+										}
+									},
+									{
+										"@name": "Tilaustiedot",
+										"Paragraph": {
+											"@name": "Content",
+											"#text": "Asiakaslupaus 30/08/2024\r\nTilausnumero 90007677\r\nLinja \r\nKerros \r\nAsunto \r\nRVN 9000767730017028"
+										}
+									}
+								]
+							},
+							{
+								"@name": "Asennustiedot",
+								"Chapter": [
+									{
+										"@name": "Tuotetiedot",
+										"Paragraph": [
+											{
+												"@name": "Tuote",
+												"#text": "LG , sides:3"
+											},
+											{
+												"@name": "Kiinnitystapa",
+												"#text": "Upper: To roof, Lower: To floor"
+											},
+											{
+												"@name": "Profiilit",
+												"#text": "Upper: 11251205 RAL7024, Lower: 11253003 11253003 "
+											},
+											{
+												"@name": "Varusteet",
+												"#text": "Plastic parts: Dark grey, End plugs"
+											}
+										]
+									},
+									{
+										"@name": "Tuotemitat",
+										"Paragraph": [
+											{
+												"@name": "Sivu1,H3=2647",
+												"#text": "SA=90 EA= Length=2000 Z=0 Height=2800 X=0 Y=0 Lpcs=3 Rpcs=0 SA=90 Cbypass=No Adjus= \r\nUpper profile: 11251205 RAL7024\r\nLower profile: 11253003 RAL7024\r\nTeles. Profile: 11222206 RAL7024\r\nG1: W=648 H=2635\r\nG2: W=648 H=2635\r\nG3: W=648 H=2635\r\n"
+											},
+											{
+												"@name": "Sivu2,H3=2647",
+												"#text": "SA= EA= Length=4000 Z=0 Height=2800 X=0 Y=0 Lpcs=6 Rpcs=0 SA=270 Cbypass=L Adjus= \r\nUpper profile: 11251205 RAL7024\r\nLower profile: 11253003 RAL7024\r\nTeles. Profile: 11222206 RAL7024\r\nG1: W=664 H=2635\r\nG2: W=664 H=2635\r\nG3: W=664 H=2635\r\nG4: W=664 H=2635\r\nG5: W=664 H=2635\r\nG6: W=664 H=2635\r\n"
+											},
+											{
+												"@name": "Sivu3,H3=2647",
+												"#text": "SA= EA=90 Length=1000 Z=0 Height=2800 X=0 Y=0 Lpcs=0 Rpcs=2 SA= Cbypass=No Adjus= \r\nUpper profile: 11251205 RAL7024\r\nLower profile: 11253003 RAL7024\r\nTeles. Profile: 11222206 RAL7024\r\nG1: W=504 H=2635\r\nG2: W=504 H=2635\r\n"
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				}
+			]
+		}
+	}
+}

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <help><!-- Confirmed or Planned Day of Installation --></help>
-    <label><!-- Confirmed Installation Date --></label>
+    <label><!-- Confirmed Installation Date DEL --></label>
     <name>Confirmed_Installation_Date__c</name>
 </CustomFieldTranslation>

@@ -9,7 +9,7 @@
     WorkOrderNumber &amp; &quot; (&quot; &amp;  TEXT(TIMEVALUE(CreatedDate)) &amp; &quot; &quot; &amp; TEXT(DATEVALUE(CreatedDate)) &amp; &quot;) Oppo: &quot; &amp;  Reclamation_Opportunity__r.Name
   )</formula>
     <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
-    <label>Combination name</label>
+    <label>Combination name OLD</label>
     <required>false</required>
     <trackHistory>false</trackHistory>
     <type>Text</type>

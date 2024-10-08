@@ -4,5 +4,5 @@
     <entityName>Case</entityName>
     <fieldName>Status</fieldName>
     <masterLabel>Customer Service Case Path</masterLabel>
-    <recordTypeName>Customer_Service</recordTypeName>
+    <recordTypeName>CS_Case</recordTypeName>
 </PathAssistant>

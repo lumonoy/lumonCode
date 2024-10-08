@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>New_Work_Orders</fullName>
+    <columns>Name</columns>
+    <columns>Subject</columns>
+    <columns>LineItemCount</columns>
+    <columns>Priority</columns>
+    <columns>Status</columns>
+    <columns>BusinessHours</columns>
+    <columns>Owner</columns>
+    <columns>ServiceTerritory</columns>
+    <columns>WorkType</columns>
+    <columns>COUNTRY_CODE</columns>
+    <columns>StatusCategory</columns>
+    <columns>CreatedDate</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Status</field>
+        <operation>equals</operation>
+        <value>New</value>
+    </filters>
+    <label>New Work Orders</label>
+</ListView>

@@ -564,8 +564,7 @@
     </decisions>
     <description>SubFlow to determine the District based on the Account Territory Structure
 Added option to use on Account also
-Added condition to use the Auto Assigned Territory
-02.12.23 Saved Active Version as Last Version</description>
+Added condition to use the Auto Assigned Territory</description>
     <environments>Default</environments>
     <formulas>
         <name>fxDistrictType</name>
@@ -618,7 +617,7 @@ Added condition to use the Auto Assigned Territory
         <scale>0</scale>
     </formulas>
     <interviewLabel>Opportunity - Assign District SubFlow S11 {!$Flow.CurrentDateTime}</interviewLabel>
-    <label>Account - Assign District SubFlow R2</label>
+    <label>Assign District SubFlow R2.5.5</label>
     <loops>
         <name>Loop_Account_Territories</name>
         <label>Loop Account Territories</label>

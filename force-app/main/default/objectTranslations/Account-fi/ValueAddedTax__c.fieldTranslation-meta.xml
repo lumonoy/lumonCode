@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- The applicable Value Added Tax Percentage --></help>
+    <label><!-- Value Added Tax % --></label>
+    <name>ValueAddedTax__c</name>
+</CustomFieldTranslation>

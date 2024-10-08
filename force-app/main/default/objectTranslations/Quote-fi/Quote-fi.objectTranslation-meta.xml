@@ -8,6 +8,49 @@
         <label><!-- Tree Grid Fields --></label>
         <name>Tree_Grid_Fields</name>
     </fieldSets>
+    <layouts>
+        <layout>Lumon Quote Layout</layout>
+        <sections>
+            <label><!-- Additional Agreements --></label>
+            <section>Additional Agreements</section>
+        </sections>
+        <sections>
+            <label><!-- Calculated Totals --></label>
+            <section>Calculated Totals</section>
+        </sections>
+        <sections>
+            <label><!-- Customer Address --></label>
+            <section>Customer Address</section>
+        </sections>
+        <sections>
+            <label><!-- Delivery --></label>
+            <section>Delivery</section>
+        </sections>
+        <sections>
+            <label><!-- Delivery Address --></label>
+            <section>Delivery Address</section>
+        </sections>
+        <sections>
+            <label><!-- Description --></label>
+            <section>Description</section>
+        </sections>
+        <sections>
+            <label><!-- Invoicing Address --></label>
+            <section>Invoicing Address</section>
+        </sections>
+        <sections>
+            <label><!-- Opportunity --></label>
+            <section>Opportunity</section>
+        </sections>
+        <sections>
+            <label><!-- Pricing --></label>
+            <section>Pricing</section>
+        </sections>
+        <sections>
+            <label><!-- Quote Details --></label>
+            <section>Quote Details</section>
+        </sections>
+    </layouts>
     <quickActions>
         <label><!-- Email --></label>
         <name>SendEmail</name>

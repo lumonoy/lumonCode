@@ -651,7 +651,7 @@
 + TEXT({!$Record__Prior.Installation_Address__Latitude__s} )+ TEXT({!$Record__Prior.Installation_Address__Longitude__s})</expression>
     </formulas>
     <interviewLabel>Opportunity - Set Values And Related {!$Flow.CurrentDateTime}</interviewLabel>
-    <label>Opportunity - Set Values And Related R2.2</label>
+    <label>Opportunity - Set Values And Related R4</label>
     <processMetadataValues>
         <name>BuilderType</name>
         <value>
@@ -703,7 +703,7 @@
         <recordTriggerType>CreateAndUpdate</recordTriggerType>
         <triggerType>RecordAfterSave</triggerType>
     </start>
-    <status>Draft</status>
+    <status>InvalidDraft</status>
     <subflows>
         <name>Assign_Building</name>
         <label>Assign Building</label>

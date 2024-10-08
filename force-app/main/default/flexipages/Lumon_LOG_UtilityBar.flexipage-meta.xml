@@ -66,7 +66,7 @@
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>filterName</name>
-                    <value>All_CS_Cases</value>
+                    <value>My_LOG_Cases</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>height</name>
@@ -84,12 +84,12 @@
                 <componentInstanceProperties>
                     <name>icon</name>
                     <type>decorator</type>
-                    <value>fallback</value>
+                    <value>case</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>label</name>
                     <type>decorator</type>
-                    <value>CS Finland Cases</value>
+                    <value>My LOG Cases</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>pageSize</name>

@@ -3,8 +3,8 @@
     <assignments>
         <name>Assign_Case_values</name>
         <label>Assign Case values</label>
-        <locationX>2159</locationX>
-        <locationY>1321</locationY>
+        <locationX>578</locationX>
+        <locationY>1922</locationY>
         <assignmentItems>
             <assignToReference>CaseRecord.Type</assignToReference>
             <operator>Assign</operator>
@@ -33,8 +33,8 @@
     <assignments>
         <name>Assign_Case_values_0</name>
         <label>Assign Case values</label>
-        <locationX>1697</locationX>
-        <locationY>1320</locationY>
+        <locationX>842</locationX>
+        <locationY>1922</locationY>
         <assignmentItems>
             <assignToReference>CaseRecord.Type</assignToReference>
             <operator>Assign</operator>
@@ -63,8 +63,8 @@
     <assignments>
         <name>Assign_Case_values_0_0</name>
         <label>Assign Case values</label>
-        <locationX>1947</locationX>
-        <locationY>1039</locationY>
+        <locationX>710</locationX>
+        <locationY>1598</locationY>
         <assignmentItems>
             <assignToReference>CaseRecord.Subject</assignToReference>
             <operator>Assign</operator>
@@ -170,8 +170,8 @@
     <assignments>
         <name>Assign_SR_to_WOLI</name>
         <label>Assign SR to WOLI</label>
-        <locationX>842</locationX>
-        <locationY>1142</locationY>
+        <locationX>1502</locationX>
+        <locationY>1082</locationY>
         <assignmentItems>
             <assignToReference>WOLI.Installed_By2__c</assignToReference>
             <operator>Assign</operator>
@@ -186,8 +186,8 @@
     <assignments>
         <name>Assign_status_In_Progress</name>
         <label>Assign status In Progress</label>
-        <locationX>1003</locationX>
-        <locationY>694</locationY>
+        <locationX>600</locationX>
+        <locationY>566</locationY>
         <assignmentItems>
             <assignToReference>WOLI.Status</assignToReference>
             <operator>Assign</operator>
@@ -202,8 +202,8 @@
     <assignments>
         <name>Assign_status_In_Progress_0</name>
         <label>Assign status In Progress</label>
-        <locationX>1218</locationX>
-        <locationY>689</locationY>
+        <locationX>1128</locationX>
+        <locationY>566</locationY>
         <assignmentItems>
             <assignToReference>WOLI.Status</assignToReference>
             <operator>Assign</operator>
@@ -218,8 +218,8 @@
     <assignments>
         <name>Assign_status_New</name>
         <label>Assign status New</label>
-        <locationX>897</locationX>
-        <locationY>696</locationY>
+        <locationX>336</locationX>
+        <locationY>566</locationY>
         <assignmentItems>
             <assignToReference>WOLI.Status</assignToReference>
             <operator>Assign</operator>
@@ -235,8 +235,8 @@
         <description>If one of the WOLIs in the WO cannot be completed, then the whole WO cannot be completed.</description>
         <name>Assign_WO_status</name>
         <label>Assign WO status</label>
-        <locationX>1551</locationX>
-        <locationY>1039</locationY>
+        <locationX>710</locationX>
+        <locationY>1274</locationY>
         <assignmentItems>
             <assignToReference>WorkOrder.Status</assignToReference>
             <operator>Assign</operator>
@@ -252,8 +252,8 @@
         <description>If one of the WOLIs in the WO cannot be completed, then the whole WO cannot be completed.</description>
         <name>Assign_WO_status_0</name>
         <label>Assign WO status</label>
-        <locationX>50</locationX>
-        <locationY>1142</locationY>
+        <locationX>1634</locationX>
+        <locationY>2306</locationY>
         <assignmentItems>
             <assignToReference>WorkOrder.Status</assignToReference>
             <operator>Assign</operator>
@@ -262,6 +262,7 @@
             </value>
         </assignmentItems>
         <connector>
+            <isGoTo>true</isGoTo>
             <targetReference>Update_Status_to_WO_0</targetReference>
         </connector>
     </assignments>
@@ -269,8 +270,8 @@
         <description>If one of the WOLIs in the WO cannot be completed, then the whole WO cannot be completed.</description>
         <name>Assign_WO_status_0_0</name>
         <label>Assign WO status</label>
-        <locationX>340</locationX>
-        <locationY>1406</locationY>
+        <locationX>1898</locationX>
+        <locationY>1814</locationY>
         <assignmentItems>
             <assignToReference>WorkOrder.Status</assignToReference>
             <operator>Assign</operator>
@@ -286,8 +287,8 @@
         <description>End time stamp value is placed when WOLI is put to Completed Status.</description>
         <name>Time_Stamp_Enddate</name>
         <label>Time Stamp Enddate</label>
-        <locationX>585</locationX>
-        <locationY>1142</locationY>
+        <locationX>1634</locationX>
+        <locationY>1274</locationY>
         <assignmentItems>
             <assignToReference>WOLI.EndDate</assignToReference>
             <operator>Assign</operator>
@@ -303,8 +304,8 @@
         <description>End time stamp value is placed when WOLI is put to Cannot Complete Status.</description>
         <name>Time_Stamp_Enddate_2</name>
         <label>Time Stamp Enddate 2</label>
-        <locationX>1429</locationX>
-        <locationY>871</locationY>
+        <locationX>578</locationX>
+        <locationY>974</locationY>
         <assignmentItems>
             <assignToReference>WOLI.EndDate</assignToReference>
             <operator>Assign</operator>
@@ -320,8 +321,8 @@
         <description>End time stamp value is placed when WOLI is put to Cannot Complete Status.</description>
         <name>Time_Stamp_Enddate_2_0</name>
         <label>Time Stamp Enddate 2</label>
-        <locationX>1222</locationX>
-        <locationY>1039</locationY>
+        <locationX>842</locationX>
+        <locationY>974</locationY>
         <assignmentItems>
             <assignToReference>WOLI.EndDate</assignToReference>
             <operator>Assign</operator>
@@ -344,8 +345,8 @@
         <description>Start time stamp value is placed when WOLI is put to In Progress Status.</description>
         <name>Time_Stamp_Startdate</name>
         <label>Time Stamp Startdate</label>
-        <locationX>940</locationX>
-        <locationY>1038</locationY>
+        <locationX>50</locationX>
+        <locationY>866</locationY>
         <assignmentItems>
             <assignToReference>WOLI.StartDate</assignToReference>
             <operator>Assign</operator>
@@ -408,8 +409,8 @@
     <decisions>
         <name>Check_if_there_is_no_start_time</name>
         <label>Check if there is no start time</label>
-        <locationX>1215</locationX>
-        <locationY>871</locationY>
+        <locationX>710</locationX>
+        <locationY>866</locationY>
         <defaultConnector>
             <targetReference>Time_Stamp_Enddate_2_0</targetReference>
         </defaultConnector>
@@ -433,8 +434,8 @@
     <decisions>
         <name>Current_status_specific_behavior</name>
         <label>Current status specific behavior</label>
-        <locationX>1094</locationX>
-        <locationY>361</locationY>
+        <locationX>996</locationX>
+        <locationY>350</locationY>
         <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
         <rules>
             <name>Status_New</name>
@@ -515,8 +516,8 @@
     <decisions>
         <name>Is_this_Quality_Issue_or_Reclamation_Case</name>
         <label>Is this Quality Issue or Reclamation Case?</label>
-        <locationX>1939</locationX>
-        <locationY>1190</locationY>
+        <locationX>710</locationX>
+        <locationY>1706</locationY>
         <defaultConnector>
             <targetReference>Get_Case_Record_Type_QI</targetReference>
         </defaultConnector>
@@ -540,8 +541,8 @@
     <decisions>
         <name>Service_Resource_was_found</name>
         <label>Service Resource was found</label>
-        <locationX>715</locationX>
-        <locationY>1008</locationY>
+        <locationX>1634</locationX>
+        <locationY>974</locationY>
         <defaultConnector>
             <targetReference>Time_Stamp_Enddate</targetReference>
         </defaultConnector>
@@ -565,8 +566,8 @@
     <decisions>
         <name>What_is_changed_Status</name>
         <label>What is changed Status?</label>
-        <locationX>931</locationX>
-        <locationY>866</locationY>
+        <locationX>996</locationX>
+        <locationY>758</locationY>
         <defaultConnectorLabel>Other Statuses</defaultConnectorLabel>
         <rules>
             <name>Status_is_In_Progress</name>
@@ -641,8 +642,8 @@
     <decisions>
         <name>WOLI_is_completed</name>
         <label>WOLI is completed</label>
-        <locationX>228</locationX>
-        <locationY>1326</locationY>
+        <locationX>1810</locationX>
+        <locationY>1706</locationY>
         <defaultConnector>
             <targetReference>Assign_WO_status_0_0</targetReference>
         </defaultConnector>
@@ -714,12 +715,12 @@
         <expression>{!$Flow.CurrentDate}</expression>
     </formulas>
     <interviewLabel>Mobile - change WOLI status {!$Flow.CurrentDateTime}</interviewLabel>
-    <label>Mobile - Change WOLI Status R2</label>
+    <label>Mobile - Change WOLI Status Autolayout</label>
     <loops>
         <name>Go_through_related_WOLIs</name>
         <label>Go through related WOLIs</label>
-        <locationX>239</locationX>
-        <locationY>1142</locationY>
+        <locationX>1634</locationX>
+        <locationY>1598</locationY>
         <assignNextValueToReference>RelatedWOLI</assignNextValueToReference>
         <collectionReference>RelatedWOLIs</collectionReference>
         <iterationOrder>Asc</iterationOrder>
@@ -739,7 +740,7 @@
     <processMetadataValues>
         <name>CanvasMode</name>
         <value>
-            <stringValue>FREE_FORM_CANVAS</stringValue>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
         </value>
     </processMetadataValues>
     <processMetadataValues>
@@ -752,8 +753,8 @@
     <recordCreates>
         <name>Create_Reclamation_Case</name>
         <label>Create Reclamation Case</label>
-        <locationX>1931</locationX>
-        <locationY>1540</locationY>
+        <locationX>710</locationX>
+        <locationY>2114</locationY>
         <connector>
             <targetReference>Work_could_not_be_completed</targetReference>
         </connector>
@@ -762,8 +763,8 @@
     <recordLookups>
         <name>Get_Case_Record_Type_QI</name>
         <label>Get Case Record Type</label>
-        <locationX>1697</locationX>
-        <locationY>1188</locationY>
+        <locationX>842</locationX>
+        <locationY>1814</locationY>
         <assignNullValuesIfNoRecordsFound>true</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>Assign_Case_values_0</targetReference>
@@ -783,8 +784,8 @@
     <recordLookups>
         <name>Get_Case_Record_Type_RC</name>
         <label>Get Case Record Type</label>
-        <locationX>2158</locationX>
-        <locationY>1186</locationY>
+        <locationX>578</locationX>
+        <locationY>1814</locationY>
         <assignNullValuesIfNoRecordsFound>true</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>Assign_Case_values</targetReference>
@@ -805,8 +806,8 @@
         <description>Service Resource id needs to be found and placed as information to the WOLI for ERP/invoicing purposes.</description>
         <name>Get_Service_Resource</name>
         <label>Get Service Resource</label>
-        <locationX>723</locationX>
-        <locationY>865</locationY>
+        <locationX>1634</locationX>
+        <locationY>866</locationY>
         <assignNullValuesIfNoRecordsFound>true</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>Service_Resource_was_found</targetReference>
@@ -827,8 +828,8 @@
         <description>Reads SA record fields, so that they can be used.</description>
         <name>Get_WO_data</name>
         <label>Get WO data</label>
-        <locationX>1102</locationX>
-        <locationY>226</locationY>
+        <locationX>996</locationX>
+        <locationY>242</locationY>
         <assignNullValuesIfNoRecordsFound>true</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>Current_status_specific_behavior</targetReference>
@@ -852,8 +853,8 @@
     <recordLookups>
         <name>Get_WO_related_WOLI_statuses</name>
         <label>Get WO related WOLI statuses</label>
-        <locationX>357</locationX>
-        <locationY>1142</locationY>
+        <locationX>1634</locationX>
+        <locationY>1490</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>Go_through_related_WOLIs</targetReference>
@@ -876,8 +877,8 @@
         <description>Reads SA record fields, so that they can be used.</description>
         <name>Get_WOLI_data</name>
         <label>Get WOLI data</label>
-        <locationX>958</locationX>
-        <locationY>226</locationY>
+        <locationX>996</locationX>
+        <locationY>134</locationY>
         <assignNullValuesIfNoRecordsFound>true</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>Get_WO_data</targetReference>
@@ -904,8 +905,8 @@
     <recordUpdates>
         <name>Update_Status_to_WO</name>
         <label>Update Status to WO</label>
-        <locationX>1680</locationX>
-        <locationY>1039</locationY>
+        <locationX>710</locationX>
+        <locationY>1382</locationY>
         <connector>
             <targetReference>Reclamation_Case_details</targetReference>
         </connector>
@@ -914,22 +915,22 @@
     <recordUpdates>
         <name>Update_Status_to_WO_0</name>
         <label>Update Status to WO</label>
-        <locationX>50</locationX>
-        <locationY>1406</locationY>
+        <locationX>1898</locationX>
+        <locationY>1922</locationY>
         <inputReference>WorkOrder</inputReference>
     </recordUpdates>
     <recordUpdates>
         <name>Update_Status_to_WOLI</name>
         <label>Update Status to WOLI</label>
-        <locationX>1053</locationX>
-        <locationY>1038</locationY>
+        <locationX>50</locationX>
+        <locationY>974</locationY>
         <inputReference>WOLI</inputReference>
     </recordUpdates>
     <recordUpdates>
         <name>Update_Status_to_WOLI_0</name>
         <label>Update Status to WOLI</label>
-        <locationX>471</locationX>
-        <locationY>1142</locationY>
+        <locationX>1634</locationX>
+        <locationY>1382</locationY>
         <connector>
             <targetReference>Get_WO_related_WOLI_statuses</targetReference>
         </connector>
@@ -938,8 +939,8 @@
     <recordUpdates>
         <name>Update_Status_to_WOLI_0_0</name>
         <label>Update Status to WOLI</label>
-        <locationX>1429</locationX>
-        <locationY>1039</locationY>
+        <locationX>710</locationX>
+        <locationY>1166</locationY>
         <connector>
             <targetReference>Assign_WO_status</targetReference>
         </connector>
@@ -948,8 +949,8 @@
     <screens>
         <name>Get_Status</name>
         <label>Get Status</label>
-        <locationX>1001</locationX>
-        <locationY>565</locationY>
+        <locationX>600</locationX>
+        <locationY>458</locationY>
         <allowBack>false</allowBack>
         <allowFinish>true</allowFinish>
         <allowPause>false</allowPause>
@@ -963,6 +964,7 @@
             <dataType>String</dataType>
             <fieldText>Select Status</fieldText>
             <fieldType>DropdownBox</fieldType>
+            <inputsOnNextNavToAssocScrn>UseStoredValues</inputsOnNextNavToAssocScrn>
             <isRequired>true</isRequired>
         </fields>
         <showFooter>true</showFooter>
@@ -971,8 +973,8 @@
     <screens>
         <name>Get_Status_0</name>
         <label>Get Status</label>
-        <locationX>898</locationX>
-        <locationY>571</locationY>
+        <locationX>336</locationX>
+        <locationY>458</locationY>
         <allowBack>false</allowBack>
         <allowFinish>true</allowFinish>
         <allowPause>false</allowPause>
@@ -986,6 +988,7 @@
             <dataType>String</dataType>
             <fieldText>Select Status</fieldText>
             <fieldType>DropdownBox</fieldType>
+            <inputsOnNextNavToAssocScrn>UseStoredValues</inputsOnNextNavToAssocScrn>
             <isRequired>true</isRequired>
         </fields>
         <showFooter>true</showFooter>
@@ -994,8 +997,8 @@
     <screens>
         <name>Get_Status_0_0</name>
         <label>Get Status</label>
-        <locationX>1219</locationX>
-        <locationY>563</locationY>
+        <locationX>1128</locationX>
+        <locationY>458</locationY>
         <allowBack>false</allowBack>
         <allowFinish>true</allowFinish>
         <allowPause>false</allowPause>
@@ -1013,6 +1016,7 @@
             <dataType>String</dataType>
             <fieldText>Select Status</fieldText>
             <fieldType>DropdownBox</fieldType>
+            <inputsOnNextNavToAssocScrn>UseStoredValues</inputsOnNextNavToAssocScrn>
             <isRequired>true</isRequired>
         </fields>
         <showFooter>true</showFooter>
@@ -1021,8 +1025,8 @@
     <screens>
         <name>Get_Status_2</name>
         <label>Get Status</label>
-        <locationX>1102</locationX>
-        <locationY>559</locationY>
+        <locationX>864</locationX>
+        <locationY>458</locationY>
         <allowBack>false</allowBack>
         <allowFinish>true</allowFinish>
         <allowPause>false</allowPause>
@@ -1037,8 +1041,8 @@
     <screens>
         <name>Get_Status_3_0</name>
         <label>Get Status</label>
-        <locationX>1321</locationX>
-        <locationY>559</locationY>
+        <locationX>1392</locationX>
+        <locationY>458</locationY>
         <allowBack>false</allowBack>
         <allowFinish>true</allowFinish>
         <allowPause>false</allowPause>
@@ -1053,8 +1057,8 @@
     <screens>
         <name>Reclamation_Case_details</name>
         <label>Reclamation Case details</label>
-        <locationX>1815</locationX>
-        <locationY>1039</locationY>
+        <locationX>710</locationX>
+        <locationY>1490</locationY>
         <allowBack>false</allowBack>
         <allowFinish>true</allowFinish>
         <allowPause>false</allowPause>
@@ -1074,6 +1078,7 @@
             </defaultValue>
             <fieldText>Subject</fieldText>
             <fieldType>InputField</fieldType>
+            <inputsOnNextNavToAssocScrn>UseStoredValues</inputsOnNextNavToAssocScrn>
             <isRequired>true</isRequired>
         </fields>
         <fields>
@@ -1081,6 +1086,7 @@
             <dataType>String</dataType>
             <fieldText>Description</fieldText>
             <fieldType>InputField</fieldType>
+            <inputsOnNextNavToAssocScrn>UseStoredValues</inputsOnNextNavToAssocScrn>
             <isRequired>false</isRequired>
         </fields>
         <fields>
@@ -1091,6 +1097,7 @@
             </defaultValue>
             <fieldText>New part needs to be ordered from Factory</fieldText>
             <fieldType>InputField</fieldType>
+            <inputsOnNextNavToAssocScrn>UseStoredValues</inputsOnNextNavToAssocScrn>
             <isRequired>true</isRequired>
         </fields>
         <fields>
@@ -1099,6 +1106,7 @@
             <dataType>String</dataType>
             <fieldText>Process class</fieldText>
             <fieldType>DropdownBox</fieldType>
+            <inputsOnNextNavToAssocScrn>UseStoredValues</inputsOnNextNavToAssocScrn>
             <isRequired>true</isRequired>
         </fields>
         <fields>
@@ -1107,6 +1115,7 @@
             <dataType>String</dataType>
             <fieldText>Target code</fieldText>
             <fieldType>DropdownBox</fieldType>
+            <inputsOnNextNavToAssocScrn>UseStoredValues</inputsOnNextNavToAssocScrn>
             <isRequired>false</isRequired>
         </fields>
         <fields>
@@ -1115,6 +1124,7 @@
             <dataType>String</dataType>
             <fieldText>Cause code</fieldText>
             <fieldType>DropdownBox</fieldType>
+            <inputsOnNextNavToAssocScrn>UseStoredValues</inputsOnNextNavToAssocScrn>
             <isRequired>false</isRequired>
         </fields>
         <fields>
@@ -1122,6 +1132,7 @@
             <dataType>String</dataType>
             <fieldText>Reclamation cause</fieldText>
             <fieldType>InputField</fieldType>
+            <inputsOnNextNavToAssocScrn>UseStoredValues</inputsOnNextNavToAssocScrn>
             <isRequired>true</isRequired>
         </fields>
         <fields>
@@ -1155,8 +1166,8 @@
     <screens>
         <name>Work_could_not_be_completed</name>
         <label>Work could not be completed</label>
-        <locationX>1802</locationX>
-        <locationY>1540</locationY>
+        <locationX>710</locationX>
+        <locationY>2222</locationY>
         <allowBack>false</allowBack>
         <allowFinish>true</allowFinish>
         <allowPause>false</allowPause>
@@ -1169,8 +1180,8 @@
         <showHeader>true</showHeader>
     </screens>
     <start>
-        <locationX>832</locationX>
-        <locationY>104</locationY>
+        <locationX>870</locationX>
+        <locationY>0</locationY>
         <connector>
             <targetReference>Get_WOLI_data</targetReference>
         </connector>

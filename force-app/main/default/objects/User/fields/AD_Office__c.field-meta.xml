@@ -4,7 +4,7 @@
     <description>User head office, with unique identifier coming from Mepco</description>
     <externalId>false</externalId>
     <inlineHelpText>User head office, with unique identifier coming from Mepco</inlineHelpText>
-    <label>AD Office</label>
+    <label>AD Office OLD</label>
     <length>50</length>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>

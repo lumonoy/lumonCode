@@ -8,6 +8,7 @@
 public with sharing class GenerateInstallerPdfController {
     @AuraEnabled
     public static List<Configuration_Product__c> getConfigurationProducts(String recordId){
+        System.debug('*** recordId ***'+recordId);
         Id opportunityId;
         String parentObject;
         String errorMessage;
@@ -29,5 +30,27 @@ public with sharing class GenerateInstallerPdfController {
                 FROM Configuration_Product__c
                 WHERE Configuration__r.Opportunity__c = :opportunityId];
     }
-
+    
+    /*@AuraEnabled
+    public static List<Configuration_Product__c> getConfigBlindProducts(String recordId){
+        String parentObject;
+        String errorMessage;
+        String configurationPlanId;
+        if (String.isNotBlank(recordId)){
+            parentObject = DynamicObjectUtils.getObjectType(recordId);
+        }
+        if (parentObject == 'WorkOrder' && String.isNotBlank(recordId)){  
+            WorkOrder workOrderRec= [SELECT Id, Opportunity__c, Configuration_Plan__c,
+                                     (SELECT ID, Configuration_Product__c,Configuration_Product__r.Configuration__r.Plan_Type__c,Configuration_Product__r.Configuration__r.Id FROM WorkOrderLineItems 
+                                      WHERE Configuration_Product__r.Configuration__r.Plan_Type__c ='Blinds')
+                                     FROM WorkOrder  WHERE Id = :recordId];
+            if(workOrderRec.WorkOrderLineItems.size() > 0){
+                configurationPlanId = workOrderRec.WorkOrderLineItems[0].Configuration_Product__r.Configuration__r.Id;
+            }  
+        }    
+        return [SELECT Id, RVN_Number__c, Product__r.Name, Installer_Message__c, Configuration__c,Configuration__r.Plan_Type__c 
+                FROM Configuration_Product__c  WHERE  Configuration__r.Plan_Type__c = 'Blinds'
+                AND Configuration__r.Id = :configurationPlanId];
+    }
+*/
 }

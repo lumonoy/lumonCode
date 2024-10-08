@@ -596,7 +596,7 @@
       }, {
         "componentAttributes" : {
           "allowAttachments" : true,
-          "attachmentLabel" : "Attach and upload the file",
+          "attachmentLabel" : "Lataa ja liitä tiedosto",
           "buttonAlignment" : "center",
           "buttonBgColor" : "",
           "buttonBgHoverColor" : "",
@@ -612,8 +612,8 @@
           "confirmationSubtext" : "Palaamme asiaan mahdollisimman pian.",
           "confirmationText" : "Olemme vastaanottaneet viestisi.",
           "guestQuickActionName" : "Select or configure a global action",
-          "headerSubtitle" : "How can we help?",
-          "headerTitle" : "Contact our support",
+          "headerSubtitle" : "Miten voimme auttaa?",
+          "headerTitle" : "Ota yhteyttä tukeen",
           "isMicrobatch" : false,
           "quickActionName" : "myLumon_Order_Case",
           "requestSummaryText" : "Yhteenveto"
@@ -1340,7 +1340,7 @@
       }, {
         "componentAttributes" : {
           "allowAttachments" : true,
-          "attachmentLabel" : "Attach and upload the file",
+          "attachmentLabel" : "Lataa ja liitä tiedosto",
           "buttonAlignment" : "center",
           "buttonBgColor" : "",
           "buttonBgHoverColor" : "",

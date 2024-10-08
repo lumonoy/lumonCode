@@ -8,6 +8,6 @@ II - Area with low vegetation such as grass and isolated obstacles (trees, build
 III - Area with regular cover of vegetation or buildings or with isolated obstacles with separations of maximum 20 obstacle heights (such as villages, suburban terrain, forest)
 IV - Area in which at least 15 % of surface is cove -->
     </help>
-    <label><!-- Terrain Type --></label>
+    <label>Maastoluokka</label>
     <name>Terrain_Type__c</name>
 </CustomFieldTranslation>

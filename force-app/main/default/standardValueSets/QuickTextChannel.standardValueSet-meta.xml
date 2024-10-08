@@ -36,4 +36,9 @@
         <default>false</default>
         <label>Messaging</label>
     </standardValue>
+    <standardValue>
+        <fullName>Live Agent</fullName>
+        <default>false</default>
+        <label>Live Agent</label>
+    </standardValue>
 </StandardValueSet>

@@ -1,20 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
-    <description>Required Permissions for System and Data Administrators</description>
+    <description>Access Rights and Permissions for Salesforce System Admins</description>
     <hasActivationRequired>false</hasActivationRequired>
     <label>Lumon System Admin</label>
-    <mutingPermissionSets>Lumon_Super_Admin_Muted</mutingPermissionSets>
     <permissionSets>AdminAppPermissions</permissionSets>
+    <permissionSets>AdminCustomAppPermissions</permissionSets>
     <permissionSets>AdminCustomPermission</permissionSets>
     <permissionSets>AdminObjectandFieldPermissions</permissionSets>
-    <permissionSets>AdminPDFButlerPermissions</permissionSets>
-    <permissionSets>CustomPermissions</permissionSets>
-    <permissionSets>FSL_Admin_License</permissionSets>
-    <permissionSets>FSL_Admin_Permissions</permissionSets>
-    <permissionSets>PDF_Butler_Admin_Local</permissionSets>
+    <permissionSets>AdminSystemPermissions</permissionSets>
+    <permissionSets>AdminUserPermissions</permissionSets>
+    <permissionSets>CPQFeaturePermissions</permissionSets>
+    <permissionSets>EditActivatedContractPermissions</permissionSets>
+    <permissionSets>PDFButlerAdminPermissions</permissionSets>
+    <permissionSets>PasswordNeverExpires</permissionSets>
+    <permissionSets>ProjectPlanningPermissions</permissionSets>
     <permissionSets>SoveliaPermissions</permissionSets>
+    <permissionSets>SoveliaTestPermissions</permissionSets>
     <permissionSets>cadmus_core__PDF_Butler_Admin</permissionSets>
     <permissionSets>cadmus_sign2__SIGN_Butler_Admin</permissionSets>
-    <permissionSets>et4ae5__ExactTarget_Integration_Admin</permissionSets>
     <status>Updated</status>
 </PermissionSetGroup>

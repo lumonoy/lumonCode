@@ -4,5 +4,5 @@
     <entityName>Case</entityName>
     <fieldName>Status</fieldName>
     <masterLabel>Reclamation Order Case Path</masterLabel>
-    <recordTypeName>Reclamation_Order</recordTypeName>
+    <recordTypeName>RECL_Case</recordTypeName>
 </PathAssistant>

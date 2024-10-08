@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-    <label><!-- Drainage Holes --></label>
+    <label>Vedenpoistoreiät</label>
     <name>Drainage_Holes__c</name>
 </CustomFieldTranslation>

@@ -10,7 +10,7 @@
         </recipients>
         <senderAddress>noreply@lumon.com</senderAddress>
         <senderType>OrgWideEmailAddress</senderType>
-        <template>Sales/Customer_1st_Visit_Reminder</template>
+        <template>Customer/Customer_1st_Visit_Reminder</template>
     </alerts>
     <alerts>
         <fullName>Customer_1st_visit_Confirmation</fullName>
@@ -22,7 +22,7 @@
         </recipients>
         <senderAddress>noreply@lumon.com</senderAddress>
         <senderType>OrgWideEmailAddress</senderType>
-        <template>Sales/Customer_1st_Visit_Confirmed</template>
+        <template>Customer/Customer_1st_Visit_Confirmed</template>
     </alerts>
     <alerts>
         <fullName>Customer_1st_visit_Confirmation_opportunity</fullName>
@@ -34,7 +34,7 @@
         </recipients>
         <senderAddress>noreply@lumon.com</senderAddress>
         <senderType>OrgWideEmailAddress</senderType>
-        <template>Sales/Customer_1st_Visit_Confirmed_Opportunity</template>
+        <template>Customer/Customer_1st_Visit_Confirmed_Opportunity</template>
     </alerts>
     <alerts>
         <fullName>User_New_Event_Notification</fullName>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SamlSsoConfig xmlns="http://soap.sforce.com/2006/04/metadata">
+    <identityLocation>SubjectNameId</identityLocation>
+    <identityMapping>FederationId</identityMapping>
+    <issuer>https://sts.windows.net/6d047cb6-1d14-43c9-a22e-3f8f1ad0b211/</issuer>
+    <loginUrl>https://login.microsoftonline.com/6d047cb6-1d14-43c9-a22e-3f8f1ad0b211/saml2</loginUrl>
+    <name>LumonTest 2024</name>
+    <oauthTokenEndpoint>https://lumonoy--lumontest.sandbox.my.salesforce.com/services/oauth2/token</oauthTokenEndpoint>
+    <redirectBinding>true</redirectBinding>
+    <requestSignatureMethod>1</requestSignatureMethod>
+    <requestSigningCertId>0P13N0000023zYG</requestSigningCertId>
+    <salesforceLoginUrl>https://lumonoy--lumontest.sandbox.my.salesforce.com</salesforceLoginUrl>
+    <samlEntityId>https://lumonoy--lumontest.sandbox.my.salesforce.com</samlEntityId>
+    <samlVersion>SAML2_0</samlVersion>
+    <singleLogoutBinding>RedirectBinding</singleLogoutBinding>
+    <singleLogoutUrl>https://login.microsoftonline.com/6d047cb6-1d14-43c9-a22e-3f8f1ad0b211/saml2</singleLogoutUrl>
+    <useConfigRequestMethod>false</useConfigRequestMethod>
+    <useSameDigestAlgoForSigning>true</useSameDigestAlgoForSigning>
+    <userProvisioning>false</userProvisioning>
+    <validationCert>MIIC8DCCAdigAwIBAgIQERyC4AktI5tF5mf3WA1RDzANBgkqhkiG9w0BAQsFADA0MTIwMAYDVQQDEylNaWNyb3NvZnQgQXp1cmUgRmVkZXJhdGVkIFNTTyBDZXJ0aWZpY2F0ZTAeFw0yMjA5MjcxMDUxMzVaFw0yNTA5MjcxMDUyMzFaMDQxMjAwBgNVBAMTKU1pY3Jvc29mdCBBenVyZSBGZWRlcmF0ZWQgU1NPIENlcnRpZmljYXRlMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAyxVmnAKx8AkBbvPKOZDr1YQFf+BRyuyy52yEGa2kuXjrHe+DWf75He40D4Hnterq39ClQbY0MUfYLfs2ZWkbZTwCWYOnIwruKRjkUcHFp/h29l1wuqiCyG/VlyxAQ1EM1oeYdArNky//v4SFfNDvoBJkljYNAkpRtd8XHPrcVvm2yCRoVsjhN+hGiw+92/eA72NqKVXu7/aMjgLF1rZZmBmg0b+mob1rOk52WiF08x2dMMwHnVvfVZvMn5m+B75oZpyjJYYXBugsXHvpGmPQq6S+pk7YBwSDdq3Zw8knfNtSen12ho/cFWp1la7W6ukEDWTmdyTlhKwWGoywRZeomQIDAQABMA0GCSqGSIb3DQEBCwUAA4IBAQBJbzvKGXi82/0AbzoJTupi0lf7n59tMT71uxVvvGPlv0nhJ+srp1Bwce3AKTelDGpokZV0NSUjhZzsoD9U5NWTn4j/LVYmyH3No+VVeSPO4OJmwbAeBMMESskIdFzyAxfUPdAHbiRpC6rXTdMi8wejNfmneNgf4sxbAyBMl6CjxYhe4EHI7uQky7+zbSISqdjOKeMnk094D3hcjXCSuVamvue/5UWE4Tn2u5HHhlgJLgzsoHLMkBnUq141fqsksjylYfqxmnvQIuaQY8VlTsC+aOM5wI4Ly2SJIpogdeVQJrLv/tb1k7vxEY506VyoLzt5/raFanSXXXAcuJZWI2VN</validationCert>
+</SamlSsoConfig>

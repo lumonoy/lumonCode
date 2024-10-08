@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ES_Delivery_Schedules</fullName>
+    <columns>NAME</columns>
+    <columns>PostalCode__c</columns>
+    <columns>Monday__c</columns>
+    <columns>Tuesday__c</columns>
+    <columns>Wednesday__c</columns>
+    <columns>Thursday__c</columns>
+    <columns>Friday__c</columns>
+    <columns>DeliveryDuration__c</columns>
+    <columns>DeliveryDays__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CountryCode__c</field>
+        <operation>equals</operation>
+        <value>ES</value>
+    </filters>
+    <label>Spain Delivery Schedules</label>
+</ListView>

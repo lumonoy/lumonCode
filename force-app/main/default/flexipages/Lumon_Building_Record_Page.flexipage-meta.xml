@@ -47,7 +47,7 @@
             <componentInstance>
                 <componentInstanceProperties>
                     <name>lookupFieldName</name>
-                    <value>Building__c.Structural_Analysis__c</value>
+                    <value>Building__c.StructuralAnalysis__c</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>titleFieldName</name>
@@ -64,7 +64,7 @@
             <componentInstance>
                 <componentInstanceProperties>
                     <name>lookupFieldName</name>
-                    <value>Building__c.Building_Location__c</value>
+                    <value>Building__c.BuildingLocation__c</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>updateQuickActionName</name>

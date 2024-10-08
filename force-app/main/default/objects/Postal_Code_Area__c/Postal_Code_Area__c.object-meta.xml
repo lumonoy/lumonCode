@@ -169,6 +169,6 @@
         <searchResultsAdditionalFields>Sub_Region__c</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>Region_Code__c</searchResultsAdditionalFields>
     </searchLayouts>
-    <sharingModel>Read</sharingModel>
+    <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>

@@ -8,5 +8,9 @@
         <plural>true</plural>
         <value>Pricing Summaries</value>
     </caseValues>
+    <quickActions>
+        <label><!-- Business Attributes --></label>
+        <name>Business_Attributes</name>
+    </quickActions>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

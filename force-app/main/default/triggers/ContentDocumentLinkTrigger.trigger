@@ -3,7 +3,7 @@
  */
 
 trigger ContentDocumentLinkTrigger on ContentDocumentLink (before insert) {
-    if (Trigger.isBefore) {
-        ContentDocumentLinkTriggerHandler.beforeInsert(Trigger.new);
-    }
+    //if (Trigger.isBefore) {
+    //    ContentDocumentLinkTriggerHandler.beforeInsert(Trigger.new);
+    //}
 }

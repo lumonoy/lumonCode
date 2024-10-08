@@ -8,5 +8,9 @@
         <plural>true</plural>
         <value>Configuration Sides</value>
     </caseValues>
+    <quickActions>
+        <label><!-- Side Information --></label>
+        <name>Side_Information</name>
+    </quickActions>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

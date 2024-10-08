@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NextStatus__c</fullName>
+    <description>Dependent Picklist to indicate the next Allowed Status</description>
+    <externalId>false</externalId>
+    <label>NextStatus</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Status</controllingField>
+        <restricted>true</restricted>
+        <valueSetName>Lumon_Statuses</valueSetName>
+        <valueSettings>
+            <controllingFieldValue>New</controllingFieldValue>
+            <valueName>In Progress</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>In Progress</controllingFieldValue>
+            <controllingFieldValue>Cannot Complete</controllingFieldValue>
+            <valueName>Completed</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>In Progress</controllingFieldValue>
+            <valueName>Cannot Complete</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

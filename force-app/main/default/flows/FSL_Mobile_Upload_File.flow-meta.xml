@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assignments>
+        <name>Set_Related_RecordId</name>
+        <label>Set Related RecordId</label>
+        <locationX>270</locationX>
+        <locationY>242</locationY>
+        <assignmentItems>
+            <assignToReference>relatedId</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>Id</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>FileUploadInputScreen</targetReference>
+        </connector>
+    </assignments>
+    <decisions>
+        <name>Has_Pictures</name>
+        <label>Has Pictures?</label>
+        <locationX>182</locationX>
+        <locationY>542</locationY>
+        <defaultConnector>
+            <isGoTo>true</isGoTo>
+            <targetReference>FileUploadInputScreen</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>No Pictures</defaultConnectorLabel>
+        <rules>
+            <name>Pictures</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>colImageFileNames</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>FileUploadOutputScreen</targetReference>
+            </connector>
+            <label>Pictures</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Has_related_Id</name>
+        <label>Has related Id?</label>
+        <locationX>182</locationX>
+        <locationY>134</locationY>
+        <defaultConnector>
+            <targetReference>Set_Related_RecordId</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>No Related Id</defaultConnectorLabel>
+        <rules>
+            <name>Related_Id</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>relatedId</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>FileUploadInputScreen</targetReference>
+            </connector>
+            <label>Related Id</label>
+        </rules>
+    </decisions>
+    <description>FSL Mobile Flow to Upload a File
+06.10.2024 First Version</description>
+    <environments>Default</environments>
+    <interviewLabel>FSL Mobile - Upload File {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>FSL Mobile - Upload File R4</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>FieldServiceMobile</processType>
+    <screens>
+        <name>FileUploadInputScreen</name>
+        <label>File Upload Input Screen</label>
+        <locationX>182</locationX>
+        <locationY>434</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>false</allowPause>
+        <backButtonLabel>Back</backButtonLabel>
+        <connector>
+            <targetReference>Has_Pictures</targetReference>
+        </connector>
+        <fields>
+            <name>ImageUploadInput</name>
+            <extensionName>forceContent:fileUpload</extensionName>
+            <fieldType>ComponentInstance</fieldType>
+            <inputParameters>
+                <name>label</name>
+                <value>
+                    <stringValue>Upload a Picture</stringValue>
+                </value>
+            </inputParameters>
+            <inputParameters>
+                <name>recordId</name>
+                <value>
+                    <elementReference>relatedId</elementReference>
+                </value>
+            </inputParameters>
+            <inputsOnNextNavToAssocScrn>UseStoredValues</inputsOnNextNavToAssocScrn>
+            <isRequired>true</isRequired>
+            <outputParameters>
+                <assignToReference>colImageFileNames</assignToReference>
+                <name>fileNames</name>
+            </outputParameters>
+        </fields>
+        <helpText>&lt;p&gt;Upload atleast one Picture&lt;/p&gt;</helpText>
+        <nextOrFinishButtonLabel>Continue</nextOrFinishButtonLabel>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <screens>
+        <name>FileUploadOutputScreen</name>
+        <label>File Upload Output Screen</label>
+        <locationX>50</locationX>
+        <locationY>650</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>false</allowPause>
+        <backButtonLabel>Back</backButtonLabel>
+        <fields>
+            <name>ImageUploadText</name>
+            <fieldText>&lt;p&gt;File or Image Uploaded&lt;/p&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <helpText>&lt;p&gt;Upload atleast one Picture&lt;/p&gt;</helpText>
+        <nextOrFinishButtonLabel>Continue</nextOrFinishButtonLabel>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <start>
+        <locationX>56</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Has_related_Id</targetReference>
+        </connector>
+    </start>
+    <status>Active</status>
+    <variables>
+        <name>colImageFileNames</name>
+        <dataType>String</dataType>
+        <isCollection>true</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <description>Input value for the SA record from which this flow was started from.</description>
+        <name>Id</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>imageName</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>imageParentId</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>relatedId</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+</Flow>

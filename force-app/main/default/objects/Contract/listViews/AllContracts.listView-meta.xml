@@ -8,7 +8,7 @@
     <columns>CONTRACT.STATUS</columns>
     <columns>CONTRACT.RECORDTYPE</columns>
     <columns>CORE.USERS.ALIAS</columns>
-    <columns>Contract_Message_Status__c</columns>
+    <columns>ContractMessageStatusIcon__c</columns>
     <columns>Error_Message__c</columns>
     <filterScope>Everything</filterScope>
     <label>All Contracts</label>

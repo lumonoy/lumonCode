@@ -26,7 +26,8 @@
         </sections>
     </layouts>
     <quickActions>
-        <label><!-- Book Visit --></label>
+        <aspect>Master</aspect>
+        <label>Varaa käynti</label>
         <name>Book_Visit</name>
     </quickActions>
     <recordTypes>

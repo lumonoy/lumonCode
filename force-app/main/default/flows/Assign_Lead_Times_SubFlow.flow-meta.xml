@@ -684,7 +684,7 @@ WEEKDAY({!fxProductionStartDate}+{!nbrMaxProductionDays}+{!nbrMaxExtraDays})=7,
         <recordTriggerType>Update</recordTriggerType>
         <triggerType>RecordAfterSave</triggerType>
     </start>
-    <status>Active</status>
+    <status>Obsolete</status>
     <subflows>
         <name>Get_Delivery_Time</name>
         <label>Get Delivery Time</label>

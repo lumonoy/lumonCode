@@ -6,7 +6,7 @@
     <label>Opportunity</label>
     <referenceTo>Opportunity</referenceTo>
     <relationshipLabel>Delivery Batches</relationshipLabel>
-    <relationshipName>Delivery_Batches</relationshipName>
+    <relationshipName>LumonDeliveryBatches</relationshipName>
     <required>false</required>
     <trackTrending>false</trackTrending>
     <type>Lookup</type>

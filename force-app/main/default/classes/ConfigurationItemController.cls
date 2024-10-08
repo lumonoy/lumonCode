@@ -2,7 +2,7 @@
  * @description       : 
  * @author            : Henk Reynders
  * @group             : 
- * @last modified on  : 12-02-2023
+ * @last modified on  : 06-19-2024
  * @last modified by  : Henk Reynders
 **/
 public with sharing class ConfigurationItemController {
@@ -34,40 +34,13 @@ public with sharing class ConfigurationItemController {
     }
     @AuraEnabled(cacheable=true)
     public static Configuration__c getConfigurationPlan(String configId){
-        Configuration__c configPlan =  [ SELECT Id,
-                                                Name,
-                                                Account__c,
-                                                Opportunity__c,
-                                                Quote__c,
-                                                Contract__c,
-                                                Order__c,
-                                                Work_Order__c,
-                                                Case__c
-                                        FROM Configuration__c 
-                                        WHERE Id =: configId
-                                        LIMIT 1];
+        Configuration__c configPlan =  ConfigurationPlanController.getConfigurationPlan(configId);
         System.debug('--- Configuration Plan: '+configPlan);
         return configPlan;
     }
     @AuraEnabled(cacheable=true)
     public static List<Configuration__c> getConfigurationPlans(String recordId){
-        List<Configuration__c> configPlans = [ SELECT Id,
-                                                        Name,
-                                                        Account__c,
-                                                        Opportunity__c,
-                                                        Quote__c,
-                                                        Contract__c,
-                                                        Order__c,
-                                                        Work_Order__c,
-                                                        Case__c
-                                                FROM Configuration__c 
-                                                WHERE Account__c =: recordId
-                                                OR Opportunity__c =: recordId
-                                                OR Quote__c =: recordId
-                                                OR Contract__c =: recordId
-                                                OR Order__c =: recordId
-                                                OR Work_Order__c =: recordId
-                                                OR Case__c =: recordId];
+        List<Configuration__c> configPlans = ConfigurationPlanController.getConfigurationPlans(new List<Id> {recordId});
         System.debug('--- Found '+configPlans.size()+' Configuration Plan(s)');
         return configPlans;
     }
@@ -134,8 +107,6 @@ public with sharing class ConfigurationItemController {
         // Get Configuration Summary
         List<Object> cfgTableData =   [SELECT  Configuration__c,
                                                 Configuration__r.Id,
-                                                Configuration__r.Plan_Floor__c,
-                                                Configuration__r.Plan_Apartment__c,
                                                 Configuration__r.Visual_Id__c,
                                                 RVN_Number__c,
                                                 Name,

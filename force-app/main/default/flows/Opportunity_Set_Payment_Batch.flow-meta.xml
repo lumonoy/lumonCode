@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>56.0</apiVersion>
+    <assignments>
+        <name>Set_Financing_Method</name>
+        <label>Set Financing Method</label>
+        <locationX>50</locationX>
+        <locationY>611</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.Method_of_Payment__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>Financing</stringValue>
+            </value>
+        </assignmentItems>
+    </assignments>
+    <assignments>
+        <name>Set_Invoicing_Method</name>
+        <label>Set Invoicing Method</label>
+        <locationX>314</locationX>
+        <locationY>611</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.Method_of_Payment__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>REF</stringValue>
+            </value>
+        </assignmentItems>
+    </assignments>
+    <decisions>
+        <name>Is_Person_Account</name>
+        <label>Is Person Account?</label>
+        <locationX>578</locationX>
+        <locationY>395</locationY>
+        <defaultConnectorLabel>Business Account</defaultConnectorLabel>
+        <rules>
+            <name>Person_Account</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Account.IsPersonAccount</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Which_Payment_Plan</targetReference>
+            </connector>
+            <label>Person Account</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Skip_Automation</name>
+        <label>Skip Automation?</label>
+        <locationX>182</locationX>
+        <locationY>287</locationY>
+        <defaultConnector>
+            <targetReference>Is_Person_Account</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Continue</defaultConnectorLabel>
+        <rules>
+            <name>Abort</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Setup.AutomationBypass__c.SkipAutomation__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <label>Abort</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Which_Payment_Plan</name>
+        <label>Which Payment Plan?</label>
+        <locationX>314</locationX>
+        <locationY>503</locationY>
+        <defaultConnectorLabel>Other</defaultConnectorLabel>
+        <rules>
+            <name>Financing</name>
+            <conditionLogic>or</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Payment_Plan__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>25% Advance + 75% Financing</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Payment_Plan__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>50% Advance + 50% Financing</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Payment_Plan__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Consumer Financing</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Set_Financing_Method</targetReference>
+            </connector>
+            <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
+            <label>Financing</label>
+        </rules>
+        <rules>
+            <name>Invoicing</name>
+            <conditionLogic>or</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Payment_Plan__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Aftersales 100% Final invoice</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Payment_Plan__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Consumer 50/50</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Set_Invoicing_Method</targetReference>
+            </connector>
+            <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
+            <label>Invoicing</label>
+        </rules>
+    </decisions>
+    <description>Trigger Flow to set Opportunity Payment Batch</description>
+    <environments>Default</environments>
+    <formulas>
+        <description>This automatically changes the opportunity name to Account name and Opportunity number.</description>
+        <name>ChangeOpportunityName</name>
+        <dataType>String</dataType>
+        <expression>left({!$Record.Account.FirstName}&amp; &quot; &quot; &amp;{!$Record.Account.LastName}, 105)&amp; &quot; - &quot; &amp; {!$Record.Opportunity_Number__c}</expression>
+    </formulas>
+    <formulas>
+        <name>Now</name>
+        <dataType>DateTime</dataType>
+        <expression>NOW()</expression>
+    </formulas>
+    <interviewLabel>Opportunity - Set Payment Batch {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Opportunity - Set Payment Batch R2.5.5</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <start>
+        <locationX>56</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Skip_Automation</targetReference>
+        </connector>
+        <object>Opportunity</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordBeforeSave</triggerType>
+    </start>
+    <status>Obsolete</status>
+    <triggerOrder>600</triggerOrder>
+    <variables>
+        <name>txtB2CRecordTypeID</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+</Flow>

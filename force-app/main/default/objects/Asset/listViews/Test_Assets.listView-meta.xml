@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Test_Assets</fullName>
+    <columns>ASSET.NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>PRODUCT2.NAME</columns>
+    <columns>ASSET.STATUS</columns>
+    <columns>ASSET.ASSET_LEVEL</columns>
+    <columns>ASSET.PARENT</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ACCOUNT.NAME</field>
+        <operation>startsWith</operation>
+        <value>B2</value>
+    </filters>
+    <label>Test Assets</label>
+    <sharedTo>
+        <group>Admins</group>
+    </sharedTo>
+</ListView>

@@ -3,7 +3,7 @@
     <fullName>Configuration_Product__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <externalId>false</externalId>
-    <label>Configuration Product</label>
+    <label>Configuration Product OLD</label>
     <referenceTo>Configuration_Product__c</referenceTo>
     <relationshipLabel>Work Order Line Items</relationshipLabel>
     <relationshipName>Work_Order_Line_Items</relationshipName>

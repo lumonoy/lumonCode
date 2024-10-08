@@ -111,13 +111,6 @@ pricingSummaryToUpsert.Office__c = opportunityRecord.Office__c; // Related Recor
                 <elementReference>recOpportunity.Owner_Profit_Center__c</elementReference>
             </value>
         </assignmentItems>
-        <assignmentItems>
-            <assignToReference>recPricingSummary.Office__c</assignToReference>
-            <operator>Assign</operator>
-            <value>
-                <elementReference>recOpportunity.Owner_Office__c</elementReference>
-            </value>
-        </assignmentItems>
         <connector>
             <targetReference>Set_Pricing_Summary_Relations</targetReference>
         </connector>
@@ -173,6 +166,13 @@ pricingSummaryToUpsert.Office__c = opportunityRecord.Office__c; // Related Recor
             <operator>Assign</operator>
             <value>
                 <elementReference>recOpportunity.Order__c</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>recPricingSummary.PriceBookId__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>recOpportunity.Pricebook2Id</elementReference>
             </value>
         </assignmentItems>
         <connector>
@@ -241,10 +241,10 @@ pricingSummaryToUpsert.Office__c = opportunityRecord.Office__c; // Related Recor
 01.09.23 Added Opportunity Record as Input
 03.09.23 Include Get Opportunity Record
 02.12.2023: Save Active Version as R2
-04.06.2024: Updated Owner Office Reference</description>
+18.03.2024: Do not Set Office =&gt; Office Code can not be set as Office Lookup</description>
     <environments>Default</environments>
     <interviewLabel>Opportunity - Assign Summary SubFlow MVP +1 {!$Flow.CurrentDateTime}</interviewLabel>
-    <label>Opportunity - Assign Summary SubFlow R2.5.2.3</label>
+    <label>Opportunity - Assign Summary SubFlow R2.4</label>
     <processMetadataValues>
         <name>BuilderType</name>
         <value>

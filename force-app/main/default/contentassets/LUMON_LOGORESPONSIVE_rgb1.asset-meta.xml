@@ -3,10 +3,17 @@
     <isVisibleByExternalUsers>false</isVisibleByExternalUsers>
     <language>en_US</language>
     <masterLabel>LUMON_LOGORESPONSIVE_rgb1</masterLabel>
+    <originNetwork>Technical Support</originNetwork>
     <relationships>
-        <organization>
+        <network>
             <access>VIEWER</access>
-        </organization>
+            <name>Technical Support</name>
+        </network>
+        <workspace>
+            <access>INFERRED</access>
+            <isManagingWorkspace>true</isManagingWorkspace>
+            <name>sfdc_asset_company_assets</name>
+        </workspace>
     </relationships>
     <versions>
         <version>

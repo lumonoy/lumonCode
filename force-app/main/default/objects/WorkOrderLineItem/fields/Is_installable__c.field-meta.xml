@@ -4,7 +4,7 @@
     <defaultValue>false</defaultValue>
     <description>Defines if this work will require an Asset to be created. Set by automation (flow).</description>
     <externalId>false</externalId>
-    <label>Is installable</label>
+    <label>Is installable OLD</label>
     <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>false</trackHistory>
     <type>Checkbox</type>

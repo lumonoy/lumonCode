@@ -4,7 +4,7 @@
     <description>Project group value for integration from Opportunity/Project</description>
     <externalId>false</externalId>
     <formula>TEXT(Opportunity__r.Project_Number__r.Project_Group__c)</formula>
-    <label>Project Group</label>
+    <label>Project Group OLD</label>
     <required>false</required>
     <trackHistory>false</trackHistory>
     <type>Text</type>

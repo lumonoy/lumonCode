@@ -2,14 +2,15 @@
  * @description       : 
  * @author            : Henk Reynders
  * @group             : 
- * @last modified on  : 12-03-2023
+ * @last modified on  : 02-05-2024
  * @last modified by  : Henk Reynders
 **/
 
 public with sharing class SoveliaContainerController {
     @AuraEnabled
-    public static InitWrapper getRVN(Id recordId) {
+    public static InitWrapper getRVN(Id recordId) {  
         InitWrapper wrapper = new InitWrapper();
+        wrapper.isSandbox = ([SELECT IsSandbox FROM Organization LIMIT 1]?.IsSandbox);
         wrapper.rvn = '';
         wrapper.errorMessage = '';
         wrapper.opportunityId = '';
@@ -21,7 +22,7 @@ public with sharing class SoveliaContainerController {
                 Configuration__c config = new Configuration__c(
                     Opportunity__c = recordId,
                     Plan_Type__c = 'Blinds',
-                    Plan_Name__c = 'Blinds',
+                    Plan_Name__c = 'After Sales Blinds',
                     Status__c = 'Draft'
                 );
                 insert config;
@@ -35,7 +36,7 @@ public with sharing class SoveliaContainerController {
                 configurationProductId = recordId;
                 wrapper.configurationProductId = recordId;
             }
-            System.debug('*** configurationProductId ***'+configurationProductId);
+            System.debug('--- configurationProductId: '+configurationProductId);
             Configuration_Product__c configurationProduct = [
                 SELECT RVN__c, Configuration__r.Opportunity__c
                 FROM Configuration_Product__c
@@ -44,8 +45,9 @@ public with sharing class SoveliaContainerController {
             ];
             wrapper.rvn = configurationProduct.RVN__c;
             wrapper.opportunityId = configurationProduct.Configuration__r.Opportunity__c;
-            System.debug(recordId);
-            System.debug(configurationProduct);
+            
+            System.debug('--- recordId: '+recordId);
+            System.debug('--- configurationProduct: '+configurationProduct);
         } catch (DmlException ex) {
             Database.rollback(savePoint);
             wrapper.errorMessage = ex.getDmlMessage(0);
@@ -58,6 +60,8 @@ public with sharing class SoveliaContainerController {
     }
 
     public class InitWrapper {
+        @AuraEnabled
+        public Boolean isSandbox { public get; set; }     
         @AuraEnabled
         public String rvn { public get; set; }
         @AuraEnabled

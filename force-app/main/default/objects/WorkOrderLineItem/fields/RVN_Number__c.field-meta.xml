@@ -3,7 +3,7 @@
     <fullName>RVN_Number__c</fullName>
     <description>Unique number (Sales Order Number + Visual given number) coming from Opportunity Product.</description>
     <externalId>false</externalId>
-    <label>RVN Number</label>
+    <label>RVN Number OLD</label>
     <length>255</length>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>

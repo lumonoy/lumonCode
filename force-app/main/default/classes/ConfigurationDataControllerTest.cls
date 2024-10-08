@@ -11,14 +11,7 @@ public class ConfigurationDataControllerTest {
     static void prepareData(){
         Test.startTest();
         //LumonTestDataFactory.setupProducts();
-        LumonTestProducts.setupProducts('LG');
-        //LumonTestProducts.setupProducts('LGS');
-        //LumonTestProducts.setupProducts('LFIXEDWALL');
-        LumonTestProducts.setupProducts('VT3');
-        //LumonTestProducts.setupProducts('VT4');    
-        //LumonTestProducts.setupProducts('VISORBLINDSALES');
-        LumonTestProducts.setupSoveliaProducts();
-        //LumonTestProducts.setupRetractableProducts();
+        LumonTestProducts.setupProductData();
         LumonTestPricebooks.setupPricebookEntries();
         LumonTestPriceParameters.setupPriceParameters();
         LumonTestInstallationTimes.setupInstallationTimes();

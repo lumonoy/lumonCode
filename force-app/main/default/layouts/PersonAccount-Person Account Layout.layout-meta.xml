@@ -25,10 +25,6 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>Language__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
                 <field>Finland_Sync_to_MC__pc</field>
             </layoutItems>
             <layoutItems>
@@ -41,7 +37,11 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>IsMigrated__pc</field>
+                <field>Sales_Country__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Customer_Number__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
@@ -412,6 +412,14 @@
     <relatedLists>
         <fields>NAME</fields>
         <relatedList>Pricing_Summary__c.Account__c</relatedList>
+    </relatedLists>
+    <relatedLists>
+        <fields>NAME</fields>
+        <relatedList>Delivery_Batch__c.Contact__c</relatedList>
+    </relatedLists>
+    <relatedLists>
+        <fields>NAME</fields>
+        <relatedList>Building_Project__c.Customer__c</relatedList>
     </relatedLists>
     <runAssignmentRulesDefault>false</runAssignmentRulesDefault>
     <showEmailCheckbox>false</showEmailCheckbox>

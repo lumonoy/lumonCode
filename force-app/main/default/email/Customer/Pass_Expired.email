@@ -1,0 +1,18 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[&nbsp;<div data-test-id="canned-response--accordion-desc" id="ember33806" class="canned-response--accordion-desc accordion-details ember-view">  <div class="mt-11 accordion-details-0" data-test-id="accordion-details-0">
+          <div data-test-id="canned-response-items" id="ember33831" class="clearfix canned-response__item  __module-tickets__shared__canned-response__response-description ember-view"><div class="description-text pt-16 pb-8 pr-8" data-test-id="response-description">
+  <div dir="ltr">Hola {!Case.Contact},</div><div dir="ltr">Las solicitudes de contraseñas deben hacerlas los responsables de cada equipo y a través de este enlace:</div><div><a href="https://forms.office.com/Pages/ResponsePage.aspx?id=tnwEbRQdyUOiLj-PGtCyEdALAKV8KjxBnzD_bPZpItZUOE9OOUlLU0laSE9VRkpSQTZZNEY1SEpNQSQlQCN0PWcu" rel="noreferrer"></a><a dir="ltr" href="https://forms.office.com/Pages/ResponsePage.aspx?id=tnwEbRQdyUOiLj-PGtCyEdALAKV8KjxBnzD_bPZpItZURVlVUFU3S1BWWVNGVDNFNzcxQ1RMMFBBUiQlQCN0PWcu" rel="noreferrer">https://forms.office.com/Pages/ResponsePage.aspx?id=tnwEbRQdyUOiLj-PGtCyEdALAKV8KjxBnzD_bPZpItZURVlVUFU3S1BWWVNGVDNFNzcxQ1RMMFBBUiQlQCN0PWcu</a></div><div><br></div><div dir="ltr">También puedes usar el siguiente QR</div><div><br></div><div><img src="https://attachment.freshdesk.com/inline/attachment?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MTIxNDAxOTc3MTUsImRvbWFpbiI6Imx1bW9uLmZyZXNoZGVzay5jb20iLCJhY2NvdW50X2lkIjoxNjY3MDJ9.woi7yfGxOgFkYJPqJoC35rnWyth4gKgbuBhp1Y7019U" style="width: 266px;" class="fr-fil fr-dib" data-id="12140197715"></div><div><br></div><div><br></div><div><br></div><div dir="ltr">Aprovechamos
+ el correo para recordar que en este canal podrás encontrar vídeos sobre
+ casi todo lo que te haga falta con respecto a IT:</div><div><a href="https://web.microsoftstream.com/channel/1c171d68-24a3-4d3b-a1ff-15bd63d7f5bc" rel="noreferrer" target="_blank"></a><a href="https://lumon365.sharepoint.com/sites/SpainITTutoriales/Shared%20Documents/Forms/AllItems.aspx?FolderCTID=0x012000A614300412CAEF48B976657EE8056DC4&amp;id=%2Fsites%2FSpainITTutoriales%2FShared%20Documents%2FGeneral&amp;viewid=affb4a90%2Dc00c%2D4b5c%2Da0f6%2D7d7c0449870b" rel="noreferrer">https://lumon365.sharepoint.com/sites/SpainITTutoriales/Shared%20Documents/Forms/AllItems.aspx?FolderCTID=0x012000A614300412CAEF48B976657EE8056DC4&amp;id=%2Fsites%2FSpainITTutoriales%2FShared%20Documents%2FGeneral&amp;viewid=affb4a90%2Dc00c%2D4b5c%2Da0f6%2D7d7c0449870b</a></div><div><br></div><div></div><div>Un saludo.</div><div><br></div><div><br></div>
+  <div class="attachment-thumb">
+    <div class="itemholder">
+    </div>
+  </div>
+</div></div>
+
+  </div>
+</div>]]></td>
+</tr>
+</table>

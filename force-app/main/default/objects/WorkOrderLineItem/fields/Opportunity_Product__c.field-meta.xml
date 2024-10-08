@@ -4,7 +4,7 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <description>Opportunity Line Item that refers to the work needed i.e. the WOLI.</description>
     <externalId>false</externalId>
-    <label>Opportunity Product</label>
+    <label>Opportunity Product OLD</label>
     <referenceTo>OpportunityLineItem</referenceTo>
     <relationshipLabel>Work Order Line Items</relationshipLabel>
     <relationshipName>Work_Order_Line_Items</relationshipName>

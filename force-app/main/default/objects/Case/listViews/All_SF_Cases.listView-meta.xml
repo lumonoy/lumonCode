@@ -22,6 +22,5 @@
     <label>All Salesforce Cases</label>
     <sharedTo>
         <group>Admins</group>
-        <group>ICT_Support</group>
     </sharedTo>
 </ListView>

@@ -2,26 +2,10 @@
 <Flow xmlns="http://soap.sforce.com/2006/04/metadata">
     <apiVersion>56.0</apiVersion>
     <assignments>
-        <name>Clear_Office</name>
-        <label>Clear Office</label>
-        <locationX>567</locationX>
-        <locationY>3143</locationY>
-        <assignmentItems>
-            <assignToReference>txtUserOffice</assignToReference>
-            <operator>Assign</operator>
-            <value>
-                <stringValue></stringValue>
-            </value>
-        </assignmentItems>
-        <connector>
-            <targetReference>Is_AD_Office_Changed</targetReference>
-        </connector>
-    </assignments>
-    <assignments>
-        <name>Clear_ProfitCenter</name>
-        <label>Clear Profit Center</label>
-        <locationX>380</locationX>
-        <locationY>1535</locationY>
+        <name>Clear_Business_Attributes</name>
+        <label>Clear Business Attributes</label>
+        <locationX>512</locationX>
+        <locationY>2159</locationY>
         <assignmentItems>
             <assignToReference>txtProfitCenterCode</assignToReference>
             <operator>Assign</operator>
@@ -37,13 +21,6 @@
             </value>
         </assignmentItems>
         <assignmentItems>
-            <assignToReference>txtUserProfitCenter</assignToReference>
-            <operator>Assign</operator>
-            <value>
-                <stringValue></stringValue>
-            </value>
-        </assignmentItems>
-        <assignmentItems>
             <assignToReference>txtOrganization</assignToReference>
             <operator>Assign</operator>
             <value>
@@ -51,30 +28,198 @@
             </value>
         </assignmentItems>
         <connector>
-            <targetReference>Is_AD_ProfitCenter_Updated</targetReference>
+            <targetReference>Update_User_Profit_Center</targetReference>
         </connector>
     </assignments>
     <assignments>
-        <name>Set_Current_Office</name>
-        <label>Set Current Office</label>
-        <locationX>204</locationX>
-        <locationY>3467</locationY>
+        <name>Clear_Manager_Id</name>
+        <label>Clear Manager Id</label>
+        <locationX>314</locationX>
+        <locationY>4199</locationY>
+        <assignmentItems>
+            <assignToReference>managerId</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue></stringValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Set_User_Manager</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Clear_Office</name>
+        <label>Clear Office</label>
+        <locationX>380</locationX>
+        <locationY>4883</locationY>
         <assignmentItems>
             <assignToReference>txtUserOffice</assignToReference>
             <operator>Assign</operator>
             <value>
-                <elementReference>$Record.Office__c</elementReference>
+                <stringValue></stringValue>
             </value>
         </assignmentItems>
         <connector>
-            <targetReference>Get_Office</targetReference>
+            <targetReference>Is_AD_Office_Updated</targetReference>
         </connector>
     </assignments>
     <assignments>
-        <name>Set_Current_ProfitCenter</name>
-        <label>Set Current Profit Center</label>
-        <locationX>182</locationX>
-        <locationY>1751</locationY>
+        <name>Clear_Office_Attributes</name>
+        <label>Clear Office Attributes</label>
+        <locationX>314</locationX>
+        <locationY>5423</locationY>
+        <assignmentItems>
+            <assignToReference>txtOfficeCode</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue></stringValue>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>txtOfficeId</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue></stringValue>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>txtOfficeDistrict</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue></stringValue>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>txtOfficeSignature</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue></stringValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Update_User_Office</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Clear_Role</name>
+        <label>Clear Role</label>
+        <locationX>314</locationX>
+        <locationY>1367</locationY>
+        <assignmentItems>
+            <assignToReference>roleId</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue></stringValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Update_User_Role</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Get_Business_Attributes</name>
+        <label>Get Business Attributes</label>
+        <locationX>358</locationX>
+        <locationY>1943</locationY>
+        <assignmentItems>
+            <assignToReference>txtOrganization</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>$Record.Organization__c</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>txtProfitCenterCode</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>$Record.ProfitCenter__c</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Is_AD_ProfitCenter_Updated</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Get_Employee_Id</name>
+        <label>Get Employee Id</label>
+        <locationX>413</locationX>
+        <locationY>2951</locationY>
+        <assignmentItems>
+            <assignToReference>txtUserEmployeeNumber</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>$Record.AD_EmployeeId__c</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Is_AD_Employee_Updated</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Get_Manager_Id</name>
+        <label>Get Manager Id</label>
+        <locationX>380</locationX>
+        <locationY>3767</locationY>
+        <assignmentItems>
+            <assignToReference>txtUserManagerId</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>$Record.ManagerId</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Is_AD_Manager_Updated</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Get_Profile_and_Role</name>
+        <label>Get Profile and Role</label>
+        <locationX>380</locationX>
+        <locationY>935</locationY>
+        <assignmentItems>
+            <assignToReference>profileId</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>$Record.ProfileId</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>roleId</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>$Record.UserRoleId</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Is_Profile_Updated</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Get_User_Attributes</name>
+        <label>Get User Attributes</label>
+        <locationX>567</locationX>
+        <locationY>719</locationY>
+        <assignmentItems>
+            <assignToReference>txtUserRole</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>$Record.UserRole.DeveloperName</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>txtUserProfile</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>$Record.Profile.Name</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>txtUserCountryCode</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>$Record.CountryCode</elementReference>
+            </value>
+        </assignmentItems>
         <assignmentItems>
             <assignToReference>txtUserOrganization</assignToReference>
             <operator>Assign</operator>
@@ -89,15 +234,22 @@
                 <elementReference>$Record.ProfitCenter__c</elementReference>
             </value>
         </assignmentItems>
+        <assignmentItems>
+            <assignToReference>txtUserOffice</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>$Record.Office__c</elementReference>
+            </value>
+        </assignmentItems>
         <connector>
-            <targetReference>Get_Profit_Center_User_Mapping</targetReference>
+            <targetReference>Is_Profile_Changed</targetReference>
         </connector>
     </assignments>
     <assignments>
-        <name>Set_New_Profit_Center</name>
-        <label>Set New Profit Center</label>
-        <locationX>50</locationX>
-        <locationY>2075</locationY>
+        <name>Set_Business_Attributes</name>
+        <label>Set Business Attributes</label>
+        <locationX>72</locationX>
+        <locationY>2375</locationY>
         <assignmentItems>
             <assignToReference>txtOrganization</assignToReference>
             <operator>Assign</operator>
@@ -138,10 +290,71 @@
         </connector>
     </assignments>
     <assignments>
+        <name>Set_New_EmployeeId</name>
+        <label>Set New Employee Number</label>
+        <locationX>281</locationX>
+        <locationY>3167</locationY>
+        <assignmentItems>
+            <assignToReference>txtEmployeeNumber</assignToReference>
+            <operator>Assign</operator>
+        </assignmentItems>
+        <connector>
+            <targetReference>Set_User_Employee_Number</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Set_New_ManagerId</name>
+        <label>Set New ManagerId</label>
+        <locationX>50</locationX>
+        <locationY>4199</locationY>
+        <assignmentItems>
+            <assignToReference>managerId</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>Get_Manager_User.Id</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Set_User_Manager</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Set_New_Office</name>
+        <label>Set New Office</label>
+        <locationX>182</locationX>
+        <locationY>5099</locationY>
+        <assignmentItems>
+            <assignToReference>txtUserOffice</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>$Record.Office__c</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Get_Office</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Set_New_Role</name>
+        <label>Set New Role</label>
+        <locationX>50</locationX>
+        <locationY>1367</locationY>
+        <assignmentItems>
+            <assignToReference>roleId</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>{!Get_User_Role.Id}</stringValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Update_User_Role</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
         <name>Set_Office_Attributes</name>
         <label>Set Office Attributes</label>
-        <locationX>72</locationX>
-        <locationY>3791</locationY>
+        <locationX>50</locationX>
+        <locationY>5423</locationY>
         <assignmentItems>
             <assignToReference>txtOfficeCode</assignToReference>
             <operator>Assign</operator>
@@ -196,86 +409,44 @@
         </connector>
     </assignments>
     <assignments>
-        <name>Set_Profit_Center</name>
-        <label>Set Profit Center</label>
-        <locationX>314</locationX>
-        <locationY>2075</locationY>
+        <name>Set_User_Employee_Number</name>
+        <label>Set User Employee Number</label>
+        <locationX>413</locationX>
+        <locationY>3359</locationY>
         <assignmentItems>
-            <assignToReference>txtProfitCenterCode</assignToReference>
+            <assignToReference>txtUserEmployeeNumber</assignToReference>
             <operator>Assign</operator>
             <value>
-                <elementReference>Get_Profit_Center_User_Mapping.Profit_Center_Code__c</elementReference>
-            </value>
-        </assignmentItems>
-        <assignmentItems>
-            <assignToReference>txtProfitCenterName</assignToReference>
-            <operator>Assign</operator>
-            <value>
-                <elementReference>Get_Profit_Center_User_Mapping.Profit_Center_Name__c</elementReference>
-            </value>
-        </assignmentItems>
-        <assignmentItems>
-            <assignToReference>txtUserProfitCenter</assignToReference>
-            <operator>Assign</operator>
-            <value>
-                <elementReference>fxProfitCenterString</elementReference>
+                <elementReference>txtEmployeeNumber</elementReference>
             </value>
         </assignmentItems>
         <connector>
-            <targetReference>Update_User_Profit_Center</targetReference>
+            <targetReference>Update_User_Employee_Number</targetReference>
         </connector>
     </assignments>
     <assignments>
-        <name>Set_User_Attributes</name>
-        <label>Set User Attributes</label>
-        <locationX>567</locationX>
-        <locationY>719</locationY>
+        <name>Set_User_Manager</name>
+        <label>Set User Manager</label>
+        <locationX>182</locationX>
+        <locationY>4391</locationY>
         <assignmentItems>
-            <assignToReference>txtUserCountry</assignToReference>
+            <assignToReference>txtUserManagerId</assignToReference>
             <operator>Assign</operator>
             <value>
-                <elementReference>$Record.Country</elementReference>
-            </value>
-        </assignmentItems>
-        <assignmentItems>
-            <assignToReference>txtUserRole</assignToReference>
-            <operator>Assign</operator>
-            <value>
-                <elementReference>$Record.UserRole.DeveloperName</elementReference>
-            </value>
-        </assignmentItems>
-        <assignmentItems>
-            <assignToReference>txtUserProfile</assignToReference>
-            <operator>Assign</operator>
-            <value>
-                <elementReference>$Record.Profile.Name</elementReference>
-            </value>
-        </assignmentItems>
-        <assignmentItems>
-            <assignToReference>txtUserCountryCode</assignToReference>
-            <operator>Assign</operator>
-            <value>
-                <elementReference>$Record.CountryCode</elementReference>
-            </value>
-        </assignmentItems>
-        <assignmentItems>
-            <assignToReference>txtUserOrganization</assignToReference>
-            <operator>Assign</operator>
-            <value>
-                <elementReference>$Record.Organization__c</elementReference>
+                <elementReference>managerId</elementReference>
             </value>
         </assignmentItems>
         <connector>
-            <targetReference>Is_Profile_Updated</targetReference>
+            <targetReference>Update_User_Manager</targetReference>
         </connector>
     </assignments>
     <decisions>
         <name>Any_Office_Returned</name>
         <label>Any Office Returned?</label>
-        <locationX>204</locationX>
-        <locationY>3683</locationY>
+        <locationX>182</locationX>
+        <locationY>5315</locationY>
         <defaultConnector>
-            <targetReference>Update_User_Office</targetReference>
+            <targetReference>Clear_Office_Attributes</targetReference>
         </defaultConnector>
         <defaultConnectorLabel>No Office</defaultConnectorLabel>
         <rules>
@@ -297,10 +468,10 @@
     <decisions>
         <name>Any_User_Mapping_Returned</name>
         <label>Any User Mapping Returned?</label>
-        <locationX>182</locationX>
-        <locationY>1967</locationY>
+        <locationX>204</locationX>
+        <locationY>2267</locationY>
         <defaultConnector>
-            <targetReference>Set_Profit_Center</targetReference>
+            <targetReference>Update_User_Profit_Center</targetReference>
         </defaultConnector>
         <defaultConnectorLabel>No User Mapping</defaultConnectorLabel>
         <rules>
@@ -314,7 +485,7 @@
                 </rightValue>
             </conditions>
             <connector>
-                <targetReference>Set_New_Profit_Center</targetReference>
+                <targetReference>Set_Business_Attributes</targetReference>
             </connector>
             <label>User Mapping</label>
         </rules>
@@ -323,7 +494,7 @@
         <description>Element that checks the License of the User based on the Profile Id. We only want to assign Public Groups for users with a Salesforce license.</description>
         <name>Check_License</name>
         <label>Check License</label>
-        <locationX>803</locationX>
+        <locationX>792</locationX>
         <locationY>611</locationY>
         <defaultConnectorLabel>Other License</defaultConnectorLabel>
         <rules>
@@ -337,7 +508,7 @@
                 </rightValue>
             </conditions>
             <connector>
-                <targetReference>Set_User_Attributes</targetReference>
+                <targetReference>Get_User_Attributes</targetReference>
             </connector>
             <label>Salesforce License</label>
         </rules>
@@ -345,7 +516,7 @@
     <decisions>
         <name>Is_Active_User</name>
         <label>Is Active User?</label>
-        <locationX>1053</locationX>
+        <locationX>1037</locationX>
         <locationY>395</locationY>
         <defaultConnectorLabel>Not Active</defaultConnectorLabel>
         <rules>
@@ -365,16 +536,98 @@
         </rules>
     </decisions>
     <decisions>
-        <name>Is_AD_Manager_Changed</name>
-        <label>Is AD Manager Changed?</label>
+        <name>Is_AD_Employee_Id_Changed</name>
+        <label>Is AD Employee Id Changed?</label>
         <locationX>567</locationX>
-        <locationY>2543</locationY>
+        <locationY>2843</locationY>
         <defaultConnector>
-            <targetReference>Clear_Office</targetReference>
+            <targetReference>Update_User_Employee_Number</targetReference>
         </defaultConnector>
         <defaultConnectorLabel>No Change</defaultConnectorLabel>
         <rules>
-            <name>AD_Manager_Changed</name>
+            <name>AD_Employee_Id_Changed</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.AD_EmployeeId__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <elementReference>$Record__Prior.AD_EmployeeId__c</elementReference>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Get_Employee_Id</targetReference>
+            </connector>
+            <label>AD Employee Id Changed</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Is_AD_Employee_Updated</name>
+        <label>Is AD Employee Updated?</label>
+        <locationX>413</locationX>
+        <locationY>3059</locationY>
+        <defaultConnector>
+            <targetReference>Set_User_Employee_Number</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>AD Employee Id Cleared</defaultConnectorLabel>
+        <rules>
+            <name>AD_Employee_Id_Updated</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.AD_EmployeeId__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <elementReference>$Record__Prior.AD_EmployeeId__c</elementReference>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.AD_EmployeeId__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>$GlobalConstant.False</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Set_New_EmployeeId</targetReference>
+            </connector>
+            <label>AD Employee Id Updated</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Is_AD_Manager_Id_Changed</name>
+        <label>Is AD Manager Id Changed?</label>
+        <locationX>567</locationX>
+        <locationY>3659</locationY>
+        <defaultConnector>
+            <targetReference>Is_AD_Office_Changed</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>No Change</defaultConnectorLabel>
+        <rules>
+            <name>AD_Manager_Id_Changed</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.AD_ManagerId__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <elementReference>$Record__Prior.AD_ManagerId__c</elementReference>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Get_Manager_Id</targetReference>
+            </connector>
+            <label>AD Manager Id Changed</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Is_AD_Manager_Updated</name>
+        <label>Is AD Manager Updated?</label>
+        <locationX>380</locationX>
+        <locationY>3875</locationY>
+        <defaultConnector>
+            <targetReference>Update_User_Manager</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>AD Manager Cleared</defaultConnectorLabel>
+        <rules>
+            <name>AD_Manager_Updated</name>
             <conditionLogic>and</conditionLogic>
             <conditions>
                 <leftValueReference>$Record.AD_ManagerId__c</leftValueReference>
@@ -383,17 +636,24 @@
                     <elementReference>$Record__Prior.AD_ManagerId__c</elementReference>
                 </rightValue>
             </conditions>
+            <conditions>
+                <leftValueReference>$Record.AD_ManagerId__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
             <connector>
                 <targetReference>Get_Manager_User</targetReference>
             </connector>
-            <label>AD Manager Changed</label>
+            <label>AD Manager Updated</label>
         </rules>
     </decisions>
     <decisions>
         <name>Is_AD_Office_Changed</name>
         <label>Is AD Office Changed?</label>
         <locationX>567</locationX>
-        <locationY>3251</locationY>
+        <locationY>4775</locationY>
         <defaultConnectorLabel>No Change</defaultConnectorLabel>
         <rules>
             <name>Office_Changed</name>
@@ -406,7 +666,7 @@
                 </rightValue>
             </conditions>
             <connector>
-                <targetReference>Is_AD_Office_Updated</targetReference>
+                <targetReference>Clear_Office</targetReference>
             </connector>
             <label>Office Changed</label>
         </rules>
@@ -414,9 +674,12 @@
     <decisions>
         <name>Is_AD_Office_Updated</name>
         <label>Is AD Office Updated?</label>
-        <locationX>358</locationX>
-        <locationY>3359</locationY>
-        <defaultConnectorLabel>No Update</defaultConnectorLabel>
+        <locationX>380</locationX>
+        <locationY>4991</locationY>
+        <defaultConnector>
+            <targetReference>Update_User_Office</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Office Cleared</defaultConnectorLabel>
         <rules>
             <name>Office_Updated</name>
             <conditionLogic>and</conditionLogic>
@@ -435,7 +698,7 @@
                 </rightValue>
             </conditions>
             <connector>
-                <targetReference>Set_Current_Office</targetReference>
+                <targetReference>Set_New_Office</targetReference>
             </connector>
             <label>Office Updated</label>
         </rules>
@@ -444,9 +707,9 @@
         <name>Is_AD_ProfitCenter_Changed</name>
         <label>Is AD Profit Center Changed?</label>
         <locationX>567</locationX>
-        <locationY>1427</locationY>
+        <locationY>1835</locationY>
         <defaultConnector>
-            <targetReference>Is_AD_Manager_Changed</targetReference>
+            <targetReference>Is_AD_Employee_Id_Changed</targetReference>
         </defaultConnector>
         <defaultConnectorLabel>No Change</defaultConnectorLabel>
         <rules>
@@ -460,7 +723,7 @@
                 </rightValue>
             </conditions>
             <connector>
-                <targetReference>Clear_ProfitCenter</targetReference>
+                <targetReference>Get_Business_Attributes</targetReference>
             </connector>
             <label>AD Profit Center Changed</label>
         </rules>
@@ -468,12 +731,12 @@
     <decisions>
         <name>Is_AD_ProfitCenter_Updated</name>
         <label>Is AD Profit Center Updated?</label>
-        <locationX>380</locationX>
-        <locationY>1643</locationY>
+        <locationX>358</locationX>
+        <locationY>2051</locationY>
         <defaultConnector>
-            <targetReference>Is_AD_Manager_Changed</targetReference>
+            <targetReference>Clear_Business_Attributes</targetReference>
         </defaultConnector>
-        <defaultConnectorLabel>No Update</defaultConnectorLabel>
+        <defaultConnectorLabel>Profit Center Cleared</defaultConnectorLabel>
         <rules>
             <name>ProfitCenter_Updated</name>
             <conditionLogic>and</conditionLogic>
@@ -492,7 +755,7 @@
                 </rightValue>
             </conditions>
             <connector>
-                <targetReference>Set_Current_ProfitCenter</targetReference>
+                <targetReference>Get_Profit_Center_User_Mapping</targetReference>
             </connector>
             <label>Profit Center Updated</label>
         </rules>
@@ -500,10 +763,10 @@
     <decisions>
         <name>Is_Manager_Found</name>
         <label>Is Manager Found?</label>
-        <locationX>435</locationX>
-        <locationY>2759</locationY>
+        <locationX>182</locationX>
+        <locationY>4091</locationY>
         <defaultConnector>
-            <targetReference>Update_User_Manager</targetReference>
+            <targetReference>Clear_Manager_Id</targetReference>
         </defaultConnector>
         <defaultConnectorLabel>No Manager</defaultConnectorLabel>
         <rules>
@@ -517,20 +780,45 @@
                 </rightValue>
             </conditions>
             <connector>
-                <targetReference>Update_User_Manager</targetReference>
+                <targetReference>Set_New_ManagerId</targetReference>
             </connector>
             <label>Manager</label>
         </rules>
     </decisions>
     <decisions>
-        <name>Is_Profile_Updated</name>
-        <label>Is Profile Updated?</label>
+        <name>Is_Profile_Changed</name>
+        <label>Is Profile Changed?</label>
         <locationX>567</locationX>
         <locationY>827</locationY>
         <defaultConnector>
             <targetReference>Is_AD_ProfitCenter_Changed</targetReference>
         </defaultConnector>
-        <defaultConnectorLabel>No Update</defaultConnectorLabel>
+        <defaultConnectorLabel>No Change</defaultConnectorLabel>
+        <rules>
+            <name>Profile_Changed</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.ProfileId</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <elementReference>$Record__Prior.ProfileId</elementReference>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Get_Profile_and_Role</targetReference>
+            </connector>
+            <label>Profile Changed</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Is_Profile_Updated</name>
+        <label>Is Profile Updated?</label>
+        <locationX>380</locationX>
+        <locationY>1043</locationY>
+        <defaultConnector>
+            <targetReference>Update_User_Role</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Profile Cleared</defaultConnectorLabel>
         <rules>
             <name>Profile_Updated</name>
             <conditionLogic>and</conditionLogic>
@@ -550,10 +838,10 @@
     <decisions>
         <name>Is_Role_Found</name>
         <label>Is Role Found?</label>
-        <locationX>413</locationX>
-        <locationY>1043</locationY>
+        <locationX>182</locationX>
+        <locationY>1259</locationY>
         <defaultConnector>
-            <targetReference>Is_AD_ProfitCenter_Changed</targetReference>
+            <targetReference>Clear_Role</targetReference>
         </defaultConnector>
         <defaultConnectorLabel>No Role</defaultConnectorLabel>
         <rules>
@@ -567,7 +855,7 @@
                 </rightValue>
             </conditions>
             <connector>
-                <targetReference>Update_User_Role</targetReference>
+                <targetReference>Set_New_Role</targetReference>
             </connector>
             <label>Role</label>
         </rules>
@@ -576,7 +864,7 @@
         <description>Skip automation is a Custom Settings and allows for admin task to be executed without triggering automation</description>
         <name>Skip_Automation</name>
         <label>Skip Automation?</label>
-        <locationX>419</locationX>
+        <locationX>411</locationX>
         <locationY>287</locationY>
         <defaultConnector>
             <targetReference>Is_Active_User</targetReference>
@@ -595,7 +883,8 @@
             <label>Abort</label>
         </rules>
     </decisions>
-    <description>Triggered before Save Flow to update Role, Manager and Business Attributes for Lumon Users</description>
+    <description>Triggered before Save Flow to update Role, Manager and Business Attributes for Lumon Users
+05.10.2024 Fixed  AD Field mapping Issues</description>
     <environments>Default</environments>
     <formulas>
         <name>fxEmailSignature</name>
@@ -639,8 +928,8 @@
     <recordLookups>
         <name>Get_Manager_User</name>
         <label>Get Manager User</label>
-        <locationX>435</locationX>
-        <locationY>2651</locationY>
+        <locationX>182</locationX>
+        <locationY>3983</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>Is_Manager_Found</targetReference>
@@ -660,8 +949,8 @@
     <recordLookups>
         <name>Get_Office</name>
         <label>Get Office</label>
-        <locationX>204</locationX>
-        <locationY>3575</locationY>
+        <locationX>182</locationX>
+        <locationY>5207</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>Any_Office_Returned</targetReference>
@@ -681,7 +970,7 @@
     <recordLookups>
         <name>Get_Profile</name>
         <label>Get Profile</label>
-        <locationX>803</locationX>
+        <locationX>792</locationX>
         <locationY>503</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
@@ -703,8 +992,8 @@
         <description>Element that retrieves the User Mapping Custom Metadata to be able to set the Profit Center</description>
         <name>Get_Profit_Center_User_Mapping</name>
         <label>Get Profit Center User Mapping</label>
-        <locationX>182</locationX>
-        <locationY>1859</locationY>
+        <locationX>204</locationX>
+        <locationY>2159</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>Any_User_Mapping_Returned</targetReference>
@@ -722,10 +1011,12 @@
         <storeOutputAutomatically>true</storeOutputAutomatically>
     </recordLookups>
     <recordLookups>
+        <description>Retrieve the User Role based on Role (Group) Developer Name
+Default Role equals User Profile + User Country Code</description>
         <name>Get_User_Role</name>
         <label>Get User Role</label>
-        <locationX>413</locationX>
-        <locationY>935</locationY>
+        <locationX>182</locationX>
+        <locationY>1151</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>Is_Role_Found</targetReference>
@@ -750,17 +1041,33 @@
         <storeOutputAutomatically>true</storeOutputAutomatically>
     </recordLookups>
     <recordUpdates>
+        <name>Update_User_Employee_Number</name>
+        <label>Update User Employee Number</label>
+        <locationX>567</locationX>
+        <locationY>3551</locationY>
+        <connector>
+            <targetReference>Is_AD_Manager_Id_Changed</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>EmployeeNumber</field>
+            <value>
+                <elementReference>txtUserEmployeeNumber</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
         <name>Update_User_Manager</name>
         <label>Update User Manager</label>
-        <locationX>435</locationX>
-        <locationY>2951</locationY>
+        <locationX>380</locationX>
+        <locationY>4583</locationY>
         <connector>
-            <targetReference>Clear_Office</targetReference>
+            <targetReference>Is_AD_Office_Changed</targetReference>
         </connector>
         <inputAssignments>
             <field>ManagerId</field>
             <value>
-                <elementReference>Get_Manager_User.Id</elementReference>
+                <elementReference>txtUserManagerId</elementReference>
             </value>
         </inputAssignments>
         <inputReference>$Record</inputReference>
@@ -768,8 +1075,8 @@
     <recordUpdates>
         <name>Update_User_Office</name>
         <label>Update User Office</label>
-        <locationX>204</locationX>
-        <locationY>3983</locationY>
+        <locationX>380</locationX>
+        <locationY>5699</locationY>
         <inputAssignments>
             <field>District__c</field>
             <value>
@@ -811,10 +1118,10 @@
     <recordUpdates>
         <name>Update_User_Profit_Center</name>
         <label>Update User Profit Center</label>
-        <locationX>182</locationX>
-        <locationY>2267</locationY>
+        <locationX>358</locationX>
+        <locationY>2651</locationY>
         <connector>
-            <targetReference>Is_AD_Manager_Changed</targetReference>
+            <targetReference>Is_AD_Employee_Id_Changed</targetReference>
         </connector>
         <inputAssignments>
             <field>Organization__c</field>
@@ -833,22 +1140,22 @@
     <recordUpdates>
         <name>Update_User_Role</name>
         <label>Update User Role</label>
-        <locationX>281</locationX>
-        <locationY>1151</locationY>
+        <locationX>380</locationX>
+        <locationY>1643</locationY>
         <connector>
             <targetReference>Is_AD_ProfitCenter_Changed</targetReference>
         </connector>
         <inputAssignments>
             <field>UserRoleId</field>
             <value>
-                <elementReference>Get_User_Role.Id</elementReference>
+                <elementReference>roleId</elementReference>
             </value>
         </inputAssignments>
         <inputReference>$Record</inputReference>
     </recordUpdates>
     <runInMode>SystemModeWithoutSharing</runInMode>
     <start>
-        <locationX>293</locationX>
+        <locationX>285</locationX>
         <locationY>0</locationY>
         <connector>
             <targetReference>Skip_Automation</targetReference>
@@ -859,6 +1166,13 @@
     </start>
     <status>Draft</status>
     <variables>
+        <name>managerId</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
         <name>nbrUserMappings</name>
         <dataType>Number</dataType>
         <isCollection>false</isCollection>
@@ -868,6 +1182,13 @@
     </variables>
     <variables>
         <name>objectType</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>profileId</name>
         <dataType>String</dataType>
         <isCollection>false</isCollection>
         <isInput>false</isInput>
@@ -896,6 +1217,13 @@
         <objectType>User</objectType>
     </variables>
     <variables>
+        <name>roleId</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
         <name>txtBusinessType</name>
         <dataType>String</dataType>
         <isCollection>false</isCollection>
@@ -918,6 +1246,13 @@
     </variables>
     <variables>
         <name>txtCustomMetaSalesGroup</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>txtEmployeeNumber</name>
         <dataType>String</dataType>
         <isCollection>false</isCollection>
         <isInput>false</isInput>
@@ -1030,6 +1365,20 @@
     </variables>
     <variables>
         <name>txtUserDistrict</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>txtUserEmployeeNumber</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>txtUserManagerId</name>
         <dataType>String</dataType>
         <isCollection>false</isCollection>
         <isInput>false</isInput>

@@ -5,7 +5,7 @@
 This custom field is part of the B2C lead to order process.</description>
     <externalId>false</externalId>
     <inlineHelpText>Please fill in more Preliminary Contract Details.</inlineHelpText>
-    <label>Preliminary Contract Reason Details2</label>
+    <label>Preliminary Contract Reason Details2 OLD</label>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>false</trackHistory>

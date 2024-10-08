@@ -397,4 +397,8 @@
         <value><!-- Pricing Summary --></value>
     </caseValues>
     <nameFieldLabel><!-- Pricing Summary Number --></nameFieldLabel>
+    <quickActions>
+        <label><!-- Business Attributes --></label>
+        <name>Business_Attributes</name>
+    </quickActions>
 </CustomObjectTranslation>

@@ -200,14 +200,14 @@
             <assignToReference>recStructuralAnalysis.Country_Code__c</assignToReference>
             <operator>Assign</operator>
             <value>
-                <elementReference>recStructuralAnalysis.Building__r.Building_Address__CountryCode__s</elementReference>
+                <elementReference>recStructuralAnalysis.Building__r.BuildingAddress__CountryCode__s</elementReference>
             </value>
         </assignmentItems>
         <assignmentItems>
             <assignToReference>recStructuralAnalysis.Wind_Speed__c</assignToReference>
             <operator>Assign</operator>
             <value>
-                <numberValue>0.0</numberValue>
+                <elementReference>recStructuralAnalysisDefault.Reference_Windspeed__c</elementReference>
             </value>
         </assignmentItems>
         <assignmentItems>
@@ -271,7 +271,7 @@
             <leftValueReference>currentItem_Filter_Structural_Analysis_Defaults.Country_Code__c</leftValueReference>
             <operator>EqualTo</operator>
             <rightValue>
-                <elementReference>recBuilding.Building_Address__CountryCode__s</elementReference>
+                <elementReference>recBuilding.BuildingAddress__CountryCode__s</elementReference>
             </rightValue>
         </conditions>
         <connector>
@@ -292,7 +292,7 @@
             <leftValueReference>currentItem_Filter_Structural_Analysis_Defaults.Country_Code__c</leftValueReference>
             <operator>EqualTo</operator>
             <rightValue>
-                <elementReference>recBuilding.Building_Address__CountryCode__s</elementReference>
+                <elementReference>recBuilding.BuildingAddress__CountryCode__s</elementReference>
             </rightValue>
         </conditions>
         <conditions>
@@ -341,7 +341,7 @@
             <leftValueReference>currentItem_Filter_Structural_Analysis_Defaults.Country_Code__c</leftValueReference>
             <operator>EqualTo</operator>
             <rightValue>
-                <elementReference>Get_Building.Building_Address__CountryCode__s</elementReference>
+                <elementReference>Get_Building.BuildingAddress__CountryCode__s</elementReference>
             </rightValue>
         </conditions>
         <connector>
@@ -500,10 +500,11 @@ Removed Setting of On hill or Slope
 17.11.2023 Validate Flow
 02.12.2023: Save Active Version as R2
 04.01.2024 fix to avoid duplication of structural Analysis
-25.04.2024 update to run as System</description>
+25.04.2024 update to run as System
+05.06.2024 Set Wind speed to reference value</description>
     <environments>Default</environments>
     <interviewLabel>Assign Structural Analysis SubFlow MVP {!$Flow.CurrentDateTime}</interviewLabel>
-    <label>Assign Structural Analysis Defaults SubFlow R2.1</label>
+    <label>Assign Structural Analysis Defaults SubFlow R2.5.5</label>
     <loops>
         <name>Loop_Country_Default_Results</name>
         <label>Loop Country Default Results</label>
@@ -659,7 +660,7 @@ Removed Setting of On hill or Slope
             <targetReference>Skip_Automation</targetReference>
         </connector>
     </start>
-    <status>Draft</status>
+    <status>Active</status>
     <subflows>
         <name>Get_ObjectType</name>
         <label>Get ObjectType?</label>

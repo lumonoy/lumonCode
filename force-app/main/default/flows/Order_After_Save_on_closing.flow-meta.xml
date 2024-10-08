@@ -788,7 +788,7 @@
         <recordTriggerType>Update</recordTriggerType>
         <triggerType>RecordAfterSave</triggerType>
     </start>
-    <status>Draft</status>
+    <status>Active</status>
     <subflows>
         <description>Resolves the Service Territory for the Asset to be created using the information available on the Opportunity.
 Service Territory information should be made available on Asset.</description>

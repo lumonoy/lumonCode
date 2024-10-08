@@ -4,7 +4,7 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <description>Opportunity related to the work. Used to access e.g. product detail.</description>
     <externalId>false</externalId>
-    <label>Opportunity</label>
+    <label>Opportunity OLD</label>
     <referenceTo>Opportunity</referenceTo>
     <relationshipLabel>Work Orders</relationshipLabel>
     <relationshipName>Work_Orders</relationshipName>

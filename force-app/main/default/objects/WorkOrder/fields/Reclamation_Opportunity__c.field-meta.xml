@@ -4,7 +4,7 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <description>Identifies the reclamation oppo. The soft and hard installation times are updated by another flow (sa - on update after save) to the reclamation oppo.</description>
     <externalId>false</externalId>
-    <label>Reclamation Opportunity</label>
+    <label>Reclamation Opportunity OLD</label>
     <referenceTo>Opportunity</referenceTo>
     <relationshipLabel>Work Orders (Reclamation Opportunity)</relationshipLabel>
     <relationshipName>Reclamation_Work_Orders</relationshipName>

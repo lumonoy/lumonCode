@@ -1,0 +1,66 @@
+{
+  "type" : "experience__navigationMenu",
+  "title" : "menu",
+  "contentBody" : {
+    "experience:navigationMenuMixin" : {
+      "definition" : "experience/navigationMenuItems",
+      "children" : [ {
+        "attributes" : {
+          "icon" : {
+            "name" : "Schedule",
+            "source" : {
+              "type" : "SLDS",
+              "value" : "utility:event"
+            }
+          },
+          "label" : "Schedule"
+        },
+        "target" : {
+          "attributes" : {
+            "pageName" : "Schedule"
+          },
+          "definition" : "experience/namedPage"
+        },
+        "definition" : "experience/navigationMenuItem"
+      }, {
+        "attributes" : {
+          "icon" : {
+            "name" : "Notifications",
+            "source" : {
+              "type" : "SLDS",
+              "value" : "utility:notification"
+            }
+          },
+          "label" : "Notifications"
+        },
+        "target" : {
+          "attributes" : {
+            "pageName" : "Notifications"
+          },
+          "definition" : "experience/namedPage"
+        },
+        "definition" : "experience/navigationMenuItem"
+      }, {
+        "attributes" : {
+          "icon" : {
+            "name" : "timesheet",
+            "source" : {
+              "type" : "SLDS",
+              "value" : "utility:clock"
+            }
+          },
+          "label" : "Time Sheet"
+        },
+        "target" : {
+          "attributes" : {
+            "objectApiName" : "TimeSheet",
+            "filterApiNames" : [ "My_TimeSheets" ]
+          },
+          "definition" : "experience/primeableObjectPage"
+        },
+        "definition" : "experience/navigationMenuItem"
+      } ]
+    }
+  },
+  "urlName" : "menu"
+}

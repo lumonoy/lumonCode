@@ -76,4 +76,31 @@
         <probability>0</probability>
         <won>false</won>
     </standardValue>
+    <standardValue>
+        <fullName>Plan</fullName>
+        <default>false</default>
+        <label>Plan</label>
+        <closed>false</closed>
+        <forecastCategory>Pipeline</forecastCategory>
+        <probability>30</probability>
+        <won>false</won>
+    </standardValue>
+    <standardValue>
+        <fullName>Prepare</fullName>
+        <default>false</default>
+        <label>Prepare</label>
+        <closed>false</closed>
+        <forecastCategory>Omitted</forecastCategory>
+        <probability>10</probability>
+        <won>false</won>
+    </standardValue>
+    <standardValue>
+        <fullName>Offer</fullName>
+        <default>false</default>
+        <label>Offer</label>
+        <closed>false</closed>
+        <forecastCategory>Pipeline</forecastCategory>
+        <probability>40</probability>
+        <won>false</won>
+    </standardValue>
 </StandardValueSet>

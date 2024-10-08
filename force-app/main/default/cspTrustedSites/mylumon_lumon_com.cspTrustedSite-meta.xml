@@ -4,7 +4,7 @@
     <canAccessMicrophone>false</canAccessMicrophone>
     <context>All</context>
     <endpointUrl>https://mylumon.lumon.com</endpointUrl>
-    <isActive>true</isActive>
+    <isActive>false</isActive>
     <isApplicableToConnectSrc>true</isApplicableToConnectSrc>
     <isApplicableToFontSrc>true</isApplicableToFontSrc>
     <isApplicableToFrameSrc>true</isApplicableToFrameSrc>

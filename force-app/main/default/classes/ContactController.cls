@@ -2,7 +2,7 @@
  * @description       : 
  * @author            : Henk Reynders
  * @group             : 
- * @last modified on  : 12-04-2023
+ * @last modified on  : 08-08-2024
  * @last modified by  : Henk Reynders
 **/
 public with sharing class ContactController {
@@ -18,6 +18,21 @@ public with sharing class ContactController {
 
         System.debug('--- Contact: '+contact.Name); 
         return contact;  
+    }
+    @AuraEnabled(cacheable=false)
+    public static Contact getContactByName(String contactName) {
+        // Populate List from SOQL query on Contact
+        Id contactId = [SELECT Id FROM Contact WHERE Name =: contactName LIMIT 1]?.Id; 
+        List<Id> contactIds = new List<Id>();
+        contactIds.add(contactId);
+        Contact contact = new Contact();
+        System.debug('--- ContactController - Get Contact with Id '+contactId); 
+        List<Contact> contacts =  getContacts(contactIds); 
+        if  (contacts?.size()>0) {
+            contact = contacts[0];
+            System.debug('--- ContactController - Contact: '+contact.Name); 
+        }        
+        return contact;
     }
     @AuraEnabled(cacheable=false)
     public static List<Contact> getContacts(List<Id> recordIds ) {

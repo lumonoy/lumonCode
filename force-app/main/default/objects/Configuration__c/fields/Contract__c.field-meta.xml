@@ -2,9 +2,13 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Contract__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
+    <description>Reference to the Contract to which this Configuration belongs.
+Set when Quote is Accepted and Contract Signed</description>
     <externalId>false</externalId>
-    <label>Contract</label>
+    <inlineHelpText>Reference to the Contract to which this Configuration belongs</inlineHelpText>
+    <label>Plan Contract</label>
     <referenceTo>Contract</referenceTo>
+    <relationshipLabel>Configuration Plans</relationshipLabel>
     <relationshipName>Configurations</relationshipName>
     <required>false</required>
     <trackHistory>false</trackHistory>

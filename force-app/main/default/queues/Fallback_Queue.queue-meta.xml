@@ -14,4 +14,22 @@
     <queueSobject>
         <sobjectType>Lead</sobjectType>
     </queueSobject>
+    <queueSobject>
+        <sobjectType>Order</sobjectType>
+    </queueSobject>
+    <queueSobject>
+        <sobjectType>Quote</sobjectType>
+    </queueSobject>
+    <queueSobject>
+        <sobjectType>ServiceAppointment</sobjectType>
+    </queueSobject>
+    <queueSobject>
+        <sobjectType>ServiceResource</sobjectType>
+    </queueSobject>
+    <queueSobject>
+        <sobjectType>ServiceTerritory</sobjectType>
+    </queueSobject>
+    <queueSobject>
+        <sobjectType>WorkOrder</sobjectType>
+    </queueSobject>
 </Queue>

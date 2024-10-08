@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <help><!-- Last Possible Date To Order Products and Meet Agreed TimeLine --></help>
-    <label><!-- Last Date To Order --></label>
+    <label><!-- Last Date To Order OLD --></label>
     <name>Last_Date_To_Order__c</name>
 </CustomFieldTranslation>

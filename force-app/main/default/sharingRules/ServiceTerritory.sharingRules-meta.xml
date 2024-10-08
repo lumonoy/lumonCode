@@ -1,5 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingCriteriaRules>
+        <fullName>Service_Territories_Finland</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Service Territories Finland</label>
+        <sharedTo>
+            <role>Lumon_Installation_Manager_FI</role>
+        </sharedTo>
+        <criteriaItems>
+            <field>CountryCode</field>
+            <operation>equals</operation>
+            <value>Finland</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
     <sharingOwnerRules>
         <fullName>Finland_CS</fullName>
         <accessLevel>Read</accessLevel>
@@ -10,6 +24,17 @@
         </sharedTo>
         <sharedFrom>
             <roleAndSubordinates>Finland</roleAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Finland_Territories</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Finland Territories</label>
+        <sharedTo>
+            <role>Lumon_Installation_Manager_FI</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>Lumon_Installation_Manager_FI</role>
         </sharedFrom>
     </sharingOwnerRules>
 </SharingRules>

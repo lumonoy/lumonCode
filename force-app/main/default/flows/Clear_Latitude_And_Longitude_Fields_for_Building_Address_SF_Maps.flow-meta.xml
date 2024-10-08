@@ -30,10 +30,10 @@
         <locationX>176</locationX>
         <locationY>323</locationY>
         <inputAssignments>
-            <field>Building_Address__Latitude__s</field>
+            <field>BuildingAddress__Latitude__s</field>
         </inputAssignments>
         <inputAssignments>
-            <field>Building_Address__Longitude__s</field>
+            <field>BuildingAddress__Longitude__s</field>
         </inputAssignments>
         <inputReference>$Record</inputReference>
     </recordUpdates>
@@ -45,42 +45,42 @@
         </connector>
         <filterLogic>or</filterLogic>
         <filters>
-            <field>Building_Address__c</field>
+            <field>BuildingAddress__c</field>
             <operator>IsChanged</operator>
             <value>
                 <booleanValue>true</booleanValue>
             </value>
         </filters>
         <filters>
-            <field>Building_Address__Street__s</field>
+            <field>BuildingAddress__Street__s</field>
             <operator>IsChanged</operator>
             <value>
                 <booleanValue>true</booleanValue>
             </value>
         </filters>
         <filters>
-            <field>Building_Address__PostalCode__s</field>
+            <field>BuildingAddress__PostalCode__s</field>
             <operator>IsChanged</operator>
             <value>
                 <booleanValue>true</booleanValue>
             </value>
         </filters>
         <filters>
-            <field>Building_Address__City__s</field>
+            <field>BuildingAddress__City__s</field>
             <operator>IsChanged</operator>
             <value>
                 <booleanValue>true</booleanValue>
             </value>
         </filters>
         <filters>
-            <field>Building_Address__StateCode__s</field>
+            <field>BuildingAddress__StateCode__s</field>
             <operator>IsChanged</operator>
             <value>
                 <booleanValue>true</booleanValue>
             </value>
         </filters>
         <filters>
-            <field>Building_Address__CountryCode__s</field>
+            <field>BuildingAddress__CountryCode__s</field>
             <operator>IsChanged</operator>
             <value>
                 <booleanValue>true</booleanValue>

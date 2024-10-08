@@ -2,7 +2,7 @@
  * @description       : 
  * @author            : Henk Reynders
  * @group             : 
- * @last modified on  : 02-12-2024
+ * @last modified on  : 06-04-2024
  * @last modified by  : Henk Reynders
 **/
 @IsTest
@@ -20,18 +20,15 @@ public with sharing class PricingSummaryServiceTest {
     @TestSetup
     static void prepareData() {
         Test.startTest();
-        LumonTestDataFactory.setupGlazingSliding();
-        LumonTestDataFactory.setupGlazingRetractable();
-        LumonTestDataFactory.setupAdditionalCosts();
-        LumonTestDataFactory.setupExtraSales();
+        LumonTestDataFactory.setupProducts();
+        LumonTestDataFactory.setupPriceParameters();
+        LumonTestDataFactory.setupPriceBookEntries();
         // B2C Setup
         LumonTestDataFactory.setupAccountB2C();
         LumonTestDataFactory.setupOpportunityB2C();
-        LumonTestDataFactory.setupPriceParameters();
         LumonTestDataFactory.setupPricingSummaryB2C();
         LumonTestDataFactory.setupSyncedQuoteB2C();        
         LumonTestDataFactory.setupConfigurationB2C();
-        LumonTestDataFactory.setupProducts();
         LumonTestDataFactory.setupConfigurationProductsB2C();
         LumonTestDataFactory.setupConfigurationOptionsB2C(); 
         LumonTestDataFactory.setupSyncedQuoteLineItemsB2C();
@@ -45,8 +42,8 @@ public with sharing class PricingSummaryServiceTest {
         Test.startTest();
         Opportunity b2cOpportunity = PricingSummaryService.queryOpportunity(b2cOpportunityId);
         System.assertNotEquals(null, b2cOpportunity, 'Expecting a result');
-        System.debug('---- queryOpportunityTest - CPU TIME: '+LIMITS.getCpuTime()); 
-        System.debug('---- queryOpportunityTest - SOQL USED: ' + LIMITS.getQueries());
+        System.debug('--- PricingSummaryServiceTest - queryOpportunityTest - CPU TIME: '+LIMITS.getCpuTime()); 
+        System.debug('--- PricingSummaryServiceTest - queryOpportunityTest - SOQL USED: ' + LIMITS.getQueries());
         Test.stopTest();
     } 
     @IsTest
@@ -54,8 +51,8 @@ public with sharing class PricingSummaryServiceTest {
         Test.startTest();
         Quote syncedQuote = PricingSummaryService.queryQuote(b2cSyncedQuoteId);
         System.assertNotEquals(null, syncedQuote, 'Expecting a result');
-        System.debug('---- queryQuoteTest - CPU TIME: '+LIMITS.getCpuTime()); 
-        System.debug('---- queryQuoteTest - SOQL USED: ' + LIMITS.getQueries());
+        System.debug('--- PricingSummaryServiceTest - queryQuoteTest - CPU TIME: '+LIMITS.getCpuTime()); 
+        System.debug('--- PricingSummaryServiceTest - queryQuoteTest - SOQL USED: ' + LIMITS.getQueries());
         Test.stopTest();
     } 
     @IsTest
@@ -63,25 +60,40 @@ public with sharing class PricingSummaryServiceTest {
         Test.startTest();
         List<QuoteLineItem> quoteLines = PricingSummaryService.getQuoteLineItems(b2cSyncedQuoteId);
         System.assertNotEquals(0, quoteLines.size(), 'Expecting a result');
-        System.debug('---- getQuoteLineItemsTest - CPU TIME: '+LIMITS.getCpuTime()); 
-        System.debug('---- getQuoteLineItemsTest - SOQL USED: ' + LIMITS.getQueries());
+        System.debug('--- PricingSummaryServiceTest - getQuoteLineItemsTest - CPU TIME: '+LIMITS.getCpuTime()); 
+        System.debug('--- PricingSummaryServiceTest - getQuoteLineItemsTest - SOQL USED: ' + LIMITS.getQueries());
+        Test.stopTest();
+    } 
+
+    @IsTest
+    static void queryPricingSummaryTest(){
+        LumonTestDataFactory.setupPricingSummaryB2C();
+        List<Pricing_Summary__c> summaries = [SELECT Id, Opportunity__c, Quote__c FROM Pricing_Summary__c];
+        System.debug('--- PricingSummaryServiceTest - queryPricingSummaryTest - Summaries: '+summaries); 
+        Test.startTest();
+        System.debug('--- PricingSummaryServiceTest - queryPricingSummaryTest - Opportunity: '+b2cOpportunityId); 
+        System.debug('--- PricingSummaryServiceTest - queryPricingSummaryTest - Synced Quote: '+b2cSyncedQuoteId); 
+        Pricing_Summary__c summary = PricingSummaryService.queryPricingSummary(b2cOpportunityId,b2cSyncedQuoteId);
+        System.assertNotEquals(null, summary, 'Expecting a result');
+        System.debug('--- PricingSummaryServiceTest - queryPricingSummaryTest - CPU TIME: '+LIMITS.getCpuTime()); 
+        System.debug('--- PricingSummaryServiceTest - queryPricingSummaryTest - SOQL USED: ' + LIMITS.getQueries());
         Test.stopTest();
     } 
     @IsTest
     static void isAdminTest(){
         LumonTestDataFactory.setupAdminUser();
         Id adminUserId = LumonTestDataFactory.adminUser;
-        System.Debug ('---- isAdminTest - adminUserId '+adminUserId);
-        System.Debug ('---- isAdminTest - adminProfileId '+[SELECT Id FROM Profile WHERE Name='System Administrator']?.Id);
-        System.Debug ('---- isAdminTest - adminUser '+[SELECT Id FROM User WHERE(username='admin.testuser@email123.com')]?.Id);
+        System.Debug ('--- PricingSummaryServiceTest - isAdminTest - adminUserId '+adminUserId);
+        System.Debug ('--- PricingSummaryServiceTest - isAdminTest - adminProfileId '+[SELECT Id FROM Profile WHERE Name='System Administrator']?.Id);
+        System.Debug ('--- PricingSummaryServiceTest - isAdminTest - adminUser '+[SELECT Id FROM User WHERE(username='admin.testuser@email123.com')]?.Id);
         User adminUser = [SELECT Id,Name FROM User WHERE Id = :adminUserId];
         Test.startTest();
-        System.Debug ('---- isAdminTest - Runas Admin '+adminUser.Name);
+        System.Debug ('--- PricingSummaryServiceTest - isAdminTest - Runas Admin '+adminUser.Name);
         System.runAs(adminUser){
             boolean isAdminRole = PricingSummaryService.isAdmin();
             System.assertEquals(true, isAdminRole, 'Expecting a result');
-            System.debug('---- isAdminTest - CPU TIME: '+LIMITS.getCpuTime()); 
-            System.debug('---- isAdminTest - SOQL USED: ' + LIMITS.getQueries());
+            System.debug('--- PricingSummaryServiceTest - isAdminTest - CPU TIME: '+LIMITS.getCpuTime()); 
+            System.debug('--- PricingSummaryServiceTest - isAdminTest - SOQL USED: ' + LIMITS.getQueries());
         }
         Test.stopTest();
     } 
@@ -91,12 +103,12 @@ public with sharing class PricingSummaryServiceTest {
         Id salesUserId = LumonTestDataFactory.salesUser;
         User salesUser = [SELECT Id,Name FROM User WHERE Id = :salesUserId];
         Test.startTest();
-        System.Debug ('---- isSalesTest - Runas Sales User '+salesUser.Name);
+        System.Debug ('--- PricingSummaryServiceTest - isSalesTest - Runas Sales User '+salesUser.Name);
         System.runAs(salesUser){
             boolean isSalesRole = PricingSummaryService.isSales();
             System.assertEquals(true, isSalesRole, 'Expecting a result');
-            System.debug('---- isSalesTest - CPU TIME: '+LIMITS.getCpuTime()); 
-            System.debug('---- isSalesTest - SOQL USED: ' + LIMITS.getQueries());
+            System.debug('--- PricingSummaryServiceTest - isSalesTest - CPU TIME: '+LIMITS.getCpuTime()); 
+            System.debug('--- PricingSummaryServiceTest - isSalesTest - SOQL USED: ' + LIMITS.getQueries());
         }
         Test.stopTest();
     } 
@@ -106,12 +118,12 @@ public with sharing class PricingSummaryServiceTest {
         Id salesMgrId = LumonTestUsers.salesManagerUser?.Id;
         User salesMgr = [SELECT Id,Name FROM User WHERE Id = :salesMgrId];
         Test.startTest();
-        System.Debug ('---- isManagerTest - Runas Sales Manager '+salesMgr.Name);
+        System.Debug ('--- PricingSummaryServiceTest - isManagerTest - Runas Sales Manager '+salesMgr.Name);
         System.runAs(salesMgr){
             boolean isManagerRole = PricingSummaryService.isManager();
             System.assertEquals(true, isManagerRole, 'Expecting a result');
-            System.debug('---- isManagerTest - CPU TIME: '+LIMITS.getCpuTime()); 
-            System.debug('---- isManagerTest - SOQL USED: ' + LIMITS.getQueries());
+            System.debug('--- PricingSummaryServiceTest - isManagerTest - CPU TIME: '+LIMITS.getCpuTime()); 
+            System.debug('--- PricingSummaryServiceTest - isManagerTest - SOQL USED: ' + LIMITS.getQueries());
         }
         Test.stopTest();
     } 
@@ -121,12 +133,12 @@ public with sharing class PricingSummaryServiceTest {
         Id technicalSupportId = LumonTestUsers.technicalSupportUser?.Id;
         User technicalSupport = [SELECT Id,Name FROM User WHERE Id = :technicalSupportId];
         Test.startTest();
-        System.Debug ('---- isSupportTest - Runas Technical Support User '+technicalSupport.Name);
+        System.Debug ('--- PricingSummaryServiceTest - isSupportTest - Runas Technical Support User '+technicalSupport.Name);
         System.runAs(technicalSupport){
             boolean isSupportRole = PricingSummaryService.isSupport();
             System.assertEquals(true, isSupportRole, 'Expecting a result');
-            System.debug('---- isSupportTest - CPU TIME: '+LIMITS.getCpuTime()); 
-            System.debug('---- isSupportTest - SOQL USED: ' + LIMITS.getQueries());
+            System.debug('--- PricingSummaryServiceTest - isSupportTest - CPU TIME: '+LIMITS.getCpuTime()); 
+            System.debug('--- PricingSummaryServiceTest - isSupportTest - SOQL USED: ' + LIMITS.getQueries());
         }
         Test.stopTest();
     } 
@@ -136,12 +148,12 @@ public with sharing class PricingSummaryServiceTest {
         Id customerServiceId = LumonTestUsers.customerServiceUser?.Id;
         User customerService = [SELECT Id,Name FROM User WHERE Id = :customerServiceId];
         Test.startTest();
-        System.Debug ('---- isServiceTest - Runas Customer Support User '+customerService.Name);
+        System.Debug ('--- PricingSummaryServiceTest - isServiceTest - Runas Customer Support User '+customerService.Name);
         System.runAs(customerService){
             boolean isServiceRole = PricingSummaryService.isService();
             System.assertEquals(true, isServiceRole, 'Expecting a result');
-            System.debug('---- isServiceTest - CPU TIME: '+LIMITS.getCpuTime()); 
-            System.debug('---- isServiceTest - SOQL USED: ' + LIMITS.getQueries());
+            System.debug('--- PricingSummaryServiceTest - isServiceTest - CPU TIME: '+LIMITS.getCpuTime()); 
+            System.debug('--- PricingSummaryServiceTest - isServiceTest - SOQL USED: ' + LIMITS.getQueries());
         }
         Test.stopTest();
     } 
@@ -151,12 +163,12 @@ public with sharing class PricingSummaryServiceTest {
         Id marketeerId = LumonTestUsers.marketingUser?.Id;
         User marketeer = [SELECT Id,Name FROM User WHERE Id = :marketeerId];
         Test.startTest();
-        System.Debug ('---- isMarketeerTest - Runas Marketing User '+marketeer.Name);
+        System.Debug ('--- PricingSummaryServiceTest isMarketeerTest - Runas Marketing User '+marketeer.Name);
         System.runAs(marketeer){
             boolean isMarketingRole = PricingSummaryService.isMarketeer();
             System.assertEquals(true, isMarketingRole, 'Expecting a result');
-            System.debug('---- isMarketeerTest - CPU TIME: '+LIMITS.getCpuTime()); 
-            System.debug('---- isMarketeerTest - SOQL USED: ' + LIMITS.getQueries());
+            System.debug('--- PricingSummaryServiceTest isMarketeerTest - CPU TIME: '+LIMITS.getCpuTime()); 
+            System.debug('--- PricingSummaryServiceTest isMarketeerTest - SOQL USED: ' + LIMITS.getQueries());
         }
         Test.stopTest();
     } */
@@ -209,6 +221,8 @@ public with sharing class PricingSummaryServiceTest {
             System.Debug ('----QuotingManagerCPQSettingsTest - An Exception Occured:'+errorMessage);
         }
         System.assertEquals(null,errorMessage, 'Expected to find CPQ Settings');
+        Boolean isDebug  = PricingSummaryService.isDebug();
+		Decimal maxDiscount  = PricingSummaryService.maxDiscount();
         System.debug('----QuotingManagerCPQSettingsTest - CPU TIME: '+LIMITS.getCpuTime()); 
         System.debug('----QuotingManagerCPQSettingsTest - SOQL USED: ' + LIMITS.getQueries());
         Test.stopTest(); 
@@ -275,12 +289,25 @@ public with sharing class PricingSummaryServiceTest {
         }
         Id salesUserId = LumonTestDataFactory.salesUser;        
         User salesUser = [SELECT Id, Country, CountryCode, District__c, Profit_Center__c  FROM User WHERE Id = :salesUserId];
+        Opportunity opp = [SELECT Id,AccountId, SyncedQuoteId,
+                                    Organization__c,Business_Type__c ,
+                                    Country_Attribute__c,District__c,
+                                    OwnerId, Owner_Profit_Center__c, Owner_Office__c
+                            FROM Opportunity WHERE Id =:b2copportunityId LIMIT 1];
+        Id accountId = opp.AccountId;
+        Id quoteId = opp.SyncedQuoteId;
+        Id owner = opp.OwnerId;
+        String org = opp.Organization__c;
+        String business = opp.Business_Type__c;
+        String district = opp.District__c;
+        String country = opp.Country_Attribute__c;
+        String profit = opp.Owner_Profit_Center__c;
+        String office = opp.Owner_Office__c;
         System.debug('----findPricesTest - Created Sales User: '+salesUser); 
-        salesUser.CountryCode = 'FI';
-        salesUser.District__c = 'FI_North';
+        salesUser.CountryCode = country;
+        salesUser.District__c = district;       
+        salesUser.Profit_Center__c = profit;
         update salesUser;
-        salesUser.Profit_Center__c = '4043 LSU Oulu';
-        
         System.debug('----findPricesTest - Updated Sales User: '+salesUser);     
 
         /*public static QuoteLineItem findPrices(String opportunityId,String searchProductCode,Decimal itemQuantity,String itemProductGroup,String itemCostType) { */
@@ -288,10 +315,12 @@ public with sharing class PricingSummaryServiceTest {
         Decimal itemQuantity = 1;
         String itemProductGroup = 'LG';
         String itemCostType = 'tuotteet';
+        System.debug('----findPricesTest - Opportunity: '+OpportunityController.getOpportunityRecord(b2cOpportunityId)); 
+        Boolean hasItems = PricingSummaryService.opportunityHasProductItems(b2cSyncedQuoteId);
+        Pricing_Summary__c summary = [SELECT Pricing_Changes__c FROM Pricing_Summary__c LIMIT 1];
         Test.startTest();
         try {
             System.runAs(salesUser){
-                Pricing_Summary__c summary = [SELECT Pricing_Changes__c FROM Pricing_Summary__c LIMIT 1];
             	QuoteLineItem qli = PricingSummaryService.findPrices(b2cOpportunityId, searchProductCode, itemQuantity, itemProductGroup, itemCostType);
                 System.debug('----findPricesTest - QuoteLine Item: '+qli); 
        			System.AssertNotEquals(null,qli, 'Expected a quoteline to be returned');
@@ -315,7 +344,8 @@ public with sharing class PricingSummaryServiceTest {
         Product2 p2 = PricingSummaryService.findProduct(p.Id);
         
         System.AssertNotEquals(null,p2, 'Expected a product to be returned');
-            
+        System.debug('----findProductTest - CPU TIME: '+LIMITS.getCpuTime()); 
+        System.debug('----findProductTest - SOQL USED: ' + LIMITS.getQueries());           
         Test.stopTest();
     }
     @IsTest
@@ -329,32 +359,39 @@ public with sharing class PricingSummaryServiceTest {
         List<Id> configProductIds = new List<Id>(new Map<Id, Configuration_Product__c>(products).keySet()); 
         List<Configuration_Option__c> options =[SELECT Id,Configuration_Plan__c, Configuration_Product__c,Product__c FROM Configuration_Option__c WHERE Configuration_Product__c IN:configProductIds];
         List<Id> configOptionIds = new List<Id>(new Map<Id, Configuration_Option__c>(options).keySet()); 
-        System.debug('--- findConfigurationTest - plans: '+plans);
-        System.debug('--- findConfigurationTest - products: '+products);
-        System.debug('--- findConfigurationTest -  options: '+options);
+        System.debug('--- PricingSummaryServiceTest - findConfigurationTest - plans: '+plans);
+        System.debug('--- PricingSummaryServiceTest - findConfigurationTest - products: '+products);
+        System.debug('--- PricingSummaryServiceTest - findConfigurationTest -  options: '+options);
         List<QuoteLineItem> items =[SELECT Id,Product2Id,Product2.ProductCode,Product2.Product_Group__c,Configuration_Plan__c, Configuration_Product__c, Configuration_Option__c FROM QuoteLineItem];
-        System.debug('--- findConfigurationTest - items: '+items);
+        System.debug('--- PricingSummaryServiceTest - findConfigurationTest - items: '+items);
+        System.debug('--- PricingSummaryServiceTest - findConfigurationTest - option count: '+options.size());
+        System.debug('--- PricingSummaryServiceTest - findConfigurationTest - item count: '+items.size());
         Integer i = 0;
         for (Configuration_Option__c option : options) {
-            QuoteLineItem qli = items[i];
-            qli.Configuration_Plan__c = options[i].Configuration_Plan__c;
-            qli.Configuration_Product__c = options[i].Configuration_Product__c;
-            qli.Configuration_Option__c = options[i].Id;
-            System.debug('--- findConfigurationTest - Quoteline: '+qli);
-            update qli;
+            System.debug('--- PricingSummaryServiceTest - findConfigurationTest - Find Configuration Option '+i+': '+option);
+            if (i<items.size()) {
+                QuoteLineItem qli = items[i];
+                if (i<options.size()) {
+                    qli.Configuration_Plan__c = options[i].Configuration_Plan__c;
+                    qli.Configuration_Product__c = options[i].Configuration_Product__c;
+                    qli.Configuration_Option__c = options[i].Id;
+                    System.debug('--- PricingSummaryServiceTest - findConfigurationTest - Quoteline: '+qli);
+                    update qli;
+                }
+            }
             i++;
         }
         
    		Configuration__c plan =[SELECT Id,Plan_Type__c FROM Configuration__c LIMIT 1];
         QuoteLineItem qliInput =[SELECT Id,Product2Id,Product2.ProductCode,Product2.Product_Group__c,Configuration_Plan__c, Configuration_Product__c, Configuration_Option__c 
                                  FROM QuoteLineItem WHERE Product2.Product_Group__c = 'LG' LIMIT 1];
-        System.debug('--- findConfigurationTest - Quoteline ProductGroup: '+Product2.Product_Group__c);
+        System.debug('--- PricingSummaryServiceTest - findConfigurationTest - Quoteline ProductGroup: '+Product2.Product_Group__c);
         Test.startTest();
         QuoteLineItem qliOutput = PricingSummaryService.findConfiguration(b2cOpportunityId,plan?.plan_Type__c,qliInput);
-        
+        System.debug('--- PricingSummaryServiceTest - findConfigurationTest - Quoteline ProductGroup: '+Product2.Product_Group__c);
         System.AssertNotEquals(null,qliOutput, 'Expected a quoteline to be returned');
-        System.debug('--- findConfigurationTest - CPU TIME: '+LIMITS.getCpuTime()); 
-        System.debug('--- findConfigurationTest - SOQL USED: ' + LIMITS.getQueries());
+        System.debug('--- PricingSummaryServiceTest - findConfigurationTest - CPU TIME: '+LIMITS.getCpuTime()); 
+        System.debug('--- PricingSummaryServiceTest - findConfigurationTest - SOQL USED: ' + LIMITS.getQueries());
             
         Test.stopTest();
     }

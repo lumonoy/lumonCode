@@ -3,7 +3,7 @@
     <fullName>Is_Frends_JSON_Processed__c</fullName>
     <defaultValue>false</defaultValue>
     <externalId>false</externalId>
-    <label>Is Frends JSON Processed</label>
+    <label>Is Frends JSON Processed OLD</label>
     <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>false</trackHistory>
     <type>Checkbox</type>

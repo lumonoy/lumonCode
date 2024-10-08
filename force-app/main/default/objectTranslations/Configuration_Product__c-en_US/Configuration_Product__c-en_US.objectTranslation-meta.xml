@@ -63,6 +63,41 @@
             <section>Validation</section>
         </sections>
     </layouts>
+    <layouts>
+        <layout>Lumon Configuration Product Layout</layout>
+        <sections>
+            <label><!-- Configuration --></label>
+            <section>Configuration</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Delivery --></label>
+            <section>Delivery</section>
+        </sections>
+        <sections>
+            <label><!-- Installation --></label>
+            <section>Installation</section>
+        </sections>
+        <sections>
+            <label><!-- Pricing --></label>
+            <section>Pricing</section>
+        </sections>
+        <sections>
+            <label><!-- Product --></label>
+            <section>Product</section>
+        </sections>
+        <sections>
+            <label><!-- Production --></label>
+            <section>Production</section>
+        </sections>
+        <sections>
+            <label><!-- Validation --></label>
+            <section>Validation</section>
+        </sections>
+    </layouts>
     <quickActions>
         <label><!-- Edit Plan Test --></label>
         <name>Edit_Plan_Test</name>

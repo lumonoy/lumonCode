@@ -3,7 +3,7 @@
     <fullName>Actual_work_duration__c</fullName>
     <description>Counts together the actual work times from the related Service Appointment(s). In hours.</description>
     <externalId>false</externalId>
-    <label>Actual work duration</label>
+    <label>Actual work duration OLD</label>
     <precision>7</precision>
     <required>false</required>
     <scale>1</scale>

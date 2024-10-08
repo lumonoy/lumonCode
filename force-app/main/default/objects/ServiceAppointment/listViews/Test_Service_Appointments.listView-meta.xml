@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Test_Service_Appointments</fullName>
+    <columns>Name</columns>
+    <columns>STREET</columns>
+    <columns>Subject</columns>
+    <columns>Account</columns>
+    <columns>Status</columns>
+    <columns>Assigned_Service_Resource_name__c</columns>
+    <columns>ServiceTerritory</columns>
+    <columns>FSL__Duration_In_Minutes__c</columns>
+    <columns>SchedStartTime</columns>
+    <columns>SchedEndTime</columns>
+    <columns>EarliestStartTime</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ServiceTerritory</field>
+        <operation>contains</operation>
+        <value>Tampere Apa</value>
+    </filters>
+    <label>Test Service Appointments</label>
+    <sharedTo>
+        <group>Admins</group>
+    </sharedTo>
+</ListView>

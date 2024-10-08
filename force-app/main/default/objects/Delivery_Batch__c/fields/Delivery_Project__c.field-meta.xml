@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Delivery_Project__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Project Record used to Track the Delivery Process from Order to Delivery (and Installation)</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Project Record used to Track the Delivery Process from Order to Delivery (and Installation)</inlineHelpText>
+    <label>Delivery Project</label>
+    <referenceTo>Delivery_Project__c</referenceTo>
+    <relationshipLabel>Delivery Batches</relationshipLabel>
+    <relationshipName>Delivery_Batches</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

@@ -5,7 +5,7 @@
     <externalId>false</externalId>
     <formula>Opportunity_Product__r.PricebookEntry.Product2.Name</formula>
     <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
-    <label>Product name</label>
+    <label>Product name OLD</label>
     <required>false</required>
     <trackHistory>false</trackHistory>
     <type>Text</type>

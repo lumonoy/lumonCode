@@ -5,7 +5,7 @@
     <externalId>false</externalId>
     <formula>Owner.Profit_Center_Attribute__c</formula>
     <inlineHelpText>Shows the Assigned Profit/Cost Center of the Sales User</inlineHelpText>
-    <label>Sales User Cost Center</label>
+    <label>Sales User Cost Center OLD</label>
     <required>false</required>
     <trackHistory>false</trackHistory>
     <type>Text</type>

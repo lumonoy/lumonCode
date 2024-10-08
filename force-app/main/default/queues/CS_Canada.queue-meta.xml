@@ -6,13 +6,6 @@
         <publicGroups>
             <publicGroup>CS_Canada</publicGroup>
         </publicGroups>
-        <users>
-            <user>dan.frebold@lumon.com</user>
-            <user>david.souza@lumon.com</user>
-            <user>glauber.araujo@lumon.com</user>
-            <user>laura.cunningham@lumon.com</user>
-            <user>mitchell.bergsma@lumon.com</user>
-        </users>
     </queueMembers>
     <queueSobject>
         <sobjectType>Case</sobjectType>

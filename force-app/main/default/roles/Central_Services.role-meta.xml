@@ -5,5 +5,5 @@
     <mayForecastManagerShare>false</mayForecastManagerShare>
     <name>Central Services</name>
     <opportunityAccessLevel>Edit</opportunityAccessLevel>
-    <parentRole>Global</parentRole>
+    <parentRole>Lumon_Salesforce_Admin</parentRole>
 </Role>

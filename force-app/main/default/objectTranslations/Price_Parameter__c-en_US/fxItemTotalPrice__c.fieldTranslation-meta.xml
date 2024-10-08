@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Total Price per Line without Tax --></help>
+    <label><!-- Item Total Price without Tax --></label>
+    <name>fxItemTotalPrice__c</name>
+</CustomFieldTranslation>

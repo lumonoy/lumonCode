@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Queue xmlns="http://soap.sforce.com/2006/04/metadata">
     <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <email>sfitsupport@lumon.com</email>
     <name>ICT Support Queue</name>
     <queueMembers>
-        <publicGroups>
-            <publicGroup>ICT_Support</publicGroup>
-        </publicGroups>
+        <users>
+            <user>mauri.keskitalo@lumon.fi</user>
+        </users>
     </queueMembers>
     <queueSobject>
         <sobjectType>Case</sobjectType>

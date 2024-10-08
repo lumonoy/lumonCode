@@ -22,4 +22,12 @@ public with sharing class LightningForgotPasswordControllerTest {
   LightningForgotPasswordController controller = new LightningForgotPasswordController();
   System.assertNotEquals(controller, null);
  }
+ @IsTest
+ static void testSetExperienceId() {   
+    try { 
+        LightningForgotPasswordController.setExperienceId('1234');
+        //new LightningForgotPasswordController.SiteConcrete().setExperienceId() ;
+    } catch (Exception e){       
+    }
+ }
 }

@@ -94,6 +94,7 @@
     </layoutSections>
     <relatedLists>
         <fields>ServiceAppointment</fields>
+        <fields>Id</fields>
         <relatedList>ServiceAppointments</relatedList>
     </relatedLists>
     <relatedLists>

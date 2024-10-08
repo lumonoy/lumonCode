@@ -2,7 +2,7 @@
  * @description       : 
  * @author            : Henk Reynders
  * @group             : 
- * @last modified on  : 12-05-2023
+ * @last modified on  : 06-19-2024
  * @last modified by  : Henk Reynders
 **/
 public with sharing class OfferContentController {
@@ -13,6 +13,7 @@ public with sharing class OfferContentController {
         public String opportunityId { get; set; }
         @AuraEnabled
         public String orderType { get; set; }
+        
         public ComponentData(Id recordId) {
             Opportunity opportunity = new Opportunity();
             if (recordId.getSobjectType() == Case.getSObjectType()) {
@@ -48,7 +49,7 @@ public with sharing class OfferContentController {
             WHERE Id = :recordId
             LIMIT 1
         ];
-        if (new Set<String> { 'Warranty work request', 'Reclamation order' }.contains(caseRecord.Type)) {
+        if (new Set<String> { 'Warranty work request', 'Reclamation order','Customer Reclamation' }.contains(caseRecord.Type)) {
             return caseRecord.Reclamation__r;
         }
         return caseRecord.Opportunity__r;
@@ -94,7 +95,7 @@ public with sharing class OfferContentController {
         ];
     }
 
-    @AuraEnabled
+    @AuraEnabled(cacheable=true) //<-- DML operations not allowed!
     public static ComponentData getComponentData(String recordId) {
         return new ComponentData(recordId);
     }

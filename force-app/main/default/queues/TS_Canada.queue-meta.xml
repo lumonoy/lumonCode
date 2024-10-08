@@ -6,12 +6,6 @@
         <publicGroups>
             <publicGroup>TS_Canada</publicGroup>
         </publicGroups>
-        <users>
-            <user>david.souza@lumon.com</user>
-            <user>glauber.araujo@lumon.com</user>
-            <user>pamela.pozes@lumon.com</user>
-            <user>russell.knowles@lumon.com</user>
-        </users>
     </queueMembers>
     <queueSobject>
         <sobjectType>Case</sobjectType>

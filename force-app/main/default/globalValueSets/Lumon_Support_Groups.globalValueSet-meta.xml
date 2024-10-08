@@ -81,6 +81,31 @@
         <label>ICT_Support</label>
     </customValue>
     <customValue>
+        <fullName>ICT_Global</fullName>
+        <default>false</default>
+        <label>ICT Global</label>
+    </customValue>
+    <customValue>
+        <fullName>LOG_Canada</fullName>
+        <default>false</default>
+        <label>LOG_Canada</label>
+    </customValue>
+    <customValue>
+        <fullName>LOG_Finland</fullName>
+        <default>false</default>
+        <label>LOG_Finland</label>
+    </customValue>
+    <customValue>
+        <fullName>LOG_Spain</fullName>
+        <default>false</default>
+        <label>LOG_Spain</label>
+    </customValue>
+    <customValue>
+        <fullName>SF_Support</fullName>
+        <default>false</default>
+        <label>SF_Support</label>
+    </customValue>
+    <customValue>
         <fullName>TS_Canada</fullName>
         <default>false</default>
         <label>TS_Canada</label>
@@ -111,25 +136,10 @@
         <label>WEB_Sweden</label>
     </customValue>
     <customValue>
-        <fullName>LOG_Canada</fullName>
+        <fullName>CS_Sweden</fullName>
         <default>false</default>
-        <label>LOG_Canada</label>
-    </customValue>
-    <customValue>
-        <fullName>LOG_Spain</fullName>
-        <default>false</default>
-        <label>LOG_Spain</label>
-    </customValue>
-    <customValue>
-        <fullName>LOG_Finland</fullName>
-        <default>false</default>
-        <label>LOG_Finland</label>
-    </customValue>
-    <customValue>
-        <fullName>SF_Support</fullName>
-        <default>false</default>
-        <label>SF_Support</label>
+        <label>CS_Sweden</label>
     </customValue>
     <masterLabel>Lumon Support Groups</masterLabel>
-    <sorted>false</sorted>
+    <sorted>true</sorted>
 </GlobalValueSet>

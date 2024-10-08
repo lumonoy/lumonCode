@@ -175,14 +175,8 @@
         </itemInstances>
         <itemInstances>
             <fieldInstance>
-                <fieldItem>Record.FreshdeskId__c</fieldItem>
+                <fieldItem>Record.Freshdesk_Id__c</fieldItem>
                 <identifier>RecordFreshdesk_Id__cField</identifier>
-            </fieldInstance>
-        </itemInstances>
-        <itemInstances>
-            <fieldInstance>
-                <fieldItem>Record.IsMigrated__c</fieldItem>
-                <identifier>RecordIsMigrated__cField</identifier>
             </fieldInstance>
         </itemInstances>
         <itemInstances>

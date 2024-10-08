@@ -27,6 +27,22 @@
                 <behavior>Edit</behavior>
                 <field>SpecialTerms</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>ProfitCenterOLD__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>isMigrated__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>OfferNumber__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>isChargeable__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
@@ -159,7 +175,7 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Readonly</behavior>
-                <field>Contract_Message_Status__c</field>
+                <field>ContractMessageStatusIcon__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
@@ -199,10 +215,6 @@
             <layoutItems>
                 <behavior>Readonly</behavior>
                 <field>Main_Contractor__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Readonly</behavior>
-                <field>Work_Number_Name__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>

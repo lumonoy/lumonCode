@@ -14,7 +14,6 @@
         <isOptional>false</isOptional>
     </lookupFilter>
     <referenceTo>Configuration_Option__c</referenceTo>
-    <relationshipLabel>Configuration Items</relationshipLabel>
     <relationshipName>Related_Configuration_Options</relationshipName>
     <required>false</required>
     <trackHistory>false</trackHistory>

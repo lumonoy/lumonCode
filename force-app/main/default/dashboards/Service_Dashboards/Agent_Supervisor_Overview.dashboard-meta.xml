@@ -53,7 +53,7 @@
             <indicatorLowColor>#54C254</indicatorLowColor>
             <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
             <maxValuesDisplayed>9</maxValuesDisplayed>
-            <report>CaseHandling/Top_10_Cases_by_Age</report>
+            <report>Service_Dashboards_Reports/CaseHandling/Top_10_Cases_by_Age</report>
             <showPicturesOnTables>true</showPicturesOnTables>
             <sortBy>RowValueDescending</sortBy>
             <title>Top Open Cases by Age (Days)</title>

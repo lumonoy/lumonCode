@@ -3,7 +3,7 @@
     <fullName>Count_Installed_Reclamation_WOLIs__c</fullName>
     <description>Count of reclamation WOLIs that have been already installed/completed.</description>
     <externalId>false</externalId>
-    <label>Count Installed Reclamation WOLIs</label>
+    <label>Count Installed Reclamation WOLIs OLD</label>
     <summaryFilterItems>
         <field>WorkOrderLineItem.Is_Reclamation__c</field>
         <operation>equals</operation>

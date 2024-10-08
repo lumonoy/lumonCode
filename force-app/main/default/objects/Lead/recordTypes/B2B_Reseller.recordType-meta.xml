@@ -7,6 +7,10 @@
     <picklistValues>
         <picklist>Business_Type__c</picklist>
         <values>
+            <fullName>0</fullName>
+            <default>false</default>
+        </values>
+        <values>
             <fullName>1</fullName>
             <default>false</default>
         </values>
@@ -207,11 +211,35 @@
     <picklistValues>
         <picklist>Language__c</picklist>
         <values>
-            <fullName>en</fullName>
+            <fullName>da</fullName>
             <default>false</default>
         </values>
         <values>
-            <fullName>fr_CA</fullName>
+            <fullName>de</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>es</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>fi</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>fr</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>nb</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>nl</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>se</fullName>
             <default>false</default>
         </values>
     </picklistValues>

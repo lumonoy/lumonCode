@@ -3,7 +3,7 @@
     <fullName>Batch_Name__c</fullName>
     <description>Name of the Batch</description>
     <externalId>false</externalId>
-    <label>Name</label>
+    <label>Batch Name</label>
     <length>255</length>
     <required>false</required>
     <trackTrending>false</trackTrending>

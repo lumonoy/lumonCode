@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lumon_Contact_Highlights</fullName>
+    <fields>Name</fields>
+    <fields>Email</fields>
+    <fields>Phone</fields>
+    <fields>MobilePhone</fields>
+    <label>Lumon Contact Highlights</label>
+</CompactLayout>

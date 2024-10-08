@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>IsMigrated__c</fullName>
+    <fullName>isMigrated__c</fullName>
     <defaultValue>false</defaultValue>
     <externalId>false</externalId>
-    <label>IsMigrated</label>
+    <label>isMigrated</label>
     <type>Checkbox</type>
 </CustomField>

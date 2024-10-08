@@ -1,51 +1,55 @@
-/**
- * Created by Konrad Niewiadomski on 21.08.2023.
- */
-
 ({
-    doInit : function(component, evt, helper) {
-		var recId = component.get("v.recordId");
-		var pageReference = {
-			type: 'standard__component',
-			attributes: {
-				componentName: 'c__SoveliaContainer'
-			},
-			state: {
-				c__recId: component.get("v.recordId")
-			}
-		};
-		component.set("v.pageReference", pageReference);
-		const navService = component.find('navService');
-		const pageRef = component.get('v.pageReference');
-		const handleUrl = (url) => {
-			window.open(url);
-			console.log(component.get("v.recordId"))
-		};
-		const handleError = (error) => {
-			console.log(error);
-		};
-		navService.generateUrl(pageRef).then(handleUrl, handleError);
-		$A.get("e.force:closeQuickAction").fire();
-//		var action = component.get("c.checkContractStatus");
-//		action.setParams({
-//			recordId: recId
-//		});
-//		action.setCallback(this, function (response) {
-//			if (response.getState() === "SUCCESS") {
-//				var result = response.getReturnValue();
-//				if (result) {
-//				    var toastEvent = $A.get("e.force:showToast");
-//						toastEvent.setParams({
-//						type : 'error',
-//						message: 'The contract is already signed! Cannot create a new plan.'
-//					});
-//					toastEvent.fire();
-//					$A.get("e.force:closeQuickAction").fire();
-//				} else {
-//
-//    			}
-//			}
-//		});
-//		$A.enqueueAction(action);
-	}
-});
+	doInit : function(component, evt, helper) {
+        window.addEventListener("message", (event) => {
+            console.log('--- SoveliaApp -  event: ' + event.data);
+            if (event.data.indexOf('closeSovelia') != -1) {
+                var toastEvent = $A.get("e.force:showToast");
+				toastEvent.setParams({
+					type : 'success',
+					message: 'App will be closed...'
+				});
+				toastEvent.fire();
+				window.setTimeout(
+					$A.getCallback(function () {
+						var win = window.open("","_self");
+						win.close();
+					}),
+					1000
+				);
+            }
+		}, false);
+
+        var pageReference = component.get("v.pageReference");
+		console.log('--- SoveliaApp -  pageReference: ' + pageReference);
+		var recId = pageReference.state.c__recId;
+
+		var action;
+		if (recId.startsWith("006")) {
+			action = component.get("c.getStartupParams");
+  		} else {
+			action = component.get("c.getStartupParamsFromConfiguration");
+    	}
+		action.setParams({"recordId": recId});
+		action.setCallback(this, function(resp){
+			if(resp.getState() === "SUCCESS") {
+				var resp = resp.getReturnValue();
+                console.log('--- SoveliaApp -  parameters: ' + resp);
+				component.set("v.canvasParameters", resp);
+//				window.postMessage('test mess');
+			} else {
+				  var toastEvent = $A.get("e.force:showToast");
+				  toastEvent.setParams({
+					  type : 'error',
+					  message: 'Error occured! Please contact admin.'
+				  });
+				  toastEvent.fire();
+   			}
+		});
+		$A.enqueueAction(action);
+	},
+
+	closePage : function() {
+		var win = window.open("","_self");
+        win.close();
+ 	}
+})

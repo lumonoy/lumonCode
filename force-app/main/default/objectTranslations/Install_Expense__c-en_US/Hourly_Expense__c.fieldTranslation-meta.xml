@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-    <label><!-- Hourly Expense --></label>
+    <label><!-- Hourly Expense OLD --></label>
     <name>Hourly_Expense__c</name>
 </CustomFieldTranslation>

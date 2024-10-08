@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>55.0</apiVersion>
+    <assignments>
+        <name>Set_Entitlement</name>
+        <label>Set Entitlement</label>
+        <locationX>374</locationX>
+        <locationY>839</locationY>
+        <assignmentItems>
+            <assignToReference>Entitlement</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>Get_Entitlement</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Set_Entitlement_Id</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Set_Entitlement_Id</name>
+        <label>Set Entitlement Id</label>
+        <locationX>374</locationX>
+        <locationY>947</locationY>
+        <assignmentItems>
+            <assignToReference>entitlementId</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>Entitlement.Id</elementReference>
+            </value>
+        </assignmentItems>
+    </assignments>
+    <assignments>
+        <name>Set_Warranty_Values</name>
+        <label>Set Warranty Values</label>
+        <locationX>506</locationX>
+        <locationY>539</locationY>
+        <assignmentItems>
+            <assignToReference>Entitlement.Status</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>Active</stringValue>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>Entitlement.AssetId</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>Entitlement.AccountId</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>$Record.AccountId</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>Entitlement.StartDate</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>$Record.CreatedDate</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>Entitlement.EndDate</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>InstallDatePlus5Years</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>Entitlement.Name</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>Warranty</stringValue>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>Entitlement.Type</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>Warranty</stringValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Create_Entitlement</targetReference>
+        </connector>
+    </assignments>
+    <decisions>
+        <name>Is_Internal_Case</name>
+        <label>Is Internal Case?</label>
+        <locationX>374</locationX>
+        <locationY>431</locationY>
+        <defaultConnector>
+            <targetReference>Set_Warranty_Values</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>External</defaultConnectorLabel>
+        <rules>
+            <name>Internal</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Account.isInternal__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>True</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Get_Entitlement</targetReference>
+            </connector>
+            <label>Internal</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Skip_Automation</name>
+        <label>Skip Automation?</label>
+        <locationX>176</locationX>
+        <locationY>323</locationY>
+        <defaultConnector>
+            <targetReference>Is_Internal_Case</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Continue</defaultConnectorLabel>
+        <rules>
+            <name>Abort</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Setup.AutomationBypass__c.SkipAutomation__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <label>Abort</label>
+        </rules>
+    </decisions>
+    <description>Subflow to Assign Entitlements to a Case</description>
+    <environments>Default</environments>
+    <formulas>
+        <name>InstallDatePlus5Years</name>
+        <dataType>Date</dataType>
+        <expression>IF(
+AND(
+MONTH(DateValue({!$Record.CreatedDate})) = 2,
+DAY(DateValue({!$Record.CreatedDate})) = 29
+),
+DATE(
+YEAR(DateValue({!$Record.CreatedDate}))+5,
+3,
+1),
+DATE(
+YEAR(DateValue({!$Record.CreatedDate}))+5,
+MONTH(DateValue({!$Record.CreatedDate})),
+DAY(DateValue({!$Record.CreatedDate}))
+)
+)</expression>
+    </formulas>
+    <interviewLabel>Case - Assign Entitlement {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Case - Assign Entitlement</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordCreates>
+        <name>Create_Entitlement</name>
+        <label>Create Entitlement</label>
+        <locationX>506</locationX>
+        <locationY>647</locationY>
+        <connector>
+            <targetReference>Set_Entitlement</targetReference>
+        </connector>
+        <inputReference>Entitlement</inputReference>
+    </recordCreates>
+    <recordLookups>
+        <name>Get_Entitlement</name>
+        <label>Get Entitlement</label>
+        <locationX>242</locationX>
+        <locationY>539</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Set_Entitlement</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>AccountId</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.AccountId</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>Entitlement</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Skip_Automation</targetReference>
+        </connector>
+        <object>Case</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>InvalidDraft</status>
+    <variables>
+        <name>Entitlement</name>
+        <dataType>SObject</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <objectType>Entitlement</objectType>
+    </variables>
+    <variables>
+        <name>entitlementId</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>true</isOutput>
+    </variables>
+</Flow>

@@ -40,41 +40,11 @@
         <wednesdayEndTime>00:00:00.000Z</wednesdayEndTime>
         <wednesdayStartTime>00:00:00.000Z</wednesdayStartTime>
     </businessHours>
-    <businessHours>
-        <active>true</active>
-        <default>false</default>
-        <fridayEndTime>20:00:00.000Z</fridayEndTime>
-        <fridayStartTime>09:00:00.000Z</fridayStartTime>
-        <mondayEndTime>20:00:00.000Z</mondayEndTime>
-        <mondayStartTime>09:00:00.000Z</mondayStartTime>
-        <name>Spain</name>
-        <saturdayEndTime>14:00:00.000Z</saturdayEndTime>
-        <saturdayStartTime>10:00:00.000Z</saturdayStartTime>
-        <thursdayEndTime>20:00:00.000Z</thursdayEndTime>
-        <thursdayStartTime>09:00:00.000Z</thursdayStartTime>
-        <timeZoneId>Europe/Madrid</timeZoneId>
-        <tuesdayEndTime>20:00:00.000Z</tuesdayEndTime>
-        <tuesdayStartTime>09:00:00.000Z</tuesdayStartTime>
-        <wednesdayEndTime>20:00:00.000Z</wednesdayEndTime>
-        <wednesdayStartTime>09:00:00.000Z</wednesdayStartTime>
-    </businessHours>
-    <holidays>
-        <activityDate>2023-05-18</activityDate>
-        <description>Valid only for year 2023!</description>
-        <isRecurring>false</isRecurring>
-        <name>2023 Helatorstai</name>
-    </holidays>
     <holidays>
         <activityDate>2024-05-09</activityDate>
         <description>2024</description>
         <isRecurring>false</isRecurring>
         <name>Helatorstai</name>
-    </holidays>
-    <holidays>
-        <activityDate>2024-12-06</activityDate>
-        <description>2024</description>
-        <isRecurring>false</isRecurring>
-        <name>Itsenäisyyspäivä</name>
     </holidays>
     <holidays>
         <activityDate>2023-12-06</activityDate>
@@ -83,12 +53,14 @@
         <name>Itsenäisyyspäivä</name>
     </holidays>
     <holidays>
-        <activityDate>2022-12-06</activityDate>
+        <activityDate>2024-12-06</activityDate>
+        <description>2024</description>
         <isRecurring>false</isRecurring>
         <name>Itsenäisyyspäivä</name>
     </holidays>
     <holidays>
-        <activityDate>2022-12-24</activityDate>
+        <activityDate>2023-12-24</activityDate>
+        <description>2023</description>
         <isRecurring>false</isRecurring>
         <name>Jouluaatto</name>
     </holidays>
@@ -99,32 +71,16 @@
         <name>Jouluaatto</name>
     </holidays>
     <holidays>
-        <activityDate>2023-12-24</activityDate>
-        <description>2023</description>
-        <isRecurring>false</isRecurring>
-        <name>Jouluaatto</name>
-    </holidays>
-    <holidays>
-        <activityDate>2023-12-25</activityDate>
-        <description>2023</description>
-        <isRecurring>false</isRecurring>
-        <name>Joulupäivä</name>
-    </holidays>
-    <holidays>
-        <activityDate>2022-12-25</activityDate>
-        <isRecurring>false</isRecurring>
-        <name>Joulupäivä</name>
-    </holidays>
-    <holidays>
         <activityDate>2024-12-25</activityDate>
         <description>2024</description>
         <isRecurring>false</isRecurring>
         <name>Joulupäivä</name>
     </holidays>
     <holidays>
-        <activityDate>2022-06-24</activityDate>
+        <activityDate>2023-12-25</activityDate>
+        <description>2023</description>
         <isRecurring>false</isRecurring>
-        <name>Juhannusaatto</name>
+        <name>Joulupäivä</name>
     </holidays>
     <holidays>
         <activityDate>2024-06-21</activityDate>
@@ -187,15 +143,15 @@
         <name>Kouvola Factory closed 5.1.2024</name>
     </holidays>
     <holidays>
-        <activityDate>2022-01-06</activityDate>
-        <isRecurring>false</isRecurring>
-        <name>Loppiainen</name>
-    </holidays>
-    <holidays>
         <activityDate>2024-03-29</activityDate>
         <description>2024</description>
         <isRecurring>false</isRecurring>
         <name>Pitkäperjantai</name>
+    </holidays>
+    <holidays>
+        <activityDate>2024-10-01</activityDate>
+        <isRecurring>false</isRecurring>
+        <name>TEST Holiday</name>
     </holidays>
     <holidays>
         <activityDate>2024-12-26</activityDate>
@@ -210,31 +166,16 @@
         <name>Tapaninpäivä</name>
     </holidays>
     <holidays>
-        <activityDate>2022-12-26</activityDate>
-        <isRecurring>false</isRecurring>
-        <name>Tapaninpäivä</name>
-    </holidays>
-    <holidays>
         <activityDate>2024-04-01</activityDate>
         <description>2024</description>
         <isRecurring>false</isRecurring>
         <name>Toinen pääsiäispäivä</name>
     </holidays>
     <holidays>
-        <activityDate>2023-01-01</activityDate>
-        <isRecurring>false</isRecurring>
-        <name>Uudenvuodenpäivä</name>
-    </holidays>
-    <holidays>
         <activityDate>2024-01-01</activityDate>
         <description>2024</description>
         <isRecurring>false</isRecurring>
         <name>Uudenvuodenpäivä</name>
-    </holidays>
-    <holidays>
-        <activityDate>2023-05-01</activityDate>
-        <isRecurring>false</isRecurring>
-        <name>Vappu</name>
     </holidays>
     <holidays>
         <activityDate>2024-05-01</activityDate>

@@ -14,7 +14,7 @@ NOT (ISBLANK (  Building_Height__c ))
 NOT (ISBLANK (  Wind_Pressure__c  ))
 &amp;&amp;
 NOT (ISBLANK (  Combined_load__c  ))</formula>
-    <label>Structural Information Filled</label>
+    <label>Structural Information Filled OLD</label>
     <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

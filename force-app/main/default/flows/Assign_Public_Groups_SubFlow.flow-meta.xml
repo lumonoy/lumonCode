@@ -907,9 +907,9 @@
         <defaultConnector>
             <targetReference>Set_userId</targetReference>
         </defaultConnector>
-        <defaultConnectorLabel>No</defaultConnectorLabel>
+        <defaultConnectorLabel>Continue</defaultConnectorLabel>
         <rules>
-            <name>Yes</name>
+            <name>Abort</name>
             <conditionLogic>and</conditionLogic>
             <conditions>
                 <leftValueReference>$Setup.AutomationBypass__c.SkipAutomation__c</leftValueReference>
@@ -918,7 +918,7 @@
                     <booleanValue>true</booleanValue>
                 </rightValue>
             </conditions>
-            <label>Yes</label>
+            <label>Abort</label>
         </rules>
     </decisions>
     <decisions>
@@ -943,15 +943,10 @@
             <label>User Record</label>
         </rules>
     </decisions>
-    <description>Auto Launched Flow that:
-        - Assigns Public Group Memberships based on the Company, Organisation, Sales Area and Country of the User
-        - Always only One Custom Meta Data Entry Matches
-        - Only one Public Group is Assigned per Combination
-9.12 Added fix to not delete non BU Groups Assigned
-02.12.2023: Save Active Version as R2</description>
+    <description>SubFlow to update the Public Groups assign to Lumon Internal Users</description>
     <environments>Default</environments>
     <interviewLabel>Assign Public Groups SubFlow {!$Flow.CurrentDateTime}</interviewLabel>
-    <label>User - Assign Public Groups SubFlow R2</label>
+    <label>User - Assign Public Groups SubFlow R2.5.5</label>
     <loops>
         <name>Loop_BU_SA_Groups</name>
         <label>Loop BU/SA Groups</label>

@@ -146,7 +146,7 @@
         <actionName>View</actionName>
         <type>Default</type>
     </actionOverrides>
-    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <compactLayoutAssignment>Service_Appointment_Highlights</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
     <externalSharingModel>Private</externalSharingModel>
     <searchLayouts>
@@ -165,11 +165,6 @@
         <lookupPhoneDialogsAdditionalFields>Status</lookupPhoneDialogsAdditionalFields>
         <lookupPhoneDialogsAdditionalFields>ArrivalWindowStartTime</lookupPhoneDialogsAdditionalFields>
         <lookupPhoneDialogsAdditionalFields>ArrivalWindowEndTime</lookupPhoneDialogsAdditionalFields>
-        <searchResultsAdditionalFields>ParentRecord</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>ParentRecordType</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>Status</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>ArrivalWindowStartTime</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>ArrivalWindowEndTime</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>Private</sharingModel>
 </CustomObject>

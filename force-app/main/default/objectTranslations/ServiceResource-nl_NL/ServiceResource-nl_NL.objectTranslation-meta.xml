@@ -23,8 +23,16 @@
     <layouts>
         <layout>Lumon Installation Manager Service Resource Layout</layout>
         <sections>
+            <label><!-- Gantt --></label>
+            <section>Gantt</section>
+        </sections>
+        <sections>
             <label><!-- Resource Calendar --></label>
             <section>Resource Calendar</section>
+        </sections>
+        <sections>
+            <label><!-- Scheduling Rules --></label>
+            <section>Scheduling Rules</section>
         </sections>
     </layouts>
     <layouts>
@@ -41,6 +49,10 @@
             <section>Resource Calendar</section>
         </sections>
     </layouts>
+    <quickActions>
+        <label><!-- View Service Resource --></label>
+        <name>ViewServiceResource</name>
+    </quickActions>
     <validationRules>
         <errorMessage><!-- Capacity Resource Can&apos;t Be of Type Crew --></errorMessage>
         <name>FSL__Capacity_Resource_of_Type_Crew</name>

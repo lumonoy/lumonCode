@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <help><!-- Indicates is Case is Owned by a Queue --></help>
-    <label><!-- Case In Queue --></label>
+    <label>Tapaukset Jonossa</label>
     <name>CaseInQueue__c</name>
 </CustomFieldTranslation>

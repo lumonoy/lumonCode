@@ -19,23 +19,62 @@
             <section>Address</section>
         </sections>
         <sections>
+            <label><!-- Business Attributes --></label>
+            <section>Business Attributes</section>
+        </sections>
+        <sections>
             <label><!-- Work details --></label>
             <section>Work details</section>
         </sections>
     </layouts>
     <layouts>
-        <layout>Lumon Installer WO Layout</layout>
+        <layout>Lumon Installer WorkOrder Page Layout</layout>
         <sections>
             <label><!-- Address --></label>
             <section>Address</section>
         </sections>
+        <sections>
+            <label><!-- Related --></label>
+            <section>Related</section>
+        </sections>
+        <sections>
+            <label><!-- Scheduled Times --></label>
+            <section>Scheduled Times</section>
+        </sections>
     </layouts>
+    <layouts>
+        <layout>Lumon Work Order Layout</layout>
+        <sections>
+            <label><!-- Business Attributes --></label>
+            <section>Business Attributes</section>
+        </sections>
+        <sections>
+            <label><!-- Related Records --></label>
+            <section>Related Records</section>
+        </sections>
+        <sections>
+            <label><!-- Statistics --></label>
+            <section>Statistics</section>
+        </sections>
+        <sections>
+            <label><!-- Work Time --></label>
+            <section>Work Time</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Report Issue --></label>
+        <name>Report_Issue</name>
+    </quickActions>
     <quickActions>
         <label><!-- Email --></label>
         <name>SendEmail</name>
     </quickActions>
     <quickActions>
+        <label><!-- Upload File --></label>
+        <name>Upload_File</name>
+    </quickActions>
+    <quickActions>
         <label><!-- View WorkOrder --></label>
-        <name>View_WorkOrder</name>
+        <name>ViewWorkOrder</name>
     </quickActions>
 </CustomObjectTranslation>

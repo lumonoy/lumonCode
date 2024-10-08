@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>My_Delivery_Batches</fullName>
+    <columns>NAME</columns>
+    <columns>Planned_Installation_Address__Street__s</columns>
+    <columns>Account__c</columns>
+    <columns>Batch_Status__c</columns>
+    <columns>Batch_Installation_Date__c</columns>
+    <columns>BatchInstallationDate__c</columns>
+    <columns>Batch_Installation_Start__c</columns>
+    <columns>BatchInstallationStart__c</columns>
+    <columns>NumberOfPlannedInstallations__c</columns>
+    <filterScope>Mine</filterScope>
+    <label>My Delivery Batches</label>
+</ListView>

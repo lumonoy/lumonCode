@@ -5,19 +5,19 @@
   "isProgressiveRenderingEnabled" : true,
   "loginAppPageId" : "69d14c7a-128e-432e-a37b-50b00b56055b",
   "mainAppPageId" : "fc5a03ce-c6e8-4a9f-a04f-7fcfab044561",
-  "preferredDomain" : "mylumon.lumon.com",
+  "preferredDomain" : "lumonoy--lumontest.sandbox.my.site.com",
   "selfRegistrationRouteId" : "53d88e35-ed48-48b1-9966-3700852e6158",
   "trustedSitesForScript" : [ {
-    "id" : "1a74cbd3-f2ec-4c12-af9e-334b47920969",
+    "id" : "e714d9ae-e57f-4aab-ab00-6d390d6e9563",
     "isActive" : true,
-    "trustedSiteName" : "myLumon",
-    "trustedSiteUrl" : "https://mylumon.lumon.com",
+    "trustedSiteName" : "myLumonTest",
+    "trustedSiteUrl" : "https://lumonoy--lumontest.sandbox.my.site.com",
     "type" : "trustedSitesForScripts"
   }, {
-    "id" : "45af04b2-feaf-4a27-bf40-9dc2e5a588ac",
+    "id" : "6e2d2da8-d327-4b8b-a622-a856cd9d2cfe",
     "isActive" : true,
-    "trustedSiteName" : "mySiteLumon",
-    "trustedSiteUrl" : "https://lumonoy.my.site.com",
+    "trustedSiteName" : "myLumonDev",
+    "trustedSiteUrl" : "https://lumonoy--lumontest.sandbox.my.site.com/portaltesting",
     "type" : "trustedSitesForScripts"
   } ],
   "type" : "site"

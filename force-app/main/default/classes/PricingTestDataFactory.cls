@@ -2,7 +2,7 @@
  * @description       : 
  * @author            : Henk Reynders
  * @group             : 
- * @last modified on  : 11-22-2023
+ * @last modified on  : 06-19-2024
  * @last modified by  : Henk Reynders
 **/
 @isTest
@@ -110,7 +110,7 @@ public with sharing class PricingTestDataFactory {
                                         Opportunity__c = o1.Id,
                                         Name='Test Pricing Config 1',
                                         Plan_Apartment__c = 'A1',// public String apartment; // Door Nbr in Apartment
-                                        //Plan_Floor__c = 6,// public Integer floor; // Floor Nbr in Building
+                                        Plan_Floor__c = '6',// public Integer floor; // Floor Nbr in Building
                                         Visual_Id__c = 'ABCDE1',//public String id; // Unique Visual Configuration Id
                                         Plan_Line__c = '100',// public String line; //?
                                         Plan_Name__c = 'plan 1',// public String name; // Name of the Configuration
@@ -121,7 +121,7 @@ public with sharing class PricingTestDataFactory {
                                         Opportunity__c = o1.Id,
                                         Name='Test Pricing Config 2',
                                         Plan_Apartment__c = 'B2',// public String apartment; // Door Nbr in Apartment
-                                        //Plan_Floor__c = 6,// public Integer floor; // Floor Nbr in Building
+                                        Plan_Floor__c = '6',// public Integer floor; // Floor Nbr in Building
                                         Visual_Id__c = 'ABCDE2',//public String id; // Unique Visual Configuration Id
                                         Plan_Line__c = '200',// public String line; //?
                                         Plan_Name__c = 'plan 2',// public String name; // Name of the Configuration

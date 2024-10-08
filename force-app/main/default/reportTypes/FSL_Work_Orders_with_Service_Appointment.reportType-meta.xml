@@ -240,6 +240,21 @@
             <field>SuggestedMaintenanceDate</field>
             <table>WorkOrder</table>
         </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>isMigrated__c</field>
+            <table>WorkOrder</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>ProfitCenter__c</field>
+            <table>WorkOrder</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>CountStoppedWorkOrderLineITems__c</field>
+            <table>WorkOrder</table>
+        </columns>
         <masterLabel>Work Orders</masterLabel>
     </sections>
     <sections>
@@ -411,6 +426,11 @@
         <columns>
             <checkedByDefault>false</checkedByDefault>
             <field>ServiceNote</field>
+            <table>WorkOrder.ServiceAppointments</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Name__c</field>
             <table>WorkOrder.ServiceAppointments</table>
         </columns>
         <masterLabel>Service Appointments</masterLabel>

@@ -3,7 +3,7 @@
     <fullName>Customer_reference__c</fullName>
     <description>customer reference, field on invoice</description>
     <externalId>false</externalId>
-    <formula>IF(Quote__r.Customer_reference__c != &apos;&apos;, Quote__r.Customer_reference__c,&apos;&apos;)</formula>
+    <formula>IF(Quote__r.CustomerReference__c != &apos;&apos;, Quote__r.CustomerReference__c,&apos;&apos;)</formula>
     <inlineHelpText>This customer reference information is shown on invoice</inlineHelpText>
     <label>Customer reference</label>
     <required>false</required>

@@ -133,8 +133,6 @@
         <searchResultsAdditionalFields>Product2.Product_Group__c</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>Product2.Cost_Type__c</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>PRODUCT.CUSTOMER_PRODUCT_ID</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>PRODUCT.DEFAULT_PRICE</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>PRICEBOOK.CURRENCY_ISO_CODE</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>PRODUCT.ACTIVE</searchResultsAdditionalFields>
     </searchLayouts>
 </CustomObject>

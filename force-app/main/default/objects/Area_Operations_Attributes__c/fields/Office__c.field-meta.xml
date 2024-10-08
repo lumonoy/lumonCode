@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Office__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Office for the operational area</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Office for the operational area</inlineHelpText>
+    <label>Office</label>
+    <referenceTo>Office__c</referenceTo>
+    <relationshipLabel>Area Operational Attributes</relationshipLabel>
+    <relationshipName>Area_Operational_Attributes</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

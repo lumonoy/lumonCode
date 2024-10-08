@@ -4,5 +4,5 @@
     <entityName>Case</entityName>
     <fieldName>Status</fieldName>
     <masterLabel>Building Permit Case Path</masterLabel>
-    <recordTypeName>Building_Permit</recordTypeName>
+    <recordTypeName>PERM_Case</recordTypeName>
 </PathAssistant>

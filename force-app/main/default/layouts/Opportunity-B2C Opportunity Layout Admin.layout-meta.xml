@@ -54,6 +54,14 @@
                 <behavior>Readonly</behavior>
                 <field>Office_Attribute__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Country_Code__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>CountryCode__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
@@ -636,11 +644,6 @@
     <platformActionList>
         <actionListContext>Record</actionListContext>
         <platformActionListItems>
-            <actionName>Clone</actionName>
-            <actionType>StandardButton</actionType>
-            <sortOrder>3</sortOrder>
-        </platformActionListItems>
-        <platformActionListItems>
             <actionName>Edit</actionName>
             <actionType>StandardButton</actionType>
             <sortOrder>0</sortOrder>
@@ -654,6 +657,11 @@
             <actionName>Share</actionName>
             <actionType>StandardButton</actionType>
             <sortOrder>2</sortOrder>
+        </platformActionListItems>
+        <platformActionListItems>
+            <actionName>Clone</actionName>
+            <actionType>StandardButton</actionType>
+            <sortOrder>3</sortOrder>
         </platformActionListItems>
         <platformActionListItems>
             <actionName>LogACall</actionName>
@@ -700,6 +708,11 @@
             <actionType>StandardButton</actionType>
             <sortOrder>12</sortOrder>
         </platformActionListItems>
+        <platformActionListItems>
+            <actionName>Opportunity.Create_Installation_Card_Button</actionName>
+            <actionType>QuickAction</actionType>
+            <sortOrder>13</sortOrder>
+        </platformActionListItems>
     </platformActionList>
     <relatedLists>
         <fields>NAME</fields>
@@ -708,7 +721,7 @@
         <fields>CREATED_DATE</fields>
         <fields>Building__c</fields>
         <fields>Account__c</fields>
-        <fields>Installation_Time__c</fields>
+        <fields>PlannedInstallationHours__c</fields>
         <relatedList>Configuration__c.Opportunity__c</relatedList>
     </relatedLists>
     <relatedLists>
@@ -794,6 +807,7 @@
         <fields>Account</fields>
         <fields>Priority</fields>
         <fields>Status</fields>
+        <fields>ServiceTerritory</fields>
         <relatedList>WorkOrder.Opportunity__c</relatedList>
     </relatedLists>
     <relatedLists>

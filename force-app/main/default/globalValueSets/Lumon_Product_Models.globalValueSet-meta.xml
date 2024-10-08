@@ -286,16 +286,16 @@
         <label>TUNTITYÖ</label>
     </customValue>
     <customValue>
-        <fullName>LUMON7</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>LUMON7</label>
-    </customValue>
-    <customValue>
         <fullName>LT3</fullName>
         <default>false</default>
         <isActive>false</isActive>
         <label>LT3</label>
+    </customValue>
+    <customValue>
+        <fullName>LUMON7</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>LUMON7</label>
     </customValue>
     <customValue>
         <fullName>Q</fullName>

@@ -5,7 +5,7 @@
         <name>Clear_Case_Group</name>
         <label>Clear Case Group</label>
         <locationX>50</locationX>
-        <locationY>1271</locationY>
+        <locationY>1379</locationY>
         <assignmentItems>
             <assignToReference>txtCaseGroup</assignToReference>
             <operator>Assign</operator>
@@ -14,29 +14,13 @@
             </value>
         </assignmentItems>
         <connector>
-            <targetReference>Is_Service_Desk_Case</targetReference>
+            <targetReference>Is_Email_to_Case</targetReference>
         </connector>
     </assignments>
     <assignments>
-        <name>Set_Case_Status</name>
-        <label>Set Case Status</label>
-        <locationX>1084</locationX>
-        <locationY>755</locationY>
-        <assignmentItems>
-            <assignToReference>txtCaseStatus</assignToReference>
-            <operator>Assign</operator>
-            <value>
-                <elementReference>$Record.Status</elementReference>
-            </value>
-        </assignmentItems>
-        <connector>
-            <targetReference>Is_Status_Changed</targetReference>
-        </connector>
-    </assignments>
-    <assignments>
-        <name>Set_Case_Variables</name>
-        <label>Set Case Variables</label>
-        <locationX>336</locationX>
+        <name>Get_Case_Values</name>
+        <label>Get Case Values</label>
+        <locationX>996</locationX>
         <locationY>755</locationY>
         <assignmentItems>
             <assignToReference>caseId</assignToReference>
@@ -46,17 +30,17 @@
             </value>
         </assignmentItems>
         <assignmentItems>
-            <assignToReference>caseCreatedOn</assignToReference>
+            <assignToReference>DateCaseCreated</assignToReference>
             <operator>Assign</operator>
             <value>
                 <elementReference>$Record.CreatedDate</elementReference>
             </value>
         </assignmentItems>
         <assignmentItems>
-            <assignToReference>recCase</assignToReference>
+            <assignToReference>txtCaseStatus</assignToReference>
             <operator>Assign</operator>
             <value>
-                <elementReference>$Record</elementReference>
+                <elementReference>$Record.Status</elementReference>
             </value>
         </assignmentItems>
         <assignmentItems>
@@ -73,20 +57,85 @@
                 <elementReference>$Record.Owner:Group.DeveloperName</elementReference>
             </value>
         </assignmentItems>
-        <connector>
-            <targetReference>What_Case_Record_Type</targetReference>
-        </connector>
-    </assignments>
-    <assignments>
-        <name>Set_Closed_as_Resolved_Date</name>
-        <label>Set Closed as Resolved Date</label>
-        <locationX>1128</locationX>
-        <locationY>971</locationY>
         <assignmentItems>
-            <assignToReference>resolvedDate</assignToReference>
+            <assignToReference>isRoutingCase</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>$Record.CaseFromEmailToCase__c</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>isCaseInQueue</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>$Record.CaseInQueue__c</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>txtCaseSourceEmail</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>$Record.SuppliedEmail</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>txtCaseOwner</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>$Record.OwnerId</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>txtCaseRecordType</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>$Record.RecordType.DeveloperName</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>DateCaseResolved</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>$Record.CaseResolvedDate__c</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>DateCaseClosed</assignToReference>
             <operator>Assign</operator>
             <value>
                 <elementReference>$Record.ClosedDate</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>is_New</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Set_Case_Group</name>
+        <label>Set Case Group</label>
+        <locationX>314</locationX>
+        <locationY>1379</locationY>
+        <assignmentItems>
+            <assignToReference>txtCaseGroup</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>txtQueue</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Is_Email_to_Case</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Set_Closed_to_Resolved_Date</name>
+        <label>Set Closed to Resolved Date</label>
+        <locationX>2030</locationX>
+        <locationY>1187</locationY>
+        <assignmentItems>
+            <assignToReference>DateCaseResolved</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>DateCaseClosed</elementReference>
             </value>
         </assignmentItems>
         <connector>
@@ -96,11 +145,14 @@
     <assignments>
         <name>Set_Resolved_Date</name>
         <label>Set Resolved Date</label>
-        <locationX>864</locationX>
-        <locationY>1079</locationY>
+        <locationX>1590</locationX>
+        <locationY>1187</locationY>
         <assignmentItems>
-            <assignToReference>resolvedDate</assignToReference>
+            <assignToReference>DateCaseResolved</assignToReference>
             <operator>Assign</operator>
+            <value>
+                <elementReference>TimeNow</elementReference>
+            </value>
         </assignmentItems>
         <connector>
             <targetReference>Update_Case</targetReference>
@@ -109,8 +161,8 @@
     <assignments>
         <name>Set_ServiceDesk_Flag</name>
         <label>Set ServiceDesk Flag</label>
-        <locationX>204</locationX>
-        <locationY>1655</locationY>
+        <locationX>94</locationX>
+        <locationY>1871</locationY>
         <assignmentItems>
             <assignToReference>isServiceDeskCase</assignToReference>
             <operator>Assign</operator>
@@ -119,14 +171,62 @@
             </value>
         </assignmentItems>
         <connector>
-            <targetReference>Update_New_Case</targetReference>
+            <targetReference>Update_Routed_Case</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Set_Status_To_In_Progress</name>
+        <label>Set Status To In Progress</label>
+        <locationX>798</locationX>
+        <locationY>1187</locationY>
+        <assignmentItems>
+            <assignToReference>txtCaseStatus</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>In Progress</stringValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Update_Case</targetReference>
         </connector>
     </assignments>
     <decisions>
+        <name>Has_Closed_Date</name>
+        <label>Has Closed Date?</label>
+        <locationX>1942</locationX>
+        <locationY>1079</locationY>
+        <defaultConnector>
+            <targetReference>Set_Closed_to_Resolved_Date</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>No Closed Date</defaultConnectorLabel>
+        <rules>
+            <name>Closed_Not_Resolved_Date</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.CaseResolvedDate__c</leftValueReference>
+                <operator>IsBlank</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.ClosedDate</leftValueReference>
+                <operator>IsBlank</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Update_Case</targetReference>
+            </connector>
+            <label>Closed Not Resolved Date</label>
+        </rules>
+    </decisions>
+    <decisions>
         <name>Has_Resolved_Date</name>
         <label>Has Resolved Date?</label>
-        <locationX>776</locationX>
-        <locationY>971</locationY>
+        <locationX>1502</locationX>
+        <locationY>1079</locationY>
         <defaultConnector>
             <targetReference>Set_Resolved_Date</targetReference>
         </defaultConnector>
@@ -135,10 +235,10 @@
             <name>Resolved_Date</name>
             <conditionLogic>and</conditionLogic>
             <conditions>
-                <leftValueReference>$Record.CaseResolvedDate__c</leftValueReference>
-                <operator>IsBlank</operator>
+                <leftValueReference>DateCaseResolved</leftValueReference>
+                <operator>IsNull</operator>
                 <rightValue>
-                    <booleanValue>false</booleanValue>
+                    <booleanValue>true</booleanValue>
                 </rightValue>
             </conditions>
             <connector>
@@ -150,20 +250,20 @@
     <decisions>
         <name>is_Case_in_Queue</name>
         <label>is Case in Queue?</label>
-        <locationX>336</locationX>
-        <locationY>1055</locationY>
+        <locationX>380</locationX>
+        <locationY>1163</locationY>
         <defaultConnector>
-            <targetReference>Is_Service_Desk_Case</targetReference>
+            <targetReference>Is_Email_to_Case</targetReference>
         </defaultConnector>
         <defaultConnectorLabel>Agent</defaultConnectorLabel>
         <rules>
             <name>Queue</name>
             <conditionLogic>and</conditionLogic>
             <conditions>
-                <leftValueReference>recCase.Owner:Group.DeveloperName</leftValueReference>
-                <operator>IsNull</operator>
+                <leftValueReference>isCaseInQueue</leftValueReference>
+                <operator>EqualTo</operator>
                 <rightValue>
-                    <booleanValue>false</booleanValue>
+                    <booleanValue>true</booleanValue>
                 </rightValue>
             </conditions>
             <connector>
@@ -173,22 +273,44 @@
         </rules>
     </decisions>
     <decisions>
+        <name>Is_Email_to_Case</name>
+        <label>Is Email-to-Case?</label>
+        <locationX>380</locationX>
+        <locationY>1655</locationY>
+        <defaultConnectorLabel>Other Source</defaultConnectorLabel>
+        <rules>
+            <name>Email_to_Case</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.SuppliedEmail</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Is_Service_Desk_Case</targetReference>
+            </connector>
+            <label>Email-to-Case</label>
+        </rules>
+    </decisions>
+    <decisions>
         <name>Is_FallBack_Queue</name>
         <label>Is FallBack Queue?</label>
         <locationX>182</locationX>
-        <locationY>1163</locationY>
+        <locationY>1271</locationY>
         <defaultConnector>
-            <targetReference>Is_Service_Desk_Case</targetReference>
+            <targetReference>Set_Case_Group</targetReference>
         </defaultConnector>
         <defaultConnectorLabel>Case Queue</defaultConnectorLabel>
         <rules>
             <name>Fallback_Queue</name>
             <conditionLogic>and</conditionLogic>
             <conditions>
-                <leftValueReference>$Record.Owner:Group.DeveloperName</leftValueReference>
+                <leftValueReference>txtCaseQueue</leftValueReference>
                 <operator>Contains</operator>
                 <rightValue>
-                    <stringValue>fallBack</stringValue>
+                    <stringValue>Fallback</stringValue>
                 </rightValue>
             </conditions>
             <connector>
@@ -198,12 +320,34 @@
         </rules>
     </decisions>
     <decisions>
+        <name>Is_Migrated</name>
+        <label>Is Migrated?</label>
+        <locationX>391</locationX>
+        <locationY>431</locationY>
+        <defaultConnector>
+            <targetReference>Get_Case_Record_Types</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Created</defaultConnectorLabel>
+        <rules>
+            <name>Migrated</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.IsMigrated__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <label>Migrated</label>
+        </rules>
+    </decisions>
+    <decisions>
         <name>is_New</name>
         <label>is New?</label>
-        <locationX>710</locationX>
-        <locationY>647</locationY>
+        <locationX>996</locationX>
+        <locationY>863</locationY>
         <defaultConnector>
-            <targetReference>Set_Case_Status</targetReference>
+            <targetReference>Which_Status</targetReference>
         </defaultConnector>
         <defaultConnectorLabel>Not a New Case</defaultConnectorLabel>
         <rules>
@@ -217,18 +361,57 @@
                 </rightValue>
             </conditions>
             <connector>
-                <targetReference>Set_Case_Variables</targetReference>
+                <targetReference>What_Case_Record_Type</targetReference>
             </connector>
             <label>New Case</label>
         </rules>
     </decisions>
     <decisions>
+        <name>Is_Owner_Changed</name>
+        <label>Is Owner Changed?</label>
+        <locationX>930</locationX>
+        <locationY>1079</locationY>
+        <defaultConnector>
+            <targetReference>Update_Case</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Other Change</defaultConnectorLabel>
+        <rules>
+            <name>From_Queue_To_User</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record__Prior.CaseInQueue__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Owner:Group.OwnerId</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.OwnerId</leftValueReference>
+                <operator>StartsWith</operator>
+                <rightValue>
+                    <stringValue>005</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Set_Status_To_In_Progress</targetReference>
+            </connector>
+            <label>From Queue To User</label>
+        </rules>
+    </decisions>
+    <decisions>
         <name>Is_Service_Desk_Case</name>
         <label>Is Service Desk Case?</label>
-        <locationX>336</locationX>
-        <locationY>1547</locationY>
+        <locationX>226</locationX>
+        <locationY>1763</locationY>
         <defaultConnector>
-            <targetReference>Update_New_Case</targetReference>
+            <targetReference>Update_Routed_Case</targetReference>
         </defaultConnector>
         <defaultConnectorLabel>No Service Desk</defaultConnectorLabel>
         <rules>
@@ -248,67 +431,9 @@
         </rules>
     </decisions>
     <decisions>
-        <name>Is_Status_Changed</name>
-        <label>Is Status Changed?</label>
-        <locationX>1084</locationX>
-        <locationY>863</locationY>
-        <defaultConnectorLabel>Other Status</defaultConnectorLabel>
-        <rules>
-            <name>Resolved_or_Closed</name>
-            <conditionLogic>(1 OR 2) AND 3</conditionLogic>
-            <conditions>
-                <leftValueReference>$Record.Status</leftValueReference>
-                <operator>EqualTo</operator>
-                <rightValue>
-                    <stringValue>Closed</stringValue>
-                </rightValue>
-            </conditions>
-            <conditions>
-                <leftValueReference>$Record.Status</leftValueReference>
-                <operator>EqualTo</operator>
-                <rightValue>
-                    <stringValue>Resolved</stringValue>
-                </rightValue>
-            </conditions>
-            <conditions>
-                <leftValueReference>$Record.Status</leftValueReference>
-                <operator>NotEqualTo</operator>
-                <rightValue>
-                    <elementReference>$Record__Prior.Status</elementReference>
-                </rightValue>
-            </conditions>
-            <connector>
-                <targetReference>Has_Resolved_Date</targetReference>
-            </connector>
-            <label>to Resolved or Closed</label>
-        </rules>
-        <rules>
-            <name>Closed_not_Resolved</name>
-            <conditionLogic>and</conditionLogic>
-            <conditions>
-                <leftValueReference>$Record.Status</leftValueReference>
-                <operator>EqualTo</operator>
-                <rightValue>
-                    <stringValue>Closed</stringValue>
-                </rightValue>
-            </conditions>
-            <conditions>
-                <leftValueReference>$Record.CaseResolvedDate__c</leftValueReference>
-                <operator>IsNull</operator>
-                <rightValue>
-                    <booleanValue>true</booleanValue>
-                </rightValue>
-            </conditions>
-            <connector>
-                <targetReference>Set_Closed_as_Resolved_Date</targetReference>
-            </connector>
-            <label>Closed not Resolved</label>
-        </rules>
-    </decisions>
-    <decisions>
         <name>Skip_Automation_Enabled</name>
         <label>Skip Automation Enabled?</label>
-        <locationX>1183</locationX>
+        <locationX>1430</locationX>
         <locationY>323</locationY>
         <defaultConnectorLabel>Skip Automation</defaultConnectorLabel>
         <rules>
@@ -322,7 +447,7 @@
                 </rightValue>
             </conditions>
             <connector>
-                <targetReference>Get_Case_Record_Types</targetReference>
+                <targetReference>Is_Migrated</targetReference>
             </connector>
             <label>Continue</label>
         </rules>
@@ -330,8 +455,8 @@
     <decisions>
         <name>What_Case_Record_Type</name>
         <label>What Case Record Type?</label>
-        <locationX>336</locationX>
-        <locationY>863</locationY>
+        <locationX>380</locationX>
+        <locationY>971</locationY>
         <defaultConnector>
             <targetReference>is_Case_in_Queue</targetReference>
         </defaultConnector>
@@ -340,7 +465,7 @@
             <name>ICT_Support</name>
             <conditionLogic>and</conditionLogic>
             <conditions>
-                <leftValueReference>recCase.RecordType.DeveloperName</leftValueReference>
+                <leftValueReference>txtCaseRecordType</leftValueReference>
                 <operator>Contains</operator>
                 <rightValue>
                     <stringValue>ICT</stringValue>
@@ -355,7 +480,7 @@
             <name>Customer_Services</name>
             <conditionLogic>and</conditionLogic>
             <conditions>
-                <leftValueReference>$Record.RecordType.DeveloperName</leftValueReference>
+                <leftValueReference>txtCaseRecordType</leftValueReference>
                 <operator>Contains</operator>
                 <rightValue>
                     <stringValue>CS</stringValue>
@@ -367,7 +492,77 @@
             <label>Customer Services</label>
         </rules>
     </decisions>
-    <description>Triggered Flow to set Case Values like Group, SLA, origin</description>
+    <decisions>
+        <name>Which_Status</name>
+        <label>Which Status?</label>
+        <locationX>1612</locationX>
+        <locationY>971</locationY>
+        <defaultConnector>
+            <targetReference>Update_Case</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Other Status</defaultConnectorLabel>
+        <rules>
+            <name>New</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>txtCaseStatus</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>New</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Is_Owner_Changed</targetReference>
+            </connector>
+            <label>New</label>
+        </rules>
+        <rules>
+            <name>In_Progress</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Status</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>In Progress</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Update_Case</targetReference>
+            </connector>
+            <label>In Progress</label>
+        </rules>
+        <rules>
+            <name>Resolved</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Status</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Resolved</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Has_Resolved_Date</targetReference>
+            </connector>
+            <label>Resolved</label>
+        </rules>
+        <rules>
+            <name>Closed</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Status</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Closed</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Has_Closed_Date</targetReference>
+            </connector>
+            <label>Closed</label>
+        </rules>
+    </decisions>
+    <description>Triggered Flow to set Case Values like Case Group, SLA, origin and also update Status on Owner Changes</description>
     <environments>Default</environments>
     <interviewLabel>Case - Set Case Values {!$Flow.CurrentDateTime}</interviewLabel>
     <label>Case - Set Case Values R4</label>
@@ -393,8 +588,8 @@
     <recordLookups>
         <name>Get_Case_Record_Types</name>
         <label>Get Case Record Types</label>
-        <locationX>710</locationX>
-        <locationY>431</locationY>
+        <locationX>996</locationX>
+        <locationY>539</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>Get_Queues</targetReference>
@@ -414,11 +609,11 @@
     <recordLookups>
         <name>Get_Queues</name>
         <label>Get Queues</label>
-        <locationX>710</locationX>
-        <locationY>539</locationY>
+        <locationX>996</locationX>
+        <locationY>647</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
-            <targetReference>is_New</targetReference>
+            <targetReference>Get_Case_Values</targetReference>
         </connector>
         <filterLogic>and</filterLogic>
         <filters>
@@ -435,8 +630,8 @@
     <recordUpdates>
         <name>Update_Case</name>
         <label>Update Case</label>
-        <locationX>1084</locationX>
-        <locationY>1355</locationY>
+        <locationX>1612</locationX>
+        <locationY>1463</locationY>
         <inputAssignments>
             <field>CaseGroup__c</field>
             <value>
@@ -446,24 +641,30 @@
         <inputAssignments>
             <field>CaseResolvedDate__c</field>
             <value>
-                <elementReference>resolvedDate</elementReference>
+                <elementReference>TimeNow</elementReference>
             </value>
         </inputAssignments>
         <inputAssignments>
-            <field>isServiceDeskCase__c</field>
+            <field>Status</field>
             <value>
-                <elementReference>isServiceDeskCase</elementReference>
+                <elementReference>txtCaseStatus</elementReference>
             </value>
         </inputAssignments>
         <inputReference>$Record</inputReference>
     </recordUpdates>
     <recordUpdates>
-        <name>Update_New_Case</name>
-        <label>Update New Case</label>
-        <locationX>336</locationX>
-        <locationY>1847</locationY>
+        <name>Update_Routed_Case</name>
+        <label>Update Routed Case</label>
+        <locationX>226</locationX>
+        <locationY>2063</locationY>
         <inputAssignments>
             <field>CaseGroup__c</field>
+            <value>
+                <elementReference>txtCaseGroup</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>OriginCaseGroup__c</field>
             <value>
                 <elementReference>txtCaseGroup</elementReference>
             </value>
@@ -477,7 +678,7 @@
         <inputReference>$Record</inputReference>
     </recordUpdates>
     <start>
-        <locationX>1057</locationX>
+        <locationX>1304</locationX>
         <locationY>0</locationY>
         <connector>
             <targetReference>Skip_Automation_Enabled</targetReference>
@@ -486,17 +687,10 @@
         <recordTriggerType>CreateAndUpdate</recordTriggerType>
         <triggerType>RecordAfterSave</triggerType>
     </start>
-    <status>Draft</status>
+    <status>Active</status>
     <variables>
         <name>agentUserId</name>
         <dataType>String</dataType>
-        <isCollection>false</isCollection>
-        <isInput>false</isInput>
-        <isOutput>false</isOutput>
-    </variables>
-    <variables>
-        <name>caseCreatedOn</name>
-        <dataType>DateTime</dataType>
         <isCollection>false</isCollection>
         <isInput>false</isInput>
         <isOutput>false</isOutput>
@@ -516,8 +710,50 @@
         <isOutput>false</isOutput>
     </variables>
     <variables>
+        <name>DateCaseClosed</name>
+        <dataType>DateTime</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>DateCaseCreated</name>
+        <dataType>DateTime</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>DateCaseResolved</name>
+        <dataType>DateTime</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>dateClosed</name>
+        <dataType>Date</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
         <name>emailSubject</name>
         <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>isCaseInQueue</name>
+        <dataType>Boolean</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>isRoutingCase</name>
+        <dataType>Boolean</dataType>
         <isCollection>false</isCollection>
         <isInput>false</isInput>
         <isOutput>false</isOutput>
@@ -621,7 +857,7 @@
         <isOutput>false</isOutput>
     </variables>
     <variables>
-        <name>resolvedDate</name>
+        <name>TimeNow</name>
         <dataType>DateTime</dataType>
         <isCollection>false</isCollection>
         <isInput>false</isInput>
@@ -673,7 +909,28 @@
         <isOutput>false</isOutput>
     </variables>
     <variables>
+        <name>txtCaseOwner</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
         <name>txtCaseQueue</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>txtCaseRecordType</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>txtCaseSourceEmail</name>
         <dataType>String</dataType>
         <isCollection>false</isCollection>
         <isInput>false</isInput>
@@ -723,6 +980,13 @@
     </variables>
     <variables>
         <name>txtMidString</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>txtQueue</name>
         <dataType>String</dataType>
         <isCollection>false</isCollection>
         <isInput>false</isInput>

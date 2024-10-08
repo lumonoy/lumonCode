@@ -2,19 +2,34 @@
  * @description       : 
  * @author            : Henk Reynders
  * @group             : 
- * @last modified on  : 12-03-2023
+ * @last modified on  : 07-06-2024
  * @last modified by  : Henk Reynders
 **/
 public with sharing class QuoteController {
     @AuraEnabled(cacheable=true)
-    public static Quote getQuoteRecord(Id recordId) {
+    public static Quote getQuote(Id recordId) {
         // Populate map from SOQL query on Quote
         List<Id> recordIds = new List<Id>{recordId};
         list<Quote> quotes = getQuotes(recordIds);
-        Quote quoteRecord = quotes[0];
-        System.debug('--- Quote Record: '+quoteRecord);
-        return quoteRecord;
+        Quote quote = quotes[0];
+        System.debug('--- QuoteController - Quote Record: '+quote);
+        return quote;
     } 
+    @AuraEnabled(cacheable=false)
+    public static Quote getQuoteByNumber(String quoteNumber) {
+        // Populate List from SOQL query on Account
+        Id quoteId = [SELECT Id FROM Quote WHERE QuoteNumber =: quoteNumber LIMIT 1]?.Id; 
+        List<Id> quoteIds = new List<Id>();
+        quoteIds.add(quoteId);
+        Quote quote = new Quote();
+        System.debug('--- QuoteController - Get Quote with Id '+quoteId); 
+        List<Quote> quotes =  getQuotes(quoteIds); 
+        if  (quotes?.size()>0) {
+            quote = quotes[0];
+            System.debug('--- QuoteController - Quote: '+quote.Name); 
+        }        
+        return quote;
+    }
     @AuraEnabled(cacheable=true)
     public static List<Quote> getQuotes(List<Id> recordIds) {
         List<Quote> quotes = ([SELECT   Id, 
@@ -90,9 +105,7 @@ public with sharing class QuoteController {
                                         Email, 
                                         Phone, 
                                         Fax,  
-                                        CanCreateQuoteLineItems, 
-                                        Additional_Agreements__c, 
-                                        Customer_reference__c
+                                        CanCreateQuoteLineItems
                                     FROM Quote 
                                     WHERE Id IN :recordIds
                                     OR AccountId IN :recordIds

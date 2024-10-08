@@ -1,0 +1,37 @@
+<!--
+  @description       : 
+  @author            : Henk Reynders
+  @group             : 
+  @last modified on  : 08-14-2024
+  @last modified by  : Henk Reynders
+-->
+<template>
+    <div class="iframe-container" lwc:dom="manual"></div>
+    <p>{recordId}</p>
+    <lightning-card variant="Narrow" title="Installation Document Viewer" icon-name="standard:document_reference">
+        <template for:each={documents} for:item="document">
+            <div key={document.value} class="slds-box">
+                <div class="slds-grid slds-wrap">
+                    <div class="slds-col slds-large-size_4-of-12 slds-medium-size_4-of-12 slds-size_12-of-12">
+                    <p><strong>Name - </strong>{document.label}</p>
+                    </div>
+                    <div class="slds-col slds-large-size_4-of-12 slds-medium-size_4-of-12 slds-size_12-of-12">
+                    <a href={document.url} download>Download</a>
+                    </div>
+                    <div class="slds-col slds-large-size_4-of-12 slds-medium-size_4-of-12 slds-size_12-of-12">
+                    <lightning-button label="Preview" 
+                    variant="brand"
+                    data-id={document.value}
+                    onclick={init}
+                    ></lightning-button>
+                    </div>
+                </div>
+            </div>
+        </template>
+        <lightning-spinner if:true={showSpinner}></lightning-spinner>
+        <div slot="footer" class="custom-foot">
+            <lightning-button label="Generate Document" onclick={openModal}></lightning-button>
+        </div>
+        
+    </lightning-card>
+</template>

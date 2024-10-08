@@ -2,7 +2,7 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Error_Message__c</fullName>
     <externalId>false</externalId>
-    <label>Message from ERP</label>
+    <label>Message from ERP OLD</label>
     <length>32768</length>
     <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>false</trackHistory>

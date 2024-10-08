@@ -4,7 +4,7 @@
     <description>Business unit code value from Opportunity owner for integration</description>
     <externalId>false</externalId>
     <formula>IF(Opportunity__r.Profit_Center_Code__c != &apos;&apos;,Opportunity__r.Profit_Center_Code__c,&apos;&apos;)</formula>
-    <label>Business Unit</label>
+    <label>Business Unit OLD</label>
     <required>false</required>
     <trackHistory>false</trackHistory>
     <type>Text</type>

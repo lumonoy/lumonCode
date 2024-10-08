@@ -3,7 +3,7 @@
     <caseAccessLevel>Read</caseAccessLevel>
     <contactAccessLevel>Edit</contactAccessLevel>
     <mayForecastManagerShare>false</mayForecastManagerShare>
-    <name>Finland (Country Management)</name>
+    <name>Finland</name>
     <opportunityAccessLevel>Read</opportunityAccessLevel>
-    <parentRole>Global</parentRole>
+    <parentRole>Lumon_Salesforce_Admin</parentRole>
 </Role>

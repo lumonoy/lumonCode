@@ -2,18 +2,18 @@
  * @description       : 
  * @author            : Henk Reynders
  * @group             : 
- * @last modified on  : 12-02-2023
+ * @last modified on  : 09-12-2024
  * @last modified by  : Henk Reynders
 **/
 public without sharing class ConfigurationEventTriggerHandler {
     public static void processConfiguration(List<ConfigurationEvent__e> configChangeEvents){
         // Iterate through each notification.
         for (ConfigurationEvent__e event : configChangeEvents) {      
-            System.debug('--- Event: ' + event);
+            System.debug('--- ConfigurationEventTriggerHandler Event: ' + event);
             String configType = event.configType__c;
-            System.debug('--- Configuration Type: ' + configType);
+            System.debug('--- ConfigurationEventTriggerHandler Configuration Type: ' + configType);
             String configAction = event.configAction__c;
-            System.debug('--- Configuration Action: ' + configAction);
+            System.debug('--- ConfigurationEventTriggerHandler Configuration Action: ' + configAction);
             String configId = event.configId__c;
             //System.debug('--- Configuration: ' + configId);
             String recordId = event.recordId__c;

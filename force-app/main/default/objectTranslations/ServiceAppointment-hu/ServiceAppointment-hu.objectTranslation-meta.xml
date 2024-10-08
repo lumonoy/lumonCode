@@ -104,20 +104,35 @@
         </sections>
     </layouts>
     <layouts>
-        <layout>Lumon Installer SA Layout</layout>
+        <layout>Lumon Installer Service Appointment Page Layout</layout>
         <sections>
             <label><!-- Address --></label>
             <section>Address</section>
         </sections>
         <sections>
-            <label><!-- Dispatcher Console --></label>
-            <section>Dispatcher Console</section>
+            <label><!-- Description --></label>
+            <section>Description</section>
+        </sections>
+        <sections>
+            <label><!-- Related Records --></label>
+            <section>Related Records</section>
         </sections>
         <sections>
             <label><!-- Time Constraints --></label>
             <section>Time Constraints</section>
         </sections>
     </layouts>
+    <layouts>
+        <layout>Lumon Service Appointment Layout</layout>
+        <sections>
+            <label><!-- Gantt Attributes --></label>
+            <section>Gantt Attributes</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Report Issue --></label>
+        <name>Report_Issue</name>
+    </quickActions>
     <quickActions>
         <label><!-- Email --></label>
         <name>SendEmail</name>
@@ -125,6 +140,14 @@
     <quickActions>
         <label><!-- Status change --></label>
         <name>Status_change</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Upload File --></label>
+        <name>Upload_File</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- View Appointment --></label>
+        <name>ViewServiceAppointment</name>
     </quickActions>
     <validationRules>
         <errorMessage><!-- New service appointment cannot be created in scheduled or  dispatched statuses. --></errorMessage>

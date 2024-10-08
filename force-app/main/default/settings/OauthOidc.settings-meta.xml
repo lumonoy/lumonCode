@@ -3,5 +3,5 @@
     <blockOAuthUnPwFlow>false</blockOAuthUnPwFlow>
     <blockOAuthUsrAgtFlow>false</blockOAuthUsrAgtFlow>
     <isPkceRequired>false</isPkceRequired>
-    <oAuthCdCrdtFlowEnable>false</oAuthCdCrdtFlowEnable>
+    <oAuthCdCrdtFlowEnable>true</oAuthCdCrdtFlowEnable>
 </OauthOidcSettings>

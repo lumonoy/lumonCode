@@ -1,0 +1,3824 @@
+{
+	"order": {
+		"order_info": {
+			"axcompanyid": "LSU",
+			"currency": "EUR",
+			"customer_reference": "",
+			"order_type": "Normal",
+			"order_number": "90007848",
+			"vendorid": "LU",
+			"project_number": "803241",
+			"parent_project": "",
+			"project_group": "PROWIP",
+			"customer_segmentid": "4000",
+			"customer_segmentname": "Project new construction",
+			"promised_deliveryweek": "2024/44",
+			"promised_date": "03.12.2024",
+			"main_contractor": "no",
+			"business_unit": "4031",
+			"order_attachment": "\\\\frendsprod\\D365TEST\\SalesTori\\OUT\\attachments\\",
+			"subproject_info": {
+				"subproject_number": "803241_01",
+				"subproject_group": "PROWar",
+				"subproject_category": "Warranty",
+				"subproject_cost": "200.34",
+				"subproject_ordertype": "Reclamation",
+				"subproject_parentproject": "803241",
+				"subproject_chargeable": "non-chargeable"
+			},
+			"budget": {
+				"project_category": [
+					{
+						"category": "FactoryPurchase",
+						"cost": "17876.04"
+					},
+					{
+						"category": "InstallSupplies",
+						"cost": "973.00"
+					},
+					{
+						"category": "SalesFreight",
+						"cost": "981.22"
+					},
+					{
+						"category": "Wages",
+						"cost": "3297.50"
+					},
+					{
+						"category": "CostReserv",
+						"cost": "490.60"
+					}
+				]
+			},
+			"domestic_help": "7339.73",
+			"domestic_text": "Kotitalousvähennykseen oikeuttava työnosuus on 7339.73 euroa, sis alv",
+			"chargeable": "chargeable",
+			"worknumbername": "",
+			"pricelist": {
+				"pricelist_name": "Basic price list 1.4.2022"
+			},
+			"customer_address": {
+				"address_description": "Jouko  Suominen",
+				"firstname": "Tampere",
+				"lastname": "Projektitesti",
+				"contact_person": "",
+				"street_address": "Viklanpolku 4 A",
+				"city": "TAMPERE",
+				"postal_code": "33540",
+				"fax": "",
+				"country": "FIN",
+				"province": "",
+				"county": "",
+				"phone_number": "+35840123456",
+				"email": "test@treprojekti.com",
+				"note": "",
+				"number": "3000001",
+				"customer_id": "",
+				"customer_name": "Jouko  Suominen"
+			},
+			"invoice_address": {
+				"address_description": "Jouko  Suominen",
+				"firstname": "Tampere",
+				"lastname": "Projektitesti",
+				"contact_person": "",
+				"street_address": "Viklanpolku 4 A",
+				"city": "TAMPERE",
+				"postal_code": "33540",
+				"fax": "",
+				"country": "FIN",
+				"province": "",
+				"county": "",
+				"phone_number": "+35840123456",
+				"email": "test@treprojekti.com",
+				"note": "",
+				"payment_terms": "07",
+				"invoice_type": "Email",
+				"number": "3000001",
+				"payment": "REF",
+				"paytrail_reference_id": ""
+			},
+			"install_address": {
+				"address_description": "Jouko  Suominen",
+				"firstname": "Tampere",
+				"lastname": "Projektitesti",
+				"name": "TRE PR FS Integration 27.8 JV",
+				"contact_person": "Test Contact Person Jamppa",
+				"street_address": "Hämeenpuisto 50 A",
+				"city": "TAMPERE",
+				"postal_code": "33200",
+				"fax": "",
+				"country": "FIN",
+				"province": "",
+				"county": "",
+				"phone_number": "Test Install Phone J",
+				"email": "test@treprojekti.com",
+				"note": "",
+				"number": null
+			},
+			"delivery_address": {
+				"address_description": "Jouko  Suominen",
+				"firstname": "Tampere",
+				"lastname": "Projektitesti",
+				"contact_person": "Juuti Mika",
+				"street_address": "Hämeenpuisto 50 A",
+				"city": "TAMPERE",
+				"postal_code": "33200",
+				"fax": "",
+				"country": "FIN",
+				"province": "",
+				"county": "",
+				"phone_number": "+35840123456",
+				"email": "mika.juuti@lumon.fi",
+				"note": "",
+				"number": null,
+				"delivery_terms": "DAP",
+				"delivery_type": "delivery"
+			},
+			"sales_person": {
+				"username": "antoniov",
+				"supervisor": "mikaj",
+				"firstname": "Antonio",
+				"lastname": "Valero Ortega"
+			},
+			"propertytype": "B-project",
+			"order_leadreference_vch": "Stand/Presentation/Trailer event",
+			"language_code_lan": "fi-FI"
+		},
+		"groups": {
+			"group": [
+				{
+					"delivery_batch": "1",
+					"delivery_batch_status": "Mitattu",
+					"delivery_batch_receive_date": "06.11.2024",
+					"delivery_batch_delivery_date": "01.11.2024",
+					"group_attachment": "",
+					"AXconfiguration": "no",
+					"group_name": "Liukuva (LGS)",
+					"pcs": "1",
+					"structurenumber": "9000784830017737",
+					"originalstructurenumber": "",
+					"install_start_date": "06.11.2024",
+					"install_end_date": "03.12.2024",
+					"additional_deliverytime": "0",
+					"process": "Normal",
+					"product_code": "90260001",
+					"storageid": "TRE",
+					"packing_order": "1",
+					"unit": "1",
+					"line": "1",
+					"floor": "1",
+					"chargeable": "chargeable",
+					"sales_price": "906.80",
+					"sproduct": "698.10",
+					"sfreight": "49.90",
+					"sinstall": "75.10",
+					"sother": "83.60",
+					"purchase_price": "517.10",
+					"pproduct": "517.10",
+					"pfreight": "0.00",
+					"pinstall": "0.00",
+					"pother": "0.00",
+					"calculated_salesprice": "906.80",
+					"factory_price": "517.10",
+					"fproduct": "517.10",
+					"ffreight": "0.00",
+					"finstall": "0.00",
+					"fother": "0.00",
+					"contract_price": "20.65",
+					"salestori_plan_name": "Plan 1",
+					"glass_m2": "4.00",
+					"blinds_m2": "3.83",
+					"glass_pcs": "2",
+					"product_length": "2000",
+					"group_weight": "115.439",
+					"product_attributes": {
+						"attributeid": "20090016"
+					},
+					"installed": "True",
+					"OrderLine": {
+						"BOMVersion": "9000784830017737",
+						"ItemID": "90260001",
+						"ItemName": "LGS",
+						"InventLocationID": "TRE",
+						"Dimension1": "4031",
+						"Dimension5": "mikaj",
+						"DeliveryName": "Tampere Projektitesti",
+						"DeliveryStreet": "Hämeenpuisto 50 A",
+						"DeliveryZipCode": "33200",
+						"DeliveryCity": "TAMPERE",
+						"DeliveryCountryRegionID": "FI",
+						"LineAmount": "906.80",
+						"Apartment": "1",
+						"Floor": "1",
+						"DlvBatchID": "1",
+						"Line": "1",
+						"FactoryConfirmedDlv": "",
+						"InstallHours": "3.67",
+						"InstallStart": "06.11.2024",
+						"ReservationStart": "2024-11-06T00.00.00",
+						"DeliveryDatePromised": "01.11.2024",
+						"Plan_name": "Plan 1",
+						"PieceWork_pay": "20.65"
+					},
+					"AssemblyInstructions": {
+						"InstallNotes": "",
+						"Attachments": {
+							"Attachment": "salestori-asennuskortti-9000784830017737.pdf",
+							"Folder": "\\270000\\270060\\"
+						},
+						"AssemblyDocument": [
+							{
+								"name": "Tilaustiedot",
+								"Chapter": [
+									{
+										"name": "Perustiedot",
+										"Paragraph": [
+											{
+												"name": "Content",
+												"text": "Projektitesti Tampere\r\nHämeenpuisto 50 A 33200 TAMPERE\r\nPuhelin +35840123456"
+											}
+										]
+									},
+									{
+										"name": "Tilaustiedot",
+										"Paragraph": [
+											{
+												"name": "Content",
+												"text": "Asiakaslupaus 01/11/2024\r\nTilausnumero 90007848\r\nLinja 1\r\nKerros 1\r\nAsunto 1\r\nRVN 9000784830017737"
+											}
+										]
+									}
+								]
+							},
+							{
+								"name": "Asennustiedot",
+								"Chapter": [
+									{
+										"name": "Tuotetiedot",
+										"Paragraph": [
+											{
+												"name": "Tuote",
+												"text": "LGS , sivuja:1"
+											},
+											{
+												"name": "Kiinnitystapa",
+												"text": "Ylä: Kattoon, Ala: Lattiaan"
+											},
+											{
+												"name": "Profiilit",
+												"text": "Raidemäärä: 3 11260022,  "
+											},
+											{
+												"name": "Varusteet",
+												"text": "Muoviosat: Tumman harmaa, Päätytulpat"
+											}
+										]
+									},
+									{
+										"name": "Tuotemitat",
+										"Paragraph": [
+											{
+												"name": "Sivu1,H3=19368",
+												"text": "Ak=90 Lk=90 Pituus=2000 Erom.(Z)=0 Korkeus=2000 Alav. (X)=0 Ylav. (Y)=0 Vkpl=1 Okpl=1 JK= Kyli=Ei Saator.= \r\nSeinäprof.vas:  \r\nSeinäprof.oik:  \r\nRaidemäärä: 1\r\nKahva.vas: \r\nKahvankorkeus.vas: \r\nKahva.oik: \r\nKahvankorkeus.oik: \r\nLiu'utus: INST_XML_VALUE_False\r\nProf.pid.vas: 0 \r\nProf.pid.oik: 0 \r\nL1: LEV=992 K=1939 T=Kiinteä\r\nL2: LEV=992 K=1939 T=Kiinteä\r\n"
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				},
+				{
+					"delivery_batch": "1",
+					"delivery_batch_status": "Mitattu",
+					"delivery_batch_receive_date": "06.11.2024",
+					"delivery_batch_delivery_date": "01.11.2024",
+					"group_attachment": "",
+					"AXconfiguration": "no",
+					"group_name": "Avautuva (LGR)",
+					"pcs": "1",
+					"structurenumber": "9000784830017738",
+					"originalstructurenumber": "",
+					"install_start_date": "06.11.2024",
+					"install_end_date": "03.12.2024",
+					"additional_deliverytime": "0",
+					"process": "Normal",
+					"product_code": "90240001",
+					"storageid": "TRE",
+					"packing_order": "1",
+					"unit": "1",
+					"line": "1",
+					"floor": "1",
+					"chargeable": "chargeable",
+					"sales_price": "1013.90",
+					"sproduct": "784.20",
+					"sfreight": "38.40",
+					"sinstall": "98.00",
+					"sother": "93.40",
+					"purchase_price": "569.80",
+					"pproduct": "569.80",
+					"pfreight": "0.00",
+					"pinstall": "0.00",
+					"pother": "0.00",
+					"calculated_salesprice": "1013.90",
+					"factory_price": "569.80",
+					"fproduct": "569.80",
+					"ffreight": "0.00",
+					"finstall": "0.00",
+					"fother": "0.00",
+					"contract_price": "26.92",
+					"salestori_plan_name": "Plan 1",
+					"glass_m2": "4.00",
+					"blinds_m2": "3.63",
+					"glass_pcs": "3",
+					"product_length": "2000",
+					"group_weight": "109.7857",
+					"product_attributes": {
+						"attributeid": "20090016"
+					},
+					"installed": "True",
+					"OrderLine": {
+						"BOMVersion": "9000784830017738",
+						"ItemID": "90240001",
+						"ItemName": "LG",
+						"InventLocationID": "TRE",
+						"Dimension1": "4031",
+						"Dimension5": "mikaj",
+						"DeliveryName": "Tampere Projektitesti",
+						"DeliveryStreet": "Hämeenpuisto 50 A",
+						"DeliveryZipCode": "33200",
+						"DeliveryCity": "TAMPERE",
+						"DeliveryCountryRegionID": "FI",
+						"LineAmount": "1013.90",
+						"Apartment": "1",
+						"Floor": "1",
+						"DlvBatchID": "1",
+						"Line": "1",
+						"FactoryConfirmedDlv": "",
+						"InstallHours": "7.38",
+						"InstallStart": "06.11.2024",
+						"ReservationStart": "2024-11-06T00.00.00",
+						"DeliveryDatePromised": "01.11.2024",
+						"Plan_name": "Plan 1",
+						"PieceWork_pay": "26.92"
+					},
+					"AssemblyInstructions": {
+						"InstallNotes": "",
+						"Attachments": {
+							"Attachment": "salestori-asennuskortti-9000784830017738.pdf",
+							"Folder": "\\270000\\270060\\"
+						},
+						"AssemblyDocument": [
+							{
+								"name": "Tilaustiedot",
+								"Chapter": [
+									{
+										"name": "Perustiedot",
+										"Paragraph": [
+											{
+												"name": "Content",
+												"text": "Projektitesti Tampere\r\nHämeenpuisto 50 A 33200 TAMPERE\r\nPuhelin +35840123456"
+											}
+										]
+									},
+									{
+										"name": "Tilaustiedot",
+										"Paragraph": [
+											{
+												"name": "Content",
+												"text": "Asiakaslupaus 01/11/2024\r\nTilausnumero 90007848\r\nLinja 1\r\nKerros 1\r\nAsunto 1\r\nRVN 9000784830017738"
+											}
+										]
+									}
+								]
+							},
+							{
+								"name": "Asennustiedot",
+								"Chapter": [
+									{
+										"name": "Tuotetiedot",
+										"Paragraph": [
+											{
+												"name": "Tuote",
+												"text": "LG , sivuja:1"
+											},
+											{
+												"name": "Kiinnitystapa",
+												"text": "Ylä: Kattoon, Ala: Lattiaan"
+											},
+											{
+												"name": "Profiilit",
+												"text": "Ylä: 11241205 RAL8019, Ala: 11243001 11243001 "
+											},
+											{
+												"name": "Varusteet",
+												"text": "Muoviosat: Tumman harmaa, Päätytulpat"
+											}
+										]
+									},
+									{
+										"name": "Tuotemitat",
+										"Paragraph": [
+											{
+												"name": "Sivu2,H3=1873",
+												"text": "Ak=90 Lk=90 Pituus=2000 Erom.(Z)=0 Korkeus=2000 Alav. (X)=0 Ylav. (Y)=0 Vkpl=2 Okpl=1 JK= Kyli=Ei Saator.= \r\nYläprof: 11241205 RAL8019\r\nAlaprof: 11243001 RAL8019\r\nSäätöprof: 11222206 RAL8019\r\nL1: LEV=655 K=1861\r\nL2: LEV=655 K=1861\r\nL3: LEV=655 K=1861\r\n"
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				},
+				{
+					"delivery_batch": "1",
+					"delivery_batch_status": "Mitattu",
+					"delivery_batch_receive_date": "06.11.2024",
+					"delivery_batch_delivery_date": "01.11.2024",
+					"group_attachment": "",
+					"AXconfiguration": "no",
+					"group_name": "Liukuva (LGS)",
+					"pcs": "1",
+					"structurenumber": "9000784830017739",
+					"originalstructurenumber": "",
+					"install_start_date": "06.11.2024",
+					"install_end_date": "03.12.2024",
+					"additional_deliverytime": "0",
+					"process": "Normal",
+					"product_code": "90260001",
+					"storageid": "TRE",
+					"packing_order": "1",
+					"unit": "1",
+					"line": "2",
+					"floor": "1",
+					"chargeable": "chargeable",
+					"sales_price": "906.80",
+					"sproduct": "698.10",
+					"sfreight": "49.90",
+					"sinstall": "75.10",
+					"sother": "83.60",
+					"purchase_price": "517.10",
+					"pproduct": "517.10",
+					"pfreight": "0.00",
+					"pinstall": "0.00",
+					"pother": "0.00",
+					"calculated_salesprice": "906.80",
+					"factory_price": "517.10",
+					"fproduct": "517.10",
+					"ffreight": "0.00",
+					"finstall": "0.00",
+					"fother": "0.00",
+					"contract_price": "20.65",
+					"salestori_plan_name": "Plan 1 Copia",
+					"glass_m2": "4.00",
+					"blinds_m2": "3.83",
+					"glass_pcs": "2",
+					"product_length": "2000",
+					"group_weight": "115.439",
+					"product_attributes": {
+						"attributeid": "20090016"
+					},
+					"installed": "True",
+					"OrderLine": {
+						"BOMVersion": "9000784830017739",
+						"ItemID": "90260001",
+						"ItemName": "LGS",
+						"InventLocationID": "TRE",
+						"Dimension1": "4031",
+						"Dimension5": "mikaj",
+						"DeliveryName": "Tampere Projektitesti",
+						"DeliveryStreet": "Hämeenpuisto 50 A",
+						"DeliveryZipCode": "33200",
+						"DeliveryCity": "TAMPERE",
+						"DeliveryCountryRegionID": "FI",
+						"LineAmount": "906.80",
+						"Apartment": "1",
+						"Floor": "1",
+						"DlvBatchID": "1",
+						"Line": "2",
+						"FactoryConfirmedDlv": "",
+						"InstallHours": "3.67",
+						"InstallStart": "06.11.2024",
+						"ReservationStart": "2024-11-06T00.00.00",
+						"DeliveryDatePromised": "01.11.2024",
+						"Plan_name": "Plan 1 Copia",
+						"PieceWork_pay": "20.65"
+					},
+					"AssemblyInstructions": {
+						"InstallNotes": "",
+						"Attachments": {
+							"Attachment": "salestori-asennuskortti-9000784830017739.pdf",
+							"Folder": "\\270000\\270060\\"
+						},
+						"AssemblyDocument": [
+							{
+								"name": "Tilaustiedot",
+								"Chapter": [
+									{
+										"name": "Perustiedot",
+										"Paragraph": [
+											{
+												"name": "Content",
+												"text": "Projektitesti Tampere\r\nHämeenpuisto 50 A 33200 TAMPERE\r\nPuhelin +35840123456"
+											}
+										]
+									},
+									{
+										"name": "Tilaustiedot",
+										"Paragraph": [
+											{
+												"name": "Content",
+												"text": "Asiakaslupaus 01/11/2024\r\nTilausnumero 90007848\r\nLinja 2\r\nKerros 1\r\nAsunto 1\r\nRVN 9000784830017739"
+											}
+										]
+									}
+								]
+							},
+							{
+								"name": "Asennustiedot",
+								"Chapter": [
+									{
+										"name": "Tuotetiedot",
+										"Paragraph": [
+											{
+												"name": "Tuote",
+												"text": "LGS , sivuja:1"
+											},
+											{
+												"name": "Kiinnitystapa",
+												"text": "Ylä: Kattoon, Ala: Lattiaan"
+											},
+											{
+												"name": "Profiilit",
+												"text": "Raidemäärä: 3 11260022,  "
+											},
+											{
+												"name": "Varusteet",
+												"text": "Muoviosat: Tumman harmaa, Päätytulpat"
+											}
+										]
+									},
+									{
+										"name": "Tuotemitat",
+										"Paragraph": [
+											{
+												"name": "Sivu1,H3=19368",
+												"text": "Ak=90 Lk=90 Pituus=2000 Erom.(Z)=0 Korkeus=2000 Alav. (X)=0 Ylav. (Y)=0 Vkpl=1 Okpl=1 JK= Kyli=Ei Saator.= \r\nSeinäprof.vas:  \r\nSeinäprof.oik:  \r\nRaidemäärä: 1\r\nKahva.vas: \r\nKahvankorkeus.vas: \r\nKahva.oik: \r\nKahvankorkeus.oik: \r\nLiu'utus: INST_XML_VALUE_False\r\nProf.pid.vas: 0 \r\nProf.pid.oik: 0 \r\nL1: LEV=992 K=1939 T=Kiinteä\r\nL2: LEV=992 K=1939 T=Kiinteä\r\n"
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				},
+				{
+					"delivery_batch": "1",
+					"delivery_batch_status": "Mitattu",
+					"delivery_batch_receive_date": "06.11.2024",
+					"delivery_batch_delivery_date": "01.11.2024",
+					"group_attachment": "",
+					"AXconfiguration": "no",
+					"group_name": "Avautuva (LGR)",
+					"pcs": "1",
+					"structurenumber": "9000784830017740",
+					"originalstructurenumber": "",
+					"install_start_date": "06.11.2024",
+					"install_end_date": "03.12.2024",
+					"additional_deliverytime": "0",
+					"process": "Normal",
+					"product_code": "90240001",
+					"storageid": "TRE",
+					"packing_order": "1",
+					"unit": "1",
+					"line": "2",
+					"floor": "1",
+					"chargeable": "chargeable",
+					"sales_price": "971.00",
+					"sproduct": "741.30",
+					"sfreight": "38.40",
+					"sinstall": "98.00",
+					"sother": "93.40",
+					"purchase_price": "538.60",
+					"pproduct": "538.60",
+					"pfreight": "0.00",
+					"pinstall": "0.00",
+					"pother": "0.00",
+					"calculated_salesprice": "1013.90",
+					"factory_price": "538.60",
+					"fproduct": "538.60",
+					"ffreight": "0.00",
+					"finstall": "0.00",
+					"fother": "0.00",
+					"contract_price": "26.92",
+					"salestori_plan_name": "Plan 1 Copia",
+					"glass_m2": "4.00",
+					"blinds_m2": "3.63",
+					"glass_pcs": "3",
+					"product_length": "2000",
+					"group_weight": "109.7857",
+					"product_attributes": {
+						"attributeid": "20090016"
+					},
+					"installed": "True",
+					"OrderLine": {
+						"BOMVersion": "9000784830017740",
+						"ItemID": "90240001",
+						"ItemName": "LG",
+						"InventLocationID": "TRE",
+						"Dimension1": "4031",
+						"Dimension5": "mikaj",
+						"DeliveryName": "Tampere Projektitesti",
+						"DeliveryStreet": "Hämeenpuisto 50 A",
+						"DeliveryZipCode": "33200",
+						"DeliveryCity": "TAMPERE",
+						"DeliveryCountryRegionID": "FI",
+						"LineAmount": "971.00",
+						"Apartment": "1",
+						"Floor": "1",
+						"DlvBatchID": "1",
+						"Line": "2",
+						"FactoryConfirmedDlv": "",
+						"InstallHours": "7.38",
+						"InstallStart": "06.11.2024",
+						"ReservationStart": "2024-11-06T00.00.00",
+						"DeliveryDatePromised": "01.11.2024",
+						"Plan_name": "Plan 1 Copia",
+						"PieceWork_pay": "26.92"
+					},
+					"AssemblyInstructions": {
+						"InstallNotes": "",
+						"Attachments": {
+							"Attachment": "salestori-asennuskortti-9000784830017740.pdf",
+							"Folder": "\\270000\\270060\\"
+						},
+						"AssemblyDocument": [
+							{
+								"name": "Tilaustiedot",
+								"Chapter": [
+									{
+										"name": "Perustiedot",
+										"Paragraph": [
+											{
+												"name": "Content",
+												"text": "Projektitesti Tampere\r\nHämeenpuisto 50 A 33200 TAMPERE\r\nPuhelin +35840123456"
+											}
+										]
+									},
+									{
+										"name": "Tilaustiedot",
+										"Paragraph": [
+											{
+												"name": "Content",
+												"text": "Asiakaslupaus 01/11/2024\r\nTilausnumero 90007848\r\nLinja 2\r\nKerros 1\r\nAsunto 1\r\nRVN 9000784830017740"
+											}
+										]
+									}
+								]
+							},
+							{
+								"name": "Asennustiedot",
+								"Chapter": [
+									{
+										"name": "Tuotetiedot",
+										"Paragraph": [
+											{
+												"name": "Tuote",
+												"text": "LG , sivuja:1"
+											},
+											{
+												"name": "Kiinnitystapa",
+												"text": "Ylä: Kattoon, Ala: Lattiaan"
+											},
+											{
+												"name": "Profiilit",
+												"text": "Ylä: 11241205 RAL8019, Ala: 11243001 11243001 "
+											},
+											{
+												"name": "Varusteet",
+												"text": "Muoviosat: Tumman harmaa, Päätytulpat"
+											}
+										]
+									},
+									{
+										"name": "Tuotemitat",
+										"Paragraph": [
+											{
+												"name": "Sivu2,H3=1873",
+												"text": "Ak=90 Lk=90 Pituus=2000 Erom.(Z)=0 Korkeus=2000 Alav. (X)=0 Ylav. (Y)=0 Vkpl=2 Okpl=1 JK= Kyli=Ei Saator.= \r\nYläprof: 11241205 RAL8019\r\nAlaprof: 11243001 RAL8019\r\nSäätöprof: 11222206 RAL8019\r\nL1: LEV=655 K=1861\r\nL2: LEV=655 K=1861\r\nL3: LEV=655 K=1861\r\n"
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				},
+				{
+					"delivery_batch": "1",
+					"delivery_batch_status": "Mitattu",
+					"delivery_batch_receive_date": "06.11.2024",
+					"delivery_batch_delivery_date": "01.11.2024",
+					"group_attachment": "",
+					"AXconfiguration": "no",
+					"group_name": "Avautuva (LGR)",
+					"pcs": "1",
+					"structurenumber": "9000784830017741",
+					"originalstructurenumber": "",
+					"install_start_date": "06.11.2024",
+					"install_end_date": "03.12.2024",
+					"additional_deliverytime": "0",
+					"process": "Normal",
+					"product_code": "90240001",
+					"storageid": "TRE",
+					"packing_order": "1",
+					"unit": "11",
+					"line": "3",
+					"floor": "1",
+					"chargeable": "chargeable",
+					"sales_price": "935.60",
+					"sproduct": "712.30",
+					"sfreight": "38.40",
+					"sinstall": "92.70",
+					"sother": "92.20",
+					"purchase_price": "517.80",
+					"pproduct": "517.80",
+					"pfreight": "0.00",
+					"pinstall": "0.00",
+					"pother": "0.00",
+					"calculated_salesprice": "935.60",
+					"factory_price": "517.80",
+					"fproduct": "517.80",
+					"ffreight": "0.00",
+					"finstall": "0.00",
+					"fother": "0.00",
+					"contract_price": "25.47",
+					"salestori_plan_name": "Plan 2",
+					"glass_m2": "3.72",
+					"blinds_m2": "3.37",
+					"glass_pcs": "3",
+					"product_length": "1845",
+					"group_weight": "102.0572",
+					"product_attributes": {
+						"attributeid": "20090016"
+					},
+					"installed": "True",
+					"OrderLine": {
+						"BOMVersion": "9000784830017741",
+						"ItemID": "90240001",
+						"ItemName": "LG",
+						"InventLocationID": "TRE",
+						"Dimension1": "4031",
+						"Dimension5": "mikaj",
+						"DeliveryName": "Tampere Projektitesti",
+						"DeliveryStreet": "Hämeenpuisto 50 A",
+						"DeliveryZipCode": "33200",
+						"DeliveryCity": "TAMPERE",
+						"DeliveryCountryRegionID": "FI",
+						"LineAmount": "935.60",
+						"Apartment": "11",
+						"Floor": "1",
+						"DlvBatchID": "1",
+						"Line": "3",
+						"FactoryConfirmedDlv": "",
+						"InstallHours": "7.24",
+						"InstallStart": "06.11.2024",
+						"ReservationStart": "2024-11-06T00.00.00",
+						"DeliveryDatePromised": "01.11.2024",
+						"Plan_name": "Plan 2",
+						"PieceWork_pay": "25.47"
+					},
+					"AssemblyInstructions": {
+						"InstallNotes": "",
+						"Attachments": {
+							"Attachment": "salestori-asennuskortti-9000784830017741.pdf",
+							"Folder": "\\270000\\270060\\"
+						},
+						"AssemblyDocument": [
+							{
+								"name": "Tilaustiedot",
+								"Chapter": [
+									{
+										"name": "Perustiedot",
+										"Paragraph": [
+											{
+												"name": "Content",
+												"text": "Projektitesti Tampere\r\nHämeenpuisto 50 A 33200 TAMPERE\r\nPuhelin +35840123456"
+											}
+										]
+									},
+									{
+										"name": "Tilaustiedot",
+										"Paragraph": [
+											{
+												"name": "Content",
+												"text": "Asiakaslupaus 01/11/2024\r\nTilausnumero 90007848\r\nLinja 3\r\nKerros 1\r\nAsunto 11\r\nRVN 9000784830017741"
+											}
+										]
+									}
+								]
+							},
+							{
+								"name": "Asennustiedot",
+								"Chapter": [
+									{
+										"name": "Tuotetiedot",
+										"Paragraph": [
+											{
+												"name": "Tuote",
+												"text": "LG , sivuja:1"
+											},
+											{
+												"name": "Kiinnitystapa",
+												"text": "Ylä: Kattoon, Ala: Lattiaan"
+											},
+											{
+												"name": "Profiilit",
+												"text": "Ylä: 11241205 RAL7024, Ala: 11243001 11243001 "
+											},
+											{
+												"name": "Varusteet",
+												"text": "Muoviosat: Tumman harmaa, Päätytulpat"
+											}
+										]
+									},
+									{
+										"name": "Tuotemitat",
+										"Paragraph": [
+											{
+												"name": "Sivu1,H3=1888",
+												"text": "Ak=90 Lk=90 Pituus=1845 Erom.(Z)=0 Korkeus=2015 Alav. (X)=0 Ylav. (Y)=0 Vkpl=3 Okpl=0 JK= Kyli=Ei Saator.= \r\nYläprof: 11241205 RAL7024\r\nAlaprof: 11243001 RAL7024\r\nSäätöprof: 11222206 RAL7024\r\nL1: LEV=604 K=1876\r\nL2: LEV=604 K=1876\r\nL3: LEV=604 K=1876\r\n"
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				},
+				{
+					"delivery_batch": "1",
+					"delivery_batch_status": "Mitattu",
+					"delivery_batch_receive_date": "06.11.2024",
+					"delivery_batch_delivery_date": "01.11.2024",
+					"group_attachment": "",
+					"AXconfiguration": "no",
+					"group_name": "Liukuva (LGS)",
+					"pcs": "1",
+					"structurenumber": "9000784830017742",
+					"originalstructurenumber": "",
+					"install_start_date": "06.11.2024",
+					"install_end_date": "03.12.2024",
+					"additional_deliverytime": "0",
+					"process": "Normal",
+					"product_code": "90260001",
+					"storageid": "TRE",
+					"packing_order": "1",
+					"unit": "11",
+					"line": "3",
+					"floor": "1",
+					"chargeable": "chargeable",
+					"sales_price": "859.60",
+					"sproduct": "657.90",
+					"sfreight": "49.90",
+					"sinstall": "69.70",
+					"sother": "82.10",
+					"purchase_price": "487.40",
+					"pproduct": "487.40",
+					"pfreight": "0.00",
+					"pinstall": "0.00",
+					"pother": "0.00",
+					"calculated_salesprice": "859.60",
+					"factory_price": "487.40",
+					"fproduct": "487.40",
+					"ffreight": "0.00",
+					"finstall": "0.00",
+					"fother": "0.00",
+					"contract_price": "19.15",
+					"salestori_plan_name": "Plan 2",
+					"glass_m2": "3.64",
+					"blinds_m2": "3.51",
+					"glass_pcs": "2",
+					"product_length": "1804",
+					"group_weight": "105.8362",
+					"product_attributes": {
+						"attributeid": "20090016"
+					},
+					"installed": "True",
+					"OrderLine": {
+						"BOMVersion": "9000784830017742",
+						"ItemID": "90260001",
+						"ItemName": "LGS",
+						"InventLocationID": "TRE",
+						"Dimension1": "4031",
+						"Dimension5": "mikaj",
+						"DeliveryName": "Tampere Projektitesti",
+						"DeliveryStreet": "Hämeenpuisto 50 A",
+						"DeliveryZipCode": "33200",
+						"DeliveryCity": "TAMPERE",
+						"DeliveryCountryRegionID": "FI",
+						"LineAmount": "859.60",
+						"Apartment": "11",
+						"Floor": "1",
+						"DlvBatchID": "1",
+						"Line": "3",
+						"FactoryConfirmedDlv": "",
+						"InstallHours": "3.57",
+						"InstallStart": "06.11.2024",
+						"ReservationStart": "2024-11-06T00.00.00",
+						"DeliveryDatePromised": "01.11.2024",
+						"Plan_name": "Plan 2",
+						"PieceWork_pay": "19.15"
+					},
+					"AssemblyInstructions": {
+						"InstallNotes": "",
+						"Attachments": {
+							"Attachment": "salestori-asennuskortti-9000784830017742.pdf",
+							"Folder": "\\270000\\270060\\"
+						},
+						"AssemblyDocument": [
+							{
+								"name": "Tilaustiedot",
+								"Chapter": [
+									{
+										"name": "Perustiedot",
+										"Paragraph": [
+											{
+												"name": "Content",
+												"text": "Projektitesti Tampere\r\nHämeenpuisto 50 A 33200 TAMPERE\r\nPuhelin +35840123456"
+											}
+										]
+									},
+									{
+										"name": "Tilaustiedot",
+										"Paragraph": [
+											{
+												"name": "Content",
+												"text": "Asiakaslupaus 01/11/2024\r\nTilausnumero 90007848\r\nLinja 3\r\nKerros 1\r\nAsunto 11\r\nRVN 9000784830017742"
+											}
+										]
+									}
+								]
+							},
+							{
+								"name": "Asennustiedot",
+								"Chapter": [
+									{
+										"name": "Tuotetiedot",
+										"Paragraph": [
+											{
+												"name": "Tuote",
+												"text": "LGS , sivuja:1"
+											},
+											{
+												"name": "Kiinnitystapa",
+												"text": "Ylä: Kattoon, Ala: Lattiaan"
+											},
+											{
+												"name": "Profiilit",
+												"text": "Raidemäärä: 3 11260022,  "
+											},
+											{
+												"name": "Varusteet",
+												"text": "Muoviosat: Tumman harmaa, Päätytulpat"
+											}
+										]
+									},
+									{
+										"name": "Tuotemitat",
+										"Paragraph": [
+											{
+												"name": "Sivu2,H3=19518",
+												"text": "Ak=90 Lk=90 Pituus=1804 Erom.(Z)=0 Korkeus=2015 Alav. (X)=0 Ylav. (Y)=0 Vkpl=2 Okpl=0 JK= Kyli=Ei Saator.= \r\nSeinäprof.vas:  \r\nSeinäprof.oik:  \r\nRaidemäärä: 1\r\nKahva.vas: PD9260061\r\nKahvankorkeus.vas: 0\r\nKahva.oik: \r\nKahvankorkeus.oik: \r\nLiu'utus: INST_XML_VALUE_False\r\nProf.pid.vas: 0 \r\nProf.pid.oik: 0 \r\nL1: LEV=902 K=1954 T=Kiinteä\r\nL2: LEV=902 K=1954 T=SlidingLeft\r\n"
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				},
+				{
+					"delivery_batch": "1",
+					"delivery_batch_status": "Mitattu",
+					"delivery_batch_receive_date": "06.11.2024",
+					"delivery_batch_delivery_date": "01.11.2024",
+					"group_attachment": "",
+					"AXconfiguration": "no",
+					"group_name": "Lumon Kiinteä seinä (uusi)",
+					"pcs": "1",
+					"structurenumber": "9000784830017743",
+					"originalstructurenumber": "",
+					"install_start_date": "06.11.2024",
+					"install_end_date": "03.12.2024",
+					"additional_deliverytime": "0",
+					"process": "Normal",
+					"product_code": "90400001",
+					"storageid": "TRE",
+					"packing_order": "1",
+					"unit": "11",
+					"line": "3",
+					"floor": "1",
+					"chargeable": "chargeable",
+					"sales_price": "910.60",
+					"sproduct": "636.80",
+					"sfreight": "53.20",
+					"sinstall": "127.70",
+					"sother": "92.80",
+					"purchase_price": "472.80",
+					"pproduct": "472.80",
+					"pfreight": "0.00",
+					"pinstall": "0.00",
+					"pother": "0.00",
+					"calculated_salesprice": "910.60",
+					"factory_price": "472.80",
+					"fproduct": "472.80",
+					"ffreight": "0.00",
+					"finstall": "0.00",
+					"fother": "0.00",
+					"contract_price": "33.54",
+					"salestori_plan_name": "Plan 2",
+					"glass_m2": "0.00",
+					"blinds_m2": "0.00",
+					"glass_pcs": "0",
+					"product_length": "0",
+					"group_weight": "104.8996",
+					"product_attributes": {
+						"attributeid": "20090016"
+					},
+					"installed": "True",
+					"OrderLine": {
+						"BOMVersion": "9000784830017743",
+						"ItemID": "90400001",
+						"ItemName": "LFIXEDWALL",
+						"InventLocationID": "TRE",
+						"Dimension1": "4031",
+						"Dimension5": "mikaj",
+						"DeliveryName": "Tampere Projektitesti",
+						"DeliveryStreet": "Hämeenpuisto 50 A",
+						"DeliveryZipCode": "33200",
+						"DeliveryCity": "TAMPERE",
+						"DeliveryCountryRegionID": "FI",
+						"LineAmount": "910.60",
+						"Apartment": "11",
+						"Floor": "1",
+						"DlvBatchID": "1",
+						"Line": "3",
+						"FactoryConfirmedDlv": "",
+						"InstallHours": "0.00",
+						"InstallStart": "06.11.2024",
+						"ReservationStart": "2024-11-06T00.00.00",
+						"DeliveryDatePromised": "01.11.2024",
+						"Plan_name": "Plan 2",
+						"PieceWork_pay": "33.54"
+					},
+					"AssemblyInstructions": {
+						"InstallNotes": "",
+						"Attachments": {
+							"Attachment": "salestori-asennuskortti-9000784830017743.pdf",
+							"Folder": "\\270000\\270060\\"
+						},
+						"AssemblyDocument": [
+							{
+								"name": "Tilaustiedot",
+								"Chapter": [
+									{
+										"name": "Perustiedot",
+										"Paragraph": [
+											{
+												"name": "Content",
+												"text": "Projektitesti Tampere\r\nHämeenpuisto 50 A 33200 TAMPERE\r\nPuhelin +35840123456"
+											}
+										]
+									},
+									{
+										"name": "Tilaustiedot",
+										"Paragraph": [
+											{
+												"name": "Content",
+												"text": "Asiakaslupaus 01/11/2024\r\nTilausnumero 90007848\r\nLinja 3\r\nKerros 1\r\nAsunto 11\r\nRVN 9000784830017743"
+											}
+										]
+									}
+								]
+							},
+							{
+								"name": "Asennustiedot",
+								"Chapter": [
+									{
+										"name": "Tuotetiedot",
+										"Paragraph": [
+											{
+												"name": "Tuote",
+												"text": "LFW , sivuja:1"
+											},
+											{
+												"name": "Kiinnitystapa",
+												"text": "Ylä: Kattoon, Ala: Lattiaan"
+											},
+											{
+												"name": "Profiilit",
+												"text": "Ylä: 11241205 RAL7024, Ala: 11243001 11243001 "
+											},
+											{
+												"name": "Varusteet",
+												"text": "Muoviosat: Tumman harmaa, Päätytulpat"
+											}
+										]
+									},
+									{
+										"name": "Tuotemitat",
+										"Paragraph": [
+											{
+												"name": "Sivu3,H3=19268",
+												"text": "Ak=90 Lk=90 Pituus=1845 Erom.(Z)=0 Korkeus=2015 Alav. (X)=0 Ylav. (Y)=0 Vkpl=3 Okpl=0 JK= Kyli=Ei Saator.= \r\nYläprof: 11241205 RAL7024\r\nAlaprof: 11243001 RAL7024\r\nSäätöprof: 11222206 RAL7024\r\nL1: LEV=603 K=1931\r\nL2: LEV=603 K=1931\r\nL3: LEV=603 K=1931\r\n"
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				},
+				{
+					"delivery_batch": "1",
+					"delivery_batch_status": "Mitattu",
+					"delivery_batch_receive_date": "06.11.2024",
+					"delivery_batch_delivery_date": "01.11.2024",
+					"group_attachment": "",
+					"AXconfiguration": "no",
+					"group_name": "Lumon Kaide",
+					"pcs": "1",
+					"structurenumber": "9000784830017744",
+					"originalstructurenumber": "",
+					"install_start_date": "06.11.2024",
+					"install_end_date": "03.12.2024",
+					"additional_deliverytime": "0",
+					"process": "Normal",
+					"product_code": "90370001",
+					"storageid": "TRE",
+					"packing_order": "1",
+					"unit": "11",
+					"line": "3",
+					"floor": "1",
+					"chargeable": "chargeable",
+					"sales_price": "809.00",
+					"sproduct": "613.80",
+					"sfreight": "37.90",
+					"sinstall": "123.60",
+					"sother": "33.80",
+					"purchase_price": "421.60",
+					"pproduct": "421.60",
+					"pfreight": "0.00",
+					"pinstall": "0.00",
+					"pother": "0.00",
+					"calculated_salesprice": "809.00",
+					"factory_price": "421.60",
+					"fproduct": "421.60",
+					"ffreight": "0.00",
+					"finstall": "0.00",
+					"fother": "0.00",
+					"contract_price": "39.09",
+					"salestori_plan_name": "Plan 2",
+					"glass_m2": "2.03",
+					"blinds_m2": "0.00",
+					"glass_pcs": "0",
+					"product_length": "1844",
+					"group_weight": "0",
+					"product_attributes": "",
+					"installed": "True",
+					"OrderLine": {
+						"BOMVersion": "9000784830017744",
+						"ItemID": "90370001",
+						"ItemName": "LUMONKAIDE",
+						"InventLocationID": "TRE",
+						"Dimension1": "4031",
+						"Dimension5": "mikaj",
+						"DeliveryName": "Tampere Projektitesti",
+						"DeliveryStreet": "Hämeenpuisto 50 A",
+						"DeliveryZipCode": "33200",
+						"DeliveryCity": "TAMPERE",
+						"DeliveryCountryRegionID": "FI",
+						"LineAmount": "809.00",
+						"Apartment": "11",
+						"Floor": "1",
+						"DlvBatchID": "1",
+						"Line": "3",
+						"FactoryConfirmedDlv": "",
+						"InstallHours": "0.57",
+						"InstallStart": "06.11.2024",
+						"ReservationStart": "2024-11-06T00.00.00",
+						"DeliveryDatePromised": "01.11.2024",
+						"Plan_name": "Plan 2",
+						"PieceWork_pay": "39.09"
+					},
+					"AssemblyInstructions": {
+						"InstallNotes": "",
+						"Attachments": {
+							"Attachment": "salestori-asennuskortti-9000784830017744.pdf",
+							"Folder": "\\270000\\270060\\"
+						},
+						"AssemblyDocument": [
+							{
+								"name": "Tilaustiedot",
+								"Chapter": [
+									{
+										"name": "Perustiedot",
+										"Paragraph": [
+											{
+												"name": "Content",
+												"text": "Projektitesti Tampere\r\nHämeenpuisto 50 A 33200 TAMPERE\r\nPuhelin +35840123456"
+											}
+										]
+									},
+									{
+										"name": "Tilaustiedot",
+										"Paragraph": [
+											{
+												"name": "Content",
+												"text": "Asiakaslupaus 01/11/2024\r\nTilausnumero 90007848\r\nLinja 3\r\nKerros 1\r\nAsunto 11\r\nRVN 9000784830017744"
+											}
+										]
+									}
+								]
+							},
+							{
+								"name": "Asennustiedot",
+								"Chapter": [
+									{
+										"name": "Tuotetiedot",
+										"Paragraph": [
+											{
+												"name": "Tuote",
+												"text": "Kaide1.1 , sivuja:1"
+											},
+											{
+												"name": "Kiinnitystapa",
+												"text": "Päälle"
+											},
+											{
+												"name": "Profiilit",
+												"text": "INST_XML_COLOR:RAL7024, Käsijohde 160 "
+											},
+											{
+												"name": "Varusteet"
+											}
+										]
+									},
+									{
+										"name": "Tuotemitat",
+										"Paragraph": [
+											{
+												"name": "Sivu1",
+												"text": "Ak=90 Lk=90 Pituus=1845 Erom.(Z)=0  INST_XML_PULLOUT=0 INST_XML_UPHOLSTERY_PCS=2 INST_XML_HANDRAIL: Käsijohde 160, INST_XML_ELEVATION: 1100, RAL7024 INST_XML_HANDRAIL_PIPE: Käsijohde 160, RAL7024 INST_XML_TOE_LIST: Ei varvaslistaa INST_XML_WEDGE_CRACK_SEAL: Ei tiivistettä INST_XML_LOWER_UPHOLSTERY: Päälle asennettava alapaarre, INST_XML_ELEVATION: 0, RAL7024 INST_XML_UPHOLSTERY_PROFILE: Verhousprofiili 215 INST_XML_DECO_PIPE:  INST_XML_WALL_FASTENING_LEFT: Käsijohteen pystykiinnike INST_XML_WALL_FASTENING_RIGHT: Käsijohteen pystykiinnike INST_XML_WALL_FASTENING_ANCHOR_LEFT: Betoniruuvi HUS-HR 10x115 INST_XML_WALL_FASTENING_RIGHT: Betoniruuvi HUS-HR 10x115 INST_XML_HEAT_PLASTER_LEFT: INST_XML_NO INST_XML_HEAT_PLASTER_RIGHT: INST_XML_NOINST_XML_UPHOLSTERY_SHORT1: LEV=892 K=1065, INST_XML_NO INST_XML_UPHOLSTERY_SHORT2: LEV=892 K=1065, INST_XML_NO "
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				},
+				{
+					"delivery_batch": "1",
+					"delivery_batch_status": "Mitattu",
+					"delivery_batch_receive_date": "06.11.2024",
+					"delivery_batch_delivery_date": "01.11.2024",
+					"group_attachment": "",
+					"AXconfiguration": "yes",
+					"group_name": "Valmisterassi 3",
+					"pcs": "1",
+					"structurenumber": "9000784830017745",
+					"originalstructurenumber": "",
+					"install_start_date": "06.11.2024",
+					"install_end_date": "03.12.2024",
+					"additional_deliverytime": "0",
+					"process": "Normal",
+					"product_code": "90750001",
+					"storageid": "TRE",
+					"packing_order": "1",
+					"unit": "11",
+					"line": "3",
+					"floor": "1",
+					"chargeable": "chargeable",
+					"sales_price": "2859.10",
+					"sproduct": "2415.10",
+					"sfreight": "141.60",
+					"sinstall": "259.70",
+					"sother": "42.70",
+					"purchase_price": "1789.00",
+					"pproduct": "1789.00",
+					"pfreight": "0.00",
+					"pinstall": "0.00",
+					"pother": "0.00",
+					"calculated_salesprice": "2931.00",
+					"factory_price": "1789.00",
+					"fproduct": "1789.00",
+					"ffreight": "0.00",
+					"finstall": "0.00",
+					"fother": "0.00",
+					"contract_price": "151.57",
+					"salestori_plan_name": "Plan 2",
+					"glass_m2": "0.00",
+					"blinds_m2": "0.00",
+					"glass_pcs": "0",
+					"product_length": "0",
+					"group_weight": "0",
+					"product_attributes": "",
+					"installed": "True",
+					"OrderLine": {
+						"BOMVersion": "9000784830017745",
+						"ItemID": "90750001",
+						"ItemName": "VT3",
+						"InventLocationID": "TRE",
+						"Dimension1": "4031",
+						"Dimension5": "mikaj",
+						"DeliveryName": "Tampere Projektitesti",
+						"DeliveryStreet": "Hämeenpuisto 50 A",
+						"DeliveryZipCode": "33200",
+						"DeliveryCity": "TAMPERE",
+						"DeliveryCountryRegionID": "FI",
+						"LineAmount": "2859.10",
+						"Apartment": "11",
+						"Floor": "1",
+						"DlvBatchID": "1",
+						"Line": "3",
+						"FactoryConfirmedDlv": "",
+						"InstallHours": "9.66",
+						"InstallStart": "06.11.2024",
+						"ReservationStart": "2024-11-06T00.00.00",
+						"DeliveryDatePromised": "01.11.2024",
+						"Plan_name": "Plan 2",
+						"PieceWork_pay": "151.57"
+					},
+					"AssemblyInstructions": {
+						"InstallNotes": "",
+						"Attachments": {
+							"Attachment": "salestori-asennuskortti-9000784830017745.pdf",
+							"Folder": "\\270000\\270060\\"
+						},
+						"AssemblyDocument": [
+							{
+								"name": "Tilaustiedot",
+								"Chapter": [
+									{
+										"name": "Perustiedot",
+										"Paragraph": [
+											{
+												"name": "Content",
+												"text": "Projektitesti Tampere\r\nHämeenpuisto 50 A 33200 TAMPERE\r\nPuhelin +35840123456"
+											}
+										]
+									},
+									{
+										"name": "Tilaustiedot",
+										"Paragraph": [
+											{
+												"name": "Content",
+												"text": "Asiakaslupaus 01/11/2024\r\nTilausnumero 90007848\r\nLinja 3\r\nKerros 1\r\nAsunto 11\r\nRVN 9000784830017745"
+											}
+										]
+									}
+								]
+							},
+							{
+								"name": "Asennustiedot",
+								"Chapter": [
+									{
+										"name": "Tuotetiedot",
+										"Paragraph": [
+											{
+												"name": "Tuote",
+												"text": "VT3, Malli:1"
+											},
+											{
+												"name": "Kiinnitystapa",
+												"text": "Ylä: Kattoon, Ala: Lattiaan"
+											},
+											{
+												"name": "Profiilit",
+												"text": "Välitolppa: INST_XML_TERRACE_SIDE_POST:  "
+											},
+											{
+												"name": "Varusteet",
+												"text": "INST_XML_TERRACE_SNOW_STOPPER: DOCXML_NO INST_XML_TERRACE_DRAIN_PIPE: DOCXML_NO INST_XML_TERRACE_VENTILATION_CURTAIN: DOC_TERRACE_VENTILATIONNET_NO INST_XML_TERRACE_POWER_ADAPTER: 0 INST_XML_TERRACE_LED_LIGHTS: 0 INST_XML_TERRACE_UPPER_CONNECTION_FLASHING:  INST_XML_TERRACE_ROOF_CONNECTION_ACCESSORIES:  INST_XML_TERRACE_SIDE_CONNECTION_FLASHING:  INST_XML_TERRACE_FIXED_END: DOC_TERRACE_FIXEDEND_NO"
+											}
+										]
+									},
+									{
+										"name": "Tuotemitat",
+										"Paragraph": [
+											{
+												"name": "Kattolasit:3, Kattopalkit:4, Perustus",
+												"text": "INST_XML_TERRACE_WIDTH1:2000. INST_XML_TERRACE_DEPTH1:2000. INST_XML_TERRACE_FRONT_HEIGHT:2000. INST_XML_TERRACE_BACK_HEIGHT1:2500. INST_XML_TERRACE_WIDTH2:. INST_XML_TERRACE_DEPTH2:. INST_XML_TERRACE_BACK_HEIGHT2:. \r\nINST_XML_TERRACE_ROOF_GLASSES_INDEX1: 20090017 INST_XML_TERRACE_ROOF_GLASSES_WIDTH=601 INST_XML_TERRACE_ROOF_GLASSES_HEIGHT=2175\r\nINST_XML_TERRACE_ROOF_GLASSES_INDEX2: 20090017 INST_XML_TERRACE_ROOF_GLASSES_WIDTH=601 INST_XML_TERRACE_ROOF_GLASSES_HEIGHT=2175\r\nINST_XML_TERRACE_ROOF_GLASSES_INDEX3: 20090017 INST_XML_TERRACE_ROOF_GLASSES_WIDTH=601 INST_XML_TERRACE_ROOF_GLASSES_HEIGHT=2175\r\nINST_XML_TERRACE_CROSS_MEASUREMENT: INST_XML_LEFT:2828 INST_XML_RIGHT:0\r\nINST_XML_TERRACE_FOUNDATION: \r\nINST_XML_TERRACE_EXTRA_DECK: INST_XML_FRONT: / INST_XML_LEFT: / INST_XML_RIGHT: / INST_XML_BACK:\r\nINST_XML_TERRACE_FLOOR_BEAMS: \r\nINST_XML_TERRACE_PAALU_COUNT: \r\nINST_XML_TERRACE_PONTTILAUTA_LENGTH: \r\nINST_XML_TERRACE_PONTTILAUTA_COUNT: \r\nINST_XML_TERRACE_PONTTILAUTA_TOTAL_WIDTH: \r\nINST_XML_TERRACE_AVOLAUTA_LENGTH: \r\nINST_XML_TERRACE_AVOLAUTA_COUNT: \r\nINST_XML_TERRACE_AVOLAUTA_TOTAL_WIDTH: \r\nINST_XML_TERRACE_VERHOUSLAUTA_LENGTH: \r\nINST_XML_TERRACE_VERHOUSLAUTA_COUNT: \r\n[INST_XML_TERRACE_VERHOUSLAUTA_TOTAL_WIDTH: \r\n[INST_XML_TERRACE_PAALU_PLACES: \r\n"
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				},
+				{
+					"delivery_batch": "1",
+					"delivery_batch_status": "Mitattu",
+					"delivery_batch_receive_date": "06.11.2024",
+					"delivery_batch_delivery_date": "01.11.2024",
+					"group_attachment": "",
+					"AXconfiguration": "no",
+					"group_name": "Avautuva (LGR)",
+					"pcs": "1",
+					"structurenumber": "9000784830017751",
+					"originalstructurenumber": "",
+					"install_start_date": "06.11.2024",
+					"install_end_date": "03.12.2024",
+					"additional_deliverytime": "0",
+					"process": "Normal",
+					"product_code": "90240001",
+					"storageid": "TRE",
+					"packing_order": "1",
+					"unit": "1",
+					"line": "4",
+					"floor": "1",
+					"chargeable": "chargeable",
+					"sales_price": "895.30",
+					"sproduct": "672.10",
+					"sfreight": "38.40",
+					"sinstall": "92.70",
+					"sother": "92.20",
+					"purchase_price": "488.50",
+					"pproduct": "488.50",
+					"pfreight": "0.00",
+					"pinstall": "0.00",
+					"pother": "0.00",
+					"calculated_salesprice": "935.60",
+					"factory_price": "488.50",
+					"fproduct": "488.50",
+					"ffreight": "0.00",
+					"finstall": "0.00",
+					"fother": "0.00",
+					"contract_price": "25.47",
+					"salestori_plan_name": "Plan 2 Copia",
+					"glass_m2": "3.72",
+					"blinds_m2": "3.37",
+					"glass_pcs": "3",
+					"product_length": "1845",
+					"group_weight": "102.0572",
+					"product_attributes": {
+						"attributeid": "20090016"
+					},
+					"installed": "True",
+					"OrderLine": {
+						"BOMVersion": "9000784830017751",
+						"ItemID": "90240001",
+						"ItemName": "LG",
+						"InventLocationID": "TRE",
+						"Dimension1": "4031",
+						"Dimension5": "mikaj",
+						"DeliveryName": "Tampere Projektitesti",
+						"DeliveryStreet": "Hämeenpuisto 50 A",
+						"DeliveryZipCode": "33200",
+						"DeliveryCity": "TAMPERE",
+						"DeliveryCountryRegionID": "FI",
+						"LineAmount": "895.30",
+						"Apartment": "1",
+						"Floor": "1",
+						"DlvBatchID": "1",
+						"Line": "4",
+						"FactoryConfirmedDlv": "",
+						"InstallHours": "7.24",
+						"InstallStart": "06.11.2024",
+						"ReservationStart": "2024-11-06T00.00.00",
+						"DeliveryDatePromised": "01.11.2024",
+						"Plan_name": "Plan 2 Copia",
+						"PieceWork_pay": "25.47"
+					},
+					"AssemblyInstructions": {
+						"InstallNotes": "",
+						"Attachments": {
+							"Attachment": "salestori-asennuskortti-9000784830017751.pdf",
+							"Folder": "\\270000\\270060\\"
+						},
+						"AssemblyDocument": [
+							{
+								"name": "Tilaustiedot",
+								"Chapter": [
+									{
+										"name": "Perustiedot",
+										"Paragraph": [
+											{
+												"name": "Content",
+												"text": "Projektitesti Tampere\r\nHämeenpuisto 50 A 33200 TAMPERE\r\nPuhelin +35840123456"
+											}
+										]
+									},
+									{
+										"name": "Tilaustiedot",
+										"Paragraph": [
+											{
+												"name": "Content",
+												"text": "Asiakaslupaus 01/11/2024\r\nTilausnumero 90007848\r\nLinja 4\r\nKerros 1\r\nAsunto 1\r\nRVN 9000784830017751"
+											}
+										]
+									}
+								]
+							},
+							{
+								"name": "Asennustiedot",
+								"Chapter": [
+									{
+										"name": "Tuotetiedot",
+										"Paragraph": [
+											{
+												"name": "Tuote",
+												"text": "LG , sivuja:1"
+											},
+											{
+												"name": "Kiinnitystapa",
+												"text": "Ylä: Kattoon, Ala: Lattiaan"
+											},
+											{
+												"name": "Profiilit",
+												"text": "Ylä: 11241205 RAL7024, Ala: 11243001 11243001 "
+											},
+											{
+												"name": "Varusteet",
+												"text": "Muoviosat: Tumman harmaa, Päätytulpat"
+											}
+										]
+									},
+									{
+										"name": "Tuotemitat",
+										"Paragraph": [
+											{
+												"name": "Sivu1,H3=1888",
+												"text": "Ak=90 Lk=90 Pituus=1845 Erom.(Z)=0 Korkeus=2015 Alav. (X)=0 Ylav. (Y)=0 Vkpl=3 Okpl=0 JK= Kyli=Ei Saator.= \r\nYläprof: 11241205 RAL7024\r\nAlaprof: 11243001 RAL7024\r\nSäätöprof: 11222206 RAL7024\r\nL1: LEV=604 K=1876\r\nL2: LEV=604 K=1876\r\nL3: LEV=604 K=1876\r\n"
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				},
+				{
+					"delivery_batch": "1",
+					"delivery_batch_status": "Mitattu",
+					"delivery_batch_receive_date": "06.11.2024",
+					"delivery_batch_delivery_date": "01.11.2024",
+					"group_attachment": "",
+					"AXconfiguration": "no",
+					"group_name": "Liukuva (LGS)",
+					"pcs": "1",
+					"structurenumber": "9000784830017752",
+					"originalstructurenumber": "",
+					"install_start_date": "06.11.2024",
+					"install_end_date": "03.12.2024",
+					"additional_deliverytime": "0",
+					"process": "Normal",
+					"product_code": "90260001",
+					"storageid": "TRE",
+					"packing_order": "1",
+					"unit": "1",
+					"line": "4",
+					"floor": "1",
+					"chargeable": "chargeable",
+					"sales_price": "859.60",
+					"sproduct": "657.90",
+					"sfreight": "49.90",
+					"sinstall": "69.70",
+					"sother": "82.10",
+					"purchase_price": "487.40",
+					"pproduct": "487.40",
+					"pfreight": "0.00",
+					"pinstall": "0.00",
+					"pother": "0.00",
+					"calculated_salesprice": "859.60",
+					"factory_price": "487.40",
+					"fproduct": "487.40",
+					"ffreight": "0.00",
+					"finstall": "0.00",
+					"fother": "0.00",
+					"contract_price": "19.15",
+					"salestori_plan_name": "Plan 2 Copia",
+					"glass_m2": "3.64",
+					"blinds_m2": "3.51",
+					"glass_pcs": "2",
+					"product_length": "1804",
+					"group_weight": "105.8362",
+					"product_attributes": {
+						"attributeid": "20090016"
+					},
+					"installed": "True",
+					"OrderLine": {
+						"BOMVersion": "9000784830017752",
+						"ItemID": "90260001",
+						"ItemName": "LGS",
+						"InventLocationID": "TRE",
+						"Dimension1": "4031",
+						"Dimension5": "mikaj",
+						"DeliveryName": "Tampere Projektitesti",
+						"DeliveryStreet": "Hämeenpuisto 50 A",
+						"DeliveryZipCode": "33200",
+						"DeliveryCity": "TAMPERE",
+						"DeliveryCountryRegionID": "FI",
+						"LineAmount": "859.60",
+						"Apartment": "1",
+						"Floor": "1",
+						"DlvBatchID": "1",
+						"Line": "4",
+						"FactoryConfirmedDlv": "",
+						"InstallHours": "3.57",
+						"InstallStart": "06.11.2024",
+						"ReservationStart": "2024-11-06T00.00.00",
+						"DeliveryDatePromised": "01.11.2024",
+						"Plan_name": "Plan 2 Copia",
+						"PieceWork_pay": "19.15"
+					},
+					"AssemblyInstructions": {
+						"InstallNotes": "",
+						"Attachments": {
+							"Attachment": "salestori-asennuskortti-9000784830017752.pdf",
+							"Folder": "\\270000\\270060\\"
+						},
+						"AssemblyDocument": [
+							{
+								"name": "Tilaustiedot",
+								"Chapter": [
+									{
+										"name": "Perustiedot",
+										"Paragraph": [
+											{
+												"name": "Content",
+												"text": "Projektitesti Tampere\r\nHämeenpuisto 50 A 33200 TAMPERE\r\nPuhelin +35840123456"
+											}
+										]
+									},
+									{
+										"name": "Tilaustiedot",
+										"Paragraph": [
+											{
+												"name": "Content",
+												"text": "Asiakaslupaus 01/11/2024\r\nTilausnumero 90007848\r\nLinja 4\r\nKerros 1\r\nAsunto 1\r\nRVN 9000784830017752"
+											}
+										]
+									}
+								]
+							},
+							{
+								"name": "Asennustiedot",
+								"Chapter": [
+									{
+										"name": "Tuotetiedot",
+										"Paragraph": [
+											{
+												"name": "Tuote",
+												"text": "LGS , sivuja:1"
+											},
+											{
+												"name": "Kiinnitystapa",
+												"text": "Ylä: Kattoon, Ala: Lattiaan"
+											},
+											{
+												"name": "Profiilit",
+												"text": "Raidemäärä: 3 11260022,  "
+											},
+											{
+												"name": "Varusteet",
+												"text": "Muoviosat: Tumman harmaa, Päätytulpat"
+											}
+										]
+									},
+									{
+										"name": "Tuotemitat",
+										"Paragraph": [
+											{
+												"name": "Sivu2,H3=19518",
+												"text": "Ak=90 Lk=90 Pituus=1804 Erom.(Z)=0 Korkeus=2015 Alav. (X)=0 Ylav. (Y)=0 Vkpl=2 Okpl=0 JK= Kyli=Ei Saator.= \r\nSeinäprof.vas:  \r\nSeinäprof.oik:  \r\nRaidemäärä: 1\r\nKahva.vas: PD9260061\r\nKahvankorkeus.vas: 0\r\nKahva.oik: \r\nKahvankorkeus.oik: \r\nLiu'utus: INST_XML_VALUE_False\r\nProf.pid.vas: 0 \r\nProf.pid.oik: 0 \r\nL1: LEV=902 K=1954 T=Kiinteä\r\nL2: LEV=902 K=1954 T=SlidingLeft\r\n"
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				},
+				{
+					"delivery_batch": "1",
+					"delivery_batch_status": "Mitattu",
+					"delivery_batch_receive_date": "06.11.2024",
+					"delivery_batch_delivery_date": "01.11.2024",
+					"group_attachment": "",
+					"AXconfiguration": "no",
+					"group_name": "Lumon Kiinteä seinä (uusi)",
+					"pcs": "1",
+					"structurenumber": "9000784830017753",
+					"originalstructurenumber": "",
+					"install_start_date": "06.11.2024",
+					"install_end_date": "03.12.2024",
+					"additional_deliverytime": "0",
+					"process": "Normal",
+					"product_code": "90400001",
+					"storageid": "TRE",
+					"packing_order": "1",
+					"unit": "1",
+					"line": "4",
+					"floor": "1",
+					"chargeable": "chargeable",
+					"sales_price": "910.60",
+					"sproduct": "636.80",
+					"sfreight": "53.20",
+					"sinstall": "127.70",
+					"sother": "92.80",
+					"purchase_price": "472.80",
+					"pproduct": "472.80",
+					"pfreight": "0.00",
+					"pinstall": "0.00",
+					"pother": "0.00",
+					"calculated_salesprice": "910.60",
+					"factory_price": "472.80",
+					"fproduct": "472.80",
+					"ffreight": "0.00",
+					"finstall": "0.00",
+					"fother": "0.00",
+					"contract_price": "33.54",
+					"salestori_plan_name": "Plan 2 Copia",
+					"glass_m2": "0.00",
+					"blinds_m2": "0.00",
+					"glass_pcs": "0",
+					"product_length": "0",
+					"group_weight": "104.8996",
+					"product_attributes": {
+						"attributeid": "20090016"
+					},
+					"installed": "True",
+					"OrderLine": {
+						"BOMVersion": "9000784830017753",
+						"ItemID": "90400001",
+						"ItemName": "LFIXEDWALL",
+						"InventLocationID": "TRE",
+						"Dimension1": "4031",
+						"Dimension5": "mikaj",
+						"DeliveryName": "Tampere Projektitesti",
+						"DeliveryStreet": "Hämeenpuisto 50 A",
+						"DeliveryZipCode": "33200",
+						"DeliveryCity": "TAMPERE",
+						"DeliveryCountryRegionID": "FI",
+						"LineAmount": "910.60",
+						"Apartment": "1",
+						"Floor": "1",
+						"DlvBatchID": "1",
+						"Line": "4",
+						"FactoryConfirmedDlv": "",
+						"InstallHours": "0.00",
+						"InstallStart": "06.11.2024",
+						"ReservationStart": "2024-11-06T00.00.00",
+						"DeliveryDatePromised": "01.11.2024",
+						"Plan_name": "Plan 2 Copia",
+						"PieceWork_pay": "33.54"
+					},
+					"AssemblyInstructions": {
+						"InstallNotes": "",
+						"Attachments": {
+							"Attachment": "salestori-asennuskortti-9000784830017753.pdf",
+							"Folder": "\\270000\\270060\\"
+						},
+						"AssemblyDocument": [
+							{
+								"name": "Tilaustiedot",
+								"Chapter": [
+									{
+										"name": "Perustiedot",
+										"Paragraph": [
+											{
+												"name": "Content",
+												"text": "Projektitesti Tampere\r\nHämeenpuisto 50 A 33200 TAMPERE\r\nPuhelin +35840123456"
+											}
+										]
+									},
+									{
+										"name": "Tilaustiedot",
+										"Paragraph": [
+											{
+												"name": "Content",
+												"text": "Asiakaslupaus 01/11/2024\r\nTilausnumero 90007848\r\nLinja 4\r\nKerros 1\r\nAsunto 1\r\nRVN 9000784830017753"
+											}
+										]
+									}
+								]
+							},
+							{
+								"name": "Asennustiedot",
+								"Chapter": [
+									{
+										"name": "Tuotetiedot",
+										"Paragraph": [
+											{
+												"name": "Tuote",
+												"text": "LFW , sivuja:1"
+											},
+											{
+												"name": "Kiinnitystapa",
+												"text": "Ylä: Kattoon, Ala: Lattiaan"
+											},
+											{
+												"name": "Profiilit",
+												"text": "Ylä: 11241205 RAL7024, Ala: 11243001 11243001 "
+											},
+											{
+												"name": "Varusteet",
+												"text": "Muoviosat: Tumman harmaa, Päätytulpat"
+											}
+										]
+									},
+									{
+										"name": "Tuotemitat",
+										"Paragraph": [
+											{
+												"name": "Sivu3,H3=19268",
+												"text": "Ak=90 Lk=90 Pituus=1845 Erom.(Z)=0 Korkeus=2015 Alav. (X)=0 Ylav. (Y)=0 Vkpl=3 Okpl=0 JK= Kyli=Ei Saator.= \r\nYläprof: 11241205 RAL7024\r\nAlaprof: 11243001 RAL7024\r\nSäätöprof: 11222206 RAL7024\r\nL1: LEV=603 K=1931\r\nL2: LEV=603 K=1931\r\nL3: LEV=603 K=1931\r\n"
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				},
+				{
+					"delivery_batch": "1",
+					"delivery_batch_status": "Mitattu",
+					"delivery_batch_receive_date": "06.11.2024",
+					"delivery_batch_delivery_date": "01.11.2024",
+					"group_attachment": "",
+					"AXconfiguration": "no",
+					"group_name": "Lumon Kaide",
+					"pcs": "1",
+					"structurenumber": "9000784830017754",
+					"originalstructurenumber": "",
+					"install_start_date": "06.11.2024",
+					"install_end_date": "03.12.2024",
+					"additional_deliverytime": "0",
+					"process": "Normal",
+					"product_code": "90370001",
+					"storageid": "TRE",
+					"packing_order": "1",
+					"unit": "1",
+					"line": "4",
+					"floor": "1",
+					"chargeable": "chargeable",
+					"sales_price": "809.00",
+					"sproduct": "613.80",
+					"sfreight": "37.90",
+					"sinstall": "123.60",
+					"sother": "33.80",
+					"purchase_price": "421.60",
+					"pproduct": "421.60",
+					"pfreight": "0.00",
+					"pinstall": "0.00",
+					"pother": "0.00",
+					"calculated_salesprice": "809.00",
+					"factory_price": "421.60",
+					"fproduct": "421.60",
+					"ffreight": "0.00",
+					"finstall": "0.00",
+					"fother": "0.00",
+					"contract_price": "39.09",
+					"salestori_plan_name": "Plan 2 Copia",
+					"glass_m2": "2.03",
+					"blinds_m2": "0.00",
+					"glass_pcs": "0",
+					"product_length": "1844",
+					"group_weight": "0",
+					"product_attributes": "",
+					"installed": "True",
+					"OrderLine": {
+						"BOMVersion": "9000784830017754",
+						"ItemID": "90370001",
+						"ItemName": "LUMONKAIDE",
+						"InventLocationID": "TRE",
+						"Dimension1": "4031",
+						"Dimension5": "mikaj",
+						"DeliveryName": "Tampere Projektitesti",
+						"DeliveryStreet": "Hämeenpuisto 50 A",
+						"DeliveryZipCode": "33200",
+						"DeliveryCity": "TAMPERE",
+						"DeliveryCountryRegionID": "FI",
+						"LineAmount": "809.00",
+						"Apartment": "1",
+						"Floor": "1",
+						"DlvBatchID": "1",
+						"Line": "4",
+						"FactoryConfirmedDlv": "",
+						"InstallHours": "0.57",
+						"InstallStart": "06.11.2024",
+						"ReservationStart": "2024-11-06T00.00.00",
+						"DeliveryDatePromised": "01.11.2024",
+						"Plan_name": "Plan 2 Copia",
+						"PieceWork_pay": "39.09"
+					},
+					"AssemblyInstructions": {
+						"InstallNotes": "",
+						"Attachments": {
+							"Attachment": "salestori-asennuskortti-9000784830017754.pdf",
+							"Folder": "\\270000\\270060\\"
+						},
+						"AssemblyDocument": [
+							{
+								"name": "Tilaustiedot",
+								"Chapter": [
+									{
+										"name": "Perustiedot",
+										"Paragraph": [
+											{
+												"name": "Content",
+												"text": "Projektitesti Tampere\r\nHämeenpuisto 50 A 33200 TAMPERE\r\nPuhelin +35840123456"
+											}
+										]
+									},
+									{
+										"name": "Tilaustiedot",
+										"Paragraph": [
+											{
+												"name": "Content",
+												"text": "Asiakaslupaus 01/11/2024\r\nTilausnumero 90007848\r\nLinja 4\r\nKerros 1\r\nAsunto 1\r\nRVN 9000784830017754"
+											}
+										]
+									}
+								]
+							},
+							{
+								"name": "Asennustiedot",
+								"Chapter": [
+									{
+										"name": "Tuotetiedot",
+										"Paragraph": [
+											{
+												"name": "Tuote",
+												"text": "Kaide1.1 , sivuja:1"
+											},
+											{
+												"name": "Kiinnitystapa",
+												"text": "Päälle"
+											},
+											{
+												"name": "Profiilit",
+												"text": "INST_XML_COLOR:RAL7024, Käsijohde 160 "
+											},
+											{
+												"name": "Varusteet"
+											}
+										]
+									},
+									{
+										"name": "Tuotemitat",
+										"Paragraph": [
+											{
+												"name": "Sivu1",
+												"text": "Ak=90 Lk=90 Pituus=1845 Erom.(Z)=0  INST_XML_PULLOUT=0 INST_XML_UPHOLSTERY_PCS=2 INST_XML_HANDRAIL: Käsijohde 160, INST_XML_ELEVATION: 1100, RAL7024 INST_XML_HANDRAIL_PIPE: Käsijohde 160, RAL7024 INST_XML_TOE_LIST: Ei varvaslistaa INST_XML_WEDGE_CRACK_SEAL: Ei tiivistettä INST_XML_LOWER_UPHOLSTERY: Päälle asennettava alapaarre, INST_XML_ELEVATION: 0, RAL7024 INST_XML_UPHOLSTERY_PROFILE: Verhousprofiili 215 INST_XML_DECO_PIPE:  INST_XML_WALL_FASTENING_LEFT: Käsijohteen pystykiinnike INST_XML_WALL_FASTENING_RIGHT: Käsijohteen pystykiinnike INST_XML_WALL_FASTENING_ANCHOR_LEFT: Betoniruuvi HUS-HR 10x115 INST_XML_WALL_FASTENING_RIGHT: Betoniruuvi HUS-HR 10x115 INST_XML_HEAT_PLASTER_LEFT: INST_XML_NO INST_XML_HEAT_PLASTER_RIGHT: INST_XML_NOINST_XML_UPHOLSTERY_SHORT1: LEV=892 K=1065, INST_XML_NO INST_XML_UPHOLSTERY_SHORT2: LEV=892 K=1065, INST_XML_NO "
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				},
+				{
+					"delivery_batch": "1",
+					"delivery_batch_status": "Mitattu",
+					"delivery_batch_receive_date": "06.11.2024",
+					"delivery_batch_delivery_date": "01.11.2024",
+					"group_attachment": "",
+					"AXconfiguration": "yes",
+					"group_name": "Valmisterassi 3",
+					"pcs": "1",
+					"structurenumber": "9000784830017755",
+					"originalstructurenumber": "",
+					"install_start_date": "06.11.2024",
+					"install_end_date": "03.12.2024",
+					"additional_deliverytime": "0",
+					"process": "Normal",
+					"product_code": "90750001",
+					"storageid": "TRE",
+					"packing_order": "1",
+					"unit": "1",
+					"line": "4",
+					"floor": "1",
+					"chargeable": "chargeable",
+					"sales_price": "2859.10",
+					"sproduct": "2415.10",
+					"sfreight": "141.60",
+					"sinstall": "259.70",
+					"sother": "42.70",
+					"purchase_price": "1789.00",
+					"pproduct": "1789.00",
+					"pfreight": "0.00",
+					"pinstall": "0.00",
+					"pother": "0.00",
+					"calculated_salesprice": "2931.00",
+					"factory_price": "1789.00",
+					"fproduct": "1789.00",
+					"ffreight": "0.00",
+					"finstall": "0.00",
+					"fother": "0.00",
+					"contract_price": "151.57",
+					"salestori_plan_name": "Plan 2 Copia",
+					"glass_m2": "0.00",
+					"blinds_m2": "0.00",
+					"glass_pcs": "0",
+					"product_length": "0",
+					"group_weight": "0",
+					"product_attributes": "",
+					"installed": "True",
+					"OrderLine": {
+						"BOMVersion": "9000784830017755",
+						"ItemID": "90750001",
+						"ItemName": "VT3",
+						"InventLocationID": "TRE",
+						"Dimension1": "4031",
+						"Dimension5": "mikaj",
+						"DeliveryName": "Tampere Projektitesti",
+						"DeliveryStreet": "Hämeenpuisto 50 A",
+						"DeliveryZipCode": "33200",
+						"DeliveryCity": "TAMPERE",
+						"DeliveryCountryRegionID": "FI",
+						"LineAmount": "2859.10",
+						"Apartment": "1",
+						"Floor": "1",
+						"DlvBatchID": "1",
+						"Line": "4",
+						"FactoryConfirmedDlv": "",
+						"InstallHours": "9.66",
+						"InstallStart": "06.11.2024",
+						"ReservationStart": "2024-11-06T00.00.00",
+						"DeliveryDatePromised": "01.11.2024",
+						"Plan_name": "Plan 2 Copia",
+						"PieceWork_pay": "151.57"
+					},
+					"AssemblyInstructions": {
+						"InstallNotes": "",
+						"Attachments": {
+							"Attachment": "salestori-asennuskortti-9000784830017755.pdf",
+							"Folder": "\\270000\\270060\\"
+						},
+						"AssemblyDocument": [
+							{
+								"name": "Tilaustiedot",
+								"Chapter": [
+									{
+										"name": "Perustiedot",
+										"Paragraph": [
+											{
+												"name": "Content",
+												"text": "Projektitesti Tampere\r\nHämeenpuisto 50 A 33200 TAMPERE\r\nPuhelin +35840123456"
+											}
+										]
+									},
+									{
+										"name": "Tilaustiedot",
+										"Paragraph": [
+											{
+												"name": "Content",
+												"text": "Asiakaslupaus 01/11/2024\r\nTilausnumero 90007848\r\nLinja 4\r\nKerros 1\r\nAsunto 1\r\nRVN 9000784830017755"
+											}
+										]
+									}
+								]
+							},
+							{
+								"name": "Asennustiedot",
+								"Chapter": [
+									{
+										"name": "Tuotetiedot",
+										"Paragraph": [
+											{
+												"name": "Tuote",
+												"text": "VT3, Malli:1"
+											},
+											{
+												"name": "Kiinnitystapa",
+												"text": "Ylä: Kattoon, Ala: Lattiaan"
+											},
+											{
+												"name": "Profiilit",
+												"text": "Välitolppa: INST_XML_TERRACE_SIDE_POST:  "
+											},
+											{
+												"name": "Varusteet",
+												"text": "INST_XML_TERRACE_SNOW_STOPPER: DOCXML_NO INST_XML_TERRACE_DRAIN_PIPE: DOCXML_NO INST_XML_TERRACE_VENTILATION_CURTAIN: DOC_TERRACE_VENTILATIONNET_NO INST_XML_TERRACE_POWER_ADAPTER: 0 INST_XML_TERRACE_LED_LIGHTS: 0 INST_XML_TERRACE_UPPER_CONNECTION_FLASHING:  INST_XML_TERRACE_ROOF_CONNECTION_ACCESSORIES:  INST_XML_TERRACE_SIDE_CONNECTION_FLASHING:  INST_XML_TERRACE_FIXED_END: DOC_TERRACE_FIXEDEND_NO"
+											}
+										]
+									},
+									{
+										"name": "Tuotemitat",
+										"Paragraph": [
+											{
+												"name": "Kattolasit:3, Kattopalkit:4, Perustus",
+												"text": "INST_XML_TERRACE_WIDTH1:2000. INST_XML_TERRACE_DEPTH1:2000. INST_XML_TERRACE_FRONT_HEIGHT:2000. INST_XML_TERRACE_BACK_HEIGHT1:2500. INST_XML_TERRACE_WIDTH2:. INST_XML_TERRACE_DEPTH2:. INST_XML_TERRACE_BACK_HEIGHT2:. \r\nINST_XML_TERRACE_ROOF_GLASSES_INDEX1: 20090017 INST_XML_TERRACE_ROOF_GLASSES_WIDTH=601 INST_XML_TERRACE_ROOF_GLASSES_HEIGHT=2175\r\nINST_XML_TERRACE_ROOF_GLASSES_INDEX2: 20090017 INST_XML_TERRACE_ROOF_GLASSES_WIDTH=601 INST_XML_TERRACE_ROOF_GLASSES_HEIGHT=2175\r\nINST_XML_TERRACE_ROOF_GLASSES_INDEX3: 20090017 INST_XML_TERRACE_ROOF_GLASSES_WIDTH=601 INST_XML_TERRACE_ROOF_GLASSES_HEIGHT=2175\r\nINST_XML_TERRACE_CROSS_MEASUREMENT: INST_XML_LEFT:2828 INST_XML_RIGHT:0\r\nINST_XML_TERRACE_FOUNDATION: \r\nINST_XML_TERRACE_EXTRA_DECK: INST_XML_FRONT: / INST_XML_LEFT: / INST_XML_RIGHT: / INST_XML_BACK:\r\nINST_XML_TERRACE_FLOOR_BEAMS: \r\nINST_XML_TERRACE_PAALU_COUNT: \r\nINST_XML_TERRACE_PONTTILAUTA_LENGTH: \r\nINST_XML_TERRACE_PONTTILAUTA_COUNT: \r\nINST_XML_TERRACE_PONTTILAUTA_TOTAL_WIDTH: \r\nINST_XML_TERRACE_AVOLAUTA_LENGTH: \r\nINST_XML_TERRACE_AVOLAUTA_COUNT: \r\nINST_XML_TERRACE_AVOLAUTA_TOTAL_WIDTH: \r\nINST_XML_TERRACE_VERHOUSLAUTA_LENGTH: \r\nINST_XML_TERRACE_VERHOUSLAUTA_COUNT: \r\n[INST_XML_TERRACE_VERHOUSLAUTA_TOTAL_WIDTH: \r\n[INST_XML_TERRACE_PAALU_PLACES: \r\n"
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				},
+				{
+					"delivery_batch": "1",
+					"delivery_batch_status": "Mitattu",
+					"delivery_batch_receive_date": "06.11.2024",
+					"delivery_batch_delivery_date": "01.11.2024",
+					"group_attachment": "",
+					"AXconfiguration": "no",
+					"group_name": "Avautuva (LGR)",
+					"pcs": "1",
+					"structurenumber": "9000784830017746",
+					"originalstructurenumber": "",
+					"install_start_date": "06.11.2024",
+					"install_end_date": "03.12.2024",
+					"additional_deliverytime": "0",
+					"process": "Normal",
+					"product_code": "90240001",
+					"storageid": "TRE",
+					"packing_order": "1",
+					"unit": "1",
+					"line": "5",
+					"floor": "11",
+					"chargeable": "chargeable",
+					"sales_price": "895.30",
+					"sproduct": "672.10",
+					"sfreight": "38.40",
+					"sinstall": "92.70",
+					"sother": "92.20",
+					"purchase_price": "488.50",
+					"pproduct": "488.50",
+					"pfreight": "0.00",
+					"pinstall": "0.00",
+					"pother": "0.00",
+					"calculated_salesprice": "935.60",
+					"factory_price": "488.50",
+					"fproduct": "488.50",
+					"ffreight": "0.00",
+					"finstall": "0.00",
+					"fother": "0.00",
+					"contract_price": "25.47",
+					"salestori_plan_name": "Plan 2 Copia",
+					"glass_m2": "3.72",
+					"blinds_m2": "3.37",
+					"glass_pcs": "3",
+					"product_length": "1845",
+					"group_weight": "102.0572",
+					"product_attributes": {
+						"attributeid": "20090016"
+					},
+					"installed": "True",
+					"OrderLine": {
+						"BOMVersion": "9000784830017746",
+						"ItemID": "90240001",
+						"ItemName": "LG",
+						"InventLocationID": "TRE",
+						"Dimension1": "4031",
+						"Dimension5": "mikaj",
+						"DeliveryName": "Tampere Projektitesti",
+						"DeliveryStreet": "Hämeenpuisto 50 A",
+						"DeliveryZipCode": "33200",
+						"DeliveryCity": "TAMPERE",
+						"DeliveryCountryRegionID": "FI",
+						"LineAmount": "895.30",
+						"Apartment": "1",
+						"Floor": "11",
+						"DlvBatchID": "1",
+						"Line": "5",
+						"FactoryConfirmedDlv": "",
+						"InstallHours": "7.24",
+						"InstallStart": "06.11.2024",
+						"ReservationStart": "2024-11-06T00.00.00",
+						"DeliveryDatePromised": "01.11.2024",
+						"Plan_name": "Plan 2 Copia",
+						"PieceWork_pay": "25.47"
+					},
+					"AssemblyInstructions": {
+						"InstallNotes": "",
+						"Attachments": {
+							"Attachment": "salestori-asennuskortti-9000784830017746.pdf",
+							"Folder": "\\270000\\270060\\"
+						},
+						"AssemblyDocument": [
+							{
+								"name": "Tilaustiedot",
+								"Chapter": [
+									{
+										"name": "Perustiedot",
+										"Paragraph": [
+											{
+												"name": "Content",
+												"text": "Projektitesti Tampere\r\nHämeenpuisto 50 A 33200 TAMPERE\r\nPuhelin +35840123456"
+											}
+										]
+									},
+									{
+										"name": "Tilaustiedot",
+										"Paragraph": [
+											{
+												"name": "Content",
+												"text": "Asiakaslupaus 01/11/2024\r\nTilausnumero 90007848\r\nLinja 5\r\nKerros 11\r\nAsunto 1\r\nRVN 9000784830017746"
+											}
+										]
+									}
+								]
+							},
+							{
+								"name": "Asennustiedot",
+								"Chapter": [
+									{
+										"name": "Tuotetiedot",
+										"Paragraph": [
+											{
+												"name": "Tuote",
+												"text": "LG , sivuja:1"
+											},
+											{
+												"name": "Kiinnitystapa",
+												"text": "Ylä: Kattoon, Ala: Lattiaan"
+											},
+											{
+												"name": "Profiilit",
+												"text": "Ylä: 11241205 RAL7024, Ala: 11243001 11243001 "
+											},
+											{
+												"name": "Varusteet",
+												"text": "Muoviosat: Tumman harmaa, Päätytulpat"
+											}
+										]
+									},
+									{
+										"name": "Tuotemitat",
+										"Paragraph": [
+											{
+												"name": "Sivu1,H3=1888",
+												"text": "Ak=90 Lk=90 Pituus=1845 Erom.(Z)=0 Korkeus=2015 Alav. (X)=0 Ylav. (Y)=0 Vkpl=3 Okpl=0 JK= Kyli=Ei Saator.= \r\nYläprof: 11241205 RAL7024\r\nAlaprof: 11243001 RAL7024\r\nSäätöprof: 11222206 RAL7024\r\nL1: LEV=604 K=1876\r\nL2: LEV=604 K=1876\r\nL3: LEV=604 K=1876\r\n"
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				},
+				{
+					"delivery_batch": "1",
+					"delivery_batch_status": "Mitattu",
+					"delivery_batch_receive_date": "06.11.2024",
+					"delivery_batch_delivery_date": "01.11.2024",
+					"group_attachment": "",
+					"AXconfiguration": "no",
+					"group_name": "Liukuva (LGS)",
+					"pcs": "1",
+					"structurenumber": "9000784830017747",
+					"originalstructurenumber": "",
+					"install_start_date": "06.11.2024",
+					"install_end_date": "03.12.2024",
+					"additional_deliverytime": "0",
+					"process": "Normal",
+					"product_code": "90260001",
+					"storageid": "TRE",
+					"packing_order": "1",
+					"unit": "1",
+					"line": "5",
+					"floor": "11",
+					"chargeable": "chargeable",
+					"sales_price": "859.60",
+					"sproduct": "657.90",
+					"sfreight": "49.90",
+					"sinstall": "69.70",
+					"sother": "82.10",
+					"purchase_price": "487.40",
+					"pproduct": "487.40",
+					"pfreight": "0.00",
+					"pinstall": "0.00",
+					"pother": "0.00",
+					"calculated_salesprice": "859.60",
+					"factory_price": "487.40",
+					"fproduct": "487.40",
+					"ffreight": "0.00",
+					"finstall": "0.00",
+					"fother": "0.00",
+					"contract_price": "19.15",
+					"salestori_plan_name": "Plan 2 Copia",
+					"glass_m2": "3.64",
+					"blinds_m2": "3.51",
+					"glass_pcs": "2",
+					"product_length": "1804",
+					"group_weight": "105.8362",
+					"product_attributes": {
+						"attributeid": "20090016"
+					},
+					"installed": "True",
+					"OrderLine": {
+						"BOMVersion": "9000784830017747",
+						"ItemID": "90260001",
+						"ItemName": "LGS",
+						"InventLocationID": "TRE",
+						"Dimension1": "4031",
+						"Dimension5": "mikaj",
+						"DeliveryName": "Tampere Projektitesti",
+						"DeliveryStreet": "Hämeenpuisto 50 A",
+						"DeliveryZipCode": "33200",
+						"DeliveryCity": "TAMPERE",
+						"DeliveryCountryRegionID": "FI",
+						"LineAmount": "859.60",
+						"Apartment": "1",
+						"Floor": "11",
+						"DlvBatchID": "1",
+						"Line": "5",
+						"FactoryConfirmedDlv": "",
+						"InstallHours": "3.57",
+						"InstallStart": "06.11.2024",
+						"ReservationStart": "2024-11-06T00.00.00",
+						"DeliveryDatePromised": "01.11.2024",
+						"Plan_name": "Plan 2 Copia",
+						"PieceWork_pay": "19.15"
+					},
+					"AssemblyInstructions": {
+						"InstallNotes": "",
+						"Attachments": {
+							"Attachment": "salestori-asennuskortti-9000784830017747.pdf",
+							"Folder": "\\270000\\270060\\"
+						},
+						"AssemblyDocument": [
+							{
+								"name": "Tilaustiedot",
+								"Chapter": [
+									{
+										"name": "Perustiedot",
+										"Paragraph": [
+											{
+												"name": "Content",
+												"text": "Projektitesti Tampere\r\nHämeenpuisto 50 A 33200 TAMPERE\r\nPuhelin +35840123456"
+											}
+										]
+									},
+									{
+										"name": "Tilaustiedot",
+										"Paragraph": [
+											{
+												"name": "Content",
+												"text": "Asiakaslupaus 01/11/2024\r\nTilausnumero 90007848\r\nLinja 5\r\nKerros 11\r\nAsunto 1\r\nRVN 9000784830017747"
+											}
+										]
+									}
+								]
+							},
+							{
+								"name": "Asennustiedot",
+								"Chapter": [
+									{
+										"name": "Tuotetiedot",
+										"Paragraph": [
+											{
+												"name": "Tuote",
+												"text": "LGS , sivuja:1"
+											},
+											{
+												"name": "Kiinnitystapa",
+												"text": "Ylä: Kattoon, Ala: Lattiaan"
+											},
+											{
+												"name": "Profiilit",
+												"text": "Raidemäärä: 3 11260022,  "
+											},
+											{
+												"name": "Varusteet",
+												"text": "Muoviosat: Tumman harmaa, Päätytulpat"
+											}
+										]
+									},
+									{
+										"name": "Tuotemitat",
+										"Paragraph": [
+											{
+												"name": "Sivu2,H3=19518",
+												"text": "Ak=90 Lk=90 Pituus=1804 Erom.(Z)=0 Korkeus=2015 Alav. (X)=0 Ylav. (Y)=0 Vkpl=2 Okpl=0 JK= Kyli=Ei Saator.= \r\nSeinäprof.vas:  \r\nSeinäprof.oik:  \r\nRaidemäärä: 1\r\nKahva.vas: PD9260061\r\nKahvankorkeus.vas: 0\r\nKahva.oik: \r\nKahvankorkeus.oik: \r\nLiu'utus: INST_XML_VALUE_False\r\nProf.pid.vas: 0 \r\nProf.pid.oik: 0 \r\nL1: LEV=902 K=1954 T=Kiinteä\r\nL2: LEV=902 K=1954 T=SlidingLeft\r\n"
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				},
+				{
+					"delivery_batch": "1",
+					"delivery_batch_status": "Mitattu",
+					"delivery_batch_receive_date": "06.11.2024",
+					"delivery_batch_delivery_date": "01.11.2024",
+					"group_attachment": "",
+					"AXconfiguration": "no",
+					"group_name": "Lumon Kiinteä seinä (uusi)",
+					"pcs": "1",
+					"structurenumber": "9000784830017748",
+					"originalstructurenumber": "",
+					"install_start_date": "06.11.2024",
+					"install_end_date": "03.12.2024",
+					"additional_deliverytime": "0",
+					"process": "Normal",
+					"product_code": "90400001",
+					"storageid": "TRE",
+					"packing_order": "1",
+					"unit": "1",
+					"line": "5",
+					"floor": "11",
+					"chargeable": "chargeable",
+					"sales_price": "910.60",
+					"sproduct": "636.80",
+					"sfreight": "53.20",
+					"sinstall": "127.70",
+					"sother": "92.80",
+					"purchase_price": "472.80",
+					"pproduct": "472.80",
+					"pfreight": "0.00",
+					"pinstall": "0.00",
+					"pother": "0.00",
+					"calculated_salesprice": "910.60",
+					"factory_price": "472.80",
+					"fproduct": "472.80",
+					"ffreight": "0.00",
+					"finstall": "0.00",
+					"fother": "0.00",
+					"contract_price": "33.54",
+					"salestori_plan_name": "Plan 2 Copia",
+					"glass_m2": "0.00",
+					"blinds_m2": "0.00",
+					"glass_pcs": "0",
+					"product_length": "0",
+					"group_weight": "104.8996",
+					"product_attributes": {
+						"attributeid": "20090016"
+					},
+					"installed": "True",
+					"OrderLine": {
+						"BOMVersion": "9000784830017748",
+						"ItemID": "90400001",
+						"ItemName": "LFIXEDWALL",
+						"InventLocationID": "TRE",
+						"Dimension1": "4031",
+						"Dimension5": "mikaj",
+						"DeliveryName": "Tampere Projektitesti",
+						"DeliveryStreet": "Hämeenpuisto 50 A",
+						"DeliveryZipCode": "33200",
+						"DeliveryCity": "TAMPERE",
+						"DeliveryCountryRegionID": "FI",
+						"LineAmount": "910.60",
+						"Apartment": "1",
+						"Floor": "11",
+						"DlvBatchID": "1",
+						"Line": "5",
+						"FactoryConfirmedDlv": "",
+						"InstallHours": "0.00",
+						"InstallStart": "06.11.2024",
+						"ReservationStart": "2024-11-06T00.00.00",
+						"DeliveryDatePromised": "01.11.2024",
+						"Plan_name": "Plan 2 Copia",
+						"PieceWork_pay": "33.54"
+					},
+					"AssemblyInstructions": {
+						"InstallNotes": "",
+						"Attachments": {
+							"Attachment": "salestori-asennuskortti-9000784830017748.pdf",
+							"Folder": "\\270000\\270060\\"
+						},
+						"AssemblyDocument": [
+							{
+								"name": "Tilaustiedot",
+								"Chapter": [
+									{
+										"name": "Perustiedot",
+										"Paragraph": [
+											{
+												"name": "Content",
+												"text": "Projektitesti Tampere\r\nHämeenpuisto 50 A 33200 TAMPERE\r\nPuhelin +35840123456"
+											}
+										]
+									},
+									{
+										"name": "Tilaustiedot",
+										"Paragraph": [
+											{
+												"name": "Content",
+												"text": "Asiakaslupaus 01/11/2024\r\nTilausnumero 90007848\r\nLinja 5\r\nKerros 11\r\nAsunto 1\r\nRVN 9000784830017748"
+											}
+										]
+									}
+								]
+							},
+							{
+								"name": "Asennustiedot",
+								"Chapter": [
+									{
+										"name": "Tuotetiedot",
+										"Paragraph": [
+											{
+												"name": "Tuote",
+												"text": "LFW , sivuja:1"
+											},
+											{
+												"name": "Kiinnitystapa",
+												"text": "Ylä: Kattoon, Ala: Lattiaan"
+											},
+											{
+												"name": "Profiilit",
+												"text": "Ylä: 11241205 RAL7024, Ala: 11243001 11243001 "
+											},
+											{
+												"name": "Varusteet",
+												"text": "Muoviosat: Tumman harmaa, Päätytulpat"
+											}
+										]
+									},
+									{
+										"name": "Tuotemitat",
+										"Paragraph": [
+											{
+												"name": "Sivu3,H3=19268",
+												"text": "Ak=90 Lk=90 Pituus=1845 Erom.(Z)=0 Korkeus=2015 Alav. (X)=0 Ylav. (Y)=0 Vkpl=3 Okpl=0 JK= Kyli=Ei Saator.= \r\nYläprof: 11241205 RAL7024\r\nAlaprof: 11243001 RAL7024\r\nSäätöprof: 11222206 RAL7024\r\nL1: LEV=603 K=1931\r\nL2: LEV=603 K=1931\r\nL3: LEV=603 K=1931\r\n"
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				},
+				{
+					"delivery_batch": "1",
+					"delivery_batch_status": "Mitattu",
+					"delivery_batch_receive_date": "06.11.2024",
+					"delivery_batch_delivery_date": "01.11.2024",
+					"group_attachment": "",
+					"AXconfiguration": "no",
+					"group_name": "Lumon Kaide",
+					"pcs": "1",
+					"structurenumber": "9000784830017749",
+					"originalstructurenumber": "",
+					"install_start_date": "06.11.2024",
+					"install_end_date": "03.12.2024",
+					"additional_deliverytime": "0",
+					"process": "Normal",
+					"product_code": "90370001",
+					"storageid": "TRE",
+					"packing_order": "1",
+					"unit": "1",
+					"line": "5",
+					"floor": "11",
+					"chargeable": "chargeable",
+					"sales_price": "809.00",
+					"sproduct": "613.80",
+					"sfreight": "37.90",
+					"sinstall": "123.60",
+					"sother": "33.80",
+					"purchase_price": "421.60",
+					"pproduct": "421.60",
+					"pfreight": "0.00",
+					"pinstall": "0.00",
+					"pother": "0.00",
+					"calculated_salesprice": "809.00",
+					"factory_price": "421.60",
+					"fproduct": "421.60",
+					"ffreight": "0.00",
+					"finstall": "0.00",
+					"fother": "0.00",
+					"contract_price": "39.09",
+					"salestori_plan_name": "Plan 2 Copia",
+					"glass_m2": "2.03",
+					"blinds_m2": "0.00",
+					"glass_pcs": "0",
+					"product_length": "1844",
+					"group_weight": "0",
+					"product_attributes": "",
+					"installed": "True",
+					"OrderLine": {
+						"BOMVersion": "9000784830017749",
+						"ItemID": "90370001",
+						"ItemName": "LUMONKAIDE",
+						"InventLocationID": "TRE",
+						"Dimension1": "4031",
+						"Dimension5": "mikaj",
+						"DeliveryName": "Tampere Projektitesti",
+						"DeliveryStreet": "Hämeenpuisto 50 A",
+						"DeliveryZipCode": "33200",
+						"DeliveryCity": "TAMPERE",
+						"DeliveryCountryRegionID": "FI",
+						"LineAmount": "809.00",
+						"Apartment": "1",
+						"Floor": "11",
+						"DlvBatchID": "1",
+						"Line": "5",
+						"FactoryConfirmedDlv": "",
+						"InstallHours": "0.57",
+						"InstallStart": "06.11.2024",
+						"ReservationStart": "2024-11-06T00.00.00",
+						"DeliveryDatePromised": "01.11.2024",
+						"Plan_name": "Plan 2 Copia",
+						"PieceWork_pay": "39.09"
+					},
+					"AssemblyInstructions": {
+						"InstallNotes": "",
+						"Attachments": {
+							"Attachment": "salestori-asennuskortti-9000784830017749.pdf",
+							"Folder": "\\270000\\270060\\"
+						},
+						"AssemblyDocument": [
+							{
+								"name": "Tilaustiedot",
+								"Chapter": [
+									{
+										"name": "Perustiedot",
+										"Paragraph": [
+											{
+												"name": "Content",
+												"text": "Projektitesti Tampere\r\nHämeenpuisto 50 A 33200 TAMPERE\r\nPuhelin +35840123456"
+											}
+										]
+									},
+									{
+										"name": "Tilaustiedot",
+										"Paragraph": [
+											{
+												"name": "Content",
+												"text": "Asiakaslupaus 01/11/2024\r\nTilausnumero 90007848\r\nLinja 5\r\nKerros 11\r\nAsunto 1\r\nRVN 9000784830017749"
+											}
+										]
+									}
+								]
+							},
+							{
+								"name": "Asennustiedot",
+								"Chapter": [
+									{
+										"name": "Tuotetiedot",
+										"Paragraph": [
+											{
+												"name": "Tuote",
+												"text": "Kaide1.1 , sivuja:1"
+											},
+											{
+												"name": "Kiinnitystapa",
+												"text": "Päälle"
+											},
+											{
+												"name": "Profiilit",
+												"text": "INST_XML_COLOR:RAL7024, Käsijohde 160 "
+											},
+											{
+												"name": "Varusteet"
+											}
+										]
+									},
+									{
+										"name": "Tuotemitat",
+										"Paragraph": [
+											{
+												"name": "Sivu1",
+												"text": "Ak=90 Lk=90 Pituus=1845 Erom.(Z)=0  INST_XML_PULLOUT=0 INST_XML_UPHOLSTERY_PCS=2 INST_XML_HANDRAIL: Käsijohde 160, INST_XML_ELEVATION: 1100, RAL7024 INST_XML_HANDRAIL_PIPE: Käsijohde 160, RAL7024 INST_XML_TOE_LIST: Ei varvaslistaa INST_XML_WEDGE_CRACK_SEAL: Ei tiivistettä INST_XML_LOWER_UPHOLSTERY: Päälle asennettava alapaarre, INST_XML_ELEVATION: 0, RAL7024 INST_XML_UPHOLSTERY_PROFILE: Verhousprofiili 215 INST_XML_DECO_PIPE:  INST_XML_WALL_FASTENING_LEFT: Käsijohteen pystykiinnike INST_XML_WALL_FASTENING_RIGHT: Käsijohteen pystykiinnike INST_XML_WALL_FASTENING_ANCHOR_LEFT: Betoniruuvi HUS-HR 10x115 INST_XML_WALL_FASTENING_RIGHT: Betoniruuvi HUS-HR 10x115 INST_XML_HEAT_PLASTER_LEFT: INST_XML_NO INST_XML_HEAT_PLASTER_RIGHT: INST_XML_NOINST_XML_UPHOLSTERY_SHORT1: LEV=892 K=1065, INST_XML_NO INST_XML_UPHOLSTERY_SHORT2: LEV=892 K=1065, INST_XML_NO "
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				},
+				{
+					"delivery_batch": "1",
+					"delivery_batch_status": "Mitattu",
+					"delivery_batch_receive_date": "06.11.2024",
+					"delivery_batch_delivery_date": "01.11.2024",
+					"group_attachment": "",
+					"AXconfiguration": "yes",
+					"group_name": "Valmisterassi 3",
+					"pcs": "1",
+					"structurenumber": "9000784830017750",
+					"originalstructurenumber": "",
+					"install_start_date": "06.11.2024",
+					"install_end_date": "03.12.2024",
+					"additional_deliverytime": "0",
+					"process": "Normal",
+					"product_code": "90750001",
+					"storageid": "TRE",
+					"packing_order": "1",
+					"unit": "1",
+					"line": "5",
+					"floor": "11",
+					"chargeable": "chargeable",
+					"sales_price": "2859.10",
+					"sproduct": "2415.10",
+					"sfreight": "141.60",
+					"sinstall": "259.70",
+					"sother": "42.70",
+					"purchase_price": "1789.00",
+					"pproduct": "1789.00",
+					"pfreight": "0.00",
+					"pinstall": "0.00",
+					"pother": "0.00",
+					"calculated_salesprice": "2931.00",
+					"factory_price": "1789.00",
+					"fproduct": "1789.00",
+					"ffreight": "0.00",
+					"finstall": "0.00",
+					"fother": "0.00",
+					"contract_price": "151.57",
+					"salestori_plan_name": "Plan 2 Copia",
+					"glass_m2": "0.00",
+					"blinds_m2": "0.00",
+					"glass_pcs": "0",
+					"product_length": "0",
+					"group_weight": "0",
+					"product_attributes": "",
+					"installed": "True",
+					"OrderLine": {
+						"BOMVersion": "9000784830017750",
+						"ItemID": "90750001",
+						"ItemName": "VT3",
+						"InventLocationID": "TRE",
+						"Dimension1": "4031",
+						"Dimension5": "mikaj",
+						"DeliveryName": "Tampere Projektitesti",
+						"DeliveryStreet": "Hämeenpuisto 50 A",
+						"DeliveryZipCode": "33200",
+						"DeliveryCity": "TAMPERE",
+						"DeliveryCountryRegionID": "FI",
+						"LineAmount": "2859.10",
+						"Apartment": "1",
+						"Floor": "11",
+						"DlvBatchID": "1",
+						"Line": "5",
+						"FactoryConfirmedDlv": "",
+						"InstallHours": "9.66",
+						"InstallStart": "06.11.2024",
+						"ReservationStart": "2024-11-06T00.00.00",
+						"DeliveryDatePromised": "01.11.2024",
+						"Plan_name": "Plan 2 Copia",
+						"PieceWork_pay": "151.57"
+					},
+					"AssemblyInstructions": {
+						"InstallNotes": "",
+						"Attachments": {
+							"Attachment": "salestori-asennuskortti-9000784830017750.pdf",
+							"Folder": "\\270000\\270060\\"
+						},
+						"AssemblyDocument": [
+							{
+								"name": "Tilaustiedot",
+								"Chapter": [
+									{
+										"name": "Perustiedot",
+										"Paragraph": [
+											{
+												"name": "Content",
+												"text": "Projektitesti Tampere\r\nHämeenpuisto 50 A 33200 TAMPERE\r\nPuhelin +35840123456"
+											}
+										]
+									},
+									{
+										"name": "Tilaustiedot",
+										"Paragraph": [
+											{
+												"name": "Content",
+												"text": "Asiakaslupaus 01/11/2024\r\nTilausnumero 90007848\r\nLinja 5\r\nKerros 11\r\nAsunto 1\r\nRVN 9000784830017750"
+											}
+										]
+									}
+								]
+							},
+							{
+								"name": "Asennustiedot",
+								"Chapter": [
+									{
+										"name": "Tuotetiedot",
+										"Paragraph": [
+											{
+												"name": "Tuote",
+												"text": "VT3, Malli:1"
+											},
+											{
+												"name": "Kiinnitystapa",
+												"text": "Ylä: Kattoon, Ala: Lattiaan"
+											},
+											{
+												"name": "Profiilit",
+												"text": "Välitolppa: INST_XML_TERRACE_SIDE_POST:  "
+											},
+											{
+												"name": "Varusteet",
+												"text": "INST_XML_TERRACE_SNOW_STOPPER: DOCXML_NO INST_XML_TERRACE_DRAIN_PIPE: DOCXML_NO INST_XML_TERRACE_VENTILATION_CURTAIN: DOC_TERRACE_VENTILATIONNET_NO INST_XML_TERRACE_POWER_ADAPTER: 0 INST_XML_TERRACE_LED_LIGHTS: 0 INST_XML_TERRACE_UPPER_CONNECTION_FLASHING:  INST_XML_TERRACE_ROOF_CONNECTION_ACCESSORIES:  INST_XML_TERRACE_SIDE_CONNECTION_FLASHING:  INST_XML_TERRACE_FIXED_END: DOC_TERRACE_FIXEDEND_NO"
+											}
+										]
+									},
+									{
+										"name": "Tuotemitat",
+										"Paragraph": [
+											{
+												"name": "Kattolasit:3, Kattopalkit:4, Perustus",
+												"text": "INST_XML_TERRACE_WIDTH1:2000. INST_XML_TERRACE_DEPTH1:2000. INST_XML_TERRACE_FRONT_HEIGHT:2000. INST_XML_TERRACE_BACK_HEIGHT1:2500. INST_XML_TERRACE_WIDTH2:. INST_XML_TERRACE_DEPTH2:. INST_XML_TERRACE_BACK_HEIGHT2:. \r\nINST_XML_TERRACE_ROOF_GLASSES_INDEX1: 20090017 INST_XML_TERRACE_ROOF_GLASSES_WIDTH=601 INST_XML_TERRACE_ROOF_GLASSES_HEIGHT=2175\r\nINST_XML_TERRACE_ROOF_GLASSES_INDEX2: 20090017 INST_XML_TERRACE_ROOF_GLASSES_WIDTH=601 INST_XML_TERRACE_ROOF_GLASSES_HEIGHT=2175\r\nINST_XML_TERRACE_ROOF_GLASSES_INDEX3: 20090017 INST_XML_TERRACE_ROOF_GLASSES_WIDTH=601 INST_XML_TERRACE_ROOF_GLASSES_HEIGHT=2175\r\nINST_XML_TERRACE_CROSS_MEASUREMENT: INST_XML_LEFT:2828 INST_XML_RIGHT:0\r\nINST_XML_TERRACE_FOUNDATION: \r\nINST_XML_TERRACE_EXTRA_DECK: INST_XML_FRONT: / INST_XML_LEFT: / INST_XML_RIGHT: / INST_XML_BACK:\r\nINST_XML_TERRACE_FLOOR_BEAMS: \r\nINST_XML_TERRACE_PAALU_COUNT: \r\nINST_XML_TERRACE_PONTTILAUTA_LENGTH: \r\nINST_XML_TERRACE_PONTTILAUTA_COUNT: \r\nINST_XML_TERRACE_PONTTILAUTA_TOTAL_WIDTH: \r\nINST_XML_TERRACE_AVOLAUTA_LENGTH: \r\nINST_XML_TERRACE_AVOLAUTA_COUNT: \r\nINST_XML_TERRACE_AVOLAUTA_TOTAL_WIDTH: \r\nINST_XML_TERRACE_VERHOUSLAUTA_LENGTH: \r\nINST_XML_TERRACE_VERHOUSLAUTA_COUNT: \r\n[INST_XML_TERRACE_VERHOUSLAUTA_TOTAL_WIDTH: \r\n[INST_XML_TERRACE_PAALU_PLACES: \r\n"
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				},
+				{
+					"delivery_batch": "1",
+					"delivery_batch_status": "Mitattu",
+					"delivery_batch_receive_date": "06.11.2024",
+					"delivery_batch_delivery_date": "01.11.2024",
+					"group_attachment": "",
+					"AXconfiguration": "no",
+					"group_name": "Avautuva (LGR)",
+					"pcs": "1",
+					"structurenumber": "9000784830017758",
+					"originalstructurenumber": "",
+					"install_start_date": "06.11.2024",
+					"install_end_date": "03.12.2024",
+					"additional_deliverytime": "0",
+					"process": "Normal",
+					"product_code": "90240001",
+					"storageid": "TRE",
+					"packing_order": "1",
+					"unit": "1",
+					"line": "6",
+					"floor": "1",
+					"chargeable": "chargeable",
+					"sales_price": "895.30",
+					"sproduct": "672.10",
+					"sfreight": "38.40",
+					"sinstall": "92.70",
+					"sother": "92.20",
+					"purchase_price": "488.50",
+					"pproduct": "488.50",
+					"pfreight": "0.00",
+					"pinstall": "0.00",
+					"pother": "0.00",
+					"calculated_salesprice": "935.60",
+					"factory_price": "488.50",
+					"fproduct": "488.50",
+					"ffreight": "0.00",
+					"finstall": "0.00",
+					"fother": "0.00",
+					"contract_price": "25.47",
+					"salestori_plan_name": "Plan 2 Copia Copia",
+					"glass_m2": "3.72",
+					"blinds_m2": "3.37",
+					"glass_pcs": "3",
+					"product_length": "1845",
+					"group_weight": "102.0572",
+					"product_attributes": {
+						"attributeid": "20090016"
+					},
+					"installed": "True",
+					"OrderLine": {
+						"BOMVersion": "9000784830017758",
+						"ItemID": "90240001",
+						"ItemName": "LG",
+						"InventLocationID": "TRE",
+						"Dimension1": "4031",
+						"Dimension5": "mikaj",
+						"DeliveryName": "Tampere Projektitesti",
+						"DeliveryStreet": "Hämeenpuisto 50 A",
+						"DeliveryZipCode": "33200",
+						"DeliveryCity": "TAMPERE",
+						"DeliveryCountryRegionID": "FI",
+						"LineAmount": "895.30",
+						"Apartment": "1",
+						"Floor": "1",
+						"DlvBatchID": "1",
+						"Line": "6",
+						"FactoryConfirmedDlv": "",
+						"InstallHours": "7.24",
+						"InstallStart": "06.11.2024",
+						"ReservationStart": "2024-11-06T00.00.00",
+						"DeliveryDatePromised": "01.11.2024",
+						"Plan_name": "Plan 2 Copia Copia",
+						"PieceWork_pay": "25.47"
+					},
+					"AssemblyInstructions": {
+						"InstallNotes": "",
+						"Attachments": {
+							"Attachment": "salestori-asennuskortti-9000784830017758.pdf",
+							"Folder": "\\270000\\270060\\"
+						},
+						"AssemblyDocument": [
+							{
+								"name": "Tilaustiedot",
+								"Chapter": [
+									{
+										"name": "Perustiedot",
+										"Paragraph": [
+											{
+												"name": "Content",
+												"text": "Projektitesti Tampere\r\nHämeenpuisto 50 A 33200 TAMPERE\r\nPuhelin +35840123456"
+											}
+										]
+									},
+									{
+										"name": "Tilaustiedot",
+										"Paragraph": [
+											{
+												"name": "Content",
+												"text": "Asiakaslupaus 01/11/2024\r\nTilausnumero 90007848\r\nLinja 6\r\nKerros 1\r\nAsunto 1\r\nRVN 9000784830017758"
+											}
+										]
+									}
+								]
+							},
+							{
+								"name": "Asennustiedot",
+								"Chapter": [
+									{
+										"name": "Tuotetiedot",
+										"Paragraph": [
+											{
+												"name": "Tuote",
+												"text": "LG , sivuja:1"
+											},
+											{
+												"name": "Kiinnitystapa",
+												"text": "Ylä: Kattoon, Ala: Lattiaan"
+											},
+											{
+												"name": "Profiilit",
+												"text": "Ylä: 11241205 RAL7024, Ala: 11243001 11243001 "
+											},
+											{
+												"name": "Varusteet",
+												"text": "Muoviosat: Tumman harmaa, Päätytulpat"
+											}
+										]
+									},
+									{
+										"name": "Tuotemitat",
+										"Paragraph": [
+											{
+												"name": "Sivu1,H3=1888",
+												"text": "Ak=90 Lk=90 Pituus=1845 Erom.(Z)=0 Korkeus=2015 Alav. (X)=0 Ylav. (Y)=0 Vkpl=3 Okpl=0 JK= Kyli=Ei Saator.= \r\nYläprof: 11241205 RAL7024\r\nAlaprof: 11243001 RAL7024\r\nSäätöprof: 11222206 RAL7024\r\nL1: LEV=604 K=1876\r\nL2: LEV=604 K=1876\r\nL3: LEV=604 K=1876\r\n"
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				},
+				{
+					"delivery_batch": "1",
+					"delivery_batch_status": "Mitattu",
+					"delivery_batch_receive_date": "06.11.2024",
+					"delivery_batch_delivery_date": "01.11.2024",
+					"group_attachment": "",
+					"AXconfiguration": "no",
+					"group_name": "Liukuva (LGS)",
+					"pcs": "1",
+					"structurenumber": "9000784830017759",
+					"originalstructurenumber": "",
+					"install_start_date": "06.11.2024",
+					"install_end_date": "03.12.2024",
+					"additional_deliverytime": "0",
+					"process": "Normal",
+					"product_code": "90260001",
+					"storageid": "TRE",
+					"packing_order": "1",
+					"unit": "1",
+					"line": "6",
+					"floor": "1",
+					"chargeable": "chargeable",
+					"sales_price": "859.60",
+					"sproduct": "657.90",
+					"sfreight": "49.90",
+					"sinstall": "69.70",
+					"sother": "82.10",
+					"purchase_price": "487.40",
+					"pproduct": "487.40",
+					"pfreight": "0.00",
+					"pinstall": "0.00",
+					"pother": "0.00",
+					"calculated_salesprice": "859.60",
+					"factory_price": "487.40",
+					"fproduct": "487.40",
+					"ffreight": "0.00",
+					"finstall": "0.00",
+					"fother": "0.00",
+					"contract_price": "19.15",
+					"salestori_plan_name": "Plan 2 Copia Copia",
+					"glass_m2": "3.64",
+					"blinds_m2": "3.51",
+					"glass_pcs": "2",
+					"product_length": "1804",
+					"group_weight": "105.8362",
+					"product_attributes": {
+						"attributeid": "20090016"
+					},
+					"installed": "True",
+					"OrderLine": {
+						"BOMVersion": "9000784830017759",
+						"ItemID": "90260001",
+						"ItemName": "LGS",
+						"InventLocationID": "TRE",
+						"Dimension1": "4031",
+						"Dimension5": "mikaj",
+						"DeliveryName": "Tampere Projektitesti",
+						"DeliveryStreet": "Hämeenpuisto 50 A",
+						"DeliveryZipCode": "33200",
+						"DeliveryCity": "TAMPERE",
+						"DeliveryCountryRegionID": "FI",
+						"LineAmount": "859.60",
+						"Apartment": "1",
+						"Floor": "1",
+						"DlvBatchID": "1",
+						"Line": "6",
+						"FactoryConfirmedDlv": "",
+						"InstallHours": "3.57",
+						"InstallStart": "06.11.2024",
+						"ReservationStart": "2024-11-06T00.00.00",
+						"DeliveryDatePromised": "01.11.2024",
+						"Plan_name": "Plan 2 Copia Copia",
+						"PieceWork_pay": "19.15"
+					},
+					"AssemblyInstructions": {
+						"InstallNotes": "",
+						"Attachments": {
+							"Attachment": "salestori-asennuskortti-9000784830017759.pdf",
+							"Folder": "\\270000\\270060\\"
+						},
+						"AssemblyDocument": [
+							{
+								"name": "Tilaustiedot",
+								"Chapter": [
+									{
+										"name": "Perustiedot",
+										"Paragraph": [
+											{
+												"name": "Content",
+												"text": "Projektitesti Tampere\r\nHämeenpuisto 50 A 33200 TAMPERE\r\nPuhelin +35840123456"
+											}
+										]
+									},
+									{
+										"name": "Tilaustiedot",
+										"Paragraph": [
+											{
+												"name": "Content",
+												"text": "Asiakaslupaus 01/11/2024\r\nTilausnumero 90007848\r\nLinja 6\r\nKerros 1\r\nAsunto 1\r\nRVN 9000784830017759"
+											}
+										]
+									}
+								]
+							},
+							{
+								"name": "Asennustiedot",
+								"Chapter": [
+									{
+										"name": "Tuotetiedot",
+										"Paragraph": [
+											{
+												"name": "Tuote",
+												"text": "LGS , sivuja:1"
+											},
+											{
+												"name": "Kiinnitystapa",
+												"text": "Ylä: Kattoon, Ala: Lattiaan"
+											},
+											{
+												"name": "Profiilit",
+												"text": "Raidemäärä: 3 11260022,  "
+											},
+											{
+												"name": "Varusteet",
+												"text": "Muoviosat: Tumman harmaa, Päätytulpat"
+											}
+										]
+									},
+									{
+										"name": "Tuotemitat",
+										"Paragraph": [
+											{
+												"name": "Sivu2,H3=19518",
+												"text": "Ak=90 Lk=90 Pituus=1804 Erom.(Z)=0 Korkeus=2015 Alav. (X)=0 Ylav. (Y)=0 Vkpl=2 Okpl=0 JK= Kyli=Ei Saator.= \r\nSeinäprof.vas:  \r\nSeinäprof.oik:  \r\nRaidemäärä: 1\r\nKahva.vas: PD9260061\r\nKahvankorkeus.vas: 0\r\nKahva.oik: \r\nKahvankorkeus.oik: \r\nLiu'utus: INST_XML_VALUE_False\r\nProf.pid.vas: 0 \r\nProf.pid.oik: 0 \r\nL1: LEV=902 K=1954 T=Kiinteä\r\nL2: LEV=902 K=1954 T=SlidingLeft\r\n"
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				},
+				{
+					"delivery_batch": "1",
+					"delivery_batch_status": "Mitattu",
+					"delivery_batch_receive_date": "06.11.2024",
+					"delivery_batch_delivery_date": "01.11.2024",
+					"group_attachment": "",
+					"AXconfiguration": "no",
+					"group_name": "Lumon Kiinteä seinä (uusi)",
+					"pcs": "1",
+					"structurenumber": "9000784830017760",
+					"originalstructurenumber": "",
+					"install_start_date": "06.11.2024",
+					"install_end_date": "03.12.2024",
+					"additional_deliverytime": "0",
+					"process": "Normal",
+					"product_code": "90400001",
+					"storageid": "TRE",
+					"packing_order": "1",
+					"unit": "1",
+					"line": "6",
+					"floor": "1",
+					"chargeable": "chargeable",
+					"sales_price": "963.40",
+					"sproduct": "636.80",
+					"sfreight": "106.00",
+					"sinstall": "127.70",
+					"sother": "92.80",
+					"purchase_price": "472.80",
+					"pproduct": "472.80",
+					"pfreight": "0.00",
+					"pinstall": "0.00",
+					"pother": "0.00",
+					"calculated_salesprice": "963.40",
+					"factory_price": "472.80",
+					"fproduct": "472.80",
+					"ffreight": "0.00",
+					"finstall": "0.00",
+					"fother": "0.00",
+					"contract_price": "33.54",
+					"salestori_plan_name": "Plan 2 Copia Copia",
+					"glass_m2": "0.00",
+					"blinds_m2": "0.00",
+					"glass_pcs": "0",
+					"product_length": "0",
+					"group_weight": "104.8996",
+					"product_attributes": {
+						"attributeid": "20090016"
+					},
+					"installed": "True",
+					"OrderLine": {
+						"BOMVersion": "9000784830017760",
+						"ItemID": "90400001",
+						"ItemName": "LFIXEDWALL",
+						"InventLocationID": "TRE",
+						"Dimension1": "4031",
+						"Dimension5": "mikaj",
+						"DeliveryName": "Tampere Projektitesti",
+						"DeliveryStreet": "Hämeenpuisto 50 A",
+						"DeliveryZipCode": "33200",
+						"DeliveryCity": "TAMPERE",
+						"DeliveryCountryRegionID": "FI",
+						"LineAmount": "963.40",
+						"Apartment": "1",
+						"Floor": "1",
+						"DlvBatchID": "1",
+						"Line": "6",
+						"FactoryConfirmedDlv": "",
+						"InstallHours": "0.00",
+						"InstallStart": "06.11.2024",
+						"ReservationStart": "2024-11-06T00.00.00",
+						"DeliveryDatePromised": "01.11.2024",
+						"Plan_name": "Plan 2 Copia Copia",
+						"PieceWork_pay": "33.54"
+					},
+					"AssemblyInstructions": {
+						"InstallNotes": "",
+						"Attachments": {
+							"Attachment": "salestori-asennuskortti-9000784830017760.pdf",
+							"Folder": "\\270000\\270060\\"
+						},
+						"AssemblyDocument": [
+							{
+								"name": "Tilaustiedot",
+								"Chapter": [
+									{
+										"name": "Perustiedot",
+										"Paragraph": [
+											{
+												"name": "Content",
+												"text": "Projektitesti Tampere\r\nHämeenpuisto 50 A 33200 TAMPERE\r\nPuhelin +35840123456"
+											}
+										]
+									},
+									{
+										"name": "Tilaustiedot",
+										"Paragraph": [
+											{
+												"name": "Content",
+												"text": "Asiakaslupaus 01/11/2024\r\nTilausnumero 90007848\r\nLinja 6\r\nKerros 1\r\nAsunto 1\r\nRVN 9000784830017760"
+											}
+										]
+									}
+								]
+							},
+							{
+								"name": "Asennustiedot",
+								"Chapter": [
+									{
+										"name": "Tuotetiedot",
+										"Paragraph": [
+											{
+												"name": "Tuote",
+												"text": "LFW , sivuja:1"
+											},
+											{
+												"name": "Kiinnitystapa",
+												"text": "Ylä: Kattoon, Ala: Lattiaan"
+											},
+											{
+												"name": "Profiilit",
+												"text": "Ylä: 11241205 RAL7024, Ala: 11243001 11243001 "
+											},
+											{
+												"name": "Varusteet",
+												"text": "Muoviosat: Tumman harmaa, Päätytulpat"
+											}
+										]
+									},
+									{
+										"name": "Tuotemitat",
+										"Paragraph": [
+											{
+												"name": "Sivu3,H3=19268",
+												"text": "Ak=90 Lk=90 Pituus=1845 Erom.(Z)=0 Korkeus=2015 Alav. (X)=0 Ylav. (Y)=0 Vkpl=3 Okpl=0 JK= Kyli=Ei Saator.= \r\nYläprof: 11241205 RAL7024\r\nAlaprof: 11243001 RAL7024\r\nSäätöprof: 11222206 RAL7024\r\nL1: LEV=603 K=1931\r\nL2: LEV=603 K=1931\r\nL3: LEV=603 K=1931\r\n"
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				},
+				{
+					"delivery_batch": "1",
+					"delivery_batch_status": "Mitattu",
+					"delivery_batch_receive_date": "06.11.2024",
+					"delivery_batch_delivery_date": "01.11.2024",
+					"group_attachment": "",
+					"AXconfiguration": "no",
+					"group_name": "Lumon Kaide",
+					"pcs": "1",
+					"structurenumber": "9000784830017761",
+					"originalstructurenumber": "",
+					"install_start_date": "06.11.2024",
+					"install_end_date": "03.12.2024",
+					"additional_deliverytime": "0",
+					"process": "Normal",
+					"product_code": "90370001",
+					"storageid": "TRE",
+					"packing_order": "1",
+					"unit": "1",
+					"line": "6",
+					"floor": "1",
+					"chargeable": "chargeable",
+					"sales_price": "809.00",
+					"sproduct": "613.80",
+					"sfreight": "37.90",
+					"sinstall": "123.60",
+					"sother": "33.80",
+					"purchase_price": "421.60",
+					"pproduct": "421.60",
+					"pfreight": "0.00",
+					"pinstall": "0.00",
+					"pother": "0.00",
+					"calculated_salesprice": "809.00",
+					"factory_price": "421.60",
+					"fproduct": "421.60",
+					"ffreight": "0.00",
+					"finstall": "0.00",
+					"fother": "0.00",
+					"contract_price": "39.09",
+					"salestori_plan_name": "Plan 2 Copia Copia",
+					"glass_m2": "2.03",
+					"blinds_m2": "0.00",
+					"glass_pcs": "0",
+					"product_length": "1844",
+					"group_weight": "0",
+					"product_attributes": "",
+					"installed": "True",
+					"OrderLine": {
+						"BOMVersion": "9000784830017761",
+						"ItemID": "90370001",
+						"ItemName": "LUMONKAIDE",
+						"InventLocationID": "TRE",
+						"Dimension1": "4031",
+						"Dimension5": "mikaj",
+						"DeliveryName": "Tampere Projektitesti",
+						"DeliveryStreet": "Hämeenpuisto 50 A",
+						"DeliveryZipCode": "33200",
+						"DeliveryCity": "TAMPERE",
+						"DeliveryCountryRegionID": "FI",
+						"LineAmount": "809.00",
+						"Apartment": "1",
+						"Floor": "1",
+						"DlvBatchID": "1",
+						"Line": "6",
+						"FactoryConfirmedDlv": "",
+						"InstallHours": "0.57",
+						"InstallStart": "06.11.2024",
+						"ReservationStart": "2024-11-06T00.00.00",
+						"DeliveryDatePromised": "01.11.2024",
+						"Plan_name": "Plan 2 Copia Copia",
+						"PieceWork_pay": "39.09"
+					},
+					"AssemblyInstructions": {
+						"InstallNotes": "",
+						"Attachments": {
+							"Attachment": "salestori-asennuskortti-9000784830017761.pdf",
+							"Folder": "\\270000\\270060\\"
+						},
+						"AssemblyDocument": [
+							{
+								"name": "Tilaustiedot",
+								"Chapter": [
+									{
+										"name": "Perustiedot",
+										"Paragraph": [
+											{
+												"name": "Content",
+												"text": "Projektitesti Tampere\r\nHämeenpuisto 50 A 33200 TAMPERE\r\nPuhelin +35840123456"
+											}
+										]
+									},
+									{
+										"name": "Tilaustiedot",
+										"Paragraph": [
+											{
+												"name": "Content",
+												"text": "Asiakaslupaus 01/11/2024\r\nTilausnumero 90007848\r\nLinja 6\r\nKerros 1\r\nAsunto 1\r\nRVN 9000784830017761"
+											}
+										]
+									}
+								]
+							},
+							{
+								"name": "Asennustiedot",
+								"Chapter": [
+									{
+										"name": "Tuotetiedot",
+										"Paragraph": [
+											{
+												"name": "Tuote",
+												"text": "Kaide1.1 , sivuja:1"
+											},
+											{
+												"name": "Kiinnitystapa",
+												"text": "Päälle"
+											},
+											{
+												"name": "Profiilit",
+												"text": "INST_XML_COLOR:RAL7024, Käsijohde 160 "
+											},
+											{
+												"name": "Varusteet"
+											}
+										]
+									},
+									{
+										"name": "Tuotemitat",
+										"Paragraph": [
+											{
+												"name": "Sivu1",
+												"text": "Ak=90 Lk=90 Pituus=1845 Erom.(Z)=0  INST_XML_PULLOUT=0 INST_XML_UPHOLSTERY_PCS=2 INST_XML_HANDRAIL: Käsijohde 160, INST_XML_ELEVATION: 1100, RAL7024 INST_XML_HANDRAIL_PIPE: Käsijohde 160, RAL7024 INST_XML_TOE_LIST: Ei varvaslistaa INST_XML_WEDGE_CRACK_SEAL: Ei tiivistettä INST_XML_LOWER_UPHOLSTERY: Päälle asennettava alapaarre, INST_XML_ELEVATION: 0, RAL7024 INST_XML_UPHOLSTERY_PROFILE: Verhousprofiili 215 INST_XML_DECO_PIPE:  INST_XML_WALL_FASTENING_LEFT: Käsijohteen pystykiinnike INST_XML_WALL_FASTENING_RIGHT: Käsijohteen pystykiinnike INST_XML_WALL_FASTENING_ANCHOR_LEFT: Betoniruuvi HUS-HR 10x115 INST_XML_WALL_FASTENING_RIGHT: Betoniruuvi HUS-HR 10x115 INST_XML_HEAT_PLASTER_LEFT: INST_XML_NO INST_XML_HEAT_PLASTER_RIGHT: INST_XML_NOINST_XML_UPHOLSTERY_SHORT1: LEV=892 K=1065, INST_XML_NO INST_XML_UPHOLSTERY_SHORT2: LEV=892 K=1065, INST_XML_NO "
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				},
+				{
+					"delivery_batch": "1",
+					"delivery_batch_status": "Mitattu",
+					"delivery_batch_receive_date": "06.11.2024",
+					"delivery_batch_delivery_date": "01.11.2024",
+					"group_attachment": "",
+					"AXconfiguration": "yes",
+					"group_name": "Valmisterassi 3",
+					"pcs": "1",
+					"structurenumber": "9000784830017762",
+					"originalstructurenumber": "",
+					"install_start_date": "06.11.2024",
+					"install_end_date": "03.12.2024",
+					"additional_deliverytime": "0",
+					"process": "Normal",
+					"product_code": "90750001",
+					"storageid": "TRE",
+					"packing_order": "1",
+					"unit": "1",
+					"line": "6",
+					"floor": "1",
+					"chargeable": "chargeable",
+					"sales_price": "2859.10",
+					"sproduct": "2415.10",
+					"sfreight": "141.60",
+					"sinstall": "259.70",
+					"sother": "42.70",
+					"purchase_price": "1789.00",
+					"pproduct": "1789.00",
+					"pfreight": "0.00",
+					"pinstall": "0.00",
+					"pother": "0.00",
+					"calculated_salesprice": "2931.00",
+					"factory_price": "1789.00",
+					"fproduct": "1789.00",
+					"ffreight": "0.00",
+					"finstall": "0.00",
+					"fother": "0.00",
+					"contract_price": "151.57",
+					"salestori_plan_name": "Plan 2 Copia Copia",
+					"glass_m2": "0.00",
+					"blinds_m2": "0.00",
+					"glass_pcs": "0",
+					"product_length": "0",
+					"group_weight": "0",
+					"product_attributes": "",
+					"installed": "True",
+					"OrderLine": {
+						"BOMVersion": "9000784830017762",
+						"ItemID": "90750001",
+						"ItemName": "VT3",
+						"InventLocationID": "TRE",
+						"Dimension1": "4031",
+						"Dimension5": "mikaj",
+						"DeliveryName": "Tampere Projektitesti",
+						"DeliveryStreet": "Hämeenpuisto 50 A",
+						"DeliveryZipCode": "33200",
+						"DeliveryCity": "TAMPERE",
+						"DeliveryCountryRegionID": "FI",
+						"LineAmount": "2859.10",
+						"Apartment": "1",
+						"Floor": "1",
+						"DlvBatchID": "1",
+						"Line": "6",
+						"FactoryConfirmedDlv": "",
+						"InstallHours": "9.66",
+						"InstallStart": "06.11.2024",
+						"ReservationStart": "2024-11-06T00.00.00",
+						"DeliveryDatePromised": "01.11.2024",
+						"Plan_name": "Plan 2 Copia Copia",
+						"PieceWork_pay": "151.57"
+					},
+					"AssemblyInstructions": {
+						"InstallNotes": "",
+						"Attachments": {
+							"Attachment": "salestori-asennuskortti-9000784830017762.pdf",
+							"Folder": "\\270000\\270060\\"
+						},
+						"AssemblyDocument": [
+							{
+								"name": "Tilaustiedot",
+								"Chapter": [
+									{
+										"name": "Perustiedot",
+										"Paragraph": [
+											{
+												"name": "Content",
+												"text": "Projektitesti Tampere\r\nHämeenpuisto 50 A 33200 TAMPERE\r\nPuhelin +35840123456"
+											}
+										]
+									},
+									{
+										"name": "Tilaustiedot",
+										"Paragraph": [
+											{
+												"name": "Content",
+												"text": "Asiakaslupaus 01/11/2024\r\nTilausnumero 90007848\r\nLinja 6\r\nKerros 1\r\nAsunto 1\r\nRVN 9000784830017762"
+											}
+										]
+									}
+								]
+							},
+							{
+								"name": "Asennustiedot",
+								"Chapter": [
+									{
+										"name": "Tuotetiedot",
+										"Paragraph": [
+											{
+												"name": "Tuote",
+												"text": "VT3, Malli:1"
+											},
+											{
+												"name": "Kiinnitystapa",
+												"text": "Ylä: Kattoon, Ala: Lattiaan"
+											},
+											{
+												"name": "Profiilit",
+												"text": "Välitolppa: INST_XML_TERRACE_SIDE_POST:  "
+											},
+											{
+												"name": "Varusteet",
+												"text": "INST_XML_TERRACE_SNOW_STOPPER: DOCXML_NO INST_XML_TERRACE_DRAIN_PIPE: DOCXML_NO INST_XML_TERRACE_VENTILATION_CURTAIN: DOC_TERRACE_VENTILATIONNET_NO INST_XML_TERRACE_POWER_ADAPTER: 0 INST_XML_TERRACE_LED_LIGHTS: 0 INST_XML_TERRACE_UPPER_CONNECTION_FLASHING:  INST_XML_TERRACE_ROOF_CONNECTION_ACCESSORIES:  INST_XML_TERRACE_SIDE_CONNECTION_FLASHING:  INST_XML_TERRACE_FIXED_END: DOC_TERRACE_FIXEDEND_NO"
+											}
+										]
+									},
+									{
+										"name": "Tuotemitat",
+										"Paragraph": [
+											{
+												"name": "Kattolasit:3, Kattopalkit:4, Perustus",
+												"text": "INST_XML_TERRACE_WIDTH1:2000. INST_XML_TERRACE_DEPTH1:2000. INST_XML_TERRACE_FRONT_HEIGHT:2000. INST_XML_TERRACE_BACK_HEIGHT1:2500. INST_XML_TERRACE_WIDTH2:. INST_XML_TERRACE_DEPTH2:. INST_XML_TERRACE_BACK_HEIGHT2:. \r\nINST_XML_TERRACE_ROOF_GLASSES_INDEX1: 20090017 INST_XML_TERRACE_ROOF_GLASSES_WIDTH=601 INST_XML_TERRACE_ROOF_GLASSES_HEIGHT=2175\r\nINST_XML_TERRACE_ROOF_GLASSES_INDEX2: 20090017 INST_XML_TERRACE_ROOF_GLASSES_WIDTH=601 INST_XML_TERRACE_ROOF_GLASSES_HEIGHT=2175\r\nINST_XML_TERRACE_ROOF_GLASSES_INDEX3: 20090017 INST_XML_TERRACE_ROOF_GLASSES_WIDTH=601 INST_XML_TERRACE_ROOF_GLASSES_HEIGHT=2175\r\nINST_XML_TERRACE_CROSS_MEASUREMENT: INST_XML_LEFT:2828 INST_XML_RIGHT:0\r\nINST_XML_TERRACE_FOUNDATION: \r\nINST_XML_TERRACE_EXTRA_DECK: INST_XML_FRONT: / INST_XML_LEFT: / INST_XML_RIGHT: / INST_XML_BACK:\r\nINST_XML_TERRACE_FLOOR_BEAMS: \r\nINST_XML_TERRACE_PAALU_COUNT: \r\nINST_XML_TERRACE_PONTTILAUTA_LENGTH: \r\nINST_XML_TERRACE_PONTTILAUTA_COUNT: \r\nINST_XML_TERRACE_PONTTILAUTA_TOTAL_WIDTH: \r\nINST_XML_TERRACE_AVOLAUTA_LENGTH: \r\nINST_XML_TERRACE_AVOLAUTA_COUNT: \r\nINST_XML_TERRACE_AVOLAUTA_TOTAL_WIDTH: \r\nINST_XML_TERRACE_VERHOUSLAUTA_LENGTH: \r\nINST_XML_TERRACE_VERHOUSLAUTA_COUNT: \r\n[INST_XML_TERRACE_VERHOUSLAUTA_TOTAL_WIDTH: \r\n[INST_XML_TERRACE_PAALU_PLACES: \r\n"
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				},
+				{
+					"delivery_batch": "1",
+					"delivery_batch_status": "Mitattu",
+					"delivery_batch_receive_date": "06.11.2024",
+					"delivery_batch_delivery_date": "01.11.2024",
+					"group_attachment": "",
+					"AXconfiguration": "no",
+					"group_name": "Avautuva (LGR)",
+					"pcs": "1",
+					"structurenumber": "9000784830017756",
+					"originalstructurenumber": "",
+					"install_start_date": "06.11.2024",
+					"install_end_date": "03.12.2024",
+					"additional_deliverytime": "0",
+					"process": "Normal",
+					"product_code": "90240001",
+					"storageid": "TRE",
+					"packing_order": "1",
+					"unit": "1",
+					"line": "8",
+					"floor": "1",
+					"chargeable": "chargeable",
+					"sales_price": "985.30",
+					"sproduct": "755.60",
+					"sfreight": "38.40",
+					"sinstall": "98.00",
+					"sother": "93.40",
+					"purchase_price": "549.30",
+					"pproduct": "549.30",
+					"pfreight": "0.00",
+					"pinstall": "0.00",
+					"pother": "0.00",
+					"calculated_salesprice": "985.30",
+					"factory_price": "549.30",
+					"fproduct": "549.30",
+					"ffreight": "0.00",
+					"finstall": "0.00",
+					"fother": "0.00",
+					"contract_price": "26.92",
+					"salestori_plan_name": "Plan 3",
+					"glass_m2": "4.00",
+					"blinds_m2": "3.64",
+					"glass_pcs": "3",
+					"product_length": "2000",
+					"group_weight": "109.903",
+					"product_attributes": {
+						"attributeid": "20090016"
+					},
+					"installed": "True",
+					"OrderLine": {
+						"BOMVersion": "9000784830017756",
+						"ItemID": "90240001",
+						"ItemName": "LG",
+						"InventLocationID": "TRE",
+						"Dimension1": "4031",
+						"Dimension5": "mikaj",
+						"DeliveryName": "Tampere Projektitesti",
+						"DeliveryStreet": "Hämeenpuisto 50 A",
+						"DeliveryZipCode": "33200",
+						"DeliveryCity": "TAMPERE",
+						"DeliveryCountryRegionID": "FI",
+						"LineAmount": "985.30",
+						"Apartment": "1",
+						"Floor": "1",
+						"DlvBatchID": "1",
+						"Line": "8",
+						"FactoryConfirmedDlv": "",
+						"InstallHours": "7.38",
+						"InstallStart": "06.11.2024",
+						"ReservationStart": "2024-11-06T00.00.00",
+						"DeliveryDatePromised": "01.11.2024",
+						"Plan_name": "Plan 3",
+						"PieceWork_pay": "26.92"
+					},
+					"AssemblyInstructions": {
+						"InstallNotes": "",
+						"Attachments": {
+							"Attachment": "salestori-asennuskortti-9000784830017756.pdf",
+							"Folder": "\\270000\\270060\\"
+						},
+						"AssemblyDocument": [
+							{
+								"name": "Tilaustiedot",
+								"Chapter": [
+									{
+										"name": "Perustiedot",
+										"Paragraph": [
+											{
+												"name": "Content",
+												"text": "Projektitesti Tampere\r\nHämeenpuisto 50 A 33200 TAMPERE\r\nPuhelin +35840123456"
+											}
+										]
+									},
+									{
+										"name": "Tilaustiedot",
+										"Paragraph": [
+											{
+												"name": "Content",
+												"text": "Asiakaslupaus 01/11/2024\r\nTilausnumero 90007848\r\nLinja 8\r\nKerros 1\r\nAsunto 1\r\nRVN 9000784830017756"
+											}
+										]
+									}
+								]
+							},
+							{
+								"name": "Asennustiedot",
+								"Chapter": [
+									{
+										"name": "Tuotetiedot",
+										"Paragraph": [
+											{
+												"name": "Tuote",
+												"text": "LG , sivuja:1"
+											},
+											{
+												"name": "Kiinnitystapa",
+												"text": "Ylä: Kattoon, Ala: Lattiaan"
+											},
+											{
+												"name": "Profiilit",
+												"text": "Ylä: 11241205 RAL7024, Ala: 11243001 11243001 "
+											},
+											{
+												"name": "Varusteet",
+												"text": "Muoviosat: Tumman harmaa, Päätytulpat"
+											}
+										]
+									},
+									{
+										"name": "Tuotemitat",
+										"Paragraph": [
+											{
+												"name": "Sivu1,H3=1873",
+												"text": "Ak=90 Lk=90 Pituus=2000 Erom.(Z)=0 Korkeus=2000 Alav. (X)=0 Ylav. (Y)=0 Vkpl=3 Okpl=0 JK= Kyli=Ei Saator.= \r\nYläprof: 11241205 RAL7024\r\nAlaprof: 11243001 RAL7024\r\nSäätöprof: 11222206 RAL7024\r\nL1: LEV=656 K=1861\r\nL2: LEV=656 K=1861\r\nL3: LEV=656 K=1861\r\n"
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				},
+				{
+					"delivery_batch": "1",
+					"delivery_batch_status": "Mitattu",
+					"delivery_batch_receive_date": "06.11.2024",
+					"delivery_batch_delivery_date": "01.11.2024",
+					"group_attachment": "",
+					"AXconfiguration": "no",
+					"group_name": "Avautuva (LGR)",
+					"pcs": "1",
+					"structurenumber": "9000784830017757",
+					"originalstructurenumber": "",
+					"install_start_date": "06.11.2024",
+					"install_end_date": "03.12.2024",
+					"additional_deliverytime": "0",
+					"process": "Normal",
+					"product_code": "90240001",
+					"storageid": "TRE",
+					"packing_order": "1",
+					"unit": "1",
+					"line": "9",
+					"floor": "1",
+					"chargeable": "chargeable",
+					"sales_price": "942.40",
+					"sproduct": "712.70",
+					"sfreight": "38.40",
+					"sinstall": "98.00",
+					"sother": "93.40",
+					"purchase_price": "518.10",
+					"pproduct": "518.10",
+					"pfreight": "0.00",
+					"pinstall": "0.00",
+					"pother": "0.00",
+					"calculated_salesprice": "985.30",
+					"factory_price": "518.10",
+					"fproduct": "518.10",
+					"ffreight": "0.00",
+					"finstall": "0.00",
+					"fother": "0.00",
+					"contract_price": "26.92",
+					"salestori_plan_name": "Plan 3 Copia",
+					"glass_m2": "4.00",
+					"blinds_m2": "3.64",
+					"glass_pcs": "3",
+					"product_length": "2000",
+					"group_weight": "109.903",
+					"product_attributes": {
+						"attributeid": "20090016"
+					},
+					"installed": "True",
+					"OrderLine": {
+						"BOMVersion": "9000784830017757",
+						"ItemID": "90240001",
+						"ItemName": "LG",
+						"InventLocationID": "TRE",
+						"Dimension1": "4031",
+						"Dimension5": "mikaj",
+						"DeliveryName": "Tampere Projektitesti",
+						"DeliveryStreet": "Hämeenpuisto 50 A",
+						"DeliveryZipCode": "33200",
+						"DeliveryCity": "TAMPERE",
+						"DeliveryCountryRegionID": "FI",
+						"LineAmount": "942.40",
+						"Apartment": "1",
+						"Floor": "1",
+						"DlvBatchID": "1",
+						"Line": "9",
+						"FactoryConfirmedDlv": "",
+						"InstallHours": "7.38",
+						"InstallStart": "06.11.2024",
+						"ReservationStart": "2024-11-06T00.00.00",
+						"DeliveryDatePromised": "01.11.2024",
+						"Plan_name": "Plan 3 Copia",
+						"PieceWork_pay": "26.92"
+					},
+					"AssemblyInstructions": {
+						"InstallNotes": "",
+						"Attachments": {
+							"Attachment": "salestori-asennuskortti-9000784830017757.pdf",
+							"Folder": "\\270000\\270060\\"
+						},
+						"AssemblyDocument": [
+							{
+								"name": "Tilaustiedot",
+								"Chapter": [
+									{
+										"name": "Perustiedot",
+										"Paragraph": [
+											{
+												"name": "Content",
+												"text": "Projektitesti Tampere\r\nHämeenpuisto 50 A 33200 TAMPERE\r\nPuhelin +35840123456"
+											}
+										]
+									},
+									{
+										"name": "Tilaustiedot",
+										"Paragraph": [
+											{
+												"name": "Content",
+												"text": "Asiakaslupaus 01/11/2024\r\nTilausnumero 90007848\r\nLinja 9\r\nKerros 1\r\nAsunto 1\r\nRVN 9000784830017757"
+											}
+										]
+									}
+								]
+							},
+							{
+								"name": "Asennustiedot",
+								"Chapter": [
+									{
+										"name": "Tuotetiedot",
+										"Paragraph": [
+											{
+												"name": "Tuote",
+												"text": "LG , sivuja:1"
+											},
+											{
+												"name": "Kiinnitystapa",
+												"text": "Ylä: Kattoon, Ala: Lattiaan"
+											},
+											{
+												"name": "Profiilit",
+												"text": "Ylä: 11241205 RAL7024, Ala: 11243001 11243001 "
+											},
+											{
+												"name": "Varusteet",
+												"text": "Muoviosat: Tumman harmaa, Päätytulpat"
+											}
+										]
+									},
+									{
+										"name": "Tuotemitat",
+										"Paragraph": [
+											{
+												"name": "Sivu1,H3=1873",
+												"text": "Ak=90 Lk=90 Pituus=2000 Erom.(Z)=0 Korkeus=2000 Alav. (X)=0 Ylav. (Y)=0 Vkpl=3 Okpl=0 JK= Kyli=Ei Saator.= \r\nYläprof: 11241205 RAL7024\r\nAlaprof: 11243001 RAL7024\r\nSäätöprof: 11222206 RAL7024\r\nL1: LEV=656 K=1861\r\nL2: LEV=656 K=1861\r\nL3: LEV=656 K=1861\r\n"
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				}
+			]
+		}
+	}
+}

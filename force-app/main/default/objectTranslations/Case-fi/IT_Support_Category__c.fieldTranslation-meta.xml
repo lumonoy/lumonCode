@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-    <label><!-- IT Support Category --></label>
+    <label>IT Tuki Kategoria</label>
     <name>IT_Support_Category__c</name>
 </CustomFieldTranslation>

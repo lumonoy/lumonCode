@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Canada_Territories</fullName>
+    <columns>Name</columns>
+    <columns>CountryAttribute__c</columns>
+    <columns>District__c</columns>
+    <columns>FSL__TerritoryLevel__c</columns>
+    <columns>OperatingHours</columns>
+    <columns>IsActive</columns>
+    <columns>ParentTerritory</columns>
+    <columns>Service_Territory__c</columns>
+    <columns>LUM_Dispatching_Offset__c</columns>
+    <columns>Business_Type__c</columns>
+    <columns>ServiceAttribute__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CountryAttribute__c</field>
+        <operation>equals</operation>
+        <value>CA</value>
+    </filters>
+    <label>Canada Territories</label>
+</ListView>

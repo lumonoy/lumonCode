@@ -2,7 +2,7 @@
  * @description       : 
  * @author            : Henk Reynders
  * @group             : 
- * @last modified on  : 03-17-2024
+ * @last modified on  : 08-09-2024
  * @last modified by  : Henk Reynders
 **/
 public with sharing class ProductController {
@@ -15,6 +15,21 @@ public with sharing class ProductController {
         products = getProducts(recordIds);
         return products[0];
     } 
+    @AuraEnabled(cacheable=false)
+    public static Product2 getProductByNumber(String productNumber) {
+        // Populate List from SOQL query on Product
+        Id productId = [SELECT Id, ProductCode, ProductCode__c FROM Product2 WHERE ProductCode =: productNumber OR ProductCode__c =: productNumber LIMIT 1]?.Id; 
+        List<Id> productIds = new List<Id>();
+        productIds.add(productId);
+        Product2 product = new Product2();
+        System.debug('--- ProductController - Get Product with Id '+productId); 
+        List<Product2> products =  getProducts(productIds); 
+        if  (products?.size()>0) {
+            product = products[0];
+            System.debug('--- ProductController - Product: '+product.Name); 
+        }        
+        return product;
+    }
     @AuraEnabled(cacheable=true)
     public static List<Product2> getProducts(List<Id> recordIds) {
         // Populate map from SOQL query on Product2

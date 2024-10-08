@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <help><!-- Total Tax --></help>
-    <label><!-- Tax Total --></label>
+    <label><!-- Tax Total OLD --></label>
     <name>Tax_Total__c</name>
 </CustomFieldTranslation>

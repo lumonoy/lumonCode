@@ -239,7 +239,8 @@
 15.3.2023 previous sign request set as revoked
 16.3. 2023 typo correction
 18.08.2023 added  New Case for PDF error
-02.12.2023: Save Active Version as R2</description>
+02.12.2023: Save Active Version as R2
+05.06.2024: Do not revoke draft request</description>
     <environments>Default</environments>
     <formulas>
         <name>FollowUpTaskDesc</name>
@@ -262,7 +263,7 @@
         <expression>NOW()</expression>
     </formulas>
     <interviewLabel>Sign Request - After Save {!$Flow.CurrentDateTime}</interviewLabel>
-    <label>Sign Request - After Save R2</label>
+    <label>Sign Request - After Save R2.5.6</label>
     <processMetadataValues>
         <name>BuilderType</name>
         <value>
@@ -563,7 +564,7 @@
         <connector>
             <targetReference>Previous_Sign_Request_Exists</targetReference>
         </connector>
-        <filterLogic>1 AND 2 AND (3 OR 4) AND 5</filterLogic>
+        <filterLogic>and</filterLogic>
         <filters>
             <field>Opportunity__c</field>
             <operator>EqualTo</operator>
@@ -576,13 +577,6 @@
             <operator>NotEqualTo</operator>
             <value>
                 <elementReference>vNow</elementReference>
-            </value>
-        </filters>
-        <filters>
-            <field>cadmus_sign2__Status__c</field>
-            <operator>EqualTo</operator>
-            <value>
-                <stringValue>Draft</stringValue>
             </value>
         </filters>
         <filters>

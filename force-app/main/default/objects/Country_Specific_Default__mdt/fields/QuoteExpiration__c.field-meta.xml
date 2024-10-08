@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>QuoteExpiration__c</fullName>
+    <defaultValue>true</defaultValue>
+    <description>Flag to indicate if Quotes Expire</description>
+    <externalId>false</externalId>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <inlineHelpText>Flag to indicate if Quotes Expire</inlineHelpText>
+    <label>Quote Expiration</label>
+    <type>Checkbox</type>
+</CustomField>

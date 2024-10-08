@@ -218,6 +218,7 @@ public with sharing class PricingSummaryService {
     * @return QuoteLineItem 
     **/
     public static QuoteLineItem findPrices(String opportunityId,String searchProductCode,Decimal itemQuantity,String itemProductGroup,String itemCostType,Decimal basePrice) {
+        System.Debug('--- PricingSummaryService - Find Price for Opportunity: '+opportunityId);
         System.Debug('--- PricingSummaryService - Find Price for ProductCode: '+searchProductCode);
         // Stage 0: Declare the Variables
         String itemProductCode = searchProductCode;
@@ -228,12 +229,10 @@ public with sharing class PricingSummaryService {
         // Stage 0a: Check for existing Configurations
         List<Configuration_Product__c> configProducts = ConfigurationController.getConfigurationProductsByParentId(opportunityId);
         List<Id> configProductIds = new List<Id>(new Map<Id, Configuration_Product__c>(configProducts).keySet());
-
         List<String> productGroups = new List<String>{ itemProductGroup };
-
-        //System.Debug('--- PricingSummaryService - Find Configuration Products');
-        //System.Debug('--- PricingSummaryService - Group: '+itemProductGroup );
-        //System.Debug('--- PricingSummaryService - Code: '+itemProductCode );
+        System.Debug('--- PricingSummaryService - '+configProducts?.size()+' Configuration Products');
+        System.Debug('--- PricingSummaryService - Group: '+itemProductGroup );
+        System.Debug('--- PricingSummaryService - Code: '+itemProductCode );
         // Stage 0b: Declare the Pricing Attributes
         String org = opportunity.Organization_Attribute__c;
         String country = opportunity.Country_Attribute__c;
@@ -264,6 +263,14 @@ public with sharing class PricingSummaryService {
         System.Debug('--- PricingSummaryService - Cost Parameter Map ('+productCostMap.keySet().size()+')');
         // Stage 3: Get Sales Prices (=List Prices)
         // For Services expecting atleast 1 result
+        System.Debug('--- PricingSummaryService - Business Attributes productGroups: '+productGroups);
+        System.Debug('--- PricingSummaryService - Business Attributes org: '+org);
+        System.Debug('--- PricingSummaryService - Business Attributes country: '+country);
+        System.Debug('--- PricingSummaryService - Business Attributes business: '+business);
+        System.Debug('--- PricingSummaryService - Business Attributes district: '+district);
+        System.Debug('--- PricingSummaryService - Business Attributes territory: '+territory);
+        System.Debug('--- PricingSummaryService - Business Attributes profitCenter: '+profitCenter);
+        System.Debug('--- PricingSummaryService - Business Attributes customer: '+customer);
         Map<String, Map<String, Sales_Price__c>> salesPriceMap = PricingParameterController.getSalesPrices(
             productGroups,
             org,

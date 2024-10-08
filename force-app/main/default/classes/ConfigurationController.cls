@@ -2,7 +2,7 @@
  * @description       : 
  * @author            : Henk Reynders
  * @group             : 
- * @last modified on  : 04-05-2024
+ * @last modified on  : 06-19-2024
  * @last modified by  : Henk Reynders
 **/
 public with sharing class ConfigurationController {
@@ -381,19 +381,7 @@ public with sharing class ConfigurationController {
 		List<Configuration__c> configPlans = New List<Configuration__c>(); // Existing Configuration Plans  
 		// Find Configuration based on ConfigurationIs
 		if (configurationIds.size()>0 && configurationIds != null) {
-			configPlans =  [ SELECT Id,
-									Name,
-									Account__c,
-									Opportunity__c,
-									Quote__c,
-									Contract__c,
-									Order__c,
-									Work_Order__c,
-									Case__c,
-									Plan_Type__c,
-									Visual_Id__c
-							FROM Configuration__c 
-							WHERE Id IN: configurationIds];
+			configPlans =  ConfigurationPlanController.getConfigurationPlans(configurationIds);
 		}
 		return configPlans;
 	}
@@ -402,25 +390,7 @@ public with sharing class ConfigurationController {
 		List<Configuration__c> configPlans = New List<Configuration__c>(); // Existing Configuration Plans  
 		// Find Configuration based on Opportunity or Quote recordId
 		if (String.isNotBlank(recordId)) {
-			configPlans = [ SELECT Id,
-									Name,
-									Account__c,
-									Opportunity__c,
-									Quote__c,
-									Contract__c,
-									Order__c,
-									Work_Order__c,
-									Case__c,
-									Plan_Type__c,
-									Visual_Id__c
-							FROM Configuration__c 
-							WHERE Account__c =: recordId
-							OR Opportunity__c =: recordId
-							OR Quote__c =: recordId
-							OR Contract__c =: recordId
-							OR Order__c =: recordId
-							OR Work_Order__c =: recordId
-							OR Case__c =: recordId];
+            configPlans = ConfigurationPlanController.getConfigurationPlans(new List<Id>{recordId});
 		}
 		return configPlans;
 	}
@@ -428,27 +398,8 @@ public with sharing class ConfigurationController {
 	public static List<Configuration__c> getConfigurationsByParentAndId(String recordId, List<Id> configurationIds){
 		List<Configuration__c> configPlans = New List<Configuration__c>(); // Existing Configuration Plans  
 		// Find Configuration based on Opportunity or Quote recordId
-		if (String.isNotBlank(recordId)) {
-			configPlans = [ SELECT Id,
-									Name,
-									Account__c,
-									Opportunity__c,
-									Quote__c,
-									Contract__c,
-									Order__c,
-									Work_Order__c,
-									Case__c,
-									Plan_Type__c,
-									Visual_Id__c
-							FROM Configuration__c 
-							WHERE (Account__c =: recordId
-							OR Opportunity__c =: recordId
-							OR Quote__c =: recordId
-							OR Contract__c =: recordId
-							OR Order__c =: recordId
-							OR Work_Order__c =: recordId
-							OR Case__c =: recordId)
-							AND Id IN: configurationIds];
+		if (configurationIds.size()>0) {
+			configPlans = ConfigurationPlanController.getConfigurationPlans(configurationIds);
 		}
 		return configPlans;
 	}
@@ -457,19 +408,7 @@ public with sharing class ConfigurationController {
 		List<Configuration__c> configPlans = New List<Configuration__c>(); // Existing Configuration Plans  
 		// Find Configuration based on Visual Confguration Id
 		if (String.isNotBlank(visualPlanId)) {
-			configPlans = [ SELECT Id,
-									Name,
-									Account__c,
-									Opportunity__c,
-									Quote__c,
-									Contract__c,
-									Order__c,
-									Work_Order__c,
-									Case__c,
-									Plan_Type__c,
-									Visual_Id__c
-							FROM Configuration__c 
-							WHERE Visual_Id__c =: visualPlanId];
+            configPlans = ConfigurationPlanController.getConfigurationPlans(new List<Id>{visualPlanId});
 		}
 		return configPlans;
 	}
@@ -512,49 +451,36 @@ public with sharing class ConfigurationController {
     @AuraEnabled 
     public static configWrapper getConfigurationData(String recordId, List<String> configurationIds, List<String> visualPlanIds){
     //get records from database
-        List<Configuration__c> getConfigurations = [  SELECT Id,
-																Name,
-																Account__c,
-																Opportunity__c,
-																Quote__c,
-																Contract__c,
-																Order__c,
-																Work_Order__c,
-																Case__c
-														FROM Configuration__c 
-														WHERE Account__c =: recordId
-														OR Opportunity__c =: recordId
-														OR Quote__c =: recordId
-														OR Contract__c =: recordId
-														OR Order__c =: recordId
-														OR Work_Order__c =: recordId
-														OR Case__c =: recordId
-														OR Id  IN: configurationIds
-														OR Visual_Id__c IN: visualPlanIds];
+    	List<Id> recordIds = new List<Id>();
+        recordIds.add(recordId);
+        recordIds.addAll(configurationIds);
+        recordIds.addAll(visualPlanIds);
+
+        List<Configuration__c> configurations = ConfigurationPlanController.getConfigurationPlans(recordIds);
         List<String>  configIds =  new List<String>();
-        for (Configuration__c config :getConfigurations ) {
+        for (Configuration__c config :configurations ) {
             configIds.add(config.Id);
         }                                     
-        List<Configuration_Product__c> getConfigProducts = [ SELECT  Id
+        List<Configuration_Product__c> configProducts = [ SELECT  Id
                                                 FROM Configuration_Product__c 
                                                 WHERE Configuration__c IN: configIds];
         List<String>  prodIds =  new List<String>();
-        for (Configuration_Product__c configProd :getConfigProducts ) {
+        for (Configuration_Product__c configProd :configProducts ) {
             prodIds.add(configProd.Id);
         }             
-        List<Configuration_Option__c> getConfigOptions = [ SELECT  Id
+        List<Configuration_Option__c> configOptions = [ SELECT  Id
                                                 FROM Configuration_Option__c 
                                                 WHERE Configuration_Product__c IN: prodIds];
-        List<Configuration_Message__c> getConfigMessages = [ SELECT  Id
+        List<Configuration_Message__c> configMessages = [ SELECT  Id
                                                 FROM Configuration_Message__c 
                                                 WHERE Configuration_Product__c IN: prodIds];
         
         //Create wrapper class instance 
         configWrapper wrp = new configWrapper();
         //wrp.cfg = new Configuration__c(getConfiguration);
-        wrp.configProductList = new List<Configuration_Product__c>(getConfigProducts);
-        wrp.configOptionList = new List<Configuration_Option__c>(getConfigOptions);
-        wrp.configMessageList = new List<Configuration_Message__c>(getConfigMessages);
+        wrp.configProductList = new List<Configuration_Product__c>(configProducts);
+        wrp.configOptionList = new List<Configuration_Option__c>(configOptions);
+        wrp.configMessageList = new List<Configuration_Message__c>(configMessages);
         return wrp;
     }
     // Configuration Wrapper
@@ -642,19 +568,7 @@ public with sharing class ConfigurationController {
 	} 
 	@AuraEnabled(cacheable=true)
     public static Configuration__c getVisualConfigurationPlan(String visualPlanId){
-        Configuration__c visualConfigPlan =  [ SELECT Id,
-                                                Name,
-                                                Account__c,
-                                                Opportunity__c,
-                                                Quote__c,
-                                                Contract__c,
-                                                Order__c,
-                                                Work_Order__c,
-                                                Case__c,
-                                                Visual_Id__c
-                                        FROM Configuration__c 
-                                        WHERE Visual_Id__c =: visualPlanId
-                                        LIMIT 1];
+        Configuration__c visualConfigPlan =  ConfigurationPlanController.getConfigurationPlan(visualPlanId); 
         return visualConfigPlan;
     }
     @AuraEnabled(cacheable=true)
@@ -672,40 +586,13 @@ public with sharing class ConfigurationController {
     }
 	@AuraEnabled(cacheable=true)
     public static Configuration__c getConfigurationPlan(String configurationId){
-        Configuration__c configPlan =  [ SELECT Id,
-                                                Name,
-                                                Account__c,
-                                                Opportunity__c,
-                                                Quote__c,
-                                                Contract__c,
-                                                Order__c,
-                                                Work_Order__c,
-                                                Case__c
-                                        FROM Configuration__c 
-                                        WHERE Id =: configurationId
-                                        LIMIT 1];
+        Configuration__c configPlan =  ConfigurationPlanController.getConfigurationPlan(configurationId);
         System.debug('--- ConfigurationController - Configuration Plan: '+configPlan);
         return configPlan;
     }
     @AuraEnabled(cacheable=true)
     public static List<Configuration__c> getConfigurationPlans(String recordId){
-        List<Configuration__c> configurationPlans = [ SELECT Id,
-                                                        Name,
-                                                        Account__c,
-                                                        Opportunity__c,
-                                                        Quote__c,
-                                                        Contract__c,
-                                                        Order__c,
-                                                        Work_Order__c,
-                                                        Case__c
-                                                FROM Configuration__c 
-                                                WHERE Account__c =: recordId
-                                                OR Opportunity__c =: recordId
-                                                OR Quote__c =: recordId
-                                                OR Contract__c =: recordId
-                                                OR Order__c =: recordId
-                                                OR Work_Order__c =: recordId
-                                                OR Case__c =: recordId];
+        List<Configuration__c> configurationPlans = ConfigurationPlanController.getConfigurationPlans(new List<Id> {recordId});
         System.debug('--- ConfigurationController - Found '+configurationPlans.size()+' Configuration Plan(s)');
         return configurationPlans;
     }
@@ -764,6 +651,7 @@ public with sharing class ConfigurationController {
 
         // Salesforce Pricing Attributes
         String opportunityNumber; // Number of the Opportunity, used for RVN on New Plan
+        Boolean isReclamation;
         String pricebookId; // Pricebook Id
         String currencyCode; // Currency
 
@@ -848,8 +736,10 @@ public with sharing class ConfigurationController {
             if (String.IsNotBlank(recordId) && parentObjectType=='Opportunity') {
                 // Get Related Opportunity Record
                 opportunityRecord = OpportunityProductController.getOpportunityRecord(recordId);
+                isReclamation = opportunityRecord.Order_Type__c == 'Reclamation' ? true : false;
                 // Set Related Records
-                pricebookId = opportunityRecord.pricebook2Id;                      
+                pricebookId = opportunityRecord.pricebook2Id;   
+                //System.debug('--- ConfigurationController - Opportunity Pricebook '+pricebookId);                   
                 currencyCode = opportunityRecord.CurrencyIsoCode; 
                 opportunityNumber = opportunityRecord.Opportunity_Number__c;
             } else {
@@ -905,9 +795,7 @@ public with sharing class ConfigurationController {
                     planToUpsert.Name = visualConfigObject.Name;
                     // Set Plan Values based on Visual Update
                     planToUpsert.Plan_Apartment__c = visualConfigObject.apartment;
-                    if (visualConfigObject.floor != null && visualConfigObject.floor.isNumeric()) {
-                        planToUpsert.Plan_Floor__c = Integer.valueOf(visualConfigObject.floor);
-                    }
+                    planToUpsert.Plan_Floor__c = visualConfigObject.floor;
                     planToUpsert.Plan_Line__c = visualConfigObject.line;
                     planToUpsert.Plan_Name__c = visualConfigObject.name;
                     planToUpsert.Visual_Id__c = visualConfigObject.id;
@@ -953,6 +841,7 @@ public with sharing class ConfigurationController {
                     Configuration_Product__c configurationProduct = new Configuration_Product__c(); // New or Changed Configuration Product as in File configJSON
                     // Find the Pricebook Entry for the Configuration Product
                     productLookupCode = visualConfigObject.products[j].name; 
+                    //System.debug('--- ConfigurationController - Checking Pricebook Entry for Product '+productLookupCode); 
                     // Check if productCode is in the pricebookEntry Map
                     Boolean pbEntryKeyFound = pricebookEntryConfigurationProductMap.containsKey(productLookupCode);
                     // Add Production Times 05.04.2024
@@ -960,14 +849,14 @@ public with sharing class ConfigurationController {
                     // if Entry exists retrieve it else just log it
                     pbEntryId=''; 
                     if(pbEntryKeyFound) {   
+                        //System.debug('--- ConfigurationController - Found Pricebook Entry for Product  '+productLookupCode); 
                         pbEntry = (PricebookEntry) pricebookEntryConfigurationProductMap.get(productLookupCode);
                         //System.debug('--- ConfigurationController - Found Product Pricebook Entry '+pbEntry+' for ProductCode '+productLookupCode); 
                         //System.debug('--- ConfigurationController - pbEntry.Product2.Sales_Code__c'+pbEntry.Product2.Sales_Code__c);
-                        // If Entry exists and is not a Reclamation Product get the Details
-                        if (!pbEntry.Product2.Reclamation__c) {
+                        // If Entry exists and is not a Reclamation Product get the Details                      
+                        if ( !isReclamation & !pbEntry.Product2.Reclamation__c) {
                             pbEntryProductId = pbEntry.Product2Id; // reference to Product2 Record
-                        } else if (opportunityRecord.Order_Type__c == 'Reclamation' 
-                                    && pbEntry.Product2.Reclamation__c) {
+                        } else if (isReclamation && pbEntry.Product2.Reclamation__c) {
                             pbEntryProductId = pbEntry.Product2Id; // reference to Product2 Record
                         }
                         if (String.isNotBlank(pbEntryProductId)){
@@ -988,11 +877,8 @@ public with sharing class ConfigurationController {
                                 productionTimeId = productionTime.Id;
                                 productionDays = productionTime.Days__c; // Production Time Lookup
                                 System.debug('--- ConfigurationController - Add Production Days: '+productionDays); 
-                            }
-                            
-                        } else {
-                            System.debug('--- ConfigurationController - No Pricebook Entry Product'); 
-                        }
+                            }                            
+                        } 
                     }  else {
                         System.debug('--- ConfigurationController - NO Pricebook Entry for Product '+productLookupCode); 
                         pbEntryId=''; 
@@ -1065,11 +951,6 @@ public with sharing class ConfigurationController {
                     }   
                 }
                 System.debug('--- ConfigurationController - '+productsToUpsert.size()+' Configuration Products to Create or Update');
-                /********* FOR RECLAMATION  **************/
-                // Check if the configuration_Product__c.Product__r.Reclamation__c = TRUE
-                // If YES Then Check  if there is a reclaimedFeatureMessageKeys included in the Pricing File 
-                // IF reclaimedFeatureMessageKeys != empty then upsert the Product
-                // ELSE "Break" (clear the productsToUpsert as it will then also not continue with Processing Items)
                 if (productsToUpsert.size()>0) {
                     upsert productsToUpsert;
                 }
@@ -1108,7 +989,19 @@ public with sharing class ConfigurationController {
                     //System.debug('--- ConfigurationController - Processing Visual Configuration Item(s) for Product '+productLookupCode);
                     Integer productCounter = k+1;
                     //System.debug('--- ConfigurationController - Processing Visual Configuration Product '+productCounter+' of '+visualConfigProducts.size());
-                    // Process the Visual Configuration Products
+                    // Process the Visual Configuration Products                  
+                    
+                    // 09.04.2024 If this is a reclamation but there is no reclaimed Items then do not prepare any Items
+                    List<String> reclaimedItems = new List<String>();
+                    if (isReclamation) {
+                        reclaimedItems = visualConfigObject.products[k].reclaimedFeatureMessageKeys;
+                    }
+                    system.debug('--- ConfigurationController - isReclamation '+ isReclamation);
+                    system.debug('--- ConfigurationController - reclaimedItems '+ reclaimedItems);
+                    if(isReclamation && reclaimedItems?.size() == 0){ 
+                        system.debug('--- ConfigurationController - No Reclaimed Items Do not process Items');
+                        continue;
+                    }
                     visualConfigItems = visualConfigObject.products[k].priceParameters;
                     itemCount = visualConfigItems.size();
                     System.debug('--- ConfigurationController - '+itemCount+' Visual Configuration Item(s)');
@@ -1133,9 +1026,13 @@ public with sharing class ConfigurationController {
                         pbEntryId=''; 
                         if(pbEntryKeyFound) {   
                             pbEntry = (PricebookEntry) pricebookEntryMap.get(itemLookupCode);
-                            System.debug('--- ConfigurationController - Configuration Item PBE: '+pbEntry);
-                            // If Entry exists and is not a Reclamation Product get the Details
                             if (!pbEntry.Product2.Reclamation__c) {
+                                pbEntryProductId = pbEntry.Product2Id; // reference to Product2 Record
+                            } else if (isReclamation 
+                                        && pbEntry.Product2.Reclamation__c) {
+                                pbEntryProductId = pbEntry.Product2Id; // reference to Product2 Record
+                            }
+                            if (String.isNotBlank(pbEntryProductId)){
                                 itemProductId = pbEntry.Product2Id;// reference to Product2 Record
                                 pbEntryProductId = pbEntry.Product2Id; // reference to Product2 Record
                                 pbEntryId = pbEntry.Id;// reference to Pricebook Entry Record
@@ -1295,8 +1192,8 @@ public with sharing class ConfigurationController {
                 }
                 System.debug('--- ConfigurationController - '+itemsToUpsert.size()+' Configuration Item(s) to Create or Update');
                     
-                if (itemsToUpsert.size()>0) {
-                    // For Reclamation when there is items to upsert check if there is "products" reclaimed
+                if (itemsToUpsert?.size()>0) {
+                    System.debug('--- ConfigurationController - itemsToUpsert: '+itemsToUpsert);
                     upsert itemsToUpsert;
                     upsertedItemIds = new List<Id>(new Map<Id, Configuration_Option__c>(itemsToUpsert).keySet()); 
                 }
@@ -1519,6 +1416,7 @@ public with sharing class ConfigurationController {
                 opportunityRecord = OpportunityController.getOpportunityRecord(recordId);
                 // Set Related Records
                 pricebookId = opportunityRecord.pricebook2Id;                      
+                //System.debug('--- ConfigurationController - Opportunity Pricebook '+pricebookId);    
                 currencyCode = opportunityRecord.CurrencyIsoCode; 
                 opportunityNumber = opportunityRecord.Opportunity_Number__c;
             } else {
@@ -1570,11 +1468,6 @@ public with sharing class ConfigurationController {
                     // Update the Plan with Values from the New or Changed Pricing File Content
                     planToUpsert.Name = soveliaConfigObject.Name;
                     // Set Plan Values based on Sovelia Update
-                    //planToUpsert.Plan_Apartment__c = soveliaConfigObject.apartment;
-                    //if (soveliaConfigObject.floor != null && soveliaConfigObject.floor.isNumeric()) {
-                    //    planToUpsert.Plan_Floor__c = Integer.valueOf(soveliaConfigObject.floor);
-                    //}
-                    //planToUpsert.Plan_Line__c = soveliaConfigObject.line;
                     planToUpsert.Plan_Name__c = soveliaConfigObject.name;
                     planToUpsert.Sovelia_Id__c = soveliaConfigObject.id;
                     planToUpsert.Sovelia_Version__c = soveliaConfigObject.version; 
@@ -1632,7 +1525,6 @@ public with sharing class ConfigurationController {
                     if(pbEntryKeyFound) {   
                         pbEntry = (PricebookEntry) pricebookEntryConfigurationProductMap.get(productLookupCode);
                         System.debug('--- ConfigurationController - Found Product Pricebook Entry '+pbEntry+' for ProductCode '+productLookupCode); 
-                        System.debug('--- ConfigurationController - pbEntry.Product2.Sales_Code__c'+pbEntry.Product2.Sales_Code__c);
                         // If Entry exists and is not a Reclamation Product get the Details
                         if (!pbEntry.Product2.Reclamation__c) {
                             pbEntryProductId = pbEntry.Product2Id; // reference to Product2 Record
@@ -1797,9 +1689,9 @@ public with sharing class ConfigurationController {
                                 pbEntryProductCode = pbEntry.Product2.ProductCode;// Unique Code of the Product
                                 pbEntrySalesCode = pbEntry.Product2.Sales_Code__c;// Sales Code of the Product
                                 pbEntryCostCategory = pbEntry.Product2.Cost_Category__c; // Cost Category of the Product
-                                System.debug('--- ConfigurationController - Found Reclamation Product Cost Category '+pbEntryCostCategory); 
+                                System.debug('--- ConfigurationController - (Sovelia) Found Reclamation Product Cost Category '+pbEntryCostCategory); 
                                 pbEntryCostType = pbEntry.Product2.Cost_Type__c;// Cost Type of the Product
-                                System.debug('--- ConfigurationController - Found Reclamation Product Cost Type '+pbEntryCostType); 
+                                System.debug('--- ConfigurationController - (Sovelia) Found Reclamation Product Cost Type '+pbEntryCostType); 
                                 pbEntryProductCategory = pbEntry.Product2.Product_Category__c; // Product Category of the Product
                                 pbEntryProductType = pbEntry.Product2.Product_Type__c;// Product Type of the Product
                                 pbEntryProductItem = pbEntry.Product2.Product_Item__c;// Product Item of the Product
@@ -1812,7 +1704,7 @@ public with sharing class ConfigurationController {
                                     productionExtraDays = productionTime.Extra_Days__c; // Production Time Lookup
                                 }
                             } else {
-                                System.debug('--- ConfigurationController - Skipping Reclamation Product Pricebook Entry'); 
+                                System.debug('--- ConfigurationController - (Sovelia) Skipping Reclamation Product Pricebook Entry'); 
                                 pbEntryId='';                                
                             }
                         } else if (installTimeKeyFound) {
@@ -1820,6 +1712,7 @@ public with sharing class ConfigurationController {
                             // If Entry exists and is not a Reclamation Product get the Details
                             Boolean installTimeProductKeyFound = installationTimeProductMap.containsKey(itemLookupCode);
                             if (installTimeProductKeyFound) {
+                                System.debug('--- ConfigurationController - (Sovelia) Found Installation Time for Item '+itemLookupCode);
                                 installationTimeProduct = (Product2) installationTimeProductMap.get(itemLookupCode);
                                 installationTimeId = installationTime.Id;
                                 itemProductId = installationTime.Product__c; // reference to Product2 Record
@@ -1834,7 +1727,7 @@ public with sharing class ConfigurationController {
                                 installationProductName = installationTimeProduct.Name;
                             }
                         } else {
-                            System.debug('--- ConfigurationController - NO Pricebook Entry or Installation Time for Item '+itemLookupCode); 
+                            System.debug('--- ConfigurationController - (Sovelia) NO Pricebook Entry or Installation Time for Item '+itemLookupCode); 
                         }
                         // Continue only if there was a Pricebook Entry or Installaton Time Found
                         if (String.isNotBlank(itemProductId)){
@@ -1927,6 +1820,9 @@ public with sharing class ConfigurationController {
                                 itemToUpsert.Product_Type__c = installationProductType;
                                 itemToUpsert.Product_Item__c = installationProductItem;
                                 itemToUpsert.Name = installationProductName +' '+itemToUpsert.Quantity__c+' '+installationUoM;
+                                itemToUpsert.Installation_Time_Per_Unit__c = installationHours;
+                                itemToUpsert.Installation_Hours__c = installationHours*itemToUpsert.Quantity__c;
+                                itemToUpsert.isInstallationTime__c = true;
                             }
                             // Add updated Item Record to Collection
                             itemsToUpsert.add(itemToUpsert); 

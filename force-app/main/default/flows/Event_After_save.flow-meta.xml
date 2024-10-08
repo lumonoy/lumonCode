@@ -642,10 +642,10 @@ IF(NOT(ISBLANK({!Get_Lead.Street})),{!Get_Lead.Street}+&quot;, &quot;,&quot;&quo
         <name>FxOppoEventLocation</name>
         <dataType>String</dataType>
         <expression>
-IF(NOT(ISBLANK({!Get_Opportunity.Building__r.Building_Address__Street__s})),
-{!Get_Opportunity.Building__r.Building_Address__Street__s}+&quot;, &quot;,&quot;&quot;)
-+ IF(NOT(ISBLANK({!Get_Opportunity.Building__r.Building_Address__PostalCode__s})),{!Get_Opportunity.Building__r.Building_Address__PostalCode__s}+&quot;, &quot;,&quot;&quot;)
-+ IF(NOT(ISBLANK({!Get_Opportunity.Building__r.Building_Address__City__s})),{!Get_Opportunity.Building__r.Building_Address__City__s},&quot;&quot;)</expression>
+IF(NOT(ISBLANK({!Get_Opportunity.Building__r.BuildingAddress__Street__s})),
+{!Get_Opportunity.Building__r.BuildingAddress__Street__s}+&quot;, &quot;,&quot;&quot;)
++ IF(NOT(ISBLANK({!Get_Opportunity.Building__r.BuildingAddress__PostalCode__s})),{!Get_Opportunity.Building__r.BuildingAddress__PostalCode__s}+&quot;, &quot;,&quot;&quot;)
++ IF(NOT(ISBLANK({!Get_Opportunity.Building__r.BuildingAddress__City__s})),{!Get_Opportunity.Building__r.BuildingAddress__City__s},&quot;&quot;)</expression>
     </formulas>
     <formulas>
         <name>GetOpportunityNumbertxt</name>

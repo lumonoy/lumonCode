@@ -7,8 +7,8 @@
     <fields>Plan_Name__c</fields>
     <fields>Visual_Id__c</fields>
     <fields>Visual_Version__c</fields>
-    <fields>Count_Products__c</fields>
-    <fields>Installation_Time__c</fields>
+    <fields>CountConfigurationProducts__c</fields>
+    <fields>PlannedInstallationHours__c</fields>
     <fields>Production_Time__c</fields>
     <label>Configuration Compact Layout</label>
 </CompactLayout>

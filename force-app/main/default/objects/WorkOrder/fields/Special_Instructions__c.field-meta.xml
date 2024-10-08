@@ -5,7 +5,7 @@
     <externalId>false</externalId>
     <formula>Opportunity__r.Special_Instructions__c</formula>
     <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
-    <label>Special Instructions</label>
+    <label>Special Instructions OLD</label>
     <required>false</required>
     <trackHistory>false</trackHistory>
     <type>Text</type>

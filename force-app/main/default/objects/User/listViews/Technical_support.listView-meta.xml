@@ -13,7 +13,7 @@
     <filterScope>Everything</filterScope>
     <filters>
         <field>CORE.PROFILE.NAME</field>
-        <operation>equals</operation>
+        <operation>contains</operation>
         <value>Lumon Technical support</value>
     </filters>
     <label>Technical support</label>

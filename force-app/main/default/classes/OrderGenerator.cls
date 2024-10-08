@@ -2,7 +2,7 @@
  * @description       : 
  * @author            : Henk Reynders
  * @group             : 
- * @last modified on  : 03-04-202
+ * @last modified on  : 09-09-2024
  * @last modified by  : Henk Reynders
 **/
 public  class OrderGenerator {
@@ -38,7 +38,7 @@ public  class OrderGenerator {
 	
     // Check Order status and proceed towards the Order JSON from Submit Action
     @AuraEnabled
-    public static String populateOrderJSONFromComponent (String recordId) {
+    public static String submitOrder (String recordId) {
         List<Order> orders = [SELECT OpportunityId, AccountId,Status, Method_of_Payment__c,ContractId, Payment_Term__c,OrderNumber FROM Order WHERE Id =: recordId];
         List<Order> ordersToPopulateJSON = new List<Order>();
         for (Order o : orders) {
@@ -54,7 +54,7 @@ public  class OrderGenerator {
     }
     public static String populateOrderJSON(List<Order> orders) {
         
-        System.debug('--- isSandbox ---'+isSandbox);
+        System.debug('--- OrderGeneratorTest - isSandbox'+isSandbox);
 		String envName = 'production';
 		if ([SELECT IsSandbox FROM Organization LIMIT 1].IsSandbox) {
 			envName = String.valueOf(URL.getOrgDomainUrl()).substringBetween('--', '.sandbox');

@@ -4,7 +4,7 @@
     <description>Project category from Opportunity&apos;s project for integration</description>
     <externalId>false</externalId>
     <formula>TEXT(Opportunity__r.Project_Number__r.Project_Category__c)</formula>
-    <label>Project Category</label>
+    <label>Project Category OLD</label>
     <required>false</required>
     <trackHistory>false</trackHistory>
     <type>Text</type>

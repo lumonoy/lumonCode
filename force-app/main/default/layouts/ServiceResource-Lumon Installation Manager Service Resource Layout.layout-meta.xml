@@ -15,16 +15,35 @@
                 <field>RelatedRecordId</field>
             </layoutItems>
             <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Description</field>
+            </layoutItems>
+        </layoutColumns>
+        <layoutColumns>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>AccountId</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>IsActive</field>
+            </layoutItems>
+            <layoutItems>
                 <behavior>Required</behavior>
                 <field>ResourceType</field>
             </layoutItems>
+        </layoutColumns>
+        <style>TwoColumnsLeftToRight</style>
+    </layoutSections>
+    <layoutSections>
+        <customLabel>true</customLabel>
+        <detailHeading>true</detailHeading>
+        <editHeading>true</editHeading>
+        <label>Scheduling Rules</label>
+        <layoutColumns>
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>IsCapacityBased</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Description</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
@@ -34,11 +53,30 @@
         <layoutColumns>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>IsActive</field>
+                <field>IsOptimizationCapable</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>IsOptimizationCapable</field>
+                <field>FSL__Efficiency__c</field>
+            </layoutItems>
+        </layoutColumns>
+        <style>TwoColumnsLeftToRight</style>
+    </layoutSections>
+    <layoutSections>
+        <customLabel>true</customLabel>
+        <detailHeading>true</detailHeading>
+        <editHeading>true</editHeading>
+        <label>Gantt</label>
+        <layoutColumns>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>FSL__GanttLabel__c</field>
+            </layoutItems>
+        </layoutColumns>
+        <layoutColumns>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>FSL__Picture_Link__c</field>
             </layoutItems>
         </layoutColumns>
         <style>TwoColumnsLeftToRight</style>
@@ -94,11 +132,6 @@
     </layoutSections>
     <platformActionList>
         <actionListContext>Record</actionListContext>
-        <platformActionListItems>
-            <actionName>RecordShareHierarchy</actionName>
-            <actionType>StandardButton</actionType>
-            <sortOrder>12</sortOrder>
-        </platformActionListItems>
         <platformActionListItems>
             <actionName>SendEmail</actionName>
             <actionType>QuickAction</actionType>
@@ -159,9 +192,31 @@
             <actionType>StandardButton</actionType>
             <sortOrder>11</sortOrder>
         </platformActionListItems>
+        <platformActionListItems>
+            <actionName>RecordShareHierarchy</actionName>
+            <actionType>StandardButton</actionType>
+            <sortOrder>12</sortOrder>
+        </platformActionListItems>
     </platformActionList>
     <relatedLists>
+        <fields>Name</fields>
+        <fields>ParentRecord</fields>
+        <fields>Status</fields>
+        <fields>Delivery_Batch__c</fields>
+        <fields>LUM_Parent_Work_Order__c</fields>
+        <fields>SchedStartTime</fields>
+        <fields>SchedEndTime</fields>
+        <fields>FSL__Duration_In_Minutes__c</fields>
+        <relatedList>ServiceAppointment.LUM_Assigned_Service_Resource__c</relatedList>
+    </relatedLists>
+    <relatedLists>
+        <fields>Name</fields>
+        <fields>WorkOrder</fields>
+        <relatedList>WorkOrderLineItem.Installed_By2__c</relatedList>
+    </relatedLists>
+    <relatedLists>
         <fields>ServiceAppointment</fields>
+        <fields>Id</fields>
         <relatedList>ServiceAppointments</relatedList>
     </relatedLists>
     <relatedLists>
@@ -170,6 +225,14 @@
         <fields>EffectiveStartDate</fields>
         <fields>EffectiveEndDate</fields>
         <relatedList>ServiceResourceSkills</relatedList>
+    </relatedLists>
+    <relatedLists>
+        <fields>Name</fields>
+        <fields>ServiceTerritory</fields>
+        <fields>TerritoryType</fields>
+        <fields>EffectiveStartDate</fields>
+        <fields>EffectiveEndDate</fields>
+        <relatedList>ServiceTerritoryRelatedList</relatedList>
     </relatedLists>
     <relatedLists>
         <fields>TASK.SUBJECT</fields>
@@ -191,14 +254,6 @@
         <relatedList>RelatedHistoryList</relatedList>
     </relatedLists>
     <relatedLists>
-        <fields>Name</fields>
-        <fields>ServiceTerritory</fields>
-        <fields>TerritoryType</fields>
-        <fields>EffectiveStartDate</fields>
-        <fields>EffectiveEndDate</fields>
-        <relatedList>ServiceTerritoryRelatedList</relatedList>
-    </relatedLists>
-    <relatedLists>
         <relatedList>RelatedNoteList</relatedList>
     </relatedLists>
     <relatedLists>
@@ -206,6 +261,12 @@
     </relatedLists>
     <relatedLists>
         <relatedList>RelatedFileList</relatedList>
+    </relatedLists>
+    <relatedLists>
+        <fields>Name</fields>
+        <fields>StartDate</fields>
+        <fields>EndDate</fields>
+        <relatedList>TimeSheets</relatedList>
     </relatedLists>
     <relatedLists>
         <relatedList>RelatedEntityHistoryList</relatedList>
@@ -218,28 +279,6 @@
         <relatedList>ResourceAbsences</relatedList>
     </relatedLists>
     <relatedLists>
-        <fields>StartDate</fields>
-        <fields>EndDate</fields>
-        <fields>CapacityInHours</fields>
-        <fields>CapacityInWorkItems</fields>
-        <fields>TimePeriod</fields>
-        <relatedList>ResourceCapacities</relatedList>
-    </relatedLists>
-    <relatedLists>
-        <fields>Name</fields>
-        <fields>StartDate</fields>
-        <fields>EndDate</fields>
-        <relatedList>TimeSheets</relatedList>
-    </relatedLists>
-    <relatedLists>
-        <fields>Name</fields>
-        <fields>ServiceCrew</fields>
-        <fields>IsLeader</fields>
-        <fields>StartDate</fields>
-        <fields>EndDate</fields>
-        <relatedList>ServiceCrews</relatedList>
-    </relatedLists>
-    <relatedLists>
         <fields>CreatedDate</fields>
         <fields>StepStatus</fields>
         <fields>OriginalActor</fields>
@@ -247,25 +286,11 @@
         <fields>Comments</fields>
         <relatedList>RelatedProcessHistoryList</relatedList>
     </relatedLists>
-    <relatedLists>
-        <fields>Name</fields>
-        <fields>StartTime</fields>
-        <fields>EndTime</fields>
-        <fields>Status</fields>
-        <fields>Label</fields>
-        <relatedList>ServiceResourceShifts</relatedList>
-    </relatedLists>
-    <relatedLists>
-        <fields>OperatingHours</fields>
-        <fields>StartDate</fields>
-        <fields>EndDate</fields>
-        <relatedList>ServiceResourcePreferences</relatedList>
-    </relatedLists>
     <showEmailCheckbox>false</showEmailCheckbox>
     <showRunAssignmentRulesCheckbox>false</showRunAssignmentRulesCheckbox>
     <showSubmitAndAttachButton>false</showSubmitAndAttachButton>
     <summaryLayout>
-        <masterLabel>00h7E000003ZAZB</masterLabel>
+        <masterLabel>00h7Q00000G8hGI</masterLabel>
         <sizeX>4</sizeX>
         <sizeY>0</sizeY>
         <summaryLayoutStyle>Default</summaryLayoutStyle>

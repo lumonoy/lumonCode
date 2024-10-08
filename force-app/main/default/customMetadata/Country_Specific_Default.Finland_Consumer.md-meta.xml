@@ -4,14 +4,14 @@
     <protected>false</protected>
     <values>
         <field>Account_Number__c</field>
-        <value xsi:type="xsd:string">1905514-0</value>
+        <value xsi:nil="true"/>
     </values>
     <values>
-        <field>Business_Type__c</field>
-        <value xsi:type="xsd:string">Consumer</value>
+        <field>BusinessType__c</field>
+        <value xsi:type="xsd:string">1</value>
     </values>
     <values>
-        <field>Country_Code__c</field>
+        <field>CountryCode__c</field>
         <value xsi:type="xsd:string">FI</value>
     </values>
     <values>
@@ -23,31 +23,31 @@
         <value xsi:type="xsd:string">EUR</value>
     </values>
     <values>
-        <field>Default_Currency__c</field>
+        <field>DefaultCurrency__c</field>
         <value xsi:type="xsd:string">EUR</value>
     </values>
     <values>
-        <field>Default_Language__c</field>
+        <field>DefaultFinancingIdentifier__c</field>
         <value xsi:nil="true"/>
     </values>
     <values>
-        <field>District_Type__c</field>
+        <field>DefaultLanguage__c</field>
+        <value xsi:type="xsd:string">fi</value>
+    </values>
+    <values>
+        <field>DistrictType__c</field>
         <value xsi:type="xsd:string">P4</value>
     </values>
     <values>
-        <field>Expiration_Time__c</field>
+        <field>QuoteExpirationTime__c</field>
         <value xsi:type="xsd:double">10.0</value>
     </values>
     <values>
-        <field>Financing_Customer_Number__c</field>
-        <value xsi:type="xsd:string">33000001</value>
-    </values>
-    <values>
-        <field>Quote_Expiration__c</field>
+        <field>QuoteExpiration__c</field>
         <value xsi:type="xsd:boolean">true</value>
     </values>
     <values>
-        <field>VAT__c</field>
-        <value xsi:type="xsd:double">24.0</value>
+        <field>ValueAddedTax__c</field>
+        <value xsi:type="xsd:double">25.0</value>
     </values>
 </CustomMetadata>

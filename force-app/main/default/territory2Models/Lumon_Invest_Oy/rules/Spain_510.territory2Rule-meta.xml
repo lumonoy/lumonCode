@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Territory2Rule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <name>Spain 510</name>
+    <objectType>Account</objectType>
+    <ruleItems>
+        <field>Account.Sales_Area_Cost_Center__c</field>
+        <operation>contains</operation>
+        <value>510</value>
+    </ruleItems>
+</Territory2Rule>

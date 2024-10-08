@@ -5,7 +5,7 @@
 ({
     doInit : function(component, evt, helper) {
         window.addEventListener("message", (event) => {
-            console.log('!! event: ' + event.data);
+            console.log('--- SoveliaContainer - Event: ' + event.data);
             if (event.data.indexOf('closeSovelia') != -1) {
                 var toastEvent = $A.get("e.force:showToast");
 				toastEvent.setParams({
@@ -21,7 +21,7 @@
 					1000
 				);
             }
-			if (event.data.substring(0,1) == ':') {
+            if (event.data.substring(0,1) == ':') {
                 window.location.href = event.data.substring(1);
             }
 		}, false);
@@ -35,7 +35,7 @@
 			if(resp.getState() === "SUCCESS") {
 				var retVal = resp.getReturnValue();
 				if (retVal.errorMessage) {
-					console.log(retVal.errorMessage);
+					console.error('--- SoveliaContainer - Error: '+retVal.errorMessage);
 				    var toastEvent = $A.get("e.force:showToast");
 					toastEvent.setParams({
 						type : 'error',
@@ -47,6 +47,7 @@
 
 				if (!retVal.rvn) {
 				    var toastEvent = $A.get("e.force:showToast");
+					console.error('--- SoveliaContainer - Error: Missing RVN');
 					toastEvent.setParams({
 						type : 'error',
 						message: 'RVN not populated correctly!'
@@ -55,7 +56,7 @@
 					return;
     			}
 				var isNew = !retVal.configurationProductId;
-    			console.log('!!! Params to be sent to blinds: ' + JSON.stringify({
+    			console.info('--- SoveliaContainer - Canvas Params to be sent to Sovelia: ' + JSON.stringify({
 					opportunityId: retVal.opportunityId,
 					rvn: retVal.rvn,
 					new: isNew
@@ -68,6 +69,7 @@
 			} else {
 				console.log(JSON.stringify(resp.getError()));
 				var toastEvent = $A.get("e.force:showToast");
+				console.error('--- SoveliaContainer - Error: '+SON.stringify(resp.getError())); 
 				toastEvent.setParams({
 					type : 'error',
 					message: 'Error occured! Please contact admin.' + JSON.stringify(resp.getError())
@@ -79,7 +81,9 @@
 	},
 
 	closePage : function() {
+		console.log('--- SoveliaContainer - Closing Tab'); 
 		var win = window.open("","_self");
         win.close();
  	}
+	    
 });

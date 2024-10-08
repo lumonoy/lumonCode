@@ -44,10 +44,10 @@
         <accessLevel>Read</accessLevel>
         <label>Leads Shared with_sales BU Vantaa West</label>
         <sharedTo>
-            <group>SA_FI_LSU_Vantaa_West</group>
+            <group>SA_LSU_FI_4010</group>
         </sharedTo>
         <sharedFrom>
-            <group>SA_FI_LSU_Vantaa_West</group>
+            <group>SA_LSU_FI_4010</group>
         </sharedFrom>
     </sharingOwnerRules>
 </SharingRules>

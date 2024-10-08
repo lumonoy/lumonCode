@@ -3,9 +3,10 @@
     <fullName>All</fullName>
     <columns>NAME</columns>
     <columns>Configuration_Name__c</columns>
-    <columns>Visual_Version__c</columns>
+    <columns>CREATED_DATE</columns>
     <columns>LAST_UPDATE</columns>
-    <columns>RVN_Number__c</columns>
+    <columns>Visual_Structure_Number__c</columns>
+    <columns>Visual_Id__c</columns>
     <filterScope>Everything</filterScope>
     <label>All</label>
 </ListView>

@@ -2,19 +2,19 @@
 <ListView xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>FI_Delivery_Schedules</fullName>
     <columns>NAME</columns>
-    <columns>Postal_Code__c</columns>
+    <columns>PostalCode__c</columns>
     <columns>Monday__c</columns>
     <columns>Tuesday__c</columns>
     <columns>Wednesday__c</columns>
     <columns>Thursday__c</columns>
     <columns>Friday__c</columns>
-    <columns>Delivery_Duration__c</columns>
-    <columns>Delivery_Days__c</columns>
+    <columns>DeliveryDuration__c</columns>
+    <columns>DeliveryDays__c</columns>
     <filterScope>Everything</filterScope>
     <filters>
-        <field>Country_Code__c</field>
+        <field>CountryCode__c</field>
         <operation>equals</operation>
         <value>FI</value>
     </filters>
-    <label>FI Delivery Schedules</label>
+    <label>Finland Delivery Schedules</label>
 </ListView>

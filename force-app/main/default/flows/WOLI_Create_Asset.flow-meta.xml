@@ -331,7 +331,7 @@
         <expression>&quot;[R] &quot;&amp;{!$Record.Configuration_Product__r.Name} &amp; &quot;: &quot; &amp; {!$Record.Street}</expression>
     </formulas>
     <interviewLabel>WOLI - Create Asset {!$Flow.CurrentDateTime}</interviewLabel>
-    <label>WOLI - Create Asset R2.3</label>
+    <label>WOLI - Create Asset</label>
     <processMetadataValues>
         <name>BuilderType</name>
         <value>

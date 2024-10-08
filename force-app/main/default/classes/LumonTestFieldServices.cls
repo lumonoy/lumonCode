@@ -2,7 +2,7 @@
  * @description       : 
  * @author            : Henk Reynders
  * @group             : 
- * @last modified on  : 12-11-2023
+ * @last modified on  : 06-19-2024
  * @last modified by  : Henk Reynders
 **/
 @IsTest
@@ -344,7 +344,7 @@ public with sharing class LumonTestFieldServices {
                                             Opportunity__c = opportunityId,
                                             Name='FSL Configuration',
                                             Plan_Apartment__c = 'C1',// public String apartment; // Door Nbr in Apartment
-                                            Plan_Floor__c = 6,// public Integer floor; // Floor Nbr in Building
+                                            Plan_Floor__c = '6',// public Integer floor; // Floor Nbr in Building
                                             Visual_Id__c = 'FSL-ABCDE1',//public String Id; // Unique Visual Configuration Id
                                             Plan_Line__c = '100',// public String line; //?
                                             Plan_Name__c = 'FSL Plan 1',// public String name; // Name of the Configuration

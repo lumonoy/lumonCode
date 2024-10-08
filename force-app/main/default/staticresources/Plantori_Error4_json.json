@@ -1,0 +1,294 @@
+{
+	"order": {
+		"order_info": {
+			"axcompanyid": "LCE",
+			"currency": "EUR",
+			"customer_reference": "",
+			"order_type": "Normal",
+			"order_number": "90007719",
+			"vendorid": "",
+			"project_number": "803136",
+			"parent_project": "",
+			"project_group": "CONSales",
+			"customer_segmentid": "1000",
+			"customer_segmentname": "Consumer apartment building",
+			"promised_deliveryweek": "2024/38",
+			"promised_date": "20.09.2024",
+			"main_contractor": "no",
+			"business_unit": "510",
+			"order_attachment": "\\\\frendsprod\\D365TEST\\SalesTori\\OUT\\attachments\\",
+			"subproject_info": {
+				"subproject_number": "803136_01",
+				"subproject_group": "CONWar",
+				"subproject_category": "Warranty",
+				"subproject_cost": "8.75",
+				"subproject_ordertype": "Reclamation",
+				"subproject_parentproject": "803136",
+				"subproject_chargeable": "non-chargeable"
+			},
+			"budget": {
+				"project_category": [
+					{
+						"category": "FactoryPurchase",
+						"cost": "852.09"
+					},
+					{
+						"category": "InstallSupplies",
+						"cost": "110.80"
+					},
+					{
+						"category": "SalesFreight",
+						"cost": "259.02"
+					},
+					{
+						"category": "Wages",
+						"cost": "269.50"
+					},
+					{
+						"category": "CostReserv",
+						"cost": "15.60"
+					}
+				]
+			},
+			"domestic_help": "",
+			"domestic_text": "",
+			"chargeable": "chargeable",
+			"worknumbername": "",
+			"pricelist": {
+				"pricelist_name": "Basic price list 1.4.2022"
+			},
+			"customer_address": {
+				"address_description": "Tes LTP Test LTP",
+				"firstname": "Test LTP",
+				"lastname": "Tes LTP",
+				"contact_person": "Test LTP",
+				"street_address": "Test",
+				"city": "Torremolinos (M\ufffdlaga)",
+				"postal_code": "29620",
+				"fax": "",
+				"country": "ESP",
+				"province": "AN",
+				"county": "29",
+				"phone_number": "+3412341",
+				"email": "Test@LTP.com",
+				"note": "",
+				"number": "",
+				"customer_id": "Test LTP",
+				"customer_name": "Test LTP Tes LTP"
+			},
+			"invoice_address": {
+				"address_description": "Tes LTP Test LTP",
+				"firstname": "Test LTP",
+				"lastname": "Tes LTP",
+				"contact_person": "Test LTP",
+				"street_address": "Test",
+				"city": "Torremolinos (M\ufffdlaga)",
+				"postal_code": "29620",
+				"fax": "",
+				"country": "ESP",
+				"province": "AN",
+				"county": "29",
+				"phone_number": "+3412341",
+				"email": "Test@LTP.com",
+				"note": "",
+				"payment_terms": "14",
+				"invoice_type": "Email",
+				"number": "",
+				"payment": "REF",
+				"paytrail_reference_id": ""
+			},
+			"install_address": {
+				"address_description": "Tes LTP Test LTP",
+				"firstname": "Test LTP",
+				"lastname": "Tes LTP",
+				"name": "Test Lower Telescopic Profile LTP",
+				"contact_person": "",
+				"street_address": "Test",
+				"city": "Torremolinos (M\ufffdlaga)",
+				"postal_code": "29620",
+				"fax": "",
+				"country": "ESP",
+				"province": "AN",
+				"county": "29",
+				"phone_number": "+3412341",
+				"email": "Test@LTP.com",
+				"note": "",
+				"number": null
+			},
+			"delivery_address": {
+				"address_description": "LUMON CRISTALES ESPA\ufffdA SL",
+				"firstname": "LUMON CRISTALES ESPA\ufffdA SL",
+				"lastname": "",
+				"contact_person": "Tes LTP Test LTP",
+				"street_address": "C/ LICURGO, N\ufffd 53",
+				"city": "M\ufffdLAGA",
+				"postal_code": "29004",
+				"fax": "",
+				"country": "ESP",
+				"province": "",
+				"county": "",
+				"phone_number": "+3412341",
+				"email": "Test@LTP.com",
+				"note": "",
+				"number": null,
+				"delivery_terms": "DAP",
+				"delivery_type": "delivery"
+			},
+			"sales_person": {
+				"username": "antoniov",
+				"supervisor": "marinac",
+				"firstname": "Antonio",
+				"lastname": "Valero Ortega"
+			},
+			"propertytype": "House",
+			"order_leadreference_vch": "Stand/Presentation/Trailer event",
+			"language_code_lan": "es-ES"
+		},
+		"groups": {
+			"group": [
+				{
+					"delivery_batch": "1",
+					"delivery_batch_status": "Mitattu",
+					"delivery_batch_receive_date": "16.09.2024",
+					"delivery_batch_delivery_date": "06.09.2024",
+					"group_attachment": "",
+					"AXconfiguration": "no",
+					"group_name": "Lumon Glazing",
+					"pcs": "1",
+					"structurenumber": "9000771930017308",
+					"originalstructurenumber": "",
+					"install_start_date": "16.09.2024",
+					"install_end_date": "20.09.2024",
+					"additional_deliverytime": "0",
+					"process": "Normal",
+					"product_code": "90240001",
+					"storageid": "MLG",
+					"packing_order": "1",
+					"unit": "",
+					"line": "",
+					"floor": "",
+					"chargeable": "chargeable",
+					"sales_price": "2644.80",
+					"sproduct": "1697.70",
+					"sfreight": "518.00",
+					"sinstall": "287.00",
+					"sother": "142.00",
+					"purchase_price": "852.10",
+					"pproduct": "852.10",
+					"pfreight": "0.00",
+					"pinstall": "0.00",
+					"pother": "0.00",
+					"calculated_salesprice": "2644.80",
+					"factory_price": "852.10",
+					"fproduct": "852.10",
+					"ffreight": "0.00",
+					"finstall": "0.00",
+					"fother": "0.00",
+					"contract_price": "0.00",
+					"salestori_plan_name": "GWISE",
+					"glass_m2": "6.00",
+					"blinds_m2": "5.34",
+					"glass_pcs": "4",
+					"product_length": "3000",
+					"group_weight": "161.23",
+					"product_attributes": {
+						"attributeid": "20090016"
+					},
+					"installed": "True",
+					"OrderLine": {
+						"BOMVersion": "9000771930017308",
+						"ItemID": "90240001",
+						"ItemName": "LG",
+						"InventLocationID": "MLG",
+						"Dimension1": "510",
+						"Dimension5": "marinac",
+						"DeliveryName": "Test LTP Tes LTP",
+						"DeliveryStreet": "C/ LICURGO, Nº 53",
+						"DeliveryZipCode": "29004",
+						"DeliveryCity": "MÁLAGA",
+						"DeliveryCountryRegionID": "ES",
+						"LineAmount": "2644.80",
+						"Apartment": "",
+						"Floor": "",
+						"DlvBatchID": "0",
+						"Line": "",
+						"FactoryConfirmedDlv": "",
+						"InstallHours": "8.94",
+						"InstallStart": "16.09.2024",
+						"ReservationStart": "2024-09-16T00.00.00",
+						"DeliveryDatePromised": "20.09.2024",
+						"Plan_name": "GWISE",
+						"PieceWork_pay": "0.00"
+					},
+					"AssemblyInstructions": {
+						"InstallNotes": "",
+						"Attachments": {
+							"Attachment": "salestori-tarjeta de montaje-9000771930017308.pdf",
+							"Folder": "\\269000\\269920\\"
+						},
+						"AssemblyDocument": [
+							{
+								"name": "Tilaustiedot",
+								"Chapter": [
+									{
+										"name": "Perustiedot",
+										"Paragraph": [
+											{
+												"name": "Content",
+												"text": "Tes LTP Test LTP\r\nTest 29620 Torremolinos (Málaga)\r\nPuhelin +3412341"
+											}
+										]
+									},
+									{
+										"name": "Tilaustiedot",
+										"Paragraph": [
+											{
+												"name": "Content",
+												"text": "Asiakaslupaus 20/09/2024\r\nTilausnumero 90007719\r\nLinja \r\nKerros \r\nAsunto \r\nRVN 9000771930017308"
+											}
+										]
+									}
+								]
+							},
+							{
+								"name": "Asennustiedot",
+								"Chapter": [
+									{
+										"name": "Tuotetiedot",
+										"Paragraph": [
+											{
+												"name": "Tuote",
+												"text": "LG , lados:1"
+											},
+											{
+												"name": "Kiinnitystapa",
+												"text": "Superior: A techo, Inferior: A suelo"
+											},
+											{
+												"name": "Profiilit",
+												"text": "Superior: 11241205 RAL7024, Inferior: 11243001 11243001 "
+											},
+											{
+												"name": "Varusteet",
+												"text": "Piezas plásticas: Gris oscuro, Tapaderas"
+											}
+										]
+									},
+									{
+										"name": "Tuotemitat",
+										"Paragraph": [
+											{
+												"name": "Sivu1,H3=1848",
+												"text": "Angulo inicial=60 Angulo final=60 Ancho=3000 Medida-Z=0 Altura=2000 Descuento inferior (X)=0 Descuento superior (Y)=0 Hojas izq=4 Hojas dcha=0 Angulo sistema= Pasa-ángulo=No Tornillo= \r\nPerfil superior: 11241205 RAL7024\r\nPerfil inferior: 11243001 RAL7024\r\nPerfil expansor: 11222206 RAL7024\r\nVidrio1: Ancho=731 Altura=1836\r\nVidrio2: Ancho=731 Altura=1836\r\nVidrio3: Ancho=731 Altura=1836\r\nVidrio4: Ancho=731 Altura=1836\r\n"
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				}
+			]
+		}
+	}
+}

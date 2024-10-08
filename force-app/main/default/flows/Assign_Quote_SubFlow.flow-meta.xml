@@ -115,7 +115,7 @@
 02.12.2023: Save Active Version as R2</description>
     <environments>Default</environments>
     <interviewLabel>Opportunity - Create Quote SubFlow {!$Flow.CurrentDateTime}</interviewLabel>
-    <label>Opportunity - Assign Quote SubFlow R2</label>
+    <label>Assign Synced Quote SubFlow R2.5.5</label>
     <processMetadataValues>
         <name>BuilderType</name>
         <value>

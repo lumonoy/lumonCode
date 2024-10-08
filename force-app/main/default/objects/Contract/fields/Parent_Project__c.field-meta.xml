@@ -4,7 +4,7 @@
     <description>Parent project value for subproject used for integration</description>
     <externalId>false</externalId>
     <formula>IF(Opportunity__r.Parent_Project__c != NULL, Opportunity__r.Project_Number__r.Parent_Project__r.Project_Value__c  ,&apos;&apos;)</formula>
-    <label>Parent Project</label>
+    <label>Parent Project OLD</label>
     <required>false</required>
     <trackHistory>false</trackHistory>
     <type>Text</type>

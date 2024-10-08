@@ -2,17 +2,12 @@
  * @description       : 
  * @author            : Henk Reynders
  * @group             : 
- * @last modified on  : 12-03-2023
+ * @last modified on  : 06-04-2024
  * @last modified by  : Henk Reynders
 **/
 @isTest
-public with sharing  class LumonTestPricingSummaries {
-    @TestVisible private static List<Pricing_Summary__c> b2cPricingSummaries{
-        get{
-            return  [SELECT Id FROM Pricing_Summary__c];
-        }
-    }
-	public static Id setupPricingSummaryB2C(Id opportunityId) {        
+public class LumonTestPricingSummaries {
+	public static Id setupPricingSummary(Id opportunityId) {        
         Opportunity opp = [SELECT Id,AccountId, SyncedQuoteId,
                                   Organization__c,Business_Type__c ,
                            			Country_Attribute__c,District__c,
@@ -43,5 +38,53 @@ public with sharing  class LumonTestPricingSummaries {
         summary.currencyIsoCode = 'EUR';
 		upsert summary;
         return summary.Id;
+    }
+    public static void setupPricingSummaryB2C(){ 
+        Id b2cOpportunityId = LumonTestVariables.b2cOpportunityId;
+        setupPricingSummary(b2cOpportunityId);
+    } 
+    public static void setupPricingSummaryB2B(){ 
+        Id b2cOpportunityId = LumonTestVariables.b2cOpportunityId;
+        setupPricingSummary(b2cOpportunityId);
+    } 
+    public static void setupPricingSummaryData(){ 
+        setupPricingSummaryB2C();
+        setupPricingSummaryB2B();
+    }  
+    @TestSetup
+    static void prepareData() {
+        List<Opportunity> opportunities = LumonTestVariables.opportunities;
+        Test.startTest();
+        if (Opportunities?.size()>0){
+            system.debug('--- LumonTestPricingSummaries - Using existing Test Opportunities');
+        } else {
+            LumonTestOpportunities.setupOpportunityData();
+        }
+        Id b2cOpportunityId = LumonTestVariables.b2cOpportunityId;
+        if (String.isBlank(b2cOpportunityId)){
+            LumonTestOpportunities.setupOpportunityB2C();
+        }
+        Id b2bOpportunityId = LumonTestVariables.b2bOpportunityId;
+        if (String.isBlank(b2bOpportunityId)){
+            LumonTestOpportunities.setupOpportunityB2B();
+        }
+        Test.stopTest();
+    }
+    @IsTest
+    static void setupPricingSummaryDataTest(){
+        String testResult;
+        Test.startTest();
+        try {
+            setupPricingSummaryData();
+            testResult = 'successfully inserted Pricing Summaries';
+            List<Pricing_Summary__c> pricingSummaries = LumonTestVariables.pricingSummaries;
+        } catch (exception e){
+            testResult = 'Error when inserting Opportunities: '+e.getMessage();
+        }
+        System.debug('--- LumonTestPricingSummaries - CPU TIME: '+LIMITS.getCpuTime());
+        System.debug('--- LumonTestPricingSummaries - Queries used: '+LIMITS.getQueries());
+        Test.stopTest();    
+        System.debug('--- LumonTestPricingSummaries - Test Result: '+testResult);   
+        System.AssertNotEquals(true, testResult.contains('Error'));      
     }
 }

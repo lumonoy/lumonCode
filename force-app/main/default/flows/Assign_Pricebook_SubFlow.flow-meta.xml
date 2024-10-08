@@ -5,7 +5,7 @@
         <name>Assign_Best_Pricebook</name>
         <label>Assign Best Pricebook</label>
         <locationX>1194</locationX>
-        <locationY>3362</locationY>
+        <locationY>3854</locationY>
         <assignmentItems>
             <assignToReference>txt0BestPriceBook</assignToReference>
             <operator>Assign</operator>
@@ -21,7 +21,7 @@
         <name>Assign_Business_Pricebook</name>
         <label>Assign Business Pricebook</label>
         <locationX>1458</locationX>
-        <locationY>3362</locationY>
+        <locationY>3854</locationY>
         <assignmentItems>
             <assignToReference>txt1BusinessPriceBook</assignToReference>
             <operator>Assign</operator>
@@ -37,7 +37,7 @@
         <name>Assign_Country_Pricebook</name>
         <label>Assign Country Pricebook</label>
         <locationX>1986</locationX>
-        <locationY>3362</locationY>
+        <locationY>3854</locationY>
         <assignmentItems>
             <assignToReference>txt4CountryPriceBook</assignToReference>
             <operator>Assign</operator>
@@ -53,7 +53,7 @@
         <name>Assign_Current_Pricebook</name>
         <label>Assign Current Pricebook</label>
         <locationX>2250</locationX>
-        <locationY>3362</locationY>
+        <locationY>3854</locationY>
         <assignmentItems>
             <assignToReference>txt5CurrentPriceBook</assignToReference>
             <operator>Assign</operator>
@@ -69,7 +69,7 @@
         <name>Assign_Latest_Pricebook</name>
         <label>Assign Latest Pricebook</label>
         <locationX>2514</locationX>
-        <locationY>3362</locationY>
+        <locationY>3854</locationY>
         <assignmentItems>
             <assignToReference>txt6LatestPricebook</assignToReference>
             <operator>Assign</operator>
@@ -85,7 +85,7 @@
         <name>Assign_Sales_Area_Pricebook</name>
         <label>Assign Sales Area Pricebook</label>
         <locationX>1722</locationX>
-        <locationY>3362</locationY>
+        <locationY>3854</locationY>
         <assignmentItems>
             <assignToReference>txt3ProfitCenterPricebook</assignToReference>
             <operator>Assign</operator>
@@ -101,7 +101,7 @@
         <name>Assign_Standard_Pricebook</name>
         <label>Assign Standard Pricebook</label>
         <locationX>2778</locationX>
-        <locationY>3362</locationY>
+        <locationY>3854</locationY>
         <assignmentItems>
             <assignToReference>txt6LatestPricebook</assignToReference>
             <operator>Assign</operator>
@@ -117,7 +117,7 @@
         <name>Clear_Customer</name>
         <label>Clear Customer</label>
         <locationX>1238</locationX>
-        <locationY>1814</locationY>
+        <locationY>1922</locationY>
         <assignmentItems>
             <assignToReference>txtCustomer</assignToReference>
             <operator>Assign</operator>
@@ -130,7 +130,7 @@
         <name>Set_Best_Pricebook</name>
         <label>Set Best Pricebook</label>
         <locationX>50</locationX>
-        <locationY>3746</locationY>
+        <locationY>4238</locationY>
         <assignmentItems>
             <assignToReference>pricebookId</assignToReference>
             <operator>Assign</operator>
@@ -140,10 +140,26 @@
         </assignmentItems>
     </assignments>
     <assignments>
+        <name>Set_Building_Attributes</name>
+        <label>Set Building Attributes</label>
+        <locationX>1106</locationX>
+        <locationY>1382</locationY>
+        <assignmentItems>
+            <assignToReference>txtBuildingCountryCode</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>recOpportunity.Building_Country_Attribute__c</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Set_Customer_Attributes</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
         <name>Set_Business_Pricebook</name>
         <label>Set Business Pricebook</label>
         <locationX>314</locationX>
-        <locationY>3746</locationY>
+        <locationY>4238</locationY>
         <assignmentItems>
             <assignToReference>pricebookId</assignToReference>
             <operator>Assign</operator>
@@ -157,7 +173,7 @@
         <name>Set_Country_Attribute</name>
         <label>Set Country Attribute</label>
         <locationX>1238</locationX>
-        <locationY>2414</locationY>
+        <locationY>2522</locationY>
         <assignmentItems>
             <assignToReference>txtCountryCode</assignToReference>
             <operator>Assign</operator>
@@ -166,14 +182,14 @@
             </value>
         </assignmentItems>
         <connector>
-            <targetReference>Get_Possible_PriceBooks</targetReference>
+            <targetReference>Which_Business_Type</targetReference>
         </connector>
     </assignments>
     <assignments>
         <name>Set_Country_Pricebook</name>
         <label>Set Country Pricebook</label>
         <locationX>1106</locationX>
-        <locationY>3746</locationY>
+        <locationY>4238</locationY>
         <assignmentItems>
             <assignToReference>pricebookId</assignToReference>
             <operator>Assign</operator>
@@ -186,7 +202,7 @@
         <name>Set_Current_Pricebook</name>
         <label>Set Current Pricebook</label>
         <locationX>1370</locationX>
-        <locationY>3746</locationY>
+        <locationY>4238</locationY>
         <assignmentItems>
             <assignToReference>pricebookId</assignToReference>
             <operator>Assign</operator>
@@ -199,7 +215,7 @@
         <name>Set_Customer_Attributes</name>
         <label>Set Customer Attributes</label>
         <locationX>1106</locationX>
-        <locationY>1382</locationY>
+        <locationY>1490</locationY>
         <assignmentItems>
             <assignToReference>txtCustomerType</assignToReference>
             <operator>Assign</operator>
@@ -219,6 +235,13 @@
             <operator>Assign</operator>
             <value>
                 <elementReference>recOpportunity.Customer_Number__c</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>txtCustomerOrganization</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>recOpportunity.Account.Sales_Organization__c</elementReference>
             </value>
         </assignmentItems>
         <connector>
@@ -245,7 +268,7 @@
         <name>Set_Opportunity_Attributes</name>
         <label>Set Opportunity Attributes</label>
         <locationX>1106</locationX>
-        <locationY>1490</locationY>
+        <locationY>1598</locationY>
         <assignmentItems>
             <assignToReference>txtBuildingCountry</assignToReference>
             <operator>Assign</operator>
@@ -314,14 +337,14 @@
             </value>
         </assignmentItems>
         <connector>
-            <targetReference>Set_Customer_Attributes</targetReference>
+            <targetReference>Set_Building_Attributes</targetReference>
         </connector>
     </assignments>
     <assignments>
         <name>Set_Pricebook</name>
         <label>Set Pricebook</label>
         <locationX>2118</locationX>
-        <locationY>3146</locationY>
+        <locationY>3638</locationY>
         <assignmentItems>
             <assignToReference>recPricebook</assignToReference>
             <operator>Assign</operator>
@@ -337,7 +360,7 @@
         <name>Set_Profit_Center_Pricebook</name>
         <label>Set Profit Center Pricebook</label>
         <locationX>842</locationX>
-        <locationY>3746</locationY>
+        <locationY>4238</locationY>
         <assignmentItems>
             <assignToReference>pricebookId</assignToReference>
             <operator>Assign</operator>
@@ -350,7 +373,7 @@
         <name>Set_Project_Attributes</name>
         <label>Set Project Attributes</label>
         <locationX>1106</locationX>
-        <locationY>1598</locationY>
+        <locationY>1706</locationY>
         <assignmentItems>
             <assignToReference>dateProjectStart</assignToReference>
             <operator>Assign</operator>
@@ -366,7 +389,7 @@
         <name>Set_Standard_Pricebook</name>
         <label>Set Standard Pricebook</label>
         <locationX>1898</locationX>
-        <locationY>3746</locationY>
+        <locationY>4238</locationY>
         <assignmentItems>
             <assignToReference>pricebookId</assignToReference>
             <operator>Assign</operator>
@@ -380,7 +403,7 @@
         <name>SetCustomer</name>
         <label>Set Customer</label>
         <locationX>974</locationX>
-        <locationY>1814</locationY>
+        <locationY>1922</locationY>
         <assignmentItems>
             <assignToReference>txtCustomer</assignToReference>
             <operator>Assign</operator>
@@ -396,7 +419,7 @@
         <name>SetLatestPricebook</name>
         <label>Set Latest Pricebook</label>
         <locationX>1634</locationX>
-        <locationY>3746</locationY>
+        <locationY>4238</locationY>
         <assignmentItems>
             <assignToReference>pricebookId</assignToReference>
             <operator>Assign</operator>
@@ -409,7 +432,7 @@
         <name>SetNoPricebook</name>
         <label>Set No Pricebook</label>
         <locationX>2162</locationX>
-        <locationY>3746</locationY>
+        <locationY>4238</locationY>
         <assignmentItems>
             <assignToReference>pricebookId</assignToReference>
             <operator>Assign</operator>
@@ -419,7 +442,7 @@
         <name>SetSalesAreaPricebook</name>
         <label>Set Sales Area Pricebook</label>
         <locationX>578</locationX>
-        <locationY>3746</locationY>
+        <locationY>4238</locationY>
         <assignmentItems>
             <assignToReference>pricebookId</assignToReference>
             <operator>Assign</operator>
@@ -433,7 +456,7 @@
         <name>Update_Country_Attribute</name>
         <label>Update Country Attribute</label>
         <locationX>974</locationX>
-        <locationY>2414</locationY>
+        <locationY>2522</locationY>
         <assignmentItems>
             <assignToReference>txtCountryCode</assignToReference>
             <operator>Assign</operator>
@@ -442,7 +465,7 @@
             </value>
         </assignmentItems>
         <connector>
-            <targetReference>Get_Possible_PriceBooks</targetReference>
+            <targetReference>Which_Business_Type</targetReference>
         </connector>
     </assignments>
     <assignments>
@@ -450,12 +473,12 @@
         <name>Update_Org_Attribute</name>
         <label>Update Org Attribute</label>
         <locationX>974</locationX>
-        <locationY>2114</locationY>
+        <locationY>2222</locationY>
         <assignmentItems>
             <assignToReference>txtOrganization</assignToReference>
             <operator>Assign</operator>
             <value>
-                <elementReference>txtOwnerOrg</elementReference>
+                <elementReference>txtCustomerOrganization</elementReference>
             </value>
         </assignmentItems>
         <connector>
@@ -467,7 +490,7 @@
         <elementSubtype>FilterCollectionProcessor</elementSubtype>
         <label>Filter on Active Pricebooks</label>
         <locationX>1106</locationX>
-        <locationY>2822</locationY>
+        <locationY>3314</locationY>
         <assignNextValueToReference>currentItem_Filter_on_Active_Pricebooks_0</assignNextValueToReference>
         <collectionProcessorType>FilterCollectionProcessor</collectionProcessorType>
         <collectionReference>Get_Possible_PriceBooks</collectionReference>
@@ -495,7 +518,7 @@
         <elementSubtype>SortCollectionProcessor</elementSubtype>
         <label>Sort Active PriceBooks</label>
         <locationX>1106</locationX>
-        <locationY>2930</locationY>
+        <locationY>3422</locationY>
         <collectionProcessorType>SortCollectionProcessor</collectionProcessorType>
         <collectionReference>Filter_on_Active_Pricebooks</collectionReference>
         <connector>
@@ -517,7 +540,7 @@
         <elementSubtype>SortCollectionProcessor</elementSubtype>
         <label>Sort Matching PriceBooks</label>
         <locationX>1106</locationX>
-        <locationY>2714</locationY>
+        <locationY>3206</locationY>
         <collectionProcessorType>SortCollectionProcessor</collectionProcessorType>
         <collectionReference>Get_Possible_PriceBooks</collectionReference>
         <connector>
@@ -543,7 +566,7 @@
         <name>Assign_Customer_Price_Book</name>
         <label>Assign Customer Price Book?</label>
         <locationX>1106</locationX>
-        <locationY>1706</locationY>
+        <locationY>1814</locationY>
         <defaultConnector>
             <targetReference>Clear_Customer</targetReference>
         </defaultConnector>
@@ -615,10 +638,35 @@
         </rules>
     </decisions>
     <decisions>
+        <name>Is_Building_Set</name>
+        <label>Is Building Set?</label>
+        <locationX>1106</locationX>
+        <locationY>2906</locationY>
+        <defaultConnector>
+            <targetReference>Get_Possible_PriceBooks</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Building</defaultConnectorLabel>
+        <rules>
+            <name>No_Building</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>recOpportunity.Building__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Get_Possible_PriceBooks</targetReference>
+            </connector>
+            <label>No Building</label>
+        </rules>
+    </decisions>
+    <decisions>
         <name>Is_Customer_Country_Different_From_User</name>
         <label>Is Customer Country Different From User?</label>
         <locationX>1106</locationX>
-        <locationY>2306</locationY>
+        <locationY>2414</locationY>
         <defaultConnector>
             <targetReference>Set_Country_Attribute</targetReference>
         </defaultConnector>
@@ -657,7 +705,7 @@
         <name>Is_Matching_Pricebook_Found</name>
         <label>Is Matching Pricebook Found?</label>
         <locationX>2118</locationX>
-        <locationY>3254</locationY>
+        <locationY>3746</locationY>
         <defaultConnector>
             <targetReference>LoopMatchingPriceBooks</targetReference>
         </defaultConnector>
@@ -954,7 +1002,7 @@
         <name>Is_Opportunity_Org_Set</name>
         <label>Is Opportunity Org Set?</label>
         <locationX>1106</locationX>
-        <locationY>2006</locationY>
+        <locationY>2114</locationY>
         <defaultConnector>
             <targetReference>Is_Customer_Country_Different_From_User</targetReference>
         </defaultConnector>
@@ -1027,6 +1075,61 @@
         </rules>
     </decisions>
     <decisions>
+        <name>Which_Business_Type</name>
+        <label>Which Business Type?</label>
+        <locationX>1106</locationX>
+        <locationY>2714</locationY>
+        <defaultConnector>
+            <targetReference>Is_Building_Set</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Other</defaultConnectorLabel>
+        <rules>
+            <name>Consumer</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>txtBusinessType</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Consumer</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Is_Building_Set</targetReference>
+            </connector>
+            <label>Consumer</label>
+        </rules>
+        <rules>
+            <name>Reseller</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>txtBusinessType</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Reseller</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Is_Building_Set</targetReference>
+            </connector>
+            <label>Reseller</label>
+        </rules>
+        <rules>
+            <name>Project</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>txtBusinessType</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Project</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Is_Building_Set</targetReference>
+            </connector>
+            <label>Project</label>
+        </rules>
+    </decisions>
+    <decisions>
         <name>Which_Object</name>
         <label>Which Object?</label>
         <locationX>2228</locationX>
@@ -1052,7 +1155,7 @@
         <name>Which_Pricebook_Was_Set</name>
         <label>Which Pricebook Was Set?</label>
         <locationX>1106</locationX>
-        <locationY>3638</locationY>
+        <locationY>4130</locationY>
         <defaultConnector>
             <targetReference>SetNoPricebook</targetReference>
         </defaultConnector>
@@ -1178,17 +1281,15 @@
             <label>Standard Pricebook</label>
         </rules>
     </decisions>
-    <description>AutoLaunched Flow for finding the Best Matching Pricebook and Assigning it
--&gt; Added Filter to exclude Pricelists
-02.12.2023: Save Active Version as R2</description>
+    <description>SubFlow to Set the Best Matching Pricebook and Assigning it to a Sales Record</description>
     <environments>Default</environments>
     <interviewLabel>Assign Pricebook SubFlow {!$Flow.CurrentDateTime}</interviewLabel>
-    <label>Opportunity - Assign Pricebook SubFlow R2</label>
+    <label>Opportunity - Assign Pricebook SubFlow R2.5.5</label>
     <loops>
         <name>LoopMatchingPriceBooks</name>
         <label>Loop Matching PriceBooks</label>
         <locationX>1106</locationX>
-        <locationY>3038</locationY>
+        <locationY>3530</locationY>
         <collectionReference>Filter_on_Active_Pricebooks</collectionReference>
         <iterationOrder>Asc</iterationOrder>
         <nextValueConnector>
@@ -1246,7 +1347,7 @@
         <name>Get_Possible_PriceBooks</name>
         <label>Get Possible PriceBooks</label>
         <locationX>1106</locationX>
-        <locationY>2606</locationY>
+        <locationY>3098</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>Sort_Matching_PriceBooks</targetReference>
@@ -1308,7 +1409,7 @@
             <targetReference>Skip_Automation</targetReference>
         </connector>
     </start>
-    <status>Active</status>
+    <status>Draft</status>
     <subflows>
         <name>Get_ObjectType</name>
         <label>Get ObjectType</label>
@@ -1317,7 +1418,7 @@
         <connector>
             <targetReference>Which_Object</targetReference>
         </connector>
-        <flowName>DetermineObjectTypeSubFlow</flowName>
+        <flowName>Get_ObjectType_SubFlow</flowName>
         <inputAssignments>
             <name>recordId</name>
             <value>
@@ -1452,6 +1553,13 @@
         <isOutput>false</isOutput>
     </variables>
     <variables>
+        <name>txtBuildingCountryCode</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
         <name>txtBusinessType</name>
         <dataType>String</dataType>
         <isCollection>false</isCollection>
@@ -1481,6 +1589,13 @@
     </variables>
     <variables>
         <name>txtCustomerNumber</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>txtCustomerOrganization</name>
         <dataType>String</dataType>
         <isCollection>false</isCollection>
         <isInput>false</isInput>

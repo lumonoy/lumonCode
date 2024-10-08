@@ -10,7 +10,7 @@
   0
 )</formula>
     <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
-    <label>Work duration in minutes</label>
+    <label>Work duration in minutes OLD</label>
     <precision>18</precision>
     <required>false</required>
     <scale>0</scale>

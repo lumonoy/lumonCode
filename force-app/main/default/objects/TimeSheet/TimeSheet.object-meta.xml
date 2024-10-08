@@ -144,9 +144,15 @@
         <lookupPhoneDialogsAdditionalFields>LastModifiedDate</lookupPhoneDialogsAdditionalFields>
         <lookupPhoneDialogsAdditionalFields>LastModifiedBy</lookupPhoneDialogsAdditionalFields>
         <lookupPhoneDialogsAdditionalFields>ServiceResource</lookupPhoneDialogsAdditionalFields>
+        <searchResultsAdditionalFields>ServiceResource</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Status</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>StartDate</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>EndDate</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>TimeSheetEntryCount</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>TotalDurationInHours</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>LastModifiedDate</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>LastModifiedBy</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>ServiceResource</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>LUM_Approver__c</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>Private</sharingModel>
 </CustomObject>

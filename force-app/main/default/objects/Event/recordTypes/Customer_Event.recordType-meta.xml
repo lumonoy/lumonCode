@@ -4,37 +4,6 @@
     <active>true</active>
     <label>Customer Event</label>
     <picklistValues>
-        <picklist>Customer_Segment__c</picklist>
-        <values>
-            <fullName>100</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>1000</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>1100</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>4000</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>4100</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>9000</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>9100</fullName>
-            <default>false</default>
-        </values>
-    </picklistValues>
-    <picklistValues>
         <picklist>Event_Type__c</picklist>
         <values>
             <fullName>1st sales visit</fullName>

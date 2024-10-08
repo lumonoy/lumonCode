@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>District_Territories</fullName>
+    <columns>Name</columns>
+    <columns>ParentTerritory</columns>
+    <columns>District__c</columns>
+    <columns>CountryAttribute__c</columns>
+    <columns>OperatingHours</columns>
+    <columns>IsActive</columns>
+    <columns>LastModifiedBy</columns>
+    <columns>LAST_UPDATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Name</field>
+        <operation>contains</operation>
+        <value>District</value>
+    </filters>
+    <label>District Territories</label>
+</ListView>

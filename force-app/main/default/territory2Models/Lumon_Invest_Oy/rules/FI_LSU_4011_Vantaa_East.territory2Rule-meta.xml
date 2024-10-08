@@ -4,7 +4,7 @@
     <name>FI LSU 4011 Vantaa East</name>
     <objectType>Account</objectType>
     <ruleItems>
-        <field>Account.Account_Cost_Center__c</field>
+        <field>Account.Sales_Profit_Center__c</field>
         <operation>equals</operation>
         <value>4011 LSU Vantaa East</value>
     </ruleItems>

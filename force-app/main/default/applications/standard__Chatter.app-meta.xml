@@ -8,4 +8,6 @@
     <tabs>standard-File</tabs>
     <tabs>Office__c</tabs>
     <tabs>Delivery_Schedule__c</tabs>
+    <tabs>Install_Expense__c</tabs>
+    <tabs>Delivery_Batch__c</tabs>
 </CustomApplication>

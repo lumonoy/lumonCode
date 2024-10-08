@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fxItemTotalPrice__c</fullName>
+    <description>Total Price per Line without Tax</description>
+    <externalId>false</externalId>
+    <formula>Unit_Price__c * Quantity__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Total Price per Line without Tax</inlineHelpText>
+    <label>Item Total Price without Tax</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

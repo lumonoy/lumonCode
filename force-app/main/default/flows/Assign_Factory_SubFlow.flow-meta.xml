@@ -2,23 +2,32 @@
 <Flow xmlns="http://soap.sforce.com/2006/04/metadata">
     <apiVersion>53.0</apiVersion>
     <assignments>
-        <description>Element sets Country as Customer Country</description>
-        <name>Set_Country_Attribute</name>
-        <label>Set Country Attribute</label>
-        <locationX>314</locationX>
-        <locationY>998</locationY>
+        <name>Set_Building_Attributes</name>
+        <label>Set Building Attributes</label>
+        <locationX>446</locationX>
+        <locationY>782</locationY>
         <assignmentItems>
-            <assignToReference>txtCountry</assignToReference>
+            <assignToReference>txtBuildingCountryCode</assignToReference>
             <operator>Assign</operator>
             <value>
-                <elementReference>txtCustomerCountry</elementReference>
+                <elementReference>recOpportunity.Building_Country_Attribute__c</elementReference>
             </value>
         </assignmentItems>
+        <connector>
+            <targetReference>Set_Customer_Attributes</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <description>Element sets Country as Building Country</description>
+        <name>Set_Building_Country</name>
+        <label>Set Building Country</label>
+        <locationX>182</locationX>
+        <locationY>1106</locationY>
         <assignmentItems>
             <assignToReference>txtCountryCode</assignToReference>
             <operator>Assign</operator>
             <value>
-                <elementReference>txtCustomerCountryCode</elementReference>
+                <elementReference>txtBuildingCountryCode</elementReference>
             </value>
         </assignmentItems>
         <connector>
@@ -29,19 +38,12 @@
         <name>Set_Customer_Attributes</name>
         <label>Set Customer Attributes</label>
         <locationX>446</locationX>
-        <locationY>782</locationY>
+        <locationY>890</locationY>
         <assignmentItems>
             <assignToReference>txtCustomerType</assignToReference>
             <operator>Assign</operator>
             <value>
                 <elementReference>recOpportunity.Customer_Type__c</elementReference>
-            </value>
-        </assignmentItems>
-        <assignmentItems>
-            <assignToReference>txtCustomerCountry</assignToReference>
-            <operator>Assign</operator>
-            <value>
-                <elementReference>recOpportunity.Customer_Country__c</elementReference>
             </value>
         </assignmentItems>
         <assignmentItems>
@@ -66,14 +68,31 @@
             </value>
         </assignmentItems>
         <connector>
-            <targetReference>Is_Customer_Country_Different_From_User</targetReference>
+            <targetReference>Which_Country_to_Use</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <description>Element sets Country as Customer Country</description>
+        <name>Set_Customer_Country</name>
+        <label>Set Customer Country</label>
+        <locationX>446</locationX>
+        <locationY>1106</locationY>
+        <assignmentItems>
+            <assignToReference>txtCountryCode</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>txtCustomerCountryCode</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Which_Factory</targetReference>
         </connector>
     </assignments>
     <assignments>
         <name>Set_FactoryId</name>
         <label>Set FactoryId</label>
         <locationX>446</locationX>
-        <locationY>1490</locationY>
+        <locationY>1598</locationY>
         <assignmentItems>
             <assignToReference>factoryId</assignToReference>
             <operator>Assign</operator>
@@ -127,13 +146,6 @@
             </value>
         </assignmentItems>
         <assignmentItems>
-            <assignToReference>txtOwnerCountry</assignToReference>
-            <operator>Assign</operator>
-            <value>
-                <elementReference>recOpportunity.Owner_Country__c</elementReference>
-            </value>
-        </assignmentItems>
-        <assignmentItems>
             <assignToReference>txtOwnerCountryCode</assignToReference>
             <operator>Assign</operator>
             <value>
@@ -148,48 +160,26 @@
             </value>
         </assignmentItems>
         <connector>
-            <targetReference>Set_Customer_Attributes</targetReference>
+            <targetReference>Set_Building_Attributes</targetReference>
         </connector>
     </assignments>
-    <decisions>
-        <name>Is_Customer_Country_Different_From_User</name>
-        <label>Is Customer Country Different From User?</label>
-        <locationX>446</locationX>
-        <locationY>890</locationY>
-        <defaultConnector>
+    <assignments>
+        <description>Element sets Country as Owner User Country</description>
+        <name>Set_User_Country</name>
+        <label>Set User Country</label>
+        <locationX>710</locationX>
+        <locationY>1106</locationY>
+        <assignmentItems>
+            <assignToReference>txtCountryCode</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>txtUserCountryCode</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
             <targetReference>Which_Factory</targetReference>
-        </defaultConnector>
-        <defaultConnectorLabel>Same as User Country</defaultConnectorLabel>
-        <rules>
-            <name>Different_Customer_and_User_Country</name>
-            <conditionLogic>and</conditionLogic>
-            <conditions>
-                <leftValueReference>txtCustomerCountryCode</leftValueReference>
-                <operator>NotEqualTo</operator>
-                <rightValue>
-                    <elementReference>txtOwnerCountryCode</elementReference>
-                </rightValue>
-            </conditions>
-            <conditions>
-                <leftValueReference>txtCustomerCountryCode</leftValueReference>
-                <operator>IsNull</operator>
-                <rightValue>
-                    <booleanValue>false</booleanValue>
-                </rightValue>
-            </conditions>
-            <conditions>
-                <leftValueReference>txtOwnerCountryCode</leftValueReference>
-                <operator>IsNull</operator>
-                <rightValue>
-                    <booleanValue>false</booleanValue>
-                </rightValue>
-            </conditions>
-            <connector>
-                <targetReference>Set_Country_Attribute</targetReference>
-            </connector>
-            <label>Different Customer and User Country</label>
-        </rules>
-    </decisions>
+        </connector>
+    </assignments>
     <decisions>
         <name>Opportunity_Found</name>
         <label>Opportunity Found?</label>
@@ -235,10 +225,50 @@
         </rules>
     </decisions>
     <decisions>
+        <name>Which_Country_to_Use</name>
+        <label>Which Country to Use?</label>
+        <locationX>446</locationX>
+        <locationY>998</locationY>
+        <defaultConnector>
+            <targetReference>Set_User_Country</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>User Country</defaultConnectorLabel>
+        <rules>
+            <name>Building_Country</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>txtBuildingCountryCode</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Set_Building_Country</targetReference>
+            </connector>
+            <label>Building Country</label>
+        </rules>
+        <rules>
+            <name>Customer_Country</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>txtCustomerCountryCode</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Set_Customer_Country</targetReference>
+            </connector>
+            <label>Customer Country</label>
+        </rules>
+    </decisions>
+    <decisions>
         <name>Which_Factory</name>
         <label>Which Factory?</label>
         <locationX>446</locationX>
-        <locationY>1190</locationY>
+        <locationY>1298</locationY>
         <defaultConnector>
             <targetReference>Get_Default_Factory</targetReference>
         </defaultConnector>
@@ -296,11 +326,10 @@
             <label>Visor</label>
         </rules>
     </decisions>
-    <description>Flow to Assign the Factory for a New Opportunity
-02.12.2023: Save Active Version as R2</description>
+    <description>SubFlow to Assign the Factory for an Opportunity based on the Country of the Installation</description>
     <environments>Default</environments>
     <interviewLabel>Assign Factory SubFlow {!$Flow.CurrentDateTime}</interviewLabel>
-    <label>Opportunity - Assign Factory SubFlow R2</label>
+    <label>Opportunity - Assign Factory SubFlow R2.5.5</label>
     <processMetadataValues>
         <name>BuilderType</name>
         <value>
@@ -324,7 +353,7 @@
         <name>Get_Canada_Factory</name>
         <label>Get Canada Factory</label>
         <locationX>50</locationX>
-        <locationY>1298</locationY>
+        <locationY>1406</locationY>
         <assignNullValuesIfNoRecordsFound>true</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>Set_FactoryId</targetReference>
@@ -346,7 +375,7 @@
         <name>Get_Default_Factory</name>
         <label>Get Default Factory</label>
         <locationX>842</locationX>
-        <locationY>1298</locationY>
+        <locationY>1406</locationY>
         <assignNullValuesIfNoRecordsFound>true</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>Set_FactoryId</targetReference>
@@ -368,7 +397,7 @@
         <name>Get_Spain_Factory</name>
         <label>Get Spain Factory</label>
         <locationX>314</locationX>
-        <locationY>1298</locationY>
+        <locationY>1406</locationY>
         <assignNullValuesIfNoRecordsFound>true</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>Set_FactoryId</targetReference>
@@ -390,7 +419,7 @@
         <name>Get_Visor_Factory</name>
         <label>Get Visor Factory</label>
         <locationX>578</locationX>
-        <locationY>1298</locationY>
+        <locationY>1406</locationY>
         <assignNullValuesIfNoRecordsFound>true</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>Set_FactoryId</targetReference>
@@ -479,7 +508,7 @@
         <isOutput>false</isOutput>
     </variables>
     <variables>
-        <name>txtBuildingCountry</name>
+        <name>txtBuildingCountryCode</name>
         <dataType>String</dataType>
         <isCollection>false</isCollection>
         <isInput>false</isInput>

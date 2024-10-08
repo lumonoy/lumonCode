@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Completed_Service_Appointments</fullName>
+    <columns>Name</columns>
+    <columns>Account</columns>
+    <columns>LUM_Parent_Work_Order__c</columns>
+    <columns>Status</columns>
+    <columns>EstDuration</columns>
+    <columns>ArrivalWindowStartTime</columns>
+    <columns>ArrivalWindowEndTime</columns>
+    <columns>Asset__c</columns>
+    <columns>ServiceTerritory</columns>
+    <columns>STREET</columns>
+    <columns>Subject</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Status</field>
+        <operation>equals</operation>
+        <value>Completed</value>
+    </filters>
+    <label>Completed Service Appointments</label>
+    <sharedTo>
+        <group>Admins</group>
+    </sharedTo>
+</ListView>

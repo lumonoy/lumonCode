@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <canvasConfig>
+        <accessMethod>Post</accessMethod>
+        <canvasUrl>https://az-soveliaserver.lumon.fi/sfrequest</canvasUrl>
+        <locations>Aura</locations>
+        <samlInitiationMethod>None</samlInitiationMethod>
+    </canvasConfig>
+    <contactEmail>hendrikus.reynders@lumon.com</contactEmail>
+    <label>TestSoveliaConfigurator2</label>
+    <oauthConfig>
+        <callbackUrl>https://az-soveliaserver.lumon.fi/sflogin
+https://localhost:8173/sflogin</callbackUrl>
+        <consumerKey>3MVG9Lu3LaaTCEgIjaRlWXIUURWsUgITeJkPSMAiHuzSzQKB_BeOJFN7MkQGfLnIFsDxDxs9N6RUXNtdQxIoi</consumerKey>
+        <isAdminApproved>true</isAdminApproved>
+        <isClientCredentialEnabled>false</isClientCredentialEnabled>
+        <isCodeCredentialEnabled>false</isCodeCredentialEnabled>
+        <isCodeCredentialPostOnly>false</isCodeCredentialPostOnly>
+        <isConsumerSecretOptional>false</isConsumerSecretOptional>
+        <isIntrospectAllTokens>false</isIntrospectAllTokens>
+        <isNamedUserJwtEnabled>false</isNamedUserJwtEnabled>
+        <isPkceRequired>false</isPkceRequired>
+        <isSecretRequiredForRefreshToken>true</isSecretRequiredForRefreshToken>
+        <scopes>Api</scopes>
+    </oauthConfig>
+    <oauthPolicy>
+        <ipRelaxation>ENFORCE</ipRelaxation>
+        <refreshTokenPolicy>infinite</refreshTokenPolicy>
+    </oauthPolicy>
+    <permissionSetName>Sovelia Configurator Permissions</permissionSetName>
+    <permissionSetName>Sovelia Test Configurator Permissions</permissionSetName>
+    <permissionSetName>IntegrationUserTestPermissions</permissionSetName>
+    <profileName>Minimum Access - API Only Integrations</profileName>
+    <profileName>System Administrator</profileName>
+    <profileName>Lumon System Admin</profileName>
+    <startUrl>https://az-soveliaserver.lumon.fi/sfrequest</startUrl>
+</ConnectedApp>

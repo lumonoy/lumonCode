@@ -2,7 +2,7 @@
  * @description       : 
  * @author            : Henk Reynders
  * @group             : 
- * @last modified on  : 01-23-2024
+ * @last modified on  : 08-07-2024
  * @last modified by  : Henk Reynders
 **/
  public without sharing class ContractTriggerHandler {
@@ -40,6 +40,9 @@
 		Set<Id> signedContractIds = new Set<Id>();
         System.debug('--- oldContractsMap ---'+oldContractsMap);
         for(Contract c : newContracts){
+			if (c.isMigrated__c) {
+				return;
+			}
 			if (oldContractsMap != null) {
 				Contract oldContract = oldContractsMap.get(c.Id);
 				if(oldContract.Status != 'Signed' && c.Status == 'Signed'){ // AP : SAI Need to check how the process works

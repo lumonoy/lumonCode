@@ -1,8 +1,15 @@
+/**
+ * @description       : 
+ * @author            : Henk Reynders
+ * @group             : 
+ * @last modified on  : 08-08-2024
+ * @last modified by  : Henk Reynders
+**/
 public with sharing class OrderLineItemController {
     @AuraEnabled(cacheable=true)
     public static List<OrderItem> getOrderLineItems(Id orderId) {
         // Populate map from SOQL query on QuotelineItem
-        List<OrderItem> orderlineItems = ([ SELECT  Id,
+        List<OrderItem> orderLineItems = ([ SELECT  Id,
                                                     //AvailableQuantity, Only for reduction Orders
                                                     OrderItemNumber,
                                                     Description,
@@ -37,16 +44,16 @@ public with sharing class OrderLineItemController {
                                             FROM OrderItem
                                             WHERE OrderId = :orderId
                                             ORDER BY Product2.Product_Group__c, Product2.Cost_Type__c]);
-        System.debug('--- Order Line Items: '+orderlineItems);                                         
-        return orderlineItems;
+        System.debug('--- OrderLineItemController - Order Line Items: '+orderLineItems);                                         
+        return orderLineItems;
     }
     @AuraEnabled(cacheable=true)
     public static Map<String,OrderItem> getProductCodeToOrderLineItemMap(Id orderId,String currencyCode) {
         // Populate List from SOQL query on OrderLineItem
         Boolean isActive = True;
-        System.debug('--- Get Order Line Items for Order '+orderId); 
+        System.debug('--- OrderLineItemController - Get Order Line Items for Order '+orderId); 
         List<OrderItem> orderLineItems = getOrderLineItems(orderId);
-        System.debug('--- Order Line Items: '+orderLineItems.size()); 
+        System.debug('--- OrderLineItemController - Order Line Items: '+orderLineItems.size()); 
         Map<String,OrderItem> oiMap = New Map<String,OrderItem>();     
         if (orderLineItems.size()>0) {                               
             for (OrderItem orderLineItem :orderLineItems) {

@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
-    <description>Required Permissions for Installers</description>
+    <description>Access Rights and Permissions for Installers</description>
     <hasActivationRequired>false</hasActivationRequired>
     <label>Lumon Installer</label>
-    <permissionSets>Field_Service_Installer_extra_permissions</permissionSets>
+    <mutingPermissionSets>Lumon_Installer_Muted</mutingPermissionSets>
+    <permissionSets>FieldServiceMobilePermissions</permissionSets>
+    <permissionSets>FieldServiceStandardPermissions</permissionSets>
+    <permissionSets>InstallerFieldServicePermissions</permissionSets>
     <status>Updated</status>
 </PermissionSetGroup>

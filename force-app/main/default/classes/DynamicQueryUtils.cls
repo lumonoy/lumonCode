@@ -1,12 +1,19 @@
+/**
+ * @description       : 
+ * @author            : Henk Reynders
+ * @group             : 
+ * @last modified on  : 07-05-2024
+ * @last modified by  : Henk Reynders
+**/
 public without sharing class DynamicQueryUtils {  
     // Get the Object Data using a Dynamic Query
     @AuraEnabled(cacheable=true)
     public static List<sObject> getObjectRecords(String sObjectName, List<String> fieldNameList, 
                                                   Integer limitSize, String recordId, 
                                                   String orderBy, String orderDir) {
-        System.Debug('*** Dynamic Query Object: '+sObjectName);                                               
-        System.Debug('*** Dynamic Query FieldNameList: '+fieldNameList);
-        System.Debug('*** Dynamic Query RecordId: '+recordId); 
+        System.Debug('--- DynamicQueryUtils - Object: '+sObjectName);                                               
+        System.Debug('--- DynamicQueryUtils - FieldNameList: '+fieldNameList);
+        System.Debug('--- DynamicQueryUtils - RecordId: '+recordId); 
         OrderDir = String.isBlank(orderDir) ? 'asc' : orderDir;
         String fieldNameString = String.join(fieldNameList, ',');
         String queryString = ('SELECT '+fieldNameString+' FROM '+sObjectName);                                               
@@ -20,18 +27,18 @@ public without sharing class DynamicQueryUtils {
             LimitSize = Integer.valueOf(LimitSize);
             queryString += ' LIMIT '+LimitSize;
         }
-        System.Debug('*** Dynamic Query String '+queryString);
+        System.Debug('--- DynamicQueryUtils - String '+queryString);
         List<sObject> queryResult =  Database.query(String.escapeSingleQuotes(queryString));  
-        System.Debug('*** Dynamic Query Result: '+queryResult);  
+        System.Debug('--- DynamicQueryUtils - Result: '+queryResult);  
         return queryResult;
     }
     @AuraEnabled(cacheable=true)
     public static List<sObject> getChildObjectRecords(String sObjectName, List<String> fieldNameList, 
                                                   Integer limitSize, String recordId, 
                                                   String orderBy, String orderDir) {
-        System.Debug('*** Dynamic Query Object: '+sObjectName);                                               
-        System.Debug('*** Dynamic Query FieldNameList: '+fieldNameList);
-        System.Debug('*** Dynamic Query RecordId: '+recordId); 
+        System.Debug('--- DynamicQueryUtils - Object: '+sObjectName);                                               
+        System.Debug('--- DynamicQueryUtils - FieldNameList: '+fieldNameList);
+        System.Debug('--- DynamicQueryUtils - RecordId: '+recordId); 
         OrderDir = String.isBlank(orderDir) ? 'asc' : orderDir;
         String fieldNameString = String.join(fieldNameList, ',');
         String queryString = ('SELECT '+fieldNameString+' FROM '+sObjectName);                                               
@@ -53,17 +60,17 @@ public without sharing class DynamicQueryUtils {
             LimitSize = Integer.valueOf(LimitSize);
             queryString += ' LIMIT '+LimitSize; 
         }
-        System.Debug('*** Dynamic Query String '+queryString);
+        System.Debug('--- DynamicQueryUtils - String '+queryString);
         List<sObject> queryResult =  Database.query(String.escapeSingleQuotes(queryString));  
-        System.Debug('*** Dynamic Query Result: '+queryResult);  
+        System.Debug('--- DynamicQueryUtils - Result: '+queryResult);  
         return queryResult;
     }
     @AuraEnabled(cacheable=true)
     public static List<sObject> getAllObjectRecords(String sObjectName, List<String> fieldNameList, 
                                                   Integer limitSize,
                                                   String orderBy, String orderDir) {
-        System.Debug('*** Dynamic Query Object: '+sObjectName);                                               
-        System.Debug('*** Dynamic Query FieldNameList: '+fieldNameList);
+        System.Debug('--- DynamicQueryUtils - Object: '+sObjectName);                                               
+        System.Debug('--- DynamicQueryUtils - FieldNameList: '+fieldNameList);
         OrderDir = String.isBlank(orderDir) ? 'asc' : orderDir;
         String fieldNameString = String.join(fieldNameList, ',');
         String queryString = ('SELECT '+fieldNameString+' FROM '+sObjectName);                                               
@@ -74,17 +81,17 @@ public without sharing class DynamicQueryUtils {
             LimitSize = Integer.valueOf(LimitSize);
             queryString += ' LIMIT '+LimitSize;
         }
-        System.Debug('*** Dynamic Query String '+queryString);
+        System.Debug('--- DynamicQueryUtils - String '+queryString);
         List<sObject> queryResult =  Database.query(String.escapeSingleQuotes(queryString));  
-        System.Debug('*** Dynamic Query Result: '+queryResult);  
+        System.Debug('--- DynamicQueryUtils - Result: '+queryResult);  
         return queryResult;
     }
     @AuraEnabled(cacheable=true)
     public static List<sObject> getAllObjectRecordsGrouped(String sObjectName, List<String> fieldNameList, 
                                                   Integer limitSize, String groupBy,
                                                   String orderBy, String orderDir) {
-        System.Debug('*** Dynamic Query Object: '+sObjectName);                                               
-        System.Debug('*** Dynamic Query FieldNameList: '+fieldNameList);
+        System.Debug('--- DynamicQueryUtils - Object: '+sObjectName);                                               
+        System.Debug('--- DynamicQueryUtils - FieldNameList: '+fieldNameList);
         OrderDir = String.isBlank(orderDir) ? 'asc' : orderDir;
         String fieldNameString = String.join(fieldNameList, ',');
         String queryString = ('SELECT '+fieldNameString+' FROM '+sObjectName);                                               
@@ -98,16 +105,16 @@ public without sharing class DynamicQueryUtils {
             LimitSize = Integer.valueOf(LimitSize);
             queryString += ' LIMIT '+LimitSize;
         }
-        System.Debug('*** Dynamic Query String '+queryString);
+        System.Debug('--- DynamicQueryUtils - String '+queryString);
         List<sObject> queryResult =  Database.query(String.escapeSingleQuotes(queryString));  
-        System.Debug('*** Dynamic Query Result: '+queryResult);  
+        System.Debug('--- DynamicQueryUtils - Result: '+queryResult);  
         return queryResult;
     }
     @AuraEnabled(cacheable=true)
     public static List<sObject> getObjectRecordsCountedByRollup(String sObjectName, List<String> fieldNameList, 
                                                   Integer limitSize, String countField,String counter, String rollupGroup){
-        System.Debug('*** Dynamic Query Object: '+sObjectName);                                               
-        System.Debug('*** Dynamic Query FieldNameList: '+fieldNameList);
+        System.Debug('--- DynamicQueryUtils - Object: '+sObjectName);                                               
+        System.Debug('--- DynamicQueryUtils - FieldNameList: '+fieldNameList);
         String fieldNameString = String.join(fieldNameList, ',');
         String countString = 'Count('+countField+') '+counter;
         fieldNameString += ','+countString;
@@ -119,9 +126,9 @@ public without sharing class DynamicQueryUtils {
             LimitSize = Integer.valueOf(LimitSize);
             queryString += ' LIMIT '+LimitSize;
         }
-        System.Debug('*** Dynamic Query String '+queryString);
+        System.Debug('--- DynamicQueryUtils - String '+queryString);
         List<sObject> queryResult =  Database.query(String.escapeSingleQuotes(queryString));  
-        System.Debug('*** Dynamic Query Result: '+queryResult);  
+        System.Debug('--- DynamicQueryUtils - Result: '+queryResult);  
         return queryResult;
     }
 }

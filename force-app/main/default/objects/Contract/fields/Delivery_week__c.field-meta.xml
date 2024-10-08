@@ -10,7 +10,7 @@ TEXT
 CEILING( ( Opportunity__r.Delivery_Date__c - DATE( YEAR( Opportunity__r.Delivery_Date__c ), 1, 1) + 1) / 7)
 ))
 ,&apos;&apos;)</formula>
-    <label>Delivery week</label>
+    <label>Delivery week OLD</label>
     <required>false</required>
     <trackHistory>false</trackHistory>
     <type>Text</type>

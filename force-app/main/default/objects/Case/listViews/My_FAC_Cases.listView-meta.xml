@@ -21,5 +21,6 @@
     <sharedTo>
         <group>Admins</group>
         <group>Production</group>
+        <group>Technical_Support</group>
     </sharedTo>
 </ListView>

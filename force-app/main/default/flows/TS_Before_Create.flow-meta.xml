@@ -4,8 +4,8 @@
     <assignments>
         <name>Assign_Holiday</name>
         <label>Assign Holiday</label>
-        <locationX>1839</locationX>
-        <locationY>1925</locationY>
+        <locationX>270</locationX>
+        <locationY>2399</locationY>
         <assignmentItems>
             <assignToReference>varHolidayToday</assignToReference>
             <operator>Assign</operator>
@@ -20,8 +20,8 @@
     <assignments>
         <name>Assign_to_list</name>
         <label>Assign to list</label>
-        <locationX>1437</locationX>
-        <locationY>1313</locationY>
+        <locationX>468</locationX>
+        <locationY>1559</locationY>
         <assignmentItems>
             <assignToReference>collHolidays</assignToReference>
             <operator>Add</operator>
@@ -36,8 +36,8 @@
     <assignments>
         <name>Get_count_of_Holidays</name>
         <label>Get count of Holidays</label>
-        <locationX>1404</locationX>
-        <locationY>1510</locationY>
+        <locationX>380</locationX>
+        <locationY>1859</locationY>
         <assignmentItems>
             <assignToReference>varCountHolidays</assignToReference>
             <operator>AssignCount</operator>
@@ -52,8 +52,8 @@
     <assignments>
         <name>Get_count_of_OpHour_Holidays</name>
         <label>Get count of OpHour Holidays</label>
-        <locationX>1022</locationX>
-        <locationY>1059</locationY>
+        <locationX>611</locationX>
+        <locationY>1127</locationY>
         <assignmentItems>
             <assignToReference>varCountOpHourHolidays</assignToReference>
             <operator>AssignCount</operator>
@@ -68,8 +68,8 @@
     <assignments>
         <name>Today2</name>
         <label>Today</label>
-        <locationX>807</locationX>
-        <locationY>452</locationY>
+        <locationX>850</locationX>
+        <locationY>395</locationY>
         <assignmentItems>
             <assignToReference>varDate</assignToReference>
             <operator>Assign</operator>
@@ -84,8 +84,8 @@
     <assignments>
         <name>Tomorrow2</name>
         <label>Tomorrow</label>
-        <locationX>579</locationX>
-        <locationY>452</locationY>
+        <locationX>1114</locationX>
+        <locationY>395</locationY>
         <assignmentItems>
             <assignToReference>varDate</assignToReference>
             <operator>Assign</operator>
@@ -101,8 +101,8 @@
         <name>Holidays_list</name>
         <elementSubtype>SortCollectionProcessor</elementSubtype>
         <label>Holidays list</label>
-        <locationX>1496</locationX>
-        <locationY>1769</locationY>
+        <locationX>182</locationX>
+        <locationY>2075</locationY>
         <collectionProcessorType>SortCollectionProcessor</collectionProcessorType>
         <collectionReference>Holidays</collectionReference>
         <connector>
@@ -118,8 +118,8 @@
         <name>OpHours_Holidays</name>
         <elementSubtype>SortCollectionProcessor</elementSubtype>
         <label>OpHours Holidays</label>
-        <locationX>1143</locationX>
-        <locationY>1313</locationY>
+        <locationX>380</locationX>
+        <locationY>1343</locationY>
         <collectionProcessorType>SortCollectionProcessor</collectionProcessorType>
         <collectionReference>Operating_Hours_Holidays</collectionReference>
         <connector>
@@ -135,8 +135,8 @@
         <description>SF logic may create the TS for the same day or the next day.</description>
         <name>For_which_day_the_TS_is</name>
         <label>For which day the TS is?</label>
-        <locationX>677</locationX>
-        <locationY>335</locationY>
+        <locationX>1114</locationX>
+        <locationY>287</locationY>
         <defaultConnectorLabel>Other</defaultConnectorLabel>
         <rules>
             <name>Today</name>
@@ -172,8 +172,8 @@
     <decisions>
         <name>Holidays_exist</name>
         <label>Holidays exist?</label>
-        <locationX>1395</locationX>
-        <locationY>1655</locationY>
+        <locationX>380</locationX>
+        <locationY>1967</locationY>
         <defaultConnectorLabel>No</defaultConnectorLabel>
         <rules>
             <name>Yes6</name>
@@ -194,8 +194,8 @@
     <decisions>
         <name>Is_Today_Holiday</name>
         <label>Is Today Holiday?</label>
-        <locationX>1621</locationX>
-        <locationY>1953</locationY>
+        <locationX>182</locationX>
+        <locationY>2675</locationY>
         <defaultConnectorLabel>No</defaultConnectorLabel>
         <rules>
             <name>Yes2</name>
@@ -216,8 +216,8 @@
     <decisions>
         <name>Op_Hours_Holidays_exist</name>
         <label>Op.Hours Holidays exist?</label>
-        <locationX>1014</locationX>
-        <locationY>1207</locationY>
+        <locationX>611</locationX>
+        <locationY>1235</locationY>
         <defaultConnectorLabel>No</defaultConnectorLabel>
         <rules>
             <name>Yes5</name>
@@ -238,8 +238,8 @@
     <decisions>
         <name>ST_exists</name>
         <label>ST exists?</label>
-        <locationX>798</locationX>
-        <locationY>972</locationY>
+        <locationX>858</locationX>
+        <locationY>911</locationY>
         <defaultConnectorLabel>No</defaultConnectorLabel>
         <rules>
             <name>Yes4</name>
@@ -260,8 +260,8 @@
     <decisions>
         <name>STM_exists</name>
         <label>STM exists?</label>
-        <locationX>692</locationX>
-        <locationY>727</locationY>
+        <locationX>1114</locationX>
+        <locationY>695</locationY>
         <defaultConnectorLabel>No</defaultConnectorLabel>
         <rules>
             <name>Yes3</name>
@@ -282,8 +282,8 @@
     <decisions>
         <name>TS_date_is_Holiday</name>
         <label>TS date is Holiday?</label>
-        <locationX>1829</locationX>
-        <locationY>1769</locationY>
+        <locationX>402</locationX>
+        <locationY>2291</locationY>
         <defaultConnector>
             <targetReference>Holidays_loop</targetReference>
         </defaultConnector>
@@ -304,7 +304,8 @@
             <label>Yes</label>
         </rules>
     </decisions>
-    <description>Actions done, when a Time Sheet record is created. Mainly to automatically update the TS Status to &quot;Approved&quot; if the TS Start Date is a public holiday.
+    <description>02.10.2024 Mepco Team informed no timesheet should be send on public holidays
+Actions done, when a Time Sheet record is created. Mainly to automatically update the TS Status to &quot;Approved&quot; if the TS Start Date is a public holiday.
 02.12.2023: Save Active Version as R2
 
 23.11.2023: Change flow to run as Before Save to improve performance.
@@ -328,12 +329,12 @@
         <expression>{!$Record.StartDate}</expression>
     </formulas>
     <interviewLabel>TS - Before Create {!$Flow.CurrentDateTime}</interviewLabel>
-    <label>TS - Before Create R2</label>
+    <label>TS - Before Create R4 NOT IN USE</label>
     <loops>
         <name>Holidays_loop</name>
         <label>Holidays loop</label>
-        <locationX>1629</locationX>
-        <locationY>1769</locationY>
+        <locationX>182</locationX>
+        <locationY>2183</locationY>
         <collectionReference>Holidays</collectionReference>
         <iterationOrder>Asc</iterationOrder>
         <nextValueConnector>
@@ -346,8 +347,8 @@
     <loops>
         <name>Operating_Hours_Holidays_loop</name>
         <label>Operating Hours Holidays loop</label>
-        <locationX>1272</locationX>
-        <locationY>1313</locationY>
+        <locationX>380</locationX>
+        <locationY>1451</locationY>
         <collectionReference>Operating_Hours_Holidays</collectionReference>
         <iterationOrder>Asc</iterationOrder>
         <nextValueConnector>
@@ -366,7 +367,7 @@
     <processMetadataValues>
         <name>CanvasMode</name>
         <value>
-            <stringValue>FREE_FORM_CANVAS</stringValue>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
         </value>
     </processMetadataValues>
     <processMetadataValues>
@@ -379,8 +380,8 @@
     <recordLookups>
         <name>Holidays</name>
         <label>Holidays</label>
-        <locationX>1273</locationX>
-        <locationY>1510</locationY>
+        <locationX>380</locationX>
+        <locationY>1751</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>Get_count_of_Holidays</targetReference>
@@ -400,8 +401,8 @@
     <recordLookups>
         <name>Operating_Hours_Holidays</name>
         <label>Operating Hours Holidays</label>
-        <locationX>898</locationX>
-        <locationY>1059</locationY>
+        <locationX>611</locationX>
+        <locationY>1019</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>Get_count_of_OpHour_Holidays</targetReference>
@@ -421,8 +422,8 @@
     <recordLookups>
         <name>Service_Territory</name>
         <label>Service Territory</label>
-        <locationX>806</locationX>
-        <locationY>838</locationY>
+        <locationX>858</locationX>
+        <locationY>803</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>ST_exists</targetReference>
@@ -443,8 +444,8 @@
         <description>One of the Service Resource&apos;s Service Territories. All SR&apos;s STs should have the same Operating Hours.</description>
         <name>Service_Territory_Member</name>
         <label>Service Territory Member</label>
-        <locationX>700</locationX>
-        <locationY>579</locationY>
+        <locationX>1114</locationX>
+        <locationY>587</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>STM_exists</targetReference>
@@ -486,8 +487,8 @@
         <description>As Public Holidays are not working days, the Time Sheet is now automatically approved.</description>
         <name>Set_Time_Sheet_to_Approved</name>
         <label>Set Time Sheet to Approved</label>
-        <locationX>1725</locationX>
-        <locationY>2068</locationY>
+        <locationX>50</locationX>
+        <locationY>2783</locationY>
         <inputAssignments>
             <field>Status</field>
             <value>
@@ -497,8 +498,8 @@
         <inputReference>$Record</inputReference>
     </recordUpdates>
     <start>
-        <locationX>559</locationX>
-        <locationY>50</locationY>
+        <locationX>988</locationX>
+        <locationY>0</locationY>
         <connector>
             <targetReference>For_which_day_the_TS_is</targetReference>
         </connector>
@@ -506,7 +507,7 @@
         <recordTriggerType>Create</recordTriggerType>
         <triggerType>RecordBeforeSave</triggerType>
     </start>
-    <status>Active</status>
+    <status>Obsolete</status>
     <variables>
         <name>collHolidays</name>
         <dataType>String</dataType>

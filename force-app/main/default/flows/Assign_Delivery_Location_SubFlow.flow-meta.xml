@@ -42,7 +42,7 @@
             <assignToReference>locationId</assignToReference>
             <operator>Assign</operator>
             <value>
-                <elementReference>recOpportunity.Building__r.Building_Location__c</elementReference>
+                <elementReference>recOpportunity.Building__r.BuildingLocation__c</elementReference>
             </value>
         </assignmentItems>
         <connector>
@@ -277,13 +277,10 @@
             <label>Other</label>
         </rules>
     </decisions>
-    <description>Flow to update the Delivery Location
-when Deliver To Field is set or changed
-Updated Version for Deliver To Change 27.07.2023
-02.12.2023: Save Active Version as R2</description>
+    <description>SubFlow to determine the Delivery Address and Location</description>
     <environments>Default</environments>
     <interviewLabel>Assign Delivery Location SubFlow {!$Flow.CurrentDateTime}</interviewLabel>
-    <label>Opportunity - Assign Delivery Location SubFlow R2</label>
+    <label>Opportunity - Assign Delivery Location SubFlow R2.5.5</label>
     <processMetadataValues>
         <name>BuilderType</name>
         <value>

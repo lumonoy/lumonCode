@@ -1,0 +1,3122 @@
+{
+	"order": {
+		"order_info": {
+			"axcompanyid": "LSU",
+			"currency": "EUR",
+			"customer_reference": "",
+			"order_type": "Normal",
+			"order_number": "90007646",
+			"vendorid": "LU",
+			"project_number": "803076",
+			"parent_project": "",
+			"project_group": "PROWIP",
+			"customer_segmentid": "4100",
+			"customer_segmentname": "Project renovation",
+			"promised_deliveryweek": "2024/35",
+			"promised_date": "26.09.2024",
+			"main_contractor": "no",
+			"business_unit": "390",
+			"order_attachment": "\\\\frendsprod\\D365TEST\\SalesTori\\OUT\\attachments\\",
+			"subproject_info": {
+				"subproject_number": "803076_01",
+				"subproject_group": "PROWar",
+				"subproject_category": "Warranty",
+				"subproject_cost": "296.90",
+				"subproject_ordertype": "Reclamation",
+				"subproject_parentproject": "803076",
+				"subproject_chargeable": "non-chargeable"
+			},
+			"budget": {
+				"project_category": [
+					{
+						"category": "FactoryPurchase",
+						"cost": "25212.65"
+					},
+					{
+						"category": "InstallSupplies",
+						"cost": "981.00"
+					},
+					{
+						"category": "SalesFreight",
+						"cost": "719.40"
+					},
+					{
+						"category": "Wages",
+						"cost": "5085.60"
+					},
+					{
+						"category": "CostReserv",
+						"cost": "858.20"
+					}
+				]
+			},
+			"domestic_help": "9947.30",
+			"domestic_text": "Kotitalousv\ufffdhennykseen oikeuttava ty\ufffdnosuus on 9947.30 euroa, sis alv",
+			"chargeable": "chargeable",
+			"worknumbername": "",
+			"pricelist": {
+				"pricelist_name": "Basic price list 1.4.2022"
+			},
+			"customer_address": {
+				"address_description": "Patria-Rakennus Oy",
+				"firstname": "Rrrr",
+				"lastname": "",
+				"contact_person": "",
+				"street_address": "Koulukatu 23",
+				"city": "H\ufffdmeenlinna",
+				"postal_code": "13100",
+				"fax": "",
+				"country": "FIN",
+				"province": "",
+				"county": "",
+				"phone_number": "+358451141821",
+				"email": "m@a.fi",
+				"note": "",
+				"number": "320302",
+				"customer_id": "",
+				"customer_name": "Patria-Rakennus Oy"
+			},
+			"invoice_address": {
+				"address_description": "Patria-Rakennus Oy",
+				"firstname": "Rrrr",
+				"lastname": "",
+				"contact_person": "",
+				"street_address": "Koulukatu 23",
+				"city": "H\ufffdmeenlinna",
+				"postal_code": "13100",
+				"fax": "",
+				"country": "FIN",
+				"province": "",
+				"county": "",
+				"phone_number": "+358451141821",
+				"email": "m@a.fi",
+				"note": "Jos velaksi sais",
+				"payment_terms": "07",
+				"invoice_type": "Email",
+				"number": "320302",
+				"payment": "REF",
+				"paytrail_reference_id": ""
+			},
+			"install_address": {
+				"address_description": "Patria-Rakennus Oy",
+				"firstname": "Rrrr",
+				"lastname": "",
+				"name": "Measurement table testing LRAILH + LGR U-balcony (FSL)",
+				"contact_person": "",
+				"street_address": "Versionnostotesti 1",
+				"city": "Fr\ufffds\ufffdn",
+				"postal_code": "838 75",
+				"fax": "",
+				"country": "FIN",
+				"province": "",
+				"county": "",
+				"phone_number": "+358451141821",
+				"email": "m@a.fi",
+				"note": "FSL testi",
+				"number": null
+			},
+			"delivery_address": {
+				"address_description": "Patria-Rakennus Oy",
+				"firstname": "Rrrr",
+				"lastname": "",
+				"contact_person": "Jani Vain",
+				"street_address": "Versionnostotesti 1",
+				"city": "Fr\ufffds\ufffdn",
+				"postal_code": "838 75",
+				"fax": "",
+				"country": "FIN",
+				"province": "",
+				"county": "",
+				"phone_number": "0406740375",
+				"email": "Jani.Vainio@lumon.fi",
+				"note": "FSL testi",
+				"number": null,
+				"delivery_terms": "DAP",
+				"delivery_type": "delivery"
+			},
+			"sales_person": {
+				"username": "riikkak",
+				"supervisor": "Vsevoloda",
+				"firstname": "Riikka",
+				"lastname": "Kuiri"
+			},
+			"propertytype": "Apartment",
+			"order_leadreference_vch": "Event for professionals",
+			"language_code_lan": "fi-FI"
+		},
+		"groups": {
+			"group": [
+				{
+					"delivery_batch": "1",
+					"delivery_batch_status": "Mitattu",
+					"delivery_batch_receive_date": "30.08.2024",
+					"delivery_batch_delivery_date": "27.08.2024",
+					"group_attachment": "",
+					"AXconfiguration": "no",
+					"group_name": "Avautuva (LGR)",
+					"pcs": "1",
+					"structurenumber": "9000764630017185",
+					"originalstructurenumber": "",
+					"install_start_date": "30.08.2024",
+					"install_end_date": "26.09.2024",
+					"additional_deliverytime": "0",
+					"process": "Normal",
+					"product_code": "90240001",
+					"storageid": "VAN",
+					"packing_order": "1",
+					"unit": "1",
+					"line": "1",
+					"floor": "1",
+					"chargeable": "chargeable",
+					"sales_price": "2133.80",
+					"sproduct": "1584.10",
+					"sfreight": "58.90",
+					"sinstall": "306.70",
+					"sother": "184.10",
+					"purchase_price": "1211.30",
+					"pproduct": "1211.30",
+					"pfreight": "0.00",
+					"pinstall": "0.00",
+					"pother": "0.00",
+					"calculated_salesprice": "2133.90",
+					"factory_price": "1211.30",
+					"fproduct": "1211.30",
+					"ffreight": "0.00",
+					"finstall": "0.00",
+					"fother": "0.00",
+					"contract_price": "93.82",
+					"salestori_plan_name": "ZSXUR",
+					"glass_m2": "6.30",
+					"blinds_m2": "0.00",
+					"glass_pcs": "10",
+					"product_length": "7000",
+					"group_weight": "111.7577",
+					"product_attributes": {
+						"attributeid": "20090008"
+					},
+					"installed": "True",
+					"OrderLine": {
+						"BOMVersion": "9000764630017185",
+						"ItemID": "90240001",
+						"ItemName": "LG",
+						"InventLocationID": "VAN",
+						"Dimension1": "390",
+						"Dimension5": "Vsevoloda",
+						"DeliveryName": "Rrrr ",
+						"DeliveryStreet": "Versionnostotesti 1",
+						"DeliveryZipCode": "838 75",
+						"DeliveryCity": "Frösön",
+						"DeliveryCountryRegionID": "FI",
+						"LineAmount": "2133.80",
+						"Apartment": "1",
+						"Floor": "1",
+						"DlvBatchID": "1",
+						"Line": "1",
+						"FactoryConfirmedDlv": "",
+						"InstallHours": "14.38",
+						"InstallStart": "30.08.2024",
+						"ReservationStart": "2024-08-30T00.00.00",
+						"DeliveryDatePromised": "30.08.2024",
+						"Plan_name": "ZSXUR",
+						"PieceWork_pay": "93.82"
+					},
+					"AssemblyInstructions": {
+						"InstallNotes": "",
+						"Attachments": {
+							"Attachment": "salestori-asennuskortti-9000764630017185.pdf",
+							"Folder": "\\269000\\269847\\"
+						},
+						"AssemblyDocument": [
+							{
+								"name": "Tilaustiedot",
+								"Chapter": [
+									{
+										"name": "Perustiedot",
+										"Paragraph": [
+											{
+												"name": "Content",
+												"text": " Rrrr\r\nVersionnostotesti 1 838 75 Frösön\r\nPuhelin +358451141821"
+											}
+										]
+									},
+									{
+										"name": "Tilaustiedot",
+										"Paragraph": [
+											{
+												"name": "Content",
+												"text": "Asiakaslupaus 30/08/2024\r\nTilausnumero 90007646\r\nLinja 1\r\nKerros 1\r\nAsunto 1\r\nRVN 9000764630017185"
+											}
+										]
+									}
+								]
+							},
+							{
+								"name": "Asennustiedot",
+								"Chapter": [
+									{
+										"name": "Tuotetiedot",
+										"Paragraph": [
+											{
+												"name": "Tuote",
+												"text": "LG , sides:3"
+											},
+											{
+												"name": "Kiinnitystapa",
+												"text": "Upper: To roof, Lower: To floor"
+											},
+											{
+												"name": "Profiilit",
+												"text": "Upper: 11241205 RAL7024, Lower: 11243001 11243001 "
+											},
+											{
+												"name": "Varusteet",
+												"text": "Plastic parts: Dark grey, End plugs"
+											}
+										]
+									},
+									{
+										"name": "Tuotemitat",
+										"Paragraph": [
+											{
+												"name": "Sivu1,H3=773",
+												"text": "SA=90 EA= Length=2000 Z=0 Height=2000 X=0 Y=0 Lpcs=3 Rpcs=0 SA=90 Cbypass=No Adjus= \r\nUpper profile: 11241205 RAL7024\r\nLower profile: 11243001 RAL7024\r\nTeles. Profile: 11222206 RAL7024\r\nG1: W=649 H=761\r\nG2: W=649 H=761\r\nG3: W=649 H=761\r\n"
+											},
+											{
+												"name": "Sivu2,H3=773",
+												"text": "SA= EA= Length=1500 Z=0 Height=2000 X=0 Y=0 Lpcs=0 Rpcs=2 SA=180 Cbypass=No Adjus= \r\nUpper profile: 11241205 RAL7024\r\nLower profile: 11243001 RAL7024\r\nTeles. Profile: 11222206 RAL7024\r\nG1: W=731 H=761\r\nG2: W=731 H=761\r\n"
+											},
+											{
+												"name": "Sivu3,H3=773",
+												"text": "SA= EA=90 Length=1500 Z=0 Height=2000 X=0 Y=0 Lpcs=2 Rpcs=0 SA= Cbypass=No Adjus= \r\nUpper profile: 11241205 RAL7024\r\nLower profile: 11243001 RAL7024\r\nTeles. Profile: 11222206 RAL7024\r\nG1: W=741 H=761\r\nG2: W=741 H=761\r\n"
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				},
+				{
+					"delivery_batch": "1",
+					"delivery_batch_status": "Mitattu",
+					"delivery_batch_receive_date": "30.08.2024",
+					"delivery_batch_delivery_date": "27.08.2024",
+					"group_attachment": "",
+					"AXconfiguration": "no",
+					"group_name": "Lumon Kaide",
+					"pcs": "1",
+					"structurenumber": "9000764630017186",
+					"originalstructurenumber": "",
+					"install_start_date": "30.08.2024",
+					"install_end_date": "26.09.2024",
+					"additional_deliverytime": "0",
+					"process": "Normal",
+					"product_code": "90370001",
+					"storageid": "VAN",
+					"packing_order": "1",
+					"unit": "1",
+					"line": "1",
+					"floor": "1",
+					"chargeable": "chargeable",
+					"sales_price": "2088.30",
+					"sproduct": "1725.00",
+					"sfreight": "38.20",
+					"sinstall": "271.60",
+					"sother": "53.50",
+					"purchase_price": "1309.90",
+					"pproduct": "1309.90",
+					"pfreight": "0.00",
+					"pinstall": "0.00",
+					"pother": "0.00",
+					"calculated_salesprice": "2090.30",
+					"factory_price": "1309.90",
+					"fproduct": "1309.90",
+					"ffreight": "0.00",
+					"finstall": "0.00",
+					"fother": "0.00",
+					"contract_price": "94.56",
+					"salestori_plan_name": "ZSXUR",
+					"glass_m2": "2.20",
+					"blinds_m2": "0.00",
+					"glass_pcs": "0",
+					"product_length": "1999",
+					"group_weight": "0",
+					"product_attributes": "",
+					"installed": "True",
+					"OrderLine": {
+						"BOMVersion": "9000764630017186",
+						"ItemID": "90370001",
+						"ItemName": "LUMONKAIDE",
+						"InventLocationID": "VAN",
+						"Dimension1": "390",
+						"Dimension5": "Vsevoloda",
+						"DeliveryName": "Rrrr ",
+						"DeliveryStreet": "Versionnostotesti 1",
+						"DeliveryZipCode": "838 75",
+						"DeliveryCity": "Frösön",
+						"DeliveryCountryRegionID": "FI",
+						"LineAmount": "2088.30",
+						"Apartment": "1",
+						"Floor": "1",
+						"DlvBatchID": "1",
+						"Line": "1",
+						"FactoryConfirmedDlv": "",
+						"InstallHours": "2.17",
+						"InstallStart": "30.08.2024",
+						"ReservationStart": "2024-08-30T00.00.00",
+						"DeliveryDatePromised": "30.08.2024",
+						"Plan_name": "ZSXUR",
+						"PieceWork_pay": "94.56"
+					},
+					"AssemblyInstructions": {
+						"InstallNotes": "",
+						"Attachments": {
+							"Attachment": "salestori-asennuskortti-9000764630017186.pdf",
+							"Folder": "\\269000\\269847\\"
+						},
+						"AssemblyDocument": [
+							{
+								"name": "Tilaustiedot",
+								"Chapter": [
+									{
+										"name": "Perustiedot",
+										"Paragraph": [
+											{
+												"name": "Content",
+												"text": " Rrrr\r\nVersionnostotesti 1 838 75 Frösön\r\nPuhelin +358451141821"
+											}
+										]
+									},
+									{
+										"name": "Tilaustiedot",
+										"Paragraph": [
+											{
+												"name": "Content",
+												"text": "Asiakaslupaus 30/08/2024\r\nTilausnumero 90007646\r\nLinja 1\r\nKerros 1\r\nAsunto 1\r\nRVN 9000764630017186"
+											}
+										]
+									}
+								]
+							},
+							{
+								"name": "Asennustiedot",
+								"Chapter": [
+									{
+										"name": "Tuotetiedot",
+										"Paragraph": [
+											{
+												"name": "Tuote",
+												"text": "Kaide1.1 , sides:3"
+											},
+											{
+												"name": "Kiinnitystapa",
+												"text": "Top installation"
+											},
+											{
+												"name": "Profiilit",
+												"text": "INST_XML_COLOR:RAL7024, Handrail 160 "
+											},
+											{
+												"name": "Varusteet"
+											}
+										]
+									},
+									{
+										"name": "Tuotemitat",
+										"Paragraph": [
+											{
+												"name": "Sivu1",
+												"text": "SA=90 SA=90 Length=2000 Z=0  INST_XML_PULLOUT=0 INST_XML_UPHOLSTERY_PCS=2 INST_XML_HANDRAIL: Handrail 160, INST_XML_ELEVATION: 1100, RAL7024 INST_XML_HANDRAIL_PIPE: Handrail 160, RAL7024 INST_XML_TOE_LIST: No gap profile INST_XML_WEDGE_CRACK_SEAL: No seal INST_XML_LOWER_UPHOLSTERY: Lower frame for top installation, only for top installation, INST_XML_ELEVATION: 0, RAL7024 INST_XML_UPHOLSTERY_PROFILE: Facade profile 215 INST_XML_DECO_PIPE:  INST_XML_WALL_FASTENING_LEFT: Vertical handrail bracket INST_XML_WALL_FASTENING_RIGHT: Vertical handrail bracket INST_XML_WALL_FASTENING_ANCHOR_LEFT: HUS-HR 10x115 Concrete screw INST_XML_WALL_FASTENING_RIGHT: HUS-HR 10x115 Concrete screw INST_XML_HEAT_PLASTER_LEFT: INST_XML_NO INST_XML_HEAT_PLASTER_RIGHT: INST_XML_NOINST_XML_UPHOLSTERY_SHORT1: W=979 H=1067, INST_XML_NO INST_XML_UPHOLSTERY_SHORT2: W=979 H=1067, INST_XML_NO "
+											},
+											{
+												"name": "Sivu2",
+												"text": "SA=180 Length=1500 Z=0  INST_XML_PULLOUT=0 INST_XML_UPHOLSTERY_PCS=2 INST_XML_HANDRAIL: Handrail 160, INST_XML_ELEVATION: 1100, RAL7024 INST_XML_HANDRAIL_PIPE: Handrail 160, RAL7024 INST_XML_TOE_LIST: No gap profile INST_XML_WEDGE_CRACK_SEAL: No seal INST_XML_LOWER_UPHOLSTERY: Lower frame for top installation, only for top installation, INST_XML_ELEVATION: 0, RAL7024 INST_XML_UPHOLSTERY_PROFILE: Facade profile 215 INST_XML_DECO_PIPE:  INST_XML_WALL_FASTENING_LEFT: Vertical handrail bracket INST_XML_WALL_FASTENING_RIGHT: Vertical handrail bracket INST_XML_WALL_FASTENING_ANCHOR_LEFT: HUS-HR 10x115 Concrete screw INST_XML_WALL_FASTENING_RIGHT: HUS-HR 10x115 Concrete screw INST_XML_HEAT_PLASTER_LEFT: INST_XML_NO INST_XML_HEAT_PLASTER_RIGHT: INST_XML_NOINST_XML_MIDDLEPOST1/INST_XML_MIDDLEPOST_POSITION/INST_XML_MIDDLEPOST_ANCHOR: LRAILH_SteelPost_1020mm/1300/ HUS-HR 10x115 Concrete screw INST_XML_MOVEMENT_SEAMLRAILH_SteelPost_1020mm: INST_XML_NO INST_XML_UPHOLSTERY_SHORT1: W=730 H=1067, INST_XML_NO INST_XML_UPHOLSTERY_SHORT2: W=730 H=1067, INST_XML_NO "
+											},
+											{
+												"name": "Sivu3",
+												"text": "EA=90 Length=1500 Z=0  INST_XML_PULLOUT=0 INST_XML_UPHOLSTERY_PCS=2 INST_XML_HANDRAIL: Handrail 160, INST_XML_ELEVATION: 1100, RAL7024 INST_XML_HANDRAIL_PIPE: Handrail 160, RAL7024 INST_XML_TOE_LIST: No gap profile INST_XML_WEDGE_CRACK_SEAL: No seal INST_XML_LOWER_UPHOLSTERY: Lower frame for top installation, only for top installation, INST_XML_ELEVATION: 0, RAL7024 INST_XML_UPHOLSTERY_PROFILE: Facade profile 215 INST_XML_DECO_PIPE:  INST_XML_WALL_FASTENING_LEFT: Vertical handrail bracket INST_XML_WALL_FASTENING_RIGHT: Vertical handrail bracket INST_XML_WALL_FASTENING_ANCHOR_LEFT: HUS-HR 10x115 Concrete screw INST_XML_WALL_FASTENING_RIGHT: HUS-HR 10x115 Concrete screw INST_XML_HEAT_PLASTER_LEFT: INST_XML_NO INST_XML_HEAT_PLASTER_RIGHT: INST_XML_NOINST_XML_UPHOLSTERY_SHORT1: W=735 H=1067, INST_XML_NO INST_XML_UPHOLSTERY_SHORT2: W=735 H=1067, INST_XML_NO "
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				},
+				{
+					"delivery_batch": "1",
+					"delivery_batch_status": "Mitattu",
+					"delivery_batch_receive_date": "30.08.2024",
+					"delivery_batch_delivery_date": "27.08.2024",
+					"group_attachment": "",
+					"AXconfiguration": "no",
+					"group_name": "Avautuva (LGR)",
+					"pcs": "1",
+					"structurenumber": "9000764630017187",
+					"originalstructurenumber": "",
+					"install_start_date": "30.08.2024",
+					"install_end_date": "26.09.2024",
+					"additional_deliverytime": "0",
+					"process": "Normal",
+					"product_code": "90240001",
+					"storageid": "VAN",
+					"packing_order": "1",
+					"unit": "4",
+					"line": "1",
+					"floor": "2",
+					"chargeable": "chargeable",
+					"sales_price": "2133.80",
+					"sproduct": "1584.10",
+					"sfreight": "58.90",
+					"sinstall": "306.70",
+					"sother": "184.10",
+					"purchase_price": "1211.30",
+					"pproduct": "1211.30",
+					"pfreight": "0.00",
+					"pinstall": "0.00",
+					"pother": "0.00",
+					"calculated_salesprice": "2133.90",
+					"factory_price": "1211.30",
+					"fproduct": "1211.30",
+					"ffreight": "0.00",
+					"finstall": "0.00",
+					"fother": "0.00",
+					"contract_price": "93.82",
+					"salestori_plan_name": "ZSXUR",
+					"glass_m2": "6.30",
+					"blinds_m2": "0.00",
+					"glass_pcs": "10",
+					"product_length": "7000",
+					"group_weight": "111.7577",
+					"product_attributes": {
+						"attributeid": "20090008"
+					},
+					"installed": "True",
+					"OrderLine": {
+						"BOMVersion": "9000764630017187",
+						"ItemID": "90240001",
+						"ItemName": "LG",
+						"InventLocationID": "VAN",
+						"Dimension1": "390",
+						"Dimension5": "Vsevoloda",
+						"DeliveryName": "Rrrr ",
+						"DeliveryStreet": "Versionnostotesti 1",
+						"DeliveryZipCode": "838 75",
+						"DeliveryCity": "Frösön",
+						"DeliveryCountryRegionID": "FI",
+						"LineAmount": "2133.80",
+						"Apartment": "4",
+						"Floor": "2",
+						"DlvBatchID": "1",
+						"Line": "1",
+						"FactoryConfirmedDlv": "",
+						"InstallHours": "14.38",
+						"InstallStart": "30.08.2024",
+						"ReservationStart": "2024-08-30T00.00.00",
+						"DeliveryDatePromised": "30.08.2024",
+						"Plan_name": "ZSXUR",
+						"PieceWork_pay": "93.82"
+					},
+					"AssemblyInstructions": {
+						"InstallNotes": "",
+						"Attachments": {
+							"Attachment": "salestori-asennuskortti-9000764630017187.pdf",
+							"Folder": "\\269000\\269847\\"
+						},
+						"AssemblyDocument": [
+							{
+								"name": "Tilaustiedot",
+								"Chapter": [
+									{
+										"name": "Perustiedot",
+										"Paragraph": [
+											{
+												"name": "Content",
+												"text": " Rrrr\r\nVersionnostotesti 1 838 75 Frösön\r\nPuhelin +358451141821"
+											}
+										]
+									},
+									{
+										"name": "Tilaustiedot",
+										"Paragraph": [
+											{
+												"name": "Content",
+												"text": "Asiakaslupaus 30/08/2024\r\nTilausnumero 90007646\r\nLinja 1\r\nKerros 2\r\nAsunto 4\r\nRVN 9000764630017187"
+											}
+										]
+									}
+								]
+							},
+							{
+								"name": "Asennustiedot",
+								"Chapter": [
+									{
+										"name": "Tuotetiedot",
+										"Paragraph": [
+											{
+												"name": "Tuote",
+												"text": "LG , sides:3"
+											},
+											{
+												"name": "Kiinnitystapa",
+												"text": "Upper: To roof, Lower: To floor"
+											},
+											{
+												"name": "Profiilit",
+												"text": "Upper: 11241205 RAL7024, Lower: 11243001 11243001 "
+											},
+											{
+												"name": "Varusteet",
+												"text": "Plastic parts: Dark grey, End plugs"
+											}
+										]
+									},
+									{
+										"name": "Tuotemitat",
+										"Paragraph": [
+											{
+												"name": "Sivu1,H3=773",
+												"text": "SA=90 EA= Length=2000 Z=0 Height=2000 X=0 Y=0 Lpcs=3 Rpcs=0 SA=90 Cbypass=No Adjus= \r\nUpper profile: 11241205 RAL7024\r\nLower profile: 11243001 RAL7024\r\nTeles. Profile: 11222206 RAL7024\r\nG1: W=649 H=761\r\nG2: W=649 H=761\r\nG3: W=649 H=761\r\n"
+											},
+											{
+												"name": "Sivu2,H3=773",
+												"text": "SA= EA= Length=1500 Z=0 Height=2000 X=0 Y=0 Lpcs=0 Rpcs=2 SA=180 Cbypass=No Adjus= \r\nUpper profile: 11241205 RAL7024\r\nLower profile: 11243001 RAL7024\r\nTeles. Profile: 11222206 RAL7024\r\nG1: W=731 H=761\r\nG2: W=731 H=761\r\n"
+											},
+											{
+												"name": "Sivu3,H3=773",
+												"text": "SA= EA=90 Length=1500 Z=0 Height=2000 X=0 Y=0 Lpcs=2 Rpcs=0 SA= Cbypass=No Adjus= \r\nUpper profile: 11241205 RAL7024\r\nLower profile: 11243001 RAL7024\r\nTeles. Profile: 11222206 RAL7024\r\nG1: W=741 H=761\r\nG2: W=741 H=761\r\n"
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				},
+				{
+					"delivery_batch": "1",
+					"delivery_batch_status": "Mitattu",
+					"delivery_batch_receive_date": "30.08.2024",
+					"delivery_batch_delivery_date": "27.08.2024",
+					"group_attachment": "",
+					"AXconfiguration": "no",
+					"group_name": "Lumon Kaide",
+					"pcs": "1",
+					"structurenumber": "9000764630017188",
+					"originalstructurenumber": "",
+					"install_start_date": "30.08.2024",
+					"install_end_date": "26.09.2024",
+					"additional_deliverytime": "0",
+					"process": "Normal",
+					"product_code": "90370001",
+					"storageid": "VAN",
+					"packing_order": "1",
+					"unit": "4",
+					"line": "1",
+					"floor": "2",
+					"chargeable": "chargeable",
+					"sales_price": "2088.30",
+					"sproduct": "1725.00",
+					"sfreight": "38.20",
+					"sinstall": "271.60",
+					"sother": "53.50",
+					"purchase_price": "1309.90",
+					"pproduct": "1309.90",
+					"pfreight": "0.00",
+					"pinstall": "0.00",
+					"pother": "0.00",
+					"calculated_salesprice": "2090.30",
+					"factory_price": "1309.90",
+					"fproduct": "1309.90",
+					"ffreight": "0.00",
+					"finstall": "0.00",
+					"fother": "0.00",
+					"contract_price": "94.56",
+					"salestori_plan_name": "ZSXUR",
+					"glass_m2": "2.20",
+					"blinds_m2": "0.00",
+					"glass_pcs": "0",
+					"product_length": "1999",
+					"group_weight": "0",
+					"product_attributes": "",
+					"installed": "True",
+					"OrderLine": {
+						"BOMVersion": "9000764630017188",
+						"ItemID": "90370001",
+						"ItemName": "LUMONKAIDE",
+						"InventLocationID": "VAN",
+						"Dimension1": "390",
+						"Dimension5": "Vsevoloda",
+						"DeliveryName": "Rrrr ",
+						"DeliveryStreet": "Versionnostotesti 1",
+						"DeliveryZipCode": "838 75",
+						"DeliveryCity": "Frösön",
+						"DeliveryCountryRegionID": "FI",
+						"LineAmount": "2088.30",
+						"Apartment": "4",
+						"Floor": "2",
+						"DlvBatchID": "1",
+						"Line": "1",
+						"FactoryConfirmedDlv": "",
+						"InstallHours": "2.17",
+						"InstallStart": "30.08.2024",
+						"ReservationStart": "2024-08-30T00.00.00",
+						"DeliveryDatePromised": "30.08.2024",
+						"Plan_name": "ZSXUR",
+						"PieceWork_pay": "94.56"
+					},
+					"AssemblyInstructions": {
+						"InstallNotes": "",
+						"Attachments": {
+							"Attachment": "salestori-asennuskortti-9000764630017188.pdf",
+							"Folder": "\\269000\\269847\\"
+						},
+						"AssemblyDocument": [
+							{
+								"name": "Tilaustiedot",
+								"Chapter": [
+									{
+										"name": "Perustiedot",
+										"Paragraph": [
+											{
+												"name": "Content",
+												"text": " Rrrr\r\nVersionnostotesti 1 838 75 Frösön\r\nPuhelin +358451141821"
+											}
+										]
+									},
+									{
+										"name": "Tilaustiedot",
+										"Paragraph": [
+											{
+												"name": "Content",
+												"text": "Asiakaslupaus 30/08/2024\r\nTilausnumero 90007646\r\nLinja 1\r\nKerros 2\r\nAsunto 4\r\nRVN 9000764630017188"
+											}
+										]
+									}
+								]
+							},
+							{
+								"name": "Asennustiedot",
+								"Chapter": [
+									{
+										"name": "Tuotetiedot",
+										"Paragraph": [
+											{
+												"name": "Tuote",
+												"text": "Kaide1.1 , sides:3"
+											},
+											{
+												"name": "Kiinnitystapa",
+												"text": "Top installation"
+											},
+											{
+												"name": "Profiilit",
+												"text": "INST_XML_COLOR:RAL7024, Handrail 160 "
+											},
+											{
+												"name": "Varusteet"
+											}
+										]
+									},
+									{
+										"name": "Tuotemitat",
+										"Paragraph": [
+											{
+												"name": "Sivu1",
+												"text": "SA=90 SA=90 Length=2000 Z=0  INST_XML_PULLOUT=0 INST_XML_UPHOLSTERY_PCS=2 INST_XML_HANDRAIL: Handrail 160, INST_XML_ELEVATION: 1100, RAL7024 INST_XML_HANDRAIL_PIPE: Handrail 160, RAL7024 INST_XML_TOE_LIST: No gap profile INST_XML_WEDGE_CRACK_SEAL: No seal INST_XML_LOWER_UPHOLSTERY: Lower frame for top installation, only for top installation, INST_XML_ELEVATION: 0, RAL7024 INST_XML_UPHOLSTERY_PROFILE: Facade profile 215 INST_XML_DECO_PIPE:  INST_XML_WALL_FASTENING_LEFT: Vertical handrail bracket INST_XML_WALL_FASTENING_RIGHT: Vertical handrail bracket INST_XML_WALL_FASTENING_ANCHOR_LEFT: HUS-HR 10x115 Concrete screw INST_XML_WALL_FASTENING_RIGHT: HUS-HR 10x115 Concrete screw INST_XML_HEAT_PLASTER_LEFT: INST_XML_NO INST_XML_HEAT_PLASTER_RIGHT: INST_XML_NOINST_XML_UPHOLSTERY_SHORT1: W=979 H=1067, INST_XML_NO INST_XML_UPHOLSTERY_SHORT2: W=979 H=1067, INST_XML_NO "
+											},
+											{
+												"name": "Sivu2",
+												"text": "SA=180 Length=1500 Z=0  INST_XML_PULLOUT=0 INST_XML_UPHOLSTERY_PCS=2 INST_XML_HANDRAIL: Handrail 160, INST_XML_ELEVATION: 1100, RAL7024 INST_XML_HANDRAIL_PIPE: Handrail 160, RAL7024 INST_XML_TOE_LIST: No gap profile INST_XML_WEDGE_CRACK_SEAL: No seal INST_XML_LOWER_UPHOLSTERY: Lower frame for top installation, only for top installation, INST_XML_ELEVATION: 0, RAL7024 INST_XML_UPHOLSTERY_PROFILE: Facade profile 215 INST_XML_DECO_PIPE:  INST_XML_WALL_FASTENING_LEFT: Vertical handrail bracket INST_XML_WALL_FASTENING_RIGHT: Vertical handrail bracket INST_XML_WALL_FASTENING_ANCHOR_LEFT: HUS-HR 10x115 Concrete screw INST_XML_WALL_FASTENING_RIGHT: HUS-HR 10x115 Concrete screw INST_XML_HEAT_PLASTER_LEFT: INST_XML_NO INST_XML_HEAT_PLASTER_RIGHT: INST_XML_NOINST_XML_MIDDLEPOST1/INST_XML_MIDDLEPOST_POSITION/INST_XML_MIDDLEPOST_ANCHOR: LRAILH_SteelPost_1020mm/1300/ HUS-HR 10x115 Concrete screw INST_XML_MOVEMENT_SEAMLRAILH_SteelPost_1020mm: INST_XML_NO INST_XML_UPHOLSTERY_SHORT1: W=730 H=1067, INST_XML_NO INST_XML_UPHOLSTERY_SHORT2: W=730 H=1067, INST_XML_NO "
+											},
+											{
+												"name": "Sivu3",
+												"text": "EA=90 Length=1500 Z=0  INST_XML_PULLOUT=0 INST_XML_UPHOLSTERY_PCS=2 INST_XML_HANDRAIL: Handrail 160, INST_XML_ELEVATION: 1100, RAL7024 INST_XML_HANDRAIL_PIPE: Handrail 160, RAL7024 INST_XML_TOE_LIST: No gap profile INST_XML_WEDGE_CRACK_SEAL: No seal INST_XML_LOWER_UPHOLSTERY: Lower frame for top installation, only for top installation, INST_XML_ELEVATION: 0, RAL7024 INST_XML_UPHOLSTERY_PROFILE: Facade profile 215 INST_XML_DECO_PIPE:  INST_XML_WALL_FASTENING_LEFT: Vertical handrail bracket INST_XML_WALL_FASTENING_RIGHT: Vertical handrail bracket INST_XML_WALL_FASTENING_ANCHOR_LEFT: HUS-HR 10x115 Concrete screw INST_XML_WALL_FASTENING_RIGHT: HUS-HR 10x115 Concrete screw INST_XML_HEAT_PLASTER_LEFT: INST_XML_NO INST_XML_HEAT_PLASTER_RIGHT: INST_XML_NOINST_XML_UPHOLSTERY_SHORT1: W=735 H=1067, INST_XML_NO INST_XML_UPHOLSTERY_SHORT2: W=735 H=1067, INST_XML_NO "
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				},
+				{
+					"delivery_batch": "1",
+					"delivery_batch_status": "Mitattu",
+					"delivery_batch_receive_date": "30.08.2024",
+					"delivery_batch_delivery_date": "27.08.2024",
+					"group_attachment": "",
+					"AXconfiguration": "no",
+					"group_name": "Avautuva (LGR)",
+					"pcs": "1",
+					"structurenumber": "9000764630017189",
+					"originalstructurenumber": "",
+					"install_start_date": "30.08.2024",
+					"install_end_date": "26.09.2024",
+					"additional_deliverytime": "0",
+					"process": "Normal",
+					"product_code": "90240001",
+					"storageid": "VAN",
+					"packing_order": "1",
+					"unit": "7",
+					"line": "1",
+					"floor": "3",
+					"chargeable": "chargeable",
+					"sales_price": "2133.80",
+					"sproduct": "1584.10",
+					"sfreight": "58.90",
+					"sinstall": "306.70",
+					"sother": "184.10",
+					"purchase_price": "1211.30",
+					"pproduct": "1211.30",
+					"pfreight": "0.00",
+					"pinstall": "0.00",
+					"pother": "0.00",
+					"calculated_salesprice": "2133.90",
+					"factory_price": "1211.30",
+					"fproduct": "1211.30",
+					"ffreight": "0.00",
+					"finstall": "0.00",
+					"fother": "0.00",
+					"contract_price": "93.82",
+					"salestori_plan_name": "ZSXUR",
+					"glass_m2": "6.30",
+					"blinds_m2": "0.00",
+					"glass_pcs": "10",
+					"product_length": "7000",
+					"group_weight": "111.7577",
+					"product_attributes": {
+						"attributeid": "20090008"
+					},
+					"installed": "True",
+					"OrderLine": {
+						"BOMVersion": "9000764630017189",
+						"ItemID": "90240001",
+						"ItemName": "LG",
+						"InventLocationID": "VAN",
+						"Dimension1": "390",
+						"Dimension5": "Vsevoloda",
+						"DeliveryName": "Rrrr ",
+						"DeliveryStreet": "Versionnostotesti 1",
+						"DeliveryZipCode": "838 75",
+						"DeliveryCity": "Frösön",
+						"DeliveryCountryRegionID": "FI",
+						"LineAmount": "2133.80",
+						"Apartment": "7",
+						"Floor": "3",
+						"DlvBatchID": "1",
+						"Line": "1",
+						"FactoryConfirmedDlv": "",
+						"InstallHours": "14.38",
+						"InstallStart": "30.08.2024",
+						"ReservationStart": "2024-08-30T00.00.00",
+						"DeliveryDatePromised": "30.08.2024",
+						"Plan_name": "ZSXUR",
+						"PieceWork_pay": "93.82"
+					},
+					"AssemblyInstructions": {
+						"InstallNotes": "",
+						"Attachments": {
+							"Attachment": "salestori-asennuskortti-9000764630017189.pdf",
+							"Folder": "\\269000\\269847\\"
+						},
+						"AssemblyDocument": [
+							{
+								"name": "Tilaustiedot",
+								"Chapter": [
+									{
+										"name": "Perustiedot",
+										"Paragraph": [
+											{
+												"name": "Content",
+												"text": " Rrrr\r\nVersionnostotesti 1 838 75 Frösön\r\nPuhelin +358451141821"
+											}
+										]
+									},
+									{
+										"name": "Tilaustiedot",
+										"Paragraph": [
+											{
+												"name": "Content",
+												"text": "Asiakaslupaus 30/08/2024\r\nTilausnumero 90007646\r\nLinja 1\r\nKerros 3\r\nAsunto 7\r\nRVN 9000764630017189"
+											}
+										]
+									}
+								]
+							},
+							{
+								"name": "Asennustiedot",
+								"Chapter": [
+									{
+										"name": "Tuotetiedot",
+										"Paragraph": [
+											{
+												"name": "Tuote",
+												"text": "LG , sides:3"
+											},
+											{
+												"name": "Kiinnitystapa",
+												"text": "Upper: To roof, Lower: To floor"
+											},
+											{
+												"name": "Profiilit",
+												"text": "Upper: 11241205 RAL7024, Lower: 11243001 11243001 "
+											},
+											{
+												"name": "Varusteet",
+												"text": "Plastic parts: Dark grey, End plugs"
+											}
+										]
+									},
+									{
+										"name": "Tuotemitat",
+										"Paragraph": [
+											{
+												"name": "Sivu1,H3=773",
+												"text": "SA=90 EA= Length=2000 Z=0 Height=2000 X=0 Y=0 Lpcs=3 Rpcs=0 SA=90 Cbypass=No Adjus= \r\nUpper profile: 11241205 RAL7024\r\nLower profile: 11243001 RAL7024\r\nTeles. Profile: 11222206 RAL7024\r\nG1: W=649 H=761\r\nG2: W=649 H=761\r\nG3: W=649 H=761\r\n"
+											},
+											{
+												"name": "Sivu2,H3=773",
+												"text": "SA= EA= Length=1500 Z=0 Height=2000 X=0 Y=0 Lpcs=0 Rpcs=2 SA=180 Cbypass=No Adjus= \r\nUpper profile: 11241205 RAL7024\r\nLower profile: 11243001 RAL7024\r\nTeles. Profile: 11222206 RAL7024\r\nG1: W=731 H=761\r\nG2: W=731 H=761\r\n"
+											},
+											{
+												"name": "Sivu3,H3=773",
+												"text": "SA= EA=90 Length=1500 Z=0 Height=2000 X=0 Y=0 Lpcs=2 Rpcs=0 SA= Cbypass=No Adjus= \r\nUpper profile: 11241205 RAL7024\r\nLower profile: 11243001 RAL7024\r\nTeles. Profile: 11222206 RAL7024\r\nG1: W=741 H=761\r\nG2: W=741 H=761\r\n"
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				},
+				{
+					"delivery_batch": "1",
+					"delivery_batch_status": "Mitattu",
+					"delivery_batch_receive_date": "30.08.2024",
+					"delivery_batch_delivery_date": "27.08.2024",
+					"group_attachment": "",
+					"AXconfiguration": "no",
+					"group_name": "Lumon Kaide",
+					"pcs": "1",
+					"structurenumber": "9000764630017190",
+					"originalstructurenumber": "",
+					"install_start_date": "30.08.2024",
+					"install_end_date": "26.09.2024",
+					"additional_deliverytime": "0",
+					"process": "Normal",
+					"product_code": "90370001",
+					"storageid": "VAN",
+					"packing_order": "1",
+					"unit": "7",
+					"line": "1",
+					"floor": "3",
+					"chargeable": "chargeable",
+					"sales_price": "2088.30",
+					"sproduct": "1725.00",
+					"sfreight": "38.20",
+					"sinstall": "271.60",
+					"sother": "53.50",
+					"purchase_price": "1309.90",
+					"pproduct": "1309.90",
+					"pfreight": "0.00",
+					"pinstall": "0.00",
+					"pother": "0.00",
+					"calculated_salesprice": "2090.30",
+					"factory_price": "1309.90",
+					"fproduct": "1309.90",
+					"ffreight": "0.00",
+					"finstall": "0.00",
+					"fother": "0.00",
+					"contract_price": "94.56",
+					"salestori_plan_name": "ZSXUR",
+					"glass_m2": "2.20",
+					"blinds_m2": "0.00",
+					"glass_pcs": "0",
+					"product_length": "1999",
+					"group_weight": "0",
+					"product_attributes": "",
+					"installed": "True",
+					"OrderLine": {
+						"BOMVersion": "9000764630017190",
+						"ItemID": "90370001",
+						"ItemName": "LUMONKAIDE",
+						"InventLocationID": "VAN",
+						"Dimension1": "390",
+						"Dimension5": "Vsevoloda",
+						"DeliveryName": "Rrrr ",
+						"DeliveryStreet": "Versionnostotesti 1",
+						"DeliveryZipCode": "838 75",
+						"DeliveryCity": "Frösön",
+						"DeliveryCountryRegionID": "FI",
+						"LineAmount": "2088.30",
+						"Apartment": "7",
+						"Floor": "3",
+						"DlvBatchID": "1",
+						"Line": "1",
+						"FactoryConfirmedDlv": "",
+						"InstallHours": "2.17",
+						"InstallStart": "30.08.2024",
+						"ReservationStart": "2024-08-30T00.00.00",
+						"DeliveryDatePromised": "30.08.2024",
+						"Plan_name": "ZSXUR",
+						"PieceWork_pay": "94.56"
+					},
+					"AssemblyInstructions": {
+						"InstallNotes": "",
+						"Attachments": {
+							"Attachment": "salestori-asennuskortti-9000764630017190.pdf",
+							"Folder": "\\269000\\269847\\"
+						},
+						"AssemblyDocument": [
+							{
+								"name": "Tilaustiedot",
+								"Chapter": [
+									{
+										"name": "Perustiedot",
+										"Paragraph": [
+											{
+												"name": "Content",
+												"text": " Rrrr\r\nVersionnostotesti 1 838 75 Frösön\r\nPuhelin +358451141821"
+											}
+										]
+									},
+									{
+										"name": "Tilaustiedot",
+										"Paragraph": [
+											{
+												"name": "Content",
+												"text": "Asiakaslupaus 30/08/2024\r\nTilausnumero 90007646\r\nLinja 1\r\nKerros 3\r\nAsunto 7\r\nRVN 9000764630017190"
+											}
+										]
+									}
+								]
+							},
+							{
+								"name": "Asennustiedot",
+								"Chapter": [
+									{
+										"name": "Tuotetiedot",
+										"Paragraph": [
+											{
+												"name": "Tuote",
+												"text": "Kaide1.1 , sides:3"
+											},
+											{
+												"name": "Kiinnitystapa",
+												"text": "Top installation"
+											},
+											{
+												"name": "Profiilit",
+												"text": "INST_XML_COLOR:RAL7024, Handrail 160 "
+											},
+											{
+												"name": "Varusteet"
+											}
+										]
+									},
+									{
+										"name": "Tuotemitat",
+										"Paragraph": [
+											{
+												"name": "Sivu1",
+												"text": "SA=90 SA=90 Length=2000 Z=0  INST_XML_PULLOUT=0 INST_XML_UPHOLSTERY_PCS=2 INST_XML_HANDRAIL: Handrail 160, INST_XML_ELEVATION: 1100, RAL7024 INST_XML_HANDRAIL_PIPE: Handrail 160, RAL7024 INST_XML_TOE_LIST: No gap profile INST_XML_WEDGE_CRACK_SEAL: No seal INST_XML_LOWER_UPHOLSTERY: Lower frame for top installation, only for top installation, INST_XML_ELEVATION: 0, RAL7024 INST_XML_UPHOLSTERY_PROFILE: Facade profile 215 INST_XML_DECO_PIPE:  INST_XML_WALL_FASTENING_LEFT: Vertical handrail bracket INST_XML_WALL_FASTENING_RIGHT: Vertical handrail bracket INST_XML_WALL_FASTENING_ANCHOR_LEFT: HUS-HR 10x115 Concrete screw INST_XML_WALL_FASTENING_RIGHT: HUS-HR 10x115 Concrete screw INST_XML_HEAT_PLASTER_LEFT: INST_XML_NO INST_XML_HEAT_PLASTER_RIGHT: INST_XML_NOINST_XML_UPHOLSTERY_SHORT1: W=979 H=1067, INST_XML_NO INST_XML_UPHOLSTERY_SHORT2: W=979 H=1067, INST_XML_NO "
+											},
+											{
+												"name": "Sivu2",
+												"text": "SA=180 Length=1500 Z=0  INST_XML_PULLOUT=0 INST_XML_UPHOLSTERY_PCS=2 INST_XML_HANDRAIL: Handrail 160, INST_XML_ELEVATION: 1100, RAL7024 INST_XML_HANDRAIL_PIPE: Handrail 160, RAL7024 INST_XML_TOE_LIST: No gap profile INST_XML_WEDGE_CRACK_SEAL: No seal INST_XML_LOWER_UPHOLSTERY: Lower frame for top installation, only for top installation, INST_XML_ELEVATION: 0, RAL7024 INST_XML_UPHOLSTERY_PROFILE: Facade profile 215 INST_XML_DECO_PIPE:  INST_XML_WALL_FASTENING_LEFT: Vertical handrail bracket INST_XML_WALL_FASTENING_RIGHT: Vertical handrail bracket INST_XML_WALL_FASTENING_ANCHOR_LEFT: HUS-HR 10x115 Concrete screw INST_XML_WALL_FASTENING_RIGHT: HUS-HR 10x115 Concrete screw INST_XML_HEAT_PLASTER_LEFT: INST_XML_NO INST_XML_HEAT_PLASTER_RIGHT: INST_XML_NOINST_XML_MIDDLEPOST1/INST_XML_MIDDLEPOST_POSITION/INST_XML_MIDDLEPOST_ANCHOR: LRAILH_SteelPost_1020mm/1300/ HUS-HR 10x115 Concrete screw INST_XML_MOVEMENT_SEAMLRAILH_SteelPost_1020mm: INST_XML_NO INST_XML_UPHOLSTERY_SHORT1: W=730 H=1067, INST_XML_NO INST_XML_UPHOLSTERY_SHORT2: W=730 H=1067, INST_XML_NO "
+											},
+											{
+												"name": "Sivu3",
+												"text": "EA=90 Length=1500 Z=0  INST_XML_PULLOUT=0 INST_XML_UPHOLSTERY_PCS=2 INST_XML_HANDRAIL: Handrail 160, INST_XML_ELEVATION: 1100, RAL7024 INST_XML_HANDRAIL_PIPE: Handrail 160, RAL7024 INST_XML_TOE_LIST: No gap profile INST_XML_WEDGE_CRACK_SEAL: No seal INST_XML_LOWER_UPHOLSTERY: Lower frame for top installation, only for top installation, INST_XML_ELEVATION: 0, RAL7024 INST_XML_UPHOLSTERY_PROFILE: Facade profile 215 INST_XML_DECO_PIPE:  INST_XML_WALL_FASTENING_LEFT: Vertical handrail bracket INST_XML_WALL_FASTENING_RIGHT: Vertical handrail bracket INST_XML_WALL_FASTENING_ANCHOR_LEFT: HUS-HR 10x115 Concrete screw INST_XML_WALL_FASTENING_RIGHT: HUS-HR 10x115 Concrete screw INST_XML_HEAT_PLASTER_LEFT: INST_XML_NO INST_XML_HEAT_PLASTER_RIGHT: INST_XML_NOINST_XML_UPHOLSTERY_SHORT1: W=735 H=1067, INST_XML_NO INST_XML_UPHOLSTERY_SHORT2: W=735 H=1067, INST_XML_NO "
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				},
+				{
+					"delivery_batch": "1",
+					"delivery_batch_status": "Mitattu",
+					"delivery_batch_receive_date": "30.08.2024",
+					"delivery_batch_delivery_date": "27.08.2024",
+					"group_attachment": "",
+					"AXconfiguration": "no",
+					"group_name": "Avautuva (LGR)",
+					"pcs": "1",
+					"structurenumber": "9000764630017191",
+					"originalstructurenumber": "",
+					"install_start_date": "30.08.2024",
+					"install_end_date": "26.09.2024",
+					"additional_deliverytime": "0",
+					"process": "Normal",
+					"product_code": "90240001",
+					"storageid": "VAN",
+					"packing_order": "1",
+					"unit": "2",
+					"line": "2",
+					"floor": "1",
+					"chargeable": "chargeable",
+					"sales_price": "2133.80",
+					"sproduct": "1584.10",
+					"sfreight": "58.90",
+					"sinstall": "306.70",
+					"sother": "184.10",
+					"purchase_price": "1211.30",
+					"pproduct": "1211.30",
+					"pfreight": "0.00",
+					"pinstall": "0.00",
+					"pother": "0.00",
+					"calculated_salesprice": "2133.90",
+					"factory_price": "1211.30",
+					"fproduct": "1211.30",
+					"ffreight": "0.00",
+					"finstall": "0.00",
+					"fother": "0.00",
+					"contract_price": "93.82",
+					"salestori_plan_name": "ZSXUR",
+					"glass_m2": "6.30",
+					"blinds_m2": "0.00",
+					"glass_pcs": "10",
+					"product_length": "7000",
+					"group_weight": "111.7577",
+					"product_attributes": {
+						"attributeid": "20090008"
+					},
+					"installed": "True",
+					"OrderLine": {
+						"BOMVersion": "9000764630017191",
+						"ItemID": "90240001",
+						"ItemName": "LG",
+						"InventLocationID": "VAN",
+						"Dimension1": "390",
+						"Dimension5": "Vsevoloda",
+						"DeliveryName": "Rrrr ",
+						"DeliveryStreet": "Versionnostotesti 1",
+						"DeliveryZipCode": "838 75",
+						"DeliveryCity": "Frösön",
+						"DeliveryCountryRegionID": "FI",
+						"LineAmount": "2133.80",
+						"Apartment": "2",
+						"Floor": "1",
+						"DlvBatchID": "1",
+						"Line": "2",
+						"FactoryConfirmedDlv": "",
+						"InstallHours": "14.38",
+						"InstallStart": "30.08.2024",
+						"ReservationStart": "2024-08-30T00.00.00",
+						"DeliveryDatePromised": "30.08.2024",
+						"Plan_name": "ZSXUR",
+						"PieceWork_pay": "93.82"
+					},
+					"AssemblyInstructions": {
+						"InstallNotes": "",
+						"Attachments": {
+							"Attachment": "salestori-asennuskortti-9000764630017191.pdf",
+							"Folder": "\\269000\\269847\\"
+						},
+						"AssemblyDocument": [
+							{
+								"name": "Tilaustiedot",
+								"Chapter": [
+									{
+										"name": "Perustiedot",
+										"Paragraph": [
+											{
+												"name": "Content",
+												"text": " Rrrr\r\nVersionnostotesti 1 838 75 Frösön\r\nPuhelin +358451141821"
+											}
+										]
+									},
+									{
+										"name": "Tilaustiedot",
+										"Paragraph": [
+											{
+												"name": "Content",
+												"text": "Asiakaslupaus 30/08/2024\r\nTilausnumero 90007646\r\nLinja 2\r\nKerros 1\r\nAsunto 2\r\nRVN 9000764630017191"
+											}
+										]
+									}
+								]
+							},
+							{
+								"name": "Asennustiedot",
+								"Chapter": [
+									{
+										"name": "Tuotetiedot",
+										"Paragraph": [
+											{
+												"name": "Tuote",
+												"text": "LG , sides:3"
+											},
+											{
+												"name": "Kiinnitystapa",
+												"text": "Upper: To roof, Lower: To floor"
+											},
+											{
+												"name": "Profiilit",
+												"text": "Upper: 11241205 RAL7024, Lower: 11243001 11243001 "
+											},
+											{
+												"name": "Varusteet",
+												"text": "Plastic parts: Dark grey, End plugs"
+											}
+										]
+									},
+									{
+										"name": "Tuotemitat",
+										"Paragraph": [
+											{
+												"name": "Sivu1,H3=773",
+												"text": "SA=90 EA= Length=2000 Z=0 Height=2000 X=0 Y=0 Lpcs=3 Rpcs=0 SA=90 Cbypass=No Adjus= \r\nUpper profile: 11241205 RAL7024\r\nLower profile: 11243001 RAL7024\r\nTeles. Profile: 11222206 RAL7024\r\nG1: W=649 H=761\r\nG2: W=649 H=761\r\nG3: W=649 H=761\r\n"
+											},
+											{
+												"name": "Sivu2,H3=773",
+												"text": "SA= EA= Length=1500 Z=0 Height=2000 X=0 Y=0 Lpcs=0 Rpcs=2 SA=180 Cbypass=No Adjus= \r\nUpper profile: 11241205 RAL7024\r\nLower profile: 11243001 RAL7024\r\nTeles. Profile: 11222206 RAL7024\r\nG1: W=731 H=761\r\nG2: W=731 H=761\r\n"
+											},
+											{
+												"name": "Sivu3,H3=773",
+												"text": "SA= EA=90 Length=1500 Z=0 Height=2000 X=0 Y=0 Lpcs=2 Rpcs=0 SA= Cbypass=No Adjus= \r\nUpper profile: 11241205 RAL7024\r\nLower profile: 11243001 RAL7024\r\nTeles. Profile: 11222206 RAL7024\r\nG1: W=741 H=761\r\nG2: W=741 H=761\r\n"
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				},
+				{
+					"delivery_batch": "1",
+					"delivery_batch_status": "Mitattu",
+					"delivery_batch_receive_date": "30.08.2024",
+					"delivery_batch_delivery_date": "27.08.2024",
+					"group_attachment": "",
+					"AXconfiguration": "no",
+					"group_name": "Lumon Kaide",
+					"pcs": "1",
+					"structurenumber": "9000764630017192",
+					"originalstructurenumber": "",
+					"install_start_date": "30.08.2024",
+					"install_end_date": "26.09.2024",
+					"additional_deliverytime": "0",
+					"process": "Normal",
+					"product_code": "90370001",
+					"storageid": "VAN",
+					"packing_order": "1",
+					"unit": "2",
+					"line": "2",
+					"floor": "1",
+					"chargeable": "chargeable",
+					"sales_price": "2088.30",
+					"sproduct": "1725.00",
+					"sfreight": "38.20",
+					"sinstall": "271.60",
+					"sother": "53.50",
+					"purchase_price": "1309.90",
+					"pproduct": "1309.90",
+					"pfreight": "0.00",
+					"pinstall": "0.00",
+					"pother": "0.00",
+					"calculated_salesprice": "2090.30",
+					"factory_price": "1309.90",
+					"fproduct": "1309.90",
+					"ffreight": "0.00",
+					"finstall": "0.00",
+					"fother": "0.00",
+					"contract_price": "94.56",
+					"salestori_plan_name": "ZSXUR",
+					"glass_m2": "2.20",
+					"blinds_m2": "0.00",
+					"glass_pcs": "0",
+					"product_length": "1999",
+					"group_weight": "0",
+					"product_attributes": "",
+					"installed": "True",
+					"OrderLine": {
+						"BOMVersion": "9000764630017192",
+						"ItemID": "90370001",
+						"ItemName": "LUMONKAIDE",
+						"InventLocationID": "VAN",
+						"Dimension1": "390",
+						"Dimension5": "Vsevoloda",
+						"DeliveryName": "Rrrr ",
+						"DeliveryStreet": "Versionnostotesti 1",
+						"DeliveryZipCode": "838 75",
+						"DeliveryCity": "Frösön",
+						"DeliveryCountryRegionID": "FI",
+						"LineAmount": "2088.30",
+						"Apartment": "2",
+						"Floor": "1",
+						"DlvBatchID": "1",
+						"Line": "2",
+						"FactoryConfirmedDlv": "",
+						"InstallHours": "2.17",
+						"InstallStart": "30.08.2024",
+						"ReservationStart": "2024-08-30T00.00.00",
+						"DeliveryDatePromised": "30.08.2024",
+						"Plan_name": "ZSXUR",
+						"PieceWork_pay": "94.56"
+					},
+					"AssemblyInstructions": {
+						"InstallNotes": "",
+						"Attachments": {
+							"Attachment": "salestori-asennuskortti-9000764630017192.pdf",
+							"Folder": "\\269000\\269847\\"
+						},
+						"AssemblyDocument": [
+							{
+								"name": "Tilaustiedot",
+								"Chapter": [
+									{
+										"name": "Perustiedot",
+										"Paragraph": [
+											{
+												"name": "Content",
+												"text": " Rrrr\r\nVersionnostotesti 1 838 75 Frösön\r\nPuhelin +358451141821"
+											}
+										]
+									},
+									{
+										"name": "Tilaustiedot",
+										"Paragraph": [
+											{
+												"name": "Content",
+												"text": "Asiakaslupaus 30/08/2024\r\nTilausnumero 90007646\r\nLinja 2\r\nKerros 1\r\nAsunto 2\r\nRVN 9000764630017192"
+											}
+										]
+									}
+								]
+							},
+							{
+								"name": "Asennustiedot",
+								"Chapter": [
+									{
+										"name": "Tuotetiedot",
+										"Paragraph": [
+											{
+												"name": "Tuote",
+												"text": "Kaide1.1 , sides:3"
+											},
+											{
+												"name": "Kiinnitystapa",
+												"text": "Top installation"
+											},
+											{
+												"name": "Profiilit",
+												"text": "INST_XML_COLOR:RAL7024, Handrail 160 "
+											},
+											{
+												"name": "Varusteet"
+											}
+										]
+									},
+									{
+										"name": "Tuotemitat",
+										"Paragraph": [
+											{
+												"name": "Sivu1",
+												"text": "SA=90 SA=90 Length=2000 Z=0  INST_XML_PULLOUT=0 INST_XML_UPHOLSTERY_PCS=2 INST_XML_HANDRAIL: Handrail 160, INST_XML_ELEVATION: 1100, RAL7024 INST_XML_HANDRAIL_PIPE: Handrail 160, RAL7024 INST_XML_TOE_LIST: No gap profile INST_XML_WEDGE_CRACK_SEAL: No seal INST_XML_LOWER_UPHOLSTERY: Lower frame for top installation, only for top installation, INST_XML_ELEVATION: 0, RAL7024 INST_XML_UPHOLSTERY_PROFILE: Facade profile 215 INST_XML_DECO_PIPE:  INST_XML_WALL_FASTENING_LEFT: Vertical handrail bracket INST_XML_WALL_FASTENING_RIGHT: Vertical handrail bracket INST_XML_WALL_FASTENING_ANCHOR_LEFT: HUS-HR 10x115 Concrete screw INST_XML_WALL_FASTENING_RIGHT: HUS-HR 10x115 Concrete screw INST_XML_HEAT_PLASTER_LEFT: INST_XML_NO INST_XML_HEAT_PLASTER_RIGHT: INST_XML_NOINST_XML_UPHOLSTERY_SHORT1: W=979 H=1067, INST_XML_NO INST_XML_UPHOLSTERY_SHORT2: W=979 H=1067, INST_XML_NO "
+											},
+											{
+												"name": "Sivu2",
+												"text": "SA=180 Length=1500 Z=0  INST_XML_PULLOUT=0 INST_XML_UPHOLSTERY_PCS=2 INST_XML_HANDRAIL: Handrail 160, INST_XML_ELEVATION: 1100, RAL7024 INST_XML_HANDRAIL_PIPE: Handrail 160, RAL7024 INST_XML_TOE_LIST: No gap profile INST_XML_WEDGE_CRACK_SEAL: No seal INST_XML_LOWER_UPHOLSTERY: Lower frame for top installation, only for top installation, INST_XML_ELEVATION: 0, RAL7024 INST_XML_UPHOLSTERY_PROFILE: Facade profile 215 INST_XML_DECO_PIPE:  INST_XML_WALL_FASTENING_LEFT: Vertical handrail bracket INST_XML_WALL_FASTENING_RIGHT: Vertical handrail bracket INST_XML_WALL_FASTENING_ANCHOR_LEFT: HUS-HR 10x115 Concrete screw INST_XML_WALL_FASTENING_RIGHT: HUS-HR 10x115 Concrete screw INST_XML_HEAT_PLASTER_LEFT: INST_XML_NO INST_XML_HEAT_PLASTER_RIGHT: INST_XML_NOINST_XML_MIDDLEPOST1/INST_XML_MIDDLEPOST_POSITION/INST_XML_MIDDLEPOST_ANCHOR: LRAILH_SteelPost_1020mm/1300/ HUS-HR 10x115 Concrete screw INST_XML_MOVEMENT_SEAMLRAILH_SteelPost_1020mm: INST_XML_NO INST_XML_UPHOLSTERY_SHORT1: W=730 H=1067, INST_XML_NO INST_XML_UPHOLSTERY_SHORT2: W=730 H=1067, INST_XML_NO "
+											},
+											{
+												"name": "Sivu3",
+												"text": "EA=90 Length=1500 Z=0  INST_XML_PULLOUT=0 INST_XML_UPHOLSTERY_PCS=2 INST_XML_HANDRAIL: Handrail 160, INST_XML_ELEVATION: 1100, RAL7024 INST_XML_HANDRAIL_PIPE: Handrail 160, RAL7024 INST_XML_TOE_LIST: No gap profile INST_XML_WEDGE_CRACK_SEAL: No seal INST_XML_LOWER_UPHOLSTERY: Lower frame for top installation, only for top installation, INST_XML_ELEVATION: 0, RAL7024 INST_XML_UPHOLSTERY_PROFILE: Facade profile 215 INST_XML_DECO_PIPE:  INST_XML_WALL_FASTENING_LEFT: Vertical handrail bracket INST_XML_WALL_FASTENING_RIGHT: Vertical handrail bracket INST_XML_WALL_FASTENING_ANCHOR_LEFT: HUS-HR 10x115 Concrete screw INST_XML_WALL_FASTENING_RIGHT: HUS-HR 10x115 Concrete screw INST_XML_HEAT_PLASTER_LEFT: INST_XML_NO INST_XML_HEAT_PLASTER_RIGHT: INST_XML_NOINST_XML_UPHOLSTERY_SHORT1: W=735 H=1067, INST_XML_NO INST_XML_UPHOLSTERY_SHORT2: W=735 H=1067, INST_XML_NO "
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				},
+				{
+					"delivery_batch": "1",
+					"delivery_batch_status": "Mitattu",
+					"delivery_batch_receive_date": "30.08.2024",
+					"delivery_batch_delivery_date": "27.08.2024",
+					"group_attachment": "",
+					"AXconfiguration": "no",
+					"group_name": "Avautuva (LGR)",
+					"pcs": "1",
+					"structurenumber": "9000764630017193",
+					"originalstructurenumber": "",
+					"install_start_date": "30.08.2024",
+					"install_end_date": "26.09.2024",
+					"additional_deliverytime": "0",
+					"process": "Normal",
+					"product_code": "90240001",
+					"storageid": "VAN",
+					"packing_order": "1",
+					"unit": "5",
+					"line": "2",
+					"floor": "2",
+					"chargeable": "chargeable",
+					"sales_price": "2133.80",
+					"sproduct": "1584.10",
+					"sfreight": "58.90",
+					"sinstall": "306.70",
+					"sother": "184.10",
+					"purchase_price": "1211.30",
+					"pproduct": "1211.30",
+					"pfreight": "0.00",
+					"pinstall": "0.00",
+					"pother": "0.00",
+					"calculated_salesprice": "2133.90",
+					"factory_price": "1211.30",
+					"fproduct": "1211.30",
+					"ffreight": "0.00",
+					"finstall": "0.00",
+					"fother": "0.00",
+					"contract_price": "93.82",
+					"salestori_plan_name": "ZSXUR",
+					"glass_m2": "6.30",
+					"blinds_m2": "0.00",
+					"glass_pcs": "10",
+					"product_length": "7000",
+					"group_weight": "111.7577",
+					"product_attributes": {
+						"attributeid": "20090008"
+					},
+					"installed": "True",
+					"OrderLine": {
+						"BOMVersion": "9000764630017193",
+						"ItemID": "90240001",
+						"ItemName": "LG",
+						"InventLocationID": "VAN",
+						"Dimension1": "390",
+						"Dimension5": "Vsevoloda",
+						"DeliveryName": "Rrrr ",
+						"DeliveryStreet": "Versionnostotesti 1",
+						"DeliveryZipCode": "838 75",
+						"DeliveryCity": "Frösön",
+						"DeliveryCountryRegionID": "FI",
+						"LineAmount": "2133.80",
+						"Apartment": "5",
+						"Floor": "2",
+						"DlvBatchID": "1",
+						"Line": "2",
+						"FactoryConfirmedDlv": "",
+						"InstallHours": "14.38",
+						"InstallStart": "30.08.2024",
+						"ReservationStart": "2024-08-30T00.00.00",
+						"DeliveryDatePromised": "30.08.2024",
+						"Plan_name": "ZSXUR",
+						"PieceWork_pay": "93.82"
+					},
+					"AssemblyInstructions": {
+						"InstallNotes": "",
+						"Attachments": {
+							"Attachment": "salestori-asennuskortti-9000764630017193.pdf",
+							"Folder": "\\269000\\269847\\"
+						},
+						"AssemblyDocument": [
+							{
+								"name": "Tilaustiedot",
+								"Chapter": [
+									{
+										"name": "Perustiedot",
+										"Paragraph": [
+											{
+												"name": "Content",
+												"text": " Rrrr\r\nVersionnostotesti 1 838 75 Frösön\r\nPuhelin +358451141821"
+											}
+										]
+									},
+									{
+										"name": "Tilaustiedot",
+										"Paragraph": [
+											{
+												"name": "Content",
+												"text": "Asiakaslupaus 30/08/2024\r\nTilausnumero 90007646\r\nLinja 2\r\nKerros 2\r\nAsunto 5\r\nRVN 9000764630017193"
+											}
+										]
+									}
+								]
+							},
+							{
+								"name": "Asennustiedot",
+								"Chapter": [
+									{
+										"name": "Tuotetiedot",
+										"Paragraph": [
+											{
+												"name": "Tuote",
+												"text": "LG , sides:3"
+											},
+											{
+												"name": "Kiinnitystapa",
+												"text": "Upper: To roof, Lower: To floor"
+											},
+											{
+												"name": "Profiilit",
+												"text": "Upper: 11241205 RAL7024, Lower: 11243001 11243001 "
+											},
+											{
+												"name": "Varusteet",
+												"text": "Plastic parts: Dark grey, End plugs"
+											}
+										]
+									},
+									{
+										"name": "Tuotemitat",
+										"Paragraph": [
+											{
+												"name": "Sivu1,H3=773",
+												"text": "SA=90 EA= Length=2000 Z=0 Height=2000 X=0 Y=0 Lpcs=3 Rpcs=0 SA=90 Cbypass=No Adjus= \r\nUpper profile: 11241205 RAL7024\r\nLower profile: 11243001 RAL7024\r\nTeles. Profile: 11222206 RAL7024\r\nG1: W=649 H=761\r\nG2: W=649 H=761\r\nG3: W=649 H=761\r\n"
+											},
+											{
+												"name": "Sivu2,H3=773",
+												"text": "SA= EA= Length=1500 Z=0 Height=2000 X=0 Y=0 Lpcs=0 Rpcs=2 SA=180 Cbypass=No Adjus= \r\nUpper profile: 11241205 RAL7024\r\nLower profile: 11243001 RAL7024\r\nTeles. Profile: 11222206 RAL7024\r\nG1: W=731 H=761\r\nG2: W=731 H=761\r\n"
+											},
+											{
+												"name": "Sivu3,H3=773",
+												"text": "SA= EA=90 Length=1500 Z=0 Height=2000 X=0 Y=0 Lpcs=2 Rpcs=0 SA= Cbypass=No Adjus= \r\nUpper profile: 11241205 RAL7024\r\nLower profile: 11243001 RAL7024\r\nTeles. Profile: 11222206 RAL7024\r\nG1: W=741 H=761\r\nG2: W=741 H=761\r\n"
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				},
+				{
+					"delivery_batch": "1",
+					"delivery_batch_status": "Mitattu",
+					"delivery_batch_receive_date": "30.08.2024",
+					"delivery_batch_delivery_date": "27.08.2024",
+					"group_attachment": "",
+					"AXconfiguration": "no",
+					"group_name": "Lumon Kaide",
+					"pcs": "1",
+					"structurenumber": "9000764630017194",
+					"originalstructurenumber": "",
+					"install_start_date": "30.08.2024",
+					"install_end_date": "26.09.2024",
+					"additional_deliverytime": "0",
+					"process": "Normal",
+					"product_code": "90370001",
+					"storageid": "VAN",
+					"packing_order": "1",
+					"unit": "5",
+					"line": "2",
+					"floor": "2",
+					"chargeable": "chargeable",
+					"sales_price": "2088.30",
+					"sproduct": "1725.00",
+					"sfreight": "38.20",
+					"sinstall": "271.60",
+					"sother": "53.50",
+					"purchase_price": "1309.90",
+					"pproduct": "1309.90",
+					"pfreight": "0.00",
+					"pinstall": "0.00",
+					"pother": "0.00",
+					"calculated_salesprice": "2090.30",
+					"factory_price": "1309.90",
+					"fproduct": "1309.90",
+					"ffreight": "0.00",
+					"finstall": "0.00",
+					"fother": "0.00",
+					"contract_price": "94.56",
+					"salestori_plan_name": "ZSXUR",
+					"glass_m2": "2.20",
+					"blinds_m2": "0.00",
+					"glass_pcs": "0",
+					"product_length": "1999",
+					"group_weight": "0",
+					"product_attributes": "",
+					"installed": "True",
+					"OrderLine": {
+						"BOMVersion": "9000764630017194",
+						"ItemID": "90370001",
+						"ItemName": "LUMONKAIDE",
+						"InventLocationID": "VAN",
+						"Dimension1": "390",
+						"Dimension5": "Vsevoloda",
+						"DeliveryName": "Rrrr ",
+						"DeliveryStreet": "Versionnostotesti 1",
+						"DeliveryZipCode": "838 75",
+						"DeliveryCity": "Frösön",
+						"DeliveryCountryRegionID": "FI",
+						"LineAmount": "2088.30",
+						"Apartment": "5",
+						"Floor": "2",
+						"DlvBatchID": "1",
+						"Line": "2",
+						"FactoryConfirmedDlv": "",
+						"InstallHours": "2.17",
+						"InstallStart": "30.08.2024",
+						"ReservationStart": "2024-08-30T00.00.00",
+						"DeliveryDatePromised": "30.08.2024",
+						"Plan_name": "ZSXUR",
+						"PieceWork_pay": "94.56"
+					},
+					"AssemblyInstructions": {
+						"InstallNotes": "",
+						"Attachments": {
+							"Attachment": "salestori-asennuskortti-9000764630017194.pdf",
+							"Folder": "\\269000\\269847\\"
+						},
+						"AssemblyDocument": [
+							{
+								"name": "Tilaustiedot",
+								"Chapter": [
+									{
+										"name": "Perustiedot",
+										"Paragraph": [
+											{
+												"name": "Content",
+												"text": " Rrrr\r\nVersionnostotesti 1 838 75 Frösön\r\nPuhelin +358451141821"
+											}
+										]
+									},
+									{
+										"name": "Tilaustiedot",
+										"Paragraph": [
+											{
+												"name": "Content",
+												"text": "Asiakaslupaus 30/08/2024\r\nTilausnumero 90007646\r\nLinja 2\r\nKerros 2\r\nAsunto 5\r\nRVN 9000764630017194"
+											}
+										]
+									}
+								]
+							},
+							{
+								"name": "Asennustiedot",
+								"Chapter": [
+									{
+										"name": "Tuotetiedot",
+										"Paragraph": [
+											{
+												"name": "Tuote",
+												"text": "Kaide1.1 , sides:3"
+											},
+											{
+												"name": "Kiinnitystapa",
+												"text": "Top installation"
+											},
+											{
+												"name": "Profiilit",
+												"text": "INST_XML_COLOR:RAL7024, Handrail 160 "
+											},
+											{
+												"name": "Varusteet"
+											}
+										]
+									},
+									{
+										"name": "Tuotemitat",
+										"Paragraph": [
+											{
+												"name": "Sivu1",
+												"text": "SA=90 SA=90 Length=2000 Z=0  INST_XML_PULLOUT=0 INST_XML_UPHOLSTERY_PCS=2 INST_XML_HANDRAIL: Handrail 160, INST_XML_ELEVATION: 1100, RAL7024 INST_XML_HANDRAIL_PIPE: Handrail 160, RAL7024 INST_XML_TOE_LIST: No gap profile INST_XML_WEDGE_CRACK_SEAL: No seal INST_XML_LOWER_UPHOLSTERY: Lower frame for top installation, only for top installation, INST_XML_ELEVATION: 0, RAL7024 INST_XML_UPHOLSTERY_PROFILE: Facade profile 215 INST_XML_DECO_PIPE:  INST_XML_WALL_FASTENING_LEFT: Vertical handrail bracket INST_XML_WALL_FASTENING_RIGHT: Vertical handrail bracket INST_XML_WALL_FASTENING_ANCHOR_LEFT: HUS-HR 10x115 Concrete screw INST_XML_WALL_FASTENING_RIGHT: HUS-HR 10x115 Concrete screw INST_XML_HEAT_PLASTER_LEFT: INST_XML_NO INST_XML_HEAT_PLASTER_RIGHT: INST_XML_NOINST_XML_UPHOLSTERY_SHORT1: W=979 H=1067, INST_XML_NO INST_XML_UPHOLSTERY_SHORT2: W=979 H=1067, INST_XML_NO "
+											},
+											{
+												"name": "Sivu2",
+												"text": "SA=180 Length=1500 Z=0  INST_XML_PULLOUT=0 INST_XML_UPHOLSTERY_PCS=2 INST_XML_HANDRAIL: Handrail 160, INST_XML_ELEVATION: 1100, RAL7024 INST_XML_HANDRAIL_PIPE: Handrail 160, RAL7024 INST_XML_TOE_LIST: No gap profile INST_XML_WEDGE_CRACK_SEAL: No seal INST_XML_LOWER_UPHOLSTERY: Lower frame for top installation, only for top installation, INST_XML_ELEVATION: 0, RAL7024 INST_XML_UPHOLSTERY_PROFILE: Facade profile 215 INST_XML_DECO_PIPE:  INST_XML_WALL_FASTENING_LEFT: Vertical handrail bracket INST_XML_WALL_FASTENING_RIGHT: Vertical handrail bracket INST_XML_WALL_FASTENING_ANCHOR_LEFT: HUS-HR 10x115 Concrete screw INST_XML_WALL_FASTENING_RIGHT: HUS-HR 10x115 Concrete screw INST_XML_HEAT_PLASTER_LEFT: INST_XML_NO INST_XML_HEAT_PLASTER_RIGHT: INST_XML_NOINST_XML_MIDDLEPOST1/INST_XML_MIDDLEPOST_POSITION/INST_XML_MIDDLEPOST_ANCHOR: LRAILH_SteelPost_1020mm/1300/ HUS-HR 10x115 Concrete screw INST_XML_MOVEMENT_SEAMLRAILH_SteelPost_1020mm: INST_XML_NO INST_XML_UPHOLSTERY_SHORT1: W=730 H=1067, INST_XML_NO INST_XML_UPHOLSTERY_SHORT2: W=730 H=1067, INST_XML_NO "
+											},
+											{
+												"name": "Sivu3",
+												"text": "EA=90 Length=1500 Z=0  INST_XML_PULLOUT=0 INST_XML_UPHOLSTERY_PCS=2 INST_XML_HANDRAIL: Handrail 160, INST_XML_ELEVATION: 1100, RAL7024 INST_XML_HANDRAIL_PIPE: Handrail 160, RAL7024 INST_XML_TOE_LIST: No gap profile INST_XML_WEDGE_CRACK_SEAL: No seal INST_XML_LOWER_UPHOLSTERY: Lower frame for top installation, only for top installation, INST_XML_ELEVATION: 0, RAL7024 INST_XML_UPHOLSTERY_PROFILE: Facade profile 215 INST_XML_DECO_PIPE:  INST_XML_WALL_FASTENING_LEFT: Vertical handrail bracket INST_XML_WALL_FASTENING_RIGHT: Vertical handrail bracket INST_XML_WALL_FASTENING_ANCHOR_LEFT: HUS-HR 10x115 Concrete screw INST_XML_WALL_FASTENING_RIGHT: HUS-HR 10x115 Concrete screw INST_XML_HEAT_PLASTER_LEFT: INST_XML_NO INST_XML_HEAT_PLASTER_RIGHT: INST_XML_NOINST_XML_UPHOLSTERY_SHORT1: W=735 H=1067, INST_XML_NO INST_XML_UPHOLSTERY_SHORT2: W=735 H=1067, INST_XML_NO "
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				},
+				{
+					"delivery_batch": "1",
+					"delivery_batch_status": "Mitattu",
+					"delivery_batch_receive_date": "30.08.2024",
+					"delivery_batch_delivery_date": "27.08.2024",
+					"group_attachment": "",
+					"AXconfiguration": "no",
+					"group_name": "Avautuva (LGR)",
+					"pcs": "1",
+					"structurenumber": "9000764630017195",
+					"originalstructurenumber": "",
+					"install_start_date": "30.08.2024",
+					"install_end_date": "26.09.2024",
+					"additional_deliverytime": "0",
+					"process": "Normal",
+					"product_code": "90240001",
+					"storageid": "VAN",
+					"packing_order": "1",
+					"unit": "8",
+					"line": "2",
+					"floor": "3",
+					"chargeable": "chargeable",
+					"sales_price": "2133.80",
+					"sproduct": "1584.10",
+					"sfreight": "58.90",
+					"sinstall": "306.70",
+					"sother": "184.10",
+					"purchase_price": "1211.30",
+					"pproduct": "1211.30",
+					"pfreight": "0.00",
+					"pinstall": "0.00",
+					"pother": "0.00",
+					"calculated_salesprice": "2133.90",
+					"factory_price": "1211.30",
+					"fproduct": "1211.30",
+					"ffreight": "0.00",
+					"finstall": "0.00",
+					"fother": "0.00",
+					"contract_price": "93.82",
+					"salestori_plan_name": "ZSXUR",
+					"glass_m2": "6.30",
+					"blinds_m2": "0.00",
+					"glass_pcs": "10",
+					"product_length": "7000",
+					"group_weight": "111.7577",
+					"product_attributes": {
+						"attributeid": "20090008"
+					},
+					"installed": "True",
+					"OrderLine": {
+						"BOMVersion": "9000764630017195",
+						"ItemID": "90240001",
+						"ItemName": "LG",
+						"InventLocationID": "VAN",
+						"Dimension1": "390",
+						"Dimension5": "Vsevoloda",
+						"DeliveryName": "Rrrr ",
+						"DeliveryStreet": "Versionnostotesti 1",
+						"DeliveryZipCode": "838 75",
+						"DeliveryCity": "Frösön",
+						"DeliveryCountryRegionID": "FI",
+						"LineAmount": "2133.80",
+						"Apartment": "8",
+						"Floor": "3",
+						"DlvBatchID": "1",
+						"Line": "2",
+						"FactoryConfirmedDlv": "",
+						"InstallHours": "14.38",
+						"InstallStart": "30.08.2024",
+						"ReservationStart": "2024-08-30T00.00.00",
+						"DeliveryDatePromised": "30.08.2024",
+						"Plan_name": "ZSXUR",
+						"PieceWork_pay": "93.82"
+					},
+					"AssemblyInstructions": {
+						"InstallNotes": "",
+						"Attachments": {
+							"Attachment": "salestori-asennuskortti-9000764630017195.pdf",
+							"Folder": "\\269000\\269847\\"
+						},
+						"AssemblyDocument": [
+							{
+								"name": "Tilaustiedot",
+								"Chapter": [
+									{
+										"name": "Perustiedot",
+										"Paragraph": [
+											{
+												"name": "Content",
+												"text": " Rrrr\r\nVersionnostotesti 1 838 75 Frösön\r\nPuhelin +358451141821"
+											}
+										]
+									},
+									{
+										"name": "Tilaustiedot",
+										"Paragraph": [
+											{
+												"name": "Content",
+												"text": "Asiakaslupaus 30/08/2024\r\nTilausnumero 90007646\r\nLinja 2\r\nKerros 3\r\nAsunto 8\r\nRVN 9000764630017195"
+											}
+										]
+									}
+								]
+							},
+							{
+								"name": "Asennustiedot",
+								"Chapter": [
+									{
+										"name": "Tuotetiedot",
+										"Paragraph": [
+											{
+												"name": "Tuote",
+												"text": "LG , sides:3"
+											},
+											{
+												"name": "Kiinnitystapa",
+												"text": "Upper: To roof, Lower: To floor"
+											},
+											{
+												"name": "Profiilit",
+												"text": "Upper: 11241205 RAL7024, Lower: 11243001 11243001 "
+											},
+											{
+												"name": "Varusteet",
+												"text": "Plastic parts: Dark grey, End plugs"
+											}
+										]
+									},
+									{
+										"name": "Tuotemitat",
+										"Paragraph": [
+											{
+												"name": "Sivu1,H3=773",
+												"text": "SA=90 EA= Length=2000 Z=0 Height=2000 X=0 Y=0 Lpcs=3 Rpcs=0 SA=90 Cbypass=No Adjus= \r\nUpper profile: 11241205 RAL7024\r\nLower profile: 11243001 RAL7024\r\nTeles. Profile: 11222206 RAL7024\r\nG1: W=649 H=761\r\nG2: W=649 H=761\r\nG3: W=649 H=761\r\n"
+											},
+											{
+												"name": "Sivu2,H3=773",
+												"text": "SA= EA= Length=1500 Z=0 Height=2000 X=0 Y=0 Lpcs=0 Rpcs=2 SA=180 Cbypass=No Adjus= \r\nUpper profile: 11241205 RAL7024\r\nLower profile: 11243001 RAL7024\r\nTeles. Profile: 11222206 RAL7024\r\nG1: W=731 H=761\r\nG2: W=731 H=761\r\n"
+											},
+											{
+												"name": "Sivu3,H3=773",
+												"text": "SA= EA=90 Length=1500 Z=0 Height=2000 X=0 Y=0 Lpcs=2 Rpcs=0 SA= Cbypass=No Adjus= \r\nUpper profile: 11241205 RAL7024\r\nLower profile: 11243001 RAL7024\r\nTeles. Profile: 11222206 RAL7024\r\nG1: W=741 H=761\r\nG2: W=741 H=761\r\n"
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				},
+				{
+					"delivery_batch": "1",
+					"delivery_batch_status": "Mitattu",
+					"delivery_batch_receive_date": "30.08.2024",
+					"delivery_batch_delivery_date": "27.08.2024",
+					"group_attachment": "",
+					"AXconfiguration": "no",
+					"group_name": "Lumon Kaide",
+					"pcs": "1",
+					"structurenumber": "9000764630017196",
+					"originalstructurenumber": "",
+					"install_start_date": "30.08.2024",
+					"install_end_date": "26.09.2024",
+					"additional_deliverytime": "0",
+					"process": "Normal",
+					"product_code": "90370001",
+					"storageid": "VAN",
+					"packing_order": "1",
+					"unit": "8",
+					"line": "2",
+					"floor": "3",
+					"chargeable": "chargeable",
+					"sales_price": "2088.30",
+					"sproduct": "1725.00",
+					"sfreight": "38.20",
+					"sinstall": "271.60",
+					"sother": "53.50",
+					"purchase_price": "1309.90",
+					"pproduct": "1309.90",
+					"pfreight": "0.00",
+					"pinstall": "0.00",
+					"pother": "0.00",
+					"calculated_salesprice": "2090.30",
+					"factory_price": "1309.90",
+					"fproduct": "1309.90",
+					"ffreight": "0.00",
+					"finstall": "0.00",
+					"fother": "0.00",
+					"contract_price": "94.56",
+					"salestori_plan_name": "ZSXUR",
+					"glass_m2": "2.20",
+					"blinds_m2": "0.00",
+					"glass_pcs": "0",
+					"product_length": "1999",
+					"group_weight": "0",
+					"product_attributes": "",
+					"installed": "True",
+					"OrderLine": {
+						"BOMVersion": "9000764630017196",
+						"ItemID": "90370001",
+						"ItemName": "LUMONKAIDE",
+						"InventLocationID": "VAN",
+						"Dimension1": "390",
+						"Dimension5": "Vsevoloda",
+						"DeliveryName": "Rrrr ",
+						"DeliveryStreet": "Versionnostotesti 1",
+						"DeliveryZipCode": "838 75",
+						"DeliveryCity": "Frösön",
+						"DeliveryCountryRegionID": "FI",
+						"LineAmount": "2088.30",
+						"Apartment": "8",
+						"Floor": "3",
+						"DlvBatchID": "1",
+						"Line": "2",
+						"FactoryConfirmedDlv": "",
+						"InstallHours": "2.17",
+						"InstallStart": "30.08.2024",
+						"ReservationStart": "2024-08-30T00.00.00",
+						"DeliveryDatePromised": "30.08.2024",
+						"Plan_name": "ZSXUR",
+						"PieceWork_pay": "94.56"
+					},
+					"AssemblyInstructions": {
+						"InstallNotes": "",
+						"Attachments": {
+							"Attachment": "salestori-asennuskortti-9000764630017196.pdf",
+							"Folder": "\\269000\\269847\\"
+						},
+						"AssemblyDocument": [
+							{
+								"name": "Tilaustiedot",
+								"Chapter": [
+									{
+										"name": "Perustiedot",
+										"Paragraph": [
+											{
+												"name": "Content",
+												"text": " Rrrr\r\nVersionnostotesti 1 838 75 Frösön\r\nPuhelin +358451141821"
+											}
+										]
+									},
+									{
+										"name": "Tilaustiedot",
+										"Paragraph": [
+											{
+												"name": "Content",
+												"text": "Asiakaslupaus 30/08/2024\r\nTilausnumero 90007646\r\nLinja 2\r\nKerros 3\r\nAsunto 8\r\nRVN 9000764630017196"
+											}
+										]
+									}
+								]
+							},
+							{
+								"name": "Asennustiedot",
+								"Chapter": [
+									{
+										"name": "Tuotetiedot",
+										"Paragraph": [
+											{
+												"name": "Tuote",
+												"text": "Kaide1.1 , sides:3"
+											},
+											{
+												"name": "Kiinnitystapa",
+												"text": "Top installation"
+											},
+											{
+												"name": "Profiilit",
+												"text": "INST_XML_COLOR:RAL7024, Handrail 160 "
+											},
+											{
+												"name": "Varusteet"
+											}
+										]
+									},
+									{
+										"name": "Tuotemitat",
+										"Paragraph": [
+											{
+												"name": "Sivu1",
+												"text": "SA=90 SA=90 Length=2000 Z=0  INST_XML_PULLOUT=0 INST_XML_UPHOLSTERY_PCS=2 INST_XML_HANDRAIL: Handrail 160, INST_XML_ELEVATION: 1100, RAL7024 INST_XML_HANDRAIL_PIPE: Handrail 160, RAL7024 INST_XML_TOE_LIST: No gap profile INST_XML_WEDGE_CRACK_SEAL: No seal INST_XML_LOWER_UPHOLSTERY: Lower frame for top installation, only for top installation, INST_XML_ELEVATION: 0, RAL7024 INST_XML_UPHOLSTERY_PROFILE: Facade profile 215 INST_XML_DECO_PIPE:  INST_XML_WALL_FASTENING_LEFT: Vertical handrail bracket INST_XML_WALL_FASTENING_RIGHT: Vertical handrail bracket INST_XML_WALL_FASTENING_ANCHOR_LEFT: HUS-HR 10x115 Concrete screw INST_XML_WALL_FASTENING_RIGHT: HUS-HR 10x115 Concrete screw INST_XML_HEAT_PLASTER_LEFT: INST_XML_NO INST_XML_HEAT_PLASTER_RIGHT: INST_XML_NOINST_XML_UPHOLSTERY_SHORT1: W=979 H=1067, INST_XML_NO INST_XML_UPHOLSTERY_SHORT2: W=979 H=1067, INST_XML_NO "
+											},
+											{
+												"name": "Sivu2",
+												"text": "SA=180 Length=1500 Z=0  INST_XML_PULLOUT=0 INST_XML_UPHOLSTERY_PCS=2 INST_XML_HANDRAIL: Handrail 160, INST_XML_ELEVATION: 1100, RAL7024 INST_XML_HANDRAIL_PIPE: Handrail 160, RAL7024 INST_XML_TOE_LIST: No gap profile INST_XML_WEDGE_CRACK_SEAL: No seal INST_XML_LOWER_UPHOLSTERY: Lower frame for top installation, only for top installation, INST_XML_ELEVATION: 0, RAL7024 INST_XML_UPHOLSTERY_PROFILE: Facade profile 215 INST_XML_DECO_PIPE:  INST_XML_WALL_FASTENING_LEFT: Vertical handrail bracket INST_XML_WALL_FASTENING_RIGHT: Vertical handrail bracket INST_XML_WALL_FASTENING_ANCHOR_LEFT: HUS-HR 10x115 Concrete screw INST_XML_WALL_FASTENING_RIGHT: HUS-HR 10x115 Concrete screw INST_XML_HEAT_PLASTER_LEFT: INST_XML_NO INST_XML_HEAT_PLASTER_RIGHT: INST_XML_NOINST_XML_MIDDLEPOST1/INST_XML_MIDDLEPOST_POSITION/INST_XML_MIDDLEPOST_ANCHOR: LRAILH_SteelPost_1020mm/1300/ HUS-HR 10x115 Concrete screw INST_XML_MOVEMENT_SEAMLRAILH_SteelPost_1020mm: INST_XML_NO INST_XML_UPHOLSTERY_SHORT1: W=730 H=1067, INST_XML_NO INST_XML_UPHOLSTERY_SHORT2: W=730 H=1067, INST_XML_NO "
+											},
+											{
+												"name": "Sivu3",
+												"text": "EA=90 Length=1500 Z=0  INST_XML_PULLOUT=0 INST_XML_UPHOLSTERY_PCS=2 INST_XML_HANDRAIL: Handrail 160, INST_XML_ELEVATION: 1100, RAL7024 INST_XML_HANDRAIL_PIPE: Handrail 160, RAL7024 INST_XML_TOE_LIST: No gap profile INST_XML_WEDGE_CRACK_SEAL: No seal INST_XML_LOWER_UPHOLSTERY: Lower frame for top installation, only for top installation, INST_XML_ELEVATION: 0, RAL7024 INST_XML_UPHOLSTERY_PROFILE: Facade profile 215 INST_XML_DECO_PIPE:  INST_XML_WALL_FASTENING_LEFT: Vertical handrail bracket INST_XML_WALL_FASTENING_RIGHT: Vertical handrail bracket INST_XML_WALL_FASTENING_ANCHOR_LEFT: HUS-HR 10x115 Concrete screw INST_XML_WALL_FASTENING_RIGHT: HUS-HR 10x115 Concrete screw INST_XML_HEAT_PLASTER_LEFT: INST_XML_NO INST_XML_HEAT_PLASTER_RIGHT: INST_XML_NOINST_XML_UPHOLSTERY_SHORT1: W=735 H=1067, INST_XML_NO INST_XML_UPHOLSTERY_SHORT2: W=735 H=1067, INST_XML_NO "
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				},
+				{
+					"delivery_batch": "1",
+					"delivery_batch_status": "Mitattu",
+					"delivery_batch_receive_date": "30.08.2024",
+					"delivery_batch_delivery_date": "27.08.2024",
+					"group_attachment": "",
+					"AXconfiguration": "no",
+					"group_name": "Avautuva (LGR)",
+					"pcs": "1",
+					"structurenumber": "9000764630017069",
+					"originalstructurenumber": "",
+					"install_start_date": "30.08.2024",
+					"install_end_date": "26.09.2024",
+					"additional_deliverytime": "0",
+					"process": "Normal",
+					"product_code": "90240001",
+					"storageid": "VAN",
+					"packing_order": "1",
+					"unit": "10",
+					"line": "2",
+					"floor": "4",
+					"chargeable": "chargeable",
+					"sales_price": "2134.80",
+					"sproduct": "1585.10",
+					"sfreight": "58.90",
+					"sinstall": "306.70",
+					"sother": "184.10",
+					"purchase_price": "1212.10",
+					"pproduct": "1212.10",
+					"pfreight": "0.00",
+					"pinstall": "0.00",
+					"pother": "0.00",
+					"calculated_salesprice": "2133.90",
+					"factory_price": "1212.10",
+					"fproduct": "1212.10",
+					"ffreight": "0.00",
+					"finstall": "0.00",
+					"fother": "0.00",
+					"contract_price": "93.82",
+					"salestori_plan_name": "ZSXUR",
+					"glass_m2": "6.30",
+					"blinds_m2": "0.00",
+					"glass_pcs": "10",
+					"product_length": "7000",
+					"group_weight": "111.7577",
+					"product_attributes": {
+						"attributeid": "20090008"
+					},
+					"installed": "True",
+					"OrderLine": {
+						"BOMVersion": "9000764630017069",
+						"ItemID": "90240001",
+						"ItemName": "LG",
+						"InventLocationID": "VAN",
+						"Dimension1": "390",
+						"Dimension5": "Vsevoloda",
+						"DeliveryName": "Rrrr ",
+						"DeliveryStreet": "Versionnostotesti 1",
+						"DeliveryZipCode": "838 75",
+						"DeliveryCity": "Frösön",
+						"DeliveryCountryRegionID": "FI",
+						"LineAmount": "2134.80",
+						"Apartment": "10",
+						"Floor": "4",
+						"DlvBatchID": "1",
+						"Line": "2",
+						"FactoryConfirmedDlv": "",
+						"InstallHours": "14.38",
+						"InstallStart": "30.08.2024",
+						"ReservationStart": "2024-08-30T00.00.00",
+						"DeliveryDatePromised": "30.08.2024",
+						"Plan_name": "ZSXUR",
+						"PieceWork_pay": "93.82"
+					},
+					"AssemblyInstructions": {
+						"InstallNotes": "",
+						"Attachments": {
+							"Attachment": "salestori-asennuskortti-9000764630017069.pdf",
+							"Folder": "\\269000\\269847\\"
+						},
+						"AssemblyDocument": [
+							{
+								"name": "Tilaustiedot",
+								"Chapter": [
+									{
+										"name": "Perustiedot",
+										"Paragraph": [
+											{
+												"name": "Content",
+												"text": " Rrrr\r\nVersionnostotesti 1 838 75 Frösön\r\nPuhelin +358451141821"
+											}
+										]
+									},
+									{
+										"name": "Tilaustiedot",
+										"Paragraph": [
+											{
+												"name": "Content",
+												"text": "Asiakaslupaus 30/08/2024\r\nTilausnumero 90007646\r\nLinja 2\r\nKerros 4\r\nAsunto 10\r\nRVN 9000764630017069"
+											}
+										]
+									}
+								]
+							},
+							{
+								"name": "Asennustiedot",
+								"Chapter": [
+									{
+										"name": "Tuotetiedot",
+										"Paragraph": [
+											{
+												"name": "Tuote",
+												"text": "LG , sides:3"
+											},
+											{
+												"name": "Kiinnitystapa",
+												"text": "Upper: To roof, Lower: To floor"
+											},
+											{
+												"name": "Profiilit",
+												"text": "Upper: 11241205 RAL7024, Lower: 11243001 11243001 "
+											},
+											{
+												"name": "Varusteet",
+												"text": "Plastic parts: Dark grey, End plugs"
+											}
+										]
+									},
+									{
+										"name": "Tuotemitat",
+										"Paragraph": [
+											{
+												"name": "Sivu1,H3=773",
+												"text": "SA=90 EA= Length=2000 Z=0 Height=2000 X=0 Y=0 Lpcs=3 Rpcs=0 SA=90 Cbypass=No Adjus= \r\nUpper profile: 11241205 RAL7024\r\nLower profile: 11243001 RAL7024\r\nTeles. Profile: 11222206 RAL7024\r\nG1: W=649 H=761\r\nG2: W=649 H=761\r\nG3: W=649 H=761\r\n"
+											},
+											{
+												"name": "Sivu2,H3=773",
+												"text": "SA= EA= Length=1500 Z=0 Height=2000 X=0 Y=0 Lpcs=0 Rpcs=2 SA=180 Cbypass=No Adjus= \r\nUpper profile: 11241205 RAL7024\r\nLower profile: 11243001 RAL7024\r\nTeles. Profile: 11222206 RAL7024\r\nG1: W=731 H=761\r\nG2: W=731 H=761\r\n"
+											},
+											{
+												"name": "Sivu3,H3=773",
+												"text": "SA= EA=90 Length=1500 Z=0 Height=2000 X=0 Y=0 Lpcs=2 Rpcs=0 SA= Cbypass=No Adjus= \r\nUpper profile: 11241205 RAL7024\r\nLower profile: 11243001 RAL7024\r\nTeles. Profile: 11222206 RAL7024\r\nG1: W=741 H=761\r\nG2: W=741 H=761\r\n"
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				},
+				{
+					"delivery_batch": "1",
+					"delivery_batch_status": "Mitattu",
+					"delivery_batch_receive_date": "30.08.2024",
+					"delivery_batch_delivery_date": "27.08.2024",
+					"group_attachment": "",
+					"AXconfiguration": "no",
+					"group_name": "Lumon Kaide",
+					"pcs": "1",
+					"structurenumber": "9000764630017070",
+					"originalstructurenumber": "",
+					"install_start_date": "30.08.2024",
+					"install_end_date": "26.09.2024",
+					"additional_deliverytime": "0",
+					"process": "Normal",
+					"product_code": "90370001",
+					"storageid": "VAN",
+					"packing_order": "1",
+					"unit": "10",
+					"line": "2",
+					"floor": "4",
+					"chargeable": "chargeable",
+					"sales_price": "2088.30",
+					"sproduct": "1725.00",
+					"sfreight": "38.20",
+					"sinstall": "271.60",
+					"sother": "53.50",
+					"purchase_price": "1309.90",
+					"pproduct": "1309.90",
+					"pfreight": "0.00",
+					"pinstall": "0.00",
+					"pother": "0.00",
+					"calculated_salesprice": "2090.30",
+					"factory_price": "1309.90",
+					"fproduct": "1309.90",
+					"ffreight": "0.00",
+					"finstall": "0.00",
+					"fother": "0.00",
+					"contract_price": "94.56",
+					"salestori_plan_name": "ZSXUR",
+					"glass_m2": "2.20",
+					"blinds_m2": "0.00",
+					"glass_pcs": "0",
+					"product_length": "1999",
+					"group_weight": "0",
+					"product_attributes": "",
+					"installed": "True",
+					"OrderLine": {
+						"BOMVersion": "9000764630017070",
+						"ItemID": "90370001",
+						"ItemName": "LUMONKAIDE",
+						"InventLocationID": "VAN",
+						"Dimension1": "390",
+						"Dimension5": "Vsevoloda",
+						"DeliveryName": "Rrrr ",
+						"DeliveryStreet": "Versionnostotesti 1",
+						"DeliveryZipCode": "838 75",
+						"DeliveryCity": "Frösön",
+						"DeliveryCountryRegionID": "FI",
+						"LineAmount": "2088.30",
+						"Apartment": "10",
+						"Floor": "4",
+						"DlvBatchID": "1",
+						"Line": "2",
+						"FactoryConfirmedDlv": "",
+						"InstallHours": "2.17",
+						"InstallStart": "30.08.2024",
+						"ReservationStart": "2024-08-30T00.00.00",
+						"DeliveryDatePromised": "30.08.2024",
+						"Plan_name": "ZSXUR",
+						"PieceWork_pay": "94.56"
+					},
+					"AssemblyInstructions": {
+						"InstallNotes": "",
+						"Attachments": {
+							"Attachment": "salestori-asennuskortti-9000764630017070.pdf",
+							"Folder": "\\269000\\269847\\"
+						},
+						"AssemblyDocument": [
+							{
+								"name": "Tilaustiedot",
+								"Chapter": [
+									{
+										"name": "Perustiedot",
+										"Paragraph": [
+											{
+												"name": "Content",
+												"text": " Rrrr\r\nVersionnostotesti 1 838 75 Frösön\r\nPuhelin +358451141821"
+											}
+										]
+									},
+									{
+										"name": "Tilaustiedot",
+										"Paragraph": [
+											{
+												"name": "Content",
+												"text": "Asiakaslupaus 30/08/2024\r\nTilausnumero 90007646\r\nLinja 2\r\nKerros 4\r\nAsunto 10\r\nRVN 9000764630017070"
+											}
+										]
+									}
+								]
+							},
+							{
+								"name": "Asennustiedot",
+								"Chapter": [
+									{
+										"name": "Tuotetiedot",
+										"Paragraph": [
+											{
+												"name": "Tuote",
+												"text": "Kaide1.1 , sides:3"
+											},
+											{
+												"name": "Kiinnitystapa",
+												"text": "Top installation"
+											},
+											{
+												"name": "Profiilit",
+												"text": "INST_XML_COLOR:RAL7024, Handrail 160 "
+											},
+											{
+												"name": "Varusteet"
+											}
+										]
+									},
+									{
+										"name": "Tuotemitat",
+										"Paragraph": [
+											{
+												"name": "Sivu1",
+												"text": "SA=90 SA=90 Length=2000 Z=0  INST_XML_PULLOUT=0 INST_XML_UPHOLSTERY_PCS=2 INST_XML_HANDRAIL: Handrail 160, INST_XML_ELEVATION: 1100, RAL7024 INST_XML_HANDRAIL_PIPE: Handrail 160, RAL7024 INST_XML_TOE_LIST: No gap profile INST_XML_WEDGE_CRACK_SEAL: No seal INST_XML_LOWER_UPHOLSTERY: Lower frame for top installation, only for top installation, INST_XML_ELEVATION: 0, RAL7024 INST_XML_UPHOLSTERY_PROFILE: Facade profile 215 INST_XML_DECO_PIPE:  INST_XML_WALL_FASTENING_LEFT: Vertical handrail bracket INST_XML_WALL_FASTENING_RIGHT: Vertical handrail bracket INST_XML_WALL_FASTENING_ANCHOR_LEFT: HUS-HR 10x115 Concrete screw INST_XML_WALL_FASTENING_RIGHT: HUS-HR 10x115 Concrete screw INST_XML_HEAT_PLASTER_LEFT: INST_XML_NO INST_XML_HEAT_PLASTER_RIGHT: INST_XML_NOINST_XML_UPHOLSTERY_SHORT1: W=979 H=1067, INST_XML_NO INST_XML_UPHOLSTERY_SHORT2: W=979 H=1067, INST_XML_NO "
+											},
+											{
+												"name": "Sivu2",
+												"text": "SA=180 Length=1500 Z=0  INST_XML_PULLOUT=0 INST_XML_UPHOLSTERY_PCS=2 INST_XML_HANDRAIL: Handrail 160, INST_XML_ELEVATION: 1100, RAL7024 INST_XML_HANDRAIL_PIPE: Handrail 160, RAL7024 INST_XML_TOE_LIST: No gap profile INST_XML_WEDGE_CRACK_SEAL: No seal INST_XML_LOWER_UPHOLSTERY: Lower frame for top installation, only for top installation, INST_XML_ELEVATION: 0, RAL7024 INST_XML_UPHOLSTERY_PROFILE: Facade profile 215 INST_XML_DECO_PIPE:  INST_XML_WALL_FASTENING_LEFT: Vertical handrail bracket INST_XML_WALL_FASTENING_RIGHT: Vertical handrail bracket INST_XML_WALL_FASTENING_ANCHOR_LEFT: HUS-HR 10x115 Concrete screw INST_XML_WALL_FASTENING_RIGHT: HUS-HR 10x115 Concrete screw INST_XML_HEAT_PLASTER_LEFT: INST_XML_NO INST_XML_HEAT_PLASTER_RIGHT: INST_XML_NOINST_XML_MIDDLEPOST1/INST_XML_MIDDLEPOST_POSITION/INST_XML_MIDDLEPOST_ANCHOR: LRAILH_SteelPost_1020mm/1300/ HUS-HR 10x115 Concrete screw INST_XML_MOVEMENT_SEAMLRAILH_SteelPost_1020mm: INST_XML_NO INST_XML_UPHOLSTERY_SHORT1: W=730 H=1067, INST_XML_NO INST_XML_UPHOLSTERY_SHORT2: W=730 H=1067, INST_XML_NO "
+											},
+											{
+												"name": "Sivu3",
+												"text": "EA=90 Length=1500 Z=0  INST_XML_PULLOUT=0 INST_XML_UPHOLSTERY_PCS=2 INST_XML_HANDRAIL: Handrail 160, INST_XML_ELEVATION: 1100, RAL7024 INST_XML_HANDRAIL_PIPE: Handrail 160, RAL7024 INST_XML_TOE_LIST: No gap profile INST_XML_WEDGE_CRACK_SEAL: No seal INST_XML_LOWER_UPHOLSTERY: Lower frame for top installation, only for top installation, INST_XML_ELEVATION: 0, RAL7024 INST_XML_UPHOLSTERY_PROFILE: Facade profile 215 INST_XML_DECO_PIPE:  INST_XML_WALL_FASTENING_LEFT: Vertical handrail bracket INST_XML_WALL_FASTENING_RIGHT: Vertical handrail bracket INST_XML_WALL_FASTENING_ANCHOR_LEFT: HUS-HR 10x115 Concrete screw INST_XML_WALL_FASTENING_RIGHT: HUS-HR 10x115 Concrete screw INST_XML_HEAT_PLASTER_LEFT: INST_XML_NO INST_XML_HEAT_PLASTER_RIGHT: INST_XML_NOINST_XML_UPHOLSTERY_SHORT1: W=735 H=1067, INST_XML_NO INST_XML_UPHOLSTERY_SHORT2: W=735 H=1067, INST_XML_NO "
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				},
+				{
+					"delivery_batch": "1",
+					"delivery_batch_status": "Mitattu",
+					"delivery_batch_receive_date": "30.08.2024",
+					"delivery_batch_delivery_date": "27.08.2024",
+					"group_attachment": "",
+					"AXconfiguration": "no",
+					"group_name": "Avautuva (LGR)",
+					"pcs": "1",
+					"structurenumber": "9000764630017197",
+					"originalstructurenumber": "",
+					"install_start_date": "30.08.2024",
+					"install_end_date": "26.09.2024",
+					"additional_deliverytime": "0",
+					"process": "Normal",
+					"product_code": "90240001",
+					"storageid": "VAN",
+					"packing_order": "1",
+					"unit": "3",
+					"line": "3",
+					"floor": "1",
+					"chargeable": "chargeable",
+					"sales_price": "2133.80",
+					"sproduct": "1584.10",
+					"sfreight": "58.90",
+					"sinstall": "306.70",
+					"sother": "184.10",
+					"purchase_price": "1211.30",
+					"pproduct": "1211.30",
+					"pfreight": "0.00",
+					"pinstall": "0.00",
+					"pother": "0.00",
+					"calculated_salesprice": "2133.90",
+					"factory_price": "1211.30",
+					"fproduct": "1211.30",
+					"ffreight": "0.00",
+					"finstall": "0.00",
+					"fother": "0.00",
+					"contract_price": "93.82",
+					"salestori_plan_name": "ZSXUR",
+					"glass_m2": "6.30",
+					"blinds_m2": "0.00",
+					"glass_pcs": "10",
+					"product_length": "7000",
+					"group_weight": "111.7577",
+					"product_attributes": {
+						"attributeid": "20090008"
+					},
+					"installed": "True",
+					"OrderLine": {
+						"BOMVersion": "9000764630017197",
+						"ItemID": "90240001",
+						"ItemName": "LG",
+						"InventLocationID": "VAN",
+						"Dimension1": "390",
+						"Dimension5": "Vsevoloda",
+						"DeliveryName": "Rrrr ",
+						"DeliveryStreet": "Versionnostotesti 1",
+						"DeliveryZipCode": "838 75",
+						"DeliveryCity": "Frösön",
+						"DeliveryCountryRegionID": "FI",
+						"LineAmount": "2133.80",
+						"Apartment": "3",
+						"Floor": "1",
+						"DlvBatchID": "1",
+						"Line": "3",
+						"FactoryConfirmedDlv": "",
+						"InstallHours": "14.38",
+						"InstallStart": "30.08.2024",
+						"ReservationStart": "2024-08-30T00.00.00",
+						"DeliveryDatePromised": "30.08.2024",
+						"Plan_name": "ZSXUR",
+						"PieceWork_pay": "93.82"
+					},
+					"AssemblyInstructions": {
+						"InstallNotes": "",
+						"Attachments": {
+							"Attachment": "salestori-asennuskortti-9000764630017197.pdf",
+							"Folder": "\\269000\\269847\\"
+						},
+						"AssemblyDocument": [
+							{
+								"name": "Tilaustiedot",
+								"Chapter": [
+									{
+										"name": "Perustiedot",
+										"Paragraph": [
+											{
+												"name": "Content",
+												"text": " Rrrr\r\nVersionnostotesti 1 838 75 Frösön\r\nPuhelin +358451141821"
+											}
+										]
+									},
+									{
+										"name": "Tilaustiedot",
+										"Paragraph": [
+											{
+												"name": "Content",
+												"text": "Asiakaslupaus 30/08/2024\r\nTilausnumero 90007646\r\nLinja 3\r\nKerros 1\r\nAsunto 3\r\nRVN 9000764630017197"
+											}
+										]
+									}
+								]
+							},
+							{
+								"name": "Asennustiedot",
+								"Chapter": [
+									{
+										"name": "Tuotetiedot",
+										"Paragraph": [
+											{
+												"name": "Tuote",
+												"text": "LG , sides:3"
+											},
+											{
+												"name": "Kiinnitystapa",
+												"text": "Upper: To roof, Lower: To floor"
+											},
+											{
+												"name": "Profiilit",
+												"text": "Upper: 11241205 RAL7024, Lower: 11243001 11243001 "
+											},
+											{
+												"name": "Varusteet",
+												"text": "Plastic parts: Dark grey, End plugs"
+											}
+										]
+									},
+									{
+										"name": "Tuotemitat",
+										"Paragraph": [
+											{
+												"name": "Sivu1,H3=773",
+												"text": "SA=90 EA= Length=2000 Z=0 Height=2000 X=0 Y=0 Lpcs=3 Rpcs=0 SA=90 Cbypass=No Adjus= \r\nUpper profile: 11241205 RAL7024\r\nLower profile: 11243001 RAL7024\r\nTeles. Profile: 11222206 RAL7024\r\nG1: W=649 H=761\r\nG2: W=649 H=761\r\nG3: W=649 H=761\r\n"
+											},
+											{
+												"name": "Sivu2,H3=773",
+												"text": "SA= EA= Length=1500 Z=0 Height=2000 X=0 Y=0 Lpcs=0 Rpcs=2 SA=180 Cbypass=No Adjus= \r\nUpper profile: 11241205 RAL7024\r\nLower profile: 11243001 RAL7024\r\nTeles. Profile: 11222206 RAL7024\r\nG1: W=731 H=761\r\nG2: W=731 H=761\r\n"
+											},
+											{
+												"name": "Sivu3,H3=773",
+												"text": "SA= EA=90 Length=1500 Z=0 Height=2000 X=0 Y=0 Lpcs=2 Rpcs=0 SA= Cbypass=No Adjus= \r\nUpper profile: 11241205 RAL7024\r\nLower profile: 11243001 RAL7024\r\nTeles. Profile: 11222206 RAL7024\r\nG1: W=741 H=761\r\nG2: W=741 H=761\r\n"
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				},
+				{
+					"delivery_batch": "1",
+					"delivery_batch_status": "Mitattu",
+					"delivery_batch_receive_date": "30.08.2024",
+					"delivery_batch_delivery_date": "27.08.2024",
+					"group_attachment": "",
+					"AXconfiguration": "no",
+					"group_name": "Lumon Kaide",
+					"pcs": "1",
+					"structurenumber": "9000764630017198",
+					"originalstructurenumber": "",
+					"install_start_date": "30.08.2024",
+					"install_end_date": "26.09.2024",
+					"additional_deliverytime": "0",
+					"process": "Normal",
+					"product_code": "90370001",
+					"storageid": "VAN",
+					"packing_order": "1",
+					"unit": "3",
+					"line": "3",
+					"floor": "1",
+					"chargeable": "chargeable",
+					"sales_price": "2088.30",
+					"sproduct": "1725.00",
+					"sfreight": "38.20",
+					"sinstall": "271.60",
+					"sother": "53.50",
+					"purchase_price": "1309.90",
+					"pproduct": "1309.90",
+					"pfreight": "0.00",
+					"pinstall": "0.00",
+					"pother": "0.00",
+					"calculated_salesprice": "2090.30",
+					"factory_price": "1309.90",
+					"fproduct": "1309.90",
+					"ffreight": "0.00",
+					"finstall": "0.00",
+					"fother": "0.00",
+					"contract_price": "94.56",
+					"salestori_plan_name": "ZSXUR",
+					"glass_m2": "2.20",
+					"blinds_m2": "0.00",
+					"glass_pcs": "0",
+					"product_length": "1999",
+					"group_weight": "0",
+					"product_attributes": "",
+					"installed": "True",
+					"OrderLine": {
+						"BOMVersion": "9000764630017198",
+						"ItemID": "90370001",
+						"ItemName": "LUMONKAIDE",
+						"InventLocationID": "VAN",
+						"Dimension1": "390",
+						"Dimension5": "Vsevoloda",
+						"DeliveryName": "Rrrr ",
+						"DeliveryStreet": "Versionnostotesti 1",
+						"DeliveryZipCode": "838 75",
+						"DeliveryCity": "Frösön",
+						"DeliveryCountryRegionID": "FI",
+						"LineAmount": "2088.30",
+						"Apartment": "3",
+						"Floor": "1",
+						"DlvBatchID": "1",
+						"Line": "3",
+						"FactoryConfirmedDlv": "",
+						"InstallHours": "2.17",
+						"InstallStart": "30.08.2024",
+						"ReservationStart": "2024-08-30T00.00.00",
+						"DeliveryDatePromised": "30.08.2024",
+						"Plan_name": "ZSXUR",
+						"PieceWork_pay": "94.56"
+					},
+					"AssemblyInstructions": {
+						"InstallNotes": "",
+						"Attachments": {
+							"Attachment": "salestori-asennuskortti-9000764630017198.pdf",
+							"Folder": "\\269000\\269847\\"
+						},
+						"AssemblyDocument": [
+							{
+								"name": "Tilaustiedot",
+								"Chapter": [
+									{
+										"name": "Perustiedot",
+										"Paragraph": [
+											{
+												"name": "Content",
+												"text": " Rrrr\r\nVersionnostotesti 1 838 75 Frösön\r\nPuhelin +358451141821"
+											}
+										]
+									},
+									{
+										"name": "Tilaustiedot",
+										"Paragraph": [
+											{
+												"name": "Content",
+												"text": "Asiakaslupaus 30/08/2024\r\nTilausnumero 90007646\r\nLinja 3\r\nKerros 1\r\nAsunto 3\r\nRVN 9000764630017198"
+											}
+										]
+									}
+								]
+							},
+							{
+								"name": "Asennustiedot",
+								"Chapter": [
+									{
+										"name": "Tuotetiedot",
+										"Paragraph": [
+											{
+												"name": "Tuote",
+												"text": "Kaide1.1 , sides:3"
+											},
+											{
+												"name": "Kiinnitystapa",
+												"text": "Top installation"
+											},
+											{
+												"name": "Profiilit",
+												"text": "INST_XML_COLOR:RAL7024, Handrail 160 "
+											},
+											{
+												"name": "Varusteet"
+											}
+										]
+									},
+									{
+										"name": "Tuotemitat",
+										"Paragraph": [
+											{
+												"name": "Sivu1",
+												"text": "SA=90 SA=90 Length=2000 Z=0  INST_XML_PULLOUT=0 INST_XML_UPHOLSTERY_PCS=2 INST_XML_HANDRAIL: Handrail 160, INST_XML_ELEVATION: 1100, RAL7024 INST_XML_HANDRAIL_PIPE: Handrail 160, RAL7024 INST_XML_TOE_LIST: No gap profile INST_XML_WEDGE_CRACK_SEAL: No seal INST_XML_LOWER_UPHOLSTERY: Lower frame for top installation, only for top installation, INST_XML_ELEVATION: 0, RAL7024 INST_XML_UPHOLSTERY_PROFILE: Facade profile 215 INST_XML_DECO_PIPE:  INST_XML_WALL_FASTENING_LEFT: Vertical handrail bracket INST_XML_WALL_FASTENING_RIGHT: Vertical handrail bracket INST_XML_WALL_FASTENING_ANCHOR_LEFT: HUS-HR 10x115 Concrete screw INST_XML_WALL_FASTENING_RIGHT: HUS-HR 10x115 Concrete screw INST_XML_HEAT_PLASTER_LEFT: INST_XML_NO INST_XML_HEAT_PLASTER_RIGHT: INST_XML_NOINST_XML_UPHOLSTERY_SHORT1: W=979 H=1067, INST_XML_NO INST_XML_UPHOLSTERY_SHORT2: W=979 H=1067, INST_XML_NO "
+											},
+											{
+												"name": "Sivu2",
+												"text": "SA=180 Length=1500 Z=0  INST_XML_PULLOUT=0 INST_XML_UPHOLSTERY_PCS=2 INST_XML_HANDRAIL: Handrail 160, INST_XML_ELEVATION: 1100, RAL7024 INST_XML_HANDRAIL_PIPE: Handrail 160, RAL7024 INST_XML_TOE_LIST: No gap profile INST_XML_WEDGE_CRACK_SEAL: No seal INST_XML_LOWER_UPHOLSTERY: Lower frame for top installation, only for top installation, INST_XML_ELEVATION: 0, RAL7024 INST_XML_UPHOLSTERY_PROFILE: Facade profile 215 INST_XML_DECO_PIPE:  INST_XML_WALL_FASTENING_LEFT: Vertical handrail bracket INST_XML_WALL_FASTENING_RIGHT: Vertical handrail bracket INST_XML_WALL_FASTENING_ANCHOR_LEFT: HUS-HR 10x115 Concrete screw INST_XML_WALL_FASTENING_RIGHT: HUS-HR 10x115 Concrete screw INST_XML_HEAT_PLASTER_LEFT: INST_XML_NO INST_XML_HEAT_PLASTER_RIGHT: INST_XML_NOINST_XML_MIDDLEPOST1/INST_XML_MIDDLEPOST_POSITION/INST_XML_MIDDLEPOST_ANCHOR: LRAILH_SteelPost_1020mm/1300/ HUS-HR 10x115 Concrete screw INST_XML_MOVEMENT_SEAMLRAILH_SteelPost_1020mm: INST_XML_NO INST_XML_UPHOLSTERY_SHORT1: W=730 H=1067, INST_XML_NO INST_XML_UPHOLSTERY_SHORT2: W=730 H=1067, INST_XML_NO "
+											},
+											{
+												"name": "Sivu3",
+												"text": "EA=90 Length=1500 Z=0  INST_XML_PULLOUT=0 INST_XML_UPHOLSTERY_PCS=2 INST_XML_HANDRAIL: Handrail 160, INST_XML_ELEVATION: 1100, RAL7024 INST_XML_HANDRAIL_PIPE: Handrail 160, RAL7024 INST_XML_TOE_LIST: No gap profile INST_XML_WEDGE_CRACK_SEAL: No seal INST_XML_LOWER_UPHOLSTERY: Lower frame for top installation, only for top installation, INST_XML_ELEVATION: 0, RAL7024 INST_XML_UPHOLSTERY_PROFILE: Facade profile 215 INST_XML_DECO_PIPE:  INST_XML_WALL_FASTENING_LEFT: Vertical handrail bracket INST_XML_WALL_FASTENING_RIGHT: Vertical handrail bracket INST_XML_WALL_FASTENING_ANCHOR_LEFT: HUS-HR 10x115 Concrete screw INST_XML_WALL_FASTENING_RIGHT: HUS-HR 10x115 Concrete screw INST_XML_HEAT_PLASTER_LEFT: INST_XML_NO INST_XML_HEAT_PLASTER_RIGHT: INST_XML_NOINST_XML_UPHOLSTERY_SHORT1: W=735 H=1067, INST_XML_NO INST_XML_UPHOLSTERY_SHORT2: W=735 H=1067, INST_XML_NO "
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				},
+				{
+					"delivery_batch": "1",
+					"delivery_batch_status": "Mitattu",
+					"delivery_batch_receive_date": "30.08.2024",
+					"delivery_batch_delivery_date": "27.08.2024",
+					"group_attachment": "",
+					"AXconfiguration": "no",
+					"group_name": "Avautuva (LGR)",
+					"pcs": "1",
+					"structurenumber": "9000764630017199",
+					"originalstructurenumber": "",
+					"install_start_date": "30.08.2024",
+					"install_end_date": "26.09.2024",
+					"additional_deliverytime": "0",
+					"process": "Normal",
+					"product_code": "90240001",
+					"storageid": "VAN",
+					"packing_order": "1",
+					"unit": "6",
+					"line": "3",
+					"floor": "2",
+					"chargeable": "chargeable",
+					"sales_price": "2133.80",
+					"sproduct": "1584.10",
+					"sfreight": "58.90",
+					"sinstall": "306.70",
+					"sother": "184.10",
+					"purchase_price": "1211.30",
+					"pproduct": "1211.30",
+					"pfreight": "0.00",
+					"pinstall": "0.00",
+					"pother": "0.00",
+					"calculated_salesprice": "2133.90",
+					"factory_price": "1211.30",
+					"fproduct": "1211.30",
+					"ffreight": "0.00",
+					"finstall": "0.00",
+					"fother": "0.00",
+					"contract_price": "93.82",
+					"salestori_plan_name": "ZSXUR",
+					"glass_m2": "6.30",
+					"blinds_m2": "0.00",
+					"glass_pcs": "10",
+					"product_length": "7000",
+					"group_weight": "111.7577",
+					"product_attributes": {
+						"attributeid": "20090008"
+					},
+					"installed": "True",
+					"OrderLine": {
+						"BOMVersion": "9000764630017199",
+						"ItemID": "90240001",
+						"ItemName": "LG",
+						"InventLocationID": "VAN",
+						"Dimension1": "390",
+						"Dimension5": "Vsevoloda",
+						"DeliveryName": "Rrrr ",
+						"DeliveryStreet": "Versionnostotesti 1",
+						"DeliveryZipCode": "838 75",
+						"DeliveryCity": "Frösön",
+						"DeliveryCountryRegionID": "FI",
+						"LineAmount": "2133.80",
+						"Apartment": "6",
+						"Floor": "2",
+						"DlvBatchID": "1",
+						"Line": "3",
+						"FactoryConfirmedDlv": "",
+						"InstallHours": "14.38",
+						"InstallStart": "30.08.2024",
+						"ReservationStart": "2024-08-30T00.00.00",
+						"DeliveryDatePromised": "30.08.2024",
+						"Plan_name": "ZSXUR",
+						"PieceWork_pay": "93.82"
+					},
+					"AssemblyInstructions": {
+						"InstallNotes": "",
+						"Attachments": {
+							"Attachment": "salestori-asennuskortti-9000764630017199.pdf",
+							"Folder": "\\269000\\269847\\"
+						},
+						"AssemblyDocument": [
+							{
+								"name": "Tilaustiedot",
+								"Chapter": [
+									{
+										"name": "Perustiedot",
+										"Paragraph": [
+											{
+												"name": "Content",
+												"text": " Rrrr\r\nVersionnostotesti 1 838 75 Frösön\r\nPuhelin +358451141821"
+											}
+										]
+									},
+									{
+										"name": "Tilaustiedot",
+										"Paragraph": [
+											{
+												"name": "Content",
+												"text": "Asiakaslupaus 30/08/2024\r\nTilausnumero 90007646\r\nLinja 3\r\nKerros 2\r\nAsunto 6\r\nRVN 9000764630017199"
+											}
+										]
+									}
+								]
+							},
+							{
+								"name": "Asennustiedot",
+								"Chapter": [
+									{
+										"name": "Tuotetiedot",
+										"Paragraph": [
+											{
+												"name": "Tuote",
+												"text": "LG , sides:3"
+											},
+											{
+												"name": "Kiinnitystapa",
+												"text": "Upper: To roof, Lower: To floor"
+											},
+											{
+												"name": "Profiilit",
+												"text": "Upper: 11241205 RAL7024, Lower: 11243001 11243001 "
+											},
+											{
+												"name": "Varusteet",
+												"text": "Plastic parts: Dark grey, End plugs"
+											}
+										]
+									},
+									{
+										"name": "Tuotemitat",
+										"Paragraph": [
+											{
+												"name": "Sivu1,H3=773",
+												"text": "SA=90 EA= Length=2000 Z=0 Height=2000 X=0 Y=0 Lpcs=3 Rpcs=0 SA=90 Cbypass=No Adjus= \r\nUpper profile: 11241205 RAL7024\r\nLower profile: 11243001 RAL7024\r\nTeles. Profile: 11222206 RAL7024\r\nG1: W=649 H=761\r\nG2: W=649 H=761\r\nG3: W=649 H=761\r\n"
+											},
+											{
+												"name": "Sivu2,H3=773",
+												"text": "SA= EA= Length=1500 Z=0 Height=2000 X=0 Y=0 Lpcs=0 Rpcs=2 SA=180 Cbypass=No Adjus= \r\nUpper profile: 11241205 RAL7024\r\nLower profile: 11243001 RAL7024\r\nTeles. Profile: 11222206 RAL7024\r\nG1: W=731 H=761\r\nG2: W=731 H=761\r\n"
+											},
+											{
+												"name": "Sivu3,H3=773",
+												"text": "SA= EA=90 Length=1500 Z=0 Height=2000 X=0 Y=0 Lpcs=2 Rpcs=0 SA= Cbypass=No Adjus= \r\nUpper profile: 11241205 RAL7024\r\nLower profile: 11243001 RAL7024\r\nTeles. Profile: 11222206 RAL7024\r\nG1: W=741 H=761\r\nG2: W=741 H=761\r\n"
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				},
+				{
+					"delivery_batch": "1",
+					"delivery_batch_status": "Mitattu",
+					"delivery_batch_receive_date": "30.08.2024",
+					"delivery_batch_delivery_date": "27.08.2024",
+					"group_attachment": "",
+					"AXconfiguration": "no",
+					"group_name": "Lumon Kaide",
+					"pcs": "1",
+					"structurenumber": "9000764630017200",
+					"originalstructurenumber": "",
+					"install_start_date": "30.08.2024",
+					"install_end_date": "26.09.2024",
+					"additional_deliverytime": "0",
+					"process": "Normal",
+					"product_code": "90370001",
+					"storageid": "VAN",
+					"packing_order": "1",
+					"unit": "6",
+					"line": "3",
+					"floor": "2",
+					"chargeable": "chargeable",
+					"sales_price": "2088.30",
+					"sproduct": "1725.00",
+					"sfreight": "38.20",
+					"sinstall": "271.60",
+					"sother": "53.50",
+					"purchase_price": "1309.90",
+					"pproduct": "1309.90",
+					"pfreight": "0.00",
+					"pinstall": "0.00",
+					"pother": "0.00",
+					"calculated_salesprice": "2090.30",
+					"factory_price": "1309.90",
+					"fproduct": "1309.90",
+					"ffreight": "0.00",
+					"finstall": "0.00",
+					"fother": "0.00",
+					"contract_price": "94.56",
+					"salestori_plan_name": "ZSXUR",
+					"glass_m2": "2.20",
+					"blinds_m2": "0.00",
+					"glass_pcs": "0",
+					"product_length": "1999",
+					"group_weight": "0",
+					"product_attributes": "",
+					"installed": "True",
+					"OrderLine": {
+						"BOMVersion": "9000764630017200",
+						"ItemID": "90370001",
+						"ItemName": "LUMONKAIDE",
+						"InventLocationID": "VAN",
+						"Dimension1": "390",
+						"Dimension5": "Vsevoloda",
+						"DeliveryName": "Rrrr ",
+						"DeliveryStreet": "Versionnostotesti 1",
+						"DeliveryZipCode": "838 75",
+						"DeliveryCity": "Frösön",
+						"DeliveryCountryRegionID": "FI",
+						"LineAmount": "2088.30",
+						"Apartment": "6",
+						"Floor": "2",
+						"DlvBatchID": "1",
+						"Line": "3",
+						"FactoryConfirmedDlv": "",
+						"InstallHours": "2.17",
+						"InstallStart": "30.08.2024",
+						"ReservationStart": "2024-08-30T00.00.00",
+						"DeliveryDatePromised": "30.08.2024",
+						"Plan_name": "ZSXUR",
+						"PieceWork_pay": "94.56"
+					},
+					"AssemblyInstructions": {
+						"InstallNotes": "",
+						"Attachments": {
+							"Attachment": "salestori-asennuskortti-9000764630017200.pdf",
+							"Folder": "\\269000\\269847\\"
+						},
+						"AssemblyDocument": [
+							{
+								"name": "Tilaustiedot",
+								"Chapter": [
+									{
+										"name": "Perustiedot",
+										"Paragraph": [
+											{
+												"name": "Content",
+												"text": " Rrrr\r\nVersionnostotesti 1 838 75 Frösön\r\nPuhelin +358451141821"
+											}
+										]
+									},
+									{
+										"name": "Tilaustiedot",
+										"Paragraph": [
+											{
+												"name": "Content",
+												"text": "Asiakaslupaus 30/08/2024\r\nTilausnumero 90007646\r\nLinja 3\r\nKerros 2\r\nAsunto 6\r\nRVN 9000764630017200"
+											}
+										]
+									}
+								]
+							},
+							{
+								"name": "Asennustiedot",
+								"Chapter": [
+									{
+										"name": "Tuotetiedot",
+										"Paragraph": [
+											{
+												"name": "Tuote",
+												"text": "Kaide1.1 , sides:3"
+											},
+											{
+												"name": "Kiinnitystapa",
+												"text": "Top installation"
+											},
+											{
+												"name": "Profiilit",
+												"text": "INST_XML_COLOR:RAL7024, Handrail 160 "
+											},
+											{
+												"name": "Varusteet"
+											}
+										]
+									},
+									{
+										"name": "Tuotemitat",
+										"Paragraph": [
+											{
+												"name": "Sivu1",
+												"text": "SA=90 SA=90 Length=2000 Z=0  INST_XML_PULLOUT=0 INST_XML_UPHOLSTERY_PCS=2 INST_XML_HANDRAIL: Handrail 160, INST_XML_ELEVATION: 1100, RAL7024 INST_XML_HANDRAIL_PIPE: Handrail 160, RAL7024 INST_XML_TOE_LIST: No gap profile INST_XML_WEDGE_CRACK_SEAL: No seal INST_XML_LOWER_UPHOLSTERY: Lower frame for top installation, only for top installation, INST_XML_ELEVATION: 0, RAL7024 INST_XML_UPHOLSTERY_PROFILE: Facade profile 215 INST_XML_DECO_PIPE:  INST_XML_WALL_FASTENING_LEFT: Vertical handrail bracket INST_XML_WALL_FASTENING_RIGHT: Vertical handrail bracket INST_XML_WALL_FASTENING_ANCHOR_LEFT: HUS-HR 10x115 Concrete screw INST_XML_WALL_FASTENING_RIGHT: HUS-HR 10x115 Concrete screw INST_XML_HEAT_PLASTER_LEFT: INST_XML_NO INST_XML_HEAT_PLASTER_RIGHT: INST_XML_NOINST_XML_UPHOLSTERY_SHORT1: W=979 H=1067, INST_XML_NO INST_XML_UPHOLSTERY_SHORT2: W=979 H=1067, INST_XML_NO "
+											},
+											{
+												"name": "Sivu2",
+												"text": "SA=180 Length=1500 Z=0  INST_XML_PULLOUT=0 INST_XML_UPHOLSTERY_PCS=2 INST_XML_HANDRAIL: Handrail 160, INST_XML_ELEVATION: 1100, RAL7024 INST_XML_HANDRAIL_PIPE: Handrail 160, RAL7024 INST_XML_TOE_LIST: No gap profile INST_XML_WEDGE_CRACK_SEAL: No seal INST_XML_LOWER_UPHOLSTERY: Lower frame for top installation, only for top installation, INST_XML_ELEVATION: 0, RAL7024 INST_XML_UPHOLSTERY_PROFILE: Facade profile 215 INST_XML_DECO_PIPE:  INST_XML_WALL_FASTENING_LEFT: Vertical handrail bracket INST_XML_WALL_FASTENING_RIGHT: Vertical handrail bracket INST_XML_WALL_FASTENING_ANCHOR_LEFT: HUS-HR 10x115 Concrete screw INST_XML_WALL_FASTENING_RIGHT: HUS-HR 10x115 Concrete screw INST_XML_HEAT_PLASTER_LEFT: INST_XML_NO INST_XML_HEAT_PLASTER_RIGHT: INST_XML_NOINST_XML_MIDDLEPOST1/INST_XML_MIDDLEPOST_POSITION/INST_XML_MIDDLEPOST_ANCHOR: LRAILH_SteelPost_1020mm/1300/ HUS-HR 10x115 Concrete screw INST_XML_MOVEMENT_SEAMLRAILH_SteelPost_1020mm: INST_XML_NO INST_XML_UPHOLSTERY_SHORT1: W=730 H=1067, INST_XML_NO INST_XML_UPHOLSTERY_SHORT2: W=730 H=1067, INST_XML_NO "
+											},
+											{
+												"name": "Sivu3",
+												"text": "EA=90 Length=1500 Z=0  INST_XML_PULLOUT=0 INST_XML_UPHOLSTERY_PCS=2 INST_XML_HANDRAIL: Handrail 160, INST_XML_ELEVATION: 1100, RAL7024 INST_XML_HANDRAIL_PIPE: Handrail 160, RAL7024 INST_XML_TOE_LIST: No gap profile INST_XML_WEDGE_CRACK_SEAL: No seal INST_XML_LOWER_UPHOLSTERY: Lower frame for top installation, only for top installation, INST_XML_ELEVATION: 0, RAL7024 INST_XML_UPHOLSTERY_PROFILE: Facade profile 215 INST_XML_DECO_PIPE:  INST_XML_WALL_FASTENING_LEFT: Vertical handrail bracket INST_XML_WALL_FASTENING_RIGHT: Vertical handrail bracket INST_XML_WALL_FASTENING_ANCHOR_LEFT: HUS-HR 10x115 Concrete screw INST_XML_WALL_FASTENING_RIGHT: HUS-HR 10x115 Concrete screw INST_XML_HEAT_PLASTER_LEFT: INST_XML_NO INST_XML_HEAT_PLASTER_RIGHT: INST_XML_NOINST_XML_UPHOLSTERY_SHORT1: W=735 H=1067, INST_XML_NO INST_XML_UPHOLSTERY_SHORT2: W=735 H=1067, INST_XML_NO "
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				},
+				{
+					"delivery_batch": "1",
+					"delivery_batch_status": "Mitattu",
+					"delivery_batch_receive_date": "30.08.2024",
+					"delivery_batch_delivery_date": "27.08.2024",
+					"group_attachment": "",
+					"AXconfiguration": "no",
+					"group_name": "Avautuva (LGR)",
+					"pcs": "1",
+					"structurenumber": "9000764630017201",
+					"originalstructurenumber": "",
+					"install_start_date": "30.08.2024",
+					"install_end_date": "26.09.2024",
+					"additional_deliverytime": "0",
+					"process": "Normal",
+					"product_code": "90240001",
+					"storageid": "VAN",
+					"packing_order": "1",
+					"unit": "9",
+					"line": "3",
+					"floor": "3",
+					"chargeable": "chargeable",
+					"sales_price": "2133.80",
+					"sproduct": "1584.10",
+					"sfreight": "58.90",
+					"sinstall": "306.70",
+					"sother": "184.10",
+					"purchase_price": "1211.30",
+					"pproduct": "1211.30",
+					"pfreight": "0.00",
+					"pinstall": "0.00",
+					"pother": "0.00",
+					"calculated_salesprice": "2133.90",
+					"factory_price": "1211.30",
+					"fproduct": "1211.30",
+					"ffreight": "0.00",
+					"finstall": "0.00",
+					"fother": "0.00",
+					"contract_price": "93.82",
+					"salestori_plan_name": "ZSXUR",
+					"glass_m2": "6.30",
+					"blinds_m2": "0.00",
+					"glass_pcs": "10",
+					"product_length": "7000",
+					"group_weight": "111.7577",
+					"product_attributes": {
+						"attributeid": "20090008"
+					},
+					"installed": "True",
+					"OrderLine": {
+						"BOMVersion": "9000764630017201",
+						"ItemID": "90240001",
+						"ItemName": "LG",
+						"InventLocationID": "VAN",
+						"Dimension1": "390",
+						"Dimension5": "Vsevoloda",
+						"DeliveryName": "Rrrr ",
+						"DeliveryStreet": "Versionnostotesti 1",
+						"DeliveryZipCode": "838 75",
+						"DeliveryCity": "Frösön",
+						"DeliveryCountryRegionID": "FI",
+						"LineAmount": "2133.80",
+						"Apartment": "9",
+						"Floor": "3",
+						"DlvBatchID": "1",
+						"Line": "3",
+						"FactoryConfirmedDlv": "",
+						"InstallHours": "14.38",
+						"InstallStart": "30.08.2024",
+						"ReservationStart": "2024-08-30T00.00.00",
+						"DeliveryDatePromised": "30.08.2024",
+						"Plan_name": "ZSXUR",
+						"PieceWork_pay": "93.82"
+					},
+					"AssemblyInstructions": {
+						"InstallNotes": "",
+						"Attachments": {
+							"Attachment": "salestori-asennuskortti-9000764630017201.pdf",
+							"Folder": "\\269000\\269847\\"
+						},
+						"AssemblyDocument": [
+							{
+								"name": "Tilaustiedot",
+								"Chapter": [
+									{
+										"name": "Perustiedot",
+										"Paragraph": [
+											{
+												"name": "Content",
+												"text": " Rrrr\r\nVersionnostotesti 1 838 75 Frösön\r\nPuhelin +358451141821"
+											}
+										]
+									},
+									{
+										"name": "Tilaustiedot",
+										"Paragraph": [
+											{
+												"name": "Content",
+												"text": "Asiakaslupaus 30/08/2024\r\nTilausnumero 90007646\r\nLinja 3\r\nKerros 3\r\nAsunto 9\r\nRVN 9000764630017201"
+											}
+										]
+									}
+								]
+							},
+							{
+								"name": "Asennustiedot",
+								"Chapter": [
+									{
+										"name": "Tuotetiedot",
+										"Paragraph": [
+											{
+												"name": "Tuote",
+												"text": "LG , sides:3"
+											},
+											{
+												"name": "Kiinnitystapa",
+												"text": "Upper: To roof, Lower: To floor"
+											},
+											{
+												"name": "Profiilit",
+												"text": "Upper: 11241205 RAL7024, Lower: 11243001 11243001 "
+											},
+											{
+												"name": "Varusteet",
+												"text": "Plastic parts: Dark grey, End plugs"
+											}
+										]
+									},
+									{
+										"name": "Tuotemitat",
+										"Paragraph": [
+											{
+												"name": "Sivu1,H3=773",
+												"text": "SA=90 EA= Length=2000 Z=0 Height=2000 X=0 Y=0 Lpcs=3 Rpcs=0 SA=90 Cbypass=No Adjus= \r\nUpper profile: 11241205 RAL7024\r\nLower profile: 11243001 RAL7024\r\nTeles. Profile: 11222206 RAL7024\r\nG1: W=649 H=761\r\nG2: W=649 H=761\r\nG3: W=649 H=761\r\n"
+											},
+											{
+												"name": "Sivu2,H3=773",
+												"text": "SA= EA= Length=1500 Z=0 Height=2000 X=0 Y=0 Lpcs=0 Rpcs=2 SA=180 Cbypass=No Adjus= \r\nUpper profile: 11241205 RAL7024\r\nLower profile: 11243001 RAL7024\r\nTeles. Profile: 11222206 RAL7024\r\nG1: W=731 H=761\r\nG2: W=731 H=761\r\n"
+											},
+											{
+												"name": "Sivu3,H3=773",
+												"text": "SA= EA=90 Length=1500 Z=0 Height=2000 X=0 Y=0 Lpcs=2 Rpcs=0 SA= Cbypass=No Adjus= \r\nUpper profile: 11241205 RAL7024\r\nLower profile: 11243001 RAL7024\r\nTeles. Profile: 11222206 RAL7024\r\nG1: W=741 H=761\r\nG2: W=741 H=761\r\n"
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				},
+				{
+					"delivery_batch": "1",
+					"delivery_batch_status": "Mitattu",
+					"delivery_batch_receive_date": "30.08.2024",
+					"delivery_batch_delivery_date": "27.08.2024",
+					"group_attachment": "",
+					"AXconfiguration": "no",
+					"group_name": "Lumon Kaide",
+					"pcs": "1",
+					"structurenumber": "9000764630017202",
+					"originalstructurenumber": "",
+					"install_start_date": "30.08.2024",
+					"install_end_date": "26.09.2024",
+					"additional_deliverytime": "0",
+					"process": "Normal",
+					"product_code": "90370001",
+					"storageid": "VAN",
+					"packing_order": "1",
+					"unit": "9",
+					"line": "3",
+					"floor": "3",
+					"chargeable": "chargeable",
+					"sales_price": "2088.30",
+					"sproduct": "1725.00",
+					"sfreight": "38.20",
+					"sinstall": "271.60",
+					"sother": "53.50",
+					"purchase_price": "1309.90",
+					"pproduct": "1309.90",
+					"pfreight": "0.00",
+					"pinstall": "0.00",
+					"pother": "0.00",
+					"calculated_salesprice": "2090.30",
+					"factory_price": "1309.90",
+					"fproduct": "1309.90",
+					"ffreight": "0.00",
+					"finstall": "0.00",
+					"fother": "0.00",
+					"contract_price": "94.56",
+					"salestori_plan_name": "ZSXUR",
+					"glass_m2": "2.20",
+					"blinds_m2": "0.00",
+					"glass_pcs": "0",
+					"product_length": "1999",
+					"group_weight": "0",
+					"product_attributes": "",
+					"installed": "True",
+					"OrderLine": {
+						"BOMVersion": "9000764630017202",
+						"ItemID": "90370001",
+						"ItemName": "LUMONKAIDE",
+						"InventLocationID": "VAN",
+						"Dimension1": "390",
+						"Dimension5": "Vsevoloda",
+						"DeliveryName": "Rrrr ",
+						"DeliveryStreet": "Versionnostotesti 1",
+						"DeliveryZipCode": "838 75",
+						"DeliveryCity": "Frösön",
+						"DeliveryCountryRegionID": "FI",
+						"LineAmount": "2088.30",
+						"Apartment": "9",
+						"Floor": "3",
+						"DlvBatchID": "1",
+						"Line": "3",
+						"FactoryConfirmedDlv": "",
+						"InstallHours": "2.17",
+						"InstallStart": "30.08.2024",
+						"ReservationStart": "2024-08-30T00.00.00",
+						"DeliveryDatePromised": "30.08.2024",
+						"Plan_name": "ZSXUR",
+						"PieceWork_pay": "94.56"
+					},
+					"AssemblyInstructions": {
+						"InstallNotes": "",
+						"Attachments": {
+							"Attachment": "salestori-asennuskortti-9000764630017202.pdf",
+							"Folder": "\\269000\\269847\\"
+						},
+						"AssemblyDocument": [
+							{
+								"name": "Tilaustiedot",
+								"Chapter": [
+									{
+										"name": "Perustiedot",
+										"Paragraph": [
+											{
+												"name": "Content",
+												"text": " Rrrr\r\nVersionnostotesti 1 838 75 Frösön\r\nPuhelin +358451141821"
+											}
+										]
+									},
+									{
+										"name": "Tilaustiedot",
+										"Paragraph": [
+											{
+												"name": "Content",
+												"text": "Asiakaslupaus 30/08/2024\r\nTilausnumero 90007646\r\nLinja 3\r\nKerros 3\r\nAsunto 9\r\nRVN 9000764630017202"
+											}
+										]
+									}
+								]
+							},
+							{
+								"name": "Asennustiedot",
+								"Chapter": [
+									{
+										"name": "Tuotetiedot",
+										"Paragraph": [
+											{
+												"name": "Tuote",
+												"text": "Kaide1.1 , sides:3"
+											},
+											{
+												"name": "Kiinnitystapa",
+												"text": "Top installation"
+											},
+											{
+												"name": "Profiilit",
+												"text": "INST_XML_COLOR:RAL7024, Handrail 160 "
+											},
+											{
+												"name": "Varusteet"
+											}
+										]
+									},
+									{
+										"name": "Tuotemitat",
+										"Paragraph": [
+											{
+												"name": "Sivu1",
+												"text": "SA=90 SA=90 Length=2000 Z=0  INST_XML_PULLOUT=0 INST_XML_UPHOLSTERY_PCS=2 INST_XML_HANDRAIL: Handrail 160, INST_XML_ELEVATION: 1100, RAL7024 INST_XML_HANDRAIL_PIPE: Handrail 160, RAL7024 INST_XML_TOE_LIST: No gap profile INST_XML_WEDGE_CRACK_SEAL: No seal INST_XML_LOWER_UPHOLSTERY: Lower frame for top installation, only for top installation, INST_XML_ELEVATION: 0, RAL7024 INST_XML_UPHOLSTERY_PROFILE: Facade profile 215 INST_XML_DECO_PIPE:  INST_XML_WALL_FASTENING_LEFT: Vertical handrail bracket INST_XML_WALL_FASTENING_RIGHT: Vertical handrail bracket INST_XML_WALL_FASTENING_ANCHOR_LEFT: HUS-HR 10x115 Concrete screw INST_XML_WALL_FASTENING_RIGHT: HUS-HR 10x115 Concrete screw INST_XML_HEAT_PLASTER_LEFT: INST_XML_NO INST_XML_HEAT_PLASTER_RIGHT: INST_XML_NOINST_XML_UPHOLSTERY_SHORT1: W=979 H=1067, INST_XML_NO INST_XML_UPHOLSTERY_SHORT2: W=979 H=1067, INST_XML_NO "
+											},
+											{
+												"name": "Sivu2",
+												"text": "SA=180 Length=1500 Z=0  INST_XML_PULLOUT=0 INST_XML_UPHOLSTERY_PCS=2 INST_XML_HANDRAIL: Handrail 160, INST_XML_ELEVATION: 1100, RAL7024 INST_XML_HANDRAIL_PIPE: Handrail 160, RAL7024 INST_XML_TOE_LIST: No gap profile INST_XML_WEDGE_CRACK_SEAL: No seal INST_XML_LOWER_UPHOLSTERY: Lower frame for top installation, only for top installation, INST_XML_ELEVATION: 0, RAL7024 INST_XML_UPHOLSTERY_PROFILE: Facade profile 215 INST_XML_DECO_PIPE:  INST_XML_WALL_FASTENING_LEFT: Vertical handrail bracket INST_XML_WALL_FASTENING_RIGHT: Vertical handrail bracket INST_XML_WALL_FASTENING_ANCHOR_LEFT: HUS-HR 10x115 Concrete screw INST_XML_WALL_FASTENING_RIGHT: HUS-HR 10x115 Concrete screw INST_XML_HEAT_PLASTER_LEFT: INST_XML_NO INST_XML_HEAT_PLASTER_RIGHT: INST_XML_NOINST_XML_MIDDLEPOST1/INST_XML_MIDDLEPOST_POSITION/INST_XML_MIDDLEPOST_ANCHOR: LRAILH_SteelPost_1020mm/1300/ HUS-HR 10x115 Concrete screw INST_XML_MOVEMENT_SEAMLRAILH_SteelPost_1020mm: INST_XML_NO INST_XML_UPHOLSTERY_SHORT1: W=730 H=1067, INST_XML_NO INST_XML_UPHOLSTERY_SHORT2: W=730 H=1067, INST_XML_NO "
+											},
+											{
+												"name": "Sivu3",
+												"text": "EA=90 Length=1500 Z=0  INST_XML_PULLOUT=0 INST_XML_UPHOLSTERY_PCS=2 INST_XML_HANDRAIL: Handrail 160, INST_XML_ELEVATION: 1100, RAL7024 INST_XML_HANDRAIL_PIPE: Handrail 160, RAL7024 INST_XML_TOE_LIST: No gap profile INST_XML_WEDGE_CRACK_SEAL: No seal INST_XML_LOWER_UPHOLSTERY: Lower frame for top installation, only for top installation, INST_XML_ELEVATION: 0, RAL7024 INST_XML_UPHOLSTERY_PROFILE: Facade profile 215 INST_XML_DECO_PIPE:  INST_XML_WALL_FASTENING_LEFT: Vertical handrail bracket INST_XML_WALL_FASTENING_RIGHT: Vertical handrail bracket INST_XML_WALL_FASTENING_ANCHOR_LEFT: HUS-HR 10x115 Concrete screw INST_XML_WALL_FASTENING_RIGHT: HUS-HR 10x115 Concrete screw INST_XML_HEAT_PLASTER_LEFT: INST_XML_NO INST_XML_HEAT_PLASTER_RIGHT: INST_XML_NOINST_XML_UPHOLSTERY_SHORT1: W=735 H=1067, INST_XML_NO INST_XML_UPHOLSTERY_SHORT2: W=735 H=1067, INST_XML_NO "
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				}
+			]
+		}
+	}
+}

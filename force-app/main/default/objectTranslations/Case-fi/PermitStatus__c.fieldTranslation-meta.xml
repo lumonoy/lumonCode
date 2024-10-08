@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-    <label><!-- Building Permit Status --></label>
+    <label>Rakennusluvan Tila</label>
     <name>PermitStatus__c</name>
     <picklistValues>
         <masterLabel>Approved</masterLabel>
@@ -9,6 +9,10 @@
     <picklistValues>
         <masterLabel>Cancelled</masterLabel>
         <translation><!-- Cancelled --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Not Applicable</masterLabel>
+        <translation><!-- Not Applicable --></translation>
     </picklistValues>
     <picklistValues>
         <masterLabel>Rejected</masterLabel>

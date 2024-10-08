@@ -7,11 +7,11 @@
         <value xsi:type="xsd:string">1905514-0</value>
     </values>
     <values>
-        <field>Business_Type__c</field>
-        <value xsi:type="xsd:string">Consumer</value>
+        <field>BusinessType__c</field>
+        <value xsi:type="xsd:string">1</value>
     </values>
     <values>
-        <field>Country_Code__c</field>
+        <field>CountryCode__c</field>
         <value xsi:type="xsd:string">ES</value>
     </values>
     <values>
@@ -23,31 +23,31 @@
         <value xsi:type="xsd:string">EUR</value>
     </values>
     <values>
-        <field>Default_Currency__c</field>
+        <field>DefaultCurrency__c</field>
         <value xsi:type="xsd:string">EUR</value>
     </values>
     <values>
-        <field>Default_Language__c</field>
-        <value xsi:nil="true"/>
-    </values>
-    <values>
-        <field>District_Type__c</field>
-        <value xsi:type="xsd:string">P4</value>
-    </values>
-    <values>
-        <field>Expiration_Time__c</field>
-        <value xsi:type="xsd:double">10.0</value>
-    </values>
-    <values>
-        <field>Financing_Customer_Number__c</field>
+        <field>DefaultFinancingIdentifier__c</field>
         <value xsi:type="xsd:string">3300000-</value>
     </values>
     <values>
-        <field>Quote_Expiration__c</field>
+        <field>DefaultLanguage__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>DistrictType__c</field>
+        <value xsi:type="xsd:string">P4</value>
+    </values>
+    <values>
+        <field>QuoteExpirationTime__c</field>
+        <value xsi:type="xsd:double">10.0</value>
+    </values>
+    <values>
+        <field>QuoteExpiration__c</field>
         <value xsi:type="xsd:boolean">true</value>
     </values>
     <values>
-        <field>VAT__c</field>
+        <field>ValueAddedTax__c</field>
         <value xsi:type="xsd:double">21.0</value>
     </values>
 </CustomMetadata>

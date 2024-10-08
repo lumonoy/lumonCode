@@ -20,7 +20,7 @@
     <assignments>
         <name>Set_Case</name>
         <label>Set Case</label>
-        <locationX>501</locationX>
+        <locationX>611</locationX>
         <locationY>1043</locationY>
         <assignmentItems>
             <assignToReference>recCase</assignToReference>
@@ -87,7 +87,7 @@
     <assignments>
         <name>Set_Case_Variables</name>
         <label>Set Case Variables</label>
-        <locationX>671</locationX>
+        <locationX>858</locationX>
         <locationY>719</locationY>
         <assignmentItems>
             <assignToReference>caseId</assignToReference>
@@ -125,7 +125,7 @@
         <name>Filter_on_ICT</name>
         <elementSubtype>FilterCollectionProcessor</elementSubtype>
         <label>Filter on ICT</label>
-        <locationX>671</locationX>
+        <locationX>858</locationX>
         <locationY>827</locationY>
         <assignNextValueToReference>currentItem_Filter_on_ICT</assignNextValueToReference>
         <collectionProcessorType>FilterCollectionProcessor</collectionProcessorType>
@@ -152,7 +152,7 @@
     <decisions>
         <name>Has_Agent_Info</name>
         <label>Has Agent Info?</label>
-        <locationX>336</locationX>
+        <locationX>380</locationX>
         <locationY>1259</locationY>
         <defaultConnectorLabel>No Agent Info</defaultConnectorLabel>
         <rules>
@@ -196,7 +196,7 @@
     <decisions>
         <name>is_Case_in_Queue</name>
         <label>is Case in Queue?</label>
-        <locationX>501</locationX>
+        <locationX>611</locationX>
         <locationY>1151</locationY>
         <defaultConnectorLabel>Agent</defaultConnectorLabel>
         <rules>
@@ -218,7 +218,7 @@
     <decisions>
         <name>is_New</name>
         <label>is New?</label>
-        <locationX>888</locationX>
+        <locationX>1114</locationX>
         <locationY>611</locationY>
         <defaultConnectorLabel>Not a New Case</defaultConnectorLabel>
         <rules>
@@ -240,7 +240,7 @@
     <decisions>
         <name>Skip_Automation_Enabled</name>
         <label>Skip Automation Enabled?</label>
-        <locationX>1129</locationX>
+        <locationX>1374</locationX>
         <locationY>287</locationY>
         <defaultConnectorLabel>Skip Automation</defaultConnectorLabel>
         <rules>
@@ -262,7 +262,7 @@
     <decisions>
         <name>What_Case_Record_Type</name>
         <label>What Case Record Type?</label>
-        <locationX>671</locationX>
+        <locationX>858</locationX>
         <locationY>935</locationY>
         <defaultConnectorLabel>Not a IT Support Case</defaultConnectorLabel>
         <rules>
@@ -281,6 +281,7 @@
             <label>ICT Support</label>
         </rules>
     </decisions>
+    <description>Updated trigger condition</description>
     <environments>Default</environments>
     <formulas>
         <name>fxAgentFirstName</name>
@@ -348,7 +349,7 @@
     <recordLookups>
         <name>Get_Case_Record_Types</name>
         <label>Get Case Record Types</label>
-        <locationX>888</locationX>
+        <locationX>1114</locationX>
         <locationY>395</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
@@ -369,7 +370,7 @@
     <recordLookups>
         <name>Get_Queues</name>
         <label>Get Queues</label>
-        <locationX>888</locationX>
+        <locationX>1114</locationX>
         <locationY>503</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
@@ -429,13 +430,13 @@
         <inputReference>$Record</inputReference>
     </recordUpdates>
     <start>
-        <locationX>1003</locationX>
+        <locationX>1248</locationX>
         <locationY>0</locationY>
         <connector>
             <targetReference>Skip_Automation_Enabled</targetReference>
         </connector>
         <object>Case</object>
-        <recordTriggerType>Create</recordTriggerType>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
         <triggerType>RecordBeforeSave</triggerType>
     </start>
     <status>Active</status>

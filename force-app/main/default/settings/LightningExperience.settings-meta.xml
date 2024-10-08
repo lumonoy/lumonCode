@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LightningExperienceSettings xmlns="http://soap.sforce.com/2006/04/metadata">
-    <activeThemeName>Lumontheme</activeThemeName>
+    <activeThemeName>LumonBrand2024</activeThemeName>
     <enableAccessCheckCrucPref>false</enableAccessCheckCrucPref>
     <enableApiUserLtngOutAccessPref>false</enableApiUserLtngOutAccessPref>
     <enableAuraCDNPref>true</enableAuraCDNPref>
@@ -10,7 +10,6 @@
     <enableHideOpenInQuip>false</enableHideOpenInQuip>
     <enableIE11DeprecationMsgHidden>false</enableIE11DeprecationMsgHidden>
     <enableIE11LEXCrucPref>false</enableIE11LEXCrucPref>
-    <enableInAppLearning>true</enableInAppLearning>
     <enableInAppTooltips>true</enableInAppTooltips>
     <enableLEXExtensionComponentCustomization>false</enableLEXExtensionComponentCustomization>
     <enableLEXExtensionDarkMode>false</enableLEXExtensionDarkMode>
@@ -21,7 +20,7 @@
     <enableLEXExtensionTrailhead>false</enableLEXExtensionTrailhead>
     <enableLEXOnIpadEnabled>false</enableLEXOnIpadEnabled>
     <enableLexEndUsersNoSwitching>false</enableLexEndUsersNoSwitching>
-    <enableNavPersonalizationOptOut>false</enableNavPersonalizationOptOut>
+    <enableNavPersonalizationOptOut>true</enableNavPersonalizationOptOut>
     <enableNoBackgroundNavigations>false</enableNoBackgroundNavigations>
     <enableQuip>false</enableQuip>
     <enableRemoveThemeBrandBanner>false</enableRemoveThemeBrandBanner>

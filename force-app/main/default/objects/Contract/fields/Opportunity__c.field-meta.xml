@@ -5,7 +5,7 @@
     <description>Field to populate Opportunity data to contract - Integration purpose</description>
     <externalId>false</externalId>
     <inlineHelpText>This is the related opportunity</inlineHelpText>
-    <label>Opportunity</label>
+    <label>Opportunity OLD</label>
     <referenceTo>Opportunity</referenceTo>
     <relationshipLabel>Contracts</relationshipLabel>
     <relationshipName>ContractsOpportunity</relationshipName>

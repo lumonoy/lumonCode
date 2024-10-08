@@ -7,7 +7,19 @@
         <value xsi:type="xsd:string">FI</value>
     </values>
     <values>
+        <field>CountryCodeAlpha3__c</field>
+        <value xsi:type="xsd:string">FIN</value>
+    </values>
+    <values>
+        <field>CountryCode__c</field>
+        <value xsi:type="xsd:string">358</value>
+    </values>
+    <values>
         <field>Country_Name__c</field>
         <value xsi:type="xsd:string">Finland</value>
+    </values>
+    <values>
+        <field>OfficialName__c</field>
+        <value xsi:type="xsd:string">The Republic of Finland</value>
     </values>
 </CustomMetadata>

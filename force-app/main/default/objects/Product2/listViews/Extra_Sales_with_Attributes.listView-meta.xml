@@ -16,7 +16,12 @@
     <filters>
         <field>Product_Category__c</field>
         <operation>equals</operation>
-        <value>Extra Sales</value>
+        <value>Product Options,Product Groups</value>
+    </filters>
+    <filters>
+        <field>Product_Group__c</field>
+        <operation>equals</operation>
+        <value>LISAHIN</value>
     </filters>
     <label>Extra Sales with Attributes</label>
 </ListView>

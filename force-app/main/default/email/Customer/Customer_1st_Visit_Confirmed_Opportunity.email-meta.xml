@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Confirmation for Customer Visit</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Lumon_Email_Letterhead</letterhead>
+    <name>Customer - 1st Visit Confirmed Opportunity</name>
+    <style>freeForm</style>
+    <subject>Lumon - Confirmation of your appointment on {!Event.ActivityDate}</subject>
+    <textOnly>Hi {!Opportunity.Account},
+
+Greetings from Lumon!
+I confirm our appointment on {!DATETIMEVALUE(Event.StartDateTime)} at the following address: {!Event.Location}
+
+In case you have any questions, please do not hesitate to contact me directly.
+
+Thank you for your interest and best regards,
+{!Opportunity.OwnerFullName}
+{!Opportunity.OwnerTitle}
+{!Opportunity.OwnerPhone}
+{!Opportunity.OwnerEmail}
+{!Organization.Name}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -5,27 +5,11 @@
         <type>StandardAppMenuItem</type>
     </appMenuItems>
     <appMenuItems>
+        <name>Overview</name>
+        <type>CustomTab</type>
+    </appMenuItems>
+    <appMenuItems>
         <name>MyDay</name>
-        <type>StandardAppMenuItem</type>
-    </appMenuItems>
-    <appMenuItems>
-        <name>Dashboards</name>
-        <type>StandardAppMenuItem</type>
-    </appMenuItems>
-    <appMenuItems>
-        <name>Tasks</name>
-        <type>StandardAppMenuItem</type>
-    </appMenuItems>
-    <appMenuItems>
-        <name>Notes</name>
-        <type>StandardAppMenuItem</type>
-    </appMenuItems>
-    <appMenuItems>
-        <name>Search</name>
-        <type>StandardAppMenuItem</type>
-    </appMenuItems>
-    <appMenuItems>
-        <name>Reports</name>
         <type>StandardAppMenuItem</type>
     </appMenuItems>
     <appMenuItems>
@@ -33,11 +17,15 @@
         <type>StandardAppMenuItem</type>
     </appMenuItems>
     <appMenuItems>
-        <name>People</name>
+        <name>MobileHome</name>
         <type>StandardAppMenuItem</type>
     </appMenuItems>
     <appMenuItems>
-        <name>Groups</name>
-        <type>StandardAppMenuItem</type>
+        <name>maps__Mobile</name>
+        <type>CustomTab</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>tspa__Visual_Remote_Assistant_Mobile_Dashboard</name>
+        <type>CustomTab</type>
     </appMenuItems>
 </AppMenu>

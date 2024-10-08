@@ -3,7 +3,7 @@
     <fullName>Owner_Profit_Center__c</fullName>
     <externalId>false</externalId>
     <formula>Owner.Profit_Center_Attribute__c</formula>
-    <label>Owner Profit Center</label>
+    <label>Owner Profit Center OLD</label>
     <required>false</required>
     <trackHistory>false</trackHistory>
     <type>Text</type>

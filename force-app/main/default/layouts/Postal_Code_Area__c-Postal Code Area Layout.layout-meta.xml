@@ -14,6 +14,10 @@
                 <behavior>Edit</behavior>
                 <field>Country__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Profit_Center_Project__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>

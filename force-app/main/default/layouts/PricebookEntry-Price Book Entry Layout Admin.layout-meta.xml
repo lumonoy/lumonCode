@@ -58,10 +58,6 @@
                 <field>StandardPrice</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Base_Price__c</field>
-            </layoutItems>
-            <layoutItems>
                 <behavior>Required</behavior>
                 <field>UnitPrice</field>
             </layoutItems>
@@ -121,7 +117,7 @@
     <showRunAssignmentRulesCheckbox>false</showRunAssignmentRulesCheckbox>
     <showSubmitAndAttachButton>false</showSubmitAndAttachButton>
     <summaryLayout>
-        <masterLabel>00h7Q00000G8hGB</masterLabel>
+        <masterLabel>00h7E000003ZYgC</masterLabel>
         <sizeX>4</sizeX>
         <sizeY>0</sizeY>
         <summaryLayoutStyle>Default</summaryLayoutStyle>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Completed_Line_Items__c</fullName>
+    <description>Number of completed WOLIs. Used e.g. in Delivery Batch completion figure calculation.</description>
+    <externalId>false</externalId>
+    <label>Completed Line Items OLD</label>
+    <summaryFilterItems>
+        <field>WorkOrderLineItem.Status</field>
+        <operation>equals</operation>
+        <value>Completed</value>
+    </summaryFilterItems>
+    <summaryForeignKey>WorkOrderLineItem.WorkOrderId</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <type>Summary</type>
+</CustomField>

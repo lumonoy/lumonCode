@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FSL_Mobile_Service_Appointments_Prime</fullName>
+    <columns>STREET</columns>
+    <columns>SchedStartTime</columns>
+    <columns>ActualStartTime</columns>
+    <columns>Status</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>SchedStartTime</field>
+        <operation>equals</operation>
+        <value>TODAY</value>
+    </filters>
+    <label>FSL Mobile Service Appointments Prime</label>
+</ListView>

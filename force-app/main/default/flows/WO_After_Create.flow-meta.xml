@@ -4,8 +4,8 @@
     <assignments>
         <name>Assign_Language_and_Report_Template_name_to_WO</name>
         <label>Assign Language and Report Template name to WO</label>
-        <locationX>1882</locationX>
-        <locationY>2002</locationY>
+        <locationX>1612</locationX>
+        <locationY>3119</locationY>
         <assignmentItems>
             <assignToReference>recWO.ServiceReportLanguage</assignToReference>
             <operator>Assign</operator>
@@ -27,8 +27,8 @@
     <assignments>
         <name>Assign_WO_data</name>
         <label>Assign WO data</label>
-        <locationX>886</locationX>
-        <locationY>463</locationY>
+        <locationX>1348</locationX>
+        <locationY>1355</locationY>
         <assignmentItems>
             <assignToReference>recWO.Id</assignToReference>
             <operator>Assign</operator>
@@ -40,7 +40,14 @@
             <assignToReference>recWO.Order__c</assignToReference>
             <operator>Assign</operator>
             <value>
-                <elementReference>Get_Oppo_data.Order__c</elementReference>
+                <elementReference>Get_Opportunity.Order__c</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>recWO.ServiceTerritoryId</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>serviceTerritoryId</elementReference>
             </value>
         </assignmentItems>
         <connector>
@@ -50,8 +57,8 @@
     <assignments>
         <name>Assign_WO_data_1</name>
         <label>Assign WO data</label>
-        <locationX>1202</locationX>
-        <locationY>1048</locationY>
+        <locationX>3108</locationX>
+        <locationY>1895</locationY>
         <assignmentItems>
             <assignToReference>recWO.WorkTypeId</assignToReference>
             <operator>Assign</operator>
@@ -64,10 +71,33 @@
         </connector>
     </assignments>
     <assignments>
+        <name>Assign_WOLI_numbers</name>
+        <label>Assign WOLI numbers</label>
+        <locationX>2855</locationX>
+        <locationY>647</locationY>
+        <assignmentItems>
+            <assignToReference>nbrAllRelatedWOLIs</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <elementReference>Work_Orders.LineItemCount</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>nbrCompletedWOLIs</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <elementReference>Work_Orders.Completed_Line_Items__c</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Work_Orders</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
         <name>Danish</name>
         <label>Danish</label>
-        <locationX>1947</locationX>
-        <locationY>1254</locationY>
+        <locationX>1898</locationX>
+        <locationY>2495</locationY>
         <assignmentItems>
             <assignToReference>varLanguage</assignToReference>
             <operator>Assign</operator>
@@ -82,8 +112,8 @@
     <assignments>
         <name>Dutch</name>
         <label>Dutch</label>
-        <locationX>2164</locationX>
-        <locationY>1414</locationY>
+        <locationX>2426</locationX>
+        <locationY>2495</locationY>
         <assignmentItems>
             <assignToReference>varLanguage</assignToReference>
             <operator>Assign</operator>
@@ -98,8 +128,8 @@
     <assignments>
         <name>English</name>
         <label>English</label>
-        <locationX>1548</locationX>
-        <locationY>1248</locationY>
+        <locationX>1106</locationX>
+        <locationY>2495</locationY>
         <assignmentItems>
             <assignToReference>varLanguage</assignToReference>
             <operator>Assign</operator>
@@ -114,8 +144,8 @@
     <assignments>
         <name>Finnish</name>
         <label>Finnish</label>
-        <locationX>1851</locationX>
-        <locationY>1251</locationY>
+        <locationX>50</locationX>
+        <locationY>2495</locationY>
         <assignmentItems>
             <assignToReference>varLanguage</assignToReference>
             <operator>Assign</operator>
@@ -130,8 +160,8 @@
     <assignments>
         <name>French</name>
         <label>French</label>
-        <locationX>2052</locationX>
-        <locationY>1256</locationY>
+        <locationX>2162</locationX>
+        <locationY>2495</locationY>
         <assignmentItems>
             <assignToReference>varLanguage</assignToReference>
             <operator>Assign</operator>
@@ -146,8 +176,8 @@
     <assignments>
         <name>German</name>
         <label>German</label>
-        <locationX>2280</locationX>
-        <locationY>1415</locationY>
+        <locationX>2690</locationX>
+        <locationY>2495</locationY>
         <assignmentItems>
             <assignToReference>varLanguage</assignToReference>
             <operator>Assign</operator>
@@ -162,8 +192,8 @@
     <assignments>
         <name>Latvian</name>
         <label>Latvian</label>
-        <locationX>2467</locationX>
-        <locationY>1415</locationY>
+        <locationX>3482</locationX>
+        <locationY>2495</locationY>
         <assignmentItems>
             <assignToReference>varLanguage</assignToReference>
             <operator>Assign</operator>
@@ -179,8 +209,8 @@
         <description>Norsk Bokmål</description>
         <name>Norwegian</name>
         <label>Norwegian</label>
-        <locationX>2377</locationX>
-        <locationY>1415</locationY>
+        <locationX>3218</locationX>
+        <locationY>2495</locationY>
         <assignmentItems>
             <assignToReference>varLanguage</assignToReference>
             <operator>Assign</operator>
@@ -195,8 +225,8 @@
     <assignments>
         <name>Polish</name>
         <label>Polish</label>
-        <locationX>2571</locationX>
-        <locationY>1416</locationY>
+        <locationX>3746</locationX>
+        <locationY>2495</locationY>
         <assignmentItems>
             <assignToReference>varLanguage</assignToReference>
             <operator>Assign</operator>
@@ -211,8 +241,8 @@
     <assignments>
         <name>Spanish</name>
         <label>Spanish</label>
-        <locationX>1750</locationX>
-        <locationY>1250</locationY>
+        <locationX>1370</locationX>
+        <locationY>2495</locationY>
         <assignmentItems>
             <assignToReference>varLanguage</assignToReference>
             <operator>Assign</operator>
@@ -227,8 +257,8 @@
     <assignments>
         <name>Swedish</name>
         <label>Swedish</label>
-        <locationX>1653</locationX>
-        <locationY>1251</locationY>
+        <locationX>578</locationX>
+        <locationY>2495</locationY>
         <assignmentItems>
             <assignToReference>varLanguage</assignToReference>
             <operator>Assign</operator>
@@ -243,8 +273,8 @@
     <decisions>
         <name>Account_exists</name>
         <label>Account exists</label>
-        <locationX>990</locationX>
-        <locationY>1180</locationY>
+        <locationX>3086</locationX>
+        <locationY>2171</locationY>
         <defaultConnector>
             <targetReference>Update_WO</targetReference>
         </defaultConnector>
@@ -269,8 +299,8 @@
         <description>ISO 639 language code to WorkOrder.ServiceReportLanguage code mapping.</description>
         <name>Contract_Language_mapping</name>
         <label>Contract Language mapping</label>
-        <locationX>1295</locationX>
-        <locationY>1431</locationY>
+        <locationX>1898</locationX>
+        <locationY>2387</locationY>
         <defaultConnectorLabel>Default</defaultConnectorLabel>
         <rules>
             <name>Missing</name>
@@ -283,6 +313,7 @@
                 </rightValue>
             </conditions>
             <connector>
+                <isGoTo>true</isGoTo>
                 <targetReference>Update_WO</targetReference>
             </connector>
             <label>Missing</label>
@@ -313,6 +344,7 @@
                 </rightValue>
             </conditions>
             <connector>
+                <isGoTo>true</isGoTo>
                 <targetReference>Swedish</targetReference>
             </connector>
             <label>SV</label>
@@ -343,6 +375,7 @@
                 </rightValue>
             </conditions>
             <connector>
+                <isGoTo>true</isGoTo>
                 <targetReference>English</targetReference>
             </connector>
             <label>EN</label>
@@ -388,6 +421,7 @@
                 </rightValue>
             </conditions>
             <connector>
+                <isGoTo>true</isGoTo>
                 <targetReference>Danish</targetReference>
             </connector>
             <label>DA</label>
@@ -463,6 +497,7 @@
                 </rightValue>
             </conditions>
             <connector>
+                <isGoTo>true</isGoTo>
                 <targetReference>Norwegian</targetReference>
             </connector>
             <label>NB</label>
@@ -517,8 +552,8 @@
         <description>If there is no WT, then use the &quot;Installation&quot; WT. If there is am WT on WO already, then use it. If it is a reclamation, then don&apos;t create Service Report.</description>
         <name>Has_Work_Type</name>
         <label>Has Work Type</label>
-        <locationX>990</locationX>
-        <locationY>703</locationY>
+        <locationX>3086</locationX>
+        <locationY>1571</locationY>
         <defaultConnector>
             <targetReference>Work_Type</targetReference>
         </defaultConnector>
@@ -542,8 +577,8 @@
     <decisions>
         <name>Installation_Report_name_found</name>
         <label>Installation Report name found</label>
-        <locationX>1687</locationX>
-        <locationY>1633</locationY>
+        <locationX>1898</locationX>
+        <locationY>2795</locationY>
         <defaultConnector>
             <targetReference>Update_WO</targetReference>
         </defaultConnector>
@@ -567,8 +602,8 @@
     <decisions>
         <name>Is_Reclamation</name>
         <label>Is Reclamation</label>
-        <locationX>879</locationX>
-        <locationY>590</locationY>
+        <locationX>1348</locationX>
+        <locationY>1463</locationY>
         <defaultConnector>
             <targetReference>Has_Work_Type</targetReference>
         </defaultConnector>
@@ -590,13 +625,39 @@
         </rules>
     </decisions>
     <decisions>
-        <name>Opportunity_exists</name>
-        <label>Opportunity exists?</label>
-        <locationX>640</locationX>
-        <locationY>346</locationY>
+        <description>Update the Delivery Batch WOLI counts, whenever there is update to the roll-ups.</description>
+        <name>Is_related_to_Delivery_Batch</name>
+        <label>Is related to Delivery Batch?</label>
+        <locationX>2899</locationX>
+        <locationY>323</locationY>
+        <defaultConnector>
+            <targetReference>Opportunity_exists</targetReference>
+        </defaultConnector>
         <defaultConnectorLabel>No</defaultConnectorLabel>
         <rules>
-            <name>Yes</name>
+            <name>Yes6</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Delivery_Batch__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>WOs_related_to_DB</targetReference>
+            </connector>
+            <label>Yes</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Opportunity_exists</name>
+        <label>Opportunity exists?</label>
+        <locationX>2899</locationX>
+        <locationY>1031</locationY>
+        <defaultConnectorLabel>No Opportunity</defaultConnectorLabel>
+        <rules>
+            <name>Opportunity</name>
             <conditionLogic>and</conditionLogic>
             <conditions>
                 <leftValueReference>$Record.Opportunity__c</leftValueReference>
@@ -605,25 +666,18 @@
                     <booleanValue>false</booleanValue>
                 </rightValue>
             </conditions>
-            <conditions>
-                <leftValueReference>$Record.Order__c</leftValueReference>
-                <operator>IsNull</operator>
-                <rightValue>
-                    <booleanValue>true</booleanValue>
-                </rightValue>
-            </conditions>
             <connector>
-                <targetReference>Get_Oppo_data</targetReference>
+                <targetReference>Get_Opportunity</targetReference>
             </connector>
             <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
-            <label>Yes</label>
+            <label>Opportunity</label>
         </rules>
     </decisions>
     <decisions>
         <name>Service_Report_found</name>
         <label>Service Report found</label>
-        <locationX>1781</locationX>
-        <locationY>1875</locationY>
+        <locationX>1744</locationX>
+        <locationY>3011</locationY>
         <defaultConnector>
             <targetReference>Update_WO</targetReference>
         </defaultConnector>
@@ -647,8 +701,8 @@
     <decisions>
         <name>WT_found</name>
         <label>WT found</label>
-        <locationX>1079</locationX>
-        <locationY>952</locationY>
+        <locationX>3240</locationX>
+        <locationY>1787</locationY>
         <defaultConnectorLabel>No</defaultConnectorLabel>
         <rules>
             <name>Yes3</name>
@@ -666,8 +720,10 @@
             <label>Yes</label>
         </rules>
     </decisions>
-    <description>WO is update after it has been created.
+    <description>Triggered Flow to update Values on WorkOrder
+=&gt; removed condition to have oppty and order
 
+12.3.2024: Added logic to update Delivery Batch WOLI counts.
 16.2.2024: Corrected handling when WT already exists on WO (use the existing WT).
 20.12.2023: New language field from account taken into use Account.Language_Preference__c
 11.12.2023: Assign Service Template information to WO to enable localized Service Report.
@@ -683,7 +739,21 @@
         <expression>&quot;Installation_Report_&quot; &amp; TEXT({!$Record.CountryCode}) &amp; &quot;_&quot; &amp; TEXT({!Account.Language_Preference__c})</expression>
     </formulas>
     <interviewLabel>WO - After Create {!$Flow.CurrentDateTime}</interviewLabel>
-    <label>WO - After Create R2.2</label>
+    <label>WO - After Create R4</label>
+    <loops>
+        <name>Work_Orders</name>
+        <label>Work Orders</label>
+        <locationX>2767</locationX>
+        <locationY>539</locationY>
+        <collectionReference>WOs_related_to_DB</collectionReference>
+        <iterationOrder>Asc</iterationOrder>
+        <nextValueConnector>
+            <targetReference>Assign_WOLI_numbers</targetReference>
+        </nextValueConnector>
+        <noMoreValuesConnector>
+            <targetReference>Update_Delivery_Batch</targetReference>
+        </noMoreValuesConnector>
+    </loops>
     <processMetadataValues>
         <name>BuilderType</name>
         <value>
@@ -693,7 +763,7 @@
     <processMetadataValues>
         <name>CanvasMode</name>
         <value>
-            <stringValue>FREE_FORM_CANVAS</stringValue>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
         </value>
     </processMetadataValues>
     <processMetadataValues>
@@ -706,8 +776,8 @@
     <recordLookups>
         <name>Account</name>
         <label>Account</label>
-        <locationX>1303</locationX>
-        <locationY>1185</locationY>
+        <locationX>1898</locationX>
+        <locationY>2279</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>Contract_Language_mapping</targetReference>
@@ -727,8 +797,8 @@
     <recordLookups>
         <name>Config</name>
         <label>Config</label>
-        <locationX>1695</locationX>
-        <locationY>1503</locationY>
+        <locationX>1898</locationX>
+        <locationY>2687</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>Installation_Report_name_found</targetReference>
@@ -746,13 +816,13 @@
         <storeOutputAutomatically>true</storeOutputAutomatically>
     </recordLookups>
     <recordLookups>
-        <name>Get_Oppo_data</name>
-        <label>Get Oppo data</label>
-        <locationX>756</locationX>
-        <locationY>463</locationY>
+        <name>Get_Opportunity</name>
+        <label>Get Opportunity</label>
+        <locationX>1348</locationX>
+        <locationY>1139</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
-            <targetReference>Assign_WO_data</targetReference>
+            <targetReference>Get_Service_Territory</targetReference>
         </connector>
         <filterLogic>and</filterLogic>
         <filters>
@@ -769,8 +839,8 @@
     <recordLookups>
         <name>Service_Report_Template</name>
         <label>Service Report Template</label>
-        <locationX>1789</locationX>
-        <locationY>1740</locationY>
+        <locationX>1744</locationX>
+        <locationY>2903</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>Service_Report_found</targetReference>
@@ -790,8 +860,8 @@
     <recordLookups>
         <name>Work_Type</name>
         <label>Work Type</label>
-        <locationX>1087</locationX>
-        <locationY>833</locationY>
+        <locationX>3240</locationX>
+        <locationY>1679</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>WT_found</targetReference>
@@ -808,24 +878,118 @@
         <object>WorkType</object>
         <storeOutputAutomatically>true</storeOutputAutomatically>
     </recordLookups>
+    <recordLookups>
+        <description>Get all WOs that relate to the Delivery Batch and update the number of related WOLIs to the DB.</description>
+        <name>WOs_related_to_DB</name>
+        <label>WOs related to DB</label>
+        <locationX>2767</locationX>
+        <locationY>431</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Work_Orders</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Delivery_Batch__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.Delivery_Batch__c</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>false</getFirstRecordOnly>
+        <object>WorkOrder</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordUpdates>
+        <name>Update_Delivery_Batch</name>
+        <label>Update Delivery Batch</label>
+        <locationX>2767</locationX>
+        <locationY>839</locationY>
+        <connector>
+            <targetReference>Opportunity_exists</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.Delivery_Batch__c</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>Number_of_Completed_WOLIs__c</field>
+            <value>
+                <elementReference>nbrCompletedWOLIs</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Number_of_Related_WOLIs__c</field>
+            <value>
+                <elementReference>nbrAllRelatedWOLIs</elementReference>
+            </value>
+        </inputAssignments>
+        <object>Delivery_Batch__c</object>
+    </recordUpdates>
     <recordUpdates>
         <name>Update_WO</name>
         <label>Update WO</label>
-        <locationX>895</locationX>
-        <locationY>1509</locationY>
+        <locationX>1348</locationX>
+        <locationY>3563</locationY>
         <inputReference>recWO</inputReference>
     </recordUpdates>
     <start>
-        <locationX>522</locationX>
-        <locationY>48</locationY>
+        <locationX>2773</locationX>
+        <locationY>0</locationY>
         <connector>
-            <targetReference>Opportunity_exists</targetReference>
+            <targetReference>Is_related_to_Delivery_Batch</targetReference>
         </connector>
         <object>WorkOrder</object>
         <recordTriggerType>CreateAndUpdate</recordTriggerType>
         <triggerType>RecordAfterSave</triggerType>
     </start>
-    <status>Active</status>
+    <status>Draft</status>
+    <subflows>
+        <name>Get_Service_Territory</name>
+        <label>Get Service Territory</label>
+        <locationX>1348</locationX>
+        <locationY>1247</locationY>
+        <connector>
+            <targetReference>Assign_WO_data</targetReference>
+        </connector>
+        <flowName>Assign_Service_Territory_SubFlow</flowName>
+        <inputAssignments>
+            <name>recordId</name>
+            <value>
+                <elementReference>$Record.Opportunity__c</elementReference>
+            </value>
+        </inputAssignments>
+        <outputAssignments>
+            <assignToReference>serviceTerritoryId</assignToReference>
+            <name>serviceTerritoryId</name>
+        </outputAssignments>
+    </subflows>
+    <variables>
+        <name>nbrAllRelatedWOLIs</name>
+        <dataType>Number</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <scale>0</scale>
+        <value>
+            <numberValue>0.0</numberValue>
+        </value>
+    </variables>
+    <variables>
+        <name>nbrCompletedWOLIs</name>
+        <dataType>Number</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <scale>0</scale>
+        <value>
+            <numberValue>0.0</numberValue>
+        </value>
+    </variables>
     <variables>
         <name>recWO</name>
         <dataType>SObject</dataType>
@@ -833,6 +997,13 @@
         <isInput>false</isInput>
         <isOutput>false</isOutput>
         <objectType>WorkOrder</objectType>
+    </variables>
+    <variables>
+        <name>serviceTerritoryId</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
     </variables>
     <variables>
         <name>varLanguage</name>

@@ -298,7 +298,7 @@
             <fieldInstance>
                 <fieldInstanceProperties>
                     <name>uiBehavior</name>
-                    <value>none</value>
+                    <value>readonly</value>
                 </fieldInstanceProperties>
                 <fieldItem>Record.Visit_Booked__c</fieldItem>
                 <identifier>RecordVisit_Booked_cField</identifier>
@@ -308,7 +308,7 @@
             <fieldInstance>
                 <fieldInstanceProperties>
                     <name>uiBehavior</name>
-                    <value>none</value>
+                    <value>readonly</value>
                 </fieldInstanceProperties>
                 <fieldItem>Record.Customer_meeting_booked__c</fieldItem>
                 <identifier>RecordCustomer_meeting_booked_cField</identifier>
@@ -322,7 +322,7 @@
             <fieldInstance>
                 <fieldInstanceProperties>
                     <name>uiBehavior</name>
-                    <value>none</value>
+                    <value>readonly</value>
                 </fieldInstanceProperties>
                 <fieldItem>Record.Agreed_Visit_Date__c</fieldItem>
                 <identifier>RecordAgreed_Visit_Date_cField</identifier>
@@ -779,6 +779,20 @@
     <flexiPageRegions>
         <itemInstances>
             <componentInstance>
+                <componentInstanceProperties>
+                    <name>showLegacyActivityComposer</name>
+                    <value>false</value>
+                </componentInstanceProperties>
+                <componentName>runtime_sales_activities:activityPanel</componentName>
+                <identifier>runtime_sales_activities_activityPanel</identifier>
+            </componentInstance>
+        </itemInstances>
+        <name>Facet-fe9343dd-f431-4c49-bb6e-813b25acfb72</name>
+        <type>Facet</type>
+    </flexiPageRegions>
+    <flexiPageRegions>
+        <itemInstances>
+            <componentInstance>
                 <componentName>forceChatter:recordFeedContainer</componentName>
                 <identifier>forceChatter_recordFeedContainer</identifier>
             </componentInstance>
@@ -804,6 +818,20 @@
                 </componentInstanceProperties>
                 <componentName>flexipage:tab</componentName>
                 <identifier>detailTab</identifier>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>body</name>
+                    <value>Facet-fe9343dd-f431-4c49-bb6e-813b25acfb72</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>title</name>
+                    <value>Standard.Tab.activity</value>
+                </componentInstanceProperties>
+                <componentName>flexipage:tab</componentName>
+                <identifier>flexipage_tab</identifier>
             </componentInstance>
         </itemInstances>
         <itemInstances>
@@ -843,30 +871,6 @@
         <itemInstances>
             <componentInstance>
                 <componentInstanceProperties>
-                    <name>cmpHeight</name>
-                    <value>600px</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>cmpWidth</name>
-                    <value>100%</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>domain</name>
-                </componentInstanceProperties>
-                <componentName>maps:MiniMapLightningComponent</componentName>
-                <identifier>maps_MiniMapLightningComponent2</identifier>
-                <visibilityRule>
-                    <criteria>
-                        <leftValue>{!$Client.formFactor}</leftValue>
-                        <operator>EQUAL</operator>
-                        <rightValue>Large</rightValue>
-                    </criteria>
-                </visibilityRule>
-            </componentInstance>
-        </itemInstances>
-        <itemInstances>
-            <componentInstance>
-                <componentInstanceProperties>
                     <name>hideHeader</name>
                     <value>false</value>
                 </componentInstanceProperties>
@@ -877,11 +881,29 @@
         <itemInstances>
             <componentInstance>
                 <componentInstanceProperties>
-                    <name>showLegacyActivityComposer</name>
-                    <value>false</value>
+                    <name>cmpHeight</name>
+                    <value>500px</value>
                 </componentInstanceProperties>
-                <componentName>runtime_sales_activities:activityPanel</componentName>
-                <identifier>runtime_sales_activities_activityPanel</identifier>
+                <componentInstanceProperties>
+                    <name>cmpWidth</name>
+                    <value>100%</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>domain</name>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>miniMapId</name>
+                    <value>a3G3N000001M01OUAS</value>
+                </componentInstanceProperties>
+                <componentName>maps:MiniMapLightningComponent</componentName>
+                <identifier>maps_MiniMapLightningComponent2</identifier>
+                <visibilityRule>
+                    <criteria>
+                        <leftValue>{!$Client.formFactor}</leftValue>
+                        <operator>EQUAL</operator>
+                        <rightValue>Large</rightValue>
+                    </criteria>
+                </visibilityRule>
             </componentInstance>
         </itemInstances>
         <mode>Replace</mode>

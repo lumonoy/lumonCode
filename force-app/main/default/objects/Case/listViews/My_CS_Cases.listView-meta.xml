@@ -17,7 +17,7 @@
     <filters>
         <field>CASES.STATUS</field>
         <operation>notEqual</operation>
-        <value>Resolved,Closed</value>
+        <value>Resolved,Merged,Closed</value>
     </filters>
     <label>My Customer Service Cases</label>
     <sharedTo>

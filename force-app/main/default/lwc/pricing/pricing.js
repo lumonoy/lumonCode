@@ -348,7 +348,7 @@ export default class Pricing extends LightningElement {
     }
 
     recalculateAll(lockDiscount) {
-        console.log('--- Recalculate All');
+        //console.log('--- Recalculate All');
         this.calculateSalesPrices(this.pricingTree);//Item Sales Prices for Items
         this.calculateAll(this.pricingTree, lockDiscount); // Cost Type/ Product Sales Prices
         this.calculateSummaryData(lockDiscount); // Total Sales Prices 
@@ -367,7 +367,7 @@ export default class Pricing extends LightningElement {
     }
 
     calculateAll(items, lockDiscount) {
-        console.log('--- Calculate All');
+        //console.log('--- Calculate All');
         let sums = {};
         for (const field of this.summaryFields) {
             sums[field] = 0;

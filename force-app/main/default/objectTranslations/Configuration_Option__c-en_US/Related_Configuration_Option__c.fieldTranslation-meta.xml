@@ -2,5 +2,5 @@
 <CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <label><!-- Related Configuration Option --></label>
     <name>Related_Configuration_Option__c</name>
-    <relationshipLabel><!-- Configuration Items --></relationshipLabel>
+    <relationshipLabel><!-- Configuration Options --></relationshipLabel>
 </CustomFieldTranslation>

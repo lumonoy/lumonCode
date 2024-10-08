@@ -11,8 +11,9 @@ public with sharing class LeadConverter {
     //public static List<String> convertLeads(List<Id> leadIds) {
         List<String> toReturn = new List<String>();
         List<List<string>> colToReturn = new List<List<String>>();
-        List<Lead> leadsToConvert = [SELECT Id FROM Lead WHERE Id =: leadIds];
+        List<Lead> leadsToConvert = [SELECT Id FROM Lead WHERE Id IN: leadIds];
         LeadStatus leadConvertedStatus = [SELECT ApiName FROM LeadStatus WHERE IsConverted = TRUE LIMIT 1];
+        System.debug('--- LeadConverter - Lead Converted Status: ' + leadConvertedStatus);
         List<Database.LeadConvert> dbLeads = new List<Database.LeadConvert>();
         List<Database.LeadConvert> dbDuplicates = new List<Database.LeadConvert>();
 
@@ -20,6 +21,7 @@ public with sharing class LeadConverter {
             String convertedStatus = leadConvertedStatus.ApiName;        
             for (Lead currentLead: leadsToConvert){
                 Id currentLeadId = currentLead.Id;
+                System.debug('--- LeadConverter - Lead To Convert: ' + currentLeadId);
                 // Check first for Possible Duplicates
                 List<Lead> duplicateLeads = findDuplicateRecordsForLead(currentLead);
                 if(duplicateLeads.size() == 0){
@@ -38,25 +40,44 @@ public with sharing class LeadConverter {
                     dbDuplicates.add(dbDuplicate);         
                 } 
             }
-
+			List<Database.LeadConvertResult> conversionResults = new List<Database.LeadConvertResult>();
             if (!dbLeads.isEmpty()) {
-                List<Database.LeadConvertResult> lcr = Database.convertLead(dbLeads);
-                for (Database.LeadConvertResult l : lcr) {
-                    toReturn.add(l.getAccountId() + ';' + l.getOpportunityId());
-                    colToReturn.add(toReturn);
+                for (Database.LeadConvert leadToConvert : dbLeads){
+                    System.debug('--- LeadConverter - Converting Lead!');
+                    Database.LeadConvertResult conversionResult = Database.convertLead(leadToConvert);
+                    if (conversionResult.isSuccess()) {
+                    	conversionResults.add(conversionResult);
+                    } else {
+                        System.debug('--- LeadConverter - Error in Lead Conversion!');
+                    }
                 }
             }
             if (!dbDuplicates.isEmpty()) {
-                Database.DMLOptions dml = new Database.DMLOptions();
-                dml.DuplicateRuleHeader.AllowSave = true;
-                List<Database.LeadConvertResult> lcr = Database.convertLead(dbDuplicates,dml);
-                for (Database.LeadConvertResult l : lcr) {
-                    toReturn.add(l.getAccountId() + ';' + l.getOpportunityId());
-                    colToReturn.add(toReturn);
+                for (Database.LeadConvert leadToConvert : dbDuplicates) {
+                    System.debug('--- LeadConverter - Converting Lead with Duplicates!');
+                    Database.DMLOptions dml = new Database.DMLOptions();
+                    dml.DuplicateRuleHeader.AllowSave = true;
+                    Database.LeadConvertResult conversionResult = Database.convertLead(leadToConvert,dml);
+                    if (conversionResult.isSuccess()) {
+                    	conversionResults.add(conversionResult);
+                    } else {
+                        System.debug('--- LeadConverter - Error in Lead Conversion!');
+                    }
                 }
             }
+            if (conversionResults?.size()>0) {
+                System.debug('--- LeadConverter - '+ conversionResults?.size()+' Lead(s) converted!');
+                for (Database.LeadConvertResult l : conversionResults) {
+                    Id accountId = l.getAccountId();
+                    Id opportunityId = l.getOpportunityId();
+                    toReturn.add(accountId+ ';' + opportunityId);
+                    System.debug('--- LeadConverter - Created Account: '+accountId);
+                    System.debug('--- LeadConverter - Created Opportunity: '+opportunityId);
+                    colToReturn.add(toReturn);
+                }
+            } 
         }
-        //return toReturn;
+        System.debug('--- LeadConverter - Converted Output: '+colToReturn);
         return colToReturn;
     }
     public static List<Lead> findDuplicateRecordsForLead(Lead leadToConvert){ 
@@ -88,7 +109,7 @@ public with sharing class LeadConverter {
             }
             leadsWithDuplicates.add(leadToConvert);
         } else {
-            System.debug('--- No Duplicates!');
+            System.debug('--- LeadConverter - No Duplicates!');
 
         }
         return leadsWithDuplicates;

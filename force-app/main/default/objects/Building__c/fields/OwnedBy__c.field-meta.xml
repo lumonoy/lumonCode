@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OwnedBy__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>The Account that Owns the Building</description>
+    <externalId>false</externalId>
+    <label>Owned By</label>
+    <referenceTo>Account</referenceTo>
+    <relationshipLabel>Buildings</relationshipLabel>
+    <relationshipName>Buildings</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

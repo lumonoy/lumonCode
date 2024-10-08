@@ -11,6 +11,6 @@
 •	Unloading instructions
 •	FIX delivery Day -->
     </help>
-    <label><!-- Delivery Note --></label>
+    <label><!-- Delivery Note OLD --></label>
     <name>Delivery_Note__c</name>
 </CustomFieldTranslation>

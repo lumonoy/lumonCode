@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- The Total Factory Price of all Quote Line Items --></help>
+    <label><!-- Total Factory Price --></label>
+    <name>TotalFactoryPrice__c</name>
+</CustomFieldTranslation>

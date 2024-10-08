@@ -10,7 +10,7 @@
         </recipients>
         <senderAddress>noreply@lumon.com</senderAddress>
         <senderType>OrgWideEmailAddress</senderType>
-        <template>Sales/Customer_Installation_cancelled</template>
+        <template>Customer/Customer_Installation_cancelled</template>
     </alerts>
     <alerts>
         <fullName>Customer_Installation_date_change</fullName>
@@ -21,7 +21,7 @@
             <type>email</type>
         </recipients>
         <senderType>DefaultWorkflowUser</senderType>
-        <template>Sales/Customer_Installation_date_changed</template>
+        <template>Customer/Customer_Installation_date_changed</template>
     </alerts>
     <alerts>
         <fullName>Customer_Installation_date_confirmation</fullName>
@@ -33,7 +33,7 @@
         </recipients>
         <senderAddress>noreply@lumon.com</senderAddress>
         <senderType>OrgWideEmailAddress</senderType>
-        <template>Sales/Customer_Installation_date_confirmation</template>
+        <template>Customer/Customer_Installation_date_confirmation</template>
     </alerts>
     <alerts>
         <fullName>FI_MyLumonPortalLink</fullName>
