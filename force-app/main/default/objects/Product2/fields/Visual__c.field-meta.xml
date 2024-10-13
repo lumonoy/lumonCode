@@ -5,7 +5,7 @@
     <description>Flag to indicate if the Product is a Visual Product</description>
     <externalId>false</externalId>
     <inlineHelpText>Indicates if the Product is a Visual Product</inlineHelpText>
-    <label>Visual</label>
+    <label>Visual OLD</label>
     <trackHistory>false</trackHistory>
     <type>Checkbox</type>
 </CustomField>

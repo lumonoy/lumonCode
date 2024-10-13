@@ -5,7 +5,7 @@
     <description>Checkbox to indicate if this is a Spare Part Product</description>
     <externalId>false</externalId>
     <inlineHelpText>Indicates if this is a Spare Part Product</inlineHelpText>
-    <label>Spare Part</label>
+    <label>Spare Part OLD</label>
     <trackHistory>false</trackHistory>
     <type>Checkbox</type>
 </CustomField>
