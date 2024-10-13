@@ -3,17 +3,7 @@
     <fullName>Warehouse_Default__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <externalId>false</externalId>
-    <label>Warehouse Default</label>
-    <lookupFilter>
-        <active>true</active>
-        <errorMessage>Warehouse does not exist or does not match filter criteria.</errorMessage>
-        <filterItems>
-            <field>Warehouse__c.Warehouse_Address__CountryCode__s</field>
-            <operation>equals</operation>
-            <valueField>$Source.Country__c</valueField>
-        </filterItems>
-        <isOptional>false</isOptional>
-    </lookupFilter>
+    <label>Warehouse Default OLD</label>
     <referenceTo>Warehouse__c</referenceTo>
     <relationshipLabel>Postal Code Areas</relationshipLabel>
     <relationshipName>Postal_Code_Areas</relationshipName>

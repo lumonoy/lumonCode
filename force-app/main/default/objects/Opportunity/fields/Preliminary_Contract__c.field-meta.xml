@@ -5,7 +5,7 @@
     <description>This field indicated the related preliminary contract (if any)</description>
     <externalId>false</externalId>
     <inlineHelpText>Please relate a related preliminary contract (if any)</inlineHelpText>
-    <label>Preliminary Contract</label>
+    <label>Preliminary Contract OLD</label>
     <referenceTo>Contract</referenceTo>
     <relationshipLabel>Opportunities</relationshipLabel>
     <relationshipName>Opportunities</relationshipName>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>isReclamation__c</fullName>
+    <description>Indicates if Opportunity is a reclamation based on Opportunity Type</description>
+    <externalId>false</externalId>
+    <formula>IF (TEXT(Type) = &apos;Claim&apos; ||TEXT(Type) = &apos;Reclamation&apos;, true, false)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Indicates if Opportunity is a reclamation</inlineHelpText>
+    <label>isReclamation</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

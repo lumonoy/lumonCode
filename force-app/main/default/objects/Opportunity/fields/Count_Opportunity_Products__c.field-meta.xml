@@ -5,7 +5,7 @@
 This means all &quot;synced&quot; Quote Line Items</description>
     <externalId>false</externalId>
     <inlineHelpText>Count of All Opportunity Products</inlineHelpText>
-    <label>Count Opportunity Products</label>
+    <label>Count Opportunity Products OLD</label>
     <summaryForeignKey>OpportunityLineItem.OpportunityId</summaryForeignKey>
     <summaryOperation>count</summaryOperation>
     <trackHistory>false</trackHistory>

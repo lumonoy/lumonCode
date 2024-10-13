@@ -4,7 +4,7 @@
     <description>LATER post-pilot consider moving to building</description>
     <externalId>false</externalId>
     <inlineHelpText>Indication of the Combined Load</inlineHelpText>
-    <label>Combined load</label>
+    <label>Combined load DEL</label>
     <precision>18</precision>
     <required>false</required>
     <scale>2</scale>

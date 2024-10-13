@@ -5,7 +5,7 @@
 For example PELTI used for LGR =&gt; Product Group = LGR and Product Model = PELTI</description>
     <externalId>false</externalId>
     <inlineHelpText>Field to Indicate the (sub)group of Product the Item belongs to</inlineHelpText>
-    <label>Product Model</label>
+    <label>Product Model OLD</label>
     <required>false</required>
     <trackHistory>false</trackHistory>
     <type>Picklist</type>

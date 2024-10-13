@@ -2,7 +2,7 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Product_Name_FI__c</fullName>
     <externalId>false</externalId>
-    <label>Product Name FI</label>
+    <label>Product Name FI OLD</label>
     <length>255</length>
     <required>false</required>
     <trackHistory>false</trackHistory>

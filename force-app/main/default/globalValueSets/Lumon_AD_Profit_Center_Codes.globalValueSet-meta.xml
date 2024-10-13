@@ -630,6 +630,11 @@
         <default>false</default>
         <label>997 LFR Reseller</label>
     </customValue>
+    <customValue>
+        <fullName>0</fullName>
+        <default>false</default>
+        <label>0 Lumon Test</label>
+    </customValue>
     <masterLabel>Lumon AD Profit Center Codes</masterLabel>
     <sorted>true</sorted>
 </GlobalValueSet>

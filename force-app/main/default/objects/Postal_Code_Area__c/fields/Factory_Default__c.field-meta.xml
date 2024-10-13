@@ -3,17 +3,7 @@
     <fullName>Factory_Default__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <externalId>false</externalId>
-    <label>Factory Default</label>
-    <lookupFilter>
-        <active>true</active>
-        <errorMessage>Factory does not exist or does not match filter criteria.</errorMessage>
-        <filterItems>
-            <field>Factory__c.Factory_Address__CountryCode__s</field>
-            <operation>equals</operation>
-            <valueField>$Source.Country__c</valueField>
-        </filterItems>
-        <isOptional>false</isOptional>
-    </lookupFilter>
+    <label>Factory Default OLD</label>
     <referenceTo>Factory__c</referenceTo>
     <relationshipLabel>Postal Code Areas</relationshipLabel>
     <relationshipName>Postal_Code_Areas</relationshipName>

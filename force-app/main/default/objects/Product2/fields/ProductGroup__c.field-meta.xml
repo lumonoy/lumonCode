@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ProductGroup__c</fullName>
+    <description>Grouping of Items into Main Products
+=&gt; API names required by Integrations</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Grouping of Items into Main Products</inlineHelpText>
+    <label>Product Group</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>Lumon_Product_Groups</valueSetName>
+    </valueSet>
+</CustomField>

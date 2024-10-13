@@ -3,7 +3,7 @@
     <fullName>Phone__c</fullName>
     <description>Contact Phone number might be required by Deliveries Supplier</description>
     <externalId>false</externalId>
-    <label>Phone</label>
+    <label>Phone OLD</label>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>false</trackHistory>

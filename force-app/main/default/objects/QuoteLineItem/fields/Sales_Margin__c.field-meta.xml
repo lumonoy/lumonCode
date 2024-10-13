@@ -4,7 +4,7 @@
     <externalId>false</externalId>
     <formula>IF(Revenue__c&gt;0,(Gross_Profit__c / Revenue__c),0)</formula>
     <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
-    <label>Sales Margin</label>
+    <label>Sales Margin OLD</label>
     <precision>18</precision>
     <required>false</required>
     <scale>2</scale>

@@ -4,7 +4,7 @@
     <description>Derive the Profit Center Number from Profit Center String</description>
     <externalId>false</externalId>
     <formula>LEFT(Profit_Center_Attribute__c,FIND(Organization_Attribute__c,Profit_Center_Attribute__c,1)-2)</formula>
-    <label>Profit Center Code</label>
+    <label>Profit Center Code OLD</label>
     <required>false</required>
     <type>Text</type>
     <unique>false</unique>

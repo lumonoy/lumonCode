@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AD_Username__c</fullName>
+    <caseSensitive>false</caseSensitive>
+    <description>Lumon Username populated from Azure AD</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Lumon Username populated from Azure AD</inlineHelpText>
+    <label>AD Username</label>
+    <length>50</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Text</type>
+    <unique>true</unique>
+</CustomField>

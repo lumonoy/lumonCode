@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ServiceAttribute__c</fullName>
+    <externalId>false</externalId>
+    <formula>SUBSTITUTE(TRIM(
+IF(NOT(ISBLANK(OrganizationAttribute__c )),OrganizationAttribute__c ,&apos;&apos;)
++IF(NOT(ISBLANK(CountryAttribute__c )),&apos;_&apos;+CountryAttribute__c ,&apos;&apos;)
++IF(NOT(ISBLANK( DistrictAttribute__c )),&apos;_&apos;+ SUBSTITUTE(DistrictAttribute__c , CountryAttribute__c+&apos;_&apos;, &apos;&apos;) ,&apos;&apos;)
++IF(NOT(ISBLANK( ProfitCenterAttribute__c )),&apos;_&apos;+ProfitCenterAttribute__c ,&apos;&apos;)
++IF(NOT(ISBLANK( OfficeAttribute__c )),&apos;_&apos;+SUBSTITUTE(OfficeAttribute__c , CountryAttribute__c+&apos;-&apos;, &apos;&apos;),&apos;&apos;)
++IF(NOT(ISBLANK( CustomerSegmentAttribute__c )),&apos;_&apos;+CustomerSegmentAttribute__c ,&apos;&apos;)
++IF(AND(ISBLANK( CustomerSegmentAttribute__c ),NOT(ISBLANK( BusinessTypeAttribute__c ))),&apos;_&apos;+BusinessTypeAttribute__c ,&apos;&apos;)
+),&apos; &apos;, &apos;_&apos;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Service Attribute</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

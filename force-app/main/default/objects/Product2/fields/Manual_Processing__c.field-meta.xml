@@ -5,7 +5,7 @@
     <description>Checkbox to Indicate if the Product needs Manual Processing</description>
     <externalId>false</externalId>
     <inlineHelpText>Indicates if the Product needs Manual Processing</inlineHelpText>
-    <label>Manual Processing</label>
+    <label>Manual Processing OLD</label>
     <trackHistory>false</trackHistory>
     <type>Checkbox</type>
 </CustomField>

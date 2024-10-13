@@ -3,7 +3,7 @@
     <fullName>Wind_Speed__c</fullName>
     <externalId>false</externalId>
     <inlineHelpText>Indication of the Windspeed at the Building Location</inlineHelpText>
-    <label>Wind Speed</label>
+    <label>Wind Speed DEL</label>
     <precision>18</precision>
     <required>false</required>
     <scale>2</scale>

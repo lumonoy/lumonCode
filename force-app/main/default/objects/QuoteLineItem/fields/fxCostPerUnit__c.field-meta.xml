@@ -3,9 +3,9 @@
     <fullName>fxCostPerUnit__c</fullName>
     <description>Cost per Unit = Base Price * Factory Price OR Base Price * Product Cost</description>
     <externalId>false</externalId>
-    <formula>IF ( Min_Sales_Price__c &gt;0 ,
-Min_Sales_Price__c + (Min_Sales_Price__c *( Cost_Multiplier__c -1)* (Transmission__c/100)),
-Base_Price__c + (Base_Price__c *( Cost_Multiplier__c -1)* (Transmission__c/100)))</formula>
+    <formula>IF ( MinimumSalesPrice__c &gt;0 ,
+        MinimumSalesPrice__c + (MinimumSalesPrice__c *( MultiplierCost__c -1)* (Transmission__c/100)),
+PriceBase__c + (Base_Price__c *( MultiplierCost__c -1)* (Transmission__c/100)))</formula>
     <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
     <inlineHelpText>Cost per Unit</inlineHelpText>
     <label>Unit Cost</label>

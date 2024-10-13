@@ -4,7 +4,7 @@
     <description>Additional agreements that should be included in the contract document</description>
     <externalId>false</externalId>
     <inlineHelpText>Additional agreements that should be included in the contract document</inlineHelpText>
-    <label>Additional Agreements</label>
+    <label>Additional Agreements OLD</label>
     <length>32768</length>
     <trackHistory>false</trackHistory>
     <type>LongTextArea</type>
