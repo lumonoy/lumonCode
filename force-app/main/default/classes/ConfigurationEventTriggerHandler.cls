@@ -1,11 +1,12 @@
 /**
- * @description       : 
+ * @description       : NOT IN USE Handles Configuration Events for CPQ
  * @author            : Henk Reynders
  * @group             : 
- * @last modified on  : 12-02-2023
+ * @last modified on  : 10-08-2024
  * @last modified by  : Henk Reynders
 **/
 public without sharing class ConfigurationEventTriggerHandler {
+    /*Disabled 01.10.2024
     public static void processConfiguration(List<ConfigurationEvent__e> configChangeEvents){
         // Iterate through each notification.
         for (ConfigurationEvent__e event : configChangeEvents) {      
@@ -32,5 +33,5 @@ public without sharing class ConfigurationEventTriggerHandler {
                                             configId,recordId,objectType,
                                             visualPlanId, documentId,contentJSON);
         }
-    }
+    }*/
 }

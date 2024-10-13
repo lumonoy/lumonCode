@@ -1,12 +1,12 @@
 /**
- * @description       : 
+ * @description       : NOT IN USE
  * @author            : Henk Reynders
  * @group             : 
- * @last modified on  : 12-02-2023
+ * @last modified on  : 10-09-2024
  * @last modified by  : Henk Reynders
 **/
 public with sharing class PricingAdditionalCostsController {
-    @TestVisible
+    /*@TestVisible
     public static final String ADDITIONAL_COST_PRODUCT_GROUP = 'LISAKUSTAN'; // Not used at the moment as Additional Costs relate to a Main Product
     @TestVisible
     public static final String ADDITIONAL_COST_PRODUCT_CATEGORY = 'Additional Costs';
@@ -299,5 +299,5 @@ public with sharing class PricingAdditionalCostsController {
             product.Cost_Type__c,
             basePrice
         );
-    }
+    }*/
 }

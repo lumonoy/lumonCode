@@ -6,29 +6,6 @@
  * @last modified by  : Henk Reynders
 **/
 public class OpportunityProductController {
-    @AuraEnabled(cacheable=false)
-    public static Opportunity getOpportunityRecord(Id opportunityId) {
-        // Populate map from SOQL query on Opportunity
-        System.debug('--- Get Data for Opportunity: '+opportunityId);
-        Opportunity opportunityRecord = ([SELECT    Id, Name, Order_type__c, Type, //Information
-                                                    StageName, isClosed, // Status
-                                                    Amount, CurrencyIsoCode, // Totals
-                                                    Pricebook2Id,SyncedQuoteId, //Pricing Records
-                                                    Opportunity_Number__c, //RVN Number
-                                                    Organization_Attribute__c,Country_Attribute__c,//Tier 1 Factory Prices
-                                                    District_Attribute__c,Territory_Attribute__c,Business_Type_Attribute__c,//Tier 2 Product Costs
-                                                    Owner_Profit_Center__c, Customer_Attribute__c, //Tier 3 Sales Prices   
-                                                    closeDate,
-                                                    AccountId,
-                                                    Order__c,
-                                                    ContractId,
-                                                    OwnerId,
-                                                    Account.VAT__c
-                                    FROM Opportunity 
-                                    WHERE Id = :opportunityId]);
-        System.debug('--- Opportunity Record: '+opportunityRecord);
-        return opportunityRecord;
-    } 
     @AuraEnabled(cacheable=true)
     public static List<OpportunityLineItem> getOpportunityLineItems(Id opportunityId) {
         // Populate map from SOQL query on OpportunityLineItem

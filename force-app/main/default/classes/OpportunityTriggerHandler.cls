@@ -1,8 +1,8 @@
 /**
- * @description       : 
+ * @description       : NOT IN USE
  * @author            : Henk Reynders
  * @group             : 
- * @last modified on  : 12-01-2023
+ * @last modified on  : 10-08-2024
  * @last modified by  : Henk Reynders
 **/
 public class OpportunityTriggerHandler extends TriggerHandler {
@@ -19,6 +19,6 @@ public class OpportunityTriggerHandler extends TriggerHandler {
     }
 
     public override void afterUpdate() {
-        PricingSummaryService.updateContractedSalesPrices(newRecords, oldMap);
+        //PricingSummaryService.updateContractedSalesPrices(newRecords, oldMap);
     }
 }

@@ -2,9 +2,10 @@
  * @description       : 
  * @author            : Henk Reynders
  * @group             : 
- * @last modified on  : 12-05-2023
+ * @last modified on  : 10-09-2024
  * @last modified by  : Henk Reynders
 **/
+
 public with sharing class GenerateInstallerPdfController {
     @AuraEnabled
     public static List<Configuration_Product__c> getConfigurationProducts(String recordId){

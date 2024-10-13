@@ -2,11 +2,11 @@
  * @description       : 
  * @author            : Henk Reynders
  * @group             : 
- * @last modified on  : 11-21-2023
+ * @last modified on  : 10-09-2024
  * @last modified by  : Henk Reynders
 **/
 public with sharing class PricingServicesController {
-    @TestVisible
+    /*@TestVisible
     public static final List<String> SERVICES_PRODUCT_GROUPS = new List<String>{'HUOLTO','PERUSHUOLTO', 'MÄÄRÄAIKAISHUOLTO','TUNTITYÖ'};
 
     public with sharing class ComponentData {
@@ -273,5 +273,5 @@ public with sharing class PricingServicesController {
         upsert quoteLineItem;
         PricingController.upsertQuoteLines(opportunityId);
         return quoteLineItem;
-    }
+    }*/
 }

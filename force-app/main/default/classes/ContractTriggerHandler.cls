@@ -1,12 +1,12 @@
 /**
- * @description       : 
+ * @description       : NOT IN USE
  * @author            : Henk Reynders
  * @group             : 
- * @last modified on  : 01-23-2024
+ * @last modified on  : 10-08-2024
  * @last modified by  : Henk Reynders
 **/
  public without sharing class ContractTriggerHandler {
-    public static Boolean isSandbox = [SELECT IsSandbox FROM Organization LIMIT 1].IsSandbox;
+    /*public static Boolean isSandbox = [SELECT IsSandbox FROM Organization LIMIT 1].IsSandbox;
 	@AuraEnabled
 	public static void submitContract(String recordId) {
 		Contract c = [SELECT Status, AccountId, Chargeable__c,ContractNumber, Customer_Segment__c,Customer_segment_name__c,
@@ -241,7 +241,7 @@
 				}else{
 					ordInfo.promised_date = '';
 				}*/
-				ordInfo.promised_deliveryweek = o.Delivery_week__c;//'2022/52';
+				/*ordInfo.promised_deliveryweek = o.Delivery_week__c;//'2022/52';
                 ordInfo.promised_date = String.valueOf(o.Delivery_Date__c); //Date.today();
                 
                 ordInfo.main_contractor = contractRecord.Main_Contractor__c;
@@ -576,7 +576,7 @@
 				}
 			}
 		} catch (Exception e) {
-//			throw new Exception(e.getMessage());
+		//			throw new Exception(e.getMessage());
 		}
 	}
 
@@ -816,5 +816,5 @@
 		public String type {public get; public set;}
 		public String description {public get; public set;}
 		public Double sum {public get; public set;}
-	}
+	}*/
 }

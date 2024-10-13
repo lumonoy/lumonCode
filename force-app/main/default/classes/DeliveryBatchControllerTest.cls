@@ -2,33 +2,35 @@
  * @description       : 
  * @author            : Henk Reynders
  * @group             : 
- * @last modified on  : 04-08-2024
+ * @last modified on  : 10-02-2024
  * @last modified by  : Henk Reynders
 **/
 @IsTest(isParallel=false)
 public with sharing class DeliveryBatchControllerTest {
+    public class CustomException extends Exception {}
+    private static Id b2cAccountId = LumonTestVariables.b2cAccountId;
+    private static Id b2bAccountId = LumonTestVariables.b2bAccountId;
+    private static Id b2cOpportunityId = LumonTestVariables.b2cOpportunityId;
+    private static Id b2bOpportunityId = LumonTestVariables.b2cOpportunityId;
+    
+	private static List<Id> configurationPlanIds = LumonTestVariables.configurationPlanIds;
+    private static List<Id> configurationProductIds = LumonTestVariables.configurationProductIds;
+    private static List<Id> configurationOptionIds = LumonTestVariables.configurationOptionIds;
+
+    private static List<Configuration__c> configurationPlans = LumonTestVariables.configurationPlans;
+    private static List<Configuration_Product__c> configurationProducts = LumonTestVariables.configurationProducts;
+    private static List<Configuration_Option__c> configurationOptions = LumonTestVariables.configurationOptions;
+    private static List<Configuration_Message__c> configurationMessages = LumonTestVariables.configurationMessages;
+    private static String visualPricingJSON = LumonTestData.visualPricing;
+    private static String soveliaPricingJSON = LumonTestData.soveliaPricing;
     @TestSetup
     static void prepareData(){
         Test.startTest();
-        LumonTestProducts.setupProducts('LG');
-        LumonTestProducts.setupProducts('VISORBLINDSALES');
-        LumonTestPricebooks.setupPricebookEntries();
-        LumonTestPriceParameters.setupPriceParameters();
-        LumonTestInstallationTimes.setupInstallationTimes();
-        LumonTestProductionTimes.setupProductionTimes();
-        LumonTestDeliverySchedules.setupDeliverySchedules();
-        LumonTestConfigurations.setupConfigurationData();
+        LumonTestDataFactory.setupProducts();
+        LumonTestDataFactory.setupPrices();
+        LumonTestDataFactory.setupConfigurations();
         Test.stopTest();
     }
-    private static Id b2cAccountId = LumonTestDataFactory.b2cAccountId;
-    private static Id b2cOpportunityId = LumonTestDataFactory.b2cOpportunityId;
-    private static List<Configuration__c> b2cConfigurations = LumonTestDataFactory.b2cConfigurations;
-    private static List<Configuration_Product__c> b2cConfigProducts = LumonTestDataFactory.b2cConfigProducts;
-    private static List<Configuration_Option__c> b2cConfigOptions = LumonTestDataFactory.b2cConfigOptions;
-    private static List<Configuration_Message__c> b2cConfigMessages = LumonTestDataFactory.b2cConfigMessages;
-    private static String visualPricingJSON = LumonTestConfigurations.visualPricingJSON;
-    private static String soveliaPricingJSON = LumonTestConfigurations.soveliaPricingJSON;
-    //private static String testPricingJSON = LumonTestConfigurations.testPricingJSON;
     @IsTest
     static void getDeliveryBatchesTest(){
         Test.startTest();

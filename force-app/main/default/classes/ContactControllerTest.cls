@@ -1,19 +1,26 @@
+/**
+ * @description       : 
+ * @author            : Henk Reynders
+ * @group             : 
+ * @last modified on  : 10-02-2024
+ * @last modified by  : Henk Reynders
+**/
 @IsTest
 public with sharing class ContactControllerTest {
+    private static Id b2cAccountId = LumonTestVariables.b2cAccountId;
+    private static Id b2bAccountId = LumonTestVariables.b2bAccountId;
+    private static Id b2bContactId = LumonTestVariables.b2bContactId;
     @TestSetup
     public static void prepareData(){
         Test.startTest();
-        //SalesTestDataFactory.setupAccountRecords();
-        LumonTestDataFactory.setupAccountB2C();
-        LumonTestDataFactory.setupContactB2C();
+        LumonTestDataFactory.setupAccounts();
+        LumonTestDataFactory.setupContacts();
         Test.stopTest();
     }   
-    private static Id b2cAccountId = LumonTestDataFactory.b2cAccountId;
-    private static Id b2cContactId = LumonTestDataFactory.b2cContactId;
     @IsTest
     static void getContactTest(){
         Test.startTest();
-        Contact cont = ContactController.getContact(b2cAccountId);
+        Contact cont = ContactController.getContact(b2bAccountId);
         System.Debug ('----'+ cont.Name +' Contacts Returned');
         System.assertNotEquals(null,cont.name, 'Expected One or More Contacts to be returned');
         System.debug('--- getContactTest - CPU TIME: '+LIMITS.getCpuTime()); 
@@ -23,7 +30,7 @@ public with sharing class ContactControllerTest {
     @IsTest
     static void getContactsTest(){
         Test.startTest();
-        List<Id> recordIds = new List<Id>{b2cAccountId};
+        List<Id> recordIds = new List<Id>{b2bAccountId};
         List<Contact> conts = ContactController.getContacts(recordIds);
         System.Debug ('----'+ conts.size() +' Contacts Returned');
         if (conts.size()>0){
@@ -37,7 +44,7 @@ public with sharing class ContactControllerTest {
     @IsTest
     static void getContactAddressesTest(){
         Test.startTest();
-        List<Contact> conts = ContactController.getContactAddresses(b2cContactId);
+        List<Contact> conts = ContactController.getContactAddresses(b2bContactId);
         System.Debug ('----'+ conts.size() +' Contacts Returned');
         if (conts.size()>0){
             for(Integer i=0;i<conts.size();i++){

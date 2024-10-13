@@ -1,8 +1,8 @@
 /**
- * @description       : 
+ * @description       : NEEDS UPDATE FSL related to generate Installation MEssage to Maintori
  * @author            : Henk Reynders
  * @group             : 
- * @last modified on  : 12-02-2023
+ * @last modified on  : 10-08-2024
  * @last modified by  : Henk Reynders
 **/
 public without sharing class WorkOrderLineItemTriggerHandler {

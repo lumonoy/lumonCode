@@ -2,7 +2,7 @@
  * @description       : 
  * @author            : Henk Reynders
  * @group             : 
- * @last modified on  : 12-02-2023
+ * @last modified on  : 10-01-2024
  * @last modified by  : Henk Reynders
 **/
 public class ConfigurationEvent {
@@ -30,9 +30,9 @@ public class ConfigurationEvent {
                                                         structureJSON__c = contentJSON,
                                                         visualPlanId__c =externalId
                                                         ); //Parent Object Type
-        System.Debug('--- '+configType+' Configuration Event -  '+configAction+' Action for '+objectType+' with Id '+recordId);       
-        System.Debug('--- '+configType+' Configuration Event - Configuration Plan '+configId+' with Visual Id '+externalId);                                  
-        System.Debug('--- '+configType+' Configuration Event - Content: '+contentJSON);       
+        System.Debug('--- ConfigurationEvent - '+configType+' Configuration Event -  '+configAction+' Action for '+objectType+' with Id '+recordId);       
+        System.Debug('--- ConfigurationEvent - '+configType+' Configuration Event - Configuration Plan '+configId+' with Visual Id '+externalId);                                  
+        System.Debug('--- ConfigurationEvent - '+configType+' Configuration Event - Content: '+contentJSON);       
         configEvents.add(cfgEvt);
         // Call method to publish events
         List<Database.SaveResult> results = EventBus.publish(configEvents);

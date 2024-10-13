@@ -2,14 +2,14 @@
  * @description       : 
  * @author            : Henk Reynders
  * @group             : 
- * @last modified on  : 03-20-2024
+ * @last modified on  : 10-08-2024
  * @last modified by  : Henk Reynders
 **/
 @IsTest
 public with sharing class LumonTestSettings {
     @TestSetup
     static void prepareData(){
-        LumonTestUsers.setupAdminUser();
+        LumonTestAdmin.setupAdmin();
     }
     @TestVisible private static User adminUser{
         get{

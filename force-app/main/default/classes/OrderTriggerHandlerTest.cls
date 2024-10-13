@@ -1,13 +1,13 @@
 /**
- * @description       : 
+ * @description       : NOT IN USE
  * @author            : Henk Reynders
  * @group             : 
- * @last modified on  : 12-11-2023
+ * @last modified on  : 10-08-2024
  * @last modified by  : Henk Reynders
 **/
 @IsTest
 public class OrderTriggerHandlerTest {
-    @TestSetup
+    /*@TestSetup
     static void prepareData(){
         Test.startTest();
         LumonTestDataFactory.setupProducts();
@@ -43,6 +43,6 @@ public class OrderTriggerHandlerTest {
         System.debug('--- createOrderLineItemsTest - SOQL USED: ' + LIMITS.getQueries());
         Test.stopTest();
      }
-
+*/
          
 }

@@ -14,16 +14,16 @@ public class PricingParameterControllerTest {
         LumonTestDataFactory.setupPriceParameters();
         Test.stopTest();
     }
-    private static Id b2cAccountId = LumonTestDataFactory.b2cAccountId;
-    private static Id b2cOpportunityId = LumonTestDataFactory.b2cOpportunityId;
-    private static Id b2cSyncedQuoteId = LumonTestDataFactory.b2cSyncedQuoteId;
-    private static Id b2cQuoteId = LumonTestDataFactory.b2cQuoteId;
+    private static Id b2cAccountId = LumonTestVariables.b2cAccountId;
+    private static Id b2cOpportunityId = LumonTestVariables.b2cOpportunityId;
+    private static Id b2cSyncedQuoteId = LumonTestVariables.b2cSyncedQuoteId;
+    private static Id b2cQuoteId = LumonTestVariables.b2cQuoteId;
     
     @IsTest
     static void getFactoryPricesConsumerTest(){
         String org = 'LSU';
         String country = 'FI';
-        String business = 'Consumer';
+        String business = '1';
         List<String> products = new List<string>();
         products.add('LG');
         products.add('LGS');
@@ -35,7 +35,7 @@ public class PricingParameterControllerTest {
     static void getProductCostsConsumerTest(){
         String org = 'LSU';
         String country = 'FI';
-        String business = 'Consumer';
+        String business = '1';
         String district = 'FI_North';
         List<String> products = new List<string>();
         products.add('LG');
@@ -48,7 +48,7 @@ public class PricingParameterControllerTest {
     static void getSalesPricesConsumerTest(){
         String org = 'LSU';
         String country = 'FI';
-        String business = 'Consumer';
+        String business = '1';
         String district = 'FI_North';
         String bu = '4043 LSU Oulu';
         String customer = '';
@@ -63,7 +63,7 @@ public class PricingParameterControllerTest {
     static void getSalesPriceResellerTest(){
         String org = 'LSU';
         String country = 'FI';
-        String business = 'Reseller';
+        String business = '7';
         String district = 'FI_North';
         String bu = '4043 LSU Oulu';
         String customer = '1234-56';
@@ -77,7 +77,7 @@ public class PricingParameterControllerTest {
     static void getFactoryPriceConsumerTest(){
         String org = 'LSU';
         String country = 'FI';
-        String business = 'Consumer';
+        String business = '1';
         String productGroup = 'LG';
         String costType = 'tuotteet';
         Factory_Price__c factoryPrice = PricingParameterController.getFactoryPrice(productGroup, costType,org,country,business); 
@@ -88,7 +88,7 @@ public class PricingParameterControllerTest {
     static void getProductCostConsumerTest(){
         String org = 'LSU';
         String country = 'FI';
-        String business = 'Consumer';
+        String business = '1';
         String district = 'FI_North';
         List<String> products = new List<string>();
         String productGroup = 'LG';
@@ -101,7 +101,7 @@ public class PricingParameterControllerTest {
     static void getSalesPriceConsumerTest(){
         String org = 'LSU';
         String country = 'FI';
-        String business = 'Consumer';
+        String business = '1';
         String district = 'FI_North';
         String bu = '4043 LSU Oulu';
         String customer = '';

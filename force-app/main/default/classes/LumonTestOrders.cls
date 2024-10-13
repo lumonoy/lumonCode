@@ -2,23 +2,16 @@
  * @description       : 
  * @author            : Henk Reynders
  * @group             : 
- * @last modified on  : 12-03-2023
+ * @last modified on  : 09-30-2024
  * @last modified by  : Henk Reynders
 **/
 @IsTest(isParallel=false)
 public class LumonTestOrders {
+    public class CustomException extends Exception {}
 	/********** Order Data Records ***********/
-    @TestVisible private static Id b2cOpportunityId{
-        get{
-            return [SELECT Id,Pricebook2Id,SyncedQuoteId,AccountId FROM Opportunity WHERE (Account.IsPersonAccount = true)]?.Id;
-        }
-    }
-    @TestVisible private static Id b2bOpportunityId{
-        get{
-            return [SELECT Id FROM Opportunity WHERE (Account.IsPersonAccount = false)]?.Id;
-        }
-    }
-        @TestVisible private static Id pricebookId{
+    @TestVisible private static Id b2cOpportunityId = LumonTestOpportunities.b2cOpportunity?.Id;
+    @TestVisible private static Id b2bOpportunityId = LumonTestOpportunities.b2cOpportunity?.Id;
+    @TestVisible private static Id pricebookId{
         get{
             return Test.getStandardPricebookId();
         }
@@ -82,7 +75,7 @@ public class LumonTestOrders {
                                             );
         insert b2cOrder1;
         System.debug('---- setupOrderB2C - CPU TIME: '+LIMITS.getCpuTime());
-        System.debug('---- setupOrderB2C - Queries used: '+LIMITS.getQueries());
+        System.debug('---- setupOrderB2C - SOQL USED: ' + LIMITS.getQueries());
     }
     public static void setupSpecialOrderB2C(){
         // Create B2C Special Order
@@ -96,7 +89,7 @@ public class LumonTestOrders {
                                             );
         insert b2cOrder2;
         System.debug('---- setupSpecialOrderB2C - CPU TIME: '+LIMITS.getCpuTime());
-        System.debug('---- setupSpecialOrderB2C - Queries used: '+LIMITS.getQueries());
+        System.debug('---- setupSpecialOrderB2C - SOQL USED: ' + LIMITS.getQueries());
     }
     public static void setupReclamationOrderB2C(){
         // Create B2C Reclamation Order
@@ -110,7 +103,7 @@ public class LumonTestOrders {
                                             );
         insert b2cOrder3;
         System.debug('---- setupSpecialOrderB2C - CPU TIME: '+LIMITS.getCpuTime());
-        System.debug('---- setupSpecialOrderB2C - Queries used: '+LIMITS.getQueries());
+        System.debug('---- setupSpecialOrderB2C - SOQL USED: ' + LIMITS.getQueries());
     }
     public static void setupOrderB2B(){
         // Create B2B Order
@@ -124,7 +117,7 @@ public class LumonTestOrders {
                                             );
         insert b2bOrder4;
         System.debug('---- setupOrderB2B - CPU TIME: '+LIMITS.getCpuTime());
-        System.debug('---- setupOrderB2B - Queries used: '+LIMITS.getQueries());
+        System.debug('---- setupOrderB2B - SOQL USED: ' + LIMITS.getQueries());
     }   
     @future
     public static void setupOrderItemsB2C() {

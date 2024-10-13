@@ -1,12 +1,12 @@
 /**
- * @description       : 
+ * @description       : NOT IN USE
  * @author            : Henk Reynders
  * @group             : 
- * @last modified on  : 11-28-2023
+ * @last modified on  : 10-09-2024
  * @last modified by  : Henk Reynders
 **/
 public with sharing class PricingExtraSalesController {
-    @TestVisible
+    /*@TestVisible
     public static final String EXTRA_SALES_PRODUCT_GROUP = 'LISAHIN';
 
     public with sharing class ComponentData {
@@ -267,5 +267,5 @@ public with sharing class PricingExtraSalesController {
         upsert quoteLineItem;
         PricingController.upsertQuoteLines(opportunityId);
         return quoteLineItem;
-    }
+    }*/
 }

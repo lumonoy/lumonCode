@@ -1,12 +1,12 @@
 /**
- * @description       : 
+ * @description       : NOT IN USE
  * @author            : Henk Reynders
  * @group             : 
- * @last modified on  : 12-05-2023
+ * @last modified on  : 10-09-2024
  * @last modified by  : Henk Reynders
 **/
 public with sharing class PricingCalculator {
-    @AuraEnabled
+    /*@AuraEnabled
     public static String calculatePrices(String configId, String recordId){
         System.debug('--- Processing new or Updated QuoteLines');
         String errorMessage;
@@ -107,7 +107,7 @@ public with sharing class PricingCalculator {
             if (parentObject=='Opportunity' && String.isNotBlank(recordId)){  
                 opportunityId = recordId;
                 //Get Opportunity Record 
-                opportunityRecord = OpportunityProductController.getOpportunityRecord(opportunityId);
+                opportunityRecord = OpportunityController.getOpportunity(opportunityId);
                 // Set Pricing Related Attributes 
                 pricebookId = opportunityRecord.pricebook2Id;                      
                 currencyCode = opportunityRecord.CurrencyIsoCode; 
@@ -115,15 +115,15 @@ public with sharing class PricingCalculator {
                 System.debug('--- Opportunity uses Pricebook '+pricebookId+' in ' +currencyCode); 
                 if (String.isBlank(quoteId)){
                     quoteId = opportunityRecord.SyncedQuoteId;
-                    quoteRecord = QuoteController.getQuoteRecord(quoteId);
+                    quoteRecord = QuoteController.getQuote(quoteId);
                 }
                 System.debug('--- Using Opportunity '+opportunityId+' and Quote ' +quoteId); 
             } else if (parentObject=='Quote' && String.isNotBlank(recordId)){  
                 quoteId = recordId;
                 //Get quote Record 
-                quoteRecord = QuoteController.getQuoteRecord(quoteId);
+                quoteRecord = QuoteController.getQuote(quoteId);
                 opportunityId = quoteRecord.opportunityId;
-                opportunityRecord = OpportunityProductController.getOpportunityRecord(opportunityId);
+                opportunityRecord = OpportunityController.getOpportunity(opportunityId);
                 // Set Related Records
                 pricebookId = opportunityRecord.pricebook2Id;                      
                 currencyCode = opportunityRecord.CurrencyIsoCode; 
@@ -389,5 +389,5 @@ public with sharing class PricingCalculator {
         }
         System.debug('--- Updated '+lineItemIds.size()+' Quote Line(s)');
         return 'success';
-    }  
+    } */ 
 }

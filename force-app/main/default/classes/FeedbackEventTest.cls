@@ -2,26 +2,22 @@
  * @description       : 
  * @author            : Henk Reynders
  * @group             : 
- * @last modified on  : 12-02-2023
+ * @last modified on  : 10-02-2024
  * @last modified by  : Henk Reynders
 **/
 @isTest
 public class FeedbackEventTest {
+    public class CustomException extends Exception {}
+    private static Id b2cAccountId = LumonTestVariables.b2cAccountId;
+
     @TestSetup
     static void prepareData(){
         Test.startTest();
-        LumonTestDataFactory.setupProducts();
-        LumonTestDataFactory.setupPrices();
-        // B2C Setup
         LumonTestDataFactory.setupAccountB2C();
-        LumonTestDataFactory.setupOpportunityB2C();        
         Test.stopTest();
     }
-    private static Id b2cAccountId = LumonTestDataFactory.b2cAccountId;
-    private static Id b2cOpportunityId = LumonTestDataFactory.b2cOpportunityId;
-
     @isTest static void TestValidEvent() {
-        String recordId = b2cOpportunityId;//Opportunity.Id
+        String recordId = b2cAccountId;//Opportunity.Id
         String key ='TestToast'; //Toast Identifier -> Set in feedbackEventToastLWC  
         String title ='Toast Title'; //Toast Title
         String message='Toast Message'; //Toast Message
@@ -45,7 +41,7 @@ public class FeedbackEventTest {
         // Create a test event instance with invalid data.
         // We assume for this test that the Serial_Number__c field is required.
         // Publishing with a missing required field should fail.
-        String recordId = b2cOpportunityId;//Opportunity.Id
+        String recordId = b2cAccountId;//Opportunity.Id
         String key; //Toast Identifier -> Set in feedbackEventToastLWC  
         String title ='Toast Title'; //Toast Title
         String message='Toast Message'; //Toast Message

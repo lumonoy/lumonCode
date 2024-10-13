@@ -2,7 +2,7 @@
  * @description       : 
  * @author            : Henk Reynders
  * @group             : 
- * @last modified on  : 04-05-2024
+ * @last modified on  : 10-09-2024
  * @last modified by  : Henk Reynders
 **/
 public with sharing class ConfigurationController {
@@ -847,7 +847,7 @@ public with sharing class ConfigurationController {
             // Step 2: Get the Parent Object
             if (String.IsNotBlank(recordId) && parentObjectType=='Opportunity') {
                 // Get Related Opportunity Record
-                opportunityRecord = OpportunityProductController.getOpportunityRecord(recordId);
+                opportunityRecord = OpportunityController.getOpportunity(recordId);
                 // Set Related Records
                 pricebookId = opportunityRecord.pricebook2Id;                      
                 currencyCode = opportunityRecord.CurrencyIsoCode; 
@@ -906,9 +906,9 @@ public with sharing class ConfigurationController {
                     // Set Plan Values based on Visual Update
                     planToUpsert.Plan_Apartment__c = visualConfigObject.apartment;
                     if (visualConfigObject.floor != null && visualConfigObject.floor.isNumeric()) {
-                        planToUpsert.Plan_Floor__c = Integer.valueOf(visualConfigObject.floor);
+                        planToUpsert.Floor__c =visualConfigObject.floor; //Integer.valueOf(visualConfigObject.floor);
                     }
-                    planToUpsert.Plan_Line__c = visualConfigObject.line;
+                    planToUpsert.Line__c = visualConfigObject.line;
                     planToUpsert.Plan_Name__c = visualConfigObject.name;
                     planToUpsert.Visual_Id__c = visualConfigObject.id;
                     planToUpsert.Visual_Version__c = visualConfigObject.version; 
@@ -1516,7 +1516,7 @@ public with sharing class ConfigurationController {
             // Step 2: Get the Parent Object
             if (String.IsNotBlank(recordId) && parentObjectType=='Opportunity') {
                 // Get Related Opportunity Record
-                opportunityRecord = OpportunityController.getOpportunityRecord(recordId);
+                opportunityRecord = OpportunityController.getOpportunity(recordId);
                 // Set Related Records
                 pricebookId = opportunityRecord.pricebook2Id;                      
                 currencyCode = opportunityRecord.CurrencyIsoCode; 

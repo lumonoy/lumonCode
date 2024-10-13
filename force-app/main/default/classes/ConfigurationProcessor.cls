@@ -172,7 +172,7 @@ public with sharing class ConfigurationProcessor {
             // Step 2: Get the Parent Object
             if (String.IsNotBlank(recordId) && parentObjectType=='Opportunity') {
                 // Get Related Opportunity Record
-                opportunityRecord = OpportunityProductController.getOpportunityRecord(recordId);
+                opportunityRecord = OpportunityController.getOpportunity(recordId);
                 // Set Related Records
                 if(Test.isRunningTest()){
                     //Invoke mock web service response

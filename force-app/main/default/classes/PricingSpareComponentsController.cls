@@ -1,12 +1,12 @@
 /**
- * @description       : 
+ * @description       : NOT IN USE
  * @author            : Henk Reynders
  * @group             : 
- * @last modified on  : 11-21-2023
+ * @last modified on  : 10-09-2024
  * @last modified by  : Henk Reynders
 **/
 public with sharing class PricingSpareComponentsController {
-    @AuraEnabled
+    /*@AuraEnabled
     public static SearchResult search(SearchFilter filters) {
         SearchResult result = new SearchResult();
         String freeText = '%' + filters.text + '%';
@@ -237,6 +237,6 @@ public with sharing class PricingSpareComponentsController {
         upsert quoteLineItem;
         PricingController.upsertQuoteLines(opportunityId);
         return quoteLineItem;
-    }
+    }*/
 
 }

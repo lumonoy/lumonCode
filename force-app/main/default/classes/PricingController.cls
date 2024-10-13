@@ -1,12 +1,12 @@
 /**
- * @description       : 
+ * @description       : NOT IN USE
  * @author            : Henk Reynders
  * @group             : 
- * @last modified on  : 12-02-2023
+ * @last modified on  : 10-09-2024
  * @last modified by  : Henk Reynders
 **/
 public with sharing class PricingController{
-    @AuraEnabled(cacheable=true)
+    /*@AuraEnabled(cacheable=true)
     public static String getObjectType(String IdOrPrefix){
         String sObjectName = '';
         try{
@@ -100,11 +100,11 @@ public with sharing class PricingController{
             if (String.isNotBlank(opportunityId)){
                 // Step 1a: get the Opportunity
                 System.debug('--- opportunityId'+opportunityId);
-                opportunityRecord = OpportunityController.getOpportunityRecord(opportunityId);
+                opportunityRecord = OpportunityController.getOpportunity(opportunityId);
                 quoteId = opportunityRecord.SyncedQuoteId;
                 // Step 1b: get the Quote
                 if (String.isNotBlank(quoteId)) {
-                    quoteRecord = QuoteController.getQuoteRecord(quoteId);
+                    quoteRecord = QuoteController.getQuote(quoteId);
                 }
                 System.debug('--- Using Opportunity '+opportunityId+' and Quote ' +quoteId);
                 // Step 2: Get Existing Pricing 
@@ -244,20 +244,20 @@ public with sharing class PricingController{
             if (parentObjectType=='Opportunity' && String.isNotBlank(recordId)){
                 opportunityId = recordId;
                 //Get Opportunity Record
-                opportunityRecord = OpportunityController.getOpportunityRecord(opportunityId);
+                opportunityRecord = OpportunityController.getOpportunity(opportunityId);
                 // Set Related Records
                 pricebookId = opportunityRecord.pricebook2Id;
                 currencyCode = opportunityRecord.CurrencyIsoCode;
                 syncedQuoteId = opportunityRecord.SyncedQuoteId;
                 if (String.isNotBlank(syncedQuoteId)) {
-                    quoteRecord = QuoteController.getQuoteRecord(syncedQuoteId);
+                    quoteRecord = QuoteController.getQuote(syncedQuoteId);
                 }
             } else if (parentObjectType=='Quote' && String.isNotBlank(recordId)){
                 syncedQuoteId = recordId;
                 //Get quote Record
-                quoteRecord = QuoteController.getQuoteRecord(syncedQuoteId);
+                quoteRecord = QuoteController.getQuote(syncedQuoteId);
                 opportunityId = quoteRecord.opportunityId;
-                opportunityRecord = OpportunityController.getOpportunityRecord(opportunityId);
+                opportunityRecord = OpportunityController.getOpportunity(opportunityId);
                 // Set Related Records
                 pricebookId = opportunityRecord.pricebook2Id;
                 currencyCode = opportunityRecord.CurrencyIsoCode;
@@ -474,7 +474,7 @@ public with sharing class PricingController{
                         System.debug('--- NO Pricebook Entry for Item '+itemLookupCode);
                     }
          /**************** ITEM INITIAL VALUES *********************/
-                    if(pbEntry != null && plEntry != null) {
+                    /*if(pbEntry != null && plEntry != null) {
                         itemBasePrice = 0;
                         itemFactoryMultiplier = 0;
                         itemFactoryPrice = 0;
@@ -554,7 +554,7 @@ public with sharing class PricingController{
                         //Decimal itemProductCostPerUnit = itemBasePrice * itemCostMultiplier;
                         //Decimal itemSalesPricePerUnit = itemBasePrice * itemSalesMultiplier;
                         //16.10.2023 Added Transmission
-                        itemMaxQuantity = plEntryMaxQuantity;
+                        /*itemMaxQuantity = plEntryMaxQuantity;
                         itemMinPrice = plEntryMinimumPrice;
                         itemTransmission = plEntryTransmission;
                         Decimal itemFactoryPricePerUnit = itemBasePrice + (itemBasePrice * (itemFactoryMultiplier-1)*(itemTransmission/100));//BasePrice + (BasePrice *( FactoryX -1)* (Transmission/100)))
@@ -585,7 +585,7 @@ public with sharing class PricingController{
                         System.debug('--- itemTotalFactoryPrice '+itemTotalFactoryPrice);
                         System.debug('--- itemTotalProductCost '+itemTotalProductCost);
                         System.debug('--- itemTotalSalesPrice '+itemTotalSalesPrice);
-                        /* For New Items add the parent Id = QuoteId and  Price Book Entry (from the Opportunity Pricebook) or Product */
+                        // For New Items add the parent Id = QuoteId and  Price Book Entry (from the Opportunity Pricebook) or Product 
                         QuoteLineItem quoteLineItemToUpsert = new QuoteLineItem();
                         // Optionally set these is Known
                         quoteLineItemToUpsert.Configuration_Plan__c = itemConfigPlan;
@@ -632,7 +632,7 @@ public with sharing class PricingController{
                         /************** Price Updates ****************/
                         // Minimum Price Check
                         // Check if there the Item has a Quantity
-                        System.debug('--- Item Total Quantity for '+itemProductCode);
+                        /*System.debug('--- Item Total Quantity for '+itemProductCode);
                         System.debug('--- Item Total Quantity from '+productCodeToQuantityMap);
                         Boolean hasTotalQuantity = productCodeToQuantityMap.containsKey(itemProductCode);
                         if(hasTotalQuantity) {
@@ -665,7 +665,7 @@ public with sharing class PricingController{
                         } else {
                             itemMinPricePerUnit = 0;
                         }
-                        /******************* */
+                        /******************* 
                         // Unit Prices
                         quoteLineItemToUpsert.Base_Price__c = itemBasePrice;
                         quoteLineItemToUpsert.Min_Sales_Price__c = itemMinPricePerUnit;               
@@ -891,5 +891,5 @@ public with sharing class PricingController{
                 System.debug(e);
             }
         }
-    }
+    }*/
 }

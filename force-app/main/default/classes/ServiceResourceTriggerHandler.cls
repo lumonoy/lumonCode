@@ -1,6 +1,10 @@
-/*
-    Created by Reijo Mattila on 22.10.2023
-*/
+/**
+ * @description       : FSL Related keep for now
+ * @author            : Henk Reynders
+ * @group             : 
+ * @last modified on  : 10-08-2024
+ * @last modified by  : Henk Reynders
+**/
 public class ServiceResourceTriggerHandler {
     
     public static void checkActiveForAbsences(Map<Id, ServiceResource> newScope, Map<Id, ServiceResource> oldScope){

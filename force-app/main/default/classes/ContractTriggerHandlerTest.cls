@@ -1,46 +1,36 @@
 /**
- * @description       : 
+ * @description       : NOT IS USE ContractTriggerHandler commented OUT
  * @author            : Henk Reynders
  * @group             : 
- * @last modified on  : 12-02-2023
+ * @last modified on  : 10-08-2024
  * @last modified by  : Henk Reynders
 **/
 @IsTest
 private class ContractTriggerHandlerTest {
+    /*public class CustomException extends Exception {}
+    private static Id b2cAccountId = LumonTestVariables.b2cAccountId;
+    private static Id b2cOpportunityId = LumonTestVariables.b2cOpportunityId;
+    private static Id b2cSyncedQuoteId = LumonTestVariables.b2cSyncedQuoteId;
+    private static List<Id> contractIds = LumonTestVariables.contractIds;
+    private static List<Contract> contracts = LumonTestVariables.contracts;
+    //private static Id b2cOrderId = LumonTestVariables.b2cOrderId;
     @TestSetup
-    static void PrepareData(){
+    static void prepareData(){
         Test.startTest();
-		LumonTestDataFactory.setupProducts();
-        LumonTestDataFactory.setupPriceBookEntries();
+        LumonTestDataFactory.setupProducts();
+        LumonTestDataFactory.setupPrices();
         // B2C Setup
         LumonTestDataFactory.setupAccountB2C();
-        LumonTestDataFactory.setupOpportunityB2C();  
-        LumonTestDataFactory.setupConfigurationB2C();
-        LumonTestDataFactory.setupConfigurationProductsB2C();
-        LumonTestDataFactory.setupConfigurationOptionsB2C();       
-        LumonTestDataFactory.setupConfigurationMessagesB2C();
-        LumonTestDataFactory.setupSyncedQuoteB2C();
-        LumonTestDataFactory.setupSyncedQuoteLineItemsB2C();
+        LumonTestDataFactory.setupOpportunityB2C();
         LumonTestDataFactory.setupContractB2C();
+        //LumonTestDataFactory.setupOrderB2C();
         Test.stopTest();
     }
-    private static Id b2cAccountId = LumonTestDataFactory.b2cAccountId;
-    private static Id b2cOpportunityId = LumonTestDataFactory.b2cOpportunityId;
-    private static Id b2cSyncedQuoteId = LumonTestDataFactory.b2cSyncedQuoteId;
-    private static Id b2cContractId = LumonTestDataFactory.b2cContractId;
-    private static List<Configuration__c> b2cConfigurations = LumonTestDataFactory.b2cConfigurations;
-    private static List<Configuration_Product__c> b2cConfigProducts = LumonTestDataFactory.b2cConfigProducts;
-    private static List<Configuration_Option__c> b2cConfigOptions = LumonTestDataFactory.b2cConfigOptions;
-    private static List<Configuration_Message__c> b2cConfigMessages = LumonTestDataFactory.b2cConfigMessages;
-    private static String visualPricingJSON = LumonTestConfigurations.visualPricingJSON;
-    private static String soveliaPricingJSON = LumonTestConfigurations.soveliaPricingJSON;
-    private static String testPricingJSON = LumonTestConfigurations.testPricingJSON;
-
     @IsTest
     public static void updateContractToSignedTest() {
         //Building__c  b = [select Id,Building_Address__c, Combined_load__c, Drainage_holes__c, Heatsoak__c, Name, On_Hill_or_Slope__c, Owned_By__c, Property_Type__c, Snow_Load__c, Structural_Analysis__c from Building__c limit 1];
         //System.debug('--- b val ---'+b);
-        contract con = [SELECT Id, AccountId, Opportunity__c FROM Contract WHERE Id =: b2cContractId  LIMIT 1];
+        contract con = contracts[0];
         Test.startTest();
         System.debug('--- updateContractToSignedTest - Contract Before: '+con); 
         String body = '{"response": "success"}';
@@ -60,7 +50,7 @@ private class ContractTriggerHandlerTest {
 
     @IsTest
     public static void updateContractToActivatedTest() {
-        contract con = [SELECT Id, AccountId, Opportunity__c FROM Contract WHERE Id =: b2cContractId  LIMIT 1];
+        contract con = contracts[0];
         System.Debug('--- Contract: '+con);
         
         String body = '{"response": "success"}';
@@ -77,5 +67,5 @@ private class ContractTriggerHandlerTest {
         Test.stopTest();  
 
         System.assert([SELECT count() FROM ContentDocumentLink WHERE LinkedEntityId =: con.Id] > 0);
-    }
+    }*/
 }

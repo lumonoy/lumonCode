@@ -1,12 +1,12 @@
 /**
- * @description       : 
+ * @description       : NOT IN USE
  * @author            : Henk Reynders
  * @group             : 
- * @last modified on  : 03-13-2024
+ * @last modified on  : 10-09-2024
  * @last modified by  : Henk Reynders
 **/
 public with sharing class PricingSummaryService {
-    public static final List<String> ALLOWED_OPPORTUNITY_STAGES = new List<String>{
+   /* public static final List<String> ALLOWED_OPPORTUNITY_STAGES = new List<String>{
         //'Preparation & Analysis',
         'Quoting'
     };
@@ -87,7 +87,7 @@ public with sharing class PricingSummaryService {
     }
 
     public static Opportunity queryOpportunity(Id recordId) {
-        return OpportunityProductController.getOpportunityRecord(recordId);
+        return OpportunityController.getOpportunity(recordId);
     }
 
     public static Quote queryQuote(Id recordId) {
@@ -162,7 +162,7 @@ public with sharing class PricingSummaryService {
     * @param opportunities 
     * @param oldOpportunities 
     **/
-    public static void updateContractedSalesPrices(List<Opportunity> opportunities,Map<Id, Opportunity> oldOpportunities) {
+    /*public static void updateContractedSalesPrices(List<Opportunity> opportunities,Map<Id, Opportunity> oldOpportunities) {
         Set<Id> syncedQuoteIds = new Set<Id>();
         for (Opportunity opportunity : opportunities) {
             Opportunity oldOpportunity = oldOpportunities.get(opportunity.Id);
@@ -201,11 +201,10 @@ public with sharing class PricingSummaryService {
     * @param itemCostType 
     * @return QuoteLineItem 
     **/
-    public static QuoteLineItem findPrices(String opportunityId,String searchProductCode,Decimal itemQuantity,String itemProductGroup,String itemCostType) {
+    /*public static QuoteLineItem findPrices(String opportunityId,String searchProductCode,Decimal itemQuantity,String itemProductGroup,String itemCostType) {
         System.Debug('--- PricingSummaryService - Find Price for ProductCode: '+searchProductCode);
         return findPrices(opportunityId, searchProductCode, itemQuantity, itemProductGroup, itemCostType, null);
     }
-
     /**
     * @description Retrieve the Pricing Multipliers and Price List Entries
     * @author Henk Reynders | 02-07-2024 
@@ -217,11 +216,11 @@ public with sharing class PricingSummaryService {
     * @param basePrice 
     * @return QuoteLineItem 
     **/
-    public static QuoteLineItem findPrices(String opportunityId,String searchProductCode,Decimal itemQuantity,String itemProductGroup,String itemCostType,Decimal basePrice) {
+    /*public static QuoteLineItem findPrices(String opportunityId,String searchProductCode,Decimal itemQuantity,String itemProductGroup,String itemCostType,Decimal basePrice) {
         System.Debug('--- PricingSummaryService - Find Price for ProductCode: '+searchProductCode);
         // Stage 0: Declare the Variables
         String itemProductCode = searchProductCode;
-        Opportunity opportunity = OpportunityProductController.getOpportunityRecord(opportunityId);
+        Opportunity opportunity = OpportunityController.getOpportunity(opportunityId);
         String currencyCode = opportunity.CurrencyIsoCode;
         String pricebookId = opportunity.Pricebook2Id;
         String pricelistId;
@@ -441,6 +440,7 @@ public with sharing class PricingSummaryService {
     * @param productId 
     * @return Product2 
     **/
+    /*
     public static Product2 findProduct(String productId) {
         return [
             SELECT Name, QuantityUnitOfMeasure, ProductCode, Product_Group__c, Cost_Type__c
@@ -460,6 +460,7 @@ public with sharing class PricingSummaryService {
     * @param quoteLineItem 
     * @return QuoteLineItem 
     **/
+    /*
     @AuraEnabled
     public static QuoteLineItem findConfiguration(Id opportunityId, String planType, QuoteLineItem quoteLineItem) {
         QuoteLineItem quoteLineItemRecord = new QuoteLineItem();
@@ -605,6 +606,7 @@ public with sharing class PricingSummaryService {
     * @param quoteLineItemId 
     * @return Id 
     **/
+    /*
     @AuraEnabled
     public static Id deleteConfiguration(Id opportunityId, Id quoteLineItemId) {
         QuoteLineItem quoteLineItem = [SELECT Id,QuoteId,Configuration_Plan__c,Configuration_Product__c, Configuration_Option__c
@@ -696,6 +698,7 @@ public with sharing class PricingSummaryService {
     * @param configOptionId 
     * @return Configuration_Option__c 
     **/
+    /*
     @AuraEnabled
     public static Configuration_Option__c findServiceTime(Id opportunityId, String planType, Id configOptionId) {
         Map<String,Installation_Time__c> installationTimeMap  = New Map<String,Installation_Time__c>();  // Map for Lookup of Product and installation Times
@@ -809,5 +812,5 @@ public with sharing class PricingSummaryService {
         } else {
             System.Debug('--- PricingSummaryController - Updated Opportunity Id: '+updatedOpportunity?.Id);
         }
-    }
+    }*/
 }

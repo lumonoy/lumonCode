@@ -2,17 +2,17 @@
  * @description       : 
  * @author            : Henk Reynders
  * @group             : 
- * @last modified on  : 02-13-2024
+ * @last modified on  : 10-02-2024
  * @last modified by  : Henk Reynders
 **/
 public with sharing class BuildingController {
     @AuraEnabled(cacheable=true)
-    public static Building__c getBuildingRecord(Id recordId) {
+    public static Building__c getBuilding(Id recordId) {
         // Populate map from SOQL query on Building
         List<Id> recordIds = new List<Id>{recordId};
         List<Building__c> buildingRecords = getBuildings(recordIds);        
         Building__c buildingRecord = buildingRecords[0];
-        System.debug('--- Building Record: '+buildingRecord);
+        System.debug('--- BuildingController - Building Record: '+buildingRecord);
         return buildingRecord;
     } 
     @AuraEnabled(cacheable=true)
@@ -40,7 +40,7 @@ public with sharing class BuildingController {
                                     OR Owned_By__c IN: recordIds
                                     OR Structural_Analysis__c IN: recordIds
                                     ]);
-        System.debug('--- Building Record Count : '+buildings.size());
+        System.debug('--- BuildingController - '+buildings.size()+' Buildings Created.');
         return buildings;
     } 
 }

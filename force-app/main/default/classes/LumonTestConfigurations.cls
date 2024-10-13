@@ -40,7 +40,7 @@ public with sharing class LumonTestConfigurations {
         // Create B2C Opportunity
         String org = 'LSU';
         String district = 'FI_South';
-        String businessType = 'Consumer';
+        String businessType = '1';
         LumonTestOpportunities.setupOpportunityB2C(accountId, org,district, businessType);
 		Id oportunityId = [SELECT Id FROM Opportunity WHERE (AccountId =: accountId )]?.Id;
         System.debug('--- setupOpportunity - CPU TIME: '+LIMITS.getCpuTime());

@@ -1,12 +1,12 @@
 /**
- * @description       : 
+ * @description       : NOT IN USE
  * @author            : Henk Reynders
  * @group             : 
- * @last modified on  : 03-18-2024
+ * @last modified on  : 10-09-2024
  * @last modified by  : Henk Reynders
 **/
 public with sharing class PricingSummaryController {
-    @AuraEnabled(cacheable=true)
+    /*@AuraEnabled(cacheable=true)
     public static Pricing_Summary__c getPricingSummary(Id recordId) {
         Pricing_Summary__c summary = New Pricing_Summary__c();    
         List<Pricing_Summary__c> summaries = New List<Pricing_Summary__c>(); 
@@ -68,7 +68,7 @@ public with sharing class PricingSummaryController {
         Id summaryId;
         // Check for Existing Summary
         if (String.isNotBlank(opportunityId)){
-            opportunityRecord = OpportunityController.getOpportunityRecord(opportunityId);
+            opportunityRecord = OpportunityController.getOpportunity(opportunityId);
             pricingSummaryExisting = getPricingSummary(opportunityId);
         }
         // Prepare Summary to Update
@@ -99,5 +99,5 @@ public with sharing class PricingSummaryController {
             System.debug('Exception on Pricing Summary Upsert: ' + e.getMessage());
         }
         return summaryId;
-    }
+    }*/
 }

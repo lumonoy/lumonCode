@@ -1,12 +1,12 @@
 /**
- * @description       : 
+ * @description       : NOT IN USE
  * @author            : Henk Reynders
  * @group             : 
- * @last modified on  : 03-19-2024
+ * @last modified on  : 10-09-2024
  * @last modified by  : Henk Reynders
 **/
 public class PricingComponentController {
-    public with sharing class ComponentData {
+    /*public with sharing class ComponentData {
         @AuraEnabled
         public Quote quote { get; private set; }
         @AuraEnabled
@@ -116,5 +116,5 @@ public class PricingComponentController {
         } 
         update pricingSummary;
         update quoteLineItems;
-    }
+    }*/
 }
