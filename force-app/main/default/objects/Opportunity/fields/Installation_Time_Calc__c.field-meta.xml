@@ -3,7 +3,7 @@
     <fullName>Installation_Time_Calc__c</fullName>
     <externalId>false</externalId>
     <formula>IF(ISBLANK( Confirmed_installation_time__c ) , &quot;Est : &quot; &amp; TEXT(Preliminary_installation_time__c ) ,  TEXT(Confirmed_installation_time__c))</formula>
-    <label>Installation Time Calc</label>
+    <label>Installation Time Calc OLD</label>
     <required>false</required>
     <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>
