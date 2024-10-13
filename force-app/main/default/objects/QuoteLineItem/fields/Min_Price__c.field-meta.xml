@@ -2,7 +2,7 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Min_Price__c</fullName>
     <externalId>false</externalId>
-    <inlineHelpText>Min Price</inlineHelpText>
+    <inlineHelpText>Min Price OLD</inlineHelpText>
     <label>Min Price</label>
     <precision>18</precision>
     <required>false</required>

@@ -3,7 +3,7 @@
     <fullName>Cost_Multiplier__c</fullName>
     <defaultValue>1</defaultValue>
     <externalId>false</externalId>
-    <label>Cost Multiplier</label>
+    <label>Cost Multiplier OLD</label>
     <precision>15</precision>
     <required>false</required>
     <scale>2</scale>

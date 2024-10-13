@@ -5,7 +5,7 @@
     <description>The Quantity of an Item per Unit of Measure</description>
     <externalId>false</externalId>
     <inlineHelpText>The Maximum Quantity of an Item per Product Group on a single Offer</inlineHelpText>
-    <label>Max Quantity</label>
+    <label>Max Quantity OLD</label>
     <precision>10</precision>
     <required>false</required>
     <scale>2</scale>
