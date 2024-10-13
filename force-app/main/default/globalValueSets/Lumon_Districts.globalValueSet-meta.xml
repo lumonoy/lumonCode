@@ -31,11 +31,6 @@
         <label>East Finland</label>
     </customValue>
     <customValue>
-        <fullName>Finland</fullName>
-        <default>false</default>
-        <label>Finland</label>
-    </customValue>
-    <customValue>
         <fullName>SE_Goteborg</fullName>
         <default>false</default>
         <label>Goteborg</label>
@@ -132,11 +127,17 @@
         <label>Etelä-Suomi</label>
     </customValue>
     <customValue>
+        <fullName>Finland</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Finland</label>
+    </customValue>
+    <customValue>
         <fullName>JM Suomi</fullName>
         <default>false</default>
         <isActive>false</isActive>
         <label>JM Suomi</label>
     </customValue>
     <masterLabel>Lumon Districts</masterLabel>
-    <sorted>true</sorted>
+    <sorted>false</sorted>
 </GlobalValueSet>

@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
     <customValue>
-        <fullName>0</fullName>
+        <fullName>NB</fullName>
         <default>false</default>
-        <label>Terrain Class 0</label>
+        <label>Construction</label>
     </customValue>
     <customValue>
-        <fullName>1</fullName>
+        <fullName>REN</fullName>
         <default>false</default>
-        <label>Terrain Class I</label>
+        <label>Renovation</label>
     </customValue>
     <customValue>
-        <fullName>2</fullName>
+        <fullName>RES</fullName>
         <default>false</default>
-        <label>Terrain Class II</label>
+        <label>Reseller Sales</label>
     </customValue>
     <customValue>
-        <fullName>3</fullName>
+        <fullName>CON</fullName>
         <default>false</default>
-        <label>Terrain Class III</label>
+        <label>Consumer Sales</label>
     </customValue>
     <customValue>
-        <fullName>4</fullName>
+        <fullName>AFT</fullName>
         <default>false</default>
-        <label>Terrain Class IV</label>
+        <label>After Sales</label>
     </customValue>
     <customValue>
-        <fullName>5</fullName>
+        <fullName>REC</fullName>
         <default>false</default>
-        <label>Terrain Class V</label>
+        <label>Reclamation</label>
     </customValue>
-    <masterLabel>Lumon Terrain Types</masterLabel>
+    <masterLabel>Lumon Project Types</masterLabel>
     <sorted>false</sorted>
 </GlobalValueSet>

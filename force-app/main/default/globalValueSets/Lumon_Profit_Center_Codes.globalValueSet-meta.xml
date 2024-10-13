@@ -601,9 +601,14 @@
         <label>274</label>
     </customValue>
     <customValue>
-        <fullName>273</fullName>
+        <fullName>273 LUI TS</fullName>
         <default>false</default>
-        <label>273 LUI TS</label>
+        <label>273</label>
+    </customValue>
+    <customValue>
+        <fullName>0 Lumon Test</fullName>
+        <default>false</default>
+        <label>0</label>
     </customValue>
     <masterLabel>Lumon Profit Center Codes</masterLabel>
     <sorted>false</sorted>

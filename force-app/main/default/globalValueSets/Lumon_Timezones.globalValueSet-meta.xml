@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>America/Toronto</fullName>
+        <default>false</default>
+        <label>America/Toronto</label>
+    </customValue>
+    <customValue>
+        <fullName>America/Vancouver</fullName>
+        <default>false</default>
+        <label>America/Vancouver</label>
+    </customValue>
+    <customValue>
+        <fullName>Europe/Helsinki</fullName>
+        <default>false</default>
+        <label>Europe/Helsinki</label>
+    </customValue>
+    <customValue>
+        <fullName>Europe/Madrid</fullName>
+        <default>false</default>
+        <label>Europe/Madrid</label>
+    </customValue>
+    <customValue>
+        <fullName>Europe/Oslo</fullName>
+        <default>false</default>
+        <label>Europe/Oslo</label>
+    </customValue>
+    <customValue>
+        <fullName>Europe/Stockholm</fullName>
+        <default>false</default>
+        <label>Europe/Stockholm</label>
+    </customValue>
+    <customValue>
+        <fullName>Europe/Warsaw</fullName>
+        <default>false</default>
+        <label>Europe/Warsaw</label>
+    </customValue>
+    <customValue>
+        <fullName>Europe/Amsterdam</fullName>
+        <default>false</default>
+        <label>Europe/Amsterdam</label>
+    </customValue>
+    <description>Timezone as Area/Capital (Salesforce Standard)</description>
+    <masterLabel>Lumon Timezones</masterLabel>
+    <sorted>true</sorted>
+</GlobalValueSet>

@@ -195,6 +195,61 @@
         <default>false</default>
         <label>Zaragoza</label>
     </customValue>
+    <customValue>
+        <fullName>FI-13100</fullName>
+        <default>false</default>
+        <label>Hämeenlinna</label>
+    </customValue>
+    <customValue>
+        <fullName>CA-L8E5E3</fullName>
+        <default>false</default>
+        <label>Hamilton</label>
+    </customValue>
+    <customValue>
+        <fullName>FI-80100</fullName>
+        <default>false</default>
+        <label>Joensuu</label>
+    </customValue>
+    <customValue>
+        <fullName>FI-48770</fullName>
+        <default>false</default>
+        <label>Kotka</label>
+    </customValue>
+    <customValue>
+        <fullName>FI-53850</fullName>
+        <default>false</default>
+        <label>Lapeenranta</label>
+    </customValue>
+    <customValue>
+        <fullName>ES-28001</fullName>
+        <default>false</default>
+        <label>Madrid 4</label>
+    </customValue>
+    <customValue>
+        <fullName>ES-29001</fullName>
+        <default>false</default>
+        <label>Malaga Warehouse</label>
+    </customValue>
+    <customValue>
+        <fullName>ES-50001</fullName>
+        <default>false</default>
+        <label>Zaragoza Warehouse</label>
+    </customValue>
+    <customValue>
+        <fullName>ES-08001</fullName>
+        <default>false</default>
+        <label>Barcelona Warehouse</label>
+    </customValue>
+    <customValue>
+        <fullName>ES-46001</fullName>
+        <default>false</default>
+        <label>Valencia Warehouse</label>
+    </customValue>
+    <customValue>
+        <fullName>NL-1012AB</fullName>
+        <default>false</default>
+        <label>Lumon Test Office</label>
+    </customValue>
     <masterLabel>Lumon Offices</masterLabel>
-    <sorted>true</sorted>
+    <sorted>false</sorted>
 </GlobalValueSet>
