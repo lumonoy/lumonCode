@@ -4,7 +4,7 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <description>The Main Product (Group) this Product Option belongs to</description>
     <externalId>false</externalId>
-    <label>Parent Product</label>
+    <label>Parent Product OLD</label>
     <lookupFilter>
         <active>true</active>
         <filterItems>

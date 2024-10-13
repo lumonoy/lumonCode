@@ -4,7 +4,7 @@
     <description>Main Product SalesCode to use for Reclamation</description>
     <externalId>true</externalId>
     <inlineHelpText>Main Product SalesCode to use for Reclamation</inlineHelpText>
-    <label>Reclamation Code</label>
+    <label>Reclamation Code OLD</label>
     <length>18</length>
     <required>false</required>
     <trackHistory>false</trackHistory>
