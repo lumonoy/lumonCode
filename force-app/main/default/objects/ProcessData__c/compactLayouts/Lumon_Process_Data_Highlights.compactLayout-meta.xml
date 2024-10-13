@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lumon_Process_Data_Highlights</fullName>
+    <fields>Name</fields>
+    <fields>DataDirection__c</fields>
+    <fields>DataType__c</fields>
+    <label>Lumon Process Data Highlights</label>
+</CompactLayout>

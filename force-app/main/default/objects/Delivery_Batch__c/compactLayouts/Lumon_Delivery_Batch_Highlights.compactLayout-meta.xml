@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lumon_Delivery_Batch_Highlights</fullName>
+    <fields>ProjectNumber__c</fields>
+    <fields>OfferNumber__c</fields>
+    <fields>BatchNumber__c</fields>
+    <fields>BatchStatus__c</fields>
+    <label>Lumon Delivery Batch Highlights</label>
+</CompactLayout>

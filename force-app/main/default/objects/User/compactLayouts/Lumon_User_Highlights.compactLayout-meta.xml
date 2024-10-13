@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lumon_User_Highlights</fullName>
+    <fields>Name</fields>
+    <fields>Title</fields>
+    <fields>Username</fields>
+    <fields>Email</fields>
+    <fields>ManagerId</fields>
+    <fields>LanguageLocaleKey</fields>
+    <fields>LocaleSidKey</fields>
+    <label>Lumon User Highlights</label>
+</CompactLayout>
