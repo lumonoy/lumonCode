@@ -7,68 +7,7 @@
     <trackTrending>false</trackTrending>
     <type>Picklist</type>
     <valueSet>
-        <controllingField>Organization__c</controllingField>
         <restricted>true</restricted>
         <valueSetName>Lumon_Offices</valueSetName>
-        <valueSettings>
-            <controllingFieldValue>LSU</controllingFieldValue>
-            <valueName>FI-02270</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>LSU</controllingFieldValue>
-            <valueName>FI-00880</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>LSU</controllingFieldValue>
-            <valueName>FI-40420</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>LSU</controllingFieldValue>
-            <valueName>FI-90440</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>LSU</controllingFieldValue>
-            <valueName>FI-45130</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>LSU</controllingFieldValue>
-            <valueName>FI-70420</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>LSU</controllingFieldValue>
-            <valueName>FI-15680</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>LSU</controllingFieldValue>
-            <valueName>FI-28430</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>LSU</controllingFieldValue>
-            <valueName>FI-21200</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>LSU</controllingFieldValue>
-            <valueName>FI-11100</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>LSU</controllingFieldValue>
-            <valueName>FI-60100</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>LSU</controllingFieldValue>
-            <valueName>FI-33560</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>LSU</controllingFieldValue>
-            <valueName>FI-65100</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>LSU</controllingFieldValue>
-            <valueName>FI-01200</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>LSU</controllingFieldValue>
-            <valueName>FI-01740</valueName>
-        </valueSettings>
     </valueSet>
 </CustomField>
