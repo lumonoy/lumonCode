@@ -1,60 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
     <customValue>
-        <fullName>CS</fullName>
+        <fullName>CONSALES</fullName>
         <default>false</default>
-        <label>Customer Service</label>
+        <label>CONSALES</label>
     </customValue>
     <customValue>
-        <fullName>IT</fullName>
+        <fullName>CONSDELIV</fullName>
         <default>false</default>
-        <label>ICT Support</label>
+        <label>CONSDELIV</label>
     </customValue>
     <customValue>
-        <fullName>LOG</fullName>
+        <fullName>CONWAR</fullName>
         <default>false</default>
-        <label>Logistics Support</label>
+        <label>CONWAR</label>
     </customValue>
     <customValue>
-        <fullName>NA</fullName>
+        <fullName>GROUPSA</fullName>
         <default>false</default>
-        <label>Not Applicable</label>
+        <label>GROUPSA</label>
     </customValue>
     <customValue>
-        <fullName>PERM</fullName>
+        <fullName>INTWAR</fullName>
         <default>false</default>
-        <label>Permit Applications</label>
+        <label>INTWAR</label>
     </customValue>
     <customValue>
-        <fullName>FAC</fullName>
+        <fullName>PRODELIV</fullName>
         <default>false</default>
-        <label>Production Support</label>
+        <label>PRODELIV</label>
     </customValue>
     <customValue>
-        <fullName>RECL</fullName>
+        <fullName>PROPROFIT</fullName>
         <default>false</default>
-        <label>Reclamation</label>
+        <label>PROPROFIT</label>
     </customValue>
     <customValue>
-        <fullName>SF</fullName>
+        <fullName>PROWAR</fullName>
         <default>false</default>
-        <label>Salesforce Support</label>
+        <label>PROWAR</label>
     </customValue>
     <customValue>
-        <fullName>SPEC</fullName>
+        <fullName>PROWIP</fullName>
         <default>false</default>
-        <label>Special Order Support</label>
+        <label>PROWIP</label>
     </customValue>
     <customValue>
-        <fullName>TS</fullName>
+        <fullName>RESDELIV</fullName>
         <default>false</default>
-        <label>Technical Support</label>
+        <label>RESDELIV</label>
     </customValue>
     <customValue>
-        <fullName>WEB</fullName>
+        <fullName>WEBDELIV</fullName>
         <default>false</default>
-        <label>Webshop Support</label>
+        <label>WEBDELIV</label>
     </customValue>
-    <masterLabel>Lumon Case Categories</masterLabel>
-    <sorted>true</sorted>
+    <masterLabel>Lumon Project Groups</masterLabel>
+    <sorted>false</sorted>
 </GlobalValueSet>
