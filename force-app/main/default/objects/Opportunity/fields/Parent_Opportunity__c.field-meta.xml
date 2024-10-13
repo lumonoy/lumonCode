@@ -3,7 +3,7 @@
     <fullName>Parent_Opportunity__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <externalId>false</externalId>
-    <label>Parent Opportunity</label>
+    <label>Parent Opportunity OLD</label>
     <referenceTo>Opportunity</referenceTo>
     <relationshipLabel>Related Opportunities</relationshipLabel>
     <relationshipName>Opportunities</relationshipName>

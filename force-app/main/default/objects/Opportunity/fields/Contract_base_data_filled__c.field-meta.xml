@@ -19,7 +19,7 @@ IF
 true,
 false
 )</formula>
-    <label>Contract base data filled</label>
+    <label>Contract base data filled DEL</label>
     <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

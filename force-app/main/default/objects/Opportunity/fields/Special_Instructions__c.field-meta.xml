@@ -4,7 +4,7 @@
     <description>Contains special instructions regarding the installation from Sales Person. Is shown on Work Order for the Installer.</description>
     <externalId>false</externalId>
     <inlineHelpText>Special instructions to the Installer (max. 255 characters).</inlineHelpText>
-    <label>Special Instructions</label>
+    <label>Special Instructions OLD</label>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>false</trackHistory>

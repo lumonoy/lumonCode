@@ -4,7 +4,7 @@
     <description>Contract Pricing Agreements (To be filled by salesperson in case that price agreements are done with the customer). These agreements will show up in the contract pricing section</description>
     <externalId>false</externalId>
     <inlineHelpText>Contract Pricing Agreements (To be filled by salesperson in case that price agreements are done with the customer). These agreements will show up in the contract pricing section</inlineHelpText>
-    <label>Contract Price Agreements</label>
+    <label>Contract Price Agreements OLD</label>
     <length>32768</length>
     <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>false</trackHistory>

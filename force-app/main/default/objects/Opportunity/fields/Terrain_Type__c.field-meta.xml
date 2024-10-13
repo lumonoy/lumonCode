@@ -8,7 +8,7 @@ I - Lakes or area with negligible vegetation
 II - Area with low vegetation such as grass and isolated obstacles (trees, buildings) with separations of at least 20 obstacle heights
 III - Area with regular cover of vegetation or buildings or with isolated obstacles with separations of maximum 20 obstacle heights (such as villages, suburban terrain, forest)
 IV - Area in which at least 15 % of surface is cove</inlineHelpText>
-    <label>Terrain Type</label>
+    <label>Terrain Type DEL</label>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>false</trackHistory>
