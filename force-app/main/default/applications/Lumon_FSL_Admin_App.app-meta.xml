@@ -2,7 +2,7 @@
 <CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
     <actionOverrides>
         <actionName>Tab</actionName>
-        <content>Lumon_Work_Planning_Home</content>
+        <content>Lumon_FSL_Admin_Home</content>
         <formFactor>Large</formFactor>
         <skipRecordTypeSelect>false</skipRecordTypeSelect>
         <type>Flexipage</type>
@@ -22,37 +22,39 @@
     <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
     <label>Work Planning</label>
     <navType>Console</navType>
-    <profileActionOverrides>
-        <actionName>Tab</actionName>
-        <content>Lumon_Work_Planning_Home</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>standard-home</pageOrSobjectType>
-        <type>Flexipage</type>
-        <profile>Lumon Installation Manager</profile>
-    </profileActionOverrides>
     <setupExperience>all</setupExperience>
     <tabs>standard-home</tabs>
     <tabs>FSL__FieldService</tabs>
+    <tabs>FSL__Field_Service_Settings</tabs>
     <tabs>standard-Account</tabs>
+    <tabs>standard-Opportunity</tabs>
     <tabs>Delivery_Batch__c</tabs>
+    <tabs>standard-TimeSheet</tabs>
     <tabs>standard-WorkOrder</tabs>
     <tabs>standard-ServiceAppointment</tabs>
-    <tabs>standard-TimeSheet</tabs>
     <tabs>standard-Asset</tabs>
     <tabs>standard-Case</tabs>
+    <tabs>Install_Expense__c</tabs>
     <tabs>standard-ProcessInstanceWorkitem</tabs>
-    <tabs>Delivery_Project__c</tabs>
+    <tabs>standard-ServiceTerritory</tabs>
+    <tabs>FSL__User_Territory__c</tabs>
     <uiType>Lightning</uiType>
-    <utilityBar>Lumon_Field_Service_UtilityBar</utilityBar>
+    <utilityBar>Lumon_FSL_Admin_App_UtilityBar</utilityBar>
     <workspaceConfig>
         <mappings>
             <tab>Delivery_Batch__c</tab>
         </mappings>
         <mappings>
-            <tab>Delivery_Project__c</tab>
+            <tab>FSL__FieldService</tab>
         </mappings>
         <mappings>
-            <tab>FSL__FieldService</tab>
+            <tab>FSL__Field_Service_Settings</tab>
+        </mappings>
+        <mappings>
+            <tab>FSL__User_Territory__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Install_Expense__c</tab>
         </mappings>
         <mappings>
             <tab>standard-Account</tab>
@@ -65,11 +67,17 @@
             <tab>standard-Case</tab>
         </mappings>
         <mappings>
+            <tab>standard-Opportunity</tab>
+        </mappings>
+        <mappings>
             <tab>standard-ProcessInstanceWorkitem</tab>
         </mappings>
         <mappings>
             <fieldName>AccountId</fieldName>
             <tab>standard-ServiceAppointment</tab>
+        </mappings>
+        <mappings>
+            <tab>standard-ServiceTerritory</tab>
         </mappings>
         <mappings>
             <tab>standard-TimeSheet</tab>
