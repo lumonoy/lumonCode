@@ -2,7 +2,7 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Invoicing_Email_Adddress__c</fullName>
     <externalId>false</externalId>
-    <label>Invoicing Email Adddress</label>
+    <label>Invoicing Email Adddress OLD</label>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>false</trackHistory>

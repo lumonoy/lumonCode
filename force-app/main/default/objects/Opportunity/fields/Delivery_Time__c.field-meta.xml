@@ -3,7 +3,7 @@
     <fullName>Delivery_Time__c</fullName>
     <externalId>false</externalId>
     <inlineHelpText>The Time to Deliver in Calendar Days</inlineHelpText>
-    <label>Delivery Time</label>
+    <label>Delivery Time OLD</label>
     <precision>18</precision>
     <required>false</required>
     <scale>0</scale>

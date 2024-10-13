@@ -3,7 +3,7 @@
     <fullName>Product_Item__c</fullName>
     <externalId>false</externalId>
     <inlineHelpText>Third Level Grouping of Products and Services</inlineHelpText>
-    <label>Product Item</label>
+    <label>Product Item OLD</label>
     <required>false</required>
     <trackHistory>false</trackHistory>
     <type>Picklist</type>

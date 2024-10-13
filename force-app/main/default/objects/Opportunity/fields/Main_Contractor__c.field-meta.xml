@@ -4,7 +4,7 @@
     <defaultValue>false</defaultValue>
     <description>Field to mention whether main contractor or sub contractor</description>
     <externalId>false</externalId>
-    <label>Main Contractor</label>
+    <label>Main Contractor OLD</label>
     <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>

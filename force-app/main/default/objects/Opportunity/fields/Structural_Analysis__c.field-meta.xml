@@ -3,7 +3,7 @@
     <fullName>Structural_Analysis__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <externalId>false</externalId>
-    <label>Structural Analysis</label>
+    <label>Structural Analysis OLD</label>
     <referenceTo>Structural_Analysis__c</referenceTo>
     <relationshipLabel>Opportunities</relationshipLabel>
     <relationshipName>Opportunities</relationshipName>

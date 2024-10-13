@@ -3,7 +3,7 @@
     <fullName>Discovery_Completed__c</fullName>
     <defaultValue>false</defaultValue>
     <externalId>false</externalId>
-    <label>Discovery Completed</label>
+    <label>Discovery Completed OLD</label>
     <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>

@@ -4,7 +4,7 @@
     <defaultValue>false</defaultValue>
     <description>Not in use / checked with Reijo -JJ</description>
     <externalId>false</externalId>
-    <label>Budget Confirmed</label>
+    <label>Budget Confirmed OLD</label>
     <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>

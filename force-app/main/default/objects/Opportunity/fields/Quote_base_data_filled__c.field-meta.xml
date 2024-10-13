@@ -12,7 +12,7 @@ NOT (ISBLANK(TEXT(  Invoice_type__c )))
 NOT (ISBLANK( Delivery_Location__c ))
 &amp;&amp;
 ( Quote_Status__c = &quot;Price&quot; ||  Quote_Status__c = &quot;Quote&quot; )</formula>
-    <label>Quote base data filled</label>
+    <label>Quote base data filled OLD</label>
     <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>
