@@ -4,7 +4,7 @@
     <externalId>false</externalId>
     <formula>Product__r.Installation__c</formula>
     <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
-    <label>Installable Product</label>
+    <label>Installable Product OLD</label>
     <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

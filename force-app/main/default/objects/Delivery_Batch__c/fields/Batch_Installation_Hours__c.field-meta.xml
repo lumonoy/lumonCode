@@ -3,7 +3,7 @@
     <fullName>Batch_Installation_Hours__c</fullName>
     <description>Total Installation Time for all Products (RVN) in Batch</description>
     <externalId>false</externalId>
-    <label>Batch Installation Hours</label>
+    <label>Batch Installation Hours OLD</label>
     <precision>18</precision>
     <required>false</required>
     <scale>2</scale>

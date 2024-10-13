@@ -6,7 +6,7 @@
     <formula>IF(  IsPersonAccount,  PersonMailingStreet, BillingStreet)</formula>
     <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
     <inlineHelpText>The Street Address of the Account</inlineHelpText>
-    <label>Street Address</label>
+    <label>Street Address OLD</label>
     <required>false</required>
     <trackHistory>false</trackHistory>
     <type>Text</type>

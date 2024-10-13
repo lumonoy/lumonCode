@@ -4,7 +4,7 @@
     <description>&quot;upper_profile_color&quot; in the Visual Output JSON</description>
     <externalId>false</externalId>
     <inlineHelpText>&quot;upper_profile_color&quot; in the Visual Output JSON</inlineHelpText>
-    <label>Upper Profile Color</label>
+    <label>Upper Profile Color OLD</label>
     <length>255</length>
     <required>false</required>
     <trackHistory>false</trackHistory>

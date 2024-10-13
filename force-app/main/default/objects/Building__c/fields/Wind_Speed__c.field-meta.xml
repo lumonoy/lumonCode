@@ -3,7 +3,7 @@
     <fullName>Wind_Speed__c</fullName>
     <externalId>false</externalId>
     <inlineHelpText>Reference Wind speed (m/s)</inlineHelpText>
-    <label>Wind Speed</label>
+    <label>Wind Speed DEL</label>
     <precision>5</precision>
     <required>false</required>
     <scale>2</scale>

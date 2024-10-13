@@ -3,7 +3,7 @@
     <fullName>Batch_Status__c</fullName>
     <description>Status</description>
     <externalId>false</externalId>
-    <label>Status</label>
+    <label>Status OLD</label>
     <required>false</required>
     <trackTrending>false</trackTrending>
     <type>Picklist</type>

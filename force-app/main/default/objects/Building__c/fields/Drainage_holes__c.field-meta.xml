@@ -4,7 +4,7 @@
     <defaultValue>false</defaultValue>
     <externalId>false</externalId>
     <inlineHelpText>Indication whether Drainage holes are required</inlineHelpText>
-    <label>Drainage holes</label>
+    <label>Drainage holes DEL</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>
 </CustomField>

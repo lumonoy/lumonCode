@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DataType__c</fullName>
+    <description>Indicates the Type of Process Data</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Type of Process Data</inlineHelpText>
+    <label>Data Type</label>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>frends</fullName>
+                <default>false</default>
+                <label>frends</label>
+            </value>
+            <value>
+                <fullName>plantori</fullName>
+                <default>false</default>
+                <label>plantori</label>
+            </value>
+            <value>
+                <fullName>visual</fullName>
+                <default>false</default>
+                <label>visual</label>
+            </value>
+            <value>
+                <fullName>sovelia</fullName>
+                <default>false</default>
+                <label>sovelia</label>
+            </value>
+            <value>
+                <fullName>mepco</fullName>
+                <default>false</default>
+                <label>mepco</label>
+            </value>
+            <value>
+                <fullName>OrderMessage</fullName>
+                <default>false</default>
+                <label>OrderMessage</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -3,7 +3,7 @@
     <fullName>Customer_Attribute__c</fullName>
     <externalId>false</externalId>
     <formula>IF( NOT(ISNULL(Customer__r.AccountNumber)), Customer__r.AccountNumber,&quot;&quot;)</formula>
-    <label>Customer Attribute</label>
+    <label>Customer Attribute OLD</label>
     <required>false</required>
     <trackHistory>false</trackHistory>
     <type>Text</type>

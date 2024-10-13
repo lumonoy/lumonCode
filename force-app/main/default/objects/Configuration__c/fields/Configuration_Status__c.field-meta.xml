@@ -4,7 +4,7 @@
     <externalId>false</externalId>
     <formula>IMAGE(&apos;/img/msg_icons/error32.png&apos;,&apos;ERROR&apos;,20,20)</formula>
     <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
-    <label>Configuration Status</label>
+    <label>Configuration Status OLD</label>
     <required>false</required>
     <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>

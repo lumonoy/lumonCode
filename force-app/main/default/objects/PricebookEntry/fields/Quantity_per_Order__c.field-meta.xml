@@ -4,7 +4,7 @@
     <description>The Maximum Quantity of an Item on an Order</description>
     <externalId>false</externalId>
     <inlineHelpText>The Maximum Quantity of an Item on an Order</inlineHelpText>
-    <label>Quantity per Order</label>
+    <label>Quantity per Order OLD</label>
     <precision>18</precision>
     <required>false</required>
     <scale>5</scale>

@@ -4,7 +4,7 @@
     <defaultValue>false</defaultValue>
     <description>to be used by marketing cloud to define MC</description>
     <externalId>false</externalId>
-    <label>Other Countries Sync to MC</label>
+    <label>Other Countries Sync to MC OLD</label>
     <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>true</trackHistory>
     <type>Checkbox</type>

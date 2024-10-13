@@ -3,7 +3,7 @@
     <fullName>Plan_Line__c</fullName>
     <description>Plan Line used in the configuration</description>
     <externalId>false</externalId>
-    <label>Plan Line</label>
+    <label>Plan Line OLD</label>
     <length>255</length>
     <required>false</required>
     <trackHistory>false</trackHistory>

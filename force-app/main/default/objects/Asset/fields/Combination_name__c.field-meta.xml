@@ -5,7 +5,7 @@
     <externalId>false</externalId>
     <formula>Name  &amp; &quot; (Plan: &quot; &amp; Configuration_Product__r.Configuration__r.Plan_Name__c &amp; &quot;, RVN: &quot; &amp;  SerialNumber &amp; &quot;)&quot;</formula>
     <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
-    <label>Combination name</label>
+    <label>Combination name OLD</label>
     <required>false</required>
     <trackHistory>false</trackHistory>
     <type>Text</type>

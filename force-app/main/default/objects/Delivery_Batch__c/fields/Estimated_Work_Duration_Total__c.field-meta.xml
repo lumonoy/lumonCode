@@ -3,7 +3,7 @@
     <fullName>Estimated_Work_Duration_Total__c</fullName>
     <description>Estimate from Salestori.</description>
     <externalId>false</externalId>
-    <label>Estimated Work Duration Total</label>
+    <label>Estimated Work Duration Total OLD</label>
     <precision>9</precision>
     <required>false</required>
     <scale>1</scale>

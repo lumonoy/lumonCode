@@ -4,7 +4,7 @@
     <description>&quot;glass_panel_amount&quot; in the Visual Output JSON</description>
     <externalId>false</externalId>
     <inlineHelpText>&quot;glass_panel_amount&quot; in the Visual Output JSON</inlineHelpText>
-    <label>Glass Panel Amount</label>
+    <label>Glass Panel Amount OLD</label>
     <precision>18</precision>
     <required>false</required>
     <scale>2</scale>

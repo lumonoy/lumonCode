@@ -4,7 +4,7 @@
     <description>The Unique Id of the Structure (Space) used in the Plan</description>
     <externalId>false</externalId>
     <inlineHelpText>The Unique Id of the Structure (Space) used in the Plan</inlineHelpText>
-    <label>Visual Structure Number</label>
+    <label>Visual Structure Number OLD</label>
     <length>8</length>
     <required>false</required>
     <trackHistory>false</trackHistory>

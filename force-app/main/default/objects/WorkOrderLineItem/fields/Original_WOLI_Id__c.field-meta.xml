@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Original_WOLI_Id__c</fullName>
+    <description>In Salestori integration, when splitting the work to different WOs and WOLIs, this id is used to reference the original WOLI under the original WO and help to find the related Content Document Links.</description>
+    <externalId>false</externalId>
+    <label>Original WOLI Id</label>
+    <length>128</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

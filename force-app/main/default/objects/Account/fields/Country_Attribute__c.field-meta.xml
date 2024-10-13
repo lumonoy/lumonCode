@@ -4,7 +4,7 @@
     <externalId>false</externalId>
     <formula>TEXT(BillingCountryCode)</formula>
     <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
-    <label>Country Attribute</label>
+    <label>Country Attribute OLD</label>
     <required>false</required>
     <trackHistory>false</trackHistory>
     <type>Text</type>

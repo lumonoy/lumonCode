@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ProjectNumber__c</fullName>
+    <caseSensitive>false</caseSensitive>
+    <description>The Identifier of the Project in Salestori</description>
+    <externalId>true</externalId>
+    <inlineHelpText>The Identifier of the Project in Salestori</inlineHelpText>
+    <label>Project Number</label>
+    <length>25</length>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>true</unique>
+</CustomField>

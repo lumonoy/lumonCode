@@ -4,7 +4,7 @@
     <description>Additional Time for Delivery in Calendar Days</description>
     <externalId>false</externalId>
     <inlineHelpText>Additional Time for Delivery in Calendar Days</inlineHelpText>
-    <label>Additional Delivery Time</label>
+    <label>Additional Delivery Time OLD</label>
     <precision>18</precision>
     <required>false</required>
     <scale>0</scale>

@@ -3,7 +3,7 @@
     <fullName>hasInstallation__c</fullName>
     <description>To decide whether items are part of installation or not</description>
     <externalId>false</externalId>
-    <formula>OR(TEXT(Cost_Category__c) = &apos;Wages&apos;,TEXT(Cost_Type__c) = &apos;Services&apos;)</formula>
+    <formula>OR(TEXT(CostCategory__c) = &apos;Wages&apos;,TEXT(CostType__c) = &apos;Services&apos;)</formula>
     <label>hasInstallation</label>
     <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>

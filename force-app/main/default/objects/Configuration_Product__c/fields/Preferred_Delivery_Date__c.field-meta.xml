@@ -4,7 +4,7 @@
     <description>Customer Preferred Date when Products are Delivered to the Site</description>
     <externalId>false</externalId>
     <inlineHelpText>Customer Preferred Date when Products are Delivered to the Site</inlineHelpText>
-    <label>Preferred Delivery Date</label>
+    <label>Preferred Delivery Date OLD</label>
     <required>false</required>
     <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>

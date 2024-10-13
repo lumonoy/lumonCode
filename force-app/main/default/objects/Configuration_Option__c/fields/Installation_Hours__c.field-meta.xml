@@ -3,7 +3,7 @@
     <fullName>Installation_Hours__c</fullName>
     <defaultValue>0</defaultValue>
     <externalId>false</externalId>
-    <label>Installation Hours</label>
+    <label>Installation Hours OLD</label>
     <precision>5</precision>
     <required>false</required>
     <scale>2</scale>

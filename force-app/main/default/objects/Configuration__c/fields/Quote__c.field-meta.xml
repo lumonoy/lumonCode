@@ -3,8 +3,9 @@
     <fullName>Quote__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <externalId>false</externalId>
-    <label>Quote</label>
+    <label>Plan Quote</label>
     <referenceTo>Quote</referenceTo>
+    <relationshipLabel>Configuration Plans</relationshipLabel>
     <relationshipName>Configurations</relationshipName>
     <required>false</required>
     <trackHistory>false</trackHistory>

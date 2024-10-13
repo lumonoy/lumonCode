@@ -3,7 +3,7 @@
     <fullName>Installation_Address__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <externalId>false</externalId>
-    <label>Installation Address</label>
+    <label>Installation Address OLD</label>
     <referenceTo>Address</referenceTo>
     <relationshipLabel>Delivery Batches</relationshipLabel>
     <relationshipName>Delivery_Batches</relationshipName>

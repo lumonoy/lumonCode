@@ -5,7 +5,7 @@
     <externalId>false</externalId>
     <formula>Number_of_Completed_WOLIs__c / Number_of_Related_WOLIs__c</formula>
     <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
-    <label>Work Completed</label>
+    <label>Work Completed OLD</label>
     <precision>18</precision>
     <required>false</required>
     <scale>1</scale>

@@ -4,7 +4,7 @@
     <description>Estimated Time in Days to finish Installation</description>
     <externalId>false</externalId>
     <inlineHelpText>Estimated Time in Days to finish Installation</inlineHelpText>
-    <label>Installation Time</label>
+    <label>Installation Time OLD</label>
     <precision>18</precision>
     <required>false</required>
     <scale>2</scale>

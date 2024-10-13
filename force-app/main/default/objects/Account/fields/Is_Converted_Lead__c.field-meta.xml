@@ -3,7 +3,7 @@
     <fullName>Is_Converted_Lead__c</fullName>
     <defaultValue>false</defaultValue>
     <externalId>false</externalId>
-    <label>Is Converted Lead</label>
+    <label>Is Converted Lead OLD</label>
     <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>true</trackHistory>
     <type>Checkbox</type>

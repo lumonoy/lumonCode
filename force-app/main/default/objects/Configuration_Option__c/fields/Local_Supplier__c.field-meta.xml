@@ -3,7 +3,7 @@
     <fullName>Local_Supplier__c</fullName>
     <defaultValue>false</defaultValue>
     <externalId>false</externalId>
-    <label>Local Supplier</label>
+    <label>Local Supplier OLD</label>
     <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

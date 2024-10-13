@@ -3,8 +3,9 @@
     <fullName>Case__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <externalId>false</externalId>
-    <label>Case</label>
+    <label>Case OLD</label>
     <referenceTo>Case</referenceTo>
+    <relationshipLabel>Configuration Plans</relationshipLabel>
     <relationshipName>Configurations</relationshipName>
     <required>false</required>
     <trackHistory>false</trackHistory>

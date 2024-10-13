@@ -3,7 +3,7 @@
     <fullName>Site_Location__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <externalId>false</externalId>
-    <label>Site Location</label>
+    <label>Site Location OLD</label>
     <lookupFilter>
         <active>true</active>
         <filterItems>

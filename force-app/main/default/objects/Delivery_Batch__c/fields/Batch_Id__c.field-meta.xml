@@ -3,7 +3,7 @@
     <fullName>Batch_Id__c</fullName>
     <description>Id of the Delivery Batch from Salestori.</description>
     <externalId>false</externalId>
-    <label>Batch Id</label>
+    <label>Batch Id OLD</label>
     <length>255</length>
     <required>false</required>
     <trackTrending>false</trackTrending>

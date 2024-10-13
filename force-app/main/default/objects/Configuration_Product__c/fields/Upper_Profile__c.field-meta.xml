@@ -4,7 +4,7 @@
     <description>&quot;upper_profile&quot; in the Visual Output JSON</description>
     <externalId>false</externalId>
     <inlineHelpText>&quot;upper_profile&quot; in the Visual Output JSON</inlineHelpText>
-    <label>Upper Profile</label>
+    <label>Upper Profile OLD</label>
     <length>255</length>
     <required>false</required>
     <trackHistory>false</trackHistory>

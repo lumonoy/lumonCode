@@ -3,7 +3,7 @@
     <fullName>Price_Weight__c</fullName>
     <defaultValue>false</defaultValue>
     <externalId>false</externalId>
-    <label>Price Weight</label>
+    <label>Price Weight OLD</label>
     <trackHistory>false</trackHistory>
     <type>Checkbox</type>
 </CustomField>

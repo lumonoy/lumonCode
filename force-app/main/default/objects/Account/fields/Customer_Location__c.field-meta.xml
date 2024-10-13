@@ -3,7 +3,7 @@
     <fullName>Customer_Location__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <externalId>false</externalId>
-    <label>Customer Location</label>
+    <label>Customer Location OLD</label>
     <lookupFilter>
         <active>true</active>
         <errorMessage>Location Type is not an Account Location</errorMessage>

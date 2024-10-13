@@ -3,7 +3,7 @@
     <fullName>Number_of_Completed_WOLIs__c</fullName>
     <description>Number of completed WOLIs related to Delivery Batch via a WO.</description>
     <externalId>false</externalId>
-    <label>Number of Completed WOLIs</label>
+    <label>Number of Completed WOLIs OLD</label>
     <precision>6</precision>
     <required>false</required>
     <scale>0</scale>

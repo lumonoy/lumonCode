@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ProjectNumber__c</fullName>
+    <description>Unique Main Project Number</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Project Number Reference</inlineHelpText>
+    <label>Project Number</label>
+    <length>15</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

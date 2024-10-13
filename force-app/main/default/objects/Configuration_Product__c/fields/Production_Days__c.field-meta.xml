@@ -3,7 +3,7 @@
     <fullName>Production_Days__c</fullName>
     <defaultValue>0</defaultValue>
     <externalId>false</externalId>
-    <label>Production Days</label>
+    <label>Production Days OLD</label>
     <precision>5</precision>
     <required>false</required>
     <scale>2</scale>

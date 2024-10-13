@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AutomaticQuoteCreation__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Flag to Indicate if a Quote is created Automatically on Opportunity Creation</description>
+    <externalId>false</externalId>
+    <label>Automatic Quote Creation</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

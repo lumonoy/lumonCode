@@ -4,7 +4,7 @@
     <externalId>false</externalId>
     <formula>Product2.ProductCode</formula>
     <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
-    <label>Product Sales Code</label>
+    <label>Product Sales Code OLD</label>
     <required>false</required>
     <trackHistory>false</trackHistory>
     <type>Text</type>

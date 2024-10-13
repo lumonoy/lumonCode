@@ -3,7 +3,7 @@
     <fullName>Sales_Multiplier__c</fullName>
     <defaultValue>0</defaultValue>
     <externalId>false</externalId>
-    <label>Sales Multiplier</label>
+    <label>Sales Multiplier OLD</label>
     <precision>18</precision>
     <required>false</required>
     <scale>2</scale>

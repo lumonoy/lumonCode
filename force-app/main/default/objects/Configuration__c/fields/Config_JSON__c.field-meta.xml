@@ -3,7 +3,7 @@
     <fullName>Config_JSON__c</fullName>
     <description>(Hidden) Field to Store the Config JSON</description>
     <externalId>false</externalId>
-    <label>Config JSON</label>
+    <label>Config JSON OLD</label>
     <length>131072</length>
     <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>

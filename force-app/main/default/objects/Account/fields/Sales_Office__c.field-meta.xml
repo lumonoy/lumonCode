@@ -3,7 +3,7 @@
     <fullName>Sales_Office__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <externalId>false</externalId>
-    <label>Sales Office</label>
+    <label>Sales Office OLD</label>
     <referenceTo>Office__c</referenceTo>
     <relationshipLabel>Accounts</relationshipLabel>
     <relationshipName>Accounts</relationshipName>

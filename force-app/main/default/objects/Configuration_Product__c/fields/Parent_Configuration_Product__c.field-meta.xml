@@ -3,7 +3,7 @@
     <fullName>Parent_Configuration_Product__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <externalId>false</externalId>
-    <label>Parent Configuration Product</label>
+    <label>Parent Configuration Product OLD</label>
     <referenceTo>Configuration_Product__c</referenceTo>
     <relationshipLabel>Configuration Products</relationshipLabel>
     <relationshipName>Configuration_Products</relationshipName>

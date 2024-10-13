@@ -3,7 +3,7 @@
     <fullName>Wind_Pressure__c</fullName>
     <externalId>false</externalId>
     <inlineHelpText>Wind pressure (kN/m2)</inlineHelpText>
-    <label>Wind Pressure</label>
+    <label>Wind Pressure DEL</label>
     <precision>18</precision>
     <required>false</required>
     <scale>2</scale>

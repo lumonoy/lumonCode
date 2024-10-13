@@ -3,7 +3,7 @@
     <fullName>Batch_Number__c</fullName>
     <description>Batch Number Reference in Opportunity</description>
     <externalId>false</externalId>
-    <label>Batch Number</label>
+    <label>Batch Number OLD</label>
     <precision>18</precision>
     <required>false</required>
     <scale>0</scale>

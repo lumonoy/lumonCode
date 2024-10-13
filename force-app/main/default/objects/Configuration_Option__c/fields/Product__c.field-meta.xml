@@ -6,7 +6,8 @@
     <externalId>false</externalId>
     <label>Product</label>
     <referenceTo>Product2</referenceTo>
-    <relationshipName>Configuration_Options</relationshipName>
+    <relationshipLabel>Configuration Options</relationshipLabel>
+    <relationshipName>ConfigurationOptions</relationshipName>
     <required>false</required>
     <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>

@@ -4,7 +4,7 @@
     <externalId>false</externalId>
     <formula>If(IsPersonAccount, PersonMailingCountry, BillingCountry )</formula>
     <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
-    <label>Customer Country</label>
+    <label>Customer Country OLD</label>
     <required>false</required>
     <trackHistory>false</trackHistory>
     <type>Text</type>

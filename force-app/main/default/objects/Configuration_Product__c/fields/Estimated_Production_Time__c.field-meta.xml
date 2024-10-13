@@ -4,7 +4,7 @@
     <description>Estimated Time required by Factory to finish Production in Calendar Days</description>
     <externalId>false</externalId>
     <inlineHelpText>Estimated Time required by Factory to finish Production in Calendar Days</inlineHelpText>
-    <label>Estimated Production Time</label>
+    <label>Estimated Production Time OLD</label>
     <precision>18</precision>
     <required>false</required>
     <scale>0</scale>

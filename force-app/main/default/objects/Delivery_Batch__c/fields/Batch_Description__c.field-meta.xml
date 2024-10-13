@@ -3,7 +3,7 @@
     <fullName>Batch_Description__c</fullName>
     <description>Description from Salestori.</description>
     <externalId>false</externalId>
-    <label>Description</label>
+    <label>Description OLD</label>
     <length>255</length>
     <required>false</required>
     <trackTrending>false</trackTrending>

@@ -5,7 +5,7 @@
     <externalId>false</externalId>
     <formula>&quot;[&quot; &amp;  TEXT(Batch_Number__c)  &amp; &quot;] &quot; &amp;  Batch_Name__c &amp; &quot; (&quot; &amp; TEXT(Batch_Status__c) &amp; &quot;)&quot;</formula>
     <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
-    <label>Display Name</label>
+    <label>Display Name OLD</label>
     <required>false</required>
     <trackTrending>false</trackTrending>
     <type>Text</type>
