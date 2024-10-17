@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>isMigrated__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Flag to indicate if the Record is created in Salesforce or Migrated</description>
+    <externalId>false</externalId>
+    <label>isMigrated</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

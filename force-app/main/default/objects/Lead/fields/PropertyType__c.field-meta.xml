@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PropertyType__c</fullName>
+    <externalId>false</externalId>
+    <label>Property Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>BusinessType__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetName>Lumon_Property_Types</valueSetName>
+        <valueSettings>
+            <controllingFieldValue>1</controllingFieldValue>
+            <valueName>APA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>1</controllingFieldValue>
+            <valueName>COT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>1</controllingFieldValue>
+            <valueName>ROW</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>1</controllingFieldValue>
+            <valueName>HOU</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>7</controllingFieldValue>
+            <controllingFieldValue>4</controllingFieldValue>
+            <valueName>HRC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>7</controllingFieldValue>
+            <controllingFieldValue>4</controllingFieldValue>
+            <valueName>PRJA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>7</controllingFieldValue>
+            <controllingFieldValue>4</controllingFieldValue>
+            <valueName>PRJB</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,521 @@
+{
+    "apartment": null,
+    "floor": null,
+    "id": "EACAT",
+    "line": null,
+    "name": "EACAT",
+    "products": [
+        {
+            "hasFeaturesBeenConfirmed": false,
+            "hasMeasurementsBeenVerified": false,
+            "id": "L0SYENLhOk6cpE9rUcBe7g",
+            "name": "LG",
+            "priceParameters": [
+                {
+                    "Amount": 0.9592055,
+                    "LocalSupplier": false,
+                    "ParameterCode": "",
+                    "SalesCode": "PD9240229",
+                    "UniqueId": 0,
+                    "Unit": "M2"
+                },
+                {
+                    "Amount": 0.96311,
+                    "LocalSupplier": false,
+                    "ParameterCode": "",
+                    "SalesCode": "PD9240229",
+                    "UniqueId": 0,
+                    "Unit": "M2"
+                },
+                {
+                    "Amount": 0.96311,
+                    "LocalSupplier": false,
+                    "ParameterCode": "",
+                    "SalesCode": "PD9240229",
+                    "UniqueId": 0,
+                    "Unit": "M2"
+                },
+                {
+                    "Amount": 0.96311,
+                    "LocalSupplier": false,
+                    "ParameterCode": "",
+                    "SalesCode": "PD9240229",
+                    "UniqueId": 0,
+                    "Unit": "M2"
+                },
+                {
+                    "Amount": 0.96311,
+                    "LocalSupplier": false,
+                    "ParameterCode": "",
+                    "SalesCode": "PD9240229",
+                    "UniqueId": 0,
+                    "Unit": "M2"
+                },
+                {
+                    "Amount": 0.9592055,
+                    "LocalSupplier": false,
+                    "ParameterCode": "",
+                    "SalesCode": "PD9240229",
+                    "UniqueId": 0,
+                    "Unit": "M2"
+                },
+                {
+                    "Amount": 1.0137729,
+                    "LocalSupplier": false,
+                    "ParameterCode": "",
+                    "SalesCode": "20090016",
+                    "UniqueId": 0,
+                    "Unit": "M2"
+                },
+                {
+                    "Amount": 1.0137729,
+                    "LocalSupplier": false,
+                    "ParameterCode": "",
+                    "SalesCode": "20090016",
+                    "UniqueId": 0,
+                    "Unit": "M2"
+                },
+                {
+                    "Amount": 1.0137729,
+                    "LocalSupplier": false,
+                    "ParameterCode": "",
+                    "SalesCode": "20090016",
+                    "UniqueId": 0,
+                    "Unit": "M2"
+                },
+                {
+                    "Amount": 1.0137729,
+                    "LocalSupplier": false,
+                    "ParameterCode": "",
+                    "SalesCode": "20090016",
+                    "UniqueId": 0,
+                    "Unit": "M2"
+                },
+                {
+                    "Amount": 1.0137729,
+                    "LocalSupplier": false,
+                    "ParameterCode": "",
+                    "SalesCode": "20090016",
+                    "UniqueId": 0,
+                    "Unit": "M2"
+                },
+                {
+                    "Amount": 1.0137729,
+                    "LocalSupplier": false,
+                    "ParameterCode": "",
+                    "SalesCode": "20090016",
+                    "UniqueId": 0,
+                    "Unit": "M2"
+                },
+                {
+                    "Amount": 1.0,
+                    "LocalSupplier": false,
+                    "ParameterCode": "",
+                    "SalesCode": "PD9240062",
+                    "UniqueId": 0,
+                    "Unit": "Kpl"
+                },
+                {
+                    "Amount": 4.55,
+                    "LocalSupplier": false,
+                    "ParameterCode": "",
+                    "SalesCode": "11243001",
+                    "UniqueId": 0,
+                    "Unit": "M"
+                },
+                {
+                    "Amount": 4.57,
+                    "LocalSupplier": false,
+                    "ParameterCode": "",
+                    "SalesCode": "11241205",
+                    "UniqueId": 0,
+                    "Unit": "M"
+                },
+                {
+                    "Amount": 4.57,
+                    "LocalSupplier": false,
+                    "ParameterCode": "",
+                    "SalesCode": "11222206",
+                    "UniqueId": 0,
+                    "Unit": "M"
+                },
+                {
+                    "Amount": 1.0,
+                    "LocalSupplier": false,
+                    "ParameterCode": "",
+                    "SalesCode": "PD9240183",
+                    "UniqueId": 0,
+                    "Unit": "Kpl"
+                },
+                {
+                    "Amount": 1.0,
+                    "LocalSupplier": false,
+                    "ParameterCode": "",
+                    "SalesCode": "PD9240183",
+                    "UniqueId": 0,
+                    "Unit": "Kpl"
+                },
+                {
+                    "Amount": 1.0,
+                    "LocalSupplier": false,
+                    "ParameterCode": "",
+                    "SalesCode": "PD9240124",
+                    "UniqueId": 0,
+                    "Unit": "kpl"
+                },
+                {
+                    "Amount": 1.0,
+                    "LocalSupplier": false,
+                    "ParameterCode": "",
+                    "SalesCode": "PD9240206",
+                    "UniqueId": 0,
+                    "Unit": "kpl"
+                },
+                {
+                    "Amount": 1.0,
+                    "LocalSupplier": false,
+                    "ParameterCode": "",
+                    "SalesCode": "PD9240127",
+                    "UniqueId": 0,
+                    "Unit": "til_kpl"
+                },
+                {
+                    "Amount": 1.0,
+                    "LocalSupplier": false,
+                    "ParameterCode": "",
+                    "SalesCode": "PD9240209",
+                    "UniqueId": 0,
+                    "Unit": "til_kpl"
+                },
+                {
+                    "Amount": 1.0,
+                    "LocalSupplier": false,
+                    "ParameterCode": "",
+                    "SalesCode": "PD9240135",
+                    "UniqueId": 0,
+                    "Unit": "kpl"
+                },
+                {
+                    "Amount": 1.0,
+                    "LocalSupplier": false,
+                    "ParameterCode": "",
+                    "SalesCode": "PD9240138",
+                    "UniqueId": 0,
+                    "Unit": "til_kpl"
+                },
+                {
+                    "Amount": 1.0,
+                    "LocalSupplier": false,
+                    "ParameterCode": "",
+                    "SalesCode": "PD9240146",
+                    "UniqueId": 0,
+                    "Unit": "h"
+                },
+                {
+                    "Amount": 1.0,
+                    "LocalSupplier": false,
+                    "ParameterCode": "",
+                    "SalesCode": "PD9240149",
+                    "UniqueId": 0,
+                    "Unit": "h"
+                },
+                {
+                    "Amount": 1.0,
+                    "LocalSupplier": false,
+                    "ParameterCode": "",
+                    "SalesCode": "PD9240152",
+                    "UniqueId": 0,
+                    "Unit": "kpl"
+                },
+                {
+                    "Amount": 1.0,
+                    "LocalSupplier": false,
+                    "ParameterCode": "",
+                    "SalesCode": "PD9240153",
+                    "UniqueId": 0,
+                    "Unit": "til_kpl"
+                },
+                {
+                    "Amount": 1.0,
+                    "LocalSupplier": false,
+                    "ParameterCode": "",
+                    "SalesCode": "PD9240154",
+                    "UniqueId": 0,
+                    "Unit": "kpl"
+                },
+                {
+                    "Amount": 1.0,
+                    "LocalSupplier": false,
+                    "ParameterCode": "",
+                    "SalesCode": "PD9240161",
+                    "UniqueId": 0,
+                    "Unit": "til_kpl"
+                },
+                {
+                    "Amount": 1.0,
+                    "LocalSupplier": false,
+                    "ParameterCode": "",
+                    "SalesCode": "PD9240162",
+                    "UniqueId": 0,
+                    "Unit": "kpl"
+                },
+                {
+                    "Amount": 1.0,
+                    "LocalSupplier": false,
+                    "ParameterCode": "",
+                    "SalesCode": "PD9240169",
+                    "UniqueId": 0,
+                    "Unit": "til_kpl"
+                },
+                {
+                    "Amount": 1.0,
+                    "LocalSupplier": false,
+                    "ParameterCode": "",
+                    "SalesCode": "PD9240170",
+                    "UniqueId": 0,
+                    "Unit": "kpl"
+                },
+                {
+                    "Amount": 1.0,
+                    "LocalSupplier": false,
+                    "ParameterCode": "",
+                    "SalesCode": "PD9240177",
+                    "UniqueId": 0,
+                    "Unit": "til_kpl"
+                },
+                {
+                    "Amount": 1.0,
+                    "LocalSupplier": false,
+                    "ParameterCode": "",
+                    "SalesCode": "PD9240178",
+                    "UniqueId": 0,
+                    "Unit": "kpl"
+                },
+                {
+                    "Amount": 6.0,
+                    "LocalSupplier": false,
+                    "ParameterCode": "",
+                    "SalesCode": "PD9240096",
+                    "UniqueId": 0,
+                    "Unit": "kpl"
+                },
+                {
+                    "Amount": 1.0,
+                    "LocalSupplier": false,
+                    "ParameterCode": "",
+                    "SalesCode": "PD9240097",
+                    "UniqueId": 0,
+                    "Unit": "kpl"
+                },
+                {
+                    "Amount": 6.0826374,
+                    "LocalSupplier": false,
+                    "ParameterCode": "",
+                    "SalesCode": "PD9240098",
+                    "UniqueId": 0,
+                    "Unit": "M2"
+                },
+                {
+                    "Amount": 4.5,
+                    "LocalSupplier": false,
+                    "ParameterCode": "",
+                    "SalesCode": "PD9240099",
+                    "UniqueId": 0,
+                    "Unit": "kpl"
+                },
+                {
+                    "Amount": 1.0,
+                    "LocalSupplier": false,
+                    "ParameterCode": "",
+                    "SalesCode": "PD9240100",
+                    "UniqueId": 0,
+                    "Unit": "kpl"
+                },
+                {
+                    "Amount": 6.0,
+                    "LocalSupplier": false,
+                    "ParameterCode": "",
+                    "SalesCode": "PD9240118",
+                    "UniqueId": 0,
+                    "Unit": "kpl"
+                },
+                {
+                    "Amount": 6.0,
+                    "LocalSupplier": false,
+                    "ParameterCode": "",
+                    "SalesCode": "PD9240200",
+                    "UniqueId": 0,
+                    "Unit": "kpl"
+                },
+                {
+                    "Amount": 1.0,
+                    "LocalSupplier": false,
+                    "ParameterCode": "",
+                    "SalesCode": "PD9240126",
+                    "UniqueId": 0,
+                    "Unit": "kpl"
+                },
+                {
+                    "Amount": 1.0,
+                    "LocalSupplier": false,
+                    "ParameterCode": "",
+                    "SalesCode": "PD9240208",
+                    "UniqueId": 0,
+                    "Unit": "kpl"
+                },
+                {
+                    "Amount": 6.0,
+                    "LocalSupplier": false,
+                    "ParameterCode": "",
+                    "SalesCode": "PD9240142",
+                    "UniqueId": 0,
+                    "Unit": "kpl"
+                },
+                {
+                    "Amount": 6.0,
+                    "LocalSupplier": false,
+                    "ParameterCode": "",
+                    "SalesCode": "PD9240131",
+                    "UniqueId": 0,
+                    "Unit": "kpl"
+                },
+                {
+                    "Amount": 6.0,
+                    "LocalSupplier": false,
+                    "ParameterCode": "",
+                    "SalesCode": "PD9240120",
+                    "UniqueId": 0,
+                    "Unit": "kpl"
+                },
+                {
+                    "Amount": 6.0,
+                    "LocalSupplier": false,
+                    "ParameterCode": "",
+                    "SalesCode": "PD9240202",
+                    "UniqueId": 0,
+                    "Unit": "kpl"
+                },
+                {
+                    "Amount": 6.0,
+                    "LocalSupplier": false,
+                    "ParameterCode": "",
+                    "SalesCode": "PD9240129",
+                    "UniqueId": 0,
+                    "Unit": "kpl"
+                },
+                {
+                    "Amount": 1.0,
+                    "LocalSupplier": false,
+                    "ParameterCode": "",
+                    "SalesCode": "PD9240137",
+                    "UniqueId": 0,
+                    "Unit": "kpl"
+                },
+                {
+                    "Amount": 6.0,
+                    "LocalSupplier": false,
+                    "ParameterCode": "",
+                    "SalesCode": "PD9240140",
+                    "UniqueId": 0,
+                    "Unit": "kpl"
+                },
+                {
+                    "Amount": 1.0,
+                    "LocalSupplier": false,
+                    "ParameterCode": "",
+                    "SalesCode": "PD9240148",
+                    "UniqueId": 0,
+                    "Unit": "kpl"
+                },
+                {
+                    "Amount": 6.0,
+                    "LocalSupplier": false,
+                    "ParameterCode": "",
+                    "SalesCode": "PD9240151",
+                    "UniqueId": 0,
+                    "Unit": "kpl"
+                },
+                {
+                    "Amount": 4.5,
+                    "LocalSupplier": false,
+                    "ParameterCode": "",
+                    "SalesCode": "PD9240125",
+                    "UniqueId": 0,
+                    "Unit": "m"
+                },
+                {
+                    "Amount": 4.5,
+                    "LocalSupplier": false,
+                    "ParameterCode": "",
+                    "SalesCode": "PD9240207",
+                    "UniqueId": 0,
+                    "Unit": "m"
+                },
+                {
+                    "Amount": 4.5,
+                    "LocalSupplier": false,
+                    "ParameterCode": "",
+                    "SalesCode": "PD9240136",
+                    "UniqueId": 0,
+                    "Unit": "kpl"
+                },
+                {
+                    "Amount": 4.5,
+                    "LocalSupplier": false,
+                    "ParameterCode": "",
+                    "SalesCode": "PD9240147",
+                    "UniqueId": 0,
+                    "Unit": "kpl"
+                },
+                {
+                    "Amount": 4.5,
+                    "LocalSupplier": false,
+                    "ParameterCode": "",
+                    "SalesCode": "PD9240179",
+                    "UniqueId": 0,
+                    "Unit": "kpl"
+                },
+                {
+                    "Amount": 4.56,
+                    "LocalSupplier": false,
+                    "ParameterCode": "",
+                    "SalesCode": "PD9240102",
+                    "UniqueId": 0,
+                    "Unit": "til_m"
+                },
+                {
+                    "Amount": 6.0,
+                    "LocalSupplier": false,
+                    "ParameterCode": "",
+                    "SalesCode": "PD9240155",
+                    "UniqueId": 0,
+                    "Unit": "kpl"
+                },
+                {
+                    "Amount": 6.0,
+                    "LocalSupplier": false,
+                    "ParameterCode": "",
+                    "SalesCode": "PD9240163",
+                    "UniqueId": 0,
+                    "Unit": "kpl"
+                },
+                {
+                    "Amount": 6.0,
+                    "LocalSupplier": false,
+                    "ParameterCode": "",
+                    "SalesCode": "PD9240171",
+                    "UniqueId": 0,
+                    "Unit": "kpl"
+                }
+            ],
+            "productInspectCode": 1,
+            "productInspectMessageKeys": [
+            ],
+            "productLength": 0.0,
+            "reclaimedFeatureMessageKeys": [
+            ],
+            "rvn": "30002816"
+        }
+    ],
+    "version": 2
+}

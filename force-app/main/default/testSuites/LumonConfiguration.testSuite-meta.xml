@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ApexTestSuite xmlns="http://soap.sforce.com/2006/04/metadata">
+    <testClassName>ConfigurationControllerTest</testClassName>
+    <testClassName>ConfigurationDataControllerTest</testClassName>
+    <testClassName>ConfigurationEventTest</testClassName>
+    <testClassName>ConfigurationEventTriggerHandlerTest</testClassName>
+    <testClassName>ConfigurationFileControllerTest</testClassName>
+    <testClassName>ConfigurationItemControllerTest</testClassName>
+    <testClassName>ConfigurationItemsTest</testClassName>
+    <testClassName>ConfigurationOptionControllerTest</testClassName>
+    <testClassName>ConfigurationPlanControllerTest</testClassName>
+    <testClassName>ConfigurationProcessorTest</testClassName>
+    <testClassName>ConfigurationProductControllerTest</testClassName>
+    <testClassName>ConfigurationProductsControllerTest</testClassName>
+    <testClassName>ProcessSoveliaOutputTest</testClassName>
+    <testClassName>ProcessVisualOutputTest</testClassName>
+    <testClassName>SoveliaContainerControllerTest</testClassName>
+    <testClassName>StructureDataTest</testClassName>
+    <testClassName>StructureGeneratorTest</testClassName>
+    <testClassName>VisualConfigurationControllerTest</testClassName>
+    <testClassName>VisualConfigurationTest</testClassName>
+    <testClassName>VisualContainerControllerTest</testClassName>
+    <testClassName>VisualStructureTest</testClassName>
+    <testClassName>VisualTestDataFactory</testClassName>
+</ApexTestSuite>

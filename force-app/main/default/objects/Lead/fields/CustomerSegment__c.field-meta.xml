@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CustomerSegment__c</fullName>
+    <description>This selection segments the customer Lead</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Please choose the type of customer segment.</inlineHelpText>
+    <label>Customer Segment</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>Lumon_Customer_Segments</valueSetName>
+    </valueSet>
+</CustomField>

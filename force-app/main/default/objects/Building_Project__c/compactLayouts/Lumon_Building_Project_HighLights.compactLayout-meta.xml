@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lumon_Building_Project_HighLights</fullName>
+    <fields>ProjectNumber__c</fields>
+    <fields>Name</fields>
+    <fields>Customer__c</fields>
+    <fields>CustomerSegment__c</fields>
+    <fields>ProjectStartDate__c</fields>
+    <fields>ProjectEndDate__c</fields>
+    <label>Lumon Building Project HighLights</label>
+</CompactLayout>

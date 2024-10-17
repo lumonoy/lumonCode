@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ApexTestSuite xmlns="http://soap.sforce.com/2006/04/metadata">
+    <testClassName>PriceBookEntryControllerTest</testClassName>
+    <testClassName>PricingAdditionalCostsControllerTest</testClassName>
+    <testClassName>PricingCalculatorTest</testClassName>
+    <testClassName>PricingComponentControllerTest</testClassName>
+    <testClassName>PricingControllerTest</testClassName>
+    <testClassName>PricingExtraSalesControllerTest</testClassName>
+    <testClassName>PricingParameterControllerTest</testClassName>
+    <testClassName>PricingPaymentInstallmentsControllerTest</testClassName>
+    <testClassName>PricingSummaryControllerTest</testClassName>
+    <testClassName>PricingSummaryServiceTest</testClassName>
+</ApexTestSuite>

@@ -1,0 +1,229 @@
+{
+	"order": {
+		"order_info": {
+			"axcompanyid": "LSU",
+			"currency": "EUR",
+			"business_unit": "401",
+			"customer_segmentid": "4000",
+			"customer_segmentname": "Project new construction",
+			"propertytype": "Apartment",
+			"order_leadreference_vch": "Event for professionals",
+			"language_code_lan": "fi-FI",
+			"customer_reference": "",
+			"order_type": "Normal",
+			"order_number": "90000001",
+			"order_attachment": "\\\\frendsprod\\D365TEST\\SalesTori\\OUT\\attachments\\",	
+			"vendorid": "LU",		
+			"promised_deliveryweek": "2025/44",
+			"promised_date": "21.11.2025",
+			"main_contractor": "no",					
+			"project_number": "000001",
+			"project_group": "PROWIP",
+			"parent_project": "",			
+			"subproject_info": {
+				"subproject_number": "000001_01",
+				"subproject_group": "PROWar",
+				"subproject_category": "Warranty",
+				"subproject_cost": "0.00",
+				"subproject_ordertype": "Normal",
+				"subproject_parentproject": "000001",
+				"subproject_chargeable": "non-chargeable"
+			},
+			"domestic_help": "",
+			"domestic_text": "",
+			"chargeable": "chargeable",
+			"worknumbername": "",
+			"pricelist": {
+				"pricelist_name": "Lumon Prices"
+			},
+			"sales_person": {
+				"username": "lsalb2b",
+				"supervisor": "lsuper",
+				"firstname": "Sales",
+				"lastname": "Test"
+			},			
+			"customer_address": {
+				"address_description": "Test B2B Customer Address",
+				"note": "",
+				"customer_name": "Test B2B Customer 1",
+				"number": "11111",
+				"customer_id": "",
+				"firstname": "Test",
+				"lastname": "Contact 1",
+				"contact_person": "Test Contact 1",
+				"phone_number": "000-1111111",
+				"email": "b2b.contact1@test.me",
+				"fax": "",
+				"street_address": "Street 1a",
+				"postal_code": "12345",
+				"city": "Town",
+				"country": "FIN",
+				"province": "",
+				"county": ""	
+			},
+			"invoice_address": {
+				"address_description": "Test B2B Billing Address",
+				"note": "",
+				"number": "22222",
+				"firstname": "Test",
+				"lastname": "Contact 2",
+				"contact_person": "Test Contact 2",
+				"phone_number": "000-2222222",
+				"email": "b2b.contact2@test.me",
+				"fax": "",
+				"street_address": "Street 2",
+				"postal_code": "12345",
+				"city": "Town",
+				"country": "FIN",
+				"province": "",
+				"county": "",
+				"payment_terms": "07",
+				"payment": "REF",
+				"invoice_type": "Email",
+				"paytrail_reference_id": ""
+			},
+			"install_address": {
+				"address_description": "Test B2B Installation Address",
+				"note": "",
+				"number": "22222",
+				"firstname": "Test",
+				"lastname": "Contact 3",
+				"contact_person": "Test Contact 3",
+				"phone_number": "000-3333333",
+				"email": "b2b.contact3@test.me",
+				"fax": "",
+				"street_address": "Street 2",
+				"postal_code": "12345",
+				"city": "Town",
+				"country": "FIN",
+				"province": "",
+				"county": ""
+			},
+			"delivery_address": {
+				"address_description": "Test B2B Delivery Address",
+				"note": "",
+				"number": "22222",
+				"firstname": "Test",
+				"lastname": "Contact 3",
+				"contact_person": "Test Contact 3",
+				"phone_number": "000-3333333",
+				"email": "b2b.contact3@test.me",
+				"fax": "",
+				"street_address": "Street 2",
+				"postal_code": "12345",
+				"city": "Town",
+				"country": "FIN",
+				"province": "",
+				"county": "",
+				"delivery_terms": "DAP",
+				"delivery_type": "delivery"
+			},
+			"budget": {
+				"project_category": [
+					{
+						"category": "FactoryPurchase",
+						"cost": "1000"
+					},
+					{
+						"category": "InstallSupplies",
+						"cost": "250"
+					},
+					{
+						"category": "SalesFreight",
+						"cost": "500"
+					},
+					{
+						"category": "Wages",
+						"cost": "100"
+					}
+				]
+			}
+		},
+		"groups": {
+			"group": [
+				{
+					"delivery_batch": "1",
+					"delivery_batch_status": "Mitattu",
+					"delivery_batch_receive_date": "25.10.2025",
+					"delivery_batch_delivery_date": "22.10.2025",
+					"group_attachment": "",
+					"AXconfiguration": "no",
+					"group_name": "Avautuva (LGR)",
+					"pcs": "1",
+					"structurenumber": "9000000100000001",
+					"originalstructurenumber": "",
+					"install_start_date": "25.10.2025",
+					"install_end_date": "21.11.2025",
+					"additional_deliverytime": "0",
+					"process": "Normal",
+					"product_code": "90240001",
+					"storageid": "VAN",
+					"packing_order": "1",
+					"unit": "A",
+					"line": "1",
+					"floor": "9",
+					"chargeable": "chargeable",
+                    "factory_price": "200.00",
+					"fproduct": "200.00",
+					"ffreight": "0.00",
+					"finstall": "0.00",
+					"fother": "0.00",
+                    "purchase_price": "100.00",
+					"pproduct": "0.00",
+					"pfreight": "0.00",
+					"pinstall": "100.00",
+					"pother": "0.00",
+					"sales_price": "400.00",
+					"sproduct": "200.00",
+					"sfreight": "25.00",
+					"sinstall": "150.00",
+					"sother": "25.00",
+					"calculated_salesprice": "500.00",
+					"contract_price": "550.00",
+					"salestori_plan_name": "LGR Basic",
+					"glass_m2": "4.00",
+					"blinds_m2": "0.00",
+					"glass_pcs": "4",
+					"product_length": "2000",
+					"group_weight": "100.000",
+					"product_attributes": {
+						"attributeid": "20001111"
+					},
+					"installed": "True",
+					"OrderLine": {
+                        "BOMVersion": "9000000100000001",
+						"ItemID": "90240001",
+						"ItemName": "LG",
+						"InventLocationID": "VAN",
+						"Dimension1": "401",
+						"Dimension5": "imTest",
+						"DeliveryName": "Test B2B Delivery Address",
+						"DeliveryStreet": "Street 1a",
+						"DeliveryZipCode": "12345",
+						"DeliveryCity": "Town",
+						"DeliveryCountryRegionID": "FI",
+						"LineAmount": "1000.00",
+						"Plan_name": "LGR Basic",
+						"Floor": "1",
+                        "Line": "1",
+                        "Apartment": "A",
+						"DlvBatchID": "1",						
+						"FactoryConfirmedDlv": "",
+						"InstallHours": "5",
+						"InstallStart": "25.10.2025",                       
+						"ReservationStart": "2025-10-25T00.00.00",
+						"DeliveryDatePromised": "01.11.2025",
+                        "PieceWork_pay": "150.00"
+					},
+					"AssemblyInstructions": {
+						"InstallNotes": "",
+						"Attachments": {
+							"Attachment": "salestori-asennuskortti-9000000100000001.pdf",
+							"Folder": "\\270000\\270080\\"
+						}
+					}
+				}
+			]
+		}
+	}
+}

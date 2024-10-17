@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ApexTestSuite xmlns="http://soap.sforce.com/2006/04/metadata">
+    <testClassName>FSL_GetAppointmentControllerTest</testClassName>
+    <testClassName>FSL_ScheduleAppointmentFlowTest</testClassName>
+    <testClassName>FSL_ScheduleAppointmentFlowTests</testClassName>
+    <testClassName>FSL_Work_Order_View_Controller_Test</testClassName>
+    <testClassName>OperatingHoursHolidayTriggerTest</testClassName>
+    <testClassName>ResourceAbsenceControllerTest</testClassName>
+    <testClassName>ReSubmitWorkOrderLICtrlTest</testClassName>
+    <testClassName>ServiceAppointmentServiceTest</testClassName>
+    <testClassName>ServiceResourceTriggerTest</testClassName>
+    <testClassName>ServiceTerritoryMemberTriggerTest</testClassName>
+    <testClassName>WorkOrderLineItemTriggerHandlerTest</testClassName>
+</ApexTestSuite>
