@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Defines the Operating Hours timeslot calendar for the custom Scheduling Component to use. Base value comes from the Metadata, but this can be overridden by linking another Operating Hours calendar here. --></help>
+    <label><!-- Scheduling Calendar --></label>
+    <name>SchedulingCalendar__c</name>
+    <relationshipLabel><!-- Service Territories --></relationshipLabel>
+</CustomFieldTranslation>

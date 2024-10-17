@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Type of Process Data --></help>
+    <label><!-- Data Type --></label>
+    <name>DataType__c</name>
+    <picklistValues>
+        <masterLabel>OrderMessage</masterLabel>
+        <translation><!-- OrderMessage --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>frends</masterLabel>
+        <translation><!-- frends --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>mepco</masterLabel>
+        <translation><!-- mepco --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>plantori</masterLabel>
+        <translation><!-- plantori --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>sovelia</masterLabel>
+        <translation><!-- sovelia --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>visual</masterLabel>
+        <translation><!-- visual --></translation>
+    </picklistValues>
+</CustomFieldTranslation>
