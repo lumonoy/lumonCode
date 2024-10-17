@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- End signing redirect URL --></label>
+    <name>cadmus_sign2__End_signing_redirect_URL__c</name>
+</CustomFieldTranslation>

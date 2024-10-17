@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Use Form Fields From Template --></label>
+    <name>cadmus_sign2__Use_Form_Fields_From_Template__c</name>
+</CustomFieldTranslation>

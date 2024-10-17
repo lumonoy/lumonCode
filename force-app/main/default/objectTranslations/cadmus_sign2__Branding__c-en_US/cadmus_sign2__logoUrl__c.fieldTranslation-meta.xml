@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Custom branding logo to show on the singing page. Make sure this logo is not huge (otherwise it will slow down the page) and does not contain any cookies when retrieved. It is also best to use a transparent picture. --></help>
+    <label><!-- Logo URL --></label>
+    <name>cadmus_sign2__logoUrl__c</name>
+</CustomFieldTranslation>

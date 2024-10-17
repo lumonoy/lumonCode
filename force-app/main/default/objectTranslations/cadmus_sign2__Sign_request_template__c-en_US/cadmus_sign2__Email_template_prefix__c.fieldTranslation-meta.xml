@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Name of email template group --></help>
+    <label><!-- Email Template Prefix --></label>
+    <name>cadmus_sign2__Email_template_prefix__c</name>
+</CustomFieldTranslation>

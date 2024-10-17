@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Disallow user to sign as other users from the sign request page. --></help>
+    <label><!-- Disable Sign As --></label>
+    <name>cadmus_sign2__Disable_Sign_As__c</name>
+</CustomFieldTranslation>

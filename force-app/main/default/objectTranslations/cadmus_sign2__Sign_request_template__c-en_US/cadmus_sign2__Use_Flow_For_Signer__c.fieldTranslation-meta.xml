@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Use Flow For Signer --></label>
+    <name>cadmus_sign2__Use_Flow_For_Signer__c</name>
+</CustomFieldTranslation>

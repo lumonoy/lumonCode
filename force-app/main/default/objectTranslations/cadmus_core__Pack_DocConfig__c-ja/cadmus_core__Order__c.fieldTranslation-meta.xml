@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>処理するドキュメント設定の順序を指定します。これは、PDFを結合する際に重要になります。</help>
+    <label><!-- Order --></label>
+    <name>cadmus_core__Order__c</name>
+</CustomFieldTranslation>

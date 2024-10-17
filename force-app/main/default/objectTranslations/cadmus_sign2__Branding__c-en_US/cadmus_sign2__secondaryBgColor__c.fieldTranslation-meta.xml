@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Color of the secondary Action buttons in Hex color code. This color is used on eg the button to reject or download. --></help>
+    <label><!-- Secondary Button Color --></label>
+    <name>cadmus_sign2__secondaryBgColor__c</name>
+</CustomFieldTranslation>

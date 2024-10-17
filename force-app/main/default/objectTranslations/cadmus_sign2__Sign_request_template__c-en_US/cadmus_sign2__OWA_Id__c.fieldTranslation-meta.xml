@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- OWA Id --></label>
+    <name>cadmus_sign2__OWA_Id__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>SOQLが返す正しい種類を選択します。例：SOQLの最後にLIMIT 1を使用する場合は常に「単一sObject」、それ以外は「sObjectリスト」を選択する必要があります。</help>
+    <label><!-- Type --></label>
+    <name>cadmus_core__Type__c</name>
+    <picklistValues>
+        <masterLabel>List of sObjects</masterLabel>
+        <translation>sObjectリスト</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Single sObject</masterLabel>
+        <translation>単一sObject</translation>
+    </picklistValues>
+</CustomFieldTranslation>
