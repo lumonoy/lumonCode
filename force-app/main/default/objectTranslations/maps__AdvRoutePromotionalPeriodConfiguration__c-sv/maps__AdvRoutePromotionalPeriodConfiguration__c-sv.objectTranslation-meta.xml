@@ -31,5 +31,16 @@
         <value>Konfigurationer av promoperiod i Maps Advanced</value>
     </caseValues>
     <gender>Feminine</gender>
+    <layouts>
+        <layout>Maps Advanced Promotional Period Config Layout</layout>
+        <sections>
+            <label>Anpassade länkar</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Standardvärden</label>
+            <section>Default Values</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Namn på konfiguration av promoperiod i M</nameFieldLabel>
 </CustomObjectTranslation>

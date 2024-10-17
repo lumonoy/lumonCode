@@ -4,5 +4,12 @@
         <plural>false</plural>
         <value>Maps Advanced 預設值</value>
     </caseValues>
+    <layouts>
+        <layout>Maps Advanced Default Value Layout</layout>
+        <sections>
+            <label>自訂連結</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Maps Advanced 預設值名稱</nameFieldLabel>
 </CustomObjectTranslation>

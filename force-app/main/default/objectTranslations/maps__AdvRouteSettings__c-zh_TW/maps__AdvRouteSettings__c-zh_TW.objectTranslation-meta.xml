@@ -4,5 +4,12 @@
         <plural>false</plural>
         <value>Maps Advanced 路線設定</value>
     </caseValues>
+    <layouts>
+        <layout>Maps Advanced Route Settings Layout</layout>
+        <sections>
+            <label>自訂連結</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Maps Advanced 路線設定名稱</nameFieldLabel>
 </CustomObjectTranslation>

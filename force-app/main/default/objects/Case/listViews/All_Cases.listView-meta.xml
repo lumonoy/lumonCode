@@ -12,8 +12,6 @@
     <columns>CaseGroup__c</columns>
     <columns>CaseType__c</columns>
     <columns>CASES.RECORDTYPE</columns>
-    <columns>FreshdeskId__c</columns>
-    <columns>FreshdeskGroup__c</columns>
     <filterScope>Everything</filterScope>
     <label>All Cases</label>
     <sharedTo>

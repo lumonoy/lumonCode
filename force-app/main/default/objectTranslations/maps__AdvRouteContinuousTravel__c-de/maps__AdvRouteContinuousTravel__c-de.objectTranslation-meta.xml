@@ -41,5 +41,24 @@
         <value>Maps Advanced-Routendauerfahrten</value>
     </caseValues>
     <gender>Feminine</gender>
+    <layouts>
+        <layout>Maps Advanced Route Continuous Travel Layout</layout>
+        <sections>
+            <label>Benutzerdefinierte Links</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Zieladresse</label>
+            <section>End Address</section>
+        </sections>
+        <sections>
+            <label>Startadresse</label>
+            <section>Start Address</section>
+        </sections>
+        <sections>
+            <label>Fahrtdatumswerte</label>
+            <section>Travel Dates</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Maps-Planername für Dauerfahrt</nameFieldLabel>
 </CustomObjectTranslation>

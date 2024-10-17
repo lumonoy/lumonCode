@@ -3,7 +3,7 @@
     <fullName>Cost_Type__c</fullName>
     <externalId>false</externalId>
     <inlineHelpText>Second Level Grouping of Costs</inlineHelpText>
-    <label>Cost Type</label>
+    <label>Cost Type OLD</label>
     <required>false</required>
     <trackHistory>false</trackHistory>
     <type>Picklist</type>
@@ -43,10 +43,6 @@
         <valueSettings>
             <controllingFieldValue>InstallSupplies</controllingFieldValue>
             <valueName>as.tarvike</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>Manhours</controllingFieldValue>
-            <valueName>askuormitu</valueName>
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>RentedMachinery</controllingFieldValue>
@@ -107,6 +103,10 @@
         <valueSettings>
             <controllingFieldValue>TravelExpenses</controllingFieldValue>
             <valueName>kulukorv.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Manhours</controllingFieldValue>
+            <valueName>askuormitu</valueName>
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>Wages</controllingFieldValue>

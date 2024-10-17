@@ -9,5 +9,12 @@
         <value>Grupos de filtro de consulta de rotas de mapas avançados</value>
     </caseValues>
     <gender>Masculine</gender>
+    <layouts>
+        <layout>Maps Advanced Route Query Filter Group Layout</layout>
+        <sections>
+            <label>Links personalizados</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Nome do grupo de filtros de consulta de</nameFieldLabel>
 </CustomObjectTranslation>

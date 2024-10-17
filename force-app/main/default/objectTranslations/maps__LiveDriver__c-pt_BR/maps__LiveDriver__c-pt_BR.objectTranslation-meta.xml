@@ -9,5 +9,20 @@
         <value>Condutores de mapas ativos</value>
     </caseValues>
     <gender>Masculine</gender>
+    <layouts>
+        <layout>Maps Live Driver Layout</layout>
+        <sections>
+            <label>Endereço</label>
+            <section>Address</section>
+        </sections>
+        <sections>
+            <label>Links personalizados</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Alertas de telemática ao condutor</label>
+            <section>Driver Telematics Alerts</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Nome do condutor do Maps Live</nameFieldLabel>
 </CustomObjectTranslation>

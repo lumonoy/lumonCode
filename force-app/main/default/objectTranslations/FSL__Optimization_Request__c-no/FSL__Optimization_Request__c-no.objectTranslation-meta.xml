@@ -31,5 +31,20 @@
         <value>Optimaliseringsforespørsler</value>
     </caseValues>
     <gender>Neuter</gender>
+    <layouts>
+        <layout>Optimization Request Layout</layout>
+        <sections>
+            <label>Tilpassede lenker</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Optimeringsforespørselsnummer</nameFieldLabel>
+    <sharingReasons>
+        <label><!-- Related Service Territory --></label>
+        <name>FSL__Related_Service_Territory</name>
+    </sharingReasons>
+    <sharingReasons>
+        <label><!-- Related Service Territory Member --></label>
+        <name>FSL__Related_Service_Territory_Member</name>
+    </sharingReasons>
 </CustomObjectTranslation>

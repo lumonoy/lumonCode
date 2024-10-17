@@ -41,5 +41,24 @@
         <value>Täglichen Zusammenfassungen für Maps-Live-Vermögenswerte</value>
     </caseValues>
     <gender>Feminine</gender>
+    <layouts>
+        <layout>Maps Live Asset Daily Summary Layout</layout>
+        <sections>
+            <label>Benutzerdefinierte Links</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Reisekilometerbezogen</label>
+            <section>Mileage Related</section>
+        </sections>
+        <sections>
+            <label>Zeitbezogen</label>
+            <section>Time Related</section>
+        </sections>
+        <sections>
+            <label>Ereignisse insgesamt</label>
+            <section>Total Events</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Name der täglichen Zusammenfassung für M</nameFieldLabel>
 </CustomObjectTranslation>

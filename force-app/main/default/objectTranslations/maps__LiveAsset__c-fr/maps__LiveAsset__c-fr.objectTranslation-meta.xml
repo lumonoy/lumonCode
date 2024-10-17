@@ -9,6 +9,13 @@
         <value>Actifs live Maps</value>
     </caseValues>
     <gender>Masculine</gender>
+    <layouts>
+        <layout>Maps Live Asset Layout</layout>
+        <sections>
+            <label>Liens personnalisés</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Nom de l&apos;actif live Maps</nameFieldLabel>
     <startsWith>Vowel</startsWith>
 </CustomObjectTranslation>

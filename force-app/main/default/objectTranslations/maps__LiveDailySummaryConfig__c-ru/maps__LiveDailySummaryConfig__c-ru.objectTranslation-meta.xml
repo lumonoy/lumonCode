@@ -61,5 +61,24 @@
         <value>Конфигурациях ежедневной динамической сводки Maps</value>
     </caseValues>
     <gender>Feminine</gender>
+    <layouts>
+        <layout>Maps Live Daily Summary Configuration Layout</layout>
+        <sections>
+            <label>Настраиваемые ссылки</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Последний пакет</label>
+            <section>Last Batch</section>
+        </sections>
+        <sections>
+            <label>Связано с превышением скорости</label>
+            <section>Speeding Related</section>
+        </sections>
+        <sections>
+            <label>Связано с остановкой</label>
+            <section>Stop Related</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Имя конфигурации ежедневных динамических</nameFieldLabel>
 </CustomObjectTranslation>

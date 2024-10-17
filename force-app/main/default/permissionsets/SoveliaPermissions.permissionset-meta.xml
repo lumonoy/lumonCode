@@ -25,11 +25,6 @@
         <enabled>true</enabled>
     </classAccesses>
     <description>Permissions to use Sovelia Configurator</description>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>EmailMessage.IsMigrated__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
     <hasActivationRequired>false</hasActivationRequired>
     <label>Sovelia Configurator Permissions</label>
 </PermissionSet>

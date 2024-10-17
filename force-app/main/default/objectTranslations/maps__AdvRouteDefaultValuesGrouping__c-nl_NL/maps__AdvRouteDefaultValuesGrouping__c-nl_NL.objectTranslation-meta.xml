@@ -9,5 +9,12 @@
         <value>Groepen standaardwaarden Maps Advanced</value>
     </caseValues>
     <gender>Feminine</gender>
+    <layouts>
+        <layout>Maps Advanced Default Values Group Layout</layout>
+        <sections>
+            <label>Aangepaste koppelingen</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Standaardwaarden groepsnaam Maps Advance</nameFieldLabel>
 </CustomObjectTranslation>

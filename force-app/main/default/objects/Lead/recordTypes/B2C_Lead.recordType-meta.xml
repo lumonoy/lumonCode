@@ -7,10 +7,72 @@
     <description>Record type for B2C Leads</description>
     <label>B2C Lead</label>
     <picklistValues>
+        <picklist>BusinessType__c</picklist>
+        <values>
+            <fullName>0</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>7</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>9</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
         <picklist>Business_Type__c</picklist>
+        <values>
+            <fullName>0</fullName>
+            <default>false</default>
+        </values>
         <values>
             <fullName>1</fullName>
             <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>CustomerSegment__c</picklist>
+        <values>
+            <fullName>100</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1000</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1100</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4000</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4100</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>7000</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>9000</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>9100</fullName>
+            <default>false</default>
         </values>
     </picklistValues>
     <picklistValues>
@@ -177,11 +239,35 @@
     <picklistValues>
         <picklist>Language__c</picklist>
         <values>
-            <fullName>en</fullName>
+            <fullName>da</fullName>
             <default>false</default>
         </values>
         <values>
-            <fullName>fr_CA</fullName>
+            <fullName>de</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>es</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>fi</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>fr</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>nb</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>nl</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>sv</fullName>
             <default>false</default>
         </values>
     </picklistValues>
@@ -329,6 +415,37 @@
         </values>
         <values>
             <fullName>They%2FThem</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>PropertyType__c</picklist>
+        <values>
+            <fullName>APA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>COT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HOU</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HRC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRJA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRJB</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ROW</fullName>
             <default>false</default>
         </values>
     </picklistValues>

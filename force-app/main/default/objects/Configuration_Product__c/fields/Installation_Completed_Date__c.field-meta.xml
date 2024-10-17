@@ -4,7 +4,7 @@
     <description>Date when Installation is completed</description>
     <externalId>false</externalId>
     <inlineHelpText>Date when Installation is completed</inlineHelpText>
-    <label>Installation Completed Date</label>
+    <label>Installation Completed Date OLD</label>
     <required>false</required>
     <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>

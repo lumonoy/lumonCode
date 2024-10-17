@@ -31,6 +31,21 @@
         <value>Αιτημάτων βελτιστοποίησης</value>
     </caseValues>
     <gender>Neuter</gender>
+    <layouts>
+        <layout>Optimization Request Layout</layout>
+        <sections>
+            <label>Προσαρμοσμένοι σύνδεσμοι</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Αριθμός αιτήματος βελτιστοποίησης</nameFieldLabel>
+    <sharingReasons>
+        <label><!-- Related Service Territory --></label>
+        <name>FSL__Related_Service_Territory</name>
+    </sharingReasons>
+    <sharingReasons>
+        <label><!-- Related Service Territory Member --></label>
+        <name>FSL__Related_Service_Territory_Member</name>
+    </sharingReasons>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

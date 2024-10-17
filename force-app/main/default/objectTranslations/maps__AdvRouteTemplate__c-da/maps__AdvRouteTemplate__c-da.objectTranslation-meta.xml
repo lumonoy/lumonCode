@@ -31,5 +31,24 @@
         <value>Maps Advanced Route-skabeloner</value>
     </caseValues>
     <gender>Feminine</gender>
+    <layouts>
+        <layout>Maps Advanced Route Template Layout</layout>
+        <sections>
+            <label>Indstillinger for automatisk genoptimering</label>
+            <section>Auto Reoptimization Settings</section>
+        </sections>
+        <sections>
+            <label>Tilpassede links</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Varighedsoplysninger</label>
+            <section>Duration Info</section>
+        </sections>
+        <sections>
+            <label>Skabelonfuldførelse</label>
+            <section>Template Completion</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Maps Advanced Route-skabelonnavn</nameFieldLabel>
 </CustomObjectTranslation>

@@ -31,5 +31,24 @@
         <value>Daglige sammendrag for Maps Live-aktivum</value>
     </caseValues>
     <gender>Neuter</gender>
+    <layouts>
+        <layout>Maps Live Asset Daily Summary Layout</layout>
+        <sections>
+            <label>Tilpassede lenker</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Kjørelengderelatert</label>
+            <section>Mileage Related</section>
+        </sections>
+        <sections>
+            <label>Tidsrelatert</label>
+            <section>Time Related</section>
+        </sections>
+        <sections>
+            <label>Totalt antall hendelser</label>
+            <section>Total Events</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Navn på daglig sammendrag for Maps Live-</nameFieldLabel>
 </CustomObjectTranslation>

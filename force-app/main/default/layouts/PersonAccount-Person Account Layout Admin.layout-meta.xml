@@ -47,10 +47,6 @@
                 <behavior>Edit</behavior>
                 <field>Language__c</field>
             </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>IsMigrated__pc</field>
-            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>

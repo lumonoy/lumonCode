@@ -5,7 +5,7 @@
     <externalId>false</externalId>
     <formula>IF(IsPersonAccount,&quot;Consumer&quot;, 
 IF(ISBLANK(TEXT( Business_Type__c )),TEXT(Type),TEXT( Business_Type__c)))</formula>
-    <label>Customer Type</label>
+    <label>Customer Type OLD</label>
     <required>false</required>
     <trackHistory>false</trackHistory>
     <type>Text</type>

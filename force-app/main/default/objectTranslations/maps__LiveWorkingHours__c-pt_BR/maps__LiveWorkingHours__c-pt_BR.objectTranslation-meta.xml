@@ -9,5 +9,16 @@
         <value>Horas de trabalho de mapas ativos</value>
     </caseValues>
     <gender>Feminine</gender>
+    <layouts>
+        <layout>Maps Live Working Hours Layout</layout>
+        <sections>
+            <label>Links personalizados</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Horários de trabalho</label>
+            <section>Working Hours</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Nome do horário de trabalho do Maps Live</nameFieldLabel>
 </CustomObjectTranslation>

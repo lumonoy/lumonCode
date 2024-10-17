@@ -1,13 +1,13 @@
 /**
- * @description       : 
+ * @description       : NOT IN USE ConfigurationEventTriggerHandler commented Out
  * @author            : Henk Reynders
  * @group             : 
- * @last modified on  : 12-02-2023
+ * @last modified on  : 10-08-2024
  * @last modified by  : Henk Reynders
 **/
 @IsTest(isParallel=false)
 public class ConfigurationEventTriggerHandlerTest {
-    @TestSetup
+    /*@TestSetup
     static void prepareData(){
         Test.startTest();
         LumonTestDataFactory.setupProducts();
@@ -53,5 +53,5 @@ public class ConfigurationEventTriggerHandlerTest {
 		Test.startTest();
 			ConfigurationEventTriggerHandler.processConfiguration(configChangeEvents);
 		Test.stopTest();
-	}
+	}*/
 }

@@ -4,5 +4,12 @@
         <plural>false</plural>
         <value>PDF Butler パック</value>
     </caseValues>
+    <layouts>
+        <layout>PDF Butler Pack Layout</layout>
+        <sections>
+            <label>カスタムリンク</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>PDF Butler パック名</nameFieldLabel>
 </CustomObjectTranslation>

@@ -61,5 +61,20 @@
         <value>Żądaniach optymalizacji</value>
     </caseValues>
     <gender>Neuter</gender>
+    <layouts>
+        <layout>Optimization Request Layout</layout>
+        <sections>
+            <label>Niestandardowe linki</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Numer żądania optymalizacji</nameFieldLabel>
+    <sharingReasons>
+        <label><!-- Related Service Territory --></label>
+        <name>FSL__Related_Service_Territory</name>
+    </sharingReasons>
+    <sharingReasons>
+        <label><!-- Related Service Territory Member --></label>
+        <name>FSL__Related_Service_Territory_Member</name>
+    </sharingReasons>
 </CustomObjectTranslation>

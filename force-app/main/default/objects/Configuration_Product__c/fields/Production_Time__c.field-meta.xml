@@ -4,7 +4,7 @@
     <externalId>false</externalId>
     <formula>MAX(Production_Days__c) +MAX(Production_Extra_Days__c)</formula>
     <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
-    <label>Production Time</label>
+    <label>Production Time OLD</label>
     <precision>18</precision>
     <required>false</required>
     <scale>2</scale>

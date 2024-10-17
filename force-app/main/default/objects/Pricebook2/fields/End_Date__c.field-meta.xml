@@ -3,7 +3,7 @@
     <fullName>End_Date__c</fullName>
     <description>Date when Prices Expire</description>
     <externalId>false</externalId>
-    <label>End Date</label>
+    <label>End Date OLD</label>
     <required>false</required>
     <trackHistory>false</trackHistory>
     <type>Date</type>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <help><!-- Cost of Goods Sold (COGS) --></help>
-    <label><!-- Cost Of Goods Sold --></label>
+    <label><!-- Cost Of Goods Sold OLD --></label>
     <name>Cost_Of_Goods_Sold__c</name>
 </CustomFieldTranslation>

@@ -9,5 +9,12 @@
         <value>Quilometragens de estado de resumo de ativos de mapas</value>
     </caseValues>
     <gender>Feminine</gender>
+    <layouts>
+        <layout>Maps Live Summary State Mileage Layout</layout>
+        <sections>
+            <label>Links personalizados</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Nome do resumo da milhagem estadual do M</nameFieldLabel>
 </CustomObjectTranslation>

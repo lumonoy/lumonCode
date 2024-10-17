@@ -9,6 +9,13 @@
         <value>Caches SLR</value>
     </caseValues>
     <gender>Masculine</gender>
+    <layouts>
+        <layout>SLR Cache Layout</layout>
+        <sections>
+            <label>Liens personnalisés</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Numéro de cache SLR</nameFieldLabel>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

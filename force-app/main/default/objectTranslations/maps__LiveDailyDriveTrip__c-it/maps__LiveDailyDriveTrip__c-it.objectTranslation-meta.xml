@@ -9,6 +9,29 @@
         <value>Viaggi in auto giornalieri live di Maps</value>
     </caseValues>
     <gender>Masculine</gender>
+    <layouts>
+        <layout>Maps Live Daily Drive Trip Layout</layout>
+        <sections>
+            <label>Informazioni inizio viaggio</label>
+            <section>Begin Trip Information</section>
+        </sections>
+        <sections>
+            <label>Link personalizzati</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Informazioni fine viaggio</label>
+            <section>End Trip Information</section>
+        </sections>
+        <sections>
+            <label>Informazioni guidatore viaggio</label>
+            <section>Trip Driver Information</section>
+        </sections>
+        <sections>
+            <label>Informazioni viaggio</label>
+            <section>Trip Information</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Nome viaggio in auto giornaliero live di</nameFieldLabel>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

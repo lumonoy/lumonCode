@@ -15,7 +15,7 @@
         <datatype>number</datatype>
         <description>Count of cases resolved within SLA.</description>
         <developerName>FORMULA2</developerName>
-        <isActive>true</isActive>
+        <isActive>false</isActive>
         <isCrossBlock>false</isCrossBlock>
         <masterLabel>Cases Resolved in SLA</masterLabel>
         <scale>0</scale>

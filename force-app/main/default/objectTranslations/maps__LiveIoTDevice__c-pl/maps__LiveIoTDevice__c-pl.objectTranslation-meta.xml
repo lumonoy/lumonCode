@@ -61,5 +61,12 @@
         <value>Urządzeniach IoT Maps Live</value>
     </caseValues>
     <gender>Neuter</gender>
+    <layouts>
+        <layout>Maps Live IoT Device Layout</layout>
+        <sections>
+            <label>Linki niestandardowe</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Nazwa urządzenie IoT Maps na żywo</nameFieldLabel>
 </CustomObjectTranslation>

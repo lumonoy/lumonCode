@@ -13,6 +13,13 @@
         <name>FSL__Gantt_Lightbox</name>
     </fieldSets>
     <layouts>
+        <layout>FSL Work Order Line Item Layout</layout>
+        <sections>
+            <label>Dirección</label>
+            <section>Address</section>
+        </sections>
+    </layouts>
+    <layouts>
         <layout>Lumon Installation Manager WOLI Layout</layout>
         <sections>
             <label><!-- Address --></label>

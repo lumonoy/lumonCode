@@ -61,5 +61,20 @@
         <value>Zaawansowanych trasach Maps</value>
     </caseValues>
     <gender>Feminine</gender>
+    <layouts>
+        <layout>Maps Advanced Route Layout</layout>
+        <sections>
+            <label>Linki niestandardowe</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Dane wydajności</label>
+            <section>Performance Data</section>
+        </sections>
+        <sections>
+            <label>Data i godzina trasy</label>
+            <section>Route Date/Time</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Nazwa trasy Maps Advanced</nameFieldLabel>
 </CustomObjectTranslation>

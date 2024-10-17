@@ -8,6 +8,14 @@
         <layoutColumns>
             <layoutItems>
                 <behavior>Required</behavior>
+                <field>PriceFactory__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Required</behavior>
+                <field>ProductCost__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Required</behavior>
                 <field>Factory_Price__c</field>
             </layoutItems>
             <layoutItems>
@@ -284,8 +292,12 @@
     <miniLayout>
         <fields>Factory_Price__c</fields>
         <fields>Product_Cost__c</fields>
+        <fields>PriceFactory__c</fields>
+        <fields>ProductCost__c</fields>
     </miniLayout>
     <multilineLayoutFields>Factory_Price__c</multilineLayoutFields>
+    <multilineLayoutFields>PriceFactory__c</multilineLayoutFields>
+    <multilineLayoutFields>ProductCost__c</multilineLayoutFields>
     <multilineLayoutFields>Product2Id</multilineLayoutFields>
     <multilineLayoutFields>Product_Cost__c</multilineLayoutFields>
     <multilineLayoutFields>UnitPrice</multilineLayoutFields>

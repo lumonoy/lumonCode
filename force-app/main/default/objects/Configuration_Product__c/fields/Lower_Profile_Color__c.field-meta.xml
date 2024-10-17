@@ -4,7 +4,7 @@
     <description>&quot;lower_profile_color&quot; in the Visual Output JSON</description>
     <externalId>false</externalId>
     <inlineHelpText>&quot;lower_profile_color&quot; in the Visual Output JSON</inlineHelpText>
-    <label>Lower Profile Color</label>
+    <label>Lower Profile Color OLD</label>
     <length>255</length>
     <required>false</required>
     <trackHistory>false</trackHistory>

@@ -9,6 +9,13 @@
         <value>Esecuzioni di invio con trigger</value>
     </caseValues>
     <gender>Feminine</gender>
+    <layouts>
+        <layout>Triggered Send Execution Layout</layout>
+        <sections>
+            <label>Collegamenti personalizzati</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Nome esecuzione di invio con trigger</nameFieldLabel>
     <startsWith>Vowel</startsWith>
 </CustomObjectTranslation>

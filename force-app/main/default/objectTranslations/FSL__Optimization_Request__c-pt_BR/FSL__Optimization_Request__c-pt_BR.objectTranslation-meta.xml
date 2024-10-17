@@ -9,5 +9,20 @@
         <value>Solicitações de otimização</value>
     </caseValues>
     <gender>Feminine</gender>
+    <layouts>
+        <layout>Optimization Request Layout</layout>
+        <sections>
+            <label>Links personalizados</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Número da solicitação de otimização</nameFieldLabel>
+    <sharingReasons>
+        <label><!-- Related Service Territory --></label>
+        <name>FSL__Related_Service_Territory</name>
+    </sharingReasons>
+    <sharingReasons>
+        <label><!-- Related Service Territory Member --></label>
+        <name>FSL__Related_Service_Territory_Member</name>
+    </sharingReasons>
 </CustomObjectTranslation>

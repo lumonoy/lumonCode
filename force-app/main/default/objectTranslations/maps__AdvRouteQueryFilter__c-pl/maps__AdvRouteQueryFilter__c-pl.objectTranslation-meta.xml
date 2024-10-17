@@ -61,5 +61,12 @@
         <value>Filtrach kwerendy Zaawansowanych tras Maps</value>
     </caseValues>
     <gender>Masculine</gender>
+    <layouts>
+        <layout>Maps Advanced Route Query Filter Layout</layout>
+        <sections>
+            <label>Linki niestandardowe</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Nazwa filtrów kwerendy tras Maps Advance</nameFieldLabel>
 </CustomObjectTranslation>

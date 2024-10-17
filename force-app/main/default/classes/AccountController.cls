@@ -2,7 +2,7 @@
  * @description       : 
  * @author            : Henk Reynders
  * @group             : 
- * @last modified on  : 12-01-2023
+ * @last modified on  : 10-02-2024
  * @last modified by  : Henk Reynders
 **/
 public with sharing class AccountController {
@@ -12,39 +12,53 @@ public with sharing class AccountController {
         // Populate List from SOQL query on Account
         List<Id> accountIds = new List<Id>();
         accountIds.add(accountId);
-        System.debug('--- Get Account with Id '+accountId); 
+        System.debug('--- AccountController - Get Account with Id '+accountId); 
         List<Account> accounts =  getAccounts(accountIds);  
         Account account = accounts[0];
-        System.debug('--- Account: '+account.Name); 
+        System.debug('--- AccountController - Account: '+account.Name); 
         return account;  
+    }
+    @AuraEnabled(cacheable=false)
+    public static Account getAccountByNumber(String accountNumber) {
+        // Populate List from SOQL query on Account
+        Id accountId = [SELECT Id FROM Account WHERE AccountNumber =: accountNumber LIMIT 1]?.Id; 
+        List<Id> accountIds = new List<Id>();
+        accountIds.add(accountId);
+        Account account = new Account();
+        System.debug('--- AccountController - Get Customer with Id '+accountId); 
+        List<Account> accounts =  getAccounts(accountIds); 
+        if  (accounts?.size()>0) {
+            account = accounts[0];
+            System.debug('--- AccountController - Account: '+account.Name); 
+        }        
+        return account;
     }
     @AuraEnabled(cacheable=false)
     public static List<Account> getAccounts(List<Id> AccountIds) {
         // Populate List from SOQL query on Account
-        System.debug('--- Get Accounts'); 
+        System.debug('--- AccountController - Get Accounts'); 
         List<Account> accounts = ([  SELECT  Id,
                                              Name,
                                              Type, 
                                              RecordTypeId, 
                                              ParentId, 
                                              OwnerId,
-                                             VAT__c,
+                                             //VAT__c,
                                              AccountSource,
-                                             Customer_Segment__c, 
-                                             Business_Type__c, 
-                                             Business_Type_Attribute__c, 
-                                             Customer_Type__c, 
-                                             Account_Office__c, 
-                                             Financing_Customer_Number__c, 
+                                             CustomerSegment__c, 
+                                             BusinessType__c, 
+                                             BusinessTypeAttribute__c, 
+                                             //Account_Office__c, 
+                                             //Financing_Customer_Number__c, 
                                              District__c, 
                                              County__c, 
                                              Region__c, 
                                              Municipality__c, 
                                              State__c, 
-                                             District_Type__c, 
-                                             Customer_Location__c, 
-                                             Delivery_Method__c, 
-                                             Delivery_Terms__c,
+                                             //District_Type__c, 
+                                             //Customer_Location__c, 
+                                             //Delivery_Method__c, 
+                                             //Delivery_Terms__c,
                                              BillingStreet, 
                                              BillingCity, 
                                              BillingState, 
@@ -120,13 +134,13 @@ public with sharing class AccountController {
                                              PersonEmailBouncedDate                      
                                     FROM Account 
                                     WHERE Id IN: accountIds]);  
-        System.debug('--- Accounts: '+accounts.size()); 
+        System.debug('--- AccountController - Accounts: '+accounts.size()); 
         return accounts;  
     }
     @AuraEnabled(cacheable=false)
     public static List<Account> getPersonAccounts(List<Id> AccountIds) {
         // Populate List from SOQL query on Account
-        System.debug('--- Get Person Accounts'); 
+        System.debug('--- Get AccountController - Person Accounts'); 
         List<Account> personAccounts = ([  SELECT  Id,
                                              Name,
                                              Type, 
@@ -207,13 +221,13 @@ public with sharing class AccountController {
                                     FROM Account 
                                     WHERE IsPersonAccount = true
                                     AND Id IN: accountIds]);  
-        System.debug('--- Person Accounts: '+personAccounts.size()); 
+        System.debug('--- AccountController - Person Accounts: '+personAccounts.size()); 
         return personAccounts;  
     }
     @AuraEnabled(cacheable=false)
     public static List<Account> getBusinessAccounts(List<Id> accountIds) {
         // Populate List from SOQL query on Account
-        System.debug('--- Get Business Accounts'); 
+        System.debug('--- AccountController - Get Business Accounts'); 
         List<Account> businessAccounts = ([  SELECT  Id,
                                              Name,
                                              Type, 
@@ -242,7 +256,6 @@ public with sharing class AccountController {
                                              Phone, 
                                              Fax, 
                                              AccountNumber, 
-                                             Financing_Customer_Number__c,
                                              Website, 
                                              Industry, 
                                              AnnualRevenue, 
@@ -256,13 +269,13 @@ public with sharing class AccountController {
                                     FROM Account 
                                     WHERE IsPersonAccount = false
                                     AND Id IN: accountIds]);  
-        System.debug('--- Business Accounts: '+businessAccounts.size()); 
+        System.debug('--- AccountController - Business Accounts: '+businessAccounts.size()); 
         return businessAccounts;  
     }
     @AuraEnabled(cacheable=false)
     public static List<Account> getAccountAddresses() {
         // Populate List from SOQL query on Account
-        System.debug('--- Get Business Accounts'); 
+        System.debug('--- AccountController - Get Business Accounts'); 
         List<Account> Accounts = ([  SELECT  Id,
                                              Name, 
                                              AccountNumber,
@@ -309,7 +322,7 @@ public with sharing class AccountController {
                                              PersonOtherGeocodeAccuracy                                             
                                     FROM Account 
                                     ORDER BY BillingCountry, BillingPostalCode]);  
-        System.debug('--- Accounts: '+Accounts.size()); 
+        System.debug('--- AccountController - Accounts: '+Accounts.size()); 
         return Accounts;  
     }
 }

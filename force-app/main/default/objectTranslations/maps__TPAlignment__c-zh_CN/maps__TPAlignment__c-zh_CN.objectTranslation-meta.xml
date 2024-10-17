@@ -4,5 +4,12 @@
         <plural>false</plural>
         <value>区域规划定线</value>
     </caseValues>
+    <layouts>
+        <layout>Territory Planning Alignment Layout</layout>
+        <sections>
+            <label>自定义链接</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>名称</nameFieldLabel>
 </CustomObjectTranslation>

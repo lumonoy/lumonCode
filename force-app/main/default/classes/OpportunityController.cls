@@ -2,101 +2,110 @@
  * @description       : 
  * @author            : Henk Reynders
  * @group             : 
- * @last modified on  : 12-10-2023
+ * @last modified on  : 09-04-2024
  * @last modified by  : Henk Reynders
 **/
 public with sharing class OpportunityController {
-    public static final List<String> ALLOWED_OPPORTUNITY_STAGES = new List<String>{
-        //'Preparation & Analysis',
-        'Quoting'
-    };
     @AuraEnabled(cacheable=false)
     public static Opportunity getOpportunityRecord(Id opportunityId) {
         // Populate map from SOQL query on Opportunity
-        System.debug('--- Get Data for Opportunity: '+opportunityId);
         List<Id> recordIds = new List<Id>{opportunityId};
         List<Opportunity> opportunities = getOpportunities(recordIds);
         Opportunity opportunityRecord = opportunities[0];
-        System.debug('--- Opportunity Record: '+opportunityRecord);
+        System.debug('--- OpportunityController - Opportunity Record: '+opportunityRecord);
         return opportunityRecord;
     } 
     @AuraEnabled(cacheable=false)
+    public static Opportunity getOpportunityByNumber(String opportunityNumber) {
+        // Populate List from SOQL query on Account
+        Id opportunityId = [SELECT Id FROM Opportunity WHERE OpportunityNumber__c =: opportunityNumber LIMIT 1]?.Id; 
+        List<Id> opportunityIds = new List<Id>();
+        opportunityIds.add(opportunityId);
+        Opportunity opportunity = new Opportunity();
+        List<Opportunity> opportunities =  getOpportunities(opportunityIds); 
+        if  (opportunities?.size()>0) {
+            opportunity = opportunities[0];
+            System.debug('--- OpportunityController - Opportunity: '+opportunity.Name); 
+        }        
+        return opportunity;
+    }
+    @AuraEnabled(cacheable=false)
     public static List<Opportunity> getOpportunities(List<Id> recordIds) {
         // Populate map from SOQL query on Opportunity
-        List<Opportunity> opportunities = ([SELECT    Id, Name, Order_type__c, Type, //Information
-                                                            StageName, isClosed, // Status
-                                                            Amount, CurrencyIsoCode, // Totals
-                                            				Chargeable__c,
-                                                            Pricebook2Id,SyncedQuoteId, //Pricing Records
-                                                            Opportunity_Number__c, //RVN Number
-                                                            Organization_Attribute__c,Country_Attribute__c,//Tier 1 Factory Prices
-                                                            District_Attribute__c,Territory_Attribute__c,Business_Type_Attribute__c,//Tier 2 Product Costs
-                                                            Owner_Profit_Center__c, Customer_Attribute__c, //Tier 3 Sales Prices   
-                                                            Method_of_Payment__c, Terms_of_Payment__c,
-                                                            Invoice_type__c,   
-                                                            Delivery_Term__c, Delivery_Method__c,
-                                                            closeDate,
-                                                            AccountId,
-                                                            Order__c,
-                                                            ContractId,
-                                                            OwnerId,
-                                                            Account.BillingAddress, 
-                                                            Account.ShippingAddress, 
-                                                            Account.PersonMailingAddress, 
-                                                            Account.PersonOtherAddress,
-                                                            Customer_Address__c, 
-                                                            //Customer_Address__Country__s,
-                                                            Customer_Address__CountryCode__s,
-                                                            Customer_Address__PostalCode__s,
-                                                            Customer_Address__Street__s,
-                                                            Customer_Address__City__s,
-                                                            //Customer_Address__State__s,
-                                                            Customer_Address__StateCode__s,
-                                                            Customer_Address__Latitude__s,
-                                                            Customer_Address__Longitude__s,
-                                                            Customer_Address__GeocodeAccuracy__s,
-                                                            Invoicing_Address__c, 
-                                                            //Invoicing_Address__Country__s,
-                                                            Invoicing_Address__CountryCode__s,
-                                                            Invoicing_Address__PostalCode__s,
-                                                            Invoicing_Address__Street__s,
-                                                            Invoicing_Address__City__s,
-                                                            //Invoicing_Address__State__s,
-                                                            Invoicing_Address__StateCode__s,
-                                                            Invoicing_Address__Latitude__s,
-                                                            Invoicing_Address__Longitude__s,
-                                                            Invoicing_Address__GeocodeAccuracy__s,
-                                                            Delivery_Address__c,
-                                                            //Delivery_Address__Country__s,
-                                                            Delivery_Address__CountryCode__s,
-                                                            Delivery_Address__PostalCode__s,
-                                                            Delivery_Address__Street__s,
-                                                            Delivery_Address__City__s,
-                                                            //Delivery_Address__State__s,
-                                                            Delivery_Address__StateCode__s,
-                                                            Delivery_Address__Latitude__s,
-                                                            Delivery_Address__Longitude__s,
-                                                            Delivery_Address__GeocodeAccuracy__s, 
-                                                            Installation_Address__c,
-                                                            //Installation_Address__Country__s,
-                                                            Installation_Address__CountryCode__s,
-                                                            Installation_Address__PostalCode__s,
-                                                            Installation_Address__Street__s,
-                                                            Installation_Address__City__s,
-                                                            //Installation_Address__State__s,
-                                                            Installation_Address__StateCode__s,
-                                                            Installation_Address__Latitude__s,
-                                                            Installation_Address__Longitude__s,
-                                                            Installation_Address__GeocodeAccuracy__s,
-                                                            Delivery_Date__c, Delivery_Week__c,
-                                                            Promised_Date__c,Promised_Week__c,  
-                                                            Project__c,Project_Number__c,Parent_Project__c,
-                                            				Case__c
-                                            
+        List<Opportunity> opportunities = ([SELECT  Id, Name, 
+                                                        AccountId,                                                           
+                                                        ContractId,
+                                                        OwnerId,
+                                                        Type, //Information
+                                                        StageName, 
+                                                        CloseDate,isClosed, // Status
+                                                        Amount, CurrencyIsoCode, // Totals                                                       
+                                                        Pricebook2Id,
+                                                        SyncedQuoteId, CurrentOfferNumber__c,
+                                                        OpportunityNumber__c,
+                                                        isMigrated__c,
+                                                        Account.BillingAddress, 
+                                                        Account.ShippingAddress, 
+                                                        Account.PersonMailingAddress, 
+                                                        Account.PersonOtherAddress,
+                                                        CustomerAddress__c, 
+                                                        //CustomerAddress__Country__s,
+                                                        CustomerAddress__CountryCode__s,
+                                                        CustomerAddress__PostalCode__s,
+                                                        CustomerAddress__Street__s,
+                                                        CustomerAddress__City__s,
+                                                        //CustomerAddress__State__s,
+                                                        CustomerAddress__StateCode__s,
+                                                        CustomerAddress__Latitude__s,
+                                                        CustomerAddress__Longitude__s,
+                                                        CustomerAddress__GeocodeAccuracy__s,
+                                                        InvoicingAddress__c, 
+                                                        //InvoicingAddress__Country__s,
+                                                        InvoicingAddress__CountryCode__s,
+                                                        InvoicingAddress__PostalCode__s,
+                                                        InvoicingAddress__Street__s,
+                                                        InvoicingAddress__City__s,
+                                                        //InvoicingAddress__State__s,
+                                                        InvoicingAddress__StateCode__s,
+                                                        InvoicingAddress__Latitude__s,
+                                                        InvoicingAddress__Longitude__s,
+                                                        InvoicingAddress__GeocodeAccuracy__s,
+                                                        DeliveryAddress__c,
+                                                        //DeliveryAddress__Country__s,
+                                                        DeliveryAddress__CountryCode__s,
+                                                        DeliveryAddress__PostalCode__s,
+                                                        DeliveryAddress__Street__s,
+                                                        DeliveryAddress__City__s,
+                                                        //DeliveryAddress__State__s,
+                                                        DeliveryAddress__StateCode__s,
+                                                        DeliveryAddress__Latitude__s,
+                                                        DeliveryAddress__Longitude__s,
+                                                        DeliveryAddress__GeocodeAccuracy__s, 
+                                                        InstallationAddress__c,
+                                                        //InstallationAddress__Country__s,
+                                                        InstallationAddress__CountryCode__s,
+                                                        InstallationAddress__PostalCode__s,
+                                                        InstallationAddress__Street__s,
+                                                        InstallationAddress__City__s,
+                                                        //InstallationAddress__State__s,
+                                                        InstallationAddress__StateCode__s,
+                                                        InstallationAddress__Latitude__s,
+                                                        InstallationAddress__Longitude__s,
+                                                        InstallationAddress__GeocodeAccuracy__s,
+                                                        // Attributes
+                                                        BusinessType__c, BusinessTypeAttribute__c,
+                                                        CountryAttribute__c, 
+                                                        CustomerSegment__c, CustomerSegmentAttribute__c,
+                                                        District__c, DistrictAttribute__c,
+                                                        //Office__c, OfficeAttribute__c,
+                                                        Organization__c,OrganizationAttribute__c,
+                                                        ProfitCenter__c, ProfitCenterAttribute__c,
+                                                        PropertyType__c, PropertyTypeAttribute__c,
+                                                        ServiceAttribute__c                                           
                                     FROM Opportunity 
                                     WHERE Id IN :recordIds
                                       OR accountId IN : recordIds]);
-        System.debug('--- Opportunity Records: '+opportunities.size());
+        System.debug('--- OpportunityController - Opportunity Records: '+opportunities.size());
         return opportunities;
     } 
 }

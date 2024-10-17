@@ -1,6 +1,10 @@
-/*
-    Created by Reijo Mattila on 22.10.2023
-*/
+/**
+ * @description       : FSL Related to check Absences
+ * @author            : Henk Reynders
+ * @group             : 
+ * @last modified on  : 10-08-2024
+ * @last modified by  : Henk Reynders
+**/
 trigger ServiceResourceTrigger on ServiceResource (after update) {
     if (Trigger.isAfter) {
         if(Trigger.isUpdate) {

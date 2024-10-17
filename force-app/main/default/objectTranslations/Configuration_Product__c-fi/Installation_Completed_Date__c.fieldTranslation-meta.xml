@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <help><!-- Date when Installation is completed --></help>
-    <label><!-- Installation Completed Date --></label>
+    <label><!-- Installation Completed Date OLD --></label>
     <name>Installation_Completed_Date__c</name>
 </CustomFieldTranslation>

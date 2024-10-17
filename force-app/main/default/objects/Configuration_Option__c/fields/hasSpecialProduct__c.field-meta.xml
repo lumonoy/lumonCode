@@ -3,7 +3,7 @@
     <fullName>hasSpecialProduct__c</fullName>
     <description>Indicates if there configuration Item refers to a Product that requires Manual Processing or needs special handling</description>
     <externalId>false</externalId>
-    <formula>IF((Product__r.Special__c ||  Product__r.Manual_Processing__c), true, false)</formula>
+    <formula>IF((Product__r.Special__c ||  Product__r.isManualProcessing__c), true, false)</formula>
     <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
     <label>hasSpecialProduct</label>
     <trackHistory>false</trackHistory>

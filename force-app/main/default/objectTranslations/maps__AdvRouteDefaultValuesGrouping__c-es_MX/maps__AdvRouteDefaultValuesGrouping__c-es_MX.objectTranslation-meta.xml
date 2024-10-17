@@ -9,5 +9,12 @@
         <value>Grupos de valores predeterminados de Maps Advanced</value>
     </caseValues>
     <gender>Masculine</gender>
+    <layouts>
+        <layout>Maps Advanced Default Values Group Layout</layout>
+        <sections>
+            <label>Vínculos personalizados</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Nombre de Grupo de valores predeterminad</nameFieldLabel>
 </CustomObjectTranslation>

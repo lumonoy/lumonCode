@@ -7,7 +7,7 @@
     <label>Asset</label>
     <referenceTo>Asset</referenceTo>
     <relationshipLabel>Service Appointments</relationshipLabel>
-    <relationshipName>Service_Appointments</relationshipName>
+    <relationshipName>LumonServiceAppointments</relationshipName>
     <required>false</required>
     <trackHistory>false</trackHistory>
     <type>Lookup</type>

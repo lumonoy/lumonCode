@@ -3,7 +3,7 @@
     <fullName>Integration_Name__c</fullName>
     <externalId>false</externalId>
     <fieldManageability>DeveloperControlled</fieldManageability>
-    <label>Integration Name OLD</label>
+    <label>Integration Name</label>
     <length>255</length>
     <required>false</required>
     <type>Text</type>

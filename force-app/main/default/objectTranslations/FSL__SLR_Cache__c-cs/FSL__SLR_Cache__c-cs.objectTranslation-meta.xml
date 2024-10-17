@@ -61,5 +61,12 @@
         <value>Mezipamětích SLR</value>
     </caseValues>
     <gender>Feminine</gender>
+    <layouts>
+        <layout>SLR Cache Layout</layout>
+        <sections>
+            <label>Vlastní odkazy</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Číslo mezipaměti SLR</nameFieldLabel>
 </CustomObjectTranslation>

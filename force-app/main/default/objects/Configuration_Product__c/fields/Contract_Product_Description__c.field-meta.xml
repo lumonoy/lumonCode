@@ -12,7 +12,7 @@ Product__r.Name,
 &quot;Prefabricated Terrace 4&quot;, &quot;Valmisterassin runko koostuu vakioidusta runkojärjestelmästä, jonka yksityiskohdat ovat viimeisteltyjä. Runkomateriaali polyesterijauhemaalattua alumiinia.&quot;,
 &quot;Text not defined for product&quot;)</formula>
     <inlineHelpText>Product definition that is included in contract.</inlineHelpText>
-    <label>Contract Product Description</label>
+    <label>Contract Product Description OLD</label>
     <required>false</required>
     <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>

@@ -2,7 +2,7 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Message_Key__c</fullName>
     <externalId>false</externalId>
-    <label>Message Key</label>
+    <label>Message Key OLD</label>
     <length>255</length>
     <required>false</required>
     <trackTrending>false</trackTrending>

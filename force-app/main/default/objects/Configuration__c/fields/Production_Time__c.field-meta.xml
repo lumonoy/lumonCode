@@ -2,7 +2,7 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Production_Time__c</fullName>
     <externalId>false</externalId>
-    <label>Production Time</label>
+    <label>Production Time OLD</label>
     <precision>5</precision>
     <required>false</required>
     <scale>0</scale>

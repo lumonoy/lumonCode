@@ -374,10 +374,6 @@
         <name>Change_status</name>
     </quickActions>
     <quickActions>
-        <label><!-- Close Case --></label>
-        <name>CloseCase</name>
-    </quickActions>
-    <quickActions>
         <aspect>Master</aspect>
         <label>Sulje tapahtuma</label>
         <name>Close_Case</name>
@@ -405,12 +401,20 @@
         <name>Lumon_Case_Contact</name>
     </quickActions>
     <quickActions>
+        <label><!-- Lumon Case Description --></label>
+        <name>Lumon_Case_Description</name>
+    </quickActions>
+    <quickActions>
         <label><!-- Lumon Case Detailed Description --></label>
         <name>Lumon_Case_Detailed_Description</name>
     </quickActions>
     <quickActions>
         <label><!-- Lumon Case Details --></label>
         <name>Lumon_Case_Details</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Lumon Case Resolution --></label>
+        <name>Lumon_Case_Resolution</name>
     </quickActions>
     <quickActions>
         <label><!-- Change Status --></label>
@@ -433,6 +437,10 @@
         <name>NewCustomerCase</name>
     </quickActions>
     <quickActions>
+        <label><!-- New Customer Case --></label>
+        <name>New_Customer_Case</name>
+    </quickActions>
+    <quickActions>
         <label><!-- Email --></label>
         <name>SendEmail</name>
     </quickActions>
@@ -447,6 +455,14 @@
     <quickActions>
         <label><!-- View Description --></label>
         <name>ViewDescription</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- View Permit Status --></label>
+        <name>ViewPermitStatus</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- View Quality Codes --></label>
+        <name>ViewQualityCodes</name>
     </quickActions>
     <quickActions>
         <label><!-- View Resolution --></label>

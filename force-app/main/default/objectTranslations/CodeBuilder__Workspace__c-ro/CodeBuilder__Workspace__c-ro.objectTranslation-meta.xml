@@ -49,5 +49,16 @@
         <value><!-- Mediilor --></value>
     </caseValues>
     <gender><!-- Neuter --></gender>
+    <layouts>
+        <layout>Workspace Layout</layout>
+        <sections>
+            <label>Linkuri personalizate</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel><!-- Environment Name --></nameFieldLabel>
+    <validationRules>
+        <errorMessage><!-- Workspace name cannot be changed --></errorMessage>
+        <name>CodeBuilder__CannotChangeWorkspaceName</name>
+    </validationRules>
 </CustomObjectTranslation>

@@ -4,5 +4,12 @@
         <plural>false</plural>
         <value>Maps 라이브 이벤트</value>
     </caseValues>
+    <layouts>
+        <layout>Maps Live Event Layout</layout>
+        <sections>
+            <label>사용자 정의 링크</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Maps 실시간 이벤트 이름</nameFieldLabel>
 </CustomObjectTranslation>

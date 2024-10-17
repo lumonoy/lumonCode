@@ -3,7 +3,7 @@
     <fullName>Production_Extra_Days__c</fullName>
     <description>Max Value of the Extra Production Days</description>
     <externalId>false</externalId>
-    <label>Production Extra Days</label>
+    <label>Production Extra Days OLD</label>
     <summarizedField>Configuration_Option__c.Production_Extra_Days__c</summarizedField>
     <summaryForeignKey>Configuration_Option__c.Configuration_Product__c</summaryForeignKey>
     <summaryOperation>max</summaryOperation>

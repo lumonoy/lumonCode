@@ -4,5 +4,12 @@
         <plural>false</plural>
         <value>Maps Advanced 기본 값 그룹</value>
     </caseValues>
+    <layouts>
+        <layout>Maps Advanced Default Values Group Layout</layout>
+        <sections>
+            <label>사용자 정의 링크</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Maps Advanced 기본값 그룹 이름</nameFieldLabel>
 </CustomObjectTranslation>

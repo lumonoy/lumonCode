@@ -4,5 +4,5 @@
         <plural>false</plural>
         <value>การปรับปรุงข้อมูล</value>
     </caseValues>
-    <nameFieldLabel>รหัสข้อมูลการปรับให้เหมาะสมที่สุด</nameFieldLabel>
+    <nameFieldLabel>จำนวนข้อมูลการปรับให้เหมาะสมที่สุด</nameFieldLabel>
 </CustomObjectTranslation>

@@ -4,55 +4,6 @@
     <attachmentOption>All</attachmentOption>
     <authenticationFailureAction>Discard</authenticationFailureAction>
     <authorizationFailureAction>Bounce</authorizationFailureAction>
-    <emailServicesAddresses>
-        <authorizedSenders>reijo.peltokangas@lumon.fi</authorizedSenders>
-        <developerName>emailtosalesforce</developerName>
-        <isActive>true</isActive>
-        <localPart>emailtosalesforce</localPart>
-        <runAsUser>reijo.peltokangas-2yaq@force.com</runAsUser>
-    </emailServicesAddresses>
-    <emailServicesAddresses>
-        <authorizedSenders>teemu.asikainen@lumon.fi</authorizedSenders>
-        <developerName>emailtosalesforce1</developerName>
-        <isActive>true</isActive>
-        <localPart>emailtosalesforce</localPart>
-        <runAsUser>teemu.asikainen@lumon.fi</runAsUser>
-    </emailServicesAddresses>
-    <emailServicesAddresses>
-        <authorizedSenders>lauri.peteri@lumon.com</authorizedSenders>
-        <developerName>emailtosalesforce2</developerName>
-        <isActive>true</isActive>
-        <localPart>emailtosalesforce</localPart>
-        <runAsUser>lauri.peteri@visor.fi</runAsUser>
-    </emailServicesAddresses>
-    <emailServicesAddresses>
-        <authorizedSenders>fernando.jauregui@lumon.com</authorizedSenders>
-        <developerName>emailtosalesforce3</developerName>
-        <isActive>true</isActive>
-        <localPart>emailtosalesforce</localPart>
-        <runAsUser>fernando.jauregui@lumon.com</runAsUser>
-    </emailServicesAddresses>
-    <emailServicesAddresses>
-        <authorizedSenders>kati.vainio@lumon.fi</authorizedSenders>
-        <developerName>emailtosalesforce4</developerName>
-        <isActive>true</isActive>
-        <localPart>emailtosalesforce</localPart>
-        <runAsUser>kati.vainio@lumon.fi</runAsUser>
-    </emailServicesAddresses>
-    <emailServicesAddresses>
-        <authorizedSenders>jari.juuti@lumon.fi</authorizedSenders>
-        <developerName>emailtosalesforce5</developerName>
-        <isActive>true</isActive>
-        <localPart>emailtosalesforce</localPart>
-        <runAsUser>jari.juuti@lumon.fi</runAsUser>
-    </emailServicesAddresses>
-    <emailServicesAddresses>
-        <authorizedSenders>raquel.molina@lumon.com</authorizedSenders>
-        <developerName>emailtosalesforce6</developerName>
-        <isActive>true</isActive>
-        <localPart>emailtosalesforce</localPart>
-        <runAsUser>raquel.molina@lumon.com</runAsUser>
-    </emailServicesAddresses>
     <functionInactiveAction>Bounce</functionInactiveAction>
     <functionName>EmailToSalesforce</functionName>
     <isActive>true</isActive>

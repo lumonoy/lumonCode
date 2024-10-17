@@ -4,5 +4,12 @@
         <plural>false</plural>
         <value>พื้นที่ของผู้ใช้</value>
     </caseValues>
+    <layouts>
+        <layout>User Territory Layout</layout>
+        <sections>
+            <label>ลิงก์แบบกำหนดเอง</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>หมายเลขภูมิภาคของผู้ใช้</nameFieldLabel>
 </CustomObjectTranslation>

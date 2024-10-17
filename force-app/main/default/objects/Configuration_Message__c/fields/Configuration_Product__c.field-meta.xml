@@ -5,7 +5,7 @@
     <label>Configuration Product</label>
     <referenceTo>Configuration_Product__c</referenceTo>
     <relationshipLabel>Configuration Messages</relationshipLabel>
-    <relationshipName>Configuration_Messages</relationshipName>
+    <relationshipName>ConfigurationMessages</relationshipName>
     <relationshipOrder>0</relationshipOrder>
     <reparentableMasterDetail>false</reparentableMasterDetail>
     <trackTrending>false</trackTrending>

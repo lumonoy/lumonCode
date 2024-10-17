@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <help><!-- &quot;drain_holes&quot; in the Visual Output JSON --></help>
-    <label><!-- Drain Holes --></label>
+    <label><!-- Drain Holes OLD --></label>
     <name>Drain_Holes__c</name>
 </CustomFieldTranslation>

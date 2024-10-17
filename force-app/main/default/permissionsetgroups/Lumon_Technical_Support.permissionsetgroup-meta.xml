@@ -3,6 +3,6 @@
     <description>Required Permissions for Technical Support</description>
     <hasActivationRequired>false</hasActivationRequired>
     <label>Lumon Technical Support</label>
-    <permissionSets>CaseHandlingPermissions</permissionSets>
+    <permissionSets>CaseHandlingObjectandFieldPermissions</permissionSets>
     <status>Updated</status>
 </PermissionSetGroup>

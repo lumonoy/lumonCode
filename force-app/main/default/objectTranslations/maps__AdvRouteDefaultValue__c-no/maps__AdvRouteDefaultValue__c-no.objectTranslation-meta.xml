@@ -31,5 +31,12 @@
         <value>Maps Advanced-standardverdier</value>
     </caseValues>
     <gender>Masculine</gender>
+    <layouts>
+        <layout>Maps Advanced Default Value Layout</layout>
+        <sections>
+            <label>Tilpassede lenker</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Standardverdinavn for Maps Advanced</nameFieldLabel>
 </CustomObjectTranslation>

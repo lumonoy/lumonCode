@@ -1,6 +1,13 @@
+/**
+ * @description       : NOT IS USE related to Customer Portal
+ * @author            : Henk Reynders
+ * @group             : 
+ * @last modified on  : 10-08-2024
+ * @last modified by  : Henk Reynders
+**/
 public class ContentDocumentLinkTriggerHandler {
-
-	public static void beforeInsert(List<ContentDocumentLink> cdlNewList){
+	// OBSOLETE CLASS 
+	/*public static void beforeInsert(List<ContentDocumentLink> cdlNewList){
 		updateOppSignedContractShareType(cdlNewList);
 	}
 
@@ -54,5 +61,5 @@ public class ContentDocumentLinkTriggerHandler {
 				insert cDistributions;
 			}
 		}
-	}
+	}*/
 }

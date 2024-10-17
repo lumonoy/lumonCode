@@ -9,6 +9,21 @@
         <value>Oggetti instradabili Percorso di Maps Advanced</value>
     </caseValues>
     <gender>Masculine</gender>
+    <layouts>
+        <layout>Maps Advanced Route Routable Object Layout</layout>
+        <sections>
+            <label>Link personalizzati</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Valori predefiniti</label>
+            <section>Default Values</section>
+        </sections>
+        <sections>
+            <label>Finestre promozione</label>
+            <section>Promo Windows</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Nome oggetto instradabile Percorso di Ma</nameFieldLabel>
     <startsWith>Vowel</startsWith>
 </CustomObjectTranslation>

@@ -2,7 +2,7 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>fxInstallationHours__c</fullName>
     <externalId>false</externalId>
-    <formula>Installation_Time_Per_Unit__c * Quantity__c</formula>
+    <formula>InstallationTimePerUnit__c * Quantity__c</formula>
     <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
     <label>fxInstallationHours</label>
     <precision>18</precision>

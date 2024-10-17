@@ -2,7 +2,7 @@
  * @description       : 
  * @author            : Henk Reynders
  * @group             : 
- * @last modified on  : 12-03-2023
+ * @last modified on  : 09-29-2024
  * @last modified by  : Henk Reynders
 **/
 public with sharing class ServiceAppointmentTriggerHandler extends TriggerHandler {
@@ -19,7 +19,7 @@ public with sharing class ServiceAppointmentTriggerHandler extends TriggerHandle
     }
 
     public override void afterUpdate() {
-        ServiceAppointmentService.createInstallationPDF(this.newRecords, this.oldMap);
+        // OBSOLETE ServiceAppointmentService.createInstallationPDF(this.newRecords, this.oldMap);
     }
 
 }

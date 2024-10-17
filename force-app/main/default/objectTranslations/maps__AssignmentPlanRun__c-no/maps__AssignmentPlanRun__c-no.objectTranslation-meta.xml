@@ -31,5 +31,20 @@
         <value>Kjøring av Maps-tildelingsplaner</value>
     </caseValues>
     <gender>Masculine</gender>
+    <layouts>
+        <layout>Assignment Plan Run</layout>
+        <sections>
+            <label>Feil</label>
+            <section>Errors</section>
+        </sections>
+        <sections>
+            <label>Behandlingstid</label>
+            <section>Processing Times</section>
+        </sections>
+        <sections>
+            <label>Kjøringsstatistikk</label>
+            <section>Run Statistics</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Navn på kjøring av Maps-tildelingsplan</nameFieldLabel>
 </CustomObjectTranslation>

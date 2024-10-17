@@ -4,5 +4,12 @@
         <plural>false</plural>
         <value>Maps Advanced ルートクエリ条件グループ</value>
     </caseValues>
+    <layouts>
+        <layout>Maps Advanced Route Query Filter Group Layout</layout>
+        <sections>
+            <label>カスタムリンク</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Maps Advanced ルートクエリ検索条件グループ名</nameFieldLabel>
 </CustomObjectTranslation>

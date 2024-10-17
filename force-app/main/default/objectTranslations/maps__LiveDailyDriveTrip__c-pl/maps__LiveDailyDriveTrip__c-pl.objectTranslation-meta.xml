@@ -61,5 +61,28 @@
         <value>Dziennych przejazdach Maps Live</value>
     </caseValues>
     <gender>Masculine</gender>
+    <layouts>
+        <layout>Maps Live Daily Drive Trip Layout</layout>
+        <sections>
+            <label>Informacje rozpoczęciu podróży</label>
+            <section>Begin Trip Information</section>
+        </sections>
+        <sections>
+            <label>Linki niestandardowe</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Informacje o zakończeniu podróży</label>
+            <section>End Trip Information</section>
+        </sections>
+        <sections>
+            <label>Informacje o kierowcy dla podróży</label>
+            <section>Trip Driver Information</section>
+        </sections>
+        <sections>
+            <label>Informacje o podróży</label>
+            <section>Trip Information</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Nazwa dziennej podróży Maps na żywo</nameFieldLabel>
 </CustomObjectTranslation>

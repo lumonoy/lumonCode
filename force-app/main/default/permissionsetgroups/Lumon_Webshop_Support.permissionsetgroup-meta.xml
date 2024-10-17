@@ -3,6 +3,6 @@
     <description>Required Permissions for Webshop Support Users</description>
     <hasActivationRequired>false</hasActivationRequired>
     <label>Lumon Webshop Support</label>
-    <permissionSets>CaseHandlingPermissions</permissionSets>
+    <permissionSets>CaseHandlingObjectandFieldPermissions</permissionSets>
     <status>Updated</status>
 </PermissionSetGroup>

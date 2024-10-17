@@ -9,6 +9,13 @@
         <value>Associazioni eventi live di Maps</value>
     </caseValues>
     <gender>Feminine</gender>
+    <layouts>
+        <layout>Maps Live Event Association Layout</layout>
+        <sections>
+            <label>Link personalizzati</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Nome associazione evento live di Maps</nameFieldLabel>
     <startsWith>Vowel</startsWith>
 </CustomObjectTranslation>

@@ -65,11 +65,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>EmailMessage.IsMigrated__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>FSL__FSL_Operation__c.FSL__Finished__c</field>
         <readable>true</readable>
     </fieldPermissions>

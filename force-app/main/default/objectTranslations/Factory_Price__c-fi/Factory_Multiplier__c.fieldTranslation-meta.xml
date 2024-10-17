@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-    <label><!-- Factory Multiplier --></label>
+    <label><!-- Factory Multiplier OLD --></label>
     <name>Factory_Multiplier__c</name>
 </CustomFieldTranslation>

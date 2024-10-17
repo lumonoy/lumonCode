@@ -31,5 +31,24 @@
         <value>Kontinuerliga resor för Maps Advanced-rutt</value>
     </caseValues>
     <gender>Feminine</gender>
+    <layouts>
+        <layout>Maps Advanced Route Continuous Travel Layout</layout>
+        <sections>
+            <label>Anpassade länkar</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Slutadress</label>
+            <section>End Address</section>
+        </sections>
+        <sections>
+            <label>Startadress</label>
+            <section>Start Address</section>
+        </sections>
+        <sections>
+            <label>Resedatum</label>
+            <section>Travel Dates</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Namn på kontinuerlig resa för Maps-plane</nameFieldLabel>
 </CustomObjectTranslation>

@@ -31,5 +31,32 @@
         <value>Daglige sammendragshendelser for Maps Live-aktivum</value>
     </caseValues>
     <gender>Masculine</gender>
+    <layouts>
+        <layout>Maps Live Asset Daily Summary Event Layout</layout>
+        <sections>
+            <label>Adresse</label>
+            <section>Address</section>
+        </sections>
+        <sections>
+            <label>Tilpassede lenker</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Varighet</label>
+            <section>Duration</section>
+        </sections>
+        <sections>
+            <label>Sluttadresse</label>
+            <section>End Address</section>
+        </sections>
+        <sections>
+            <label>Sted</label>
+            <section>Location</section>
+        </sections>
+        <sections>
+            <label>Hastighet</label>
+            <section>Speed</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Navn på hendelse i daglig sammendrag for</nameFieldLabel>
 </CustomObjectTranslation>

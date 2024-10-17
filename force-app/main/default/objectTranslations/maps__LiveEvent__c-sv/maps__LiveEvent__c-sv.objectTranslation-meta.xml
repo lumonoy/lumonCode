@@ -31,5 +31,12 @@
         <value>Maps-livehändelser</value>
     </caseValues>
     <gender>Feminine</gender>
+    <layouts>
+        <layout>Maps Live Event Layout</layout>
+        <sections>
+            <label>Anpassade länkar</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Namn på livehändelse för Maps</nameFieldLabel>
 </CustomObjectTranslation>

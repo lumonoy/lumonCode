@@ -9,5 +9,12 @@
         <value>Queryfilters route Maps Advanced</value>
     </caseValues>
     <gender>Neuter</gender>
+    <layouts>
+        <layout>Maps Advanced Route Query Filter Layout</layout>
+        <sections>
+            <label>Aangepaste koppelingen</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Filternaam query route Maps Advanced</nameFieldLabel>
 </CustomObjectTranslation>

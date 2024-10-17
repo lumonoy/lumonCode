@@ -396,5 +396,16 @@
         <possessive>Second</possessive>
         <value>Maps: Live-työaikojasi</value>
     </caseValues>
+    <layouts>
+        <layout>Maps Live Working Hours Layout</layout>
+        <sections>
+            <label>Mukautetut linkit</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Työajat</label>
+            <section>Working Hours</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Maps: live-työaikojen nimi</nameFieldLabel>
 </CustomObjectTranslation>

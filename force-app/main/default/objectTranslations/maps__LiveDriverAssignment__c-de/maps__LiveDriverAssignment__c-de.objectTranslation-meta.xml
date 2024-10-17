@@ -41,5 +41,12 @@
         <value>Maps-Live-Fahrerzuweisungen</value>
     </caseValues>
     <gender>Feminine</gender>
+    <layouts>
+        <layout>Maps Live Driver Assignment Layout</layout>
+        <sections>
+            <label>Benutzerdefinierte Links</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Maps-Live-Name für Fahrerzuweisung</nameFieldLabel>
 </CustomObjectTranslation>

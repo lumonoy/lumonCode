@@ -23,6 +23,14 @@
                 <field>Organization__c</field>
             </layoutItems>
             <layoutItems>
+                <behavior>Required</behavior>
+                <field>BusinessType__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Required</behavior>
+                <field>CostType__c</field>
+            </layoutItems>
+            <layoutItems>
                 <behavior>Readonly</behavior>
                 <field>Name</field>
             </layoutItems>
@@ -72,6 +80,8 @@
         <fields>Cost_Type__c</fields>
         <fields>Country__c</fields>
         <fields>Organization__c</fields>
+        <fields>BusinessType__c</fields>
+        <fields>CostType__c</fields>
     </miniLayout>
     <relatedLists>
         <fields>TASK.SUBJECT</fields>

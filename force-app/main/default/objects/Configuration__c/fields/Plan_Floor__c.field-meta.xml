@@ -3,7 +3,7 @@
     <fullName>Plan_Floor__c</fullName>
     <description>Plan Floor used in the configuration</description>
     <externalId>false</externalId>
-    <label>Floor</label>
+    <label>Floor OLD</label>
     <precision>18</precision>
     <required>false</required>
     <scale>0</scale>

@@ -31,5 +31,12 @@
         <value>Maps-livetillgångar</value>
     </caseValues>
     <gender>Feminine</gender>
+    <layouts>
+        <layout>Maps Live Asset Layout</layout>
+        <sections>
+            <label>Anpassade länkar</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Namn på Maps-livetillgång</nameFieldLabel>
 </CustomObjectTranslation>

@@ -2,7 +2,7 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Count_Items__c</fullName>
     <externalId>false</externalId>
-    <label>Count Items</label>
+    <label>Count Items OLD</label>
     <summaryForeignKey>Configuration_Option__c.Configuration_Product__c</summaryForeignKey>
     <summaryOperation>count</summaryOperation>
     <trackHistory>false</trackHistory>

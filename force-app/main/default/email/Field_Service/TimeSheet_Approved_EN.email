@@ -1,0 +1,10 @@
+Hello {!TimeSheet.OwnerFullName},
+
+{!ApprovalRequest.Process_Approver} has approved you Timesheet
+Timesheet Date: {!TimeSheet.StartDate}
+Link to Time Sheet: {!TimeSheet.Link}
+
+Approver's comments: {!ApprovalRequest.Comments}
+
+Best Regards,
+{!ApprovalRequest.Process_Approver}

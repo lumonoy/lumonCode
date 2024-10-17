@@ -396,5 +396,12 @@
         <possessive>Second</possessive>
         <value>SLR-välimuistejasi</value>
     </caseValues>
+    <layouts>
+        <layout>SLR Cache Layout</layout>
+        <sections>
+            <label>Mukautetut linkit</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>SLR Välimuistinumero</nameFieldLabel>
 </CustomObjectTranslation>

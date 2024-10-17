@@ -41,5 +41,12 @@
         <value>Business Units</value>
     </caseValues>
     <gender>Feminine</gender>
+    <layouts>
+        <layout>Business Unit Layout</layout>
+        <sections>
+            <label>Benutzerdefinierte Links</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Business Unit-Name</nameFieldLabel>
 </CustomObjectTranslation>

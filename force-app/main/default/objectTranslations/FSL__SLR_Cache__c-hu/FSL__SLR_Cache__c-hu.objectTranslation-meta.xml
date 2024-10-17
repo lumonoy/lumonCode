@@ -612,6 +612,13 @@
         <possessive>Second</possessive>
         <value>SLR-gyorsítótárak</value>
     </caseValues>
+    <layouts>
+        <layout>SLR Cache Layout</layout>
+        <sections>
+            <label>Egyéni hivatkozások</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>SLR gyorsítótár száma</nameFieldLabel>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

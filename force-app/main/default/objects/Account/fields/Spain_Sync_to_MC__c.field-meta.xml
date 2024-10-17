@@ -4,7 +4,7 @@
     <defaultValue>false</defaultValue>
     <description>To be used by marketing cloud to define MC region/country.</description>
     <externalId>false</externalId>
-    <label>Spain Sync to MC</label>
+    <label>Spain Sync to MC OLD</label>
     <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>true</trackHistory>
     <type>Checkbox</type>

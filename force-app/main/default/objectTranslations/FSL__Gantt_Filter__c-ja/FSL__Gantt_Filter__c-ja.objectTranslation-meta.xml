@@ -5,4 +5,8 @@
         <value>ガントチャートの検索条件</value>
     </caseValues>
     <nameFieldLabel>ガントチャートの検索条件名</nameFieldLabel>
+    <sharingReasons>
+        <label><!-- FSL Public Custom Filter --></label>
+        <name>FSL__FSL_Public_Custom_Filter</name>
+    </sharingReasons>
 </CustomObjectTranslation>

@@ -3,7 +3,7 @@
     <fullName>Pricing_JSON__c</fullName>
     <description>(Hidden) Field to Store the Pricing JSON</description>
     <externalId>false</externalId>
-    <label>Pricing JSON</label>
+    <label>Pricing JSON OLD</label>
     <length>131072</length>
     <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <help><!-- &quot;upper_fastening_material&quot; in the Visual Output JSON --></help>
-    <label><!-- Upper Fastening Material --></label>
+    <label><!-- Upper Fastening Material OLD --></label>
     <name>Upper_Fastening_Material__c</name>
 </CustomFieldTranslation>

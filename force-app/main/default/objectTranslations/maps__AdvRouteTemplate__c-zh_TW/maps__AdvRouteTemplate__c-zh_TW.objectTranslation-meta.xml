@@ -4,5 +4,24 @@
         <plural>false</plural>
         <value>Maps Advanced 路線範本</value>
     </caseValues>
+    <layouts>
+        <layout>Maps Advanced Route Template Layout</layout>
+        <sections>
+            <label>自動重新最佳化設定</label>
+            <section>Auto Reoptimization Settings</section>
+        </sections>
+        <sections>
+            <label>自訂連結</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>持續時間資訊</label>
+            <section>Duration Info</section>
+        </sections>
+        <sections>
+            <label>範本完成</label>
+            <section>Template Completion</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Maps Advanced 路線範本名稱</nameFieldLabel>
 </CustomObjectTranslation>

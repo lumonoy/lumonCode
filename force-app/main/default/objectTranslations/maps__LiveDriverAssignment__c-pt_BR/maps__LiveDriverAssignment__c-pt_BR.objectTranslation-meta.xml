@@ -9,5 +9,12 @@
         <value>Atribuições do condutor de mapas ativos</value>
     </caseValues>
     <gender>Feminine</gender>
+    <layouts>
+        <layout>Maps Live Driver Assignment Layout</layout>
+        <sections>
+            <label>Links personalizados</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Nome da atribuição do condutor do Maps L</nameFieldLabel>
 </CustomObjectTranslation>

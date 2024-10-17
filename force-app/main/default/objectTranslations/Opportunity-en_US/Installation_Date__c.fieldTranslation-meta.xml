@@ -4,6 +4,6 @@
         <!-- Estimated Earliest Installation
 The earliest Possible Date when Goods are available on Site for Installation -->
     </help>
-    <label><!-- Earliest Installation Date --></label>
+    <label><!-- Earliest Installation Date OLD --></label>
     <name>Installation_Date__c</name>
 </CustomFieldTranslation>

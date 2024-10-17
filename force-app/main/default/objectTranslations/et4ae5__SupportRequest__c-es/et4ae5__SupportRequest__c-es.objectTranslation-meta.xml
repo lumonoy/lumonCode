@@ -9,5 +9,12 @@
         <value>Solicitudes de asistencia</value>
     </caseValues>
     <gender>Feminine</gender>
+    <layouts>
+        <layout>Support Request Layout</layout>
+        <sections>
+            <label>Vínculos personalizados</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Solicitud de asistencia</nameFieldLabel>
 </CustomObjectTranslation>

@@ -4,5 +4,24 @@
         <plural>false</plural>
         <value>Maps Advanced ルートテンプレート</value>
     </caseValues>
+    <layouts>
+        <layout>Maps Advanced Route Template Layout</layout>
+        <sections>
+            <label>自動再最適化設定</label>
+            <section>Auto Reoptimization Settings</section>
+        </sections>
+        <sections>
+            <label>カスタムリンク</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>期間情報</label>
+            <section>Duration Info</section>
+        </sections>
+        <sections>
+            <label>テンプレート完了</label>
+            <section>Template Completion</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Maps Advanced ルートテンプレート名</nameFieldLabel>
 </CustomObjectTranslation>

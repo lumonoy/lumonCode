@@ -4,7 +4,7 @@
     <description>This selection segments the customer Lead</description>
     <externalId>false</externalId>
     <inlineHelpText>Please choose the type of customer segment.</inlineHelpText>
-    <label>Customer Segment</label>
+    <label>Customer Segment OLD</label>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>false</trackHistory>

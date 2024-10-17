@@ -9,5 +9,12 @@
         <value>Detalles del nivel de vínculo individual</value>
     </caseValues>
     <gender>Masculine</gender>
+    <layouts>
+        <layout>Individual Link Level Detail Layout</layout>
+        <sections>
+            <label>Vínculos personalizados</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Nombre del vínculo</nameFieldLabel>
 </CustomObjectTranslation>

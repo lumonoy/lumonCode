@@ -4,7 +4,7 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <description>Reference to the related Pricebook</description>
     <externalId>false</externalId>
-    <label>Price Book</label>
+    <label>Price Book OLD</label>
     <referenceTo>Pricebook2</referenceTo>
     <relationshipName>Configuration</relationshipName>
     <required>false</required>

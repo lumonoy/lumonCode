@@ -2,19 +2,20 @@
  * @description       : 
  * @author            : Henk Reynders
  * @group             : 
- * @last modified on  : 08-18-2024
+ * @last modified on  : 10-01-2024
  * @last modified by  : Henk Reynders
 **/
 @IsTest
 public class CaseControllerTest {
+    public class CustomException extends Exception {}
+    private static List<Case> cases = LumonTestVariables.cases;
+    private static List<Id> caseIds = LumonTestVariables.caseIds;
     @TestSetup
     static void prepareData(){
         Test.startTest();
-        LumonTestCases.setupCases();
+        LumonTestDataFactory.setupCases();
         Test.stopTest();
     }
-    private static List<Case> cases = LumonTestCases.cases;
-    private static List<Id> caseIds = LumonTestCases.caseIds;
     @IsTest
     static void getCaseRecordTest(){   
         Case caseToGet = [SELECT Id,CaseGroup__c FROM Case LIMIT 1];

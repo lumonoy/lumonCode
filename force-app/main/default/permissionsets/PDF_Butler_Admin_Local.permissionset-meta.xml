@@ -314,11 +314,6 @@
     </classAccesses>
     <fieldPermissions>
         <editable>true</editable>
-        <field>EmailMessage.IsMigrated__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>cadmus_core__Actionable__c.cadmus_core__Action_Name__c</field>
         <readable>true</readable>
     </fieldPermissions>

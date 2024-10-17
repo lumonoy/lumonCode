@@ -61,5 +61,32 @@
         <value>Пользователях шаблона маршрута Maps Advanced</value>
     </caseValues>
     <gender>Masculine</gender>
+    <layouts>
+        <layout>Maps Advanced Route Template User Layout</layout>
+        <sections>
+            <label>Сведения о текущей обработке</label>
+            <section>Current Processing Info</section>
+        </sections>
+        <sections>
+            <label>Настраиваемые ссылки</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Сбои задания</label>
+            <section>Job Failures</section>
+        </sections>
+        <sections>
+            <label>Сведения о процессе повторного запуска</label>
+            <section>Restart Process Info</section>
+        </sections>
+        <sections>
+            <label>Повторная оптимизация в тот же день</label>
+            <section>Same Day Reoptimization</section>
+        </sections>
+        <sections>
+            <label>Сведения о пользователе</label>
+            <section>User Info</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Имя пользователя шаблона маршрута Maps A</nameFieldLabel>
 </CustomObjectTranslation>

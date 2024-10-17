@@ -5,7 +5,7 @@
     <description>Estimated Installation Time per Unit from Installation Time Object</description>
     <externalId>false</externalId>
     <inlineHelpText>Estimated Installation Time per Unit from Installation Time Object</inlineHelpText>
-    <label>Installation_Time Per_Unit</label>
+    <label>Installation_Time Per_Unit OLD</label>
     <precision>18</precision>
     <required>false</required>
     <scale>3</scale>

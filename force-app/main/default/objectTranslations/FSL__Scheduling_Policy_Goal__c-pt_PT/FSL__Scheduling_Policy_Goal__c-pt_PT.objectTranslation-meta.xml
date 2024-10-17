@@ -10,4 +10,8 @@
     </caseValues>
     <gender>Masculine</gender>
     <nameFieldLabel>Nome do objetivo da política de agendame</nameFieldLabel>
+    <validationRules>
+        <errorMessage><!-- Weight can&apos;t have zero value --></errorMessage>
+        <name>FSL__Not_Zero</name>
+    </validationRules>
 </CustomObjectTranslation>

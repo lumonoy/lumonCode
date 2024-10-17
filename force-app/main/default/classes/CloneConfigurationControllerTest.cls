@@ -2,28 +2,24 @@
  * @description       : 
  * @author            : Henk Reynders
  * @group             : 
- * @last modified on  : 12-12-2023
+ * @last modified on  : 10-01-2024
  * @last modified by  : Henk Reynders
 **/
 @IsTest
 private class CloneConfigurationControllerTest {
+	public class CustomException extends Exception {}
+	private static Id b2cOpportunityId = LumonTestVariables.b2cOpportunityId;
+	private static List<Id> configPlanIds = LumonTestVariables.configPlanIds;
     @TestSetup
     static void prepareData(){
         Test.startTest();
         LumonTestDataFactory.setupProducts();
-        LumonTestDataFactory.setupPriceBookEntries();
-        // B2C Setup
-        LumonTestDataFactory.setupAccountB2C();
-        LumonTestDataFactory.setupOpportunityB2C();        
-        LumonTestDataFactory.setupConfigurationB2C();
-        LumonTestDataFactory.setupConfigurationProductsB2C();
-        LumonTestDataFactory.setupConfigurationOptionsB2C();       
-        LumonTestDataFactory.setupConfigurationMessagesB2C();
+        LumonTestDataFactory.setupPrices();
+        LumonTestDataFactory.setupAccounts();
+        LumonTestDataFactory.setupOpportunities();        
+        LumonTestDataFactory.setupConfigurations();
         Test.stopTest();
     }
-    private static Id b2cOpportunityId = LumonTestDataFactory.b2cOpportunityId;
-	private static Id b2cConfigurationPlanId = LumonTestDataFactory.b2cConfigurationPlanId;
-
 	@IsTest
 	static void cloneConfigurationTest() {
 		//String expectedVisualId = '12345';
@@ -39,8 +35,8 @@ private class CloneConfigurationControllerTest {
         resp = CloneConfigurationController.cloneConfiguration(new List<Id>{configuration.Id});
         System.debug('--- mock response: '+resp);
         Test.stopTest();
-        System.debug('--- b2cConfigurationPlanId: '+b2cConfigurationPlanId);
-		Configuration__c config = [SELECT Visual_Id__c FROM Configuration__c WHERE Id =: b2cConfigurationPlanId LIMIT 1];
+        System.debug('--- configPlanId: '+configPlanIds[0]);
+		Configuration__c config = [SELECT Visual_Id__c FROM Configuration__c WHERE Id =: configPlanIds[0] LIMIT 1];
 		System.assertEquals(expectedVisualId, config.Visual_Id__c, 'Config Visual Id value should be updated!');
         System.debug('--- cloneConfigurationTest - CPU TIME: '+LIMITS.getCpuTime()); 
         System.debug('--- cloneConfigurationTest - SOQL USED: ' + LIMITS.getQueries());       

@@ -4,5 +4,12 @@
         <plural>false</plural>
         <value>Maps 即時駕駛指派</value>
     </caseValues>
+    <layouts>
+        <layout>Maps Live Driver Assignment Layout</layout>
+        <sections>
+            <label>自訂連結</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>地圖即時駕駛指派名稱</nameFieldLabel>
 </CustomObjectTranslation>

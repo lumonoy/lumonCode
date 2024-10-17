@@ -396,5 +396,28 @@
         <possessive>Second</possessive>
         <value>Maps: Päivittäisiä live-ajomatkojasi</value>
     </caseValues>
+    <layouts>
+        <layout>Maps Live Daily Drive Trip Layout</layout>
+        <sections>
+            <label>Matkan aloitustiedot</label>
+            <section>Begin Trip Information</section>
+        </sections>
+        <sections>
+            <label>Mukautetut linkit</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Matkan päättymistiedot</label>
+            <section>End Trip Information</section>
+        </sections>
+        <sections>
+            <label>Matkan kuljettajatiedot</label>
+            <section>Trip Driver Information</section>
+        </sections>
+        <sections>
+            <label>Matkan tiedot</label>
+            <section>Trip Information</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Maps: Päivittäisen live-ajomatkan nimi</nameFieldLabel>
 </CustomObjectTranslation>

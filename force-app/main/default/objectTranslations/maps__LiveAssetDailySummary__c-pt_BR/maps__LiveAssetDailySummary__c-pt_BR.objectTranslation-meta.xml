@@ -9,5 +9,24 @@
         <value>Resumos diários ativo de mapas ativos</value>
     </caseValues>
     <gender>Masculine</gender>
+    <layouts>
+        <layout>Maps Live Asset Daily Summary Layout</layout>
+        <sections>
+            <label>Links personalizados</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Relacionado à milhagem</label>
+            <section>Mileage Related</section>
+        </sections>
+        <sections>
+            <label>Tempo relacionado</label>
+            <section>Time Related</section>
+        </sections>
+        <sections>
+            <label>Total de eventos</label>
+            <section>Total Events</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Nome do resumo diário de ativos do Maps</nameFieldLabel>
 </CustomObjectTranslation>

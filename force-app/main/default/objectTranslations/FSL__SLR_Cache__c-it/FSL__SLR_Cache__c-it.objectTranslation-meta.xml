@@ -9,6 +9,13 @@
         <value>Cache calc.perc.strad.</value>
     </caseValues>
     <gender>Feminine</gender>
+    <layouts>
+        <layout>SLR Cache Layout</layout>
+        <sections>
+            <label>Link personalizzati</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Numero cache calc. perc. strad.</nameFieldLabel>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

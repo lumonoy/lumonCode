@@ -4,5 +4,12 @@
         <plural>false</plural>
         <value>Maps ライブサマリー都道府県移動距離</value>
     </caseValues>
+    <layouts>
+        <layout>Maps Live Summary State Mileage Layout</layout>
+        <sections>
+            <label>カスタムリンク</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Maps ライブサマリー都道府県マイレージ名</nameFieldLabel>
 </CustomObjectTranslation>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <help><!-- Please state why preliminary contract is needed --></help>
-    <label><!-- Reason for Preliminary Contract --></label>
+    <label><!-- Reason for Preliminary Contract OLD --></label>
     <name>Reason_for_preliminary_contract__c</name>
     <picklistValues>
         <masterLabel>2nd measurement needed</masterLabel>

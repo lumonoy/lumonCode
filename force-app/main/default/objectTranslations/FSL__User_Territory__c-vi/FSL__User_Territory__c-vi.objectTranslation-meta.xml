@@ -8,5 +8,12 @@
         <plural>true</plural>
         <value><!-- Khu Vực Người Dùng --></value>
     </caseValues>
+    <layouts>
+        <layout>User Territory Layout</layout>
+        <sections>
+            <label>Liên Kết Tùy Chỉnh</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Số Lãnh Thổ Người Dùng</nameFieldLabel>
 </CustomObjectTranslation>

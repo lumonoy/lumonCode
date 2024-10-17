@@ -9,6 +9,13 @@
         <value>Dettagli a livello di collegamenti individuali</value>
     </caseValues>
     <gender>Masculine</gender>
+    <layouts>
+        <layout>Individual Link Level Detail Layout</layout>
+        <sections>
+            <label>Collegamenti personalizzati</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Nome collegamento</nameFieldLabel>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

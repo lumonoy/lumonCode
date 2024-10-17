@@ -29,10 +29,6 @@
                 <behavior>Required</behavior>
                 <field>Email</field>
             </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>IsMigrated__c</field>
-            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>

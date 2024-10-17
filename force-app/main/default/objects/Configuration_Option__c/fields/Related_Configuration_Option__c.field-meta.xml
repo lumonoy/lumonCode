@@ -3,7 +3,7 @@
     <fullName>Related_Configuration_Option__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <externalId>false</externalId>
-    <label>Related Configuration Option</label>
+    <label>Related Configuration Option OLD</label>
     <lookupFilter>
         <active>true</active>
         <filterItems>

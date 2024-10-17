@@ -9,5 +9,12 @@
         <value>Dispositivos IoT en vivo de Maps</value>
     </caseValues>
     <gender>Masculine</gender>
+    <layouts>
+        <layout>Maps Live IoT Device Layout</layout>
+        <sections>
+            <label>Vínculos personalizados</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Nombre de dispositivo IoT en vivo de Map</nameFieldLabel>
 </CustomObjectTranslation>

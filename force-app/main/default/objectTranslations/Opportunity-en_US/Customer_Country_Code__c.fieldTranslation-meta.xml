@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-    <label><!-- Customer Country Code --></label>
+    <label><!-- Customer Country Code OLD --></label>
     <name>Customer_Country_Code__c</name>
 </CustomFieldTranslation>

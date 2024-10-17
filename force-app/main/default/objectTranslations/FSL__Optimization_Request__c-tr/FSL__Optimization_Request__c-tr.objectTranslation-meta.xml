@@ -216,5 +216,20 @@
         <possessive>Second</possessive>
         <value>Optimizasyon İsteklerinizde</value>
     </caseValues>
+    <layouts>
+        <layout>Optimization Request Layout</layout>
+        <sections>
+            <label>Özel Bağlantılar</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Optimizasyon İstek Numarası</nameFieldLabel>
+    <sharingReasons>
+        <label><!-- Related Service Territory --></label>
+        <name>FSL__Related_Service_Territory</name>
+    </sharingReasons>
+    <sharingReasons>
+        <label><!-- Related Service Territory Member --></label>
+        <name>FSL__Related_Service_Territory_Member</name>
+    </sharingReasons>
 </CustomObjectTranslation>

@@ -3,7 +3,7 @@
     <fullName>Production_Time_Max__c</fullName>
     <description>Max Value of the Production Days of related Configuration Products</description>
     <externalId>false</externalId>
-    <label>Production Time Max</label>
+    <label>Production Time Max OLD</label>
     <summarizedField>Configuration_Product__c.Production_Time__c</summarizedField>
     <summaryForeignKey>Configuration_Product__c.Configuration__c</summaryForeignKey>
     <summaryOperation>max</summaryOperation>

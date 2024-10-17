@@ -31,6 +31,29 @@
         <value>Ρυθμίσεων χρήστη</value>
     </caseValues>
     <gender>Feminine</gender>
+    <layouts>
+        <layout>User Setting Layout</layout>
+        <sections>
+            <label>Προσαρμοσμένα φίλτρα</label>
+            <section>Custom Filters</section>
+        </sections>
+        <sections>
+            <label>Προσαρμοσμένοι σύνδεσμοι</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Προτιμήσεις Gantt</label>
+            <section>Gantt Preferences</section>
+        </sections>
+        <sections>
+            <label>Μη διαθέσιμες προτιμήσεις μεταφοράς και απόθεσης</label>
+            <section>NA Drag&amp;Drop Preferences</section>
+        </sections>
+        <sections>
+            <label>Προτιμήσεις λίστας υπηρεσιών</label>
+            <section>Service List Prefernces</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Όνομα ρύθμισης χρήστη</nameFieldLabel>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

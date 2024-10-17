@@ -41,5 +41,20 @@
         <value>Maps-Live-Fahrern</value>
     </caseValues>
     <gender>Masculine</gender>
+    <layouts>
+        <layout>Maps Live Driver Layout</layout>
+        <sections>
+            <label>Adresse</label>
+            <section>Address</section>
+        </sections>
+        <sections>
+            <label>Benutzerdefinierte Links</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Fahrertelematikwarnungen</label>
+            <section>Driver Telematics Alerts</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Maps-Live-Fahrername</nameFieldLabel>
 </CustomObjectTranslation>

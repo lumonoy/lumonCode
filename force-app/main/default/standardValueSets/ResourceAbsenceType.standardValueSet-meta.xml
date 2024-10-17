@@ -2,23 +2,38 @@
 <StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
     <sorted>false</sorted>
     <standardValue>
-        <fullName>Vacation</fullName>
+        <fullName>40</fullName>
         <default>true</default>
-        <label>Vacation</label>
+        <label>Vacation (loma)</label>
     </standardValue>
     <standardValue>
-        <fullName>Pekkanen</fullName>
+        <fullName>15</fullName>
         <default>false</default>
-        <label>Pekkanen</label>
+        <label>FlexiHours (pekkanen)</label>
     </standardValue>
     <standardValue>
-        <fullName>Sick leave</fullName>
+        <fullName>30</fullName>
         <default>false</default>
-        <label>Sick leave</label>
+        <label>Sick Leave (sairaus)</label>
     </standardValue>
     <standardValue>
-        <fullName>Other</fullName>
+        <fullName>0</fullName>
         <default>false</default>
         <label>Other</label>
+    </standardValue>
+    <standardValue>
+        <fullName>50</fullName>
+        <default>false</default>
+        <label>Internal Work (sisäinen työ)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>45</fullName>
+        <default>false</default>
+        <label>Layoff (lomautus)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>35</fullName>
+        <default>false</default>
+        <label>Absence (poissaolo)</label>
     </standardValue>
 </StandardValueSet>

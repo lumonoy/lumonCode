@@ -9,6 +9,13 @@
         <value>Test A/B</value>
     </caseValues>
     <gender>Masculine</gender>
+    <layouts>
+        <layout>AB Test Layout</layout>
+        <sections>
+            <label>Collegamenti personalizzati</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Nome test A/B</nameFieldLabel>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

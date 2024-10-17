@@ -41,5 +41,16 @@
         <value>Maps Advanced-Routenruhetagen</value>
     </caseValues>
     <gender>Masculine</gender>
+    <layouts>
+        <layout>Maps Advanced Route Off Days Layout</layout>
+        <sections>
+            <label>Benutzerdefinierte Links</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Datumsbereich</label>
+            <section>Date Range</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Name der Maps Advanced-Routenruhetage</nameFieldLabel>
 </CustomObjectTranslation>

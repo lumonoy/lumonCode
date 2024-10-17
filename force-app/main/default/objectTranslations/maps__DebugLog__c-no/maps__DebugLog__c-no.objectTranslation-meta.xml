@@ -31,5 +31,24 @@
         <value>Maps-feilsøkingslogger</value>
     </caseValues>
     <gender>Masculine</gender>
+    <layouts>
+        <layout>Maps Debug Log Layout</layout>
+        <sections>
+            <label>Advanced-relatert</label>
+            <section>Advanced Related</section>
+        </sections>
+        <sections>
+            <label>Tilpassede lenker</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Feil</label>
+            <section>Error</section>
+        </sections>
+        <sections>
+            <label>Relaterte poster</label>
+            <section>Related Records</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Navn</nameFieldLabel>
 </CustomObjectTranslation>

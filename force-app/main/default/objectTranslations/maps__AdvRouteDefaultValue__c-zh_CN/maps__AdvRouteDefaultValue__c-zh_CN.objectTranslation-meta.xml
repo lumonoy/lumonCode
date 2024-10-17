@@ -4,5 +4,12 @@
         <plural>false</plural>
         <value>地图高级默认值</value>
     </caseValues>
+    <layouts>
+        <layout>Maps Advanced Default Value Layout</layout>
+        <sections>
+            <label>自定义链接</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Maps Advanced 默认值名称</nameFieldLabel>
 </CustomObjectTranslation>

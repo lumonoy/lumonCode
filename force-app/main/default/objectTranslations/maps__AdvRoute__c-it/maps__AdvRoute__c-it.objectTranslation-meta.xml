@@ -9,6 +9,21 @@
         <value>Percorsi di Maps Advanced</value>
     </caseValues>
     <gender>Masculine</gender>
+    <layouts>
+        <layout>Maps Advanced Route Layout</layout>
+        <sections>
+            <label>Link personalizzati</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Dati sulle prestazioni</label>
+            <section>Performance Data</section>
+        </sections>
+        <sections>
+            <label>Data/ora percorso</label>
+            <section>Route Date/Time</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Nome Percorso di Maps Advanced</nameFieldLabel>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

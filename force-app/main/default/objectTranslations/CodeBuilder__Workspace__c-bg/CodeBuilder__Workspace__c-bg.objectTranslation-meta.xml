@@ -9,5 +9,16 @@
         <value><!-- Среди --></value>
     </caseValues>
     <gender><!-- Feminine --></gender>
+    <layouts>
+        <layout>Workspace Layout</layout>
+        <sections>
+            <label>Допълнителни връзки</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel><!-- Environment Name --></nameFieldLabel>
+    <validationRules>
+        <errorMessage><!-- Workspace name cannot be changed --></errorMessage>
+        <name>CodeBuilder__CannotChangeWorkspaceName</name>
+    </validationRules>
 </CustomObjectTranslation>

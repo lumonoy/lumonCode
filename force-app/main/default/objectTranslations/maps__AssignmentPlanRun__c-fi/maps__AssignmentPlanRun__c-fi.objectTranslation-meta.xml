@@ -396,5 +396,20 @@
         <possessive>Second</possessive>
         <value>Maps: Kohdistussuunnitelman suorituksiasi</value>
     </caseValues>
+    <layouts>
+        <layout>Assignment Plan Run</layout>
+        <sections>
+            <label>Virheet</label>
+            <section>Errors</section>
+        </sections>
+        <sections>
+            <label>Käsittelyajat</label>
+            <section>Processing Times</section>
+        </sections>
+        <sections>
+            <label>Suoritustilastot</label>
+            <section>Run Statistics</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Maps: Kohdistussuunnitelman suoritusnimi</nameFieldLabel>
 </CustomObjectTranslation>

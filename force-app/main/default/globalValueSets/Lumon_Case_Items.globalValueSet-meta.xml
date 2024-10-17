@@ -1,19 +1,244 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
     <customValue>
-        <fullName>IT_ORD_Accessories</fullName>
+        <fullName>IT_INC_Autopilot</fullName>
         <default>false</default>
-        <label>Accessories(New)</label>
+        <label>Autopilot Problem(New)</label>
     </customValue>
     <customValue>
-        <fullName>IT_USR_Accounts</fullName>
+        <fullName>IT_INC_Generic</fullName>
         <default>false</default>
-        <label>Accounts(New)</label>
+        <label>General problem(New)</label>
     </customValue>
     <customValue>
-        <fullName>IT_PERM_AD</fullName>
+        <fullName>IT_INC_Hardware</fullName>
         <default>false</default>
-        <label>AD Access(New)</label>
+        <label>Hardware Problem(New)</label>
+    </customValue>
+    <customValue>
+        <fullName>IT_INC_Network</fullName>
+        <default>false</default>
+        <label>Network Problem(New)</label>
+    </customValue>
+    <customValue>
+        <fullName>IT_INC_Phones</fullName>
+        <default>false</default>
+        <label>Phone Problem(New)</label>
+    </customValue>
+    <customValue>
+        <fullName>IT_INC_Printer</fullName>
+        <default>false</default>
+        <label>Printer Problem(New)</label>
+    </customValue>
+    <customValue>
+        <fullName>IT_INC_Remote_Desktop</fullName>
+        <default>false</default>
+        <label>Remote Desktop Problem(New)</label>
+    </customValue>
+    <customValue>
+        <fullName>IT_INC_Locked</fullName>
+        <default>false</default>
+        <label>Unlocked Device Problem(New)</label>
+    </customValue>
+    <customValue>
+        <fullName>IT_SW_Salestori</fullName>
+        <default>false</default>
+        <label>Salestori(New)</label>
+    </customValue>
+    <customValue>
+        <fullName>IT_SW_Maintori</fullName>
+        <default>false</default>
+        <label>Maintori(New)</label>
+    </customValue>
+    <customValue>
+        <fullName>IT_SW_Reptori</fullName>
+        <default>false</default>
+        <label>Reptori(New)</label>
+    </customValue>
+    <customValue>
+        <fullName>IT_SW_Plantori</fullName>
+        <default>false</default>
+        <label>Plantori(New)</label>
+    </customValue>
+    <customValue>
+        <fullName>IT_SW_AX</fullName>
+        <default>false</default>
+        <label>AX(New)</label>
+    </customValue>
+    <customValue>
+        <fullName>IT_SW_Mepco</fullName>
+        <default>false</default>
+        <label>Mepco(New)</label>
+    </customValue>
+    <customValue>
+        <fullName>IT_SW_Email_Client</fullName>
+        <default>false</default>
+        <label>Email(New)</label>
+    </customValue>
+    <customValue>
+        <fullName>IT_SW_Basware</fullName>
+        <default>false</default>
+        <label>Basware(New)</label>
+    </customValue>
+    <customValue>
+        <fullName>IT_SW_Intori</fullName>
+        <default>false</default>
+        <label>Intori(New)</label>
+    </customValue>
+    <customValue>
+        <fullName>IT_SW_Precut</fullName>
+        <default>false</default>
+        <label>Precut(New)</label>
+    </customValue>
+    <customValue>
+        <fullName>IT_SW_Esmi</fullName>
+        <default>false</default>
+        <label>Esmi &amp; Security Expert(New)</label>
+    </customValue>
+    <customValue>
+        <fullName>IT_SW_Mfiles</fullName>
+        <default>false</default>
+        <label>Mfiles(New)</label>
+    </customValue>
+    <customValue>
+        <fullName>IT_SW_OneNote</fullName>
+        <default>false</default>
+        <label>OneNote(New)</label>
+    </customValue>
+    <customValue>
+        <fullName>Others</fullName>
+        <default>false</default>
+        <label>Others(New)</label>
+    </customValue>
+    <customValue>
+        <fullName>IT_SW_Wmware</fullName>
+        <default>false</default>
+        <label>Wmware(New)</label>
+    </customValue>
+    <customValue>
+        <fullName>IT_SW_Frends</fullName>
+        <default>false</default>
+        <label>Frends(New)</label>
+    </customValue>
+    <customValue>
+        <fullName>Elisa</fullName>
+        <default>false</default>
+        <label>Elisa(New)</label>
+    </customValue>
+    <customValue>
+        <fullName>Veeam</fullName>
+        <default>false</default>
+        <label>Veeam(New)</label>
+    </customValue>
+    <customValue>
+        <fullName>PRTG</fullName>
+        <default>false</default>
+        <label>PRTG(New)</label>
+    </customValue>
+    <customValue>
+        <fullName>IT_SW_Teams</fullName>
+        <default>false</default>
+        <label>Teams(New)</label>
+    </customValue>
+    <customValue>
+        <fullName>IT_SW_Sovelia</fullName>
+        <default>false</default>
+        <label>Sovelia(New)</label>
+    </customValue>
+    <customValue>
+        <fullName>IT_SW_Solidworks</fullName>
+        <default>false</default>
+        <label>Solidworks(New)</label>
+    </customValue>
+    <customValue>
+        <fullName>IT_SW_Palette</fullName>
+        <default>false</default>
+        <label>Palette(New)</label>
+    </customValue>
+    <customValue>
+        <fullName>IT_SW_Office</fullName>
+        <default>false</default>
+        <label>Office(New)</label>
+    </customValue>
+    <customValue>
+        <fullName>Install apps</fullName>
+        <default>false</default>
+        <label>Install apps(New)</label>
+    </customValue>
+    <customValue>
+        <fullName>IT_SW_Softphone</fullName>
+        <default>false</default>
+        <label>Softphone(New)</label>
+    </customValue>
+    <customValue>
+        <fullName>IT_SW_Freshdesk</fullName>
+        <default>false</default>
+        <label>Freshdesk(New)</label>
+    </customValue>
+    <customValue>
+        <fullName>IT_SW_Unifaun</fullName>
+        <default>false</default>
+        <label>Unifaun(New)</label>
+    </customValue>
+    <customValue>
+        <fullName>IT_SW_eCon</fullName>
+        <default>false</default>
+        <label>eCon(New)</label>
+    </customValue>
+    <customValue>
+        <fullName>IT_SW_Pagero</fullName>
+        <default>false</default>
+        <label>Pagero(New)</label>
+    </customValue>
+    <customValue>
+        <fullName>IT_SW_Brandtori</fullName>
+        <default>false</default>
+        <label>Brandtori(New)</label>
+    </customValue>
+    <customValue>
+        <fullName>IT_SW_M2</fullName>
+        <default>false</default>
+        <label>M2(New)</label>
+    </customValue>
+    <customValue>
+        <fullName>IT_SW_Shopify</fullName>
+        <default>false</default>
+        <label>Shopify(New)</label>
+    </customValue>
+    <customValue>
+        <fullName>Rajobit robot</fullName>
+        <default>false</default>
+        <label>Rajobit robot(New)</label>
+    </customValue>
+    <customValue>
+        <fullName>IT_SW_Salesforce</fullName>
+        <default>false</default>
+        <label>Salesforce(New)</label>
+    </customValue>
+    <customValue>
+        <fullName>IT_SW_Autocad</fullName>
+        <default>false</default>
+        <label>Autocad + LT(New)</label>
+    </customValue>
+    <customValue>
+        <fullName>IT_SW_Doctori</fullName>
+        <default>false</default>
+        <label>Doctori(New)</label>
+    </customValue>
+    <customValue>
+        <fullName>IT_SW_Syncrontech</fullName>
+        <default>false</default>
+        <label>Syncrontech(New)</label>
+    </customValue>
+    <customValue>
+        <fullName>IT_SW_Teamviewer</fullName>
+        <default>false</default>
+        <label>Teamviewer(New)</label>
+    </customValue>
+    <customValue>
+        <fullName>IT_SW_QFactory</fullName>
+        <default>false</default>
+        <label>Q-factory(New)</label>
     </customValue>
     <customValue>
         <fullName>IT_SW_Adobe</fullName>
@@ -21,19 +246,34 @@
         <label>Adobe products(New)</label>
     </customValue>
     <customValue>
-        <fullName>Ad rights</fullName>
+        <fullName>IT_SW_Lisec</fullName>
         <default>false</default>
-        <label>Ad rights(New)</label>
+        <label>Lisec(New)</label>
     </customValue>
     <customValue>
-        <fullName>IT_ORD_Amazon_Accesories</fullName>
+        <fullName>IT_ORD_Accessories</fullName>
         <default>false</default>
-        <label>Amazon Accesories(New)</label>
+        <label>Accessories(New)</label>
+    </customValue>
+    <customValue>
+        <fullName>IT_ORD_Computers</fullName>
+        <default>false</default>
+        <label>Computers(New)</label>
     </customValue>
     <customValue>
         <fullName>IT_ORD_Amazon_Computers</fullName>
         <default>false</default>
         <label>Amazon Computers(New)</label>
+    </customValue>
+    <customValue>
+        <fullName>IT_ORD_Amazon_Phones</fullName>
+        <default>false</default>
+        <label>Amazon Phones(New)</label>
+    </customValue>
+    <customValue>
+        <fullName>IT_ORD_Amazon_Accesories</fullName>
+        <default>false</default>
+        <label>Amazon Accesories(New)</label>
     </customValue>
     <customValue>
         <fullName>IT_ORD_Amazon_Gifts</fullName>
@@ -46,114 +286,34 @@
         <label>Amazon Others(New)</label>
     </customValue>
     <customValue>
-        <fullName>IT_ORD_Amazon_Phones</fullName>
+        <fullName>IT_ORD_Licenses</fullName>
         <default>false</default>
-        <label>Amazon Phones(New)</label>
+        <label>Licenses(New)</label>
     </customValue>
     <customValue>
-        <fullName>IT_SW_Autocad</fullName>
+        <fullName>Network folder</fullName>
         <default>false</default>
-        <label>Autocad + LT(New)</label>
+        <label>Network folder(New)</label>
     </customValue>
     <customValue>
-        <fullName>IT_INC_Autopilot</fullName>
+        <fullName>IT_USR_Accounts</fullName>
         <default>false</default>
-        <label>Autopilot Problem(New)</label>
+        <label>Accounts(New)</label>
     </customValue>
     <customValue>
-        <fullName>IT_SW_AX</fullName>
+        <fullName>IT_USER_Password</fullName>
         <default>false</default>
-        <label>AX(New)</label>
+        <label>Password(New)</label>
     </customValue>
     <customValue>
-        <fullName>IT_SW_Basware</fullName>
+        <fullName>IT_USR_New_User</fullName>
         <default>false</default>
-        <label>Basware(New)</label>
+        <label>New User(New)</label>
     </customValue>
     <customValue>
-        <fullName>TS_TQ_Blinds</fullName>
+        <fullName>Ad rights</fullName>
         <default>false</default>
-        <label>Blinds(New)</label>
-    </customValue>
-    <customValue>
-        <fullName>Blinds Sales</fullName>
-        <default>false</default>
-        <label>Blinds Sales(New)</label>
-    </customValue>
-    <customValue>
-        <fullName>IT_SW_Brandtori</fullName>
-        <default>false</default>
-        <label>Brandtori(New)</label>
-    </customValue>
-    <customValue>
-        <fullName>Callback Request</fullName>
-        <default>false</default>
-        <label>Callback Request(New)</label>
-    </customValue>
-    <customValue>
-        <fullName>Call forwarding</fullName>
-        <default>false</default>
-        <label>Call forwarding(New)</label>
-    </customValue>
-    <customValue>
-        <fullName>TS_TQ_Components</fullName>
-        <default>false</default>
-        <label>Components(New)</label>
-    </customValue>
-    <customValue>
-        <fullName>IT_ORD_Computers</fullName>
-        <default>false</default>
-        <label>Computers(New)</label>
-    </customValue>
-    <customValue>
-        <fullName>Consumer Sales</fullName>
-        <default>false</default>
-        <label>Consumer Sales(New)</label>
-    </customValue>
-    <customValue>
-        <fullName>CS_TASK_Update_Contact</fullName>
-        <default>false</default>
-        <label>CS_TASK_Update_Contact(New)</label>
-    </customValue>
-    <customValue>
-        <fullName>CS_TASK_Update_EndTime</fullName>
-        <default>false</default>
-        <label>CS_TASK_Update_EndTime(New)</label>
-    </customValue>
-    <customValue>
-        <fullName>CS_TASK_Update_Location</fullName>
-        <default>false</default>
-        <label>CS_TASK_Update_Location(New)</label>
-    </customValue>
-    <customValue>
-        <fullName>CS_TASK_Update_Phone</fullName>
-        <default>false</default>
-        <label>CS_TASK_Update_Phone(New)</label>
-    </customValue>
-    <customValue>
-        <fullName>CS_TASK_Update_Signature</fullName>
-        <default>false</default>
-        <label>CS_TASK_Update_Signature(New)</label>
-    </customValue>
-    <customValue>
-        <fullName>CS_TASK_Update_StartTime</fullName>
-        <default>false</default>
-        <label>CS_TASK_Update_StartTime(New)</label>
-    </customValue>
-    <customValue>
-        <fullName>Customer info</fullName>
-        <default>false</default>
-        <label>Customer info(New)</label>
-    </customValue>
-    <customValue>
-        <fullName>Dealers</fullName>
-        <default>false</default>
-        <label>Dealers(New)</label>
-    </customValue>
-    <customValue>
-        <fullName>IT_SW_Defender</fullName>
-        <default>false</default>
-        <label>Defender(New)</label>
+        <label>Ad rights(New)</label>
     </customValue>
     <customValue>
         <fullName>Disable Accounts</fullName>
@@ -161,44 +321,184 @@
         <label>Disable Accounts(New)</label>
     </customValue>
     <customValue>
-        <fullName>IT_SW_Doctori</fullName>
+        <fullName>PIN/PUK</fullName>
         <default>false</default>
-        <label>Doctori(New)</label>
+        <label>PIN/PUK(New)</label>
     </customValue>
     <customValue>
-        <fullName>IT_SW_eCon</fullName>
+        <fullName>Mobile Data</fullName>
         <default>false</default>
-        <label>eCon(New)</label>
+        <label>Mobile Data(New)</label>
     </customValue>
     <customValue>
-        <fullName>Elisa</fullName>
+        <fullName>IT_SW_Tietori</fullName>
         <default>false</default>
-        <label>Elisa(New)</label>
+        <label>Tietori(New)</label>
     </customValue>
     <customValue>
-        <fullName>IT_SW_Email_Client</fullName>
+        <fullName>Call forwarding</fullName>
         <default>false</default>
-        <label>Email(New)</label>
+        <label>Call forwarding(New)</label>
     </customValue>
     <customValue>
-        <fullName>IT_SW_Esmi</fullName>
+        <fullName>IT_USER_docs</fullName>
         <default>false</default>
-        <label>Esmi &amp; Security Expert(New)</label>
+        <label>User docs(New)</label>
     </customValue>
     <customValue>
-        <fullName>IT_SW_Frends</fullName>
+        <fullName>NA_Spam</fullName>
         <default>false</default>
-        <label>Frends(New)</label>
+        <label>Spam(New)</label>
     </customValue>
     <customValue>
-        <fullName>IT_SW_Freshdesk</fullName>
+        <fullName>Customer info</fullName>
         <default>false</default>
-        <label>Freshdesk(New)</label>
+        <label>Customer info(New)</label>
     </customValue>
     <customValue>
-        <fullName>IT_INC_Generic</fullName>
+        <fullName>IT_SW_Defender</fullName>
         <default>false</default>
-        <label>General problem(New)</label>
+        <label>Defender(New)</label>
+    </customValue>
+    <customValue>
+        <fullName>Uniflow</fullName>
+        <default>false</default>
+        <label>Uniflow(New)</label>
+    </customValue>
+    <customValue>
+        <fullName>IT_SW_Jira</fullName>
+        <default>false</default>
+        <label>Jira(New)</label>
+    </customValue>
+    <customValue>
+        <fullName>Not Applicable</fullName>
+        <default>false</default>
+        <label>Not Applicable(New)</label>
+    </customValue>
+    <customValue>
+        <fullName>Blinds Sales</fullName>
+        <default>false</default>
+        <label>Blinds Sales(New)</label>
+    </customValue>
+    <customValue>
+        <fullName>Callback Request</fullName>
+        <default>false</default>
+        <label>Callback Request(New)</label>
+    </customValue>
+    <customValue>
+        <fullName>Inquiry</fullName>
+        <default>false</default>
+        <label>Inquiry(New)</label>
+    </customValue>
+    <customValue>
+        <fullName>Logistics</fullName>
+        <default>false</default>
+        <label>Logistics(New)</label>
+    </customValue>
+    <customValue>
+        <fullName>Maintenance</fullName>
+        <default>false</default>
+        <label>Maintenance(New)</label>
+    </customValue>
+    <customValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other(New)</label>
+    </customValue>
+    <customValue>
+        <fullName>Permits</fullName>
+        <default>false</default>
+        <label>Permits(New)</label>
+    </customValue>
+    <customValue>
+        <fullName>TS_TQ_Project Sales</fullName>
+        <default>false</default>
+        <label>Project Sales(New)</label>
+    </customValue>
+    <customValue>
+        <fullName>Question</fullName>
+        <default>false</default>
+        <label>Question(New)</label>
+    </customValue>
+    <customValue>
+        <fullName>Sales</fullName>
+        <default>false</default>
+        <label>Sales(New)</label>
+    </customValue>
+    <customValue>
+        <fullName>Services Sales</fullName>
+        <default>false</default>
+        <label>Services Sales(New)</label>
+    </customValue>
+    <customValue>
+        <fullName>Warranty</fullName>
+        <default>false</default>
+        <label>Warranty(New)</label>
+    </customValue>
+    <customValue>
+        <fullName>Reclamations</fullName>
+        <default>false</default>
+        <label>Reclamations(New)</label>
+    </customValue>
+    <customValue>
+        <fullName>Requests</fullName>
+        <default>false</default>
+        <label>Requests(New)</label>
+    </customValue>
+    <customValue>
+        <fullName>Orders</fullName>
+        <default>false</default>
+        <label>Orders(New)</label>
+    </customValue>
+    <customValue>
+        <fullName>WorkOrders</fullName>
+        <default>false</default>
+        <label>WorkOrders(New)</label>
+    </customValue>
+    <customValue>
+        <fullName>Request</fullName>
+        <default>false</default>
+        <label>Request(New)</label>
+    </customValue>
+    <customValue>
+        <fullName>Surveys</fullName>
+        <default>false</default>
+        <label>Surveys(New)</label>
+    </customValue>
+    <customValue>
+        <fullName>Information Requests</fullName>
+        <default>false</default>
+        <label>Information Requests(New)</label>
+    </customValue>
+    <customValue>
+        <fullName>Invoices</fullName>
+        <default>false</default>
+        <label>Invoices(New)</label>
+    </customValue>
+    <customValue>
+        <fullName>Offers</fullName>
+        <default>false</default>
+        <label>Offers(New)</label>
+    </customValue>
+    <customValue>
+        <fullName>IT_SW_PowerBI</fullName>
+        <default>false</default>
+        <label>IT_SW_PowerBI(New)</label>
+    </customValue>
+    <customValue>
+        <fullName>Dealers</fullName>
+        <default>false</default>
+        <label>Dealers(New)</label>
+    </customValue>
+    <customValue>
+        <fullName>Consumer Sales</fullName>
+        <default>false</default>
+        <label>Consumer Sales(New)</label>
+    </customValue>
+    <customValue>
+        <fullName>TS_TQ_Old_Products</fullName>
+        <default>false</default>
+        <label>Old Products(New)</label>
     </customValue>
     <customValue>
         <fullName>TS_TQ_LGR</fullName>
@@ -211,234 +511,14 @@
         <label>Glazing Sliding(LGS)(New)</label>
     </customValue>
     <customValue>
-        <fullName>IT_INC_Hardware</fullName>
+        <fullName>TS_TQ_Components</fullName>
         <default>false</default>
-        <label>Hardware Problem(New)</label>
+        <label>Components(New)</label>
     </customValue>
     <customValue>
-        <fullName>Information Requests</fullName>
+        <fullName>TS_TQ_Blinds</fullName>
         <default>false</default>
-        <label>Information Requests(New)</label>
-    </customValue>
-    <customValue>
-        <fullName>Inquiry</fullName>
-        <default>false</default>
-        <label>Inquiry(New)</label>
-    </customValue>
-    <customValue>
-        <fullName>Install apps</fullName>
-        <default>false</default>
-        <label>Install apps(New)</label>
-    </customValue>
-    <customValue>
-        <fullName>IT_SW_Intori</fullName>
-        <default>false</default>
-        <label>Intori(New)</label>
-    </customValue>
-    <customValue>
-        <fullName>Invoices</fullName>
-        <default>false</default>
-        <label>Invoices(New)</label>
-    </customValue>
-    <customValue>
-        <fullName>IT_SW_PowerBI</fullName>
-        <default>false</default>
-        <label>IT_SW_PowerBI(New)</label>
-    </customValue>
-    <customValue>
-        <fullName>IT_SW_Jira</fullName>
-        <default>false</default>
-        <label>Jira(New)</label>
-    </customValue>
-    <customValue>
-        <fullName>IT_ORD_Licenses</fullName>
-        <default>false</default>
-        <label>Licenses(New)</label>
-    </customValue>
-    <customValue>
-        <fullName>IT_SW_Lisec</fullName>
-        <default>false</default>
-        <label>Lisec(New)</label>
-    </customValue>
-    <customValue>
-        <fullName>LOG_REQ_Early_Delivery</fullName>
-        <default>false</default>
-        <label>LOG_REQ_Early_Delivery</label>
-    </customValue>
-    <customValue>
-        <fullName>IT_SW_M2</fullName>
-        <default>false</default>
-        <label>M2(New)</label>
-    </customValue>
-    <customValue>
-        <fullName>Maintenance</fullName>
-        <default>false</default>
-        <label>Maintenance(New)</label>
-    </customValue>
-    <customValue>
-        <fullName>IT_SW_Maintori</fullName>
-        <default>false</default>
-        <label>Maintori(New)</label>
-    </customValue>
-    <customValue>
-        <fullName>IT_SW_Mepco</fullName>
-        <default>false</default>
-        <label>Mepco(New)</label>
-    </customValue>
-    <customValue>
-        <fullName>IT_SW_Mfiles</fullName>
-        <default>false</default>
-        <label>Mfiles(New)</label>
-    </customValue>
-    <customValue>
-        <fullName>Mobile Data</fullName>
-        <default>false</default>
-        <label>Mobile Data(New)</label>
-    </customValue>
-    <customValue>
-        <fullName>Network folder</fullName>
-        <default>false</default>
-        <label>Network folder(New)</label>
-    </customValue>
-    <customValue>
-        <fullName>IT_PERM_Network_Folder</fullName>
-        <default>false</default>
-        <label>Network Folder Access(New)</label>
-    </customValue>
-    <customValue>
-        <fullName>IT_INC_Network</fullName>
-        <default>false</default>
-        <label>Network Problem(New)</label>
-    </customValue>
-    <customValue>
-        <fullName>IT_USR_New_User</fullName>
-        <default>false</default>
-        <label>New User(New)</label>
-    </customValue>
-    <customValue>
-        <fullName>Not Applicable</fullName>
-        <default>false</default>
-        <label>Not Applicable(New)</label>
-    </customValue>
-    <customValue>
-        <fullName>Offers</fullName>
-        <default>false</default>
-        <label>Offers(New)</label>
-    </customValue>
-    <customValue>
-        <fullName>IT_SW_Office</fullName>
-        <default>false</default>
-        <label>Office(New)</label>
-    </customValue>
-    <customValue>
-        <fullName>TS_TQ_Old_Products</fullName>
-        <default>false</default>
-        <label>Old Products(New)</label>
-    </customValue>
-    <customValue>
-        <fullName>IT_SW_OneNote</fullName>
-        <default>false</default>
-        <label>OneNote(New)</label>
-    </customValue>
-    <customValue>
-        <fullName>Orders</fullName>
-        <default>false</default>
-        <label>Orders(New)</label>
-    </customValue>
-    <customValue>
-        <fullName>Other</fullName>
-        <default>false</default>
-        <label>Other(New)</label>
-    </customValue>
-    <customValue>
-        <fullName>Others</fullName>
-        <default>false</default>
-        <label>Others(New)</label>
-    </customValue>
-    <customValue>
-        <fullName>IT_SW_Pagero</fullName>
-        <default>false</default>
-        <label>Pagero(New)</label>
-    </customValue>
-    <customValue>
-        <fullName>IT_SW_Palette</fullName>
-        <default>false</default>
-        <label>Palette(New)</label>
-    </customValue>
-    <customValue>
-        <fullName>IT_USER_Password</fullName>
-        <default>false</default>
-        <label>Password(New)</label>
-    </customValue>
-    <customValue>
-        <fullName>Permits</fullName>
-        <default>false</default>
-        <label>Permits(New)</label>
-    </customValue>
-    <customValue>
-        <fullName>IT_INC_Phones</fullName>
-        <default>false</default>
-        <label>Phone Problem(New)</label>
-    </customValue>
-    <customValue>
-        <fullName>PIN/PUK</fullName>
-        <default>false</default>
-        <label>PIN/PUK(New)</label>
-    </customValue>
-    <customValue>
-        <fullName>IT_SW_Plantori</fullName>
-        <default>false</default>
-        <label>Plantori(New)</label>
-    </customValue>
-    <customValue>
-        <fullName>IT_PERM_Plantori</fullName>
-        <default>false</default>
-        <label>Plantori Access(New)</label>
-    </customValue>
-    <customValue>
-        <fullName>IT_SW_Reptori</fullName>
-        <default>false</default>
-        <label>PowerBI / Reptori(New)</label>
-    </customValue>
-    <customValue>
-        <fullName>IT_SW_Precut</fullName>
-        <default>false</default>
-        <label>Precut(New)</label>
-    </customValue>
-    <customValue>
-        <fullName>IT_INC_Printer</fullName>
-        <default>false</default>
-        <label>Printer Problem(New)</label>
-    </customValue>
-    <customValue>
-        <fullName>TS_TQ_Project Sales</fullName>
-        <default>false</default>
-        <label>Project Sales(New)</label>
-    </customValue>
-    <customValue>
-        <fullName>PRTG</fullName>
-        <default>false</default>
-        <label>PRTG(New)</label>
-    </customValue>
-    <customValue>
-        <fullName>IT_SW_QFactory</fullName>
-        <default>false</default>
-        <label>Q-factory(New)</label>
-    </customValue>
-    <customValue>
-        <fullName>Question</fullName>
-        <default>false</default>
-        <label>Question(New)</label>
-    </customValue>
-    <customValue>
-        <fullName>Rajobit robot</fullName>
-        <default>false</default>
-        <label>Rajobit robot(New)</label>
-    </customValue>
-    <customValue>
-        <fullName>Reclamations</fullName>
-        <default>false</default>
-        <label>Reclamations(New)</label>
+        <label>Blinds(New)</label>
     </customValue>
     <customValue>
         <fullName>TS_TQ_RedLine</fullName>
@@ -446,49 +526,14 @@
         <label>Red Line Products(New)</label>
     </customValue>
     <customValue>
-        <fullName>IT_INC_Remote_Desktop</fullName>
+        <fullName>IT_INC_Workstation</fullName>
         <default>false</default>
-        <label>Remote Desktop Problem(New)</label>
+        <label>Workstation Problem(New)</label>
     </customValue>
     <customValue>
-        <fullName>IT_PERM_Reptori</fullName>
+        <fullName>IT_PERM_Network_Folder</fullName>
         <default>false</default>
-        <label>Reptori Access(New)</label>
-    </customValue>
-    <customValue>
-        <fullName>Request</fullName>
-        <default>false</default>
-        <label>Request(New)</label>
-    </customValue>
-    <customValue>
-        <fullName>Requests</fullName>
-        <default>false</default>
-        <label>Requests(New)</label>
-    </customValue>
-    <customValue>
-        <fullName>TS_REQ_ReturnOrderToContract</fullName>
-        <default>false</default>
-        <label>Return order to Contract Status</label>
-    </customValue>
-    <customValue>
-        <fullName>Sales</fullName>
-        <default>false</default>
-        <label>Sales(New)</label>
-    </customValue>
-    <customValue>
-        <fullName>IT_SW_Salesforce</fullName>
-        <default>false</default>
-        <label>Salesforce(New)</label>
-    </customValue>
-    <customValue>
-        <fullName>IT_PERM_Salesforce</fullName>
-        <default>false</default>
-        <label>Salesforce Access(New)</label>
-    </customValue>
-    <customValue>
-        <fullName>IT_SW_Salestori</fullName>
-        <default>false</default>
-        <label>Salestori(New)</label>
+        <label>Network Folder Access(New)</label>
     </customValue>
     <customValue>
         <fullName>IT_PERM_Salestori</fullName>
@@ -496,59 +541,14 @@
         <label>Salestori Access(New)</label>
     </customValue>
     <customValue>
-        <fullName>Services Sales</fullName>
+        <fullName>IT_PERM_Plantori</fullName>
         <default>false</default>
-        <label>Services Sales(New)</label>
+        <label>Plantori Access(New)</label>
     </customValue>
     <customValue>
-        <fullName>IT_SW_Shopify</fullName>
+        <fullName>IT_PERM_Reptori</fullName>
         <default>false</default>
-        <label>Shopify(New)</label>
-    </customValue>
-    <customValue>
-        <fullName>IT_SW_Softphone</fullName>
-        <default>false</default>
-        <label>Softphone(New)</label>
-    </customValue>
-    <customValue>
-        <fullName>IT_SW_Solidworks</fullName>
-        <default>false</default>
-        <label>Solidworks(New)</label>
-    </customValue>
-    <customValue>
-        <fullName>IT_SW_Sovelia</fullName>
-        <default>false</default>
-        <label>Sovelia(New)</label>
-    </customValue>
-    <customValue>
-        <fullName>NA_Spam</fullName>
-        <default>false</default>
-        <label>Spam(New)</label>
-    </customValue>
-    <customValue>
-        <fullName>Surveys</fullName>
-        <default>false</default>
-        <label>Surveys(New)</label>
-    </customValue>
-    <customValue>
-        <fullName>IT_SW_Syncrontech</fullName>
-        <default>false</default>
-        <label>Syncrontech(New)</label>
-    </customValue>
-    <customValue>
-        <fullName>IT_SW_Teams</fullName>
-        <default>false</default>
-        <label>Teams(New)</label>
-    </customValue>
-    <customValue>
-        <fullName>IT_SW_Teamviewer</fullName>
-        <default>false</default>
-        <label>Teamviewer(New)</label>
-    </customValue>
-    <customValue>
-        <fullName>IT_SW_Tietori</fullName>
-        <default>false</default>
-        <label>Tietori(New)</label>
+        <label>Reptori Access(New)</label>
     </customValue>
     <customValue>
         <fullName>IT_PERM_Tietori</fullName>
@@ -556,19 +556,19 @@
         <label>Tietori Access(New)</label>
     </customValue>
     <customValue>
-        <fullName>TS_RECL_Billable</fullName>
+        <fullName>IT_PERM_AD</fullName>
         <default>false</default>
-        <label>TS_RECL_Billable(New)</label>
+        <label>AD Access(New)</label>
     </customValue>
     <customValue>
-        <fullName>TS_RECL_Warranty_Consumer</fullName>
+        <fullName>IT_PERM_Salesforce</fullName>
         <default>false</default>
-        <label>TS_RECL_Warranty_Consumer(New)</label>
+        <label>Salesforce Access(New)</label>
     </customValue>
     <customValue>
-        <fullName>TS_RECL_Warranty_Project</fullName>
+        <fullName>IT_USR_User_License</fullName>
         <default>false</default>
-        <label>TS_RECL_Warranty_Project(New)</label>
+        <label>User Licenses(New)</label>
     </customValue>
     <customValue>
         <fullName>TS_WAR_Installation_Warranty</fullName>
@@ -586,344 +586,49 @@
         <label>TS_WAR_Service_Warranty(New)</label>
     </customValue>
     <customValue>
-        <fullName>IT_SW_Unifaun</fullName>
+        <fullName>TS_RECL_Billable</fullName>
         <default>false</default>
-        <label>Unifaun(New)</label>
+        <label>TS_RECL_Billable(New)</label>
     </customValue>
     <customValue>
-        <fullName>Uniflow</fullName>
+        <fullName>TS_RECL_Warranty_Consumer</fullName>
         <default>false</default>
-        <label>Uniflow(New)</label>
+        <label>TS_RECL_Warranty_Consumer(New)</label>
     </customValue>
     <customValue>
-        <fullName>IT_INC_Locked</fullName>
+        <fullName>TS_RECL_Warranty_Project</fullName>
         <default>false</default>
-        <label>Unlocked Device Problem(New)</label>
+        <label>TS_RECL_Warranty_Project(New)</label>
     </customValue>
     <customValue>
-        <fullName>IT_USER_docs</fullName>
+        <fullName>CS_TASK_Update_Contact</fullName>
         <default>false</default>
-        <label>User docs(New)</label>
+        <label>CS_TASK_Update_Contact(New)</label>
     </customValue>
     <customValue>
-        <fullName>IT_USR_User_License</fullName>
+        <fullName>CS_TASK_Update_Phone</fullName>
         <default>false</default>
-        <label>User Licenses(New)</label>
+        <label>CS_TASK_Update_Phone(New)</label>
     </customValue>
     <customValue>
-        <fullName>Warranty</fullName>
+        <fullName>CS_TASK_Update_Location</fullName>
         <default>false</default>
-        <label>Warranty(New)</label>
+        <label>CS_TASK_Update_Location(New)</label>
     </customValue>
     <customValue>
-        <fullName>Veeam</fullName>
+        <fullName>CS_TASK_Update_StartTime</fullName>
         <default>false</default>
-        <label>Veeam(New)</label>
+        <label>CS_TASK_Update_StartTime(New)</label>
     </customValue>
     <customValue>
-        <fullName>IT_SW_Wmware</fullName>
+        <fullName>CS_TASK_Update_EndTime</fullName>
         <default>false</default>
-        <label>Wmware(New)</label>
+        <label>CS_TASK_Update_EndTime(New)</label>
     </customValue>
     <customValue>
-        <fullName>WorkOrders</fullName>
+        <fullName>CS_TASK_Update_Signature</fullName>
         <default>false</default>
-        <label>WorkOrders(New)</label>
-    </customValue>
-    <customValue>
-        <fullName>IT_INC_Workstation</fullName>
-        <default>false</default>
-        <label>Workstation Problem(New)</label>
-    </customValue>
-    <customValue>
-        <fullName>LOG_REQ_Change_Delivery</fullName>
-        <default>false</default>
-        <label>LOG_REQ_Change_Delivery</label>
-    </customValue>
-    <customValue>
-        <fullName>LOG_REQ_Production_Delay</fullName>
-        <default>false</default>
-        <label>LOG_REQ_Production_Delay</label>
-    </customValue>
-    <customValue>
-        <fullName>LOG_REQ_Delivery_Time</fullName>
-        <default>false</default>
-        <label>LOG_REQ_Delivery_Time</label>
-    </customValue>
-    <customValue>
-        <fullName>LOG_REQ_Shipping_Location</fullName>
-        <default>false</default>
-        <label>LOG_REQ_Shipping_Location</label>
-    </customValue>
-    <customValue>
-        <fullName>OLD Callback Request</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>OLD Callback Request</label>
-    </customValue>
-    <customValue>
-        <fullName>OLD Inquiry</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>OLD Inquiry</label>
-    </customValue>
-    <customValue>
-        <fullName>OLD Logistics</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>OLD Logistics</label>
-    </customValue>
-    <customValue>
-        <fullName>OLD Maintenance</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>OLD Maintenance</label>
-    </customValue>
-    <customValue>
-        <fullName>OLD Other</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>OLD Other</label>
-    </customValue>
-    <customValue>
-        <fullName>OLD Permits</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>OLD Permits</label>
-    </customValue>
-    <customValue>
-        <fullName>OLD Project Sales</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>OLD Project Sales</label>
-    </customValue>
-    <customValue>
-        <fullName>OLD Question</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>OLD Question</label>
-    </customValue>
-    <customValue>
-        <fullName>OLD Sales</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>OLD Sales</label>
-    </customValue>
-    <customValue>
-        <fullName>OLD Services Sales</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>OLD Services Sales</label>
-    </customValue>
-    <customValue>
-        <fullName>Autopilot</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Autopilot</label>
-    </customValue>
-    <customValue>
-        <fullName>OLD Reclamations</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>OLD Reclamations</label>
-    </customValue>
-    <customValue>
-        <fullName>OLD Requests</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>OLD Requests</label>
-    </customValue>
-    <customValue>
-        <fullName>OLD Orders</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>OLD Orders</label>
-    </customValue>
-    <customValue>
-        <fullName>OLD WorkOrders</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>OLD WorkOrders</label>
-    </customValue>
-    <customValue>
-        <fullName>OLD Request</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>OLD Request</label>
-    </customValue>
-    <customValue>
-        <fullName>OLD Surveys</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>OLD Surveys</label>
-    </customValue>
-    <customValue>
-        <fullName>OLD Information Requests</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>OLD Information Requests</label>
-    </customValue>
-    <customValue>
-        <fullName>OLD Invoices</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>OLD Invoices</label>
-    </customValue>
-    <customValue>
-        <fullName>OLD Offers</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>OLD Offers</label>
-    </customValue>
-    <customValue>
-        <fullName>OLD Warranty</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>OLD Warranty</label>
-    </customValue>
-    <customValue>
-        <fullName>Phones</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Phones</label>
-    </customValue>
-    <customValue>
-        <fullName>Printer</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Printer</label>
-    </customValue>
-    <customValue>
-        <fullName>Remote Desktop</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Remote Desktop</label>
-    </customValue>
-    <customValue>
-        <fullName>Unlock devices</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Unlock devices</label>
-    </customValue>
-    <customValue>
-        <fullName>Test Support Item 3</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Test Support Item 3</label>
-    </customValue>
-    <customValue>
-        <fullName>Maintori</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Maintori</label>
-    </customValue>
-    <customValue>
-        <fullName>Reptori</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Reptori</label>
-    </customValue>
-    <customValue>
-        <fullName>Plantori</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Plantori</label>
-    </customValue>
-    <customValue>
-        <fullName>AX</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>AX</label>
-    </customValue>
-    <customValue>
-        <fullName>Mepco</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Mepco</label>
-    </customValue>
-    <customValue>
-        <fullName>Email</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Email</label>
-    </customValue>
-    <customValue>
-        <fullName>Basware</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Basware</label>
-    </customValue>
-    <customValue>
-        <fullName>Intori</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Intori</label>
-    </customValue>
-    <customValue>
-        <fullName>Precut</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Precut</label>
-    </customValue>
-    <customValue>
-        <fullName>Esmi</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Esmi</label>
-    </customValue>
-    <customValue>
-        <fullName>Mfiles</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Mfiles</label>
-    </customValue>
-    <customValue>
-        <fullName>OneNote</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>OneNote</label>
-    </customValue>
-    <customValue>
-        <fullName>Wmware</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Wmware</label>
-    </customValue>
-    <customValue>
-        <fullName>Frends</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Frends</label>
-    </customValue>
-    <customValue>
-        <fullName>Teams</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Teams</label>
-    </customValue>
-    <customValue>
-        <fullName>Sovelia</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Sovelia</label>
-    </customValue>
-    <customValue>
-        <fullName>Solidworks</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Solidworks</label>
-    </customValue>
-    <customValue>
-        <fullName>Palette</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Palette</label>
-    </customValue>
-    <customValue>
-        <fullName>Office</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Office</label>
+        <label>CS_TASK_Update_Signature(New)</label>
     </customValue>
     <customValue>
         <fullName>Softphone</fullName>
@@ -1022,10 +727,10 @@
         <label>Lisec</label>
     </customValue>
     <customValue>
-        <fullName>Accessories</fullName>
+        <fullName>OLD Brandtori</fullName>
         <default>false</default>
         <isActive>false</isActive>
-        <label>Accessories</label>
+        <label>OLD Brandtori</label>
     </customValue>
     <customValue>
         <fullName>Computers</fullName>
@@ -1100,6 +805,12 @@
         <label>User docs</label>
     </customValue>
     <customValue>
+        <fullName>Mainos/roskaposti</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Mainos/roskaposti</label>
+    </customValue>
+    <customValue>
         <fullName>Defender</fullName>
         <default>false</default>
         <isActive>false</isActive>
@@ -1116,6 +827,372 @@
         <default>false</default>
         <isActive>false</isActive>
         <label>Project Sales</label>
+    </customValue>
+    <customValue>
+        <fullName>Accessories</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Accessories</label>
+    </customValue>
+    <customValue>
+        <fullName>OLD M2</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>OLD M2</label>
+    </customValue>
+    <customValue>
+        <fullName>OLD Shopify</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>OLD Shopify</label>
+    </customValue>
+    <customValue>
+        <fullName>OLD Rajobit robot</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>OLD Rajobit robot</label>
+    </customValue>
+    <customValue>
+        <fullName>OLD Salesforce</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>OLD Salesforce</label>
+    </customValue>
+    <customValue>
+        <fullName>OLD Autocad + LT</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>OLD Autocad + LT</label>
+    </customValue>
+    <customValue>
+        <fullName>OLD Doctori</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>OLD Doctori</label>
+    </customValue>
+    <customValue>
+        <fullName>OLD Syncrontech</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>OLD Syncrontech</label>
+    </customValue>
+    <customValue>
+        <fullName>OLD Teamviewer</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>OLD Teamviewer</label>
+    </customValue>
+    <customValue>
+        <fullName>OLD Q-factory</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>OLD Q-factory</label>
+    </customValue>
+    <customValue>
+        <fullName>OLD Adobe products</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>OLD Adobe products</label>
+    </customValue>
+    <customValue>
+        <fullName>OLD Lisec</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>OLD Lisec</label>
+    </customValue>
+    <customValue>
+        <fullName>OLD Accessories</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>OLD Accessories</label>
+    </customValue>
+    <customValue>
+        <fullName>OLD Computers</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>OLD Computers</label>
+    </customValue>
+    <customValue>
+        <fullName>OLD Amazon Computers</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>OLD Amazon Computers</label>
+    </customValue>
+    <customValue>
+        <fullName>OLD Amazon Phones</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>OLD Amazon Phones</label>
+    </customValue>
+    <customValue>
+        <fullName>OLD Amazon Gifts</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>OLD Amazon Gifts</label>
+    </customValue>
+    <customValue>
+        <fullName>OLD Amazon Others</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>OLD Amazon Others</label>
+    </customValue>
+    <customValue>
+        <fullName>OLD Licenses</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>OLD Licenses</label>
+    </customValue>
+    <customValue>
+        <fullName>OLD Network folder</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>OLD Network folder</label>
+    </customValue>
+    <customValue>
+        <fullName>OLD Accounts</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>OLD Accounts</label>
+    </customValue>
+    <customValue>
+        <fullName>OLD Passwords</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>OLD Passwords</label>
+    </customValue>
+    <customValue>
+        <fullName>OLD New users</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>OLD New users</label>
+    </customValue>
+    <customValue>
+        <fullName>OLD Ad rights</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>OLD Ad rights</label>
+    </customValue>
+    <customValue>
+        <fullName>OLD Disable Accounts</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>OLD Disable Accounts</label>
+    </customValue>
+    <customValue>
+        <fullName>OLD PIN/PUK</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>OLD PIN/PUK</label>
+    </customValue>
+    <customValue>
+        <fullName>OLD Mobile Data</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>OLD Mobile Data</label>
+    </customValue>
+    <customValue>
+        <fullName>OLD Tietori</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>OLD Tietori</label>
+    </customValue>
+    <customValue>
+        <fullName>OLD Call forwarding</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>OLD Call forwarding</label>
+    </customValue>
+    <customValue>
+        <fullName>OLD User docs</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>OLD User docs</label>
+    </customValue>
+    <customValue>
+        <fullName>OLD Mainos/roskaposti</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>OLD Mainos/roskaposti</label>
+    </customValue>
+    <customValue>
+        <fullName>OLD Customer info</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>OLD Customer info</label>
+    </customValue>
+    <customValue>
+        <fullName>OLD Amazon Accesories</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>OLD Amazon Accesories</label>
+    </customValue>
+    <customValue>
+        <fullName>Spam</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Spam</label>
+    </customValue>
+    <customValue>
+        <fullName>Amazon</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Amazon</label>
+    </customValue>
+    <customValue>
+        <fullName>Customer</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Customer</label>
+    </customValue>
+    <customValue>
+        <fullName>OLD Defender</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>OLD Defender</label>
+    </customValue>
+    <customValue>
+        <fullName>OLD Uniflow</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>OLD Uniflow</label>
+    </customValue>
+    <customValue>
+        <fullName>OLD Jira</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>OLD Jira</label>
+    </customValue>
+    <customValue>
+        <fullName>OLD Not Applicable</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>OLD Not Applicable</label>
+    </customValue>
+    <customValue>
+        <fullName>OLD Blinds Sales</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>OLD Blinds Sales</label>
+    </customValue>
+    <customValue>
+        <fullName>OLD Callback Request</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>OLD Callback Request</label>
+    </customValue>
+    <customValue>
+        <fullName>OLD Inquiry</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>OLD Inquiry</label>
+    </customValue>
+    <customValue>
+        <fullName>OLD Logistics</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>OLD Logistics</label>
+    </customValue>
+    <customValue>
+        <fullName>OLD Maintenance</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>OLD Maintenance</label>
+    </customValue>
+    <customValue>
+        <fullName>OLD Other</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>OLD Other</label>
+    </customValue>
+    <customValue>
+        <fullName>OLD Permits</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>OLD Permits</label>
+    </customValue>
+    <customValue>
+        <fullName>OLD Project Sales</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>OLD Project Sales</label>
+    </customValue>
+    <customValue>
+        <fullName>OLD Sales</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>OLD Sales</label>
+    </customValue>
+    <customValue>
+        <fullName>OLD Services Sales</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>OLD Services Sales</label>
+    </customValue>
+    <customValue>
+        <fullName>OLD Warranty</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>OLD Warranty</label>
+    </customValue>
+    <customValue>
+        <fullName>OLD Reclamations</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>OLD Reclamations</label>
+    </customValue>
+    <customValue>
+        <fullName>OLD Requests</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>OLD Requests</label>
+    </customValue>
+    <customValue>
+        <fullName>OLD Orders</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>OLD Orders</label>
+    </customValue>
+    <customValue>
+        <fullName>OLD WorkOrders</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>OLD WorkOrders</label>
+    </customValue>
+    <customValue>
+        <fullName>OLD Request</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>OLD Request</label>
+    </customValue>
+    <customValue>
+        <fullName>OLD Surveys</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>OLD Surveys</label>
+    </customValue>
+    <customValue>
+        <fullName>OLD Information Requests</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>OLD Information Requests</label>
+    </customValue>
+    <customValue>
+        <fullName>OLD Invoices</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>OLD Invoices</label>
+    </customValue>
+    <customValue>
+        <fullName>OLD Offers</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>OLD Offers</label>
+    </customValue>
+    <customValue>
+        <fullName>OLD Question</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>OLD Question</label>
     </customValue>
     <customValue>
         <fullName>OLD Autopilot</fullName>
@@ -1334,233 +1411,179 @@
         <label>OLD Pagero</label>
     </customValue>
     <customValue>
-        <fullName>OLD Brandtori</fullName>
+        <fullName>Autopilot</fullName>
         <default>false</default>
         <isActive>false</isActive>
-        <label>OLD Brandtori</label>
+        <label>Autopilot</label>
     </customValue>
     <customValue>
-        <fullName>OLD M2</fullName>
+        <fullName>General problems</fullName>
         <default>false</default>
         <isActive>false</isActive>
-        <label>OLD M2</label>
+        <label>General problems</label>
     </customValue>
     <customValue>
-        <fullName>OLD Shopify</fullName>
+        <fullName>hardware problems</fullName>
         <default>false</default>
         <isActive>false</isActive>
-        <label>OLD Shopify</label>
+        <label>hardware problems</label>
     </customValue>
     <customValue>
-        <fullName>OLD Rajobit robot</fullName>
+        <fullName>Network</fullName>
         <default>false</default>
         <isActive>false</isActive>
-        <label>OLD Rajobit robot</label>
+        <label>Network</label>
     </customValue>
     <customValue>
-        <fullName>OLD Salesforce</fullName>
+        <fullName>Phones</fullName>
         <default>false</default>
         <isActive>false</isActive>
-        <label>OLD Salesforce</label>
+        <label>Phones</label>
     </customValue>
     <customValue>
-        <fullName>OLD Autocad + LT</fullName>
+        <fullName>Printer</fullName>
         <default>false</default>
         <isActive>false</isActive>
-        <label>OLD Autocad + LT</label>
+        <label>Printer</label>
     </customValue>
     <customValue>
-        <fullName>OLD Doctori</fullName>
+        <fullName>Remote Desktop</fullName>
         <default>false</default>
         <isActive>false</isActive>
-        <label>OLD Doctori</label>
+        <label>Remote Desktop</label>
     </customValue>
     <customValue>
-        <fullName>OLD Syncrontech</fullName>
+        <fullName>Unlock devices</fullName>
         <default>false</default>
         <isActive>false</isActive>
-        <label>OLD Syncrontech</label>
+        <label>Unlock devices</label>
     </customValue>
     <customValue>
-        <fullName>OLD Teamviewer</fullName>
+        <fullName>Test Support Item 3</fullName>
         <default>false</default>
         <isActive>false</isActive>
-        <label>OLD Teamviewer</label>
+        <label>Test Support Item 3</label>
     </customValue>
     <customValue>
-        <fullName>OLD Q-factory</fullName>
+        <fullName>Salestori</fullName>
         <default>false</default>
         <isActive>false</isActive>
-        <label>OLD Q-factory</label>
+        <label>Salestori</label>
     </customValue>
     <customValue>
-        <fullName>OLD Adobe products</fullName>
+        <fullName>Maintori</fullName>
         <default>false</default>
         <isActive>false</isActive>
-        <label>OLD Adobe products</label>
+        <label>Maintori</label>
     </customValue>
     <customValue>
-        <fullName>OLD Lisec</fullName>
+        <fullName>Reptori</fullName>
         <default>false</default>
         <isActive>false</isActive>
-        <label>OLD Lisec</label>
+        <label>Reptori</label>
     </customValue>
     <customValue>
-        <fullName>OLD Accessories</fullName>
+        <fullName>Plantori</fullName>
         <default>false</default>
         <isActive>false</isActive>
-        <label>OLD Accessories</label>
+        <label>Plantori</label>
     </customValue>
     <customValue>
-        <fullName>OLD Computers</fullName>
+        <fullName>AX</fullName>
         <default>false</default>
         <isActive>false</isActive>
-        <label>OLD Computers</label>
+        <label>AX</label>
     </customValue>
     <customValue>
-        <fullName>OLD Amazon Computers</fullName>
+        <fullName>Mepco</fullName>
         <default>false</default>
         <isActive>false</isActive>
-        <label>OLD Amazon Computers</label>
+        <label>Mepco</label>
     </customValue>
     <customValue>
-        <fullName>OLD Amazon Phones</fullName>
+        <fullName>Email</fullName>
         <default>false</default>
         <isActive>false</isActive>
-        <label>OLD Amazon Phones</label>
+        <label>Email</label>
     </customValue>
     <customValue>
-        <fullName>OLD Amazon Accesories</fullName>
+        <fullName>Basware</fullName>
         <default>false</default>
         <isActive>false</isActive>
-        <label>OLD Amazon Accesories</label>
+        <label>Basware</label>
     </customValue>
     <customValue>
-        <fullName>OLD Amazon Gifts</fullName>
+        <fullName>Intori</fullName>
         <default>false</default>
         <isActive>false</isActive>
-        <label>OLD Amazon Gifts</label>
+        <label>Intori</label>
     </customValue>
     <customValue>
-        <fullName>OLD Amazon Others</fullName>
+        <fullName>Precut</fullName>
         <default>false</default>
         <isActive>false</isActive>
-        <label>OLD Amazon Others</label>
+        <label>Precut</label>
     </customValue>
     <customValue>
-        <fullName>OLD Licenses</fullName>
+        <fullName>Esmi</fullName>
         <default>false</default>
         <isActive>false</isActive>
-        <label>OLD Licenses</label>
+        <label>Esmi</label>
     </customValue>
     <customValue>
-        <fullName>OLD Network folder</fullName>
+        <fullName>Mfiles</fullName>
         <default>false</default>
         <isActive>false</isActive>
-        <label>OLD Network folder</label>
+        <label>Mfiles</label>
     </customValue>
     <customValue>
-        <fullName>OLD Accounts</fullName>
+        <fullName>OneNote</fullName>
         <default>false</default>
         <isActive>false</isActive>
-        <label>OLD Accounts</label>
+        <label>OneNote</label>
     </customValue>
     <customValue>
-        <fullName>OLD Passwords</fullName>
+        <fullName>Wmware</fullName>
         <default>false</default>
         <isActive>false</isActive>
-        <label>OLD Passwords</label>
+        <label>Wmware</label>
     </customValue>
     <customValue>
-        <fullName>OLD New users</fullName>
+        <fullName>Frends</fullName>
         <default>false</default>
         <isActive>false</isActive>
-        <label>OLD New users</label>
+        <label>Frends</label>
     </customValue>
     <customValue>
-        <fullName>OLD Ad rights</fullName>
+        <fullName>Teams</fullName>
         <default>false</default>
         <isActive>false</isActive>
-        <label>OLD Ad rights</label>
+        <label>Teams</label>
     </customValue>
     <customValue>
-        <fullName>OLD Disable Accounts</fullName>
+        <fullName>Sovelia</fullName>
         <default>false</default>
         <isActive>false</isActive>
-        <label>OLD Disable Accounts</label>
+        <label>Sovelia</label>
     </customValue>
     <customValue>
-        <fullName>OLD PIN/PUK</fullName>
+        <fullName>Solidworks</fullName>
         <default>false</default>
         <isActive>false</isActive>
-        <label>OLD PIN/PUK</label>
+        <label>Solidworks</label>
     </customValue>
     <customValue>
-        <fullName>OLD Mobile Data</fullName>
+        <fullName>Palette</fullName>
         <default>false</default>
         <isActive>false</isActive>
-        <label>OLD Mobile Data</label>
+        <label>Palette</label>
     </customValue>
     <customValue>
-        <fullName>OLD Tietori</fullName>
+        <fullName>Office</fullName>
         <default>false</default>
         <isActive>false</isActive>
-        <label>OLD Tietori</label>
-    </customValue>
-    <customValue>
-        <fullName>OLD Call forwarding</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>OLD Call forwarding</label>
-    </customValue>
-    <customValue>
-        <fullName>OLD User docs</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>OLD User docs</label>
-    </customValue>
-    <customValue>
-        <fullName>OLD Mainos/roskaposti</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>OLD Mainos/roskaposti</label>
-    </customValue>
-    <customValue>
-        <fullName>OLD Customer info</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>OLD Customer info</label>
-    </customValue>
-    <customValue>
-        <fullName>OLD Defender</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>OLD Defender</label>
-    </customValue>
-    <customValue>
-        <fullName>OLD Uniflow</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>OLD Uniflow</label>
-    </customValue>
-    <customValue>
-        <fullName>OLD Jira</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>OLD Jira</label>
-    </customValue>
-    <customValue>
-        <fullName>OLD Not Applicable</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>OLD Not Applicable</label>
-    </customValue>
-    <customValue>
-        <fullName>OLD Blinds Sales</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>OLD Blinds Sales</label>
+        <label>Office</label>
     </customValue>
     <masterLabel>Lumon Case Items</masterLabel>
-    <sorted>true</sorted>
+    <sorted>false</sorted>
 </GlobalValueSet>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-    <label><!-- Production Time Max --></label>
+    <label><!-- Production Time Max OLD --></label>
     <name>Production_Time_Max__c</name>
 </CustomFieldTranslation>

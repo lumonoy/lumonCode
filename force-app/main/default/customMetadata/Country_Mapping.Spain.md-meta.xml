@@ -4,10 +4,22 @@
     <protected>false</protected>
     <values>
         <field>CountryCodeAlpha2__c</field>
-        <value xsi:type="xsd:string">SP</value>
+        <value xsi:type="xsd:string">ES</value>
+    </values>
+    <values>
+        <field>CountryCodeAlpha3__c</field>
+        <value xsi:type="xsd:string">ESP</value>
+    </values>
+    <values>
+        <field>CountryCode__c</field>
+        <value xsi:type="xsd:string">724</value>
     </values>
     <values>
         <field>Country_Name__c</field>
         <value xsi:type="xsd:string">Spain</value>
+    </values>
+    <values>
+        <field>OfficialName__c</field>
+        <value xsi:type="xsd:string">The Kingdom of Spain</value>
     </values>
 </CustomMetadata>

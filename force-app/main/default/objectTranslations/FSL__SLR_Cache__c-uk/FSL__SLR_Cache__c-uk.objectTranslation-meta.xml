@@ -61,5 +61,12 @@
         <value>Кешах SLR</value>
     </caseValues>
     <gender>Masculine</gender>
+    <layouts>
+        <layout>SLR Cache Layout</layout>
+        <sections>
+            <label>Настроювані посилання</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Номер кешу SLR</nameFieldLabel>
 </CustomObjectTranslation>

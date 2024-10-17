@@ -31,5 +31,24 @@
         <value>Konfigurationer af Maps Live - dagligt sammendrag</value>
     </caseValues>
     <gender>Feminine</gender>
+    <layouts>
+        <layout>Maps Live Daily Summary Configuration Layout</layout>
+        <sections>
+            <label>Tilpassede links</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Seneste batch</label>
+            <section>Last Batch</section>
+        </sections>
+        <sections>
+            <label>Hastighedsoverskridelse - relateret</label>
+            <section>Speeding Related</section>
+        </sections>
+        <sections>
+            <label>Stop relateret</label>
+            <section>Stop Related</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Maps Live - dagligt sammendragskonfigura</nameFieldLabel>
 </CustomObjectTranslation>

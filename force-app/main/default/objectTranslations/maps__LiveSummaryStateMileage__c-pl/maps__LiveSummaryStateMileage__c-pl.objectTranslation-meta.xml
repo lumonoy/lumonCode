@@ -61,5 +61,12 @@
         <value>Podsumowaniach ilości mil dla stanu Maps Live</value>
     </caseValues>
     <gender>Neuter</gender>
+    <layouts>
+        <layout>Maps Live Summary State Mileage Layout</layout>
+        <sections>
+            <label>Linki niestandardowe</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Nazwa podsumowania na żywo ilości mil dl</nameFieldLabel>
 </CustomObjectTranslation>

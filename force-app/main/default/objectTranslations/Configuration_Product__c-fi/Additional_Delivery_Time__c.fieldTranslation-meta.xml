@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <help><!-- Additional Time for Delivery in Calendar Days --></help>
-    <label><!-- Additional Delivery Time --></label>
+    <label><!-- Additional Delivery Time OLD --></label>
     <name>Additional_Delivery_Time__c</name>
 </CustomFieldTranslation>

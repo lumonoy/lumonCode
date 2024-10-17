@@ -9,6 +9,41 @@
         <value>Serie di dati Percorso di Maps Advanced</value>
     </caseValues>
     <gender>Feminine</gender>
+    <layouts>
+        <layout>Maps Advanced Route Data Set Layout</layout>
+        <sections>
+            <label>Oggetto base</label>
+            <section>Base Object</section>
+        </sections>
+        <sections>
+            <label>Visite completate</label>
+            <section>Completed Visits</section>
+        </sections>
+        <sections>
+            <label>Link personalizzati</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Varie</label>
+            <section>Misc</section>
+        </sections>
+        <sections>
+            <label>Output e visite future</label>
+            <section>Output and Future Visits</section>
+        </sections>
+        <sections>
+            <label>Suggerimenti</label>
+            <section>Tooltips</section>
+        </sections>
+        <sections>
+            <label>Frequenza visite</label>
+            <section>Visit Frequency</section>
+        </sections>
+        <sections>
+            <label>Finestre di visita</label>
+            <section>Visit Windows</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Nome serie di dati Percorso di Maps Adva</nameFieldLabel>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

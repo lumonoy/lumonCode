@@ -9,6 +9,17 @@
         <value>Configurazioni periodo promozione di Maps Advanced</value>
     </caseValues>
     <gender>Feminine</gender>
+    <layouts>
+        <layout>Maps Advanced Promotional Period Config Layout</layout>
+        <sections>
+            <label>Link personalizzati</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Valori predefiniti</label>
+            <section>Default Values</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Nome configurazione periodo promozione d</nameFieldLabel>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

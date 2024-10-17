@@ -396,5 +396,12 @@
         <possessive>Second</possessive>
         <value>Maps: Live-tapahtuman liitäntöjäsi</value>
     </caseValues>
+    <layouts>
+        <layout>Maps Live Event Association Layout</layout>
+        <sections>
+            <label>Mukautetut linkit</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Maps: live-tapahtumayhteyden nimi</nameFieldLabel>
 </CustomObjectTranslation>

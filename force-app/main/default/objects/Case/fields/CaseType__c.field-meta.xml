@@ -14,52 +14,14 @@
         <restricted>true</restricted>
         <valueSetName>Lumon_Case_Types</valueSetName>
         <valueSettings>
-            <controllingFieldValue>WEB</controllingFieldValue>
-            <controllingFieldValue>INST</controllingFieldValue>
-            <controllingFieldValue>Other</controllingFieldValue>
-            <controllingFieldValue>CS</controllingFieldValue>
-            <controllingFieldValue>IT</controllingFieldValue>
-            <controllingFieldValue>LOG</controllingFieldValue>
-            <controllingFieldValue>FAC</controllingFieldValue>
-            <controllingFieldValue>TS</controllingFieldValue>
-            <controllingFieldValue>NA</controllingFieldValue>
-            <controllingFieldValue>SF</controllingFieldValue>
-            <controllingFieldValue>SPEC</controllingFieldValue>
-            <controllingFieldValue>PERM</controllingFieldValue>
-            <controllingFieldValue>RECL</controllingFieldValue>
-            <valueName>NA</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>CS</controllingFieldValue>
-            <valueName>CS_CALL</valueName>
-        </valueSettings>
-        <valueSettings>
             <controllingFieldValue>CS</controllingFieldValue>
             <valueName>CS_COMP</valueName>
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>CS</controllingFieldValue>
+            <controllingFieldValue>LOG</controllingFieldValue>
             <controllingFieldValue>FAC</controllingFieldValue>
             <valueName>CS_FEED</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>CS</controllingFieldValue>
-            <controllingFieldValue>FAC</controllingFieldValue>
-            <valueName>CS_INFO</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>CS</controllingFieldValue>
-            <valueName>CS_COFF</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>CS</controllingFieldValue>
-            <controllingFieldValue>SPEC</controllingFieldValue>
-            <valueName>CS_CORD</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>CS</controllingFieldValue>
-            <controllingFieldValue>RECL</controllingFieldValue>
-            <valueName>CS_RECL</valueName>
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>CS</controllingFieldValue>
@@ -67,73 +29,7 @@
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>IT</controllingFieldValue>
-            <valueName>IT_DEV</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>IT</controllingFieldValue>
-            <valueName>IT_HW</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>IT</controllingFieldValue>
-            <valueName>IT_INC</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>IT</controllingFieldValue>
-            <valueName>IT_PROJ</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>IT</controllingFieldValue>
             <valueName>IT_ORD</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>IT</controllingFieldValue>
-            <valueName>IT_OUT</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>IT</controllingFieldValue>
-            <valueName>IT_PRB</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>IT</controllingFieldValue>
-            <valueName>IT_SERV</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>IT</controllingFieldValue>
-            <valueName>IT_SW</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>IT</controllingFieldValue>
-            <valueName>IT_SUPP</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>IT</controllingFieldValue>
-            <valueName>IT_USER</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>IT</controllingFieldValue>
-            <valueName>IT_PERM</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>LOG</controllingFieldValue>
-            <valueName>LOG_REQ</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>FAC</controllingFieldValue>
-            <controllingFieldValue>TS</controllingFieldValue>
-            <valueName>TS_GEN</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>TS</controllingFieldValue>
-            <valueName>TS_INT</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>TS</controllingFieldValue>
-            <controllingFieldValue>PERM</controllingFieldValue>
-            <valueName>TS_PERM</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>TS</controllingFieldValue>
-            <valueName>TS_TQ</valueName>
         </valueSettings>
     </valueSet>
 </CustomField>

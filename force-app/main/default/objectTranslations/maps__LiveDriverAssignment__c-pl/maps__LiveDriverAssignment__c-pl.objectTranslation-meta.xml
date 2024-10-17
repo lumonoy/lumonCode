@@ -61,5 +61,12 @@
         <value>Przypisaniach kierowców Maps Live</value>
     </caseValues>
     <gender>Neuter</gender>
+    <layouts>
+        <layout>Maps Live Driver Assignment Layout</layout>
+        <sections>
+            <label>Linki niestandardowe</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Mapuje nazwę przydziału kierowcy na żywo</nameFieldLabel>
 </CustomObjectTranslation>

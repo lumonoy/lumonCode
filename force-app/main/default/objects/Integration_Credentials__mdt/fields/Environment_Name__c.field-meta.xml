@@ -3,7 +3,7 @@
     <fullName>Environment_Name__c</fullName>
     <externalId>false</externalId>
     <fieldManageability>DeveloperControlled</fieldManageability>
-    <label>Environment Name OLD</label>
+    <label>Environment Name</label>
     <length>255</length>
     <required>false</required>
     <type>Text</type>

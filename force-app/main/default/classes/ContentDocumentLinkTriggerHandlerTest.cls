@@ -1,10 +1,14 @@
 /**
- * Created by Filip on 4. 4. 2023.
- */
-
+ * @description       : NOT IN USE ContentDocumentLinkTriggerHandler commented Out
+ * @author            : Henk Reynders
+ * @group             : 
+ * @last modified on  : 10-08-2024
+ * @last modified by  : Henk Reynders
+**/
 @IsTest
 private class ContentDocumentLinkTriggerHandlerTest {
-    @IsTest
+    // Disabled 01.10.2024
+    /*@IsTest
     static void testBehavior() {
         Id recordTypeId = Schema.SObjectType.Account.getRecordTypeInfosByDeveloperName().get('PersonAccount').getRecordTypeId();
 
@@ -59,5 +63,5 @@ private class ContentDocumentLinkTriggerHandlerTest {
         contentLink.contentDocumentId = contentVersion_2.contentDocumentId;
         contentLink.ShareType = 'V';
         insert contentLink;
-    }
+    }*/
 }

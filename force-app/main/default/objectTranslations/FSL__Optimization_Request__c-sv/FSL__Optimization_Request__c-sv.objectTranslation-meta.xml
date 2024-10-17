@@ -31,5 +31,20 @@
         <value>Optimeringsbegäranden</value>
     </caseValues>
     <gender>Feminine</gender>
+    <layouts>
+        <layout>Optimization Request Layout</layout>
+        <sections>
+            <label>Egna länkar</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Nummer för optimeringsbegäran</nameFieldLabel>
+    <sharingReasons>
+        <label><!-- Related Service Territory --></label>
+        <name>FSL__Related_Service_Territory</name>
+    </sharingReasons>
+    <sharingReasons>
+        <label><!-- Related Service Territory Member --></label>
+        <name>FSL__Related_Service_Territory_Member</name>
+    </sharingReasons>
 </CustomObjectTranslation>

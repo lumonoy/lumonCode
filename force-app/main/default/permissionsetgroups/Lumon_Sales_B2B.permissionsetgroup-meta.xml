@@ -8,7 +8,7 @@
     <permissionSets>B2CSalesObjectandFieldPermissions</permissionSets>
     <permissionSets>B2CSalesPDFButlerPermissions</permissionSets>
     <permissionSets>B2CSalesPricingPermissions</permissionSets>
-    <permissionSets>CaseHandlingPermissions</permissionSets>
+    <permissionSets>CaseHandlingObjectandFieldPermissions</permissionSets>
     <permissionSets>FSL_Agent_License</permissionSets>
     <permissionSets>FSL_Agent_Permissions</permissionSets>
     <permissionSets>SoveliaPermissions</permissionSets>

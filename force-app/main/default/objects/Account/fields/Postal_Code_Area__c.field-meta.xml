@@ -3,7 +3,7 @@
     <fullName>Postal_Code_Area__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <externalId>false</externalId>
-    <label>Postal Code Area</label>
+    <label>Postal Code Area OLD</label>
     <referenceTo>Postal_Code_Area__c</referenceTo>
     <relationshipLabel>Accounts</relationshipLabel>
     <relationshipName>Accounts</relationshipName>

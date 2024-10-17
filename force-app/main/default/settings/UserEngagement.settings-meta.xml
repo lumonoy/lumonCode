@@ -2,10 +2,10 @@
 <UserEngagementSettings xmlns="http://soap.sforce.com/2006/04/metadata">
     <canGovCloudUseAdoptionApps>false</canGovCloudUseAdoptionApps>
     <doesScheduledSwitcherRunDaily>false</doesScheduledSwitcherRunDaily>
-    <enableCustomHelpGlobalSection>true</enableCustomHelpGlobalSection>
+    <enableCustomHelpGlobalSection>false</enableCustomHelpGlobalSection>
     <enableHelpMenuShowFeedback>true</enableHelpMenuShowFeedback>
-    <enableHelpMenuShowHelp>false</enableHelpMenuShowHelp>
-    <enableHelpMenuShowNewUser>false</enableHelpMenuShowNewUser>
+    <enableHelpMenuShowHelp>true</enableHelpMenuShowHelp>
+    <enableHelpMenuShowNewUser>true</enableHelpMenuShowNewUser>
     <enableHelpMenuShowSearch>true</enableHelpMenuShowSearch>
     <enableHelpMenuShowSfdcContent>true</enableHelpMenuShowSfdcContent>
     <enableHelpMenuShowShortcut>true</enableHelpMenuShowShortcut>

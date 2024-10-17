@@ -9,5 +9,12 @@
         <value>Asignaciones de conductor en vivo de Maps</value>
     </caseValues>
     <gender>Feminine</gender>
+    <layouts>
+        <layout>Maps Live Driver Assignment Layout</layout>
+        <sections>
+            <label>Vínculos personalizados</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Nombre de asignación de conductor en viv</nameFieldLabel>
 </CustomObjectTranslation>

@@ -9,5 +9,24 @@
         <value>Pontos de passagem de rota de mapas avançados</value>
     </caseValues>
     <gender>Masculine</gender>
+    <layouts>
+        <layout>Maps Advanced Route Waypoint Layout</layout>
+        <sections>
+            <label>Endereço</label>
+            <section>Address</section>
+        </sections>
+        <sections>
+            <label>Relacionado ao núcleo</label>
+            <section>Core Related</section>
+        </sections>
+        <sections>
+            <label>Links personalizados</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Registros relacionados</label>
+            <section>Related Records</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Nome do ponto de passagem de rota do Map</nameFieldLabel>
 </CustomObjectTranslation>

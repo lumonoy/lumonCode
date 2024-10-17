@@ -4,7 +4,7 @@
     <externalId>false</externalId>
     <formula>Configuration_Product__r.Configuration__r.RVN_Number__c</formula>
     <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
-    <label>RVN Number</label>
+    <label>RVN Number OLD</label>
     <required>false</required>
     <trackTrending>false</trackTrending>
     <type>Text</type>

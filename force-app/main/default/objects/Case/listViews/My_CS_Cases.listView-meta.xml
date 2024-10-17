@@ -14,11 +14,6 @@
         <operation>equals</operation>
         <value>Case.CS_Case</value>
     </filters>
-    <filters>
-        <field>CASES.STATUS</field>
-        <operation>notEqual</operation>
-        <value>Resolved,Closed</value>
-    </filters>
     <label>My Customer Service Cases</label>
     <sharedTo>
         <group>Admins</group>

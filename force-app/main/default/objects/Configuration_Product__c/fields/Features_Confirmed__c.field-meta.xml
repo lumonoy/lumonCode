@@ -4,7 +4,7 @@
     <defaultValue>false</defaultValue>
     <description>Salesforce representation of hasFeaturesBeenConfirmed</description>
     <externalId>false</externalId>
-    <label>Features Confirmed</label>
+    <label>Features Confirmed OLD</label>
     <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

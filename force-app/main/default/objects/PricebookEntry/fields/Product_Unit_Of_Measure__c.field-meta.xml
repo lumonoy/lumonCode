@@ -5,7 +5,7 @@
     <externalId>false</externalId>
     <formula>TEXT(Product2.QuantityUnitOfMeasure)</formula>
     <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
-    <label>Product Unit Of Measure</label>
+    <label>Product Unit Of Measure OLD</label>
     <required>false</required>
     <trackHistory>false</trackHistory>
     <type>Text</type>

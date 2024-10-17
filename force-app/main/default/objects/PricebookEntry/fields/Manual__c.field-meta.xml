@@ -3,7 +3,7 @@
     <fullName>Manual__c</fullName>
     <defaultValue>false</defaultValue>
     <externalId>false</externalId>
-    <label>Manual Processing</label>
+    <label>Manual Processing OLD</label>
     <trackHistory>false</trackHistory>
     <type>Checkbox</type>
 </CustomField>

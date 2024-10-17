@@ -4,7 +4,7 @@
     <description>Account profit center, taken from postal code areas by using a flow</description>
     <externalId>false</externalId>
     <inlineHelpText>Account Profit Center - This fields is automatically updated field based on the account postal code.</inlineHelpText>
-    <label>Account Profit Center</label>
+    <label>Account Profit Center OLD</label>
     <length>100</length>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>

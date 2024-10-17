@@ -9,5 +9,12 @@
         <value>Unidades comerciales</value>
     </caseValues>
     <gender>Feminine</gender>
+    <layouts>
+        <layout>Business Unit Layout</layout>
+        <sections>
+            <label>Vínculos personalizados</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Nombre de unidad de negocio</nameFieldLabel>
 </CustomObjectTranslation>

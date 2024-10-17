@@ -61,5 +61,24 @@
         <value>Jazdach ciągłych Zaawansowanych tras Maps</value>
     </caseValues>
     <gender>Feminine</gender>
+    <layouts>
+        <layout>Maps Advanced Route Continuous Travel Layout</layout>
+        <sections>
+            <label>Linki niestandardowe</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Adres końcowy</label>
+            <section>End Address</section>
+        </sections>
+        <sections>
+            <label>Adres początkowy</label>
+            <section>Start Address</section>
+        </sections>
+        <sections>
+            <label>Daty podróży</label>
+            <section>Travel Dates</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Nazwa ciągłej podróży planera Maps</nameFieldLabel>
 </CustomObjectTranslation>

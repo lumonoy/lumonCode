@@ -3,7 +3,7 @@
     <fullName>Product_Category__c</fullName>
     <externalId>false</externalId>
     <inlineHelpText>First Level Grouping of Products and Services</inlineHelpText>
-    <label>Product Category</label>
+    <label>Product Category OLD</label>
     <required>false</required>
     <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <help><!-- Product definition that is included in contract. --></help>
-    <label><!-- Contract Product Description --></label>
+    <label><!-- Contract Product Description OLD --></label>
     <name>Contract_Product_Description__c</name>
 </CustomFieldTranslation>

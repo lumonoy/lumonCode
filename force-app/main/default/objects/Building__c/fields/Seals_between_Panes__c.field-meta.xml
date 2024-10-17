@@ -4,7 +4,7 @@
     <defaultValue>false</defaultValue>
     <externalId>false</externalId>
     <inlineHelpText>Indicates whether Seals between Panes are required</inlineHelpText>
-    <label>Seals between Panes</label>
+    <label>Seals between Panes DEL</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>
 </CustomField>

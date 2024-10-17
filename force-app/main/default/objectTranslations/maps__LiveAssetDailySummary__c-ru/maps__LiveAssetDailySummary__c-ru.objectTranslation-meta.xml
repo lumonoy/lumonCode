@@ -61,5 +61,24 @@
         <value>Ежедневных сводках динамического актива Maps</value>
     </caseValues>
     <gender>Feminine</gender>
+    <layouts>
+        <layout>Maps Live Asset Daily Summary Layout</layout>
+        <sections>
+            <label>Настраиваемые ссылки</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Связано с пробегом в милях</label>
+            <section>Mileage Related</section>
+        </sections>
+        <sections>
+            <label>Связано с временем</label>
+            <section>Time Related</section>
+        </sections>
+        <sections>
+            <label>Общее количество событий</label>
+            <section>Total Events</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Имя ежедневных сводок динамического акти</nameFieldLabel>
 </CustomObjectTranslation>

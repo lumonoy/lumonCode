@@ -41,5 +41,12 @@
         <value>Individuellen Linkleveldetails</value>
     </caseValues>
     <gender>Neuter</gender>
+    <layouts>
+        <layout>Individual Link Level Detail Layout</layout>
+        <sections>
+            <label>Benutzerdefinierte Links</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Linkname</nameFieldLabel>
 </CustomObjectTranslation>

@@ -53,11 +53,6 @@ Building, Apartment, Condiminium,Warehouse, Factory, Structural Analysis</descri
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
-        <field>EmailMessage.IsMigrated__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
         <editable>false</editable>
         <field>Factory__c.Default_Factory__c</field>
         <readable>true</readable>

@@ -41,5 +41,12 @@
         <value>Maps-Live-Ereignissen</value>
     </caseValues>
     <gender>Neuter</gender>
+    <layouts>
+        <layout>Maps Live Event Layout</layout>
+        <sections>
+            <label>Benutzerdefinierte Links</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Maps-Live-Ereignisname</nameFieldLabel>
 </CustomObjectTranslation>

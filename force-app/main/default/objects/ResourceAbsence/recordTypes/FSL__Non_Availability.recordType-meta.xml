@@ -44,19 +44,19 @@
     <picklistValues>
         <picklist>Type</picklist>
         <values>
-            <fullName>Other</fullName>
+            <fullName>0</fullName>
             <default>false</default>
         </values>
         <values>
-            <fullName>Pekkanen</fullName>
+            <fullName>15</fullName>
             <default>false</default>
         </values>
         <values>
-            <fullName>Sick leave</fullName>
+            <fullName>30</fullName>
             <default>false</default>
         </values>
         <values>
-            <fullName>Vacation</fullName>
+            <fullName>40</fullName>
             <default>true</default>
         </values>
     </picklistValues>

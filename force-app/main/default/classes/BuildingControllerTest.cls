@@ -2,30 +2,26 @@
  * @description       : 
  * @author            : Henk Reynders
  * @group             : 
- * @last modified on  : 02-13-2024
+ * @last modified on  : 10-02-2024
  * @last modified by  : Henk Reynders
 **/
 @IsTest
 public class BuildingControllerTest {
+    public class CustomException extends Exception {}
+    private static Id b2cAccountId = LumonTestVariables.b2cAccountId;
+    private static Id b2bAccountId = LumonTestVariables.b2bAccountId;
+    private static List<Id> buildingIds = LumonTestVariables.buildingIds;
     @TestSetup
     static void prepareData(){
         Test.startTest();
-        LumonTestDataFactory.setupProducts();
-        LumonTestDataFactory.setupPrices();
-        // B2C Setup
-        LumonTestDataFactory.setupAccountB2C();
-        LumonTestDataFactory.setupOpportunityB2C();
+        LumonTestDataFactory.setupAccounts();
+        LumonTestDataFactory.setupBuildings();
         Test.stopTest();
     }
-    private static Id b2cAccountId = LumonTestDataFactory.b2cAccountId;
-    private static Id b2cOpportunityId = LumonTestDataFactory.b2cOpportunityId;
-    private static Id b2cSyncedQuoteId = LumonTestDataFactory.b2cSyncedQuoteId;
     @IsTest
     static void getBuildingRecordTest(){      
-		Opportunity opp = OpportunityController.getOpportunityRecord(b2copportunityId);     
-        Id buildingId = [SELECT Id FROM Building__c LIMIT 1]?.Id;
         Test.startTest();
-        Building__c buildingRecord = BuildingController.getBuildingRecord(buildingId);
+        Building__c buildingRecord = BuildingController.getBuildingRecord(buildingIds[0]);
         System.Debug ('--- '+ buildingRecord.Id +' Building Returned');
         System.assertNotEquals(null,buildingRecord, 'Expected Building Record to be returned');
         System.debug('--- getBuildingRecordTest - CPU TIME: '+LIMITS.getCpuTime()); 
@@ -34,10 +30,7 @@ public class BuildingControllerTest {
     }
     @IsTest
     static void getBuildingsTest(){
-        Opportunity opp = OpportunityController.getOpportunityRecord(b2copportunityId);     
-        Id buildingId = [SELECT Id FROM Building__c LIMIT 1]?.Id;
         Test.startTest();
-        List<Id> buildingIds = new List<Id> {buildingId};
         List<Building__c> buildings = BuildingController.getBuildings(buildingIds);
         System.Debug ('--- '+ buildings.size() +' Buildings Returned');
         System.assertNotEquals(0,buildings.size(), 'Expected Building Record to be returned');

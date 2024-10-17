@@ -31,5 +31,16 @@
         <value>Maps Advanced-kampagneperiodekonfigurationer</value>
     </caseValues>
     <gender>Feminine</gender>
+    <layouts>
+        <layout>Maps Advanced Promotional Period Config Layout</layout>
+        <sections>
+            <label>Tilpassede links</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Standardværdier</label>
+            <section>Default Values</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Navn på konfiguration af Maps Advanced-k</nameFieldLabel>
 </CustomObjectTranslation>

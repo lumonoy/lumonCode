@@ -9,6 +9,25 @@
         <value>Modèles d&apos;itinéraire Maps Advanced</value>
     </caseValues>
     <gender>Masculine</gender>
+    <layouts>
+        <layout>Maps Advanced Route Template Layout</layout>
+        <sections>
+            <label>Paramètres de réoptimisation automatique</label>
+            <section>Auto Reoptimization Settings</section>
+        </sections>
+        <sections>
+            <label>Liens personnalisés</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Information de durée</label>
+            <section>Duration Info</section>
+        </sections>
+        <sections>
+            <label>Réalisation du modèle</label>
+            <section>Template Completion</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Nom du modèle d&apos;itinéraire Maps Advanced</nameFieldLabel>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

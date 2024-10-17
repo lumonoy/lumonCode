@@ -31,5 +31,12 @@
         <value>Tildelinger av Maps Live-sjåfør</value>
     </caseValues>
     <gender>Masculine</gender>
+    <layouts>
+        <layout>Maps Live Driver Assignment Layout</layout>
+        <sections>
+            <label>Tilpassede lenker</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>navn på Maps Live-sjåførtildeling</nameFieldLabel>
 </CustomObjectTranslation>

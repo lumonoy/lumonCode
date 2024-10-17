@@ -9,5 +9,12 @@
         <value>Ativos de mapas ativos</value>
     </caseValues>
     <gender>Masculine</gender>
+    <layouts>
+        <layout>Maps Live Asset Layout</layout>
+        <sections>
+            <label>Links personalizados</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Nome do ativo do Maps Live</nameFieldLabel>
 </CustomObjectTranslation>

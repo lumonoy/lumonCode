@@ -121,17 +121,6 @@
         </sharedFrom>
     </sharingOwnerRules>
     <sharingOwnerRules>
-        <fullName>Customer_Service_Central_Europe</fullName>
-        <accessLevel>Edit</accessLevel>
-        <label>Customer Service Central Europe</label>
-        <sharedTo>
-            <group>CS_CentralEurope</group>
-        </sharedTo>
-        <sharedFrom>
-            <group>CS_CentralEurope</group>
-        </sharedFrom>
-    </sharingOwnerRules>
-    <sharingOwnerRules>
         <fullName>FAC_Canada_Cases</fullName>
         <accessLevel>Edit</accessLevel>
         <description>Share Production Cases from Canada</description>

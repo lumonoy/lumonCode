@@ -9,5 +9,12 @@
         <value>Conjuntos de dados de planejamento de território</value>
     </caseValues>
     <gender>Masculine</gender>
+    <layouts>
+        <layout>Territory Planning Data Set Layout</layout>
+        <sections>
+            <label>Links personalizados</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Nome</nameFieldLabel>
 </CustomObjectTranslation>

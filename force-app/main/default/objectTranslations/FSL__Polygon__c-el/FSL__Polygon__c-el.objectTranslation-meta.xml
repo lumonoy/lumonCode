@@ -33,4 +33,8 @@
     <gender>Neuter</gender>
     <nameFieldLabel>Όνομα πολυγώνου</nameFieldLabel>
     <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Polygon color must be in hexadecimal format: (for example: #ffffff) --></errorMessage>
+        <name>FSL__Polygon_Color_HEX_Format</name>
+    </validationRules>
 </CustomObjectTranslation>

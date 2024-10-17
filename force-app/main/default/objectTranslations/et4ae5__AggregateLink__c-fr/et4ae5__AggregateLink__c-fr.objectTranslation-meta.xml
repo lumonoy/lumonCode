@@ -9,6 +9,13 @@
         <value>Détails au niveau lien agrégé</value>
     </caseValues>
     <gender>Masculine</gender>
+    <layouts>
+        <layout>Aggregate Link Level Detail Layout</layout>
+        <sections>
+            <label>Liens personnalisés</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Nom du lien</nameFieldLabel>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

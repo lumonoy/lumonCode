@@ -4,5 +4,12 @@
         <plural>false</plural>
         <value>ค่าเริ่มต้นใน Maps Advanced</value>
     </caseValues>
+    <layouts>
+        <layout>Maps Advanced Default Value Layout</layout>
+        <sections>
+            <label>ลิงก์แบบกำหนดเอง</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>ชื่อค่าเริ่มต้นเส้นทางใน Maps Advanced</nameFieldLabel>
 </CustomObjectTranslation>

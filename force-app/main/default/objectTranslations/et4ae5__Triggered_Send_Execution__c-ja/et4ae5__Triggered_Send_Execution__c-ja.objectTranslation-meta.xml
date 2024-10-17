@@ -4,5 +4,12 @@
         <plural>false</plural>
         <value>トリガーによる送信の実行</value>
     </caseValues>
+    <layouts>
+        <layout>Triggered Send Execution Layout</layout>
+        <sections>
+            <label>カスタムリンク</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>トリガーによる送信実行の名前</nameFieldLabel>
 </CustomObjectTranslation>

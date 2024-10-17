@@ -9,6 +9,17 @@
         <value>Priorità Percorso di Maps Advanced</value>
     </caseValues>
     <gender>Feminine</gender>
+    <layouts>
+        <layout>Maps Advanced Route Priority Layout</layout>
+        <sections>
+            <label>Link personalizzati</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Filtri</label>
+            <section>Filters</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Nome priorità Percorso di Maps Advanced</nameFieldLabel>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

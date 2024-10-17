@@ -61,5 +61,12 @@
         <value>Наборах данных планирования территории</value>
     </caseValues>
     <gender>Masculine</gender>
+    <layouts>
+        <layout>Territory Planning Data Set Layout</layout>
+        <sections>
+            <label>Настраиваемые ссылки</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Имя</nameFieldLabel>
 </CustomObjectTranslation>

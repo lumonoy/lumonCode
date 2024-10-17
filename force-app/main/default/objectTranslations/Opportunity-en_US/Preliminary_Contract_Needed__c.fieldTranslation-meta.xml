@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <help><!-- Please indicate if for any reason preliminary contract is needed --></help>
-    <label><!-- Preliminary Contract Needed --></label>
+    <label><!-- Preliminary Contract Needed OLD --></label>
     <name>Preliminary_Contract_Needed__c</name>
 </CustomFieldTranslation>

@@ -4,5 +4,12 @@
         <plural>false</plural>
         <value>Maps Advanced デフォルト値グループ</value>
     </caseValues>
+    <layouts>
+        <layout>Maps Advanced Default Values Group Layout</layout>
+        <sections>
+            <label>カスタムリンク</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Maps Advanced デフォルト値グループ名</nameFieldLabel>
 </CustomObjectTranslation>

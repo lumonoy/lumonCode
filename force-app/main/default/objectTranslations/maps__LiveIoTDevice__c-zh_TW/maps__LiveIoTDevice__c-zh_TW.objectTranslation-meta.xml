@@ -4,5 +4,12 @@
         <plural>false</plural>
         <value>Maps 即時 IoT 裝置</value>
     </caseValues>
+    <layouts>
+        <layout>Maps Live IoT Device Layout</layout>
+        <sections>
+            <label>自訂連結</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Maps 即時 IoT 裝置名稱</nameFieldLabel>
 </CustomObjectTranslation>

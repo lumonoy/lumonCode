@@ -396,5 +396,24 @@
         <possessive>Second</possessive>
         <value>Maps: Live-resurssin päivittäisiä yhteenvetojasi</value>
     </caseValues>
+    <layouts>
+        <layout>Maps Live Asset Daily Summary Layout</layout>
+        <sections>
+            <label>Mukautetut linkit</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Liittyvä kilometrimäärä</label>
+            <section>Mileage Related</section>
+        </sections>
+        <sections>
+            <label>Liittyvä aika</label>
+            <section>Time Related</section>
+        </sections>
+        <sections>
+            <label>Tapahtumat yhteensä</label>
+            <section>Total Events</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Maps: Live-resurssin päivittäisen yhteen</nameFieldLabel>
 </CustomObjectTranslation>

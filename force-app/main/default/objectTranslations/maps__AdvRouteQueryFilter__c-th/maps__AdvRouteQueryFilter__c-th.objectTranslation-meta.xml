@@ -4,5 +4,12 @@
         <plural>false</plural>
         <value>ตัวกรองการสืบค้นเส้นทางใน Maps Advanced</value>
     </caseValues>
+    <layouts>
+        <layout>Maps Advanced Route Query Filter Layout</layout>
+        <sections>
+            <label>ลิงก์แบบกำหนดเอง</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>ชื่อตัวกรองการสืบค้นเส้นทางใน Maps Advan</nameFieldLabel>
 </CustomObjectTranslation>

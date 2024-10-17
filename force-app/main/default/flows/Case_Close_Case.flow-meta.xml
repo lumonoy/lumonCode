@@ -2,44 +2,44 @@
 <Flow xmlns="http://soap.sforce.com/2006/04/metadata">
     <apiVersion>58.0</apiVersion>
     <assignments>
-        <name>Add_RecordTypeId</name>
-        <label>Add RecordTypeId</label>
-        <locationX>957</locationX>
-        <locationY>542</locationY>
+        <name>Picture_count</name>
+        <label>Picture count</label>
+        <locationX>740</locationX>
+        <locationY>612</locationY>
         <assignmentItems>
-            <assignToReference>colRecordTypeIds</assignToReference>
-            <operator>Add</operator>
+            <assignToReference>numImages</assignToReference>
+            <operator>AssignCount</operator>
             <value>
-                <elementReference>Loop_RecordTypes.Id</elementReference>
+                <elementReference>collImages</elementReference>
             </value>
         </assignmentItems>
         <connector>
-            <targetReference>Loop_RecordTypes</targetReference>
+            <targetReference>Has_images</targetReference>
         </connector>
     </assignments>
     <assignments>
-        <name>Set_Case_Resolution</name>
-        <label>Set Case Resolution</label>
-        <locationX>182</locationX>
-        <locationY>1274</locationY>
+        <name>Prepare_Case</name>
+        <label>Prepare Case</label>
+        <locationX>1154</locationX>
+        <locationY>612</locationY>
         <assignmentItems>
-            <assignToReference>Get_Case.Case_Resolution__c</assignToReference>
+            <assignToReference>Case.Case_Resolution__c</assignToReference>
             <operator>Assign</operator>
             <value>
                 <elementReference>Case_ResolutionText</elementReference>
             </value>
         </assignmentItems>
         <connector>
-            <targetReference>Is_Case_Resolved</targetReference>
+            <targetReference>Case_outcome</targetReference>
         </connector>
     </assignments>
     <assignments>
-        <name>Set_Case_Status</name>
-        <label>Set Case Status</label>
-        <locationX>50</locationX>
-        <locationY>1490</locationY>
+        <name>Prepare_Case_0</name>
+        <label>Prepare Case</label>
+        <locationX>1239</locationX>
+        <locationY>866</locationY>
         <assignmentItems>
-            <assignToReference>Get_Case.Status</assignToReference>
+            <assignToReference>Case.Status</assignToReference>
             <operator>Assign</operator>
             <value>
                 <stringValue>Resolved</stringValue>
@@ -49,42 +49,49 @@
             <targetReference>Update_Case</targetReference>
         </connector>
     </assignments>
-    <decisions>
-        <name>Has_Pictures</name>
-        <label>Has Pictures?</label>
-        <locationX>336</locationX>
-        <locationY>1058</locationY>
-        <defaultConnector>
-            <targetReference>ErrorNoPics</targetReference>
-        </defaultConnector>
-        <defaultConnectorLabel>No Pictures</defaultConnectorLabel>
-        <rules>
-            <name>Pictures</name>
-            <conditionLogic>and</conditionLogic>
-            <conditions>
-                <leftValueReference>Get_Case.hasPictures__c</leftValueReference>
-                <operator>EqualTo</operator>
-                <rightValue>
-                    <booleanValue>true</booleanValue>
-                </rightValue>
-            </conditions>
-            <connector>
-                <targetReference>Case_Resolution</targetReference>
-            </connector>
-            <label>Pictures</label>
-        </rules>
-    </decisions>
-    <decisions>
-        <name>Is_Case_Resolved</name>
-        <label>Is Case Resolved?</label>
-        <locationX>182</locationX>
-        <locationY>1382</locationY>
-        <defaultConnector>
+    <assignments>
+        <name>Prepare_Case_0_0</name>
+        <label>Prepare Case</label>
+        <locationX>1071</locationX>
+        <locationY>871</locationY>
+        <assignmentItems>
+            <assignToReference>Case.Status</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>Closed</stringValue>
+            </value>
+        </assignmentItems>
+        <connector>
             <targetReference>Update_Case</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Set_flag</name>
+        <label>Set flag</label>
+        <locationX>934</locationX>
+        <locationY>738</locationY>
+        <assignmentItems>
+            <assignToReference>Case.Contains_Pictures__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Case_Resolution</targetReference>
+        </connector>
+    </assignments>
+    <decisions>
+        <name>Case_outcome</name>
+        <label>Case outcome</label>
+        <locationX>1146</locationX>
+        <locationY>744</locationY>
+        <defaultConnector>
+            <targetReference>Prepare_Case_0_0</targetReference>
         </defaultConnector>
-        <defaultConnectorLabel>Not Resolved</defaultConnectorLabel>
+        <defaultConnectorLabel>Not resolved</defaultConnectorLabel>
         <rules>
-            <name>CaseResolved</name>
+            <name>Resolved</name>
             <conditionLogic>and</conditionLogic>
             <conditions>
                 <leftValueReference>Case_was_resolved</leftValueReference>
@@ -94,80 +101,129 @@
                 </rightValue>
             </conditions>
             <connector>
-                <targetReference>Set_Case_Status</targetReference>
+                <targetReference>Prepare_Case_0</targetReference>
             </connector>
-            <label>Case Resolved</label>
+            <label>Resolved</label>
         </rules>
     </decisions>
     <decisions>
-        <name>is_Supported_Case</name>
-        <label>is Supported Case?</label>
-        <locationX>781</locationX>
-        <locationY>842</locationY>
+        <name>Case_Type</name>
+        <label>Case Type</label>
+        <locationX>848</locationX>
+        <locationY>410</locationY>
         <defaultConnector>
             <targetReference>ErrorScreenNonSupportedCase</targetReference>
         </defaultConnector>
-        <defaultConnectorLabel>Other Case</defaultConnectorLabel>
+        <defaultConnectorLabel>Other</defaultConnectorLabel>
         <rules>
-            <name>Supported_Case</name>
+            <name>Reclamation_Order</name>
             <conditionLogic>and</conditionLogic>
             <conditions>
-                <leftValueReference>Get_Case</leftValueReference>
-                <operator>IsNull</operator>
+                <leftValueReference>Case.RecordType.DeveloperName</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Reclamation_Order</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Got_pictures</targetReference>
+            </connector>
+            <label>Reclamation Order</label>
+        </rules>
+        <rules>
+            <name>Quality_Event</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Case.RecordType.DeveloperName</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Quality_Event</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Got_pictures</targetReference>
+            </connector>
+            <label>Quality Event</label>
+        </rules>
+        <rules>
+            <name>Warranty_Case</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Case.Type</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Warranty work request</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Case_Resolution</targetReference>
+            </connector>
+            <label>Warranty Case</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <description>Either there are pictures, or Sys admin closes the case without pics.</description>
+        <name>Got_pictures</name>
+        <label>Got pictures?</label>
+        <locationX>939</locationX>
+        <locationY>520</locationY>
+        <defaultConnector>
+            <targetReference>ErrorNoPics</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>No</defaultConnectorLabel>
+        <rules>
+            <name>Yes</name>
+            <conditionLogic>or</conditionLogic>
+            <conditions>
+                <leftValueReference>Case.Contains_Pictures__c</leftValueReference>
+                <operator>EqualTo</operator>
                 <rightValue>
                     <booleanValue>true</booleanValue>
                 </rightValue>
             </conditions>
+            <conditions>
+                <leftValueReference>$Profile.Name</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>System Administrator</stringValue>
+                </rightValue>
+            </conditions>
             <connector>
-                <targetReference>User_is_Case_owner</targetReference>
+                <targetReference>Case_Resolution</targetReference>
             </connector>
-            <label>Supported Case</label>
+            <label>Yes</label>
         </rules>
     </decisions>
     <decisions>
-        <name>Is_Supported_RecordType</name>
-        <label>Is Supported RecordType?</label>
-        <locationX>957</locationX>
-        <locationY>350</locationY>
+        <name>Has_images</name>
+        <label>Has images?</label>
+        <locationX>732</locationX>
+        <locationY>732</locationY>
         <defaultConnector>
-            <targetReference>Add_RecordTypeId</targetReference>
+            <targetReference>ErrorNoPics</targetReference>
         </defaultConnector>
-        <defaultConnectorLabel>Other Record Type</defaultConnectorLabel>
+        <defaultConnectorLabel>No</defaultConnectorLabel>
         <rules>
-            <name>Supported_Record_Type</name>
+            <name>Yes4</name>
             <conditionLogic>and</conditionLogic>
             <conditions>
-                <leftValueReference>Loop_RecordTypes.DeveloperName</leftValueReference>
-                <operator>Contains</operator>
+                <leftValueReference>numImages</leftValueReference>
+                <operator>GreaterThan</operator>
                 <rightValue>
-                    <stringValue>RECL</stringValue>
-                </rightValue>
-            </conditions>
-            <conditions>
-                <leftValueReference>Loop_RecordTypes.DeveloperName</leftValueReference>
-                <operator>Contains</operator>
-                <rightValue>
-                    <stringValue>INST</stringValue>
-                </rightValue>
-            </conditions>
-            <conditions>
-                <leftValueReference>Loop_RecordTypes.Name</leftValueReference>
-                <operator>EqualTo</operator>
-                <rightValue>
-                    <stringValue>SPEC</stringValue>
+                    <numberValue>0.0</numberValue>
                 </rightValue>
             </conditions>
             <connector>
-                <targetReference>Add_RecordTypeId</targetReference>
+                <targetReference>Set_flag</targetReference>
             </connector>
-            <label>Supported Record Type</label>
+            <label>Yes</label>
         </rules>
     </decisions>
     <decisions>
         <name>User_is_Case_owner</name>
         <label>User is Case owner?</label>
-        <locationX>545</locationX>
-        <locationY>950</locationY>
+        <locationX>757</locationX>
+        <locationY>293</locationY>
         <defaultConnector>
             <targetReference>ErrorScreenNotOwner</targetReference>
         </defaultConnector>
@@ -176,7 +232,7 @@
             <name>Yes2</name>
             <conditionLogic>or</conditionLogic>
             <conditions>
-                <leftValueReference>Get_Case.OwnerId</leftValueReference>
+                <leftValueReference>Case.OwnerId</leftValueReference>
                 <operator>EqualTo</operator>
                 <rightValue>
                     <elementReference>fxLongUserId</elementReference>
@@ -190,12 +246,18 @@
                 </rightValue>
             </conditions>
             <connector>
-                <targetReference>Has_Pictures</targetReference>
+                <targetReference>Case_Type</targetReference>
             </connector>
             <label>Yes</label>
         </rules>
     </decisions>
-    <description>Screenflow to Guide Closure of Reclamation, Installation or Special Order Cases</description>
+    <description>Handles case closure in controlled way.
+
+29.9.2023: Allow for sysadmin to bypass the picture attaching.
+27.9.2023: Logic to add pictures, if they are still missing.
+27.9.2023: Added support for Warranty Case. In that case type, pictures are not required on the case.
+12.6.2023: First version.
+02.12.2023: Save Active Version as R2</description>
     <environments>Default</environments>
     <formulas>
         <name>fxLongUserId</name>
@@ -203,21 +265,7 @@
         <expression>CASESAFEID({!$User.Id})</expression>
     </formulas>
     <interviewLabel>Case - Close Case {!$Flow.CurrentDateTime}</interviewLabel>
-    <label>Case - Close Case R3</label>
-    <loops>
-        <name>Loop_RecordTypes</name>
-        <label>Loop RecordTypes</label>
-        <locationX>781</locationX>
-        <locationY>242</locationY>
-        <collectionReference>Get_Case_RecordTypes</collectionReference>
-        <iterationOrder>Asc</iterationOrder>
-        <nextValueConnector>
-            <targetReference>Is_Supported_RecordType</targetReference>
-        </nextValueConnector>
-        <noMoreValuesConnector>
-            <targetReference>Get_Case</targetReference>
-        </noMoreValuesConnector>
-    </loops>
+    <label>Case - Close Case R2</label>
     <processMetadataValues>
         <name>BuilderType</name>
         <value>
@@ -227,7 +275,7 @@
     <processMetadataValues>
         <name>CanvasMode</name>
         <value>
-            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+            <stringValue>FREE_FORM_CANVAS</stringValue>
         </value>
     </processMetadataValues>
     <processMetadataValues>
@@ -238,13 +286,13 @@
     </processMetadataValues>
     <processType>Flow</processType>
     <recordLookups>
-        <name>Get_Case</name>
-        <label>Get Case</label>
-        <locationX>781</locationX>
-        <locationY>734</locationY>
+        <name>Case</name>
+        <label>Case</label>
+        <locationX>764</locationX>
+        <locationY>174</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
-            <targetReference>is_Supported_Case</targetReference>
+            <targetReference>User_is_Case_owner</targetReference>
         </connector>
         <filterLogic>and</filterLogic>
         <filters>
@@ -254,62 +302,27 @@
                 <elementReference>recordId</elementReference>
             </value>
         </filters>
-        <filters>
-            <field>RecordTypeId</field>
-            <operator>In</operator>
-            <value>
-                <elementReference>colRecordTypeIds</elementReference>
-            </value>
-        </filters>
         <getFirstRecordOnly>true</getFirstRecordOnly>
         <object>Case</object>
-        <storeOutputAutomatically>true</storeOutputAutomatically>
-    </recordLookups>
-    <recordLookups>
-        <name>Get_Case_RecordTypes</name>
-        <label>Get Case RecordTypes</label>
-        <locationX>781</locationX>
-        <locationY>134</locationY>
-        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
-        <connector>
-            <targetReference>Loop_RecordTypes</targetReference>
-        </connector>
-        <filterLogic>and</filterLogic>
-        <filters>
-            <field>SobjectType</field>
-            <operator>EqualTo</operator>
-            <value>
-                <stringValue>Case</stringValue>
-            </value>
-        </filters>
-        <filters>
-            <field>IsActive</field>
-            <operator>EqualTo</operator>
-            <value>
-                <booleanValue>true</booleanValue>
-            </value>
-        </filters>
-        <getFirstRecordOnly>false</getFirstRecordOnly>
-        <object>RecordType</object>
         <storeOutputAutomatically>true</storeOutputAutomatically>
     </recordLookups>
     <recordUpdates>
         <name>Update_Case</name>
         <label>Update Case</label>
-        <locationX>182</locationX>
-        <locationY>1682</locationY>
-        <inputReference>Get_Case</inputReference>
+        <locationX>1157</locationX>
+        <locationY>1025</locationY>
+        <inputReference>Case</inputReference>
     </recordUpdates>
     <screens>
         <name>Case_Resolution</name>
         <label>Case Resolution</label>
-        <locationX>182</locationX>
-        <locationY>1166</locationY>
+        <locationX>1043</locationX>
+        <locationY>612</locationY>
         <allowBack>false</allowBack>
         <allowFinish>true</allowFinish>
         <allowPause>false</allowPause>
         <connector>
-            <targetReference>Set_Case_Resolution</targetReference>
+            <targetReference>Prepare_Case</targetReference>
         </connector>
         <fields>
             <name>Case_was_resolved</name>
@@ -319,17 +332,15 @@
             </defaultValue>
             <fieldText>Case was resolved</fieldText>
             <fieldType>InputField</fieldType>
-            <inputsOnNextNavToAssocScrn>UseStoredValues</inputsOnNextNavToAssocScrn>
             <isRequired>true</isRequired>
         </fields>
         <fields>
             <name>Case_ResolutionText</name>
             <defaultValue>
-                <stringValue>{!Get_Case.Case_Resolution__c}</stringValue>
+                <stringValue>{!Case.Case_Resolution__c}</stringValue>
             </defaultValue>
             <fieldText>Case Resolution</fieldText>
             <fieldType>LargeTextArea</fieldType>
-            <inputsOnNextNavToAssocScrn>UseStoredValues</inputsOnNextNavToAssocScrn>
             <isRequired>true</isRequired>
         </fields>
         <showFooter>true</showFooter>
@@ -338,15 +349,41 @@
     <screens>
         <name>ErrorNoPics</name>
         <label>ErrorNoPics</label>
-        <locationX>490</locationX>
-        <locationY>1166</locationY>
+        <locationX>854</locationX>
+        <locationY>612</locationY>
         <allowBack>false</allowBack>
         <allowFinish>true</allowFinish>
         <allowPause>false</allowPause>
+        <connector>
+            <targetReference>Picture_count</targetReference>
+        </connector>
         <fields>
             <name>errorTextNoPics</name>
-            <fieldText>&lt;p&gt;Error! Case does not contain pictures and thus cannot be closed.&lt;/p&gt;&lt;p&gt;Please add needed pictures and set the checkbox &quot;Contains Pictures&quot; and try again.&lt;/p&gt;</fieldText>
+            <fieldText>&lt;p&gt;Error! Case does not contain pictures and thus cannot be closed.&lt;/p&gt;&lt;p&gt;Please add needed pictures.&lt;/p&gt;</fieldText>
             <fieldType>DisplayText</fieldType>
+        </fields>
+        <fields>
+            <name>ImageUpload</name>
+            <extensionName>forceContent:fileUpload</extensionName>
+            <fieldType>ComponentInstance</fieldType>
+            <inputParameters>
+                <name>label</name>
+                <value>
+                    <stringValue>Upload images</stringValue>
+                </value>
+            </inputParameters>
+            <inputParameters>
+                <name>recordId</name>
+                <value>
+                    <elementReference>Case.Id</elementReference>
+                </value>
+            </inputParameters>
+            <inputsOnNextNavToAssocScrn>UseStoredValues</inputsOnNextNavToAssocScrn>
+            <isRequired>true</isRequired>
+            <outputParameters>
+                <assignToReference>collImages</assignToReference>
+                <name>contentDocIds</name>
+            </outputParameters>
         </fields>
         <showFooter>true</showFooter>
         <showHeader>true</showHeader>
@@ -354,14 +391,14 @@
     <screens>
         <name>ErrorScreenNonSupportedCase</name>
         <label>Non-supported Case type</label>
-        <locationX>1018</locationX>
-        <locationY>950</locationY>
+        <locationX>762</locationX>
+        <locationY>497</locationY>
         <allowBack>false</allowBack>
         <allowFinish>true</allowFinish>
         <allowPause>false</allowPause>
         <fields>
             <name>ErrorTextNonSupportedCaseType</name>
-            <fieldText>&lt;p&gt;This Case doesn&apos;t need Guided Closure, please use the Close Case Action&lt;/p&gt;</fieldText>
+            <fieldText>&lt;p&gt;Error! This functionality is supported only for Reclamations, Quality Events and Warranty Cases.&lt;/p&gt;</fieldText>
             <fieldType>DisplayText</fieldType>
         </fields>
         <showFooter>true</showFooter>
@@ -370,33 +407,41 @@
     <screens>
         <name>ErrorScreenNotOwner</name>
         <label>Not the Case Owner</label>
-        <locationX>754</locationX>
-        <locationY>1058</locationY>
+        <locationX>653</locationX>
+        <locationY>387</locationY>
         <allowBack>false</allowBack>
         <allowFinish>true</allowFinish>
         <allowPause>false</allowPause>
         <fields>
             <name>errorTextCaseOwner</name>
-            <fieldText>&lt;p&gt;Only Case Owner is not allowed to Close the Case!&lt;/p&gt;</fieldText>
+            <fieldText>&lt;p&gt;Error! You are not the Case owner.&lt;/p&gt;</fieldText>
             <fieldType>DisplayText</fieldType>
         </fields>
         <showFooter>true</showFooter>
         <showHeader>true</showHeader>
     </screens>
     <start>
-        <locationX>655</locationX>
-        <locationY>0</locationY>
+        <locationX>638</locationX>
+        <locationY>50</locationY>
         <connector>
-            <targetReference>Get_Case_RecordTypes</targetReference>
+            <targetReference>Case</targetReference>
         </connector>
     </start>
     <status>Active</status>
     <variables>
-        <name>colRecordTypeIds</name>
+        <name>collImages</name>
         <dataType>String</dataType>
         <isCollection>true</isCollection>
         <isInput>false</isInput>
         <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>numImages</name>
+        <dataType>Number</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <scale>0</scale>
     </variables>
     <variables>
         <name>recordId</name>

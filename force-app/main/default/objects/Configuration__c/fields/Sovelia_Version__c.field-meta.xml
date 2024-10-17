@@ -4,7 +4,7 @@
     <description>1 for Old Sovelia
 2 for New Sovelia</description>
     <externalId>false</externalId>
-    <label>Sovelia Version</label>
+    <label>Sovelia Version OLD</label>
     <precision>18</precision>
     <required>false</required>
     <scale>0</scale>

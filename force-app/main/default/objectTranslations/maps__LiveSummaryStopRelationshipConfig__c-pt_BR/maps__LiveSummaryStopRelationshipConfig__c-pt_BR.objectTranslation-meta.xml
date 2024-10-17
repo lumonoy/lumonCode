@@ -9,5 +9,12 @@
         <value>Ajustes de resumo de parada de mapas ativos</value>
     </caseValues>
     <gender>Masculine</gender>
+    <layouts>
+        <layout>Maps Live Summary Stop Relationship Config Layout</layout>
+        <sections>
+            <label>Links personalizados</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Configuração de parada do resumo do Maps</nameFieldLabel>
 </CustomObjectTranslation>

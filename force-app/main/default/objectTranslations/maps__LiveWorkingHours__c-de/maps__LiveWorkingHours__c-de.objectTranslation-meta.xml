@@ -41,5 +41,16 @@
         <value>Maps-Live-Arbeitszeit</value>
     </caseValues>
     <gender>Feminine</gender>
+    <layouts>
+        <layout>Maps Live Working Hours Layout</layout>
+        <sections>
+            <label>Benutzerdefinierte Links</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Arbeitszeit</label>
+            <section>Working Hours</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Name der Maps-Live-Arbeitszeit</nameFieldLabel>
 </CustomObjectTranslation>

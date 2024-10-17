@@ -4,7 +4,7 @@
     <description>Delivery method selected for the installation</description>
     <externalId>false</externalId>
     <inlineHelpText>Delivery method selected for the installation</inlineHelpText>
-    <label>Delivery Method</label>
+    <label>Delivery Method OLD</label>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>false</trackHistory>

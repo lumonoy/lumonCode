@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <help><!-- Indication of the Combined Load --></help>
-    <label><!-- Combined load --></label>
+    <label><!-- Combined load DEL --></label>
     <name>Combined_load__c</name>
 </CustomFieldTranslation>

@@ -216,5 +216,16 @@
         <possessive>Second</possessive>
         <value><!-- Ortamlarınızda --></value>
     </caseValues>
+    <layouts>
+        <layout>Workspace Layout</layout>
+        <sections>
+            <label>Özel Bağlantılar</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel><!-- Environment Name --></nameFieldLabel>
+    <validationRules>
+        <errorMessage><!-- Workspace name cannot be changed --></errorMessage>
+        <name>CodeBuilder__CannotChangeWorkspaceName</name>
+    </validationRules>
 </CustomObjectTranslation>

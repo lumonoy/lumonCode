@@ -31,5 +31,24 @@
         <value>Maps Advanced Route - kontinuerlige rejser</value>
     </caseValues>
     <gender>Neuter</gender>
+    <layouts>
+        <layout>Maps Advanced Route Continuous Travel Layout</layout>
+        <sections>
+            <label>Tilpassede links</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Slutadresse</label>
+            <section>End Address</section>
+        </sections>
+        <sections>
+            <label>Startadresse</label>
+            <section>Start Address</section>
+        </sections>
+        <sections>
+            <label>Rejsedatoer</label>
+            <section>Travel Dates</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Maps - navn på planlægning af kontinuerl</nameFieldLabel>
 </CustomObjectTranslation>

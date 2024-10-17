@@ -1,0 +1,11 @@
+Hello Manager,
+
+{!TimeSheet.OwnerFullName} is requesting your approval for his/herTime Sheet.
+
+Time Sheet Date: {!TimeSheet.StartDate} 
+Time Sheet Number: {!TimeSheet.TimeSheetNumber}
+
+Link to this Time Sheet's Approval: {!ApprovalRequest.Internal_URL}
+
+Best Regards,
+{!TimeSheet.OwnerFullName}

@@ -3,6 +3,6 @@
     <description>Required Permissions for Logistics</description>
     <hasActivationRequired>false</hasActivationRequired>
     <label>Lumon Logistics</label>
-    <permissionSets>CaseHandlingPermissions</permissionSets>
+    <permissionSets>CaseHandlingObjectandFieldPermissions</permissionSets>
     <status>Updated</status>
 </PermissionSetGroup>

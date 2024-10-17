@@ -4,5 +4,12 @@
         <plural>false</plural>
         <value>地图高级路线查询筛选器组</value>
     </caseValues>
+    <layouts>
+        <layout>Maps Advanced Route Query Filter Group Layout</layout>
+        <sections>
+            <label>自定义链接</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Maps Advanced 路线查询筛选器组名称</nameFieldLabel>
 </CustomObjectTranslation>

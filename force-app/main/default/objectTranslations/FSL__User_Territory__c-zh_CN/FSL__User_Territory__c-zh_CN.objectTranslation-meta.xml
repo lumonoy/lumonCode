@@ -4,5 +4,12 @@
         <plural>false</plural>
         <value>用户区域</value>
     </caseValues>
+    <layouts>
+        <layout>User Territory Layout</layout>
+        <sections>
+            <label>自定义链接</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>使用区域号码</nameFieldLabel>
 </CustomObjectTranslation>

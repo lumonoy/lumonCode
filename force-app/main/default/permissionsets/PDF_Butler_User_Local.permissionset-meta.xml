@@ -2,11 +2,6 @@
 <PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
     <description>additinal permission for pdf butler user: view all custom settings</description>
     <fieldPermissions>
-        <editable>true</editable>
-        <field>EmailMessage.IsMigrated__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
         <editable>false</editable>
         <field>cadmus_sign2__Sign_request__c.Opportunity__c</field>
         <readable>true</readable>

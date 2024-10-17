@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <help><!-- The Preliminary installation date and time. --></help>
-    <label><!-- Preliminary installation time --></label>
+    <label><!-- Preliminary installation time OLD --></label>
     <name>Preliminary_installation_time__c</name>
 </CustomFieldTranslation>

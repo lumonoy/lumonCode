@@ -127,10 +127,6 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>LearningManager</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
         <name>ListEmailSend</name>
     </userPermissions>
     <userPermissions>
@@ -200,10 +196,6 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>ManageHealthCheck</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>ManageLearningReporting</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -316,10 +308,6 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>OrderManagementIntegrationUser</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>Packaging2PromoteVersion</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-    <label><!-- Owner&apos;s BU --></label>
+    <label><!-- Owner&apos;s BU OLD --></label>
     <name>Owner_s_BU__c</name>
 </CustomFieldTranslation>

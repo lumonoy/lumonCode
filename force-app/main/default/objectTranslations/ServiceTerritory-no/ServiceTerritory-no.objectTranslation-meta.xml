@@ -11,6 +11,13 @@
             <section>Service Territory details</section>
         </sections>
     </layouts>
+    <layouts>
+        <layout>Lumon Service Territory Layout</layout>
+        <sections>
+            <label><!-- Business Attributes --></label>
+            <section>Business Attributes</section>
+        </sections>
+    </layouts>
     <quickActions>
         <label><!-- View Service Territory --></label>
         <name>ViewServiceTerritory</name>

@@ -4,5 +4,12 @@
         <plural>false</plural>
         <value>Maps ライブ IoT デバイス</value>
     </caseValues>
+    <layouts>
+        <layout>Maps Live IoT Device Layout</layout>
+        <sections>
+            <label>カスタムリンク</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Maps ライブ IoT デバイス名</nameFieldLabel>
 </CustomObjectTranslation>

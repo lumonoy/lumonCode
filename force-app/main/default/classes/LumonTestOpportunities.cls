@@ -2,29 +2,29 @@
  * @description       : 
  * @author            : Henk Reynders
  * @group             : 
- * @last modified on  : 12-09-2023
+ * @last modified on  : 10-01-2024
  * @last modified by  : Henk Reynders
 **/
 @IsTest(isParallel=false)
-public with sharing class LumonTestOpportunities {
-    @TestVisible private static Id pricebookId{
+public class LumonTestOpportunities {
+    @TestVisible private static Id b2cOpportunityRecordTypeId{
         get{
-            return Test.getStandardPricebookId();
+            return LumonTestVariables.b2cOpportunityRecordTypeId;
         }
     }
-	@TestVisible private static Id b2cOpportunityId{
+    @TestVisible private static Id b2bOpportunityRecordTypeId{
+        get{
+            return LumonTestVariables.b2bOpportunityRecordTypeId;
+        }
+    }
+    @TestVisible private static Id b2cOpportunityId{
         get{
             return [SELECT Id,Pricebook2Id,SyncedQuoteId,AccountId FROM Opportunity WHERE (Account.IsPersonAccount = true AND Order_Type__c = 'Normal') LIMIT 1]?.Id;
         }
     }
     @TestVisible private static Opportunity b2cOpportunity{
         get{
-            return [SELECT Id,Pricebook2Id,SyncedQuoteId,AccountId FROM Opportunity WHERE (Id =: b2cOpportunityId) LIMIT 1];
-        }
-    }
-    @TestVisible private static Id b2cReclamationId{
-        get{
-            return [SELECT Id,Pricebook2Id,SyncedQuoteId,AccountId FROM Opportunity WHERE (Account.IsPersonAccount = true AND Order_Type__c = 'Reclamation') LIMIT 1]?.Id;
+            return [SELECT Id,Pricebook2Id,SyncedQuoteId,AccountId,Order_type__c FROM Opportunity WHERE (Id =: b2cOpportunityId) LIMIT 1];
         }
     }
     @TestVisible private static List<Opportunity> b2cOpportunities{
@@ -37,99 +37,139 @@ public with sharing class LumonTestOpportunities {
             return [SELECT Id,Pricebook2Id,SyncedQuoteId,AccountId FROM Opportunity WHERE (Account.IsPersonAccount = false) LIMIT 1]?.Id;
         }
     }
-     @TestVisible private static Opportunity b2bOpportunity{
+    @TestVisible private static List<Account> accounts{
         get{
-            return [SELECT Id,Pricebook2Id,SyncedQuoteId,AccountId FROM Opportunity WHERE (Id =: b2bOpportunityId) LIMIT 1];
+            return [SELECT Id, IsPersonAccount, Business_Type__c, PersonMailingAddress, PersonOtherAddress,BillingAddress, ShippingAddress FROM Account ];
         }
     }
-    @TestVisible private static List<Opportunity> b2bOpportunities{
+    @TestVisible private static Id pricebookId{
         get{
-            return [SELECT Id,Pricebook2Id,SyncedQuoteId,AccountId FROM Opportunity WHERE (Account.IsPersonAccount = false)];
+            return Test.getStandardPricebookId();
         }
-    }
-    //@future 
+    } 
+    @TestVisible public static Id b2cAccountId = LumonTestAccounts.b2cAccountId;
+    @TestVisible public static Id b2bAccountId = LumonTestAccounts.b2bAccountId;
+    @TestVisible public static List<String> organizations = LumonTestData.organizations;
+    @TestVisible public static List<String> businessTypes = LumonTestData.businessTypes;
+    @TestVisible public static List<String> countries = LumonTestData.countryCodes;
+    @TestVisible public static List<String> districts = LumonTestData.districts;
+    
     public static void setupOpportunityB2C(){
-        LumonTestAccounts.setupAccountB2C();
-        Id accountId = LumonTestAccounts.b2cAccountId;
-        // Create B2C Opportunity
-		setupOpportunityB2C(accountId,'LSU', 'FI_South', 'Consumer');
-        System.debug('--- setupOpportunityB2C - CPU TIME: '+LIMITS.getCpuTime());
-        System.debug('--- setupOpportunityB2C - Queries used: '+LIMITS.getQueries());
-    }
-    //@future 
+        // Create B2C Opportunity           
+
+        setupOpportunityB2C(b2cAccountId,organizations[0], districts[0], '1');
+    }  
     public static void setupOpportunityB2C(Id accountId, String org, String district, String businessType){        
         // Create B2C Opportunity
-        Opportunity b2cOpp = new Opportunity(Name=('B2C Opportunity '+org+' '+district+' '+businessType),
-                                             Description = ('B2C Opportunity '+org+' '+district+' '+businessType), 
+        Id pricebookId = LumonTestVariables.pricebookId;
+        Opportunity b2cOpp = new Opportunity(RecordTypeId=b2cOpportunityRecordTypeId,
+                                            Name=('B2C Opportunity '+org+' '+district+' '+businessType),
+                                            Description = ('B2C Opportunity '+org+' '+district+' '+businessType), 
                                             StageName='Quoting',
                                             CloseDate=system.Today()+10,
                                             Pricebook2Id=pricebookId,
-                                            AccountId = accountId,
-                                            Organization__c = org,
+                                            AccountId = accountId
+                                            //Organization__c = org,
                                             //Country_Attribute__c,
-                                            Business_Type__c =businessType,
-                                            District__c = district,
-                                            Order_Type__c = 'Normal'
+                                            //Business_Type__c =businessType,
+                                            //District__c = district,
+                                            //Order_Type__c = 'Normal'                                       
                                             );
         insert b2cOpp;
-        System.debug('--- setupOpportunityB2C - CPU TIME: '+LIMITS.getCpuTime());
-        System.debug('--- setupOpportunityB2C - Queries used: '+LIMITS.getQueries());
+        System.debug('--- LumonTestOpportunities - B2C setup CPU TIME: '+LIMITS.getCpuTime());
+        System.debug('--- LumonTestOpportunities - B2C setup SOQL USED: ' + LIMITS.getQueries());
     }
-        //@future 
+
     public static void setupOpportunityB2B(){
-        LumonTestAccounts.setupAccountB2B();
-        Id accountId = LumonTestAccounts.b2bAccountId;
-        // Create B2B Opportunity
-		setupOpportunityB2B(accountId,'LSU', 'FI_South', 'Reseller');
-        System.debug('--- setupOpportunityB2B - CPU TIME: '+LIMITS.getCpuTime());
-        System.debug('--- setupOpportunityB2B - Queries used: '+LIMITS.getQueries());
-    }
-    //@future 
+        // Create B2C Opportunity   
+        setupOpportunityB2B(b2bAccountId,organizations[0], districts[0], '4');       
+    }    
     public static void setupOpportunityB2B(Id accountId, String org, String district, String businessType){        
         // Create B2B Opportunity
-        Opportunity b2bOpp = new Opportunity(Name=('B2B Opportunity '+org+' '+district+' '+businessType),
-                                             Description = ('B2B Opportunity '+org+' '+district+' '+businessType), 
-                                            StageName='Quoting',
+        Id pricebookId = LumonTestVariables.pricebookId;
+        Opportunity b2bOpp = new Opportunity(RecordTypeId=b2bOpportunityRecordTypeId,
+                                            Name=('B2B Opportunity '+org+' '+district+' '+businessType),
+                                            Description = ('B2B Opportunity '+org+' '+district+' '+businessType), 
+                                            StageName='Prepare',
                                             CloseDate=system.Today()+30,
                                             Pricebook2Id=pricebookId,
-                                            AccountId = accountId,
-                                            Organization__c = org,
+                                            AccountId = accountId
+                                            //Organization__c = org,
                                             //Country_Attribute__c,
-                                            Business_Type__c =businessType,
-                                            District__c = district,
-                                            Order_Type__c = 'Normal'
+                                            //Business_Type__c =businessType,
+                                            //District__c = district,
+                                            //Order_Type__c = 'Normal'
                                             );
         insert b2bOpp;
-        System.debug('--- setupOpportunityB2C - CPU TIME: '+LIMITS.getCpuTime());
-        System.debug('--- setupOpportunityB2C - Queries used: '+LIMITS.getQueries());
+        System.debug('--- LumonTestOpportunities - B2B setup CPU TIME: '+LIMITS.getCpuTime());
+        System.debug('--- LumonTestOpportunities - B2B setup SOQL USED: ' + LIMITS.getQueries());
+    }
+    public static void setupOpportunityData(){ 
+        setupOpportunityB2C();
+        setupOpportunityB2B();
+    }  
+    @TestSetup
+    static void prepareData() { 
+        Test.startTest();
+        if (accounts?.size()>0){
+            system.debug('--- LumonTestOpportunities - Using existing Test Accounts');
+        } else {
+            LumonTestAccounts.setupAccountData();
+        }
+        if (String.isBlank(b2cAccountId)){
+            LumonTestAccounts.setupAccountB2C();
+        }
+        if (String.isBlank(b2bAccountId)){
+            LumonTestAccounts.setupAccountB2B();
+        }
+        Test.stopTest();
+    }
+    @IsTest
+    static void setupOpportunityDataTest(){
+        String testResult;
+        Test.startTest();
+        try {
+            setupOpportunityData();
+            testResult = 'successfully inserted Opportunities';
+            System.debug('--- LumonTestOpportunities - B2C Opportunity: '+b2cOpportunityId);
+            System.debug('--- LumonTestOpportunities - B2B Opportunity: '+b2bOpportunityId);
+        } catch (exception e){
+            testResult = 'Error when inserting Opportunities: '+e.getMessage();
+        }
+        System.debug('--- LumonTestOpportunities - CPU TIME: '+LIMITS.getCpuTime());
+        System.debug('--- LumonTestOpportunities - SOQL USED: ' + LIMITS.getQueries());
+        Test.stopTest();       
+        System.AssertNotEquals(true, testResult.contains('Error'));
+
     }
     @IsTest
     static void setupOpportunityB2CTest(){
         String testResult;
         Test.startTest();
-        Try {
+        try {
             setupOpportunityB2C();
             testResult = 'successfully inserted B2C Opportunity';
-            System.Debug('--- setupOpportunityB2CTest - Opportunity: '+b2cOpportunity);
+            System.debug('--- LumonTestOpportunities - B2C Opportunity: '+b2cOpportunityId);
         } catch (exception e){
             testResult = 'error when inserting B2C Opportunity: '+e.getMessage();
         }
         Test.stopTest();
-        System.Debug('--- setupOpportunityB2CTest - Opportunity After Test: '+b2cOpportunity);
+        System.debug('--- LumonTestOpportunities - B2C result: '+testResult);
         System.AssertNotEquals(true, testResult.contains('error'));
     } 
-    /*@IsTest
+    @IsTest
     static void setupOpportunityB2BTest(){
         String testResult;
         Test.startTest();
-        Try {
+        try {
             setupOpportunityB2B();
             testResult = 'successfully inserted B2B Opportunity';
-            System.Debug('--- setupOpportunityB2BTest - Opportunity: '+b2bOpportunity);
+            System.debug('--- LumonTestOpportunities - B2B Opportunity: '+b2bOpportunityId);
         } catch (exception e){
             testResult = 'error when inserting B2B Opportunity: '+e.getMessage();
         }
         Test.stopTest();
+        System.debug('--- LumonTestOpportunities - B2B result: '+testResult);
         System.AssertNotEquals(true, testResult.contains('error'));
-    } */
+    } 
 }

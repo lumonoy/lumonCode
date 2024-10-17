@@ -10,7 +10,6 @@
     </actionOverrides>
     <brand>
         <headerColor>#0070D2</headerColor>
-        <logo>Sales</logo>
         <logoVersion>1</logoVersion>
         <shouldOverrideOrgTheme>false</shouldOverrideOrgTheme>
     </brand>
@@ -34,8 +33,6 @@
     <tabs>standard-File</tabs>
     <tabs>standard-CollaborationGroup</tabs>
     <tabs>standard-Feed</tabs>
-    <tabs>standard-WaveHomeLightningEacFree</tabs>
-    <tabs>standard-WaveHomeLightning</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>Sales_UtilityBar</utilityBar>
 </CustomApplication>

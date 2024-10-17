@@ -41,5 +41,20 @@
         <value>Weiterleitbaren Objekten der Maps Advanced-Route</value>
     </caseValues>
     <gender>Neuter</gender>
+    <layouts>
+        <layout>Maps Advanced Route Routable Object Layout</layout>
+        <sections>
+            <label>Benutzerdefinierte Links</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Standardwerte</label>
+            <section>Default Values</section>
+        </sections>
+        <sections>
+            <label>Sonderangebotsfenster</label>
+            <section>Promo Windows</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Name des weiterleitbaren Objekts der Map</nameFieldLabel>
 </CustomObjectTranslation>

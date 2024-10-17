@@ -31,5 +31,24 @@
         <value>Konfigurasjoner av daglig Maps Live-sammendrag</value>
     </caseValues>
     <gender>Masculine</gender>
+    <layouts>
+        <layout>Maps Live Daily Summary Configuration Layout</layout>
+        <sections>
+            <label>Tilpassede lenker</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Siste batch</label>
+            <section>Last Batch</section>
+        </sections>
+        <sections>
+            <label>Fartsrelatert</label>
+            <section>Speeding Related</section>
+        </sections>
+        <sections>
+            <label>Stopprelatert</label>
+            <section>Stop Related</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Navn på konfigurasjon av daglig Maps Liv</nameFieldLabel>
 </CustomObjectTranslation>

@@ -31,5 +31,24 @@
         <value>Maps Advanced-ruttmallar</value>
     </caseValues>
     <gender>Feminine</gender>
+    <layouts>
+        <layout>Maps Advanced Route Template Layout</layout>
+        <sections>
+            <label>Inställningar för automatisk omoptimering</label>
+            <section>Auto Reoptimization Settings</section>
+        </sections>
+        <sections>
+            <label>Anpassade länkar</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Varaktighetsinfo</label>
+            <section>Duration Info</section>
+        </sections>
+        <sections>
+            <label>Mallslutförande</label>
+            <section>Template Completion</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Namn på ruttmall för Maps Advanced</nameFieldLabel>
 </CustomObjectTranslation>

@@ -31,5 +31,12 @@
         <value>Spørringsfiltre for Maps Advanced-rute</value>
     </caseValues>
     <gender>Neuter</gender>
+    <layouts>
+        <layout>Maps Advanced Route Query Filter Layout</layout>
+        <sections>
+            <label>Tilpassede lenker</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Navn på spørringsfilter for Maps Advance</nameFieldLabel>
 </CustomObjectTranslation>

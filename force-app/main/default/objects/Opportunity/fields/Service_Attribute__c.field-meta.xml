@@ -7,7 +7,7 @@ IF(NOT(ISBLANK(Owner.Profit_Center_Attribute__c )),Owner.Profit_Center_Attribute
 +IF(NOT(ISBLANK(Business_Type_Attribute__c )),Business_Type_Attribute__c,&apos;&apos;)
 ),&apos; &apos;, &apos;_&apos;)</formula>
     <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
-    <label>Service Attribute</label>
+    <label>Service Attribute OLD</label>
     <required>false</required>
     <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>

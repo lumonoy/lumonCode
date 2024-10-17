@@ -9,5 +9,24 @@
         <value>Registros de depuração de mapas</value>
     </caseValues>
     <gender>Masculine</gender>
+    <layouts>
+        <layout>Maps Debug Log Layout</layout>
+        <sections>
+            <label>Avançado relacionado</label>
+            <section>Advanced Related</section>
+        </sections>
+        <sections>
+            <label>Links personalizados</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Erro</label>
+            <section>Error</section>
+        </sections>
+        <sections>
+            <label>Registros relacionados</label>
+            <section>Related Records</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Nome</nameFieldLabel>
 </CustomObjectTranslation>

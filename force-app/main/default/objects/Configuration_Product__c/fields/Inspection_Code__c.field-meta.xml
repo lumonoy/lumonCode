@@ -3,7 +3,7 @@
     <fullName>Inspection_Code__c</fullName>
     <description>Salesforce equivalent of productInspectCode</description>
     <externalId>false</externalId>
-    <label>Inspection Code</label>
+    <label>Inspection Code OLD</label>
     <precision>10</precision>
     <required>false</required>
     <scale>0</scale>

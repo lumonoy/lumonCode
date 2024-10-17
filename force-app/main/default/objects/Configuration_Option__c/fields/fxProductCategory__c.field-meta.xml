@@ -2,7 +2,7 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>fxProductCategory__c</fullName>
     <externalId>false</externalId>
-    <formula>TEXT(Product__r.Product_Category__c)</formula>
+    <formula>TEXT(Product__r.ProductCategory__c)</formula>
     <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
     <label>fxProductCategory</label>
     <required>false</required>

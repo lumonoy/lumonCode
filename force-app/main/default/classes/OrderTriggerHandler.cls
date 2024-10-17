@@ -1,12 +1,12 @@
 /**
- * @description       : 
+ * @description       : NOT IN USE 
  * @author            : Henk Reynders
  * @group             : 
- * @last modified on  : 12-02-2023
+ * @last modified on  : 10-08-2024
  * @last modified by  : Henk Reynders
 **/
 public class OrderTriggerHandler {
-	public static Boolean checkRecursion = FALSE;
+	/*public static Boolean checkRecursion = FALSE;
     public static String response;
     public static String upsertOrderLineItems(String recordId){
         System.debug('*** order id ***'+recordId);
@@ -164,6 +164,7 @@ public class OrderTriggerHandler {
         /*else if(orderItemExistingMap == NULL){
             
         }*/
+        /*
         oi.OrderId = mapOfOppIdToOdrId.get(ql.Quote.OpportunityId);
         oi.ListPrice = ql.ListPrice;
         oi.Product2Id = ql.Product2Id;
@@ -209,6 +210,6 @@ public class OrderTriggerHandler {
             message = 'Error';
         }
         return message;
-    }
+    }*/
 
 }

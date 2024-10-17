@@ -2,7 +2,7 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Sovelia_Pricing_JSON__c</fullName>
     <externalId>false</externalId>
-    <label>Sovelia Pricing JSON</label>
+    <label>Sovelia Pricing JSON OLD</label>
     <length>130000</length>
     <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>

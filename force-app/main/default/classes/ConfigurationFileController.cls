@@ -1,8 +1,8 @@
 /**
- * @description       :  Configuration File Controller to define a common way to Query Configuration related Files
+ * @description       : Configuration File Controller to define a common way to Query Configuration related Files
  * @author            : Henk Reynders
  * @group             : 
- * @last modified on  : 11-20-2023
+ * @last modified on  : 10-01-2024
  * @last modified by  : Henk Reynders
 **/
 
@@ -48,7 +48,7 @@ public without sharing class ConfigurationFileController {
         for (ContentDocumentLink configurationFileLink : configurationFileLinks) {
             String fileName =  configurationFileLink.ContentDocument.LatestPublishedVersion.PathOnClient;
             fileNameToLinkMap.put(fileName, configurationFileLink);
-            System.Debug('--- Configuration File: '+fileName);
+            System.Debug('--- ConfigurationFileController - Configuration File: '+fileName);
         }
         return fileNameToLinkMap;
     }

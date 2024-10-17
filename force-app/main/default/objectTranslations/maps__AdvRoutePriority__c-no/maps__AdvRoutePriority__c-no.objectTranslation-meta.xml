@@ -31,5 +31,16 @@
         <value>Prioriteter for Maps Advanced-rute</value>
     </caseValues>
     <gender>Masculine</gender>
+    <layouts>
+        <layout>Maps Advanced Route Priority Layout</layout>
+        <sections>
+            <label>Tilpassede lenker</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Filtre</label>
+            <section>Filters</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Navn på prioritet for Maps Advanced-rute</nameFieldLabel>
 </CustomObjectTranslation>

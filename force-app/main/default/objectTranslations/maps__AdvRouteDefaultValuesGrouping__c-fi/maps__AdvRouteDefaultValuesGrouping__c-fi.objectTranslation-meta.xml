@@ -396,5 +396,12 @@
         <possessive>Second</possessive>
         <value>Maps: Edistyneiden oletusarvojen ryhmiäsi</value>
     </caseValues>
+    <layouts>
+        <layout>Maps Advanced Default Values Group Layout</layout>
+        <sections>
+            <label>Mukautetut linkit</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Maps: Edistyneiden oletusarvojen ryhmän</nameFieldLabel>
 </CustomObjectTranslation>

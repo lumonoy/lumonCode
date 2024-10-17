@@ -396,5 +396,24 @@
         <possessive>Second</possessive>
         <value>Maps: Päivittäisen live-yhteenvedon kokoonpanojasi</value>
     </caseValues>
+    <layouts>
+        <layout>Maps Live Daily Summary Configuration Layout</layout>
+        <sections>
+            <label>Mukautetut linkit</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Edellinen erä</label>
+            <section>Last Batch</section>
+        </sections>
+        <sections>
+            <label>Liittyvä ylinopeus</label>
+            <section>Speeding Related</section>
+        </sections>
+        <sections>
+            <label>Liittyvä pysähdys</label>
+            <section>Stop Related</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Maps: Liven päivittäisen yhteenvetomääri</nameFieldLabel>
 </CustomObjectTranslation>

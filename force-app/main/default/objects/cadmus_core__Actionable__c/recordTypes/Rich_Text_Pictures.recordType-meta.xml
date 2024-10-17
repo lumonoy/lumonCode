@@ -23,4 +23,26 @@
             <default>false</default>
         </values>
     </picklistValues>
+    <picklistValues>
+        <picklist>cadmus_core__Upload_Scheme__c</picklist>
+        <values>
+            <fullName>ftp</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ftps</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>sftp</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>cadmus_core__When__c</picklist>
+        <values>
+            <fullName>BEFORE_BUT_AFTER_DATASOURCES</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
 </RecordType>

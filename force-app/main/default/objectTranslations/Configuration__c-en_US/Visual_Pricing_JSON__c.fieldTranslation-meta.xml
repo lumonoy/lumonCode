@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-    <label><!-- Visual Pricing JSON --></label>
+    <label><!-- Visual Pricing JSON OLD --></label>
     <name>Visual_Pricing_JSON__c</name>
 </CustomFieldTranslation>

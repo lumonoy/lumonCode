@@ -9,6 +9,25 @@
         <value>Riepiloghi giornalieri asset live di Maps</value>
     </caseValues>
     <gender>Masculine</gender>
+    <layouts>
+        <layout>Maps Live Asset Daily Summary Layout</layout>
+        <sections>
+            <label>Link personalizzati</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Correlato al chilometraggio</label>
+            <section>Mileage Related</section>
+        </sections>
+        <sections>
+            <label>Correlato al tempo</label>
+            <section>Time Related</section>
+        </sections>
+        <sections>
+            <label>Eventi totali</label>
+            <section>Total Events</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Nome riepilogo giornaliero asset live di</nameFieldLabel>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

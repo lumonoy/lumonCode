@@ -2,7 +2,7 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Sovelia_Statistics__c</fullName>
     <externalId>false</externalId>
-    <label>Sovelia Statistics XML</label>
+    <label>Sovelia Statistics XML OLD</label>
     <length>130000</length>
     <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>

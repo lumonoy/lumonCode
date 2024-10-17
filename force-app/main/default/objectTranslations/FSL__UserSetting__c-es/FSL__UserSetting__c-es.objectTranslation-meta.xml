@@ -9,5 +9,28 @@
         <value>Configuraciones de usuarios</value>
     </caseValues>
     <gender>Feminine</gender>
+    <layouts>
+        <layout>User Setting Layout</layout>
+        <sections>
+            <label>Filtros personalizados</label>
+            <section>Custom Filters</section>
+        </sections>
+        <sections>
+            <label>Vínculos personalizados</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Preferencias de Gantt</label>
+            <section>Gantt Preferences</section>
+        </sections>
+        <sections>
+            <label>Preferencias de arrastrar y soltar de NA</label>
+            <section>NA Drag&amp;Drop Preferences</section>
+        </sections>
+        <sections>
+            <label>Preferencias de lista de servicio</label>
+            <section>Service List Prefernces</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Nombre de configuración de usuario</nameFieldLabel>
 </CustomObjectTranslation>

@@ -8,5 +8,20 @@
         <plural>true</plural>
         <value><!-- Yêu Cầu Tối Ưu Hóa --></value>
     </caseValues>
+    <layouts>
+        <layout>Optimization Request Layout</layout>
+        <sections>
+            <label>Liên Kết Tùy Chỉnh</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Số Yêu Cầu Tối Ưu Hóa</nameFieldLabel>
+    <sharingReasons>
+        <label><!-- Related Service Territory --></label>
+        <name>FSL__Related_Service_Territory</name>
+    </sharingReasons>
+    <sharingReasons>
+        <label><!-- Related Service Territory Member --></label>
+        <name>FSL__Related_Service_Territory_Member</name>
+    </sharingReasons>
 </CustomObjectTranslation>

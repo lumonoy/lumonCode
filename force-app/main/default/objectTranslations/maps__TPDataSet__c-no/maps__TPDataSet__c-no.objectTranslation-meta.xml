@@ -31,5 +31,12 @@
         <value>Datasett for områdeplanlegging</value>
     </caseValues>
     <gender>Neuter</gender>
+    <layouts>
+        <layout>Territory Planning Data Set Layout</layout>
+        <sections>
+            <label>Tilpassede lenker</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Navn</nameFieldLabel>
 </CustomObjectTranslation>

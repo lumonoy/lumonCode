@@ -1,6 +1,10 @@
-/*
-    Created by Reijo Mattila on 22.10.2023
-*/
+/**
+ * @description       : FSL Related to check ?
+ * @author            : Henk Reynders
+ * @group             : 
+ * @last modified on  : 10-08-2024
+ * @last modified by  : Henk Reynders
+**/
 trigger ServiceTerritoryMemberTrigger on ServiceTerritoryMember (after insert, before delete) {
     if (Trigger.isAfter) {
         if(Trigger.isInsert) {

@@ -4,7 +4,7 @@
     <description>Field to allow Changing the Account Profit Center if different from Owner or Postal Code Area</description>
     <externalId>false</externalId>
     <inlineHelpText>Set the Account Profit Center if different from Owner or Postal Code Area</inlineHelpText>
-    <label>Sales Profit Center</label>
+    <label>Sales Profit Center OLD</label>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>false</trackHistory>

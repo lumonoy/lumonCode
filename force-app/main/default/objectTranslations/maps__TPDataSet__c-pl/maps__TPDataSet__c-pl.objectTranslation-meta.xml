@@ -61,5 +61,12 @@
         <value>Zestawach danych planowania terytorium</value>
     </caseValues>
     <gender>Masculine</gender>
+    <layouts>
+        <layout>Territory Planning Data Set Layout</layout>
+        <sections>
+            <label>Linki niestandardowe</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Nazwa</nameFieldLabel>
 </CustomObjectTranslation>

@@ -13,6 +13,11 @@
         <name>FSL__Resource_Absence_Resource_Calendar</name>
     </fieldSets>
     <recordTypes>
+        <description><!-- Absense --></description>
+        <label><!-- Absense --></label>
+        <name>Absense</name>
+    </recordTypes>
+    <recordTypes>
         <label><!-- Break --></label>
         <name>FSL__Break</name>
     </recordTypes>

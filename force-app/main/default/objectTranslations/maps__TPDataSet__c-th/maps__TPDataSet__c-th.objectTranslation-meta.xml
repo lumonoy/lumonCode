@@ -4,5 +4,12 @@
         <plural>false</plural>
         <value>ชุดข้อมูลการวางแผนพื้นที่</value>
     </caseValues>
+    <layouts>
+        <layout>Territory Planning Data Set Layout</layout>
+        <sections>
+            <label>ลิงก์แบบกำหนดเอง</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>ชื่อ</nameFieldLabel>
 </CustomObjectTranslation>

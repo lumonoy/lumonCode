@@ -61,5 +61,28 @@
         <value>Korisničkim postavkama</value>
     </caseValues>
     <gender>Feminine</gender>
+    <layouts>
+        <layout>User Setting Layout</layout>
+        <sections>
+            <label>Prilagođeni filtri</label>
+            <section>Custom Filters</section>
+        </sections>
+        <sections>
+            <label>Prilagođene poveznice</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Ganttove preferencije</label>
+            <section>Gantt Preferences</section>
+        </sections>
+        <sections>
+            <label>ND preferencije za Povuci i ispusti</label>
+            <section>NA Drag&amp;Drop Preferences</section>
+        </sections>
+        <sections>
+            <label>Preferencije uslužnog popisa</label>
+            <section>Service List Prefernces</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Naziv korisničke postavke</nameFieldLabel>
 </CustomObjectTranslation>

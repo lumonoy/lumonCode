@@ -41,5 +41,32 @@
         <value>Maps Advanced-Routenvorlagenbenutzern</value>
     </caseValues>
     <gender>Masculine</gender>
+    <layouts>
+        <layout>Maps Advanced Route Template User Layout</layout>
+        <sections>
+            <label>Info zur aktuellen Verarbeitung</label>
+            <section>Current Processing Info</section>
+        </sections>
+        <sections>
+            <label>Benutzerdefinierte Links</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Auftragsfehler</label>
+            <section>Job Failures</section>
+        </sections>
+        <sections>
+            <label>Info zum Neustart des Prozesses</label>
+            <section>Restart Process Info</section>
+        </sections>
+        <sections>
+            <label>Neuoptimierung am selben Tag</label>
+            <section>Same Day Reoptimization</section>
+        </sections>
+        <sections>
+            <label>Benutzerinfo</label>
+            <section>User Info</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Maps Advanced-Routenvorlagen-Benutzernam</nameFieldLabel>
 </CustomObjectTranslation>

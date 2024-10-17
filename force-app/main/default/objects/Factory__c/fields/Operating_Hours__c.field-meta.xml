@@ -3,7 +3,7 @@
     <fullName>Operating_Hours__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <externalId>false</externalId>
-    <label>Operating Hours</label>
+    <label>Operating Hours OLD</label>
     <referenceTo>OperatingHours</referenceTo>
     <relationshipLabel>Factories</relationshipLabel>
     <relationshipName>Factories</relationshipName>

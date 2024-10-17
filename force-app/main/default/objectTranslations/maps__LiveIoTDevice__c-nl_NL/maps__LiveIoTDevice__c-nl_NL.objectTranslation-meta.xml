@@ -9,5 +9,12 @@
         <value>IoT-apparaten Maps Live</value>
     </caseValues>
     <gender>Neuter</gender>
+    <layouts>
+        <layout>Maps Live IoT Device Layout</layout>
+        <sections>
+            <label>Aangepaste koppelingen</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Naam IoT-apparaat Maps Live</nameFieldLabel>
 </CustomObjectTranslation>

@@ -4,7 +4,7 @@
     <externalId>false</externalId>
     <formula>Installation_Hours__c *60</formula>
     <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
-    <label>fxInstallationMins</label>
+    <label>fxInstallationMins OLD</label>
     <precision>18</precision>
     <required>false</required>
     <scale>2</scale>

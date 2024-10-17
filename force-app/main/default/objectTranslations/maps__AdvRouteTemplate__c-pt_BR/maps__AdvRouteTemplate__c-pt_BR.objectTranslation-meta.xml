@@ -9,5 +9,24 @@
         <value>Modelos de rota de mapas avançados</value>
     </caseValues>
     <gender>Masculine</gender>
+    <layouts>
+        <layout>Maps Advanced Route Template Layout</layout>
+        <sections>
+            <label>Configurações de reotimização automática</label>
+            <section>Auto Reoptimization Settings</section>
+        </sections>
+        <sections>
+            <label>Links personalizados</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Informações da duração</label>
+            <section>Duration Info</section>
+        </sections>
+        <sections>
+            <label>Conclusão do modelo</label>
+            <section>Template Completion</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Nome do modelo de rota do Maps Advanced</nameFieldLabel>
 </CustomObjectTranslation>

@@ -4,5 +4,16 @@
         <plural>false</plural>
         <value>เวลาทำงานจริงใน Maps</value>
     </caseValues>
+    <layouts>
+        <layout>Maps Live Working Hours Layout</layout>
+        <sections>
+            <label>ลิงก์แบบกำหนดเอง</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>เวลาทำงาน</label>
+            <section>Working Hours</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>ชื่อเวลาทำงานจริงใน Maps</nameFieldLabel>
 </CustomObjectTranslation>

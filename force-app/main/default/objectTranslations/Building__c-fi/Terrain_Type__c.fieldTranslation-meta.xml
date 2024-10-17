@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-    <label><!-- Terrain Type --></label>
+    <label><!-- Terrain Type OLD --></label>
     <name>Terrain_Type__c</name>
 </CustomFieldTranslation>

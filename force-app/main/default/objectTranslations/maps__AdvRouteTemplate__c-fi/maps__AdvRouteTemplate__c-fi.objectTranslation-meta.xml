@@ -396,5 +396,24 @@
         <possessive>Second</possessive>
         <value>Maps: Edistyneitä reittimallejasi</value>
     </caseValues>
+    <layouts>
+        <layout>Maps Advanced Route Template Layout</layout>
+        <sections>
+            <label>Automaattisen uudelleenoptimoinnin asetukset</label>
+            <section>Auto Reoptimization Settings</section>
+        </sections>
+        <sections>
+            <label>Mukautetut linkit</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Keston tiedot</label>
+            <section>Duration Info</section>
+        </sections>
+        <sections>
+            <label>Mallin valmistuminen</label>
+            <section>Template Completion</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Maps: Edistyneen reitityksen mallin nimi</nameFieldLabel>
 </CustomObjectTranslation>

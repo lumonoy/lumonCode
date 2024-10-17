@@ -5,7 +5,7 @@
     <description>Indicates which Company Owns the Warehouse</description>
     <externalId>false</externalId>
     <inlineHelpText>Indicates which Company Owns the Warehouse</inlineHelpText>
-    <label>Owned By</label>
+    <label>Owned By OLD</label>
     <referenceTo>Account</referenceTo>
     <relationshipLabel>Warehouses</relationshipLabel>
     <relationshipName>Warehouses</relationshipName>

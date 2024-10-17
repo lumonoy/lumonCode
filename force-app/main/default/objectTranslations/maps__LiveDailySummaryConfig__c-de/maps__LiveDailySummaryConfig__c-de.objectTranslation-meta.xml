@@ -41,5 +41,24 @@
         <value>Konfigurationen für die tägliche Maps-Live-Zusammenfassung</value>
     </caseValues>
     <gender>Feminine</gender>
+    <layouts>
+        <layout>Maps Live Daily Summary Configuration Layout</layout>
+        <sections>
+            <label>Benutzerdefinierte Links</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Letzter Batch</label>
+            <section>Last Batch</section>
+        </sections>
+        <sections>
+            <label>Zugehörige Geschwindigkeitsüberschreitung</label>
+            <section>Speeding Related</section>
+        </sections>
+        <sections>
+            <label>Zugehöriger Haltepunkt</label>
+            <section>Stop Related</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Konfiguration für die tägliche Maps-Live</nameFieldLabel>
 </CustomObjectTranslation>

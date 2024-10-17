@@ -2,29 +2,28 @@
  * @description       : 
  * @author            : Henk Reynders
  * @group             : 
- * @last modified on  : 12-01-2023
+ * @last modified on  : 10-02-2024
  * @last modified by  : Henk Reynders
 **/
 @IsTest
 public with sharing class AccountControllerTest {
+    public class CustomException extends Exception {}
+    private static Id b2cAccountId = LumonTestAccounts.b2cAccountId;
+    private static Id b2bAccountId = LumonTestAccounts.b2bAccountId;
     @TestSetup
     public static void prepareData(){
         Test.startTest();
-        //SalesTestDataFactory.setupAccountRecords();
-        LumonTestDataFactory.setupAccountB2C();
-        LumonTestDataFactory.setupAccountB2B();
+        LumonTestDataFactory.setupAccounts();
         Test.stopTest();
     }   
-    private static Id b2cAccountId = LumonTestDataFactory.b2cAccountId;
-    private static Id b2bAccountId = LumonTestDataFactory.b2bAccountId;
     @IsTest
     static void getAccountTest(){
         Test.startTest();
         Account acct = AccountController.getAccount(b2cAccountId);
-        System.Debug ('----'+ acct.Name +' Accounts Returned');
+        System.Debug ('--- AccountControllerTest - '+ acct.Name +' Accounts Returned');
         System.assertNotEquals(null,acct.name, 'Expected One or More Accounts to be returned');
-        System.debug('--- getAccountTest - CPU TIME: '+LIMITS.getCpuTime()); 
-        System.debug('--- getAccountTest - SOQL USED: ' + LIMITS.getQueries());
+        System.debug('--- AccountControllerTest - getAccountTest - CPU TIME: '+LIMITS.getCpuTime()); 
+        System.debug('--- AccountControllerTest - getAccountTest - SOQL USED: ' + LIMITS.getQueries());
         Test.stopTest();
     }
     @IsTest
@@ -32,13 +31,13 @@ public with sharing class AccountControllerTest {
         Test.startTest();
         List<Id> recordIds = new List<Id>{b2cAccountId};
         List<Account> accts = AccountController.getAccounts(recordIds);
-        System.Debug ('----'+ accts.size() +' Accounts Returned');
+        System.Debug ('--- AccountControllerTest - '+ accts.size() +' Accounts Returned');
         if (accts.size()>0){
             System.Debug (accts);
         }
         System.assertNotEquals(0,accts.size(), 'Expected One or More Accounts to be returned');
-        System.debug('--- getAccountsTest - CPU TIME: '+LIMITS.getCpuTime()); 
-        System.debug('--- getAccountsTest - SOQL USED: ' + LIMITS.getQueries());
+        System.debug('--- AccountControllerTest - getAccountsTest - CPU TIME: '+LIMITS.getCpuTime()); 
+        System.debug('--- AccountControllerTest - getAccountsTest - SOQL USED: ' + LIMITS.getQueries());
         Test.stopTest();
     }
     @IsTest
@@ -51,8 +50,8 @@ public with sharing class AccountControllerTest {
             System.Debug (per);
         }
         System.assertNotEquals(0,per.size(), 'Expected Only Person Account to be returned');
-        System.debug('--- getPersonAccountsTest - CPU TIME: '+LIMITS.getCpuTime()); 
-        System.debug('--- getPersonAccountsTest - SOQL USED: ' + LIMITS.getQueries());
+        System.debug('--- AccountControllerTest - getPersonAccountsTest - CPU TIME: '+LIMITS.getCpuTime()); 
+        System.debug('--- AccountControllerTest - getPersonAccountsTest - SOQL USED: ' + LIMITS.getQueries());
         Test.stopTest();
     }
     @IsTest
@@ -60,28 +59,28 @@ public with sharing class AccountControllerTest {
         Test.startTest();
         List<Id> recordIds = new List<Id>{b2bAccountId};
         List<Account> bus = AccountController.getBusinessAccounts(recordIds);
-        System.Debug ('----'+ bus.size() +' Business Accounts Returned');
+        System.Debug ('--- AccountControllerTest - '+ bus.size() +' Business Accounts Returned');
         if (bus.size()>0){
             System.Debug (bus);
         }
         System.assertNotEquals(0,bus.size(), 'Expected Only Business Account to be returned');
-        System.debug('--- getBusinessAccountsTest - CPU TIME: '+LIMITS.getCpuTime()); 
-        System.debug('--- getBusinessAccountsTest - SOQL USED: ' + LIMITS.getQueries());
+        System.debug('--- AccountControllerTest - getBusinessAccountsTest - CPU TIME: '+LIMITS.getCpuTime()); 
+        System.debug('--- AccountControllerTest - getBusinessAccountsTest - SOQL USED: ' + LIMITS.getQueries());
         Test.stopTest();
     }
     @IsTest
     static void getAccountAddressesTest(){
         Test.startTest();
         List<Account> accts = AccountController.getAccountAddresses();
-        System.Debug ('----'+ accts.size() +' Accounts Returned');
+        System.Debug ('--- AccountControllerTest - '+ accts.size() +' Accounts Returned');
         if (accts.size()>0){
             for(Integer i=0;i<accts.size();i++){
                 System.Debug (accts[i]);
             }
         }
         System.assertNotEquals(0,accts.size(), 'Expected Atleast One Account to be returned');
-        System.debug('--- getAccountAddressesTest - CPU TIME: '+LIMITS.getCpuTime()); 
-        System.debug('--- getAccountAddressesTest - SOQL USED: ' + LIMITS.getQueries());
+        System.debug('--- AccountControllerTest - getAccountAddressesTest - CPU TIME: '+LIMITS.getCpuTime()); 
+        System.debug('--- AccountControllerTest - getAccountAddressesTest - SOQL USED: ' + LIMITS.getQueries());
         Test.stopTest();
     }
 }

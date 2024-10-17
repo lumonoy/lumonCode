@@ -396,5 +396,44 @@
         <possessive>Second</possessive>
         <value>Maps: Edistyneen reitityksen vierailujaksojasi</value>
     </caseValues>
+    <layouts>
+        <layout>Maps Advanced Route Visit Windows Layout</layout>
+        <sections>
+            <label>Mukautetut linkit</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Perjantai</label>
+            <section>Friday</section>
+        </sections>
+        <sections>
+            <label>Maanantai</label>
+            <section>Monday</section>
+        </sections>
+        <sections>
+            <label>Lauantai</label>
+            <section>Saturday</section>
+        </sections>
+        <sections>
+            <label>Sunnuntai</label>
+            <section>Sunday</section>
+        </sections>
+        <sections>
+            <label>Torstai</label>
+            <section>Thursday</section>
+        </sections>
+        <sections>
+            <label>Tiistai</label>
+            <section>Tuesday</section>
+        </sections>
+        <sections>
+            <label>Kelvolliset päivät/päivämäärät</label>
+            <section>Valid Days/Dates</section>
+        </sections>
+        <sections>
+            <label>Keskiviikko</label>
+            <section>Wednesday</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Maps: Edistyneet reitityksen vierailuaja</nameFieldLabel>
 </CustomObjectTranslation>

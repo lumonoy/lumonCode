@@ -9,6 +9,13 @@
         <value>Gruppi filtri query Percorso di Maps Advanced</value>
     </caseValues>
     <gender>Masculine</gender>
+    <layouts>
+        <layout>Maps Advanced Route Query Filter Group Layout</layout>
+        <sections>
+            <label>Link personalizzati</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Nome gruppo filtri query Percorso di Map</nameFieldLabel>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

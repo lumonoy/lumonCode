@@ -3,7 +3,7 @@
     <description>Required Permissions for Sales Managers</description>
     <hasActivationRequired>false</hasActivationRequired>
     <label>Lumon Sales Manager</label>
-    <permissionSets>CaseHandlingPermissions</permissionSets>
+    <permissionSets>CaseHandlingObjectandFieldPermissions</permissionSets>
     <permissionSets>FSL_Agent_License</permissionSets>
     <permissionSets>PDF_Butler_User_Local</permissionSets>
     <permissionSets>PDF_Sign_Butler_sales_user_additional</permissionSets>

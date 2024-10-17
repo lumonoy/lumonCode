@@ -553,8 +553,8 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
-        <field>EmailMessage.IsMigrated__c</field>
+        <editable>false</editable>
+        <field>Opportunity.CurrentOfferNumber__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>

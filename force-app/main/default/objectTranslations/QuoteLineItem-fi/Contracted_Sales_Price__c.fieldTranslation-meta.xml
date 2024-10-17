@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <help><!-- Sales price that&apos;s set when contract is sent --></help>
-    <label><!-- Contracted Sales Price --></label>
+    <label><!-- Contracted Sales Price OLD --></label>
     <name>Contracted_Sales_Price__c</name>
 </CustomFieldTranslation>

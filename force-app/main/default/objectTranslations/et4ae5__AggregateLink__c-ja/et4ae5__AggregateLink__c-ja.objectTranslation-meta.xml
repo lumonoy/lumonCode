@@ -4,5 +4,12 @@
         <plural>false</plural>
         <value>リンクレベル詳細の集計</value>
     </caseValues>
+    <layouts>
+        <layout>Aggregate Link Level Detail Layout</layout>
+        <sections>
+            <label>カスタムリンク</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>リンク名</nameFieldLabel>
 </CustomObjectTranslation>

@@ -2,7 +2,7 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>hasServices__c</fullName>
     <externalId>false</externalId>
-    <formula>TEXT(Product__r.Cost_Type__c) = &apos;Services&apos;</formula>
+    <formula>TEXT(Product__r.CostType__c) = &apos;Services&apos;</formula>
     <label>hasServices</label>
     <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>

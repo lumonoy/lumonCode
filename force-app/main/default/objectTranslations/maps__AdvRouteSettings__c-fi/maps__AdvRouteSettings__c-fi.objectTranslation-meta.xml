@@ -396,5 +396,12 @@
         <possessive>Second</possessive>
         <value>Maps: Edistyneitä reititysasetuksiasi</value>
     </caseValues>
+    <layouts>
+        <layout>Maps Advanced Route Settings Layout</layout>
+        <sections>
+            <label>Mukautetut linkit</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Maps: Edistyneen reitityksen asetusten n</nameFieldLabel>
 </CustomObjectTranslation>

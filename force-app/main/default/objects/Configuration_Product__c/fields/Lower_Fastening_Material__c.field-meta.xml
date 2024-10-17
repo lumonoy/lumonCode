@@ -4,7 +4,7 @@
     <description>&quot;lower_fastening_material&quot; in the Visual Output JSON</description>
     <externalId>false</externalId>
     <inlineHelpText>&quot;lower_fastening_material&quot; in the Visual Output JSON</inlineHelpText>
-    <label>Lower Fastening Material</label>
+    <label>Lower Fastening Material OLD</label>
     <length>255</length>
     <required>false</required>
     <trackHistory>false</trackHistory>

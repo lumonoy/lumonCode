@@ -26,47 +26,8 @@
         <enableThreadTokenInSubject>true</enableThreadTokenInSubject>
         <notifyOwnerOnNewCaseEmail>true</notifyOwnerOnNewCaseEmail>
         <overEmailLimitAction>Bounce</overEmailLimitAction>
-        <preQuoteSignature>true</preQuoteSignature>
+        <preQuoteSignature>false</preQuoteSignature>
         <replyWithNewContentOnly>false</replyWithNewContentOnly>
-        <routingAddresses>
-            <addressType>EmailToCase</addressType>
-            <caseOrigin>Email</caseOrigin>
-            <caseOwner>CS_Spain_ADM</caseOwner>
-            <caseOwnerType>Queue</caseOwnerType>
-            <casePriority>Medium</casePriority>
-            <createTask>false</createTask>
-            <emailAddress>sfcustomerserviceadmines@lumon.com</emailAddress>
-            <emailServicesAddress>sfcustomerserviceadmines@n-nvvwve3le16c6z6dcdwit2oxiu233wenwhg0uty2lpr9r6zn7.7q-4wljjuau.swe100.case.salesforce.com</emailServicesAddress>
-            <isVerified>true</isVerified>
-            <routingName>CS Spain Administration</routingName>
-            <saveEmailHeaders>false</saveEmailHeaders>
-        </routingAddresses>
-        <routingAddresses>
-            <addressType>EmailToCase</addressType>
-            <caseOrigin>Email</caseOrigin>
-            <caseOwner>CS_CentralEurope</caseOwner>
-            <caseOwnerType>Queue</caseOwnerType>
-            <casePriority>Medium</casePriority>
-            <createTask>false</createTask>
-            <emailAddress>sfcustomerservicece@lumon.com</emailAddress>
-            <emailServicesAddress>sfcustomerservicece@b-358bnn2i9jxkfe1ars00iynogba55th9p3or2oidqzq8qels6c.7q-4wljjuau.swe100.case.salesforce.com</emailServicesAddress>
-            <isVerified>true</isVerified>
-            <routingName>Customer service CE</routingName>
-            <saveEmailHeaders>true</saveEmailHeaders>
-        </routingAddresses>
-        <routingAddresses>
-            <addressType>EmailToCase</addressType>
-            <caseOrigin>Email</caseOrigin>
-            <caseOwner>CS_Spain</caseOwner>
-            <caseOwnerType>Queue</caseOwnerType>
-            <casePriority>Medium</casePriority>
-            <createTask>false</createTask>
-            <emailAddress>sfcustomerservicees@lumon.com</emailAddress>
-            <emailServicesAddress>sfcustomerservicees@2-5sr8ffe0a1bxm45xa9al7xmz5vacbaa1dmv71jlh71fua7q0o.7q-4wljjuau.swe100.case.salesforce.com</emailServicesAddress>
-            <isVerified>true</isVerified>
-            <routingName>Customer service ES</routingName>
-            <saveEmailHeaders>true</saveEmailHeaders>
-        </routingAddresses>
         <routingAddresses>
             <addressType>EmailToCase</addressType>
             <caseOrigin>Email</caseOrigin>
@@ -75,10 +36,9 @@
             <casePriority>Medium</casePriority>
             <createTask>false</createTask>
             <emailAddress>sfcustomerservicefi@lumon.com</emailAddress>
-            <emailServicesAddress>sfcustomerservicefi@osienggpzoz70nh423dbvotgecaj9r1c6ta2a81v5z4akqqab.7q-4wljjuau.swe100.case.salesforce.com</emailServicesAddress>
             <isVerified>true</isVerified>
             <routingName>Customer service FI</routingName>
-            <saveEmailHeaders>true</saveEmailHeaders>
+            <saveEmailHeaders>false</saveEmailHeaders>
         </routingAddresses>
         <routingAddresses>
             <addressType>EmailToCase</addressType>
@@ -88,36 +48,9 @@
             <casePriority>Medium</casePriority>
             <createTask>false</createTask>
             <emailAddress>sfitsupport@lumon.com</emailAddress>
-            <emailServicesAddress>sfitsupport@g-noznm6y6fcviuevn1pneg9c8zr394sjrv9l83m5c8z08vwsmu.7q-4wljjuau.swe100.case.salesforce.com</emailServicesAddress>
             <isVerified>true</isVerified>
             <routingName>ICT Support Email</routingName>
             <saveEmailHeaders>true</saveEmailHeaders>
-        </routingAddresses>
-        <routingAddresses>
-            <addressType>EmailToCase</addressType>
-            <caseOrigin>Email</caseOrigin>
-            <caseOwner>CS_Canada</caseOwner>
-            <caseOwnerType>Queue</caseOwnerType>
-            <casePriority>Medium</casePriority>
-            <createTask>false</createTask>
-            <emailAddress>sfservicecallslna@lumon.com</emailAddress>
-            <emailServicesAddress>sfservicecallslna@j6e7siqk326dmd13efh6kdwsxwmiv4vqaor9r6ty7ivrdb9mm.7q-4wljjuau.swe100.case.salesforce.com</emailServicesAddress>
-            <isVerified>true</isVerified>
-            <routingName>LNA Service Calls</routingName>
-            <saveEmailHeaders>false</saveEmailHeaders>
-        </routingAddresses>
-        <routingAddresses>
-            <addressType>EmailToCase</addressType>
-            <caseOrigin>Email</caseOrigin>
-            <caseOwner>LOG_Spain</caseOwner>
-            <caseOwnerType>Queue</caseOwnerType>
-            <casePriority>Medium</casePriority>
-            <createTask>false</createTask>
-            <emailAddress>sflogisticses@lumon.com</emailAddress>
-            <emailServicesAddress>sflogisticses@2mzrp8zrdxvi2r3b2totznnrsmzzevp8xj1lqxer2wnrgi8m0s.7q-4wljjuau.swe100.case.salesforce.com</emailServicesAddress>
-            <isVerified>true</isVerified>
-            <routingName>Logistics ES</routingName>
-            <saveEmailHeaders>false</saveEmailHeaders>
         </routingAddresses>
         <routingAddresses>
             <addressType>EmailToCase</addressType>
@@ -127,48 +60,8 @@
             <casePriority>Medium</casePriority>
             <createTask>false</createTask>
             <emailAddress>sfmaintori@lumon.com</emailAddress>
-            <emailServicesAddress>sfmaintori@3-4kevrt4dnfkkvdk0ehubbs9x7vhvzxoep9wd4stq8j41u45qz.7q-4wljjuau.swe100.case.salesforce.com</emailServicesAddress>
             <isVerified>true</isVerified>
             <routingName>Maintori Support Email</routingName>
-            <saveEmailHeaders>false</saveEmailHeaders>
-        </routingAddresses>
-        <routingAddresses>
-            <addressType>EmailToCase</addressType>
-            <caseOrigin>Email</caseOrigin>
-            <caseOwner>CS_Spain_RES</caseOwner>
-            <caseOwnerType>Queue</caseOwnerType>
-            <casePriority>Medium</casePriority>
-            <createTask>false</createTask>
-            <emailAddress>sfcustomerservicereselleres@lumon.com</emailAddress>
-            <emailServicesAddress>sfcustomerservicereselleres@290n7c6mctb3wv10qbkbhguqik5v78ymg1xomtivpmzm0alugh.7q-4wljjuau.swe100.case.salesforce.com</emailServicesAddress>
-            <isVerified>true</isVerified>
-            <routingName>Reseller ES</routingName>
-            <saveEmailHeaders>false</saveEmailHeaders>
-        </routingAddresses>
-        <routingAddresses>
-            <addressType>EmailToCase</addressType>
-            <caseOrigin>Email</caseOrigin>
-            <caseOwner>TS_Canada</caseOwner>
-            <caseOwnerType>Queue</caseOwnerType>
-            <casePriority>Medium</casePriority>
-            <createTask>false</createTask>
-            <emailAddress>sftechnicalsupportca@lumon.com</emailAddress>
-            <emailServicesAddress>sftechnicalsupportca@2b77wwpr0eoi8pqx9qwv89ezvslu5n41szo3t7ts68lshc7rpf.7q-4wljjuau.swe100.case.salesforce.com</emailServicesAddress>
-            <isVerified>true</isVerified>
-            <routingName>Technical Support CAN</routingName>
-            <saveEmailHeaders>false</saveEmailHeaders>
-        </routingAddresses>
-        <routingAddresses>
-            <addressType>EmailToCase</addressType>
-            <caseOrigin>Email</caseOrigin>
-            <caseOwner>TS_Spain</caseOwner>
-            <caseOwnerType>Queue</caseOwnerType>
-            <casePriority>Medium</casePriority>
-            <createTask>false</createTask>
-            <emailAddress>sftechnicalsupportes@lumon.com</emailAddress>
-            <emailServicesAddress>sftechnicalsupportes@1ufqcyf7fue8aals626ot3timvyb06kdbbrm7wt87ey6lktexn.7q-4wljjuau.swe100.case.salesforce.com</emailServicesAddress>
-            <isVerified>true</isVerified>
-            <routingName>Technical Support ES</routingName>
             <saveEmailHeaders>false</saveEmailHeaders>
         </routingAddresses>
         <unauthorizedSenderAction>Discard</unauthorizedSenderAction>
@@ -194,7 +87,7 @@
     <notifyContactOnCaseComment>false</notifyContactOnCaseComment>
     <notifyDefaultCaseOwner>false</notifyDefaultCaseOwner>
     <notifyOwnerOnCaseComment>true</notifyOwnerOnCaseComment>
-    <notifyOwnerOnCaseOwnerChange>true</notifyOwnerOnCaseOwnerChange>
+    <notifyOwnerOnCaseOwnerChange>false</notifyOwnerOnCaseOwnerChange>
     <showEmailAttachmentsInCaseAttachmentsRL>true</showEmailAttachmentsInCaseAttachmentsRL>
     <showFewerCloseActions>false</showFewerCloseActions>
     <systemUserEmail>jutta.jokela@fluidogroup.com</systemUserEmail>

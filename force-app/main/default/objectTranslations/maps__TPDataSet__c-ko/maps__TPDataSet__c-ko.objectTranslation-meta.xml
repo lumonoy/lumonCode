@@ -4,5 +4,12 @@
         <plural>false</plural>
         <value>영역 계획 데이터 집합</value>
     </caseValues>
+    <layouts>
+        <layout>Territory Planning Data Set Layout</layout>
+        <sections>
+            <label>사용자 정의 링크</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>이름</nameFieldLabel>
 </CustomObjectTranslation>

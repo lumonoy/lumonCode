@@ -3,7 +3,7 @@
     <fullName>Factory_code__c</fullName>
     <description>Factory code required for integration</description>
     <externalId>false</externalId>
-    <label>Factory code</label>
+    <label>Factory code OLD</label>
     <length>10</length>
     <required>false</required>
     <trackHistory>false</trackHistory>

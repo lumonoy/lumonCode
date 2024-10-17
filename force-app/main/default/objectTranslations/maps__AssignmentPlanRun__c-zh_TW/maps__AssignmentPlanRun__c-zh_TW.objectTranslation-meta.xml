@@ -4,5 +4,20 @@
         <plural>false</plural>
         <value>Maps 指派計畫執行</value>
     </caseValues>
+    <layouts>
+        <layout>Assignment Plan Run</layout>
+        <sections>
+            <label>錯誤</label>
+            <section>Errors</section>
+        </sections>
+        <sections>
+            <label>處理時間</label>
+            <section>Processing Times</section>
+        </sections>
+        <sections>
+            <label>執行統計資料</label>
+            <section>Run Statistics</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Maps 指派計畫執行名稱</nameFieldLabel>
 </CustomObjectTranslation>

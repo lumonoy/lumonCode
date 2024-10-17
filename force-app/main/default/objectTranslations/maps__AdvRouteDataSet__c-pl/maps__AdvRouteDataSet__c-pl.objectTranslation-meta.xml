@@ -61,5 +61,40 @@
         <value>Zestawach danych Zaawansowanych tras Maps</value>
     </caseValues>
     <gender>Masculine</gender>
+    <layouts>
+        <layout>Maps Advanced Route Data Set Layout</layout>
+        <sections>
+            <label>Obiekt bazowy</label>
+            <section>Base Object</section>
+        </sections>
+        <sections>
+            <label>Ukończone wizyty</label>
+            <section>Completed Visits</section>
+        </sections>
+        <sections>
+            <label>Linki niestandardowe</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Różne</label>
+            <section>Misc</section>
+        </sections>
+        <sections>
+            <label>Dane wyjściowe i przyszłe wizyty</label>
+            <section>Output and Future Visits</section>
+        </sections>
+        <sections>
+            <label>Etykiety narzędzia</label>
+            <section>Tooltips</section>
+        </sections>
+        <sections>
+            <label>Częstość wizyt</label>
+            <section>Visit Frequency</section>
+        </sections>
+        <sections>
+            <label>Okna wizyt</label>
+            <section>Visit Windows</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Nazwa zestawu danych tras Maps Advanced</nameFieldLabel>
 </CustomObjectTranslation>

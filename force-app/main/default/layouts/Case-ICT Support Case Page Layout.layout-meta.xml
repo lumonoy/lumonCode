@@ -15,18 +15,6 @@
                 <behavior>Required</behavior>
                 <field>Origin</field>
             </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>FreshdeskId__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>IsMigrated__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>FreshdeskType__c</field>
-            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
@@ -105,7 +93,7 @@
         <layoutColumns>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>CaseResolution__c</field>
+                <field>Case_Resolution__c</field>
             </layoutItems>
         </layoutColumns>
         <style>OneColumn</style>

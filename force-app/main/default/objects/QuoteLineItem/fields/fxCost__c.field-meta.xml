@@ -3,7 +3,7 @@
     <fullName>fxCost__c</fullName>
     <description>Calculated Result of Base Price * Cost Multiplier * Quantity</description>
     <externalId>false</externalId>
-    <formula>IF(Cost_Multiplier__c &gt; 0,  fxUnitCost__c *  Quantity, 0)</formula>
+    <formula>IF(MultiplierCost__c &gt; 0,  fxUnitCost__c *  Quantity, 0)</formula>
     <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
     <inlineHelpText>Total Line Item Cost</inlineHelpText>
     <label>fxCost</label>

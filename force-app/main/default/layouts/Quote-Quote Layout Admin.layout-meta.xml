@@ -28,7 +28,7 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Readonly</behavior>
-                <field>Blinds_Total_Price__c</field>
+                <field>fxTotalBlindsPrice__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>

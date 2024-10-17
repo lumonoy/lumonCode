@@ -41,5 +41,24 @@
         <value>Maps Advanced-Routenvorlagen</value>
     </caseValues>
     <gender>Feminine</gender>
+    <layouts>
+        <layout>Maps Advanced Route Template Layout</layout>
+        <sections>
+            <label>Einstellungen für die automatische Neuoptimierung</label>
+            <section>Auto Reoptimization Settings</section>
+        </sections>
+        <sections>
+            <label>Benutzerdefinierte Links</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Informationen zur Dauer</label>
+            <section>Duration Info</section>
+        </sections>
+        <sections>
+            <label>Vorlagenabschluss</label>
+            <section>Template Completion</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Maps Advanced-Routenvorlagenname</nameFieldLabel>
 </CustomObjectTranslation>

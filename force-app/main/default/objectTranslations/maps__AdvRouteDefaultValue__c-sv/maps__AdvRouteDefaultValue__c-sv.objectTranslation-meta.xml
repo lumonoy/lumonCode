@@ -31,5 +31,12 @@
         <value>Standardvärden i Maps Advanced</value>
     </caseValues>
     <gender>Neuter</gender>
+    <layouts>
+        <layout>Maps Advanced Default Value Layout</layout>
+        <sections>
+            <label>Anpassade länkar</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Namn på standardvärde för Maps Advanced-</nameFieldLabel>
 </CustomObjectTranslation>

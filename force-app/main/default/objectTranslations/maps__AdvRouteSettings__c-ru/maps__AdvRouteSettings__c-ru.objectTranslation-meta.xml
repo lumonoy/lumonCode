@@ -61,5 +61,12 @@
         <value>Параметрах маршрута Maps Advanced</value>
     </caseValues>
     <gender>Masculine</gender>
+    <layouts>
+        <layout>Maps Advanced Route Settings Layout</layout>
+        <sections>
+            <label>Настраиваемые ссылки</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Имя параметров маршрута Maps Advanced</nameFieldLabel>
 </CustomObjectTranslation>

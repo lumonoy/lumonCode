@@ -2,53 +2,42 @@
  * @description       : 
  * @author            : Henk Reynders
  * @group             : 
- * @last modified on  : 12-11-2023
+ * @last modified on  : 10-01-2024
  * @last modified by  : Henk Reynders
 **/
 @IsTest(isParallel=false)
 public with sharing class ConfigurationControllerTest {
+    public class CustomException extends Exception {}
+    private static Id b2cAccountId = LumonTestVariables.b2cAccountId;
+    private static Id b2bAccountId = LumonTestVariables.b2bAccountId;
+    private static Id b2cOpportunityId = LumonTestVariables.b2cOpportunityId;
+    private static Id b2bOpportunityId = LumonTestVariables.b2cOpportunityId;
+    
+	private static List<Id> configurationPlanIds = LumonTestVariables.configurationPlanIds;
+    private static List<Id> configurationProductIds = LumonTestVariables.configurationProductIds;
+    private static List<Id> configurationOptionIds = LumonTestVariables.configurationOptionIds;
+
+    private static List<Configuration__c> configurationPlans = LumonTestVariables.configurationPlans;
+    private static List<Configuration_Product__c> configurationProducts = LumonTestVariables.configurationProducts;
+    private static List<Configuration_Option__c> configurationOptions = LumonTestVariables.configurationOptions;
+    private static List<Configuration_Message__c> configurationMessages = LumonTestVariables.configurationMessages;
+    private static String visualPricingJSON = LumonTestData.visualPricing;
+    private static String soveliaPricingJSON = LumonTestData.soveliaPricing;
     @TestSetup
     static void prepareData(){
         Test.startTest();
-        //LumonTestDataFactory.setupProducts();
-        LumonTestProducts.setupProducts('LG');
-        //LumonTestProducts.setupProducts('LGS');
-        //LumonTestProducts.setupProducts('LFIXEDWALL');
-        //LumonTestProducts.setupProducts('VT3');
-        //LumonTestProducts.setupProducts('VT4');    
-        LumonTestProducts.setupProducts('VISORBLINDSALES');
-        //LumonTestProducts.setupSoveliaProducts();
-        //LumonTestProducts.setupRetractableProducts();
-        LumonTestPricebooks.setupPricebookEntries();
-        LumonTestPriceParameters.setupPriceParameters();
-        LumonTestInstallationTimes.setupInstallationTimes();
-        LumonTestProductionTimes.setupProductionTimes();
-        LumonTestConfigurations.setupConfigurationData();
-        // B2C Setup
-        /*LumonTestDataFactory.setupAccountB2C();
-        LumonTestDataFactory.setupOpportunityB2C();        
-        LumonTestDataFactory.setupConfigurationB2C();
-        LumonTestDataFactory.setupConfigurationProductsB2C();
-        LumonTestDataFactory.setupConfigurationOptionsB2C();       
-        LumonTestDataFactory.setupConfigurationMessagesB2C();*/
+        LumonTestDataFactory.setupProducts();
+        LumonTestDataFactory.setupPrices();
+        LumonTestDataFactory.setupConfigurations();
         Test.stopTest();
     }
-    private static Id b2cAccountId = LumonTestDataFactory.b2cAccountId;
-    private static Id b2cOpportunityId = LumonTestDataFactory.b2cOpportunityId;
-    private static List<Configuration__c> b2cConfigurations = LumonTestDataFactory.b2cConfigurations;
-    private static List<Configuration_Product__c> b2cConfigProducts = LumonTestDataFactory.b2cConfigProducts;
-    private static List<Configuration_Option__c> b2cConfigOptions = LumonTestDataFactory.b2cConfigOptions;
-    private static List<Configuration_Message__c> b2cConfigMessages = LumonTestDataFactory.b2cConfigMessages;
-    private static String visualPricingJSON = LumonTestConfigurations.visualPricingJSON;
-    private static String soveliaPricingJSON = LumonTestConfigurations.soveliaPricingJSON;
-    //private static String testPricingJSON = LumonTestConfigurations.testPricingJSON;
+
     @IsTest
     static void getConfigurationsByIdTest(){
-        List<Configuration__c> configurations =  b2cConfigurations;
-        List<Id> configurationIds = new List<Id>(new Map<Id, Configuration__c>(b2cConfigurations).keySet()); 
-        System.debug('--- getConfigurationsByIdTest - configurationIds: '+configurationIds); 
+        List<Id> configPlanIds = configurationPlanIds;
+        System.debug('--- getConfigurationsByIdTest - configPlanIds: '+configPlanIds); 
         Test.startTest();
-        List<Configuration__c> configPlans = ConfigurationController.getConfigurationsById(configurationIds);
+        List<Configuration__c> configPlans = ConfigurationController.getConfigurationsById(configPlanIds);
         System.assertNotEquals(0, configPlans.size(), 'Expecting atleast 1 Configuration to be returned');
         System.debug('--- getConfigurationsByIdTest - CPU TIME: '+LIMITS.getCpuTime()); 
         System.debug('--- getConfigurationsByIdTest - SOQL USED: ' + LIMITS.getQueries());
@@ -56,6 +45,7 @@ public with sharing class ConfigurationControllerTest {
     }
     @IsTest
     static void getConfigurationsByParentIdTest(){
+        List<Id> configPlanIds = configurationPlanIds;
         String recordId = b2cOpportunityId;
         System.debug('--- getConfigurationsByParentIdTest - recordId: '+recordId); 
         Test.startTest();
@@ -67,13 +57,12 @@ public with sharing class ConfigurationControllerTest {
     }
     @IsTest
     static void getConfigurationsByParentAndIdTest(){
-        List<Configuration__c> configurations =  b2cConfigurations;
-        List<Id> configurationIds = new List<Id>(new Map<Id, Configuration__c>(b2cConfigurations).keySet()); 
         String recordId = b2cOpportunityId;
+        List<Id> configPlanIds = configurationPlanIds;
         System.debug('--- getConfigurationsByParentAndIdTest - recordId: '+recordId); 
-        System.debug('--- getConfigurationsByParentAndIdTest - configurationIds: '+configurationIds); 
+        System.debug('--- getConfigurationsByParentAndIdTest - configPlanIds: '+configPlanIds); 
         Test.startTest();
-        List<Configuration__c> configPlans = ConfigurationController.getConfigurationsByParentAndId(recordId, configurationIds);
+        List<Configuration__c> configPlans = ConfigurationController.getConfigurationsByParentAndId(recordId, configPlanIds);
         System.assertNotEquals(0, configPlans.size(), 'Expecting atleast 1 Configuration to be returned');
         System.debug('--- getConfigurationsByParentAndIdTest - CPU TIME: '+LIMITS.getCpuTime()); 
         System.debug('--- getConfigurationsByParentAndIdTest - SOQL USED: ' + LIMITS.getQueries());
@@ -81,12 +70,12 @@ public with sharing class ConfigurationControllerTest {
     }
     @IsTest
     static void getConfigurationPlansByIdTest(){
-        List<Id> configurationIds = new List<Id>();
+        List<Id> configPlanIds = new List<Id>();
         String recordId = b2cOpportunityId;
         String visualPlanId;
         System.debug('--- getConfigurationPlansByIdTest - recordId: '+recordId); 
         Test.startTest();
-        List<Configuration__c> configPlans = ConfigurationController.getConfigurations(configurationIds,recordId, visualPlanId);
+        List<Configuration__c> configPlans = ConfigurationController.getConfigurations(configPlanIds,recordId, visualPlanId);
         System.assertNotEquals(0, configPlans.size(), 'Expecting atleast 1 Configuration to be returned');
         System.debug('--- getConfigurationPlansByIdTest - CPU TIME: '+LIMITS.getCpuTime()); 
         System.debug('--- getConfigurationPlansByIdTest - SOQL USED: ' + LIMITS.getQueries());
@@ -105,11 +94,10 @@ public with sharing class ConfigurationControllerTest {
     }
     @IsTest
     static void getConfigurationsByConfigIdTest(){
-        List<Configuration__c> configurations =  b2cConfigurations;
-        List<Id> configurationIds = new List<Id>(new Map<Id, Configuration__c>(b2cConfigurations).keySet()); 
-        System.debug('--- getConfigurationsByConfigIdTest - configurationIds: '+configurationIds); 
+        List<Id> configPlanIds = configurationPlanIds;
+        System.debug('--- getConfigurationsByConfigIdTest - configPlanIds: '+configPlanIds); 
         Test.startTest();
-        List<Configuration__c> configPlans = ConfigurationController.getConfigurationsById(configurationIds);
+        List<Configuration__c> configPlans = ConfigurationController.getConfigurationsById(configPlanIds);
         System.assertNotEquals(0, configPlans.size(), 'Expecting atleast 1 Configuration to be returned');
         System.debug('--- getConfigurationsByConfigIdTest - CPU TIME: '+LIMITS.getCpuTime()); 
         System.debug('--- getConfigurationsByConfigIdTest - SOQL USED: ' + LIMITS.getQueries());
@@ -117,13 +105,13 @@ public with sharing class ConfigurationControllerTest {
     }
     @IsTest
     static void getConfigurationPlansByVisualIdTest(){
-        List<Id> configurationIds = new List<Id>();
+        List<Id> configPlanIds = new List<Id>();
         String recordId;
         String visualPlanId = 'ABCDE';
         System.debug('--- getConfigurationPlansByVisualIdTest - visualPlanId: '+visualPlanId); 
         System.debug('--- getConfigurationPlansByVisualIdTest - recordId: '+recordId); 
         Test.startTest();
-        List<Configuration__c> configPlans = ConfigurationController.getConfigurations(configurationIds,recordId, visualPlanId);
+        List<Configuration__c> configPlans = ConfigurationController.getConfigurations(configPlanIds,recordId, visualPlanId);
         System.assertNotEquals(0, configPlans.size(), 'Expecting atleast 1 Configuration to be returned');
         System.debug('--- getConfigurationPlansByVisualIdTest - CPU TIME: '+LIMITS.getCpuTime()); 
         System.debug('--- getConfigurationPlansByVisualIdTest - SOQL USED: ' + LIMITS.getQueries());
@@ -131,14 +119,13 @@ public with sharing class ConfigurationControllerTest {
     }
     @IsTest
     static void getConfigurationPlansByParentAndIdTest(){
-        List<Configuration__c> configurations =  b2cConfigurations;
-        List<Id> configurationIds = new List<Id>(new Map<Id, Configuration__c>(b2cConfigurations).keySet()); 
+        List<Id> configPlanIds = configurationPlanIds;
         String recordId = b2cOpportunityId;
         String visualPlanId;
-        System.debug('--- getConfigurationPlansByParentAndIdTest - configurationIds: '+configurationIds); 
+        System.debug('--- getConfigurationPlansByParentAndIdTest - configPlanIds: '+configPlanIds); 
         System.debug('--- getConfigurationPlansByParentAndIdTest - recordId: '+recordId); 
         Test.startTest();
-        List<Configuration__c> configPlans = ConfigurationController.getConfigurations(configurationIds,recordId, visualPlanId);
+        List<Configuration__c> configPlans = ConfigurationController.getConfigurations(configPlanIds,recordId, visualPlanId);
         System.assertNotEquals(0, configPlans.size(), 'Expecting atleast 1 Configuration to be returned');
         System.debug('--- getConfigurationPlansByVisualIdTest - CPU TIME: '+LIMITS.getCpuTime()); 
         System.debug('--- getConfigurationPlansByVisualIdTest - SOQL USED: ' + LIMITS.getQueries());
@@ -146,13 +133,12 @@ public with sharing class ConfigurationControllerTest {
     }
     @IsTest
     static void getConfigurationPlansByConfigIdsTest(){
-        List<Configuration__c> configurations =  b2cConfigurations;
-        List<Id> configurationIds = new List<Id>(new Map<Id, Configuration__c>(b2cConfigurations).keySet()); 
+        List<Id> configPlanIds = configurationPlanIds;
         String recordId;
         String visualPlanId;
-        System.debug('--- getConfigurationPlansByConfigIdsTest - configurationIds: '+configurationIds); 
+        System.debug('--- getConfigurationPlansByConfigIdsTest - configPlanIds: '+configPlanIds); 
         Test.startTest();
-        List<Configuration__c> configPlans = ConfigurationController.getConfigurations(configurationIds,recordId, visualPlanId);
+        List<Configuration__c> configPlans = ConfigurationController.getConfigurations(configPlanIds,recordId, visualPlanId);
         System.assertNotEquals(0, configPlans.size(), 'Expecting atleast 1 Configuration to be returned');
         System.debug('--- getConfigurationPlansByConfigIdsTest - CPU TIME: '+LIMITS.getCpuTime()); 
         System.debug('--- getConfigurationPlansByConfigIdsTest - SOQL USED: ' + LIMITS.getQueries());
@@ -160,7 +146,7 @@ public with sharing class ConfigurationControllerTest {
     }
     @IsTest
     static void getVisualIdToPlanMapTest(){
-        List<Configuration__c> cfgPlans =  b2cConfigurations;
+        List<Configuration__c> cfgPlans =  configurationPlans;
         Test.startTest();
         Map<String,Configuration__c> visualToPlanMap = ConfigurationController.getVisualIdToPlanMap(cfgPlans);
         System.assertNotEquals(null, visualToPlanMap, 'Expecting atleast 1 Configuration Plan to be returned');
@@ -170,10 +156,9 @@ public with sharing class ConfigurationControllerTest {
     }
     @IsTest
     static void getConfigurationProductsTest(){
-        List<Configuration__c> configurations =  b2cConfigurations;
-        List<Id> configurationIds = new List<Id>(new Map<Id, Configuration__c>(configurations).keySet()); 
+        List<Id> configPlanIds = configurationPlanIds;
         Test.startTest();
-        List<Configuration_Product__c> configProducts = ConfigurationController.getConfigurationProducts(configurationIds);
+        List<Configuration_Product__c> configProducts = ConfigurationController.getConfigurationProducts(configPlanIds);
         System.assertNotEquals(0, configProducts.size(), 'Expecting atleast 1 Configuration Product to be returned');
         System.debug('--- getConfigurationProductsTest - CPU TIME: '+LIMITS.getCpuTime()); 
         System.debug('--- getConfigurationProductsTest - SOQL USED: ' + LIMITS.getQueries());
@@ -181,12 +166,10 @@ public with sharing class ConfigurationControllerTest {
     }
     @IsTest
     static void getConfigurationOptionsTest(){
-        List<Configuration__c> configurations =  b2cConfigurations;
-        List<Id> configurationIds = new List<Id>(new Map<Id, Configuration__c>(configurations).keySet()); 
-        List<Configuration_Product__c> configProducts = ConfigurationController.getConfigurationProducts(configurationIds);
-        List<Id> configurationProductIds = new List<Id>(new Map<Id, Configuration_Product__c>(configProducts).keySet()); 
+        List<Id> configPlanIds = configurationPlanIds;
+        List<Id> configProductIds = configurationProductIds; 
         Test.startTest();
-        List<Configuration_Option__c> configurationOptions = ConfigurationController.getConfigurationOptions(configurationProductIds); 
+        List<Configuration_Option__c> configurationOptions = ConfigurationController.getConfigurationOptions(configProductIds); 
         System.assertNotEquals(0, configurationOptions.size(), 'Expecting one ore more Configuration Option(s)  to be returned');
         System.debug('--- getConfigurationOptionsTest - CPU TIME: '+LIMITS.getCpuTime()); 
         System.debug('--- getConfigurationOptionsTest - SOQL USED: ' + LIMITS.getQueries());
@@ -194,12 +177,9 @@ public with sharing class ConfigurationControllerTest {
     }
     @IsTest
     static void getConfigurationOptionsByIdTest(){
-        List<Configuration__c> configurations =  b2cConfigurations;
-        List<Id> configurationIds = new List<Id>(new Map<Id, Configuration__c>(configurations).keySet()); 
-        List<Configuration_Product__c> configProducts = b2cConfigProducts;
-        List<Id> configurationProductIds = new List<Id>(new Map<Id, Configuration_Product__c>(configProducts).keySet()); 
-        List<Configuration_Option__c> configOptions = b2cConfigOptions;
-        List<Id> configurationOptionIds = new List<Id>(new Map<Id, Configuration_Option__c>(configOptions).keySet()); 
+        List<Id> configPlanIds = configurationPlanIds;
+        List<Id> configProductIds = configurationProductIds; 
+
         Test.startTest();
         List<Configuration_Option__c> configurationOptions = ConfigurationController.getConfigurationOptionsByIds(configurationOptionIds); 
         System.assertNotEquals(0, configurationOptions.size(), 'Expecting one ore more Configuration Option(s)  to be returned');
@@ -209,7 +189,7 @@ public with sharing class ConfigurationControllerTest {
     }
     @IsTest
     static void getConfigurationProductsByIdTest(){
-        List<Configuration_Product__c> cfgProducts =  b2cConfigProducts;
+        List<Configuration_Product__c> cfgProducts =  configurationProducts;
         List<Id> cfgProductIds = new List<Id>(new Map<Id, Configuration_Product__c>(cfgProducts).keySet()); 
         Test.startTest();
         List<Configuration_Product__c> configProducts = ConfigurationController.getConfigurationProductsById(cfgProductIds);
@@ -230,7 +210,7 @@ public with sharing class ConfigurationControllerTest {
     }
     @IsTest
     static void getStructureToProductMapTest(){
-        List<Configuration_Product__c> cfgProducts =  b2cConfigProducts;
+        List<Configuration_Product__c> cfgProducts =  configurationProducts;
         Test.startTest();
         Map<String,Configuration_Product__c> structureToProductMap = ConfigurationController.getStructureToProductMap(cfgProducts);
         System.assertNotEquals(null, structureToProductMap, 'Expecting atleast 1 Configuration Product to be returned');
@@ -240,7 +220,7 @@ public with sharing class ConfigurationControllerTest {
     }
     @IsTest
     static void getRVNToProductMapTest(){
-        List<Configuration_Product__c> cfgProducts =  b2cConfigProducts;
+        List<Configuration_Product__c> cfgProducts =  configurationProducts;
         Test.startTest();
         Map<String,Configuration_Product__c> rvnToProductMap = ConfigurationController.getRVNToProductMap(cfgProducts);
         System.assertNotEquals(null, rvnToProductMap, 'Expecting atleast 1 Configuration Product to be returned');
@@ -250,7 +230,7 @@ public with sharing class ConfigurationControllerTest {
     }
     @IsTest
     static void getGroupToProductsMapTest(){
-        List<Configuration_Product__c> cfgProducts =  b2cConfigProducts;
+        List<Configuration_Product__c> cfgProducts =  configurationProducts;
         Test.startTest();
         Map<String,List<Configuration_Product__c>> groupToProductsMap = ConfigurationController.getGroupToProductsMap(cfgProducts);
         System.assertNotEquals(null, groupToProductsMap, 'Expecting atleast 1 Configuration Product to be returned');
@@ -260,7 +240,7 @@ public with sharing class ConfigurationControllerTest {
     }
     @IsTest
     static void getProductCodeToOptionsMapTest(){
-        List<Configuration_Option__c> cfgOptions =  b2cConfigOptions;
+        List<Configuration_Option__c> cfgOptions =  configurationOptions;
         Test.startTest();
         Map<String,List<Configuration_Option__c>> ProductCodeToOptionsMap = ConfigurationController.getProductCodeToOptionsMap(cfgOptions);
         System.assertNotEquals(null, ProductCodeToOptionsMap, 'Expecting atleast 1 Configuration Option to be returned');
@@ -270,7 +250,7 @@ public with sharing class ConfigurationControllerTest {
     }
     @IsTest
     static void getUniqueIdToOptionMapTest(){
-        List<Configuration_Option__c> cfgOptions =  b2cConfigOptions;
+        List<Configuration_Option__c> cfgOptions =  configurationOptions;
         Test.startTest();
         Map<String,Configuration_Option__c> UniqueIdToOptionMap = ConfigurationController.getUniqueIdToOptionMap(cfgOptions);
         System.assertNotEquals(null, UniqueIdToOptionMap, 'Expecting atleast 1 Configuration Option to be returned');
@@ -280,7 +260,7 @@ public with sharing class ConfigurationControllerTest {
     }
     @IsTest
     static void getConfigurationMessagesTest(){
-        List<Configuration_Product__c> configProducts  = b2cConfigProducts;
+        List<Configuration_Product__c> configProducts  = configurationProducts;
         List<Id> configProductIds = new List<Id>(new Map<Id, Configuration_Product__c>(configProducts).keySet());
         Test.startTest();
         List<Configuration_Message__c> messages = ConfigurationController.getConfigurationMessages(configProductIds); 
@@ -291,9 +271,9 @@ public with sharing class ConfigurationControllerTest {
     }
     @IsTest
     static void getVisualPricingJSONTest(){
-        List<Configuration__c> configurations =  b2cConfigurations;
-        List<Id> configurationIds = new List<Id>(new Map<Id, Configuration__c>(configurations).keySet()); 
-        String configPlanId = configurationIds[0];
+        List<Configuration__c> configurations = configurationPlans;
+        List<Id> configPlanIds = new List<Id>(new Map<Id, Configuration__c>(configurations).keySet()); 
+        String configPlanId = configPlanIds[0];
         Test.startTest();
         String visualPricingJSON = ConfigurationController.getVisualPricingJSON(configPlanId); 
         System.assertNotEquals(null, visualPricingJSON, 'Expecting a JSON to be returned');
@@ -303,9 +283,9 @@ public with sharing class ConfigurationControllerTest {
     }
     @IsTest
     static void getVisualConfigurationObjectsTest(){
-        List<Configuration__c> configurations =  b2cConfigurations;
-        List<Id> configurationIds = new List<Id>(new Map<Id, Configuration__c>(configurations).keySet()); 
-        String configPlanId = configurationIds[0];
+        List<Configuration__c> configurations =  configurationPlans;
+        List<Id> configPlanIds = new List<Id>(new Map<Id, Configuration__c>(configurations).keySet()); 
+        String configPlanId = configPlanIds[0];
         String visualPricingJSON = LumonTestConfigurations.visualPricingJSON;
         Test.startTest();
         VisualConfiguration visualConfigObjects = ConfigurationController.getVisualConfigurationObjects(visualPricingJSON);
@@ -316,11 +296,11 @@ public with sharing class ConfigurationControllerTest {
     }
     @IsTest
     static void getConfigJSONsMapTest(){
-        List<Configuration__c> configurations =  b2cConfigurations;
-        List<Id> configurationIds = new List<Id>(new Map<Id, Configuration__c>(configurations).keySet()); 
-        String configPlanId = configurationIds[0];
+        List<Configuration__c> configurations =  configurationPlans;
+        List<Id> configPlanIds = new List<Id>(new Map<Id, Configuration__c>(configurations).keySet()); 
+        String configPlanId = configPlanIds[0];
         Test.startTest();
-        Map<Id,String>  configJSONsMap = ConfigurationController.getConfigJSONsMap(configurationIds); 
+        Map<Id,String>  configJSONsMap = ConfigurationController.getConfigJSONsMap(configPlanIds); 
         System.assertNotEquals(null, configJSONsMap, 'Expecting a Map of JSONs to be returned');
         System.debug('--- getConfigJSONsMapTest - CPU TIME: '+LIMITS.getCpuTime()); 
         System.debug('--- getConfigJSONsMapTest - SOQL USED: ' + LIMITS.getQueries());
@@ -330,11 +310,11 @@ public with sharing class ConfigurationControllerTest {
     static void getConfigurationDataWrapperTest(){
         String recordId;
         List<String> visualPlanIds = new List<String>{'ABCDE'};
-        List<Configuration__c> configurations =  b2cConfigurations;
-        List<Id> configurationIds = new List<Id>(new Map<Id, Configuration__c>(configurations).keySet()); 
-        String configPlanId = configurationIds[0];
+        List<Configuration__c> configurations =  configurationPlans;
+        List<Id> configPlanIds = new List<Id>(new Map<Id, Configuration__c>(configurations).keySet()); 
+        String configPlanId = configPlanIds[0];
         Test.startTest();
-        ConfigurationController.configWrapper  configData = ConfigurationController.getConfigurationData(recordId,configurationIds,visualPlanIds); 
+        ConfigurationController.configWrapper  configData = ConfigurationController.getConfigurationData(recordId,configPlanIds,visualPlanIds); 
         System.assertNotEquals(null, configData, 'Expecting a Configuration Data to be returned');
         System.debug('--- getConfigurationDataWrapperTest - CPU TIME: '+LIMITS.getCpuTime()); 
         System.debug('--- getConfigurationDataWrapperTest - SOQL USED: ' + LIMITS.getQueries());
@@ -354,9 +334,9 @@ public with sharing class ConfigurationControllerTest {
     static void getVisualPricingFilesTest(){
         String recordId = b2cOpportunityId;
         List<String> visualPlanIds = new List<String>{'ABCDE'};
-        List<Configuration__c> configurations =  b2cConfigurations;
-        List<Id> configurationIds = new List<Id>(new Map<Id, Configuration__c>(configurations).keySet()); 
-        String configPlanId = configurationIds[0];
+        List<Configuration__c> configurations =  configurationPlans;
+        List<Id> configPlanIds = new List<Id>(new Map<Id, Configuration__c>(configurations).keySet()); 
+        String configPlanId = configPlanIds[0];
         Test.startTest();
         Map<ID, String>  visualPricingFilesMap = ConfigurationController.getVisualPricingFiles(recordId); 
         System.assertNotEquals(null, visualPricingFilesMap, 'Expecting Visual Pricing Files to be returned');
@@ -368,12 +348,12 @@ public with sharing class ConfigurationControllerTest {
     static void loadVisualPricingFileTest(){
         String recordId = b2cOpportunityId;
         List<String> visualPlanIds = new List<String>{'ABCDE'};
-        List<Configuration__c> configurations =  b2cConfigurations;
-        List<Id> configurationIds = new List<Id>(new Map<Id, Configuration__c>(configurations).keySet()); 
+        List<Configuration__c> configurations =  configurationPlans;
+        List<Id> configPlanIds = new List<Id>(new Map<Id, Configuration__c>(configurations).keySet()); 
         String sObjectType;
         String contentDocumentId;
         String configId;
-        String configPlanId = configurationIds[0];
+        String configPlanId = configPlanIds[0];
         Test.startTest();
         ConfigurationController.loadVisualPricingFile(contentDocumentId,recordId,sObjectType,configId); 
         
@@ -387,9 +367,9 @@ public with sharing class ConfigurationControllerTest {
         String recordId = b2cOpportunityId;
         List<String> visualPlanIds = new List<String>{'ABCDE'};
         String visualPlanId = visualPlanIds[0];
-        List<Configuration__c> configurations =  b2cConfigurations;
-        List<Id> configurationIds = new List<Id>(new Map<Id, Configuration__c>(configurations).keySet()); 
-        String configPlanId = configurationIds[0];
+        List<Configuration__c> configurations =  configurationPlans;
+        List<Id> configPlanIds = new List<Id>(new Map<Id, Configuration__c>(configurations).keySet()); 
+        String configPlanId = configPlanIds[0];
         Test.startTest();
         Configuration__c visualConfigurationPlan = ConfigurationController.getVisualConfigurationPlan(visualplanId); 
         System.assertNotEquals(null, visualConfigurationPlan, 'Expecting a Configuration Plan to be returned');
@@ -402,9 +382,9 @@ public with sharing class ConfigurationControllerTest {
         String recordId = b2cOpportunityId;
         List<String> visualPlanIds = new List<String>{'ABCDE'};
         String visualPlanId = visualPlanIds[0];
-        List<Configuration__c> configurations =  b2cConfigurations;
-        List<Id> configurationIds = new List<Id>(new Map<Id, Configuration__c>(configurations).keySet()); 
-        String configPlanId = configurationIds[0];
+        List<Configuration__c> configurations =  configurationPlans;
+        List<Id> configPlanIds = new List<Id>(new Map<Id, Configuration__c>(configurations).keySet()); 
+        String configPlanId = configPlanIds[0];
         Test.startTest();
         Configuration__c configurationPlan = ConfigurationController.getConfigurationPlan(configPlanId); 
         System.assertNotEquals(null, configurationPlan, 'Expecting  a Configuration Plan  to be returned');
@@ -417,9 +397,9 @@ public with sharing class ConfigurationControllerTest {
         String recordId = b2cOpportunityId;
         List<String> visualPlanIds = new List<String>{'ABCDE'};
         String visualPlanId = visualPlanIds[0];
-        List<Configuration__c> configurations =  b2cConfigurations;
-        List<Id> configurationIds = new List<Id>(new Map<Id, Configuration__c>(configurations).keySet()); 
-        String configPlanId = configurationIds[0];
+        List<Configuration__c> configurations =  configurationPlans;
+        List<Id> configPlanIds = new List<Id>(new Map<Id, Configuration__c>(configurations).keySet()); 
+        String configPlanId = configPlanIds[0];
         Test.startTest();
         List<Configuration__c> configurationPlans = ConfigurationController.getRelatedConfigurations(recordId); 
         System.assertNotEquals(0, configurationPlans.size(), 'Expecting one ore more Configuration Plan(s)  to be returned');
@@ -432,10 +412,10 @@ public with sharing class ConfigurationControllerTest {
         String recordId = b2cOpportunityId;
         List<String> visualPlanIds = new List<String>{'ABCDE'};
         String visualPlanId = visualPlanIds[0];
-        List<Configuration__c> configurations =  b2cConfigurations;
-        List<Id> configurationIds = new List<Id>(new Map<Id, Configuration__c>(configurations).keySet()); 
-        String configPlanId = configurationIds[0];
-        List<Configuration_Product__c> cfgProducts =  b2cConfigProducts;
+        List<Configuration__c> configurations =  configurationPlans;
+        List<Id> configPlanIds = new List<Id>(new Map<Id, Configuration__c>(configurations).keySet()); 
+        String configPlanId = configPlanIds[0];
+        List<Configuration_Product__c> cfgProducts =  configurationProducts;
         List<Id> cfgProductIds = new List<Id>(new Map<Id, Configuration_Product__c>(cfgProducts).keySet()); 
         Test.startTest();
         Map<String,List<Configuration_Option__c>> configProductToItemsMap = ConfigurationController.getConfigurationProductToItemsMap(cfgProducts); 
@@ -457,10 +437,10 @@ public with sharing class ConfigurationControllerTest {
 
     @IsTest
     static void processVisualConfigurationTest(){
-        List<Configuration__c> configurations =  b2cConfigurations;
-        List<Id> configurationIds = new List<Id>(new Map<Id, Configuration__c>(configurations).keySet()); 
+        List<Configuration__c> configurations =  configurationPlans;
+        List<Id> configPlanIds = new List<Id>(new Map<Id, Configuration__c>(configurations).keySet()); 
         String recordId = b2cOpportunityId;
-        String configPlanId = configurationIds[0];
+        String configPlanId = configPlanIds[0];
         String visualPricingJSON = LumonTestConfigurations.visualPricingJSON;
         Test.startTest();
         String visualConfigResult = ConfigurationController.processVisualConfiguration(configPlanId,recordId,visualPricingJSON);
@@ -471,10 +451,10 @@ public with sharing class ConfigurationControllerTest {
     }
     @IsTest
     static void getAllConfigurationsTest1(){
-        List<Configuration__c> configurations =  b2cConfigurations;
-        List<Id> configurationIds = new List<Id>(new Map<Id, Configuration__c>(configurations).keySet()); 
+        List<Configuration__c> configurations =  configurationPlans;
+        List<Id> configPlanIds = new List<Id>(new Map<Id, Configuration__c>(configurations).keySet()); 
         String recordId = b2cOpportunityId;
-        String configPlanId = configurationIds[0];
+        String configPlanId = configPlanIds[0];
         String visualPlanId = 'ABCDE';
         Test.startTest();
         List<Configuration__c> allConfigurations = ConfigurationController.getAllConfigurations(configPlanId,recordId,visualPlanId);
@@ -485,10 +465,10 @@ public with sharing class ConfigurationControllerTest {
     }
     @IsTest
     static void getAllConfigurationsTest2(){
-        List<Configuration__c> configurations =  b2cConfigurations;
-        List<Id> configurationIds = new List<Id>(new Map<Id, Configuration__c>(configurations).keySet()); 
+        List<Configuration__c> configurations =  configurationPlans;
+        List<Id> configPlanIds = new List<Id>(new Map<Id, Configuration__c>(configurations).keySet()); 
         String recordId = b2cOpportunityId;
-        String configPlanId = configurationIds[0];
+        String configPlanId = configPlanIds[0];
         String visualPlanId = 'ABCDE-1';
         Test.startTest();
         List<Configuration__c> allConfigurations = ConfigurationController.getAllConfigurations(configPlanId,recordId,visualPlanId);
@@ -499,8 +479,8 @@ public with sharing class ConfigurationControllerTest {
     }
     @IsTest
     static void getAllConfigurationsTest3(){
-        List<Configuration__c> configurations =  b2cConfigurations;
-        List<Id> configurationIds = new List<Id>(new Map<Id, Configuration__c>(configurations).keySet()); 
+        List<Configuration__c> configurations =  configurationPlans;
+        List<Id> configPlanIds = new List<Id>(new Map<Id, Configuration__c>(configurations).keySet()); 
         String recordId = b2cOpportunityId;
         String configPlanId;
         String visualPlanId;
@@ -522,10 +502,10 @@ public with sharing class ConfigurationControllerTest {
     }
     @IsTest
     static void processConfigurationVisualTest(){
-        List<Configuration__c> configurations =  b2cConfigurations;
-        List<Id> configurationIds = new List<Id>(new Map<Id, Configuration__c>(configurations).keySet()); 
+        List<Configuration__c> configurations =  configurationPlans;
+        List<Id> configPlanIds = new List<Id>(new Map<Id, Configuration__c>(configurations).keySet()); 
         String recordId = b2cOpportunityId;
-        String configPlanId = configurationIds[0];
+        String configPlanId = configPlanIds[0];
         Test.startTest();
         String visualConfigResult = ConfigurationController.processVisualConfiguration(configPlanId,recordId,visualPricingJSON);
         System.assertNotEquals(null, visualConfigResult, 'Expecting Visual Pricing JSON to be processed');
@@ -535,10 +515,10 @@ public with sharing class ConfigurationControllerTest {
     }
     @IsTest
     static void processConfigurationSoveliaTest(){
-        List<Configuration__c> configurations =  b2cConfigurations;
-        List<Id> configurationIds = new List<Id>(new Map<Id, Configuration__c>(configurations).keySet()); 
+        List<Configuration__c> configurations =  configurationPlans;
+        List<Id> configPlanIds = new List<Id>(new Map<Id, Configuration__c>(configurations).keySet()); 
         String recordId = b2cOpportunityId;
-        String configPlanId = configurationIds[0];
+        String configPlanId = configPlanIds[0];
         Test.startTest();
         String soveliaConfigResult = ConfigurationController.processSoveliaConfiguration(configPlanId,recordId,soveliaPricingJSON);
         System.assertNotEquals(null, soveliaConfigResult, 'Expecting Sovelia Pricing JSON to be processed');

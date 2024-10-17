@@ -31,5 +31,12 @@
         <value>Konfigurationer af Maps Live-sammendragsstop</value>
     </caseValues>
     <gender>Feminine</gender>
+    <layouts>
+        <layout>Maps Live Summary Stop Relationship Config Layout</layout>
+        <sections>
+            <label>Tilpassede links</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Konfiguration af Maps Live-sammendragsst</nameFieldLabel>
 </CustomObjectTranslation>

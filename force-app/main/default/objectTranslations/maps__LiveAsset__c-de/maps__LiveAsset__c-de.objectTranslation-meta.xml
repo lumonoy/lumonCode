@@ -41,5 +41,12 @@
         <value>Maps-Live-Vermögenswerten</value>
     </caseValues>
     <gender>Masculine</gender>
+    <layouts>
+        <layout>Maps Live Asset Layout</layout>
+        <sections>
+            <label>Benutzerdefinierte Links</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Maps-Live-Vermögenswertname</nameFieldLabel>
 </CustomObjectTranslation>

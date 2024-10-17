@@ -3,7 +3,7 @@
     <fullName>Product_Model__c</fullName>
     <description>Reference to the Product Model for this Item</description>
     <externalId>false</externalId>
-    <label>Product Model</label>
+    <label>Product Model OLD</label>
     <required>false</required>
     <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>

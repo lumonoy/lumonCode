@@ -8,5 +8,12 @@
         <plural>true</plural>
         <value><!-- Bộ Nhớ Đệm SLR --></value>
     </caseValues>
+    <layouts>
+        <layout>SLR Cache Layout</layout>
+        <sections>
+            <label>Liên Kết Tùy Chỉnh</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Số Bộ Nhớ Đệm SLR</nameFieldLabel>
 </CustomObjectTranslation>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <help><!-- Reference Wind speed (m/s) --></help>
-    <label><!-- Wind Speed --></label>
+    <label><!-- Wind Speed DEL --></label>
     <name>Wind_Speed__c</name>
 </CustomFieldTranslation>

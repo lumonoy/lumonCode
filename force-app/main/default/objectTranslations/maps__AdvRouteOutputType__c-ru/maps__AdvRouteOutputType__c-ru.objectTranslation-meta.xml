@@ -61,5 +61,16 @@
         <value>Типах вывода маршрута Maps Advanced</value>
     </caseValues>
     <gender>Masculine</gender>
+    <layouts>
+        <layout>Maps Advanced Route Output Type Layout</layout>
+        <sections>
+            <label>Настраиваемые ссылки</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Соотнесения полей</label>
+            <section>Field Mappings</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Имя типа вывода маршрута Maps Advanced</nameFieldLabel>
 </CustomObjectTranslation>

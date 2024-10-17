@@ -9,5 +9,24 @@
         <value>Dagelijkse overzichten activum Maps Live</value>
     </caseValues>
     <gender>Neuter</gender>
+    <layouts>
+        <layout>Maps Live Asset Daily Summary Layout</layout>
+        <sections>
+            <label>Aangepaste koppelingen</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Gerelateerde kilometerstand</label>
+            <section>Mileage Related</section>
+        </sections>
+        <sections>
+            <label>Gerelateerde tijd</label>
+            <section>Time Related</section>
+        </sections>
+        <sections>
+            <label>Totale aantal gebeurtenissen</label>
+            <section>Total Events</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Naam van dagelijks overzicht live activu</nameFieldLabel>
 </CustomObjectTranslation>

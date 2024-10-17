@@ -4,7 +4,7 @@
     <description>&quot;lower_milling&quot; in the Visual Output JSON</description>
     <externalId>false</externalId>
     <inlineHelpText>&quot;lower_milling&quot; in the Visual Output JSON</inlineHelpText>
-    <label>Lower Milling</label>
+    <label>Lower Milling OLD</label>
     <precision>18</precision>
     <required>false</required>
     <scale>2</scale>

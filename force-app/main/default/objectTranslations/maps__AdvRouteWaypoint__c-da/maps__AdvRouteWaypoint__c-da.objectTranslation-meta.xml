@@ -31,5 +31,24 @@
         <value>Maps Advanced Route-waypoints</value>
     </caseValues>
     <gender>Neuter</gender>
+    <layouts>
+        <layout>Maps Advanced Route Waypoint Layout</layout>
+        <sections>
+            <label>Adresse</label>
+            <section>Address</section>
+        </sections>
+        <sections>
+            <label>Core-relateret</label>
+            <section>Core Related</section>
+        </sections>
+        <sections>
+            <label>Tilpassede links</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Relaterede registreringer</label>
+            <section>Related Records</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Maps Advanced Route-waypoint-navn</nameFieldLabel>
 </CustomObjectTranslation>

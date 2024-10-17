@@ -2,7 +2,7 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Factory_Address__c</fullName>
     <externalId>false</externalId>
-    <label>Factory Address</label>
+    <label>Factory Address OLD</label>
     <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>
     <type>Address</type>

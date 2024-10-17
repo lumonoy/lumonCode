@@ -396,5 +396,32 @@
         <possessive>Second</possessive>
         <value>Maps: Edistyneen reititysmallin käyttäjiäsi</value>
     </caseValues>
+    <layouts>
+        <layout>Maps Advanced Route Template User Layout</layout>
+        <sections>
+            <label>Nykyisen käsittelyn tiedot</label>
+            <section>Current Processing Info</section>
+        </sections>
+        <sections>
+            <label>Mukautetut linkit</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Epäonnistuneet työt</label>
+            <section>Job Failures</section>
+        </sections>
+        <sections>
+            <label>Käynnistä uudelleen käsittelyn tiedot</label>
+            <section>Restart Process Info</section>
+        </sections>
+        <sections>
+            <label>Saman päivän uudelleenoptimointi</label>
+            <section>Same Day Reoptimization</section>
+        </sections>
+        <sections>
+            <label>Käyttäjätiedot</label>
+            <section>User Info</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Maps: Edistyneen reitityksen mallin käyt</nameFieldLabel>
 </CustomObjectTranslation>

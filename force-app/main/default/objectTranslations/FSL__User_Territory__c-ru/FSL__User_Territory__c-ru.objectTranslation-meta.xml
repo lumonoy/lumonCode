@@ -61,5 +61,12 @@
         <value>Территориях пользователя</value>
     </caseValues>
     <gender>Feminine</gender>
+    <layouts>
+        <layout>User Territory Layout</layout>
+        <sections>
+            <label>Настраиваемые ссылки</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Номер территории пользователя</nameFieldLabel>
 </CustomObjectTranslation>

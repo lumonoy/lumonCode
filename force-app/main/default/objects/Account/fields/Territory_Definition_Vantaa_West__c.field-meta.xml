@@ -112,7 +112,7 @@ BillingPostalCode=&quot;10940&quot; ||
 BillingPostalCode=&quot;10960&quot;
 
 ), &quot;Vantaa West&quot;, &quot;&quot;)</formula>
-    <label>Territory Definition Vantaa West</label>
+    <label>Territory Definition Vantaa West OLD</label>
     <required>false</required>
     <trackHistory>false</trackHistory>
     <type>Text</type>

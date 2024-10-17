@@ -396,5 +396,40 @@
         <possessive>Second</possessive>
         <value>Maps: Edistyneen reitin datajoukkojasi</value>
     </caseValues>
+    <layouts>
+        <layout>Maps Advanced Route Data Set Layout</layout>
+        <sections>
+            <label>Perusobjekti</label>
+            <section>Base Object</section>
+        </sections>
+        <sections>
+            <label>Suoritetut vierailut</label>
+            <section>Completed Visits</section>
+        </sections>
+        <sections>
+            <label>Mukautetut linkit</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Sekalaista</label>
+            <section>Misc</section>
+        </sections>
+        <sections>
+            <label>Lähtö ja tulevat vierailut</label>
+            <section>Output and Future Visits</section>
+        </sections>
+        <sections>
+            <label>Työkaluvihjeet</label>
+            <section>Tooltips</section>
+        </sections>
+        <sections>
+            <label>Vierailutiheys</label>
+            <section>Visit Frequency</section>
+        </sections>
+        <sections>
+            <label>Vierailuajat</label>
+            <section>Visit Windows</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Maps: Edistyneen reitityksen datajoukon</nameFieldLabel>
 </CustomObjectTranslation>

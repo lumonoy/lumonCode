@@ -9,5 +9,12 @@
         <value>Configurações</value>
     </caseValues>
     <gender>Feminine</gender>
+    <layouts>
+        <layout>Configuration Layout</layout>
+        <sections>
+            <label>Links personalizados</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Número de configuração</nameFieldLabel>
 </CustomObjectTranslation>

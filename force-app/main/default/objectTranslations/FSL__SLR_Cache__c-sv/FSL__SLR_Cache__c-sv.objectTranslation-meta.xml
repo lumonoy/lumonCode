@@ -31,5 +31,12 @@
         <value>SLR-cachar</value>
     </caseValues>
     <gender>Feminine</gender>
+    <layouts>
+        <layout>SLR Cache Layout</layout>
+        <sections>
+            <label>Egna länkar</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>SLR Cache-nummer</nameFieldLabel>
 </CustomObjectTranslation>

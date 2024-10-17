@@ -9,5 +9,20 @@
         <value>Ejecuciones de planes de asignaciones de Maps</value>
     </caseValues>
     <gender>Masculine</gender>
+    <layouts>
+        <layout>Assignment Plan Run</layout>
+        <sections>
+            <label>Errores</label>
+            <section>Errors</section>
+        </sections>
+        <sections>
+            <label>Tiempos de procesamiento</label>
+            <section>Processing Times</section>
+        </sections>
+        <sections>
+            <label>Datos estadísticos de ejecución</label>
+            <section>Run Statistics</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Nombre de Ejecución de plan de asignació</nameFieldLabel>
 </CustomObjectTranslation>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-    <label><!-- Sub-Region Code --></label>
+    <label><!-- Sub-Region Code OLD --></label>
     <name>Sub_Region_Code__c</name>
 </CustomFieldTranslation>

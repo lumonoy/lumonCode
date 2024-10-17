@@ -61,5 +61,16 @@
         <value>Приоритетах маршрута Maps Advanced</value>
     </caseValues>
     <gender>Masculine</gender>
+    <layouts>
+        <layout>Maps Advanced Route Priority Layout</layout>
+        <sections>
+            <label>Настраиваемые ссылки</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Фильтры</label>
+            <section>Filters</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Имя приоритета маршрута Maps Advanced</nameFieldLabel>
 </CustomObjectTranslation>

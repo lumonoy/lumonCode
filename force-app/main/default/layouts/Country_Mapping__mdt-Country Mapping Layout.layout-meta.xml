@@ -16,6 +16,14 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Required</behavior>
+                <field>CountryCodeAlpha3__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Required</behavior>
+                <field>CountryCode__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Required</behavior>
                 <field>MasterLabel</field>
             </layoutItems>
             <layoutItems>
@@ -64,6 +72,8 @@
     <miniLayout>
         <fields>CountryCodeAlpha2__c</fields>
         <fields>Country_Name__c</fields>
+        <fields>CountryCodeAlpha3__c</fields>
+        <fields>CountryCode__c</fields>
     </miniLayout>
     <showEmailCheckbox>false</showEmailCheckbox>
     <showHighlightsPanel>false</showHighlightsPanel>

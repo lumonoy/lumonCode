@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <help><!-- First Available Date when Production can Start --></help>
-    <label><!-- Production Start Date --></label>
+    <label><!-- Production Start Date OLD --></label>
     <name>Production_Start_Date__c</name>
 </CustomFieldTranslation>

@@ -4,7 +4,7 @@
     <description>&quot;drain_holes&quot; in the Visual Output JSON</description>
     <externalId>false</externalId>
     <inlineHelpText>&quot;drain_holes&quot; in the Visual Output JSON</inlineHelpText>
-    <label>Drain Holes</label>
+    <label>Drain Holes OLD</label>
     <precision>18</precision>
     <required>false</required>
     <scale>2</scale>

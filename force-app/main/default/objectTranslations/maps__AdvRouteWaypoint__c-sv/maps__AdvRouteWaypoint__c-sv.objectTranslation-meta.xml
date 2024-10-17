@@ -31,5 +31,24 @@
         <value>Maps Advanced-ruttvägpunkter</value>
     </caseValues>
     <gender>Feminine</gender>
+    <layouts>
+        <layout>Maps Advanced Route Waypoint Layout</layout>
+        <sections>
+            <label>Adress</label>
+            <section>Address</section>
+        </sections>
+        <sections>
+            <label>Core-relaterat</label>
+            <section>Core Related</section>
+        </sections>
+        <sections>
+            <label>Anpassade länkar</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Relaterade poster</label>
+            <section>Related Records</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Namn på ruttvägpunkt i Maps Advanced</nameFieldLabel>
 </CustomObjectTranslation>

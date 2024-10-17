@@ -61,5 +61,20 @@
         <value>Маршрутизируемых объектах маршрута Maps Advanced</value>
     </caseValues>
     <gender>Masculine</gender>
+    <layouts>
+        <layout>Maps Advanced Route Routable Object Layout</layout>
+        <sections>
+            <label>Настраиваемые ссылки</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Значения по умолчанию</label>
+            <section>Default Values</section>
+        </sections>
+        <sections>
+            <label>Рекламные окна</label>
+            <section>Promo Windows</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Имя маршрутизируемого объекта маршрута M</nameFieldLabel>
 </CustomObjectTranslation>

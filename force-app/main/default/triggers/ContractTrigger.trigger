@@ -1,7 +1,10 @@
 /**
- * Created by Konrad Niewiadomski on 02.11.2022.
- */
-
+ * @description       : NOT USED Related to Sales Process
+ * @author            : Henk Reynders
+ * @group             : 
+ * @last modified on  : 10-08-2024
+ * @last modified by  : Henk Reynders
+**/
 trigger ContractTrigger on Contract (before insert, before update, after insert, after update) {
 	if (Trigger.isBefore) {
 		if (Trigger.isInsert) {
@@ -9,9 +12,9 @@ trigger ContractTrigger on Contract (before insert, before update, after insert,
 		}
 	} else if (Trigger.isAfter) {
 		if (Trigger.isInsert) {
-			ContractTriggerHandler.populateJSON(Trigger.new, null, true);
+			//ContractTriggerHandler.populateJSON(Trigger.new, null, true);
 		} else if (Trigger.isUpdate) {
-			ContractTriggerHandler.populateJSON(Trigger.new, Trigger.oldMap, true);
+			//ContractTriggerHandler.populateJSON(Trigger.new, Trigger.oldMap, true);
 		}
 	}
 }

@@ -31,5 +31,24 @@
         <value>Maler for Maps Advanced-rute</value>
     </caseValues>
     <gender>Masculine</gender>
+    <layouts>
+        <layout>Maps Advanced Route Template Layout</layout>
+        <sections>
+            <label>Innstillinger for automatisk ny optimalisering</label>
+            <section>Auto Reoptimization Settings</section>
+        </sections>
+        <sections>
+            <label>Tilpassede lenker</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Varighetsinformasjon</label>
+            <section>Duration Info</section>
+        </sections>
+        <sections>
+            <label>Malfullføring</label>
+            <section>Template Completion</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Navn på mal for Maps Advanced-rute</nameFieldLabel>
 </CustomObjectTranslation>

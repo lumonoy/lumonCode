@@ -6,6 +6,6 @@ Configure - Add/Edit Products and Configurations
 Price - Edit Prices
 Quote - Ready for Document Generation -->
     </help>
-    <label><!-- Quote Status --></label>
+    <label><!-- Quote Status OLD --></label>
     <name>Quote_Status__c</name>
 </CustomFieldTranslation>

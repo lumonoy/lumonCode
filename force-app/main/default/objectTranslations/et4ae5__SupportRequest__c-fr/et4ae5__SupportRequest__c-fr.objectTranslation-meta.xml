@@ -9,6 +9,13 @@
         <value>Requêtes de support</value>
     </caseValues>
     <gender>Feminine</gender>
+    <layouts>
+        <layout>Support Request Layout</layout>
+        <sections>
+            <label>Liens personnalisés</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Requête de support</nameFieldLabel>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

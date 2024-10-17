@@ -265,10 +265,6 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>ConfigurationTestDataFactory</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
         <apexClass>ContactController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -2617,10 +2613,6 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>GenerateInstallerPdfControllerTest</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
         <apexClass>HandleCustomException</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -2638,10 +2630,6 @@
     </classAccesses>
     <classAccesses>
         <apexClass>InstallerPDFControllerTest</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>IntegrationTestDataFactory</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -2733,15 +2721,7 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>LumonTestDataFactoryTest</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
         <apexClass>LumonTestFieldServices</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>LumonTestFieldServicesTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -3001,10 +2981,6 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>PricingTestDataFactory</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
         <apexClass>ProcessSoveliaOutput</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -3246,10 +3222,6 @@
     </classAccesses>
     <classAccesses>
         <apexClass>RoleSettingsControllerTest</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>SalesTestDataFactory</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -7565,6 +7537,10 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>sf_devops__AdHocStageMergeSynchronizerUTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>sf_devops__AdHocToAdHocWorkItemsLocator</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -7594,6 +7570,10 @@
     </classAccesses>
     <classAccesses>
         <apexClass>sf_devops__AggregateGeneratorUTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__AlbatrossPatch1MigrationService</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -7701,6 +7681,14 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>sf_devops__ApprovedStageMergeSynchronizer</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__ApprovedStageMergeSynchronizerFTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>sf_devops__Asserts</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -7754,6 +7742,10 @@
     </classAccesses>
     <classAccesses>
         <apexClass>sf_devops__AuthControllerFTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__AuthControllerGetRepoUserNameTester</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -7889,6 +7881,10 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>sf_devops__BuhoMigrationService</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>sf_devops__CachedPipelineStagesSelector</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -7906,6 +7902,14 @@
     </classAccesses>
     <classAccesses>
         <apexClass>sf_devops__CallbackConstants</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__CancelingEventsFilter</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__CancelingEventsFilterUTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -8041,6 +8045,18 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>sf_devops__CloseChangeRequestEventHandler</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__CloseChangeRequestEventHandlerFTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__CloseChangeRequestEventHandlerUTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>sf_devops__CloseChangeRequestQueueable</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -8121,6 +8137,22 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>sf_devops__CommitBranchEventHandler</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__CommitBranchEventHandlerFTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__CommitBranchEventHandlerUTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__CommitProcessorFTestUtils</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>sf_devops__CommitSubStreamManager</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -8177,6 +8209,14 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>sf_devops__ComputeRemoteChangesVisibilityQueueable</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__ComputeRemoteChangesVisibilityUTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>sf_devops__ConditionBuilder</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -8213,6 +8253,30 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>sf_devops__CreateBranchVcsEventHandleUTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__CreateBranchVcsEventHandler</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__CreateBranchVcsEventHandlerFTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__CreateChangeRequestEventHandler</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__CreateChangeRequestEventHandlerFTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__CreateChangeRequestEventHandlerUTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>sf_devops__CreateChangeRequestQueueable</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -8230,6 +8294,18 @@
     </classAccesses>
     <classAccesses>
         <apexClass>sf_devops__CreateChangeRequestWorkerUTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__CreateDeleteBranchEventFilter</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__CreateDeleteBranchEventFilterFTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__CreateDeleteBranchEventFilterUTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -8357,11 +8433,31 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>sf_devops__DeferredExternallyMergedChangeReqUTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__DeferredExternallyMergedChangeRequest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>sf_devops__DeferredRelationshipBuilder</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>sf_devops__DeferredRelationshipBuilderFTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__DeleteBranchVcsEventHandler</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__DeleteBranchVcsEventHandlerFTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__DeleteBranchVcsEventHandlerUTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -8530,6 +8626,10 @@
     </classAccesses>
     <classAccesses>
         <apexClass>sf_devops__DuplicateEventProcessingException</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__DuplicatePullRequestException</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -8921,11 +9021,27 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>sf_devops__GHVcsServiceCompareRefsTester</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>sf_devops__GitHubBranch</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>sf_devops__GitHubCommit</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__GitHubCommitCallback</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__GitHubCommitCallbackFTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__GitHubCommitCallbackUTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -8946,6 +9062,22 @@
     </classAccesses>
     <classAccesses>
         <apexClass>sf_devops__GitHubError</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__GitHubEvent</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__GitHubEventCommit</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__GitHubEventPayload</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__GitHubEventRestDeserializerTestData</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -9009,6 +9141,58 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>sf_devops__GitHubVcsService</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__GitHubVcsServiceDeleteBranchTester</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__GitHubVcsServiceDownloadEventsTester</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__GitHubVcsServiceFTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__GitHubVcsServiceGetAllBranchesTester</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__GitHubVcsServiceGetAuthUserTester</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__GitHubVcsServiceGetMergedPrTester</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__GitHubVcsServiceGetRemoteReferenceTester</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__GitHubVcsServiceGetRepoOwnerTester</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__GitHubVcsServiceGetRepositoryTester</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__GitHubVcsServiceUTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__GitHubVcsServiceUpdatePRBranchTester</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__GitHubVcsServiceUpdatePullRequestTester</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>sf_devops__GroupSynchronizer</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -9022,6 +9206,10 @@
     </classAccesses>
     <classAccesses>
         <apexClass>sf_devops__GuidsFTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__HandlerUtils</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -9110,6 +9298,14 @@
     </classAccesses>
     <classAccesses>
         <apexClass>sf_devops__InspectSubmitResultHandlerFTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__InspectionQueueable</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__InspectionQueueableUTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -9258,6 +9454,18 @@
     </classAccesses>
     <classAccesses>
         <apexClass>sf_devops__MannySteelThreadTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__MergeChangeRequestEventHandler</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__MergeChangeRequestEventHandlerFTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__MergeConflictException</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -9613,6 +9821,18 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>sf_devops__OpenCloseEventFilter</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__OpenCloseEventFilterFTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__OpenCloseEventFilterUTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>sf_devops__OperationInProgressException</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -9797,6 +10017,14 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>sf_devops__PipelineStageMergeSynchronizer</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__PipelineStageMergeSynchronizerUTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>sf_devops__PipelineStagePairGenerator</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -9941,6 +10169,10 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>sf_devops__ProcessVcsEventsUseCase</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>sf_devops__ProjectBulkTriggerData</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -10013,6 +10245,10 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>sf_devops__PromoteHandlersRemoteReferenceFTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>sf_devops__PromoteModelFTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -10077,6 +10313,10 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>sf_devops__PullRequestCreateException</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>sf_devops__QueryCondition</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -10121,6 +10361,10 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>sf_devops__RebaseBranchMigrator</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>sf_devops__RebaseDateFetcher</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -10129,11 +10373,27 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>sf_devops__RebaseQueueable</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__RebaseQueueableUTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__RebaseResult</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>sf_devops__RebaseResultHandler</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>sf_devops__RebaseResultHandlerFTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__RebaseResultUTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -10154,6 +10414,14 @@
     </classAccesses>
     <classAccesses>
         <apexClass>sf_devops__RecordCounter</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__ReleaseEnvironmentCreator</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__ReleaseEnvironmentCreatorUTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -10261,6 +10529,10 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>sf_devops__RemoteReferenceDateMigrator</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>sf_devops__RemoteRepositoryCreateException</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -10361,11 +10633,31 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>sf_devops__RepositoryServiceImplCreateBranchTester</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>sf_devops__RepositoryServiceImplCreateTester</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>sf_devops__RepositoryServiceImplDelegateTester</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__RepositoryServiceImplRepoByUrlTester</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__RepositoryServiceImplTester</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>sf_devops__RepositoryServiceImplUTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__RepositoryServiceImplUpdateBranchTester</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -10777,6 +11069,10 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>sf_devops__SoupStageMergeSynchronizerFTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>sf_devops__SourceMember</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -10957,6 +11253,10 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>sf_devops__SynchTestUtils</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>sf_devops__SynchWorkerActivityLogger</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -10966,6 +11266,10 @@
     </classAccesses>
     <classAccesses>
         <apexClass>sf_devops__SynchronizationServiceResults</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__SynchronizationServiceUTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -11026,6 +11330,10 @@
     </classAccesses>
     <classAccesses>
         <apexClass>sf_devops__TestAbstractStageModel</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__TestAdHocExternalMergeTimelineStep</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -11245,6 +11553,10 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>sf_devops__TestEnqueueService</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>sf_devops__TestEnterpriseConnection</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -11258,6 +11570,10 @@
     </classAccesses>
     <classAccesses>
         <apexClass>sf_devops__TestExternalCommit</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__TestExternalCommitWorkerRegistry</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -11334,6 +11650,10 @@
     </classAccesses>
     <classAccesses>
         <apexClass>sf_devops__TestPromoteModelPromoter</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__TestPromoteModelRebaseUtils</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -11441,6 +11761,10 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>sf_devops__TestVcsAccumulator</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>sf_devops__TestVcsAdHocTimelineBuilder</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -11457,6 +11781,10 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>sf_devops__TestVcsCommitFileHeader</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>sf_devops__TestVcsCommitOperation</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -11469,7 +11797,15 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>sf_devops__TestVcsEventBuilder</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>sf_devops__TestVcsExternalCloseOperation</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__TestVcsExternalCloseWorkItemOperation</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -11481,7 +11817,23 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>sf_devops__TestVcsExternalCreateChangeRequestOp</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__TestVcsExternalMergeAnyOperation</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>sf_devops__TestVcsExternalMergeOperation</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__TestVcsExternalMergeStageOperation</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__TestVcsExternalMergeWorkItemOperation</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -11497,7 +11849,19 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>sf_devops__TestVcsOperationAnswer</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>sf_devops__TestVcsOperationTimelineStep</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__TestVcsPrimeChangeRequestOperation</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__TestVcsPullRequest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -11574,6 +11938,10 @@
     </classAccesses>
     <classAccesses>
         <apexClass>sf_devops__TestWorkerActivityLogger</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__TestWorkerRegistry</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -11765,6 +12133,22 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>sf_devops__UiCombineSourceStatus</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__UiCombineSourceStatusUTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__UiCombineStatus</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__UiCombineStatusUTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>sf_devops__UiCombineSurvivorActivity</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -11869,6 +12253,22 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>sf_devops__UiEventDataRegistry</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__UiEventDataRegistryUTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__UiEventDependentObject</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__UiEventProcessingObject</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>sf_devops__UiExpandableObjectActivity</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -11886,6 +12286,14 @@
     </classAccesses>
     <classAccesses>
         <apexClass>sf_devops__UiExternalCalloutObject</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__UiGenericVcsEvent</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__UiGenericVcsEventUTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -12053,6 +12461,30 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>sf_devops__UiPipelineStageIssues</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__UiPipelineStageIssuesUTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__UiPipelineStageOpenEnvActionUTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__UiPipelineStageOpenEnvWIActionUTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__UiPipelineStageOpenEnvironmentAction</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__UiPipelineStageOpenEnvironmentWIAction</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>sf_devops__UiPipelineStagePromoteAction</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -12129,11 +12561,19 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>sf_devops__UiPipelineWorkItem</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>sf_devops__UiPipelineWorkItemPromotionStatus</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>sf_devops__UiPipelineWorkItemPromotionStatusUTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__UiPipelineWorkItemUTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -12329,11 +12769,43 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>sf_devops__UiUnhandledVcsEvent</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__UiUnhandledVcsEventFactory</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__UiUnhandledVcsEventFactoryUTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__UiUnhandledVcsEventUTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__UiUnknownCommitEvent</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__UiUnknownCommitEventUTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>sf_devops__UiUser</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>sf_devops__UiUserUTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__UiVcsEventProcessingResults</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__UiVcsEventProcessingResultsUTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -12346,6 +12818,14 @@
     </classAccesses>
     <classAccesses>
         <apexClass>sf_devops__UiVersionedPipelineStageUTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__UiViewChangeRequestAction</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__UiViewChangeRequestActionUTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -12390,6 +12870,14 @@
     </classAccesses>
     <classAccesses>
         <apexClass>sf_devops__UiWorkItemPromoteActivityUTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__UiWorkItemRebaseStatus</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__UiWorkItemRebaseStatusUTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -12461,6 +12949,10 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>sf_devops__UnableToDownloadEventsException</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>sf_devops__UnableToDownloadVcsFileException</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -12477,7 +12969,23 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>sf_devops__UnableToGetPullRequestException</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>sf_devops__UnableToGetRemoteReferenceException</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__UnableToMergeException</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__UnableToSearchPullRequestsException</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__UnableToUpdatePullRequestException</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -12493,6 +13001,22 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>sf_devops__UnhandledVcsEventResultHandler</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__UnhandledVcsEventResultHandlerFTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__UnknownBranchEventFilter</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__UnknownBranchEventFilterUTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>sf_devops__UnknownMergeChangeRequestWorker</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -12502,6 +13026,10 @@
     </classAccesses>
     <classAccesses>
         <apexClass>sf_devops__UnknownRepositoryException</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__UnknownRepositoryOwnerException</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -12522,6 +13050,10 @@
     </classAccesses>
     <classAccesses>
         <apexClass>sf_devops__UnsupportedOperationException</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__UnsupportedVcsException</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -12585,6 +13117,14 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>sf_devops__VcsActivityLogger</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__VcsActivityLoggerUTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>sf_devops__VcsBranch</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -12594,6 +13134,14 @@
     </classAccesses>
     <classAccesses>
         <apexClass>sf_devops__VcsChangeRequestHeaderDateFetcher</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__VcsCommitBranchEvent</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__VcsCommitFileHeader</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -12609,11 +13157,179 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>sf_devops__VcsCreateBranchEvent</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__VcsDeleteBranchEvent</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__VcsEvent</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__VcsEventDownLoader</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__VcsEventDownLoaderUTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__VcsEventFilter</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__VcsEventHandler</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__VcsEventList</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__VcsEventLoader</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__VcsEventLoaderFTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__VcsEventLogger</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__VcsEventLoggerFactory</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__VcsEventLoggerUTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__VcsEventManager</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__VcsEventManagerUTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__VcsEventProcessingException</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__VcsEventProcessingResults</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__VcsEventProcessingResultsUTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__VcsEventProcessor</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__VcsEventProcessorFTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__VcsEventRegistry</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__VcsEventRegistryUTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__VcsEventService</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__VcsEventTestUtils</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__VcsEventTester</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__VcsEventType</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__VcsEventUtils</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__VcsEventUtilsUTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__VcsEvents</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__VcsEventsFTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__VcsEventsSelector</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__VcsEventsSelectorFTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__VcsExternalCommit</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__VcsExternalCommitUTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__VcsPullRequest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>sf_devops__VcsRemoteReference</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>sf_devops__VcsRepo</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__VcsRepoOwner</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__VcsService</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__VcsServiceFactory</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__VcsServiceFactoryUTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__VcsServiceTestUtil</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>sf_devops__VcsUnmergableReasonType</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__VcsUpdateChangeRequestEvent</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -12690,6 +13406,14 @@
     </classAccesses>
     <classAccesses>
         <apexClass>sf_devops__VersionedStageConflictLocatorFTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__VersionedStageMergeSynchronizer</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__VersionedStageMergeSynchronizerUTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -12770,6 +13494,10 @@
     </classAccesses>
     <classAccesses>
         <apexClass>sf_devops__WorkItemExternalCommitSynchronizer</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__WorkItemExternalCommitSynchronizerFTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -12858,6 +13586,10 @@
     </classAccesses>
     <classAccesses>
         <apexClass>sf_devops__WorkItemQueryFilterRequest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__WorkItemRebaseServiceFTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -13609,6 +14341,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Account.Account_Cost_Center__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Account.Account_Office__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -13620,6 +14357,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Account.AnnualRevenue</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.Area_Profit_Center__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -13639,12 +14381,32 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Account.BusinessTypeAttribute__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.BusinessType__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.Business_Id__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Account.Business_Type_Attribute__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
         <field>Account.Business_Type__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Account.CountryAttribute__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -13658,6 +14420,21 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.CustomerNumber__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Account.CustomerSegmentAttribute__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.CustomerSegment__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Account.Customer_Country__c</field>
         <readable>true</readable>
@@ -13665,6 +14442,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Account.Customer_Location__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.Customer_Number__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -13690,6 +14472,16 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Account.Description</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Account.DistrictAttribute__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.DistrictLevel__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -13749,6 +14541,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Account.LanguagePreference__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Account.Language_Preference__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -13773,13 +14570,38 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>Account.OfficeAttribute__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.Office__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Account.OperatingHoursId</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>Account.OrganizationAttribute__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.Organization__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Account.Other_Countries_Sync_to_MC__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Account.Owner_Profit_Center__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -13799,7 +14621,42 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Account.Person_Id__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Account.Phone</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Account.Postal_Code_Area_Attribute__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.Postal_Code_Area__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Account.ProfitCenterAttribute__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.ProfitCenter__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Account.PropertyTypeAttribute__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.PropertyType__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -13810,6 +14667,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Account.Rating</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Account.Region_Attribute__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -13825,6 +14687,66 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Account.SMS_Opt_Out__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Account.SalesAttribute__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Account.Sales_Area_Attribute__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Account.Sales_Area_Cost_Center__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.Sales_Area__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.Sales_Country__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.Sales_District__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.Sales_Office__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.Sales_Organization__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.Sales_Profit_Center__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.Sales_Territory__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Account.Sales_User_Cost_Center__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Account.ServiceAttribute__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -13859,6 +14781,16 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Account.Street_Address__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Account.SubArea_Attribute__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Account.Territory_Definition_Vantaa_West__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -13885,6 +14817,16 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Account.What_not_to_sell__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.isInternal__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.isMigrated__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -13925,6 +14867,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Apartment__c.Floor__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Apartment__c.Location__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -14019,6 +14966,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Asset.Apartment__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Asset.AssetLevel</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -14050,6 +15002,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Asset.AverageUptimePerDay</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Asset.Building__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -14169,6 +15126,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Asset.SalesStoreId</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Asset.SerialNumber</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -14225,6 +15187,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Asset.Uuid</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Asset.isMigrated__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -14339,6 +15306,26 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Building__c.BuildingHeight__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Building__c.BuildingOnHillOrSlope__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Building__c.BuildingOwnedBy__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Building__c.BuildingTerrainType__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Building__c.Building_Address__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -14369,6 +15356,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Building__c.NumberOfFloors__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Building__c.Number_of_Floors__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -14380,6 +15372,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Building__c.Owned_By__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Building__c.PropertyType__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -14399,6 +15396,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Building__c.StreetAddress__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Building__c.Structural_Analysis__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -14408,7 +15410,7 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>Building__c.Wind_Pressure__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -14774,6 +15776,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Case.Building_Permit_Status__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Case.BusinessHoursId</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -14808,11 +15815,6 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
-        <field>Case.CaseResolvedDate__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
         <editable>false</editable>
         <field>Case.CaseResolvedOnTime__c</field>
         <readable>true</readable>
@@ -14820,11 +15822,6 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Case.CaseSubTypeOLD__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Case.CaseSubType__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -14845,11 +15842,6 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Case.Case_SubTypeOLD__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Case.Case_SubType__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -14904,21 +15896,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Case.FreshdeskGroup__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Case.FreshdeskId__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Case.FreshdeskType__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>Case.IT_Support_Category__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -14944,11 +15921,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Case.IsMigrated__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>Case.IsStopped</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -14965,16 +15937,6 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Case.MilestoneStatusIcon</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Case.MonthCreated__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Case.MonthResolved__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -15248,28 +16210,8 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
-        <field>Case.YearCreated__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Case.YearMonthCreated__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Case.YearResolved__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
         <editable>true</editable>
         <field>Case.hasPictures__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Case.isServiceDeskCase__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -15614,12 +16556,32 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Configuration_Option__c.CostCategory__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Configuration_Option__c.CostType__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Configuration_Option__c.Cost_Category__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
         <field>Configuration_Option__c.Cost_Type__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Configuration_Option__c.InstallationHours__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Configuration_Option__c.InstallationTimePerUnit__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -15640,6 +16602,16 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Configuration_Option__c.Local_Supplier__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Configuration_Option__c.Manual_Processing__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Configuration_Option__c.Opportunity_Number__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -15684,6 +16656,16 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Configuration_Option__c.ProductionDays__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Configuration_Option__c.ProductionExtraDays__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Configuration_Option__c.Production_Days__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -15704,12 +16686,27 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Configuration_Option__c.Related_Configuration_Option__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Configuration_Option__c.Sales_Code__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Configuration_Option__c.Sovelia_Id__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Configuration_Option__c.Special__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Configuration_Option__c.UniqueId__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -15749,6 +16746,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Configuration_Option__c.fxProductCategory__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Configuration_Option__c.fxUoM__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -15759,12 +16761,37 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Configuration_Option__c.hasInstallation__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Configuration_Option__c.hasProductionTime__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Configuration_Option__c.hasServices__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Configuration_Option__c.hasSpecialProduct__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
         <field>Configuration_Option__c.isInstallationTime__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Configuration_Option__c.isMigrated__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Configuration_Option__c.isSpecialItem__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -15790,6 +16817,16 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Configuration_Product__c.Contract_Product_Description__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Configuration_Product__c.CostCategory__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Configuration_Product__c.CostType__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -15914,6 +16951,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Configuration_Product__c.NumberOfLineItems__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Configuration_Product__c.Opportunity_Number__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -15993,8 +17035,18 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>Configuration_Product__c.Production_Days__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Configuration_Product__c.Production_Extra_Days__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Configuration_Product__c.Production_Time__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -16049,6 +17101,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Configuration_Product__c.UniqueId__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Configuration_Product__c.Upper_Fastening_Material__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -16095,6 +17152,26 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Configuration_Product__c.hasInstallationTime__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Configuration_Product__c.hasInstallation__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Configuration_Product__c.hasItems__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Configuration_Product__c.hasProductionTime__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Configuration_Product__c.isMigrated__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -16264,12 +17341,22 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Configuration__c.Apartment__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Configuration__c.Building__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
         <field>Configuration__c.Case__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Configuration__c.Condiminium__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -16300,6 +17387,16 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Configuration__c.Count_Products__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Configuration__c.Delivery_Batch_Number__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Configuration__c.Delivery_Batch__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -16339,6 +17436,16 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Configuration__c.NumberOfProducts__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Configuration__c.Opportunity_Number__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Configuration__c.Opportunity_Pricebook__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -16360,6 +17467,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Configuration__c.Parent_Configuration_Plan__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Configuration__c.PlanType__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -16395,6 +17507,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Configuration__c.Pricing_JSON__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Configuration__c.Production_Time_Max__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -16443,8 +17560,18 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>Configuration__c.StatusIcon__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Configuration__c.Status__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Configuration__c.UniqueId__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -16498,6 +17625,21 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>Configuration__c.hasInstallation__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Configuration__c.hasProductionTime__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Configuration__c.isMigrated__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Contact.AccountId</field>
         <readable>true</readable>
@@ -16519,12 +17661,22 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Contact.BuyerAttributes</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Contact.Current_discounts__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
         <field>Contact.Department</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Contact.DepartmentGroup</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -16580,11 +17732,6 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Contact.HomePhone</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Contact.IsMigrated__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -16673,13 +17820,18 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>Contact.Sync_to_MC_checkbox__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
         <field>Contact.Title</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Contact.TitleType</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -17205,16 +18357,6 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Delivery_Site__c.Site_Location__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>EmailMessage.FreshdeskId__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>EmailMessage.IsMigrated__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -19658,6 +20800,11 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>Office__c.ProfitCenterAttribute__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Office__c.ProfitCenter__c</field>
         <readable>true</readable>
@@ -19835,6 +20982,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Opportunity.Country_Attribute__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Opportunity.CurrentOfferNumber__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -22164,11 +23316,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Quote.Additional_Agreements__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>Quote.BillingAddress</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -22244,7 +23391,7 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>Quote.Organization__c</field>
+        <field>Quote.OrganizationOLD__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -23454,12 +24601,37 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>ServiceTerritory.AppointmentBookingOffset__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>ServiceTerritory.Appointment_Booking_Offset__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>ServiceTerritory.BusinessType__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>ServiceTerritory.CustomerSegment__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>ServiceTerritory.Description</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>ServiceTerritory.DispatchingOffset__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>ServiceTerritory.District__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -23513,6 +24685,16 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>ServiceTerritory.Office__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>ServiceTerritory.Organization__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>ServiceTerritory.Parent_Name__c</field>
         <readable>true</readable>
@@ -23524,12 +24706,32 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>ServiceTerritory.ProfitCenter__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>ServiceTerritory.PropertyType__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>ServiceTerritory.Related_Case_Queue_name__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>ServiceTerritory.SchedulingCalendar__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>ServiceTerritory.Scheduling_Calendar__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>ServiceTerritory.ServiceTerritoryCode__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -24399,36 +25601,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>User.AD_EmployeeId__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>User.AD_ManagerId__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>User.AD_Manager_Id__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>User.AD_OfficeName__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>User.AD_Office__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>User.AD_ProfitCenterCode__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>User.AD_Profit_Center__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -24439,17 +25611,12 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>User.AD_Username__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>User.Additional_Organizations__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
-        <field>User.CountryAttribute__c</field>
+        <editable>true</editable>
+        <field>User.Cost_Center__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -24460,11 +25627,6 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>User.Country_Code_Attribute__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>User.DistrictAttribute__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -24489,11 +25651,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>User.OfficeAttribute__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
         <field>User.Office_Attribute__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -24504,27 +25661,12 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>User.OrganizationAttribute__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
         <field>User.Organization_Attribute__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
         <field>User.Organization__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>User.ProfitCenterAttribute__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>User.ProfitCenter__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -24695,11 +25837,6 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>User.myLumonPortal_OrderNumber__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>User.sf_devops__Bitbucket_Primary_Email_Address__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -37939,6 +39076,26 @@
         <enabled>true</enabled>
     </pageAccesses>
     <recordTypeVisibilities>
+        <recordType>Account.B2B_Account</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <recordType>Asset.Apartment</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <recordType>Asset.Building</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <recordType>Asset.Plan</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <recordType>Asset.Product</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
         <recordType>Case.CS_Case</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>
@@ -37986,6 +39143,26 @@
         <recordType>Case.WEB_Case</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <recordType>PersonAccount.PersonAccount</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <tabSettings>
+        <tab>Building__c</tab>
+        <visibility>Available</visibility>
+    </tabSettings>
+    <tabSettings>
+        <tab>Configuration_Option__c</tab>
+        <visibility>Available</visibility>
+    </tabSettings>
+    <tabSettings>
+        <tab>Configuration_Product__c</tab>
+        <visibility>Available</visibility>
+    </tabSettings>
+    <tabSettings>
+        <tab>Configuration__c</tab>
+        <visibility>Available</visibility>
+    </tabSettings>
     <tabSettings>
         <tab>FSL__FieldService</tab>
         <visibility>Visible</visibility>
@@ -38012,10 +39189,6 @@
     </tabSettings>
     <tabSettings>
         <tab>Factory_Price__c</tab>
-        <visibility>Available</visibility>
-    </tabSettings>
-    <tabSettings>
-        <tab>Office__c</tab>
         <visibility>Available</visibility>
     </tabSettings>
     <tabSettings>

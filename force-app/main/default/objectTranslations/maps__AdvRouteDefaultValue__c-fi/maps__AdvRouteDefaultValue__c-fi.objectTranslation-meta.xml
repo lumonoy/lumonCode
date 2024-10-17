@@ -396,5 +396,12 @@
         <possessive>Second</possessive>
         <value>Maps: Edistyneitä oletusarvojasi</value>
     </caseValues>
+    <layouts>
+        <layout>Maps Advanced Default Value Layout</layout>
+        <sections>
+            <label>Mukautetut linkit</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Maps: Edistyneen oletusarvon nimi</nameFieldLabel>
 </CustomObjectTranslation>

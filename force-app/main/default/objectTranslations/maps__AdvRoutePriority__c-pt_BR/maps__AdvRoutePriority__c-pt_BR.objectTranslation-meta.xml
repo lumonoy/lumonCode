@@ -9,5 +9,16 @@
         <value>Prioridades de rota de mapas avançados</value>
     </caseValues>
     <gender>Feminine</gender>
+    <layouts>
+        <layout>Maps Advanced Route Priority Layout</layout>
+        <sections>
+            <label>Links personalizados</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Filtros</label>
+            <section>Filters</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Nome da prioridade de rota do Maps Advan</nameFieldLabel>
 </CustomObjectTranslation>

@@ -61,5 +61,12 @@
         <value>Значениях по умолчанию Maps Advanced</value>
     </caseValues>
     <gender>Neuter</gender>
+    <layouts>
+        <layout>Maps Advanced Default Value Layout</layout>
+        <sections>
+            <label>Настраиваемые ссылки</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Имя значения по умолчанию Maps Advanced</nameFieldLabel>
 </CustomObjectTranslation>

@@ -9,5 +9,12 @@
         <value>Eventos en vivo de Maps</value>
     </caseValues>
     <gender>Masculine</gender>
+    <layouts>
+        <layout>Maps Live Event Layout</layout>
+        <sections>
+            <label>Vínculos personalizados</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Nombre de evento en vivo de Maps</nameFieldLabel>
 </CustomObjectTranslation>

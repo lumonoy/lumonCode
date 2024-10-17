@@ -4,7 +4,7 @@
     <description>&quot;side_amount&quot; in the Visual Output JSON</description>
     <externalId>false</externalId>
     <inlineHelpText>&quot;side_amount&quot; in the Visual Output JSON</inlineHelpText>
-    <label>Side Amount</label>
+    <label>Side Amount OLD</label>
     <precision>18</precision>
     <required>false</required>
     <scale>2</scale>

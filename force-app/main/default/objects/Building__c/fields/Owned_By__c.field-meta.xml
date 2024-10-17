@@ -3,7 +3,7 @@
     <fullName>Owned_By__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <externalId>false</externalId>
-    <label>Owned By</label>
+    <label>Owned By OLD</label>
     <referenceTo>Account</referenceTo>
     <relationshipLabel>Buildings</relationshipLabel>
     <relationshipName>Buildings</relationshipName>

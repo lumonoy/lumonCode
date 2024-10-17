@@ -61,5 +61,16 @@
         <value>Динамических рабочих часах Maps</value>
     </caseValues>
     <gender>Masculine</gender>
+    <layouts>
+        <layout>Maps Live Working Hours Layout</layout>
+        <sections>
+            <label>Настраиваемые ссылки</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Рабочие часы</label>
+            <section>Working Hours</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Имя динамических рабочих часов Maps</nameFieldLabel>
 </CustomObjectTranslation>

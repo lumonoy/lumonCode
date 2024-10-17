@@ -41,5 +41,12 @@
         <value>Aggregierten Linkleveldetails</value>
     </caseValues>
     <gender>Neuter</gender>
+    <layouts>
+        <layout>Aggregate Link Level Detail Layout</layout>
+        <sections>
+            <label>Benutzerdefinierte Links</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Linkname</nameFieldLabel>
 </CustomObjectTranslation>

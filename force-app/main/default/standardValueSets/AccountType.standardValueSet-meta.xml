@@ -51,4 +51,19 @@
         <default>false</default>
         <label>Other</label>
     </standardValue>
+    <standardValue>
+        <fullName>Housing Company</fullName>
+        <default>false</default>
+        <label>Housing Company</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Person</fullName>
+        <default>false</default>
+        <label>Person</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Real Estate Management</fullName>
+        <default>false</default>
+        <label>Real Estate Management</label>
+    </standardValue>
 </StandardValueSet>

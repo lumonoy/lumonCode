@@ -3,7 +3,7 @@
     <fullName>Plan_Apartment__c</fullName>
     <description>Plan Apartment used in the configuration</description>
     <externalId>false</externalId>
-    <label>Plan Apartment</label>
+    <label>Plan Apartment OLD</label>
     <length>255</length>
     <required>false</required>
     <trackHistory>false</trackHistory>

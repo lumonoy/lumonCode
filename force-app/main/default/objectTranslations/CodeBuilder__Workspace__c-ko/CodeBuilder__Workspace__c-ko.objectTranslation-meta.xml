@@ -4,5 +4,16 @@
         <plural>false</plural>
         <value><!-- 환경 --></value>
     </caseValues>
+    <layouts>
+        <layout>Workspace Layout</layout>
+        <sections>
+            <label>사용자 정의 링크</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel><!-- Environment Name --></nameFieldLabel>
+    <validationRules>
+        <errorMessage><!-- Workspace name cannot be changed --></errorMessage>
+        <name>CodeBuilder__CannotChangeWorkspaceName</name>
+    </validationRules>
 </CustomObjectTranslation>

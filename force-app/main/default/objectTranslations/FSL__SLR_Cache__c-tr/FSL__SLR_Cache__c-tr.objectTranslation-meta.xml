@@ -216,5 +216,12 @@
         <possessive>Second</possessive>
         <value>SLR Özbelleklerinizde</value>
     </caseValues>
+    <layouts>
+        <layout>SLR Cache Layout</layout>
+        <sections>
+            <label>Özel Bağlantılar</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>SLR Önbellek Numarası</nameFieldLabel>
 </CustomObjectTranslation>

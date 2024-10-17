@@ -8,6 +8,13 @@
         <plural>true</plural>
         <value>User Territories</value>
     </caseValues>
+    <layouts>
+        <layout>User Territory Layout</layout>
+        <sections>
+            <label>Custom Links</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>User Territory Number</nameFieldLabel>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

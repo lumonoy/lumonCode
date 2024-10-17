@@ -61,5 +61,20 @@
         <value>Obiektach rutowalnych Zaawansowanych tras Maps</value>
     </caseValues>
     <gender>Masculine</gender>
+    <layouts>
+        <layout>Maps Advanced Route Routable Object Layout</layout>
+        <sections>
+            <label>Linki niestandardowe</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Wartości domyślne</label>
+            <section>Default Values</section>
+        </sections>
+        <sections>
+            <label>Okna promocji</label>
+            <section>Promo Windows</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Nazwa rutowalnego obiektu trasy Maps Adv</nameFieldLabel>
 </CustomObjectTranslation>

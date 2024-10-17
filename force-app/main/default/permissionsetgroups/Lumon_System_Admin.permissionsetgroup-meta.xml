@@ -11,6 +11,7 @@
     <permissionSets>CustomPermissions</permissionSets>
     <permissionSets>FSL_Admin_License</permissionSets>
     <permissionSets>FSL_Admin_Permissions</permissionSets>
+    <permissionSets>FieldServiceObjectAndFieldPermissions</permissionSets>
     <permissionSets>PDF_Butler_Admin_Local</permissionSets>
     <permissionSets>SoveliaPermissions</permissionSets>
     <permissionSets>cadmus_core__PDF_Butler_Admin</permissionSets>

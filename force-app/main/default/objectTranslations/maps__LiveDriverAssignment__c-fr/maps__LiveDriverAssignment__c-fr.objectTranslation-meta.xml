@@ -9,6 +9,13 @@
         <value>Attributions de conducteur live Maps</value>
     </caseValues>
     <gender>Feminine</gender>
+    <layouts>
+        <layout>Maps Live Driver Assignment Layout</layout>
+        <sections>
+            <label>Liens personnalisés</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Nom de l&apos;attribution de conducteur live</nameFieldLabel>
     <startsWith>Vowel</startsWith>
 </CustomObjectTranslation>

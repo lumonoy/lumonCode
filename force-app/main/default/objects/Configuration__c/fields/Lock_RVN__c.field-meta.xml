@@ -4,7 +4,7 @@
     <defaultValue>false</defaultValue>
     <description>Lock RVN value TRUE or FALSE decides whether Visual can override or create structure number for the Plan</description>
     <externalId>false</externalId>
-    <label>Lock RVN</label>
+    <label>Lock RVN OLD</label>
     <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

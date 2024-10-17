@@ -4,5 +4,12 @@
         <plural>false</plural>
         <value>SLR 快取</value>
     </caseValues>
+    <layouts>
+        <layout>SLR Cache Layout</layout>
+        <sections>
+            <label>自訂連結</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>SLR 快取數字</nameFieldLabel>
 </CustomObjectTranslation>

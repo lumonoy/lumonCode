@@ -4,7 +4,7 @@
     <description>1 for Old Visual
 2 for New Visual</description>
     <externalId>false</externalId>
-    <label>Visual Version</label>
+    <label>Visual Version OLD</label>
     <precision>18</precision>
     <required>false</required>
     <scale>0</scale>

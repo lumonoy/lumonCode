@@ -9,6 +9,25 @@
         <value>Viaggi continui Percorso di Maps Advanced</value>
     </caseValues>
     <gender>Masculine</gender>
+    <layouts>
+        <layout>Maps Advanced Route Continuous Travel Layout</layout>
+        <sections>
+            <label>Link personalizzati</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Indirizzo finale</label>
+            <section>End Address</section>
+        </sections>
+        <sections>
+            <label>Indirizzo iniziale</label>
+            <section>Start Address</section>
+        </sections>
+        <sections>
+            <label>Date viaggio</label>
+            <section>Travel Dates</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Nome viaggio continuo Pianificatore di M</nameFieldLabel>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

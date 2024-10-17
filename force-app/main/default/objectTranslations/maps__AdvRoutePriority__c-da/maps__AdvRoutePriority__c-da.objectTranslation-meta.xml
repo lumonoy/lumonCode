@@ -31,5 +31,16 @@
         <value>Maps Advanced Route-prioriteter</value>
     </caseValues>
     <gender>Feminine</gender>
+    <layouts>
+        <layout>Maps Advanced Route Priority Layout</layout>
+        <sections>
+            <label>Tilpassede links</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Filtre</label>
+            <section>Filters</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Maps Advanced Route-prioritetsnavn</nameFieldLabel>
 </CustomObjectTranslation>

@@ -31,5 +31,20 @@
         <value>Rutbare objekter i Maps Advanced-rute</value>
     </caseValues>
     <gender>Neuter</gender>
+    <layouts>
+        <layout>Maps Advanced Route Routable Object Layout</layout>
+        <sections>
+            <label>Tilpassede lenker</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Standardverdier</label>
+            <section>Default Values</section>
+        </sections>
+        <sections>
+            <label>Promoteringsvinduer</label>
+            <section>Promo Windows</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Navn på rutbart objekt i Maps Advanced-r</nameFieldLabel>
 </CustomObjectTranslation>

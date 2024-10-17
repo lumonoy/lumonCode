@@ -216,5 +216,12 @@
         <possessive>Second</possessive>
         <value>Kullanıcı Bölgelerinizde</value>
     </caseValues>
+    <layouts>
+        <layout>User Territory Layout</layout>
+        <sections>
+            <label>Özel Bağlantılar</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Bölge Adı Numarası</nameFieldLabel>
 </CustomObjectTranslation>

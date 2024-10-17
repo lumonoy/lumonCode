@@ -26,17 +26,12 @@
         <field>AGE</field>
     </columns>
     <currency>EUR</currency>
-    <filter>
-        <criteriaItems>
-            <column>Case.CaseType__c</column>
-            <columnToColumn>false</columnToColumn>
-            <isUnlocked>false</isUnlocked>
-            <operator>equals</operator>
-            <value></value>
-        </criteriaItems>
-        <language>en_US</language>
-    </filter>
-    <format>Tabular</format>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Case.CaseType__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
     <name>Cases By Type</name>
     <params>
         <name>units</name>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <help><!-- &quot;lower_milling&quot; in the Visual Output JSON --></help>
-    <label><!-- Lower Milling --></label>
+    <label><!-- Lower Milling OLD --></label>
     <name>Lower_Milling__c</name>
 </CustomFieldTranslation>

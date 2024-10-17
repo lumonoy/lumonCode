@@ -4,8 +4,6 @@
     <name>ICT Spain responses</name>
     <publicFolderAccess>ReadOnly</publicFolderAccess>
     <sharedTo>
-        <group>ICT_Support</group>
         <group>ICT_Support_Finland</group>
-        <group>ICT_Support_Spain</group>
     </sharedTo>
 </EmailFolder>

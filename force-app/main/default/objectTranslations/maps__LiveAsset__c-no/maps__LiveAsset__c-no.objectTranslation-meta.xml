@@ -31,5 +31,12 @@
         <value>Maps Live-aktiva</value>
     </caseValues>
     <gender>Neuter</gender>
+    <layouts>
+        <layout>Maps Live Asset Layout</layout>
+        <sections>
+            <label>Tilpassede lenker</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Navn på Maps Live-aktivum</nameFieldLabel>
 </CustomObjectTranslation>

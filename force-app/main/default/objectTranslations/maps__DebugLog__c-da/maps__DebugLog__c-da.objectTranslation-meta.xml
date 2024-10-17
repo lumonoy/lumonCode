@@ -31,5 +31,24 @@
         <value>Maps-fejlfindingslogs</value>
     </caseValues>
     <gender>Feminine</gender>
+    <layouts>
+        <layout>Maps Debug Log Layout</layout>
+        <sections>
+            <label>Avanceret relateret</label>
+            <section>Advanced Related</section>
+        </sections>
+        <sections>
+            <label>Tilpassede links</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Fejl</label>
+            <section>Error</section>
+        </sections>
+        <sections>
+            <label>Relaterede registreringer</label>
+            <section>Related Records</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Navn</nameFieldLabel>
 </CustomObjectTranslation>

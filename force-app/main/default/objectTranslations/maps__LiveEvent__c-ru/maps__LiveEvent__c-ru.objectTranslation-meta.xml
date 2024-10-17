@@ -61,5 +61,12 @@
         <value>Динамических событиях Maps</value>
     </caseValues>
     <gender>Neuter</gender>
+    <layouts>
+        <layout>Maps Live Event Layout</layout>
+        <sections>
+            <label>Настраиваемые ссылки</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Имя динамического события Maps</nameFieldLabel>
 </CustomObjectTranslation>

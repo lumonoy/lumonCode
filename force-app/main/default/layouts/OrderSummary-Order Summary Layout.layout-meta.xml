@@ -212,6 +212,7 @@
         <fields>LineAdjustAmount</fields>
         <fields>TotalTaxAmount</fields>
         <fields>AdjLineAmtWithTax</fields>
+        <fields>MainOrderItemSummary</fields>
         <relatedList>OrderItemSummaries</relatedList>
     </relatedLists>
     <relatedLists>

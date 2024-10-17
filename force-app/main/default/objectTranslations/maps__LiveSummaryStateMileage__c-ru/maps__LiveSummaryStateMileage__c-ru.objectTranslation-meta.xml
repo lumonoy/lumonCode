@@ -61,5 +61,12 @@
         <value>Пробегах в милях состояния динамической сводки Maps</value>
     </caseValues>
     <gender>Masculine</gender>
+    <layouts>
+        <layout>Maps Live Summary State Mileage Layout</layout>
+        <sections>
+            <label>Настраиваемые ссылки</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Имя пробега в милях состояния динамическ</nameFieldLabel>
 </CustomObjectTranslation>

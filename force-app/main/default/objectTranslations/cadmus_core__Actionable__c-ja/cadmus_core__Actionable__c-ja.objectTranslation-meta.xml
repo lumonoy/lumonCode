@@ -5,6 +5,108 @@
         <value>アクション</value>
     </caseValues>
     <layouts>
+        <layout>Adobe Sign</layout>
+        <sections>
+            <label><!-- Adobe Sign --></label>
+            <section>Adobe Sign</section>
+        </sections>
+        <sections>
+            <label>カスタムリンク</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>項目</label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label>システム情報</label>
+            <section>System Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Auto Email</layout>
+        <sections>
+            <label>カスタムリンク</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>メール情報</label>
+            <section>Email Info</section>
+        </sections>
+        <sections>
+            <label>メール設定（Contact/Lead/User以外） - メール対象のオブジェクトは無視されます</label>
+            <section>Email settings (non Contact/Lead/User) - Email Target Object will be ignored</section>
+        </sections>
+        <sections>
+            <label>リンク先</label>
+            <section>Linked To</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Auto Email for Quick Action</layout>
+        <sections>
+            <label>アクションデータ</label>
+            <section>Action Data</section>
+        </sections>
+        <sections>
+            <label>カスタムリンク</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>メール情報</label>
+            <section>Email Info</section>
+        </sections>
+        <sections>
+            <label>メール設定（Contact/Lead/User以外） - メール対象のオブジェクトは無視されます</label>
+            <section>Email settings (non Contact/Lead/User) - Email Target Object will be ignored</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>DocuSign</layout>
+        <sections>
+            <label>カスタムリンク</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Docu Sign</label>
+            <section>DocuSign</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Email DocConfig</layout>
+        <sections>
+            <label>カスタムリンク</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>メール情報</label>
+            <section>Email Info</section>
+        </sections>
+        <sections>
+            <label>メール設定（Contact/Lead/User以外） - メール対象のオブジェクトは無視されます</label>
+            <section>Email settings (non Contact/Lead/User) - Email Target Object will be ignored</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Email DocConfig for Quick Action</layout>
+        <sections>
+            <label>アクションデータ</label>
+            <section>Action Data</section>
+        </sections>
+        <sections>
+            <label>カスタムリンク</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>メール情報</label>
+            <section>Email Info</section>
+        </sections>
+        <sections>
+            <label>メール設定（Contact/Lead/User以外） - メール対象のオブジェクトは無視されます</label>
+            <section>Email settings (non Contact/Lead/User) - Email Target Object will be ignored</section>
+        </sections>
+    </layouts>
+    <layouts>
         <layout>Get Thumbnails Url</layout>
         <sections>
             <label><!-- Custom Links --></label>
@@ -30,6 +132,42 @@
             <section>Rich Text Pictures Fields</section>
         </sections>
     </layouts>
+    <layouts>
+        <layout>Run Class</layout>
+        <sections>
+            <label>カスタムリンク</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Run Lightning Flow</layout>
+        <sections>
+            <label>カスタムリンク</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Sign Butler</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Sign Butler --></label>
+            <section>Sign Butler</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Upload</layout>
+        <sections>
+            <label>カスタムリンク</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>FTPの詳細</label>
+            <section>FTP Details</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>アクション名</nameFieldLabel>
     <recordTypes>
         <description><!-- Move your FILES into URLS --></description>
@@ -40,5 +178,55 @@
         <description><!-- Process pictures for RichText fields --></description>
         <label><!-- Rich Text Pictures --></label>
         <name>Rich_Text_Pictures</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Send document via AdobeSign --></description>
+        <label><!-- AdobeSign --></label>
+        <name>cadmus_core__AdobeSign</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Sends out your documents created by PDF Butler via mail. Uses a SFDC Template --></description>
+        <label><!-- Auto Email --></label>
+        <name>cadmus_core__Auto_Email</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- This actionable should be used with a Lightning Email Template. This action will open the Email Activity and prefill this with the Actionable data. --></description>
+        <label><!-- Auto Email for Quick Action --></label>
+        <name>cadmus_core__Auto_Email_for_Quick_Action</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Send document via DocuSign --></description>
+        <label><!-- DocuSign --></label>
+        <name>cadmus_core__DocuSign</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- This actionable should be used when the DocConfig is of type EMAIL. This action will send out the resulting email. --></description>
+        <label><!-- Email DocConfig --></label>
+        <name>cadmus_core__Email_DocConfig</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- This actionable should be used when the DocConfig is of type EMAIL. This action will open the Email Activity and prefill this with the Actionable data. --></description>
+        <label><!-- Email DocConfig for Quick Action --></label>
+        <name>cadmus_core__Email_DocConfig_for_Quick_Action</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Run a class that is inherits AbstractAfterActionable or AbstractBeforeActionable --></description>
+        <label><!-- Run Class --></label>
+        <name>cadmus_core__Run_Class</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Run a Lightning Flow with your custom logic --></description>
+        <label><!-- Run Lightning Flow --></label>
+        <name>cadmus_core__Run_Lightning_Flow</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Upload file --></description>
+        <label><!-- Upload --></label>
+        <name>cadmus_core__Upload</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Send document for digital signature via SIGN Butler --></description>
+        <label><!-- SIGN Butler --></label>
+        <name>cadmus_sign2__SIGN_Butler</name>
     </recordTypes>
 </CustomObjectTranslation>

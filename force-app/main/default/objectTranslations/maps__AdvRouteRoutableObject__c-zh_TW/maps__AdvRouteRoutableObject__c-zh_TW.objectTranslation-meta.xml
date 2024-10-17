@@ -4,5 +4,20 @@
         <plural>false</plural>
         <value>Maps Advanced 路線可建立路線物件</value>
     </caseValues>
+    <layouts>
+        <layout>Maps Advanced Route Routable Object Layout</layout>
+        <sections>
+            <label>自訂連結</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>預設值</label>
+            <section>Default Values</section>
+        </sections>
+        <sections>
+            <label>促銷時間範圍</label>
+            <section>Promo Windows</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Maps Advanced 路線可建立路線物件名稱</nameFieldLabel>
 </CustomObjectTranslation>

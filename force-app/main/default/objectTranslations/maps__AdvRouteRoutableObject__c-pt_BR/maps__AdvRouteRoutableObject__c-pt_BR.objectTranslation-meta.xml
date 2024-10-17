@@ -9,5 +9,20 @@
         <value>Objetos roteáveis de rota de mapas avançados</value>
     </caseValues>
     <gender>Masculine</gender>
+    <layouts>
+        <layout>Maps Advanced Route Routable Object Layout</layout>
+        <sections>
+            <label>Links personalizados</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Valores padrão</label>
+            <section>Default Values</section>
+        </sections>
+        <sections>
+            <label>Janelas promocionais</label>
+            <section>Promo Windows</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Nome do objeto roteável de rota do Maps</nameFieldLabel>
 </CustomObjectTranslation>

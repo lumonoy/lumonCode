@@ -49,5 +49,12 @@
         <value>Cache-urilor SLR-urilor</value>
     </caseValues>
     <gender>Neuter</gender>
+    <layouts>
+        <layout>SLR Cache Layout</layout>
+        <sections>
+            <label>Linkuri personalizate</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Nr. cache SLR</nameFieldLabel>
 </CustomObjectTranslation>

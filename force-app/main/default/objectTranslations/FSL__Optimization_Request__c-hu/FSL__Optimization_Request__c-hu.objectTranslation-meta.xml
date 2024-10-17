@@ -612,6 +612,21 @@
         <possessive>Second</possessive>
         <value>Optimalizálási kérések</value>
     </caseValues>
+    <layouts>
+        <layout>Optimization Request Layout</layout>
+        <sections>
+            <label>Egyéni hivatkozások</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Optimalizálási kérelem száma</nameFieldLabel>
+    <sharingReasons>
+        <label><!-- Related Service Territory --></label>
+        <name>FSL__Related_Service_Territory</name>
+    </sharingReasons>
+    <sharingReasons>
+        <label><!-- Related Service Territory Member --></label>
+        <name>FSL__Related_Service_Territory_Member</name>
+    </sharingReasons>
     <startsWith>Vowel</startsWith>
 </CustomObjectTranslation>

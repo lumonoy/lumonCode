@@ -4,7 +4,7 @@
     <defaultValue>false</defaultValue>
     <externalId>false</externalId>
     <inlineHelpText>Indication whether Building is on a Hill or Slope</inlineHelpText>
-    <label>On Hill or Slope</label>
+    <label>On Hill or Slope DEL</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>
 </CustomField>
