@@ -40,6 +40,11 @@
         <default>false</default>
         <label>United States</label>
     </customValue>
+    <customValue>
+        <fullName>NL</fullName>
+        <default>false</default>
+        <label>Netherlands</label>
+    </customValue>
     <masterLabel>Lumon Countries</masterLabel>
     <sorted>false</sorted>
 </GlobalValueSet>

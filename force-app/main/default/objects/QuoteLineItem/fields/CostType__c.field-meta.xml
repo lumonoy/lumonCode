@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>CostType__c</fullName>
-    <description>Shows the Cost Type of the Product related to the Quote Line Item</description>
+    <description>Line Item Cost Type</description>
     <externalId>false</externalId>
-    <formula>TEXT(Product2.Cost_Type__c)</formula>
-    <inlineHelpText>The Cost Type of the Product related to the Quote Line Item</inlineHelpText>
-    <label>CostType</label>
+    <inlineHelpText>Line Item Cost Type</inlineHelpText>
+    <label>Cost Type</label>
     <required>false</required>
     <trackHistory>false</trackHistory>
-    <type>Text</type>
-    <unique>false</unique>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>Lumon_Cost_Types</valueSetName>
+    </valueSet>
 </CustomField>

@@ -5,7 +5,7 @@
     <externalId>false</externalId>
     <formula>Text(Product2.Cost_Category__c)</formula>
     <inlineHelpText>Lookup of Cost Category from Product2</inlineHelpText>
-    <label>Cost Category</label>
+    <label>Cost Category OLD</label>
     <required>false</required>
     <trackHistory>false</trackHistory>
     <type>Text</type>
