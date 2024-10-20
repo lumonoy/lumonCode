@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>画像の名前です。これは画像の取得元に依存します。添付ファイル：ファイル名。ドキュメント：ユニーク名。ファイル：名前項目。</help>
+    <label><!-- Image Name --></label>
+    <name>cadmus_core__Image_Name__c</name>
+</CustomFieldTranslation>

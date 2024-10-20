@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>
+        <!-- Number of days BEFORE the actual expiry.
+If the expiration is set to 10 days and this is set to 2 days, the warning for expiration will be send in 8 days. -->
+    </help>
+    <label><!-- Warning Nr Days Before Expiration --></label>
+    <name>cadmus_sign2__Warning_Nr_Days_Before_Expiration__c</name>
+</CustomFieldTranslation>

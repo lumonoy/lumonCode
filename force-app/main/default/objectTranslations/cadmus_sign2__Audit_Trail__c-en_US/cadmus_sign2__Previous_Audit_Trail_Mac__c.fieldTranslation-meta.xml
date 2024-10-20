@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Previous Audit Trail Mac --></label>
+    <name>cadmus_sign2__Previous_Audit_Trail_Mac__c</name>
+</CustomFieldTranslation>

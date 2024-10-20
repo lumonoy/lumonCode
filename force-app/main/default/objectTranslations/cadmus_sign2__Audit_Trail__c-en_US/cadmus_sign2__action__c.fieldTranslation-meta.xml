@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- action --></label>
+    <name>cadmus_sign2__action__c</name>
+    <picklistValues>
+        <masterLabel>CREATE_SIGN_REQUEST</masterLabel>
+        <translation><!-- CREATE_SIGN_REQUEST --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DONE_DOWNLOAD</masterLabel>
+        <translation><!-- DONE_DOWNLOAD --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DONE_FINISHED</masterLabel>
+        <translation><!-- DONE_FINISHED --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DONE_REJECTED</masterLabel>
+        <translation><!-- DONE_REJECTED --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DONE_REVOKED</masterLabel>
+        <translation><!-- DONE_REVOKED --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>EMAIL_SIGN</masterLabel>
+        <translation><!-- EMAIL_SIGN --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>EMAIL_SIGN_EXPIRED</masterLabel>
+        <translation><!-- EMAIL_SIGN_EXPIRED --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NOTIFICATION_EXPIRED_SEND</masterLabel>
+        <translation><!-- NOTIFICATION_EXPIRED_SEND --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NOTIFICATION_FINISHED_SEND</masterLabel>
+        <translation><!-- NOTIFICATION_FINISHED_SEND --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NOTIFICATION_REJECTED_SEND</masterLabel>
+        <translation><!-- NOTIFICATION_REJECTED_SEND --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NOTIFICATION_REMINDER_SEND</masterLabel>
+        <translation><!-- NOTIFICATION_REMINDER_SEND --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NOTIFICATION_REVOKED_SEND</masterLabel>
+        <translation><!-- NOTIFICATION_REVOKED_SEND --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NOTIFICATION_SIGN_SEND</masterLabel>
+        <translation><!-- NOTIFICATION_SIGN_SEND --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NOTIFICATION_WARNING_SEND</masterLabel>
+        <translation><!-- NOTIFICATION_WARNING_SEND --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SFDC_EXTEND_EXPIRY</masterLabel>
+        <translation><!-- SFDC_EXTEND_EXPIRY --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SFDC_REVOKED</masterLabel>
+        <translation><!-- SFDC_REVOKED --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SFDC_SIGN</masterLabel>
+        <translation><!-- SFDC_SIGN --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SIGNER_EMAIL_CONSENT</masterLabel>
+        <translation><!-- SIGNER_EMAIL_CONSENT --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SIGNER_EMAIL_SIGNED</masterLabel>
+        <translation><!-- SIGNER_EMAIL_SIGNED --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SIGNER_MAIL_SIGN_OTP</masterLabel>
+        <translation><!-- SIGNER_MAIL_SIGN_OTP --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SIGNER_REJECTED</masterLabel>
+        <translation><!-- SIGNER_REJECTED --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SIGNER_SFDC_CONTINUE</masterLabel>
+        <translation><!-- SIGNER_SFDC_CONTINUE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SIGNER_SIGNED</masterLabel>
+        <translation><!-- SIGNER_SIGNED --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SIGNER_SMS_SIGN_OTP</masterLabel>
+        <translation><!-- SIGNER_SMS_SIGN_OTP --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>SOQL Builderで作成されたSOQLを直接編集する場合は、注意が必要です。SOQL Builderで編集するか、直接自分でSOQLを書くのがベストです。</help>
+    <label><!-- SOQL Builder Managed --></label>
+    <name>cadmus_core__SOQL_Builder_Managed__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Run Sign Request Template --></label>
+    <name>cadmus_sign2__Run_Sign_Request_Template__c</name>
+    <relationshipLabel><!-- Actionables (Run Sign Request Template) --></relationshipLabel>
+</CustomFieldTranslation>

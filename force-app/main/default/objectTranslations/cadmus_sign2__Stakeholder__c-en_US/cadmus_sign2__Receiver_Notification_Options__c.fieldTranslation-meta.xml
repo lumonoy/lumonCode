@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Receiver Notification Options --></label>
+    <name>cadmus_sign2__Receiver_Notification_Options__c</name>
+    <picklistValues>
+        <masterLabel>Created</masterLabel>
+        <translation><!-- Created --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Expired</masterLabel>
+        <translation><!-- Expired --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Finished / Rejected</masterLabel>
+        <translation><!-- Finished / Rejected --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Reminder</masterLabel>
+        <translation><!-- Reminder --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Signed (But not Finished)</masterLabel>
+        <translation><!-- Signed (But not Finished) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Warning</masterLabel>
+        <translation><!-- Warning --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Color of the title in the header bar in Hex color code. eg #FFFFFF for white --></help>
+    <label><!-- Header Bar Text Color --></label>
+    <name>cadmus_sign2__navbarTextColor__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>組織全体の電子メールアドレス 表示名を設定します。現在のユーザーを送信者として使用する場合は、空欄にしてください。</help>
+    <label><!-- Org Wide Email Address Display Name --></label>
+    <name>cadmus_core__Org_Wide_Email_Address__c</name>
+</CustomFieldTranslation>

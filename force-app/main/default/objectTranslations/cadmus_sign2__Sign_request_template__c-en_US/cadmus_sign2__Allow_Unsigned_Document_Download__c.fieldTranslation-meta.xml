@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Allow Unsigned Document Download --></label>
+    <name>cadmus_sign2__Allow_Unsigned_Document_Download__c</name>
+</CustomFieldTranslation>
