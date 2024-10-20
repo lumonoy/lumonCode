@@ -11,54 +11,6 @@
             <fullName>CS</fullName>
             <default>true</default>
         </values>
-        <values>
-            <fullName>FAC</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>INST</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>IT</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>LOG</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>NA</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Other</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>PERM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>RECL</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>SF</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>SPEC</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>TS</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>WEB</fullName>
-            <default>false</default>
-        </values>
     </picklistValues>
     <picklistValues>
         <picklist>CaseGroup__c</picklist>
@@ -91,6 +43,10 @@
             <default>false</default>
         </values>
         <values>
+            <fullName>CS_Sweden</fullName>
+            <default>false</default>
+        </values>
+        <values>
             <fullName>CS_Sweden_GOT</fullName>
             <default>false</default>
         </values>
@@ -104,14 +60,6 @@
         </values>
         <values>
             <fullName>CS_Visor</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>ICT_Global</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>PERM_Canada</fullName>
             <default>false</default>
         </values>
     </picklistValues>
@@ -522,10 +470,6 @@
         </values>
         <values>
             <fullName>Orders</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Other</fullName>
             <default>false</default>
         </values>
         <values>
@@ -1222,19 +1166,11 @@
             <default>false</default>
         </values>
         <values>
-            <fullName>IT</fullName>
+            <fullName>ICT</fullName>
             <default>false</default>
         </values>
         <values>
             <fullName>LOG</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>NA</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Other</fullName>
             <default>false</default>
         </values>
         <values>
@@ -2970,10 +2906,6 @@
         </values>
         <values>
             <fullName>ICT_Global</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>ICT_Support</fullName>
             <default>false</default>
         </values>
         <values>

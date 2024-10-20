@@ -96,6 +96,12 @@
         <label>West Finland</label>
     </customValue>
     <customValue>
+        <fullName>NL_Test</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>NL_Test</label>
+    </customValue>
+    <customValue>
         <fullName>406 TEO</fullName>
         <default>false</default>
         <isActive>false</isActive>

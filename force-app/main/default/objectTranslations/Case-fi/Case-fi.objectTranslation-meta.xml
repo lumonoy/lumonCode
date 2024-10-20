@@ -370,6 +370,10 @@
         <name>Case_Contact_Information</name>
     </quickActions>
     <quickActions>
+        <label><!-- Change Group --></label>
+        <name>Change_Group</name>
+    </quickActions>
+    <quickActions>
         <label><!-- Change Status --></label>
         <name>Change_status</name>
     </quickActions>
@@ -499,6 +503,11 @@
         <description><!-- Case Record Type for Permit Applications --></description>
         <label><!-- Permit Application Case --></label>
         <name>PERM_Case</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Case Record Type for Quality Events --></description>
+        <label><!-- Process Quality Case --></label>
+        <name>QUAL_Case</name>
     </recordTypes>
     <recordTypes>
         <description><!-- Case record type for quality event (both work stop &amp; work continues) --></description>

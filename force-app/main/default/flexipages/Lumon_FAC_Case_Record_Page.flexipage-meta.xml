@@ -10,10 +10,10 @@
                             <value>MassAccept</value>
                         </valueListItems>
                         <valueListItems>
-                            <value>MergeCase</value>
+                            <value>Case.Change_Group</value>
                         </valueListItems>
                         <valueListItems>
-                            <value>ChangeRecordType</value>
+                            <value>MergeCase</value>
                         </valueListItems>
                         <valueListItems>
                             <value>Case.NewCustomerCase</value>

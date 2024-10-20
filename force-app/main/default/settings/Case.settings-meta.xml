@@ -132,6 +132,7 @@
             <casePriority>Medium</casePriority>
             <createTask>false</createTask>
             <emailAddress>sflogisticsfi@lumon.com</emailAddress>
+            <emailServicesAddress>sflogisticsfi@2wctgb1ddihimjqd1tflp213n9gaakv8e6e42nrfjk7lfo6gm7.jw-7yb3r2aw.swe2s.case.sandbox.salesforce.com</emailServicesAddress>
             <isVerified>true</isVerified>
             <routingName>Logistics FI</routingName>
             <saveEmailHeaders>false</saveEmailHeaders>

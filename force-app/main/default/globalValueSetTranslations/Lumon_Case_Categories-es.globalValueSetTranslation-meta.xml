@@ -17,16 +17,12 @@
         <translation>Logistics</translation>
     </valueTranslation>
     <valueTranslation>
-        <masterLabel>Not Applicable</masterLabel>
-        <translation>Not Applicable</translation>
-    </valueTranslation>
-    <valueTranslation>
-        <masterLabel>Other</masterLabel>
-        <translation><!-- Other --></translation>
-    </valueTranslation>
-    <valueTranslation>
         <masterLabel>Permit Applications</masterLabel>
         <translation>Permit Applications</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Process Quality</masterLabel>
+        <translation><!-- Process Quality --></translation>
     </valueTranslation>
     <valueTranslation>
         <masterLabel>Production Support</masterLabel>

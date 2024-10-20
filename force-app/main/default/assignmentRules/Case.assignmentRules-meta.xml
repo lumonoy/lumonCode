@@ -4,7 +4,7 @@
         <fullName>Lumon Case Assignment rules ACTIVE</fullName>
         <active>true</active>
         <ruleEntry>
-            <assignedTo>hanna.makela@lumon.fi</assignedTo>
+            <assignedTo>hendrikus.reynders@lumon.com</assignedTo>
             <assignedToType>User</assignedToType>
             <criteriaItems>
                 <field>EmailMessage.ToAddress</field>
@@ -15,6 +15,12 @@
         <ruleEntry>
             <criteriaItems>
                 <field>Case.FreshdeskId__c</field>
+                <operation>notEqual</operation>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.CreatedByAlias</field>
                 <operation>notEqual</operation>
             </criteriaItems>
         </ruleEntry>

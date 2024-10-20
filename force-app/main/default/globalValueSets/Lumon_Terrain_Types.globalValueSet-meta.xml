@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
     <customValue>
-        <fullName>Terrain Class 0</fullName>
+        <fullName>0</fullName>
         <default>false</default>
         <label>Terrain Class 0</label>
     </customValue>
     <customValue>
-        <fullName>Terrain Class I</fullName>
+        <fullName>1</fullName>
         <default>false</default>
         <label>Terrain Class I</label>
     </customValue>
     <customValue>
-        <fullName>Terrain Class II</fullName>
+        <fullName>2</fullName>
         <default>false</default>
         <label>Terrain Class II</label>
     </customValue>
     <customValue>
-        <fullName>Terrain Class III</fullName>
+        <fullName>3</fullName>
         <default>false</default>
         <label>Terrain Class III</label>
     </customValue>
     <customValue>
-        <fullName>Terrain Class IV</fullName>
+        <fullName>4</fullName>
         <default>false</default>
         <label>Terrain Class IV</label>
     </customValue>
     <customValue>
-        <fullName>Terrain Class V</fullName>
+        <fullName>5</fullName>
         <default>false</default>
         <isActive>false</isActive>
         <label>Terrain Class V</label>

@@ -9,12 +9,8 @@
     <picklistValues>
         <picklist>CaseCategory__c</picklist>
         <values>
-            <fullName>IT</fullName>
+            <fullName>ICT</fullName>
             <default>true</default>
-        </values>
-        <values>
-            <fullName>Other</fullName>
-            <default>false</default>
         </values>
     </picklistValues>
     <picklistValues>
@@ -22,10 +18,6 @@
         <values>
             <fullName>ICT_Global</fullName>
             <default>false</default>
-        </values>
-        <values>
-            <fullName>ICT_Support</fullName>
-            <default>true</default>
         </values>
     </picklistValues>
     <picklistValues>
@@ -1147,27 +1139,11 @@
     <picklistValues>
         <picklist>Case_Category__c</picklist>
         <values>
-            <fullName>CS</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>FAC</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>IT</fullName>
-            <default>false</default>
+            <fullName>ICT</fullName>
+            <default>true</default>
         </values>
         <values>
             <fullName>LOG</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>NA</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Other</fullName>
             <default>false</default>
         </values>
         <values>
@@ -2931,10 +2907,6 @@
         </values>
         <values>
             <fullName>ICT_Global</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>ICT_Support</fullName>
             <default>false</default>
         </values>
         <values>

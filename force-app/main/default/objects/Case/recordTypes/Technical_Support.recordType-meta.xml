@@ -79,10 +79,6 @@
             <default>false</default>
         </values>
         <values>
-            <fullName>ICT_Support</fullName>
-            <default>false</default>
-        </values>
-        <values>
             <fullName>LOG_Canada</fullName>
             <default>false</default>
         </values>
@@ -2178,10 +2174,6 @@
         </values>
         <values>
             <fullName>ICT_Global</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>ICT_Support</fullName>
             <default>false</default>
         </values>
         <values>

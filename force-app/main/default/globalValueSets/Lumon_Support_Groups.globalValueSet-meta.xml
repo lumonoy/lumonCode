@@ -1,36 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
     <customValue>
-        <fullName>CS_Spain</fullName>
-        <default>false</default>
-        <label>CS_Spain</label>
-    </customValue>
-    <customValue>
-        <fullName>CS_Spain_ADM</fullName>
-        <default>false</default>
-        <label>CS_Spain_ADM</label>
-    </customValue>
-    <customValue>
-        <fullName>CS_Spain_RES</fullName>
-        <default>false</default>
-        <label>CS_Spain_RES</label>
-    </customValue>
-    <customValue>
-        <fullName>CS_Sweden_GOT</fullName>
-        <default>false</default>
-        <label>CS_Sweden_GOT</label>
-    </customValue>
-    <customValue>
-        <fullName>CS_Sweden_MAL</fullName>
-        <default>false</default>
-        <label>CS_Sweden_MAL</label>
-    </customValue>
-    <customValue>
-        <fullName>CS_Sweden_STO</fullName>
-        <default>false</default>
-        <label>CS_Sweden_STO</label>
-    </customValue>
-    <customValue>
         <fullName>CS_Canada</fullName>
         <default>false</default>
         <label>CS Canada</label>
@@ -51,6 +21,41 @@
         <label>CS Norway</label>
     </customValue>
     <customValue>
+        <fullName>CS_Spain</fullName>
+        <default>false</default>
+        <label>CS Spain</label>
+    </customValue>
+    <customValue>
+        <fullName>CS_Spain_ADM</fullName>
+        <default>false</default>
+        <label>CS Spain ADM</label>
+    </customValue>
+    <customValue>
+        <fullName>CS_Spain_RES</fullName>
+        <default>false</default>
+        <label>CS Spain RES</label>
+    </customValue>
+    <customValue>
+        <fullName>CS_Sweden</fullName>
+        <default>false</default>
+        <label>CS Sweden</label>
+    </customValue>
+    <customValue>
+        <fullName>CS_Sweden_GOT</fullName>
+        <default>false</default>
+        <label>CS Sweden GOT</label>
+    </customValue>
+    <customValue>
+        <fullName>CS_Sweden_MAL</fullName>
+        <default>false</default>
+        <label>CS Sweden MAL</label>
+    </customValue>
+    <customValue>
+        <fullName>CS_Sweden_STO</fullName>
+        <default>false</default>
+        <label>CS Sweden STO</label>
+    </customValue>
+    <customValue>
         <fullName>CS_Visor</fullName>
         <default>false</default>
         <label>CS Visor</label>
@@ -58,52 +63,47 @@
     <customValue>
         <fullName>FAC_Canada</fullName>
         <default>false</default>
-        <label>FAC_Canada</label>
+        <label>FAC Canada</label>
     </customValue>
     <customValue>
         <fullName>FAC_Finland</fullName>
         <default>false</default>
-        <label>FAC_Finland</label>
+        <label>FAC Finland</label>
     </customValue>
     <customValue>
         <fullName>FAC_Spain</fullName>
         <default>false</default>
-        <label>FAC_Spain</label>
+        <label>FAC Spain</label>
     </customValue>
     <customValue>
         <fullName>FAC_Visor</fullName>
         <default>false</default>
-        <label>FAC_Visor</label>
+        <label>FAC Visor</label>
     </customValue>
     <customValue>
         <fullName>ICT_Global</fullName>
         <default>false</default>
-        <label>ICT_Global</label>
-    </customValue>
-    <customValue>
-        <fullName>ICT_Support</fullName>
-        <default>false</default>
-        <label>ICT_Support</label>
+        <label>ICT Global</label>
     </customValue>
     <customValue>
         <fullName>LOG_Canada</fullName>
         <default>false</default>
-        <label>LOG_Canada</label>
+        <label>LOG Canada</label>
     </customValue>
     <customValue>
         <fullName>LOG_Finland</fullName>
         <default>false</default>
-        <label>LOG_Finland</label>
+        <label>LOG Finland</label>
     </customValue>
     <customValue>
         <fullName>LOG_Spain</fullName>
         <default>false</default>
-        <label>LOG_Spain</label>
+        <label>LOG Spain</label>
     </customValue>
     <customValue>
         <fullName>PERM_Canada</fullName>
         <default>false</default>
-        <label>PERM_Canada</label>
+        <label>PERM Canada</label>
     </customValue>
     <customValue>
         <fullName>SF_Support</fullName>
@@ -113,22 +113,22 @@
     <customValue>
         <fullName>TS_Canada</fullName>
         <default>false</default>
-        <label>TS_Canada</label>
+        <label>TS Canada</label>
     </customValue>
     <customValue>
         <fullName>TS_Finland</fullName>
         <default>false</default>
-        <label>TS_Finland</label>
+        <label>TS Finland</label>
     </customValue>
     <customValue>
         <fullName>TS_Spain</fullName>
         <default>false</default>
-        <label>TS_Spain</label>
+        <label>TS Spain</label>
     </customValue>
     <customValue>
         <fullName>TS_Sweden</fullName>
         <default>false</default>
-        <label>TS_Sweden</label>
+        <label>TS Sweden</label>
     </customValue>
     <customValue>
         <fullName>WEB_Finland</fullName>
@@ -139,6 +139,12 @@
         <fullName>WEB_Sweden</fullName>
         <default>false</default>
         <label>WEB_Sweden</label>
+    </customValue>
+    <customValue>
+        <fullName>ICT_Support</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>ICT_Support</label>
     </customValue>
     <masterLabel>Lumon Support Groups</masterLabel>
     <sorted>true</sorted>

@@ -4,6 +4,12 @@
     <attachmentOption>All</attachmentOption>
     <authenticationFailureAction>Bounce</authenticationFailureAction>
     <authorizationFailureAction>Discard</authorizationFailureAction>
+    <emailServicesAddresses>
+        <developerName>sflogisticsfi</developerName>
+        <isActive>true</isActive>
+        <localPart>sflogisticsfi</localPart>
+        <runAsUser>sfsupport@lumon.com.freshdev</runAsUser>
+    </emailServicesAddresses>
     <functionInactiveAction>Bounce</functionInactiveAction>
     <functionName>EmailToCase</functionName>
     <isActive>true</isActive>

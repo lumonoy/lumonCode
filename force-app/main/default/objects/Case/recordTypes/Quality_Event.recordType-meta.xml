@@ -8,52 +8,8 @@
     <picklistValues>
         <picklist>CaseCategory__c</picklist>
         <values>
-            <fullName>CS</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>FAC</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>IT</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>LOG</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>NA</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Other</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>PERM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>RECL</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>SF</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>SPEC</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>TS</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>WEB</fullName>
-            <default>false</default>
+            <fullName>QUAL</fullName>
+            <default>true</default>
         </values>
     </picklistValues>
     <picklistValues>
@@ -120,10 +76,6 @@
         </values>
         <values>
             <fullName>ICT_Global</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>ICT_Support</fullName>
             <default>false</default>
         </values>
         <values>
@@ -835,10 +787,6 @@
         </values>
         <values>
             <fullName>LOG</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Other</fullName>
             <default>false</default>
         </values>
         <values>
@@ -2226,10 +2174,6 @@
         </values>
         <values>
             <fullName>ICT_Global</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>ICT_Support</fullName>
             <default>false</default>
         </values>
         <values>

@@ -824,10 +824,11 @@
         </rules>
     </decisions>
     <description>Triggered Flow to set Case Values like Case Group, SLA, origin and also update Status on Owner Changes
-08.10.2024 Checked the Resolved Date Conditions</description>
+08.10.2024 Checked the Resolved Date Conditions
+19.10.2024 latest active version in Production</description>
     <environments>Default</environments>
     <interviewLabel>Case - Set Case Values {!$Flow.CurrentDateTime}</interviewLabel>
-    <label>Case - Set Case Values R4</label>
+    <label>Case - Set Case Values</label>
     <loops>
         <name>Loop_Status_Changes</name>
         <label>Loop Status Changes</label>

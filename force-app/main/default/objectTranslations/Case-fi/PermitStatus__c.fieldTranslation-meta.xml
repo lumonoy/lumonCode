@@ -11,6 +11,10 @@
         <translation><!-- Cancelled --></translation>
     </picklistValues>
     <picklistValues>
+        <masterLabel>Not Applicable</masterLabel>
+        <translation><!-- Not Applicable --></translation>
+    </picklistValues>
+    <picklistValues>
         <masterLabel>Rejected</masterLabel>
         <translation><!-- Rejected --></translation>
     </picklistValues>

@@ -810,23 +810,23 @@
     <picklistValues>
         <picklist>Terrain_Type__c</picklist>
         <values>
-            <fullName>Terrain Class 0</fullName>
+            <fullName>0</fullName>
             <default>false</default>
         </values>
         <values>
-            <fullName>Terrain Class I</fullName>
+            <fullName>1</fullName>
             <default>false</default>
         </values>
         <values>
-            <fullName>Terrain Class II</fullName>
+            <fullName>2</fullName>
             <default>false</default>
         </values>
         <values>
-            <fullName>Terrain Class III</fullName>
+            <fullName>3</fullName>
             <default>false</default>
         </values>
         <values>
-            <fullName>Terrain Class IV</fullName>
+            <fullName>4</fullName>
             <default>false</default>
         </values>
     </picklistValues>

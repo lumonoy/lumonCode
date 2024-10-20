@@ -336,4 +336,8 @@
         <name>standard__DataManager</name>
         <type>CustomApplication</type>
     </appMenuItems>
+    <appMenuItems>
+        <name>Lumon_QUAL_App</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
 </AppMenu>
