@@ -167,10 +167,10 @@
         <searchResultsAdditionalFields>OPPORTUNITY.CLOSE_DATE</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>Project__c</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>CORE.USERS.FULL_NAME</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>Opportunity_Number__c</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>Delivery_Address__Street__s</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>Delivery_Address__PostalCode__s</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>Delivery_Address__CountryCode__s</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>OpportunityNumber__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>DeliveryAddress__Street__s</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>DeliveryAddress__PostalCode__s</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>DeliveryAddress__CountryCode__s</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>Private</sharingModel>
 </CustomObject>
