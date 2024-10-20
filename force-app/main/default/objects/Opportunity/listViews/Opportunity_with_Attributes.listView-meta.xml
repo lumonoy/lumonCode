@@ -11,6 +11,7 @@
     <columns>CustomerSegment__c</columns>
     <columns>OPPORTUNITY.CREATED_DATE</columns>
     <columns>CREATEDBY_USER.ALIAS</columns>
+    <columns>OPPORTUNITY.LAST_UPDATE</columns>
     <filterScope>Everything</filterScope>
     <label>Opportunity with Attributes</label>
 </ListView>
