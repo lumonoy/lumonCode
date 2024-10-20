@@ -8,52 +8,8 @@
     <picklistValues>
         <picklist>CaseCategory__c</picklist>
         <values>
-            <fullName>CS</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>FAC</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>IT</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>LOG</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>NA</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Other</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>PERM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>RECL</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>SF</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>SPEC</fullName>
-            <default>false</default>
-        </values>
-        <values>
             <fullName>TS</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>WEB</fullName>
-            <default>false</default>
+            <default>true</default>
         </values>
     </picklistValues>
     <picklistValues>
@@ -119,7 +75,7 @@
             <default>false</default>
         </values>
         <values>
-            <fullName>ICT_Support</fullName>
+            <fullName>ICT_Global</fullName>
             <default>false</default>
         </values>
         <values>
@@ -132,6 +88,10 @@
         </values>
         <values>
             <fullName>LOG_Spain</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PERM_Canada</fullName>
             <default>false</default>
         </values>
         <values>
@@ -694,6 +654,545 @@
         </values>
     </picklistValues>
     <picklistValues>
+        <picklist>CaseSubType__c</picklist>
+        <values>
+            <fullName>Ad rights</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Blinds Sales</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CS_TASK_Update_Contact</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CS_TASK_Update_EndTime</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CS_TASK_Update_Location</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CS_TASK_Update_Phone</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CS_TASK_Update_Signature</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CS_TASK_Update_StartTime</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Call forwarding</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Callback Request</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consumer Sales</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customer info</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dealers</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Disable Accounts</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Elisa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IT_INC_Autopilot</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IT_INC_Generic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IT_INC_Hardware</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IT_INC_Locked</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IT_INC_Network</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IT_INC_Phones</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IT_INC_Printer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IT_INC_Remote_Desktop</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IT_INC_Workstation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IT_ORD_Accessories</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IT_ORD_Amazon_Accesories</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IT_ORD_Amazon_Computers</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IT_ORD_Amazon_Gifts</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IT_ORD_Amazon_Others</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IT_ORD_Amazon_Phones</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IT_ORD_Computers</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IT_ORD_Licenses</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IT_PERM_AD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IT_PERM_Network_Folder</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IT_PERM_Plantori</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IT_PERM_Reptori</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IT_PERM_Salesforce</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IT_PERM_Salestori</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IT_PERM_Tietori</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IT_SW_AX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IT_SW_Adobe</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IT_SW_Autocad</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IT_SW_Basware</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IT_SW_Brandtori</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IT_SW_Defender</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IT_SW_Doctori</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IT_SW_Email_Client</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IT_SW_Esmi</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IT_SW_Frends</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IT_SW_Freshdesk</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IT_SW_Intori</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IT_SW_Jira</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IT_SW_Lisec</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IT_SW_M2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IT_SW_Maintori</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IT_SW_Mepco</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IT_SW_Mfiles</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IT_SW_Office</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IT_SW_OneNote</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IT_SW_Pagero</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IT_SW_Palette</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IT_SW_Plantori</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IT_SW_PowerBI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IT_SW_Precut</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IT_SW_QFactory</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IT_SW_Reptori</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IT_SW_Salesforce</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IT_SW_Salestori</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IT_SW_Shopify</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IT_SW_Softphone</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IT_SW_Solidworks</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IT_SW_Sovelia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IT_SW_Syncrontech</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IT_SW_Teams</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IT_SW_Teamviewer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IT_SW_Tietori</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IT_SW_Unifaun</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IT_SW_Wmware</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IT_SW_eCon</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IT_USER_Password</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IT_USER_docs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IT_USR_Accounts</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IT_USR_New_User</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IT_USR_User_License</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Information Requests</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inquiry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Install apps</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Invoices</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LOG_REQ_Change_Delivery</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LOG_REQ_Delivery_Time</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LOG_REQ_Early_Delivery</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LOG_REQ_Production_Delay</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LOG_REQ_Shipping_Location</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Maintenance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mobile Data</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NA_Spam</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Network folder</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Applicable</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Offer planning consumer%28new%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Offer planning projects%28new%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Offers</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Orders</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Others</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PIN%2FPUK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRTG</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Permits</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Question</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rajobit robot</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reclamations</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Request</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Requests</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sales</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Services Sales</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Software%28new%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Surveys</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TS_RECL_Billable</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TS_RECL_Warranty_Consumer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TS_RECL_Warranty_Project</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TS_REQ_ReturnOrderToContract</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TS_TQ_Blinds</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TS_TQ_Components</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TS_TQ_LGR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TS_TQ_LGS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TS_TQ_Old_Products</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TS_TQ_Project Sales</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TS_TQ_RedLine</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TS_WAR_Installation_Warranty</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TS_WAR_Product_Warranty</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TS_WAR_Service_Warranty</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Uniflow</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Veeam</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Warranty</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WorkOrders</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
         <picklist>CaseType__c</picklist>
         <values>
             <fullName>CS_CALL</fullName>
@@ -776,11 +1275,23 @@
             <default>false</default>
         </values>
         <values>
+            <fullName>LOG_REQ</fullName>
+            <default>false</default>
+        </values>
+        <values>
             <fullName>NA</fullName>
             <default>false</default>
         </values>
         <values>
+            <fullName>TS_CAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
             <fullName>TS_GEN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TS_INT</fullName>
             <default>false</default>
         </values>
         <values>
@@ -795,52 +1306,8 @@
     <picklistValues>
         <picklist>Case_Category__c</picklist>
         <values>
-            <fullName>CS</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>FAC</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>IT</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>LOG</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>NA</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Other</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>PERM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>RECL</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>SF</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>SPEC</fullName>
-            <default>false</default>
-        </values>
-        <values>
             <fullName>TS</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>WEB</fullName>
-            <default>false</default>
+            <default>true</default>
         </values>
     </picklistValues>
     <picklistValues>
@@ -1351,6 +1818,25 @@
         </values>
     </picklistValues>
     <picklistValues>
+        <picklist>Case_SubType__c</picklist>
+        <values>
+            <fullName>LOG_REQ_Change_Delivery</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LOG_REQ_Delivery_Time</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LOG_REQ_Production_Delay</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LOG_REQ_Shipping_Location</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
         <picklist>Case_Type__c</picklist>
         <values>
             <fullName>CS_CALL</fullName>
@@ -1430,6 +1916,10 @@
         </values>
         <values>
             <fullName>IT_USER</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LOG_REQ</fullName>
             <default>false</default>
         </values>
         <values>
@@ -2477,6 +2967,117 @@
         </values>
         <values>
             <fullName>Web</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>OriginCaseGroup__c</picklist>
+        <values>
+            <fullName>CS_Canada</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CS_CentralEurope</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CS_Finland</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CS_Norway</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CS_Spain</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CS_Spain_ADM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CS_Spain_RES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CS_Sweden_GOT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CS_Sweden_MAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CS_Sweden_STO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CS_Visor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FAC_Canada</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FAC_Finland</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FAC_Spain</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FAC_Visor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ICT_Global</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LOG_Canada</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LOG_Finland</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LOG_Spain</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PERM_Canada</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SF_Support</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TS_Canada</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TS_Finland</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TS_Spain</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TS_Sweden</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WEB_Finland</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WEB_Sweden</fullName>
             <default>false</default>
         </values>
     </picklistValues>

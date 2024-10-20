@@ -1,23 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>SlaCount__c</fullName>
-    <description>Count how many tickets were solved before the deadline</description>
+    <fullName>CaseSourceEmailDomain__c</fullName>
     <externalId>false</externalId>
     <formula>IF(
-AND(
-NOT(ISBLANK( CaseResolvedDate__c )),
-CaseResolvedDate__c &lt;= SlaDeadline__c
-),
-1,
-0
+    ISBLANK(SuppliedEmail),
+    &quot;Other&quot;, 
+    IF(
+      CONTAINS(SuppliedEmail, &quot;@&quot;),
+      MID(SuppliedEmail,FIND(&quot;@&quot;,SuppliedEmail ),LEN(SuppliedEmail)),
+      &quot;Unknown&quot;
+    )
 )</formula>
     <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
-    <label>SLA Count</label>
-    <precision>18</precision>
+    <label>Case Source Email Domain</label>
     <required>false</required>
-    <scale>0</scale>
     <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>
-    <type>Number</type>
+    <type>Text</type>
     <unique>false</unique>
 </CustomField>
