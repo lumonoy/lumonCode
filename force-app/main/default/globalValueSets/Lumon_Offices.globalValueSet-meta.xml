@@ -246,5 +246,5 @@
         <label>Valencia Warehouse</label>
     </customValue>
     <masterLabel>Lumon Offices</masterLabel>
-    <sorted>false</sorted>
+    <sorted>true</sorted>
 </GlobalValueSet>
