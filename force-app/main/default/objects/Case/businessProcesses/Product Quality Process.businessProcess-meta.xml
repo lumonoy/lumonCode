@@ -8,10 +8,6 @@
         <default>false</default>
     </values>
     <values>
-        <fullName>Escalated</fullName>
-        <default>false</default>
-    </values>
-    <values>
         <fullName>In Progress</fullName>
         <default>false</default>
     </values>
@@ -21,26 +17,6 @@
     </values>
     <values>
         <fullName>Resolved</fullName>
-        <default>false</default>
-    </values>
-    <values>
-        <fullName>Waiting for Customer</fullName>
-        <default>false</default>
-    </values>
-    <values>
-        <fullName>Waiting for Drawing</fullName>
-        <default>false</default>
-    </values>
-    <values>
-        <fullName>Waiting for Engineer</fullName>
-        <default>false</default>
-    </values>
-    <values>
-        <fullName>Waiting for Municipal Approval</fullName>
-        <default>false</default>
-    </values>
-    <values>
-        <fullName>Waiting for Third Party</fullName>
         <default>false</default>
     </values>
 </BusinessProcess>
