@@ -121,6 +121,11 @@
         <label>271 LUI R&amp;D</label>
     </customValue>
     <customValue>
+        <fullName>271 LUI RD</fullName>
+        <default>false</default>
+        <label>271 LUI RD</label>
+    </customValue>
+    <customValue>
         <fullName>272 LUI HR</fullName>
         <default>false</default>
         <label>272 LUI HR</label>
@@ -641,10 +646,10 @@
         <label>0 Lumon Test</label>
     </customValue>
     <customValue>
-        <fullName>271 LUI RD</fullName>
+        <fullName>275</fullName>
         <default>false</default>
         <isActive>false</isActive>
-        <label>271 LUI RD</label>
+        <label>275</label>
     </customValue>
     <customValue>
         <fullName>275</fullName>
