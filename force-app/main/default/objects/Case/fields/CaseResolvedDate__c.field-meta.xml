@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CaseResolvedDate__c</fullName>
+    <description>Date/Time when Case Last changed to Resolved (or Closed)</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The Time when the Case Status was last changed to Resolved</inlineHelpText>
+    <label>Case Resolved  Date</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>DateTime</type>
+</CustomField>
