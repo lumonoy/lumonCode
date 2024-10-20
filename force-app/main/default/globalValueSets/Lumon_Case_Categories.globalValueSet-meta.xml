@@ -6,7 +6,7 @@
         <label>Customer Service</label>
     </customValue>
     <customValue>
-        <fullName>IT</fullName>
+        <fullName>ICT</fullName>
         <default>false</default>
         <label>ICT Support</label>
     </customValue>
