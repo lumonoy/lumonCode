@@ -641,17 +641,11 @@
         <label>0 Lumon Test</label>
     </customValue>
     <customValue>
-        <fullName>271 LUI RD</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>271 LUI RD</label>
-    </customValue>
-    <customValue>
         <fullName>275</fullName>
         <default>false</default>
         <isActive>false</isActive>
         <label>275</label>
     </customValue>
     <masterLabel>Lumon Profit Centers</masterLabel>
-    <sorted>false</sorted>
+    <sorted>true</sorted>
 </GlobalValueSet>
