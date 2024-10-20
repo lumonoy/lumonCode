@@ -2,7 +2,7 @@
 <BusinessProcess xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Product Quality Process</fullName>
     <description>Support Process for Product Quality Cases</description>
-    <isActive>false</isActive>
+    <isActive>true</isActive>
     <values>
         <fullName>Closed</fullName>
         <default>false</default>
