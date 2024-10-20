@@ -3,6 +3,7 @@
     <fullName>CaseType__c</fullName>
     <description>Case Classification to indicate the Type of Issue</description>
     <externalId>false</externalId>
+    <inlineHelpText>The 2nd Level Classification of the Case</inlineHelpText>
     <label>Case Type</label>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>
