@@ -3,7 +3,7 @@
     <fullName>Deliver_To__c</fullName>
     <externalId>false</externalId>
     <inlineHelpText>Defines the delivery address. For address updates, see Account address, Delivery Location (Building/Factory), or Delivery Address (Other)</inlineHelpText>
-    <label>Deliver To</label>
+    <label>Deliver To OLD</label>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>true</trackHistory>
