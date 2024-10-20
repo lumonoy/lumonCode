@@ -7,7 +7,7 @@
     <columns>SalesPersonUser__c</columns>
     <columns>SalesOffice__c</columns>
     <columns>InstallationManagerUser__c</columns>
-    <columns>FieldServiceOffice__c</columns>
+    <columns>ServicesOffice__c</columns>
     <columns>CustomerSegment__c</columns>
     <columns>OPPORTUNITY.CREATED_DATE</columns>
     <columns>CREATEDBY_USER.ALIAS</columns>
