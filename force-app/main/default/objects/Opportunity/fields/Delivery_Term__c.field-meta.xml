@@ -3,7 +3,7 @@
     <fullName>Delivery_Term__c</fullName>
     <description>Delivery Term selected</description>
     <externalId>false</externalId>
-    <label>Delivery Terms</label>
+    <label>Delivery Terms OLD</label>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>false</trackHistory>

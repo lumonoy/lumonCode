@@ -4,7 +4,7 @@
     <description>This field returns true when associated contract is signed</description>
     <externalId>false</externalId>
     <formula>ISPICKVAL(Contract.Status, &quot;Preliminary Contract Signed&quot;) || ISPICKVAL(Contract.Status,&quot;Activated&quot;) &amp;&amp;  ISPICKVAL(Contract.Contract_type__c, &quot;Preliminary Contract&quot;)</formula>
-    <label>Preliminary Contract Signed</label>
+    <label>Preliminary Contract Signed OLD</label>
     <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

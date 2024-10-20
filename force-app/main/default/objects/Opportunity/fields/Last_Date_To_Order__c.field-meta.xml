@@ -3,7 +3,7 @@
     <fullName>Last_Date_To_Order__c</fullName>
     <externalId>false</externalId>
     <inlineHelpText>Last Possible Date To Order Products and Meet Agreed TimeLine</inlineHelpText>
-    <label>Last Date To Order</label>
+    <label>Last Date To Order OLD</label>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>false</trackHistory>
