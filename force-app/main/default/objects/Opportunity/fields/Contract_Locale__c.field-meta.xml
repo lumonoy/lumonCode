@@ -3,9 +3,9 @@
     <fullName>Contract_Locale__c</fullName>
     <description>Locale to be used by contract</description>
     <externalId>false</externalId>
-    <formula>IF(TEXT(Contract_Language__c) &lt;&gt; &quot;&quot;,LOWER(TEXT(Contract_Language__c)) &amp; &quot;_&quot; &amp; UPPER(TEXT(Building__r.Building_Address__CountryCode__s)), &quot;fi_FI&quot;)</formula>
+    <formula>IF(TEXT(Contract_Language__c) &lt;&gt; &quot;&quot;,LOWER(TEXT(Contract_Language__c)) &amp; &quot;_&quot; &amp; UPPER(CountryAttribute__c), &quot;fi_FI&quot;)</formula>
     <inlineHelpText>Locale to be used by contract</inlineHelpText>
-    <label>Contract Locale</label>
+    <label>Contract Locale OLD</label>
     <required>false</required>
     <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>

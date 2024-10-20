@@ -15,4 +15,20 @@
         <fullName>Closed Won</fullName>
         <default>false</default>
     </values>
+    <values>
+        <fullName>Offer</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Plan</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Prepare</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Quoting</fullName>
+        <default>false</default>
+    </values>
 </BusinessProcess>
