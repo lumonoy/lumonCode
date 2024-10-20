@@ -31,5 +31,44 @@
         <value>Besöksfönster i Maps Advanced-rutt</value>
     </caseValues>
     <gender>Neuter</gender>
+    <layouts>
+        <layout>Maps Advanced Route Visit Windows Layout</layout>
+        <sections>
+            <label>Anpassade länkar</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Fredag</label>
+            <section>Friday</section>
+        </sections>
+        <sections>
+            <label>Måndag</label>
+            <section>Monday</section>
+        </sections>
+        <sections>
+            <label>Lördag</label>
+            <section>Saturday</section>
+        </sections>
+        <sections>
+            <label>Söndag</label>
+            <section>Sunday</section>
+        </sections>
+        <sections>
+            <label>Torsdag</label>
+            <section>Thursday</section>
+        </sections>
+        <sections>
+            <label>Tisdag</label>
+            <section>Tuesday</section>
+        </sections>
+        <sections>
+            <label>Giltiga dagar/datum</label>
+            <section>Valid Days/Dates</section>
+        </sections>
+        <sections>
+            <label>Onsdag</label>
+            <section>Wednesday</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Namn på besöksfönster i Maps Advanced-ru</nameFieldLabel>
 </CustomObjectTranslation>

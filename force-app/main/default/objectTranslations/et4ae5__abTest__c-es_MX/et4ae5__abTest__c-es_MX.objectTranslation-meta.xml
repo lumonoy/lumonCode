@@ -9,5 +9,12 @@
         <value>Pruebas AB</value>
     </caseValues>
     <gender>Feminine</gender>
+    <layouts>
+        <layout>AB Test Layout</layout>
+        <sections>
+            <label>Vínculos personalizados</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Nombre de la prueba A/B</nameFieldLabel>
 </CustomObjectTranslation>

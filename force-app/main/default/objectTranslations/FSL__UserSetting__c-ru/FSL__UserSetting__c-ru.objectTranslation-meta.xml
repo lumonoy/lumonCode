@@ -61,5 +61,28 @@
         <value>Параметрах пользователя</value>
     </caseValues>
     <gender>Masculine</gender>
+    <layouts>
+        <layout>User Setting Layout</layout>
+        <sections>
+            <label>Настраиваемые фильтры</label>
+            <section>Custom Filters</section>
+        </sections>
+        <sections>
+            <label>Настраиваемые ссылки</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Настройки Ганта</label>
+            <section>Gantt Preferences</section>
+        </sections>
+        <sections>
+            <label>Настройки перетаскивания недоступности</label>
+            <section>NA Drag&amp;Drop Preferences</section>
+        </sections>
+        <sections>
+            <label>Настройки списка обслуживаний</label>
+            <section>Service List Prefernces</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Имя параметра пользователя</nameFieldLabel>
 </CustomObjectTranslation>

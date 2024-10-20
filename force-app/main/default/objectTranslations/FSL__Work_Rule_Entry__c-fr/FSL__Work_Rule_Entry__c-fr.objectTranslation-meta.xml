@@ -9,6 +9,18 @@
         <value>Entrées de règle de travail</value>
     </caseValues>
     <gender>Feminine</gender>
+    <layouts>
+        <layout>Resource Availability Layout</layout>
+        <sections>
+            <label><!-- Flexible Break Schedule --></label>
+            <section>Flexible Break Schedule</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Nom de l’entrée de la règle de travail</nameFieldLabel>
+    <recordTypes>
+        <description><!-- Limits service resources based on a number of items such as service appointments, appointment durations, or custom field values --></description>
+        <label><!-- Field Service - Service Resource Availability --></label>
+        <name>FSL__Gap_Rule_Service</name>
+    </recordTypes>
     <startsWith>Vowel</startsWith>
 </CustomObjectTranslation>

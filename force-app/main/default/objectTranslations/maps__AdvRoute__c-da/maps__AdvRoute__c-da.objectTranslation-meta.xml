@@ -31,5 +31,20 @@
         <value>Maps Advanced Routes</value>
     </caseValues>
     <gender>Feminine</gender>
+    <layouts>
+        <layout>Maps Advanced Route Layout</layout>
+        <sections>
+            <label>Tilpassede links</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Effektivitetsdata</label>
+            <section>Performance Data</section>
+        </sections>
+        <sections>
+            <label>Rutens dato/-tid</label>
+            <section>Route Date/Time</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Maps Advanced Route-navn</nameFieldLabel>
 </CustomObjectTranslation>

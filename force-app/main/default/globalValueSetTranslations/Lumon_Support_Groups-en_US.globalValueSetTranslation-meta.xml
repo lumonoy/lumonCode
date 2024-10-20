@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>CS Canada</masterLabel>
+        <translation><!-- CS Canada --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CS CentralEurope</masterLabel>
+        <translation><!-- CS CentralEurope --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CS Finland</masterLabel>
+        <translation><!-- CS Finland --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CS Norway</masterLabel>
+        <translation><!-- CS Norway --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CS Visor</masterLabel>
+        <translation>CS Visor</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CS_Spain</masterLabel>
+        <translation><!-- CS_Spain --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CS_Spain_ADM</masterLabel>
+        <translation><!-- CS_Spain_ADM --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CS_Spain_RES</masterLabel>
+        <translation><!-- CS_Spain_RES --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CS_Sweden_GOT</masterLabel>
+        <translation><!-- CS_Sweden_GOT --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CS_Sweden_MAL</masterLabel>
+        <translation><!-- CS_Sweden_MAL --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CS_Sweden_STO</masterLabel>
+        <translation><!-- CS_Sweden_STO --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>FAC_Canada</masterLabel>
+        <translation><!-- FAC_Canada --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>FAC_Finland</masterLabel>
+        <translation><!-- FAC_Finland --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>FAC_Spain</masterLabel>
+        <translation><!-- FAC_Spain --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>FAC_Visor</masterLabel>
+        <translation><!-- FAC_Visor --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ICT_Global</masterLabel>
+        <translation><!-- ICT_Global --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ICT_Support</masterLabel>
+        <translation><!-- ICT_Support --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>LOG_Canada</masterLabel>
+        <translation><!-- LOG_Canada --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>LOG_Finland</masterLabel>
+        <translation><!-- LOG_Finland --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>LOG_Spain</masterLabel>
+        <translation><!-- LOG_Spain --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>PERM_Canada</masterLabel>
+        <translation><!-- PERM_Canada --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SF_Support</masterLabel>
+        <translation><!-- SF_Support --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>TS_Canada</masterLabel>
+        <translation><!-- TS_Canada --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>TS_Finland</masterLabel>
+        <translation><!-- TS_Finland --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>TS_Spain</masterLabel>
+        <translation><!-- TS_Spain --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>TS_Sweden</masterLabel>
+        <translation><!-- TS_Sweden --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>WEB_Finland</masterLabel>
+        <translation><!-- WEB_Finland --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>WEB_Sweden</masterLabel>
+        <translation><!-- WEB_Sweden --></translation>
+    </valueTranslation>
+</GlobalValueSetTranslation>

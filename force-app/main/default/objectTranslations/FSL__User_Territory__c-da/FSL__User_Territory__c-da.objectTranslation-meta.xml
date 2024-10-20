@@ -31,5 +31,12 @@
         <value>Brugerområder</value>
     </caseValues>
     <gender>Neuter</gender>
+    <layouts>
+        <layout>User Territory Layout</layout>
+        <sections>
+            <label>Tilpassede links</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Brugerområdenummer</nameFieldLabel>
 </CustomObjectTranslation>

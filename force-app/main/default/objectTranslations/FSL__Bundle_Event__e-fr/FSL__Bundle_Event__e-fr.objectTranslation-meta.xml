@@ -2,11 +2,11 @@
 <CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <caseValues>
         <plural>false</plural>
-        <value><!-- événement de paquet --></value>
+        <value><!-- Événement de paquet --></value>
     </caseValues>
     <caseValues>
         <plural>true</plural>
-        <value><!-- événements de paquet --></value>
+        <value><!-- Événements de paquet --></value>
     </caseValues>
     <gender><!-- Masculine --></gender>
     <startsWith><!-- Vowel --></startsWith>

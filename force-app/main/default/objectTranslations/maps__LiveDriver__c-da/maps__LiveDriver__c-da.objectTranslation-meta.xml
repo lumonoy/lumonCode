@@ -31,5 +31,20 @@
         <value>Maps Live-chauffører</value>
     </caseValues>
     <gender>Feminine</gender>
+    <layouts>
+        <layout>Maps Live Driver Layout</layout>
+        <sections>
+            <label>Adresse</label>
+            <section>Address</section>
+        </sections>
+        <sections>
+            <label>Tilpassede links</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Chaufførs telematikadvarsler</label>
+            <section>Driver Telematics Alerts</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Maps Live-chaufførnavn</nameFieldLabel>
 </CustomObjectTranslation>

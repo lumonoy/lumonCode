@@ -61,5 +61,12 @@
         <value>Terytoriach użytkownika</value>
     </caseValues>
     <gender>Neuter</gender>
+    <layouts>
+        <layout>User Territory Layout</layout>
+        <sections>
+            <label>Niestandardowe linki</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Numer terytorium użytkownika</nameFieldLabel>
 </CustomObjectTranslation>

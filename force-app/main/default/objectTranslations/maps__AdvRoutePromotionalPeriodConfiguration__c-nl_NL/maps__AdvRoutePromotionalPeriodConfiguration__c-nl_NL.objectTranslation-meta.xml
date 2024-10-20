@@ -9,5 +9,16 @@
         <value>Configuraties promotionele periode Maps Advanced</value>
     </caseValues>
     <gender>Feminine</gender>
+    <layouts>
+        <layout>Maps Advanced Promotional Period Config Layout</layout>
+        <sections>
+            <label>Aangepaste koppelingen</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Standaardwaarden</label>
+            <section>Default Values</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Configuratienaam promotionele periode Ma</nameFieldLabel>
 </CustomObjectTranslation>

@@ -9,5 +9,12 @@
         <value>Associações de evento de mapas ativos</value>
     </caseValues>
     <gender>Masculine</gender>
+    <layouts>
+        <layout>Maps Live Event Association Layout</layout>
+        <sections>
+            <label>Links personalizados</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Nome da associação de eventos do Maps Li</nameFieldLabel>
 </CustomObjectTranslation>

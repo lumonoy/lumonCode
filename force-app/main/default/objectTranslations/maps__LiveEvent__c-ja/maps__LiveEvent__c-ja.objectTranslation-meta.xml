@@ -4,5 +4,12 @@
         <plural>false</plural>
         <value>Maps ライブイベント</value>
     </caseValues>
+    <layouts>
+        <layout>Maps Live Event Layout</layout>
+        <sections>
+            <label>カスタムリンク</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Maps ライブイベント名</nameFieldLabel>
 </CustomObjectTranslation>

@@ -9,5 +9,12 @@
         <value>Configuraties overzicht stops Maps Live</value>
     </caseValues>
     <gender>Feminine</gender>
+    <layouts>
+        <layout>Maps Live Summary Stop Relationship Config Layout</layout>
+        <sections>
+            <label>Aangepaste koppelingen</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Configuratie live overzicht stop Maps</nameFieldLabel>
 </CustomObjectTranslation>

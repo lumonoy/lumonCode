@@ -9,5 +9,32 @@
         <value>Sjabloongebruikers route Maps Advanced</value>
     </caseValues>
     <gender>Feminine</gender>
+    <layouts>
+        <layout>Maps Advanced Route Template User Layout</layout>
+        <sections>
+            <label>Informatie huidige verwerking</label>
+            <section>Current Processing Info</section>
+        </sections>
+        <sections>
+            <label>Aangepaste koppelingen</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Taakfouten</label>
+            <section>Job Failures</section>
+        </sections>
+        <sections>
+            <label>Informatie opnieuw opstarten</label>
+            <section>Restart Process Info</section>
+        </sections>
+        <sections>
+            <label>Heroptimalisatie op dezelfde dag</label>
+            <section>Same Day Reoptimization</section>
+        </sections>
+        <sections>
+            <label>Gebruikersinfo</label>
+            <section>User Info</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Naam sjabloongebruiker route Maps Advanc</nameFieldLabel>
 </CustomObjectTranslation>

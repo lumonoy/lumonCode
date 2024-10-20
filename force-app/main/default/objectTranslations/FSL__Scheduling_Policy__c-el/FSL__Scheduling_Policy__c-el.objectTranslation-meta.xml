@@ -31,6 +31,25 @@
         <value>Πολιτικών προγραμματισμού</value>
     </caseValues>
     <gender>Feminine</gender>
+    <layouts>
+        <layout>Scheduling Policy Layout</layout>
+        <sections>
+            <label>Προσαρμοσμένοι σύνδεσμοι</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Όνομα πολιτικής προγραμματισμού</nameFieldLabel>
     <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Policy objectives weight can not be negative --></errorMessage>
+        <name>FSL__Deny_Objectives_Negative_Weight</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Deep_Clone --></label>
+        <name>FSL__Deep_Clone</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- test2 --></label>
+        <name>FSL__test2</name>
+    </webLinks>
 </CustomObjectTranslation>

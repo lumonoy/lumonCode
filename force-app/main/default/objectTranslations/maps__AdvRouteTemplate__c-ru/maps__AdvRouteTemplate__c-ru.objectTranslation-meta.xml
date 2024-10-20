@@ -61,5 +61,24 @@
         <value>Шаблонах маршрута Maps Advanced</value>
     </caseValues>
     <gender>Masculine</gender>
+    <layouts>
+        <layout>Maps Advanced Route Template Layout</layout>
+        <sections>
+            <label>Параметры автоматической повторной оптимизации</label>
+            <section>Auto Reoptimization Settings</section>
+        </sections>
+        <sections>
+            <label>Настраиваемые ссылки</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Сведения о продолжительности</label>
+            <section>Duration Info</section>
+        </sections>
+        <sections>
+            <label>Завершение шаблона</label>
+            <section>Template Completion</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Имя шаблона маршрута Maps Advanced</nameFieldLabel>
 </CustomObjectTranslation>

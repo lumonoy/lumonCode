@@ -130,6 +130,11 @@
         <default>false</default>
         <label>Logistics Request</label>
     </customValue>
+    <customValue>
+        <fullName>TS_CAL</fullName>
+        <default>false</default>
+        <label>TS Calculations and structural plans</label>
+    </customValue>
     <masterLabel>Lumon Case Types</masterLabel>
     <sorted>true</sorted>
 </GlobalValueSet>

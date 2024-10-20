@@ -85,6 +85,21 @@
         <name>FSL__Service_Tooltip_Gantt</name>
     </fieldSets>
     <layouts>
+        <layout>FSL Service Appointment Layout</layout>
+        <sections>
+            <label>Indirizzo</label>
+            <section>Address</section>
+        </sections>
+        <sections>
+            <label>Console Dispatcher</label>
+            <section>Dispatcher Console</section>
+        </sections>
+        <sections>
+            <label>Vincoli di orario</label>
+            <section>Time Constraints</section>
+        </sections>
+    </layouts>
+    <layouts>
         <layout>Lumon Installation Manager SA Layout</layout>
         <sections>
             <label><!-- Address --></label>
@@ -118,6 +133,10 @@
             <section>Time Constraints</section>
         </sections>
     </layouts>
+    <quickActions>
+        <label><!-- Change Status --></label>
+        <name>FSL__Change_Status</name>
+    </quickActions>
     <quickActions>
         <label><!-- Email --></label>
         <name>SendEmail</name>

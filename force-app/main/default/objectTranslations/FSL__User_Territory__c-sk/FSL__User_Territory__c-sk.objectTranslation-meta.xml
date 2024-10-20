@@ -61,5 +61,12 @@
         <value>Územiach používateľa</value>
     </caseValues>
     <gender>Neuter</gender>
+    <layouts>
+        <layout>User Territory Layout</layout>
+        <sections>
+            <label>Vlastné odkazy</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Číslo používateľského územia</nameFieldLabel>
 </CustomObjectTranslation>

@@ -61,5 +61,24 @@
         <value>Непрерывных движениях маршрута Maps Advanced</value>
     </caseValues>
     <gender>Neuter</gender>
+    <layouts>
+        <layout>Maps Advanced Route Continuous Travel Layout</layout>
+        <sections>
+            <label>Настраиваемые ссылки</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Конечный адрес</label>
+            <section>End Address</section>
+        </sections>
+        <sections>
+            <label>Начальный адрес</label>
+            <section>Start Address</section>
+        </sections>
+        <sections>
+            <label>Даты поездки</label>
+            <section>Travel Dates</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Имя непрерывного движения планировщика M</nameFieldLabel>
 </CustomObjectTranslation>

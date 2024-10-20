@@ -41,5 +41,63 @@
         <value>Getriggerten Versendungen</value>
     </caseValues>
     <gender>Masculine</gender>
+    <layouts>
+        <layout>Active Send Layout</layout>
+        <sections>
+            <label>Benutzerdefinierte Links</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>E-Mail-Daten</label>
+            <section>Email Information</section>
+        </sections>
+        <sections>
+            <label>Tracking-Informationen</label>
+            <section>Tracking Information</section>
+        </sections>
+        <sections>
+            <label>Aktionen des getriggerten Versands</label>
+            <section>Triggered Send Actions</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Inactive Send Layout</layout>
+        <sections>
+            <label>Benutzerdefinierte Links</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>E-Mail-Daten</label>
+            <section>Email Information</section>
+        </sections>
+        <sections>
+            <label>Tracking-Informationen</label>
+            <section>Tracking Information</section>
+        </sections>
+        <sections>
+            <label>Aktionen des getriggerten Versands</label>
+            <section>Triggered Send Actions</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Name des getriggerten Versands</nameFieldLabel>
+    <recordTypes>
+        <label><!-- Active --></label>
+        <name>et4ae5__Active</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Inactive --></label>
+        <name>et4ae5__Inactive</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- Hours Delayed cannot exceed 720. --></errorMessage>
+        <name>et4ae5__HoursDelayedMax</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Activate --></label>
+        <name>et4ae5__Activate</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Deactivate --></label>
+        <name>et4ae5__Deactivate</name>
+    </webLinks>
 </CustomObjectTranslation>

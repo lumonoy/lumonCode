@@ -4,5 +4,12 @@
         <plural>false</plural>
         <value>區域範圍計畫資料集</value>
     </caseValues>
+    <layouts>
+        <layout>Territory Planning Data Set Layout</layout>
+        <sections>
+            <label>自訂連結</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>名稱</nameFieldLabel>
 </CustomObjectTranslation>

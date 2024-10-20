@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Queue xmlns="http://soap.sforce.com/2006/04/metadata">
     <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <email>sfcustomerservicefi@lumon.com.invalid</email>
     <name>Customer Service Finland</name>
     <queueMembers>
         <publicGroups>
@@ -8,7 +9,6 @@
         </publicGroups>
         <users>
             <user>zzz_d6ebd2f3-8222-4514-a19f-0460edc0e482@deleted.com</user>
-            <user>anne.ravantti@lumon.fi</user>
             <user>antti.ranta-korpi@lumon.fi</user>
             <user>aulavantaa@lumon.fi</user>
             <user>esa.humalajoki@lumon.fi</user>

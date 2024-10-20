@@ -396,5 +396,12 @@
         <possessive>Second</possessive>
         <value>Alueiden suunnittelun datajoukkojasi</value>
     </caseValues>
+    <layouts>
+        <layout>Territory Planning Data Set Layout</layout>
+        <sections>
+            <label>Mukautetut linkit</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Nimi</nameFieldLabel>
 </CustomObjectTranslation>

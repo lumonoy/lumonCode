@@ -9,6 +9,13 @@
         <value>Configurazioni fermate riepilogo live di Maps</value>
     </caseValues>
     <gender>Feminine</gender>
+    <layouts>
+        <layout>Maps Live Summary Stop Relationship Config Layout</layout>
+        <sections>
+            <label>Link personalizzati</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Configurazione fermate riepilogo live di</nameFieldLabel>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

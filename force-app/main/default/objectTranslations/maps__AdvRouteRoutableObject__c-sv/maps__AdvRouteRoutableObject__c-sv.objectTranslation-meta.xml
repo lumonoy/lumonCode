@@ -31,5 +31,20 @@
         <value>Dirigerbara objekt i Maps Advanced-rutt</value>
     </caseValues>
     <gender>Neuter</gender>
+    <layouts>
+        <layout>Maps Advanced Route Routable Object Layout</layout>
+        <sections>
+            <label>Anpassade länkar</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Standardvärden</label>
+            <section>Default Values</section>
+        </sections>
+        <sections>
+            <label>Promofönster</label>
+            <section>Promo Windows</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Namn på dirigerbart objekt i Maps Advanc</nameFieldLabel>
 </CustomObjectTranslation>

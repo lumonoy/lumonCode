@@ -11,4 +11,8 @@
     <gender>Masculine</gender>
     <nameFieldLabel>Nome obiettivo policy di pianificazione</nameFieldLabel>
     <startsWith>Vowel</startsWith>
+    <validationRules>
+        <errorMessage><!-- Weight can&apos;t have zero value --></errorMessage>
+        <name>FSL__Not_Zero</name>
+    </validationRules>
 </CustomObjectTranslation>

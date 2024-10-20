@@ -9,5 +9,12 @@
         <value>Configuraciones de paradas de resúmenes en vivo de Maps</value>
     </caseValues>
     <gender>Feminine</gender>
+    <layouts>
+        <layout>Maps Live Summary Stop Relationship Config Layout</layout>
+        <sections>
+            <label>Vínculos personalizados</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Configuración de parada de resumen en vi</nameFieldLabel>
 </CustomObjectTranslation>

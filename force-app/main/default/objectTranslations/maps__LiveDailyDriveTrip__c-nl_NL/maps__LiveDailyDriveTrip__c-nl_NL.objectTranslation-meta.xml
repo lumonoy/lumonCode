@@ -9,5 +9,28 @@
         <value>Dagelijkse rijritten Maps Live</value>
     </caseValues>
     <gender>Feminine</gender>
+    <layouts>
+        <layout>Maps Live Daily Drive Trip Layout</layout>
+        <sections>
+            <label>Informatie start rit</label>
+            <section>Begin Trip Information</section>
+        </sections>
+        <sections>
+            <label>Aangepaste koppelingen</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Informatie einde rit</label>
+            <section>End Trip Information</section>
+        </sections>
+        <sections>
+            <label>Informatie bestuurder rit</label>
+            <section>Trip Driver Information</section>
+        </sections>
+        <sections>
+            <label>Ritinformatie</label>
+            <section>Trip Information</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Live naam dagelijkse rit Maps</nameFieldLabel>
 </CustomObjectTranslation>

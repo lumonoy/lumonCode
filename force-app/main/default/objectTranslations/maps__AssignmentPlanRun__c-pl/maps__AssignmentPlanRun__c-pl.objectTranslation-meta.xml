@@ -61,5 +61,20 @@
         <value>Uruchomieniach planu przypisania Maps</value>
     </caseValues>
     <gender>Neuter</gender>
+    <layouts>
+        <layout>Assignment Plan Run</layout>
+        <sections>
+            <label>Błędy</label>
+            <section>Errors</section>
+        </sections>
+        <sections>
+            <label>Czasy przetwarzania</label>
+            <section>Processing Times</section>
+        </sections>
+        <sections>
+            <label>Uruchom statystyki</label>
+            <section>Run Statistics</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Nazwa uruchomienia planu przypisania Map</nameFieldLabel>
 </CustomObjectTranslation>

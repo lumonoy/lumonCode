@@ -49,5 +49,28 @@
         <value>Setărilor utilizator</value>
     </caseValues>
     <gender>Feminine</gender>
+    <layouts>
+        <layout>User Setting Layout</layout>
+        <sections>
+            <label>Filtre personalizate</label>
+            <section>Custom Filters</section>
+        </sections>
+        <sections>
+            <label>Linkuri personalizate</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Preferințe Gantt</label>
+            <section>Gantt Preferences</section>
+        </sections>
+        <sections>
+            <label>Preferințe glisare și fixare NA</label>
+            <section>NA Drag&amp;Drop Preferences</section>
+        </sections>
+        <sections>
+            <label>Preferințe listă de servicii</label>
+            <section>Service List Prefernces</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Nume setare utilizator</nameFieldLabel>
 </CustomObjectTranslation>

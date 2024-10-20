@@ -4,5 +4,16 @@
         <plural>false</plural>
         <value>Maps Advanced ルートオフ日数</value>
     </caseValues>
+    <layouts>
+        <layout>Maps Advanced Route Off Days Layout</layout>
+        <sections>
+            <label>カスタムリンク</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>日付の範囲</label>
+            <section>Date Range</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Maps Advanced ルート非勤務日名</nameFieldLabel>
 </CustomObjectTranslation>

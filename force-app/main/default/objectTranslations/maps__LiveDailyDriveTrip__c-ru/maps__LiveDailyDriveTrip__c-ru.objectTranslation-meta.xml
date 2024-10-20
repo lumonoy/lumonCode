@@ -61,5 +61,28 @@
         <value>Поездках динамической ежедневной поездки</value>
     </caseValues>
     <gender>Feminine</gender>
+    <layouts>
+        <layout>Maps Live Daily Drive Trip Layout</layout>
+        <sections>
+            <label>Сведения о начале поездки</label>
+            <section>Begin Trip Information</section>
+        </sections>
+        <sections>
+            <label>Настраиваемые ссылки</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Сведения об окончании поездки</label>
+            <section>End Trip Information</section>
+        </sections>
+        <sections>
+            <label>Сведения о водителе поездки</label>
+            <section>Trip Driver Information</section>
+        </sections>
+        <sections>
+            <label>Сведения о поездке</label>
+            <section>Trip Information</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Имя ежедневной поездки динамического пут</nameFieldLabel>
 </CustomObjectTranslation>

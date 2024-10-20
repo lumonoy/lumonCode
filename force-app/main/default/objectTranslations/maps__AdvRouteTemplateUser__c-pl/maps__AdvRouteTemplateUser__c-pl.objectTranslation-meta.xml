@@ -61,5 +61,32 @@
         <value>Użytkownikach szablonu Zaawansowanych tras Maps</value>
     </caseValues>
     <gender>Masculine</gender>
+    <layouts>
+        <layout>Maps Advanced Route Template User Layout</layout>
+        <sections>
+            <label>Aktualne informacje przetwarzania</label>
+            <section>Current Processing Info</section>
+        </sections>
+        <sections>
+            <label>Linki niestandardowe</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Niepowodzenia zadań</label>
+            <section>Job Failures</section>
+        </sections>
+        <sections>
+            <label>Informacje o ponownym uruchomieniu przetwarzania</label>
+            <section>Restart Process Info</section>
+        </sections>
+        <sections>
+            <label>Ponowna optymalizacja tego samego dnia</label>
+            <section>Same Day Reoptimization</section>
+        </sections>
+        <sections>
+            <label>Informacje o użytkowniku</label>
+            <section>User Info</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Nazwa użytkownika szablonu tras Maps Adv</nameFieldLabel>
 </CustomObjectTranslation>

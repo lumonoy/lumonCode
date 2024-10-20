@@ -9,5 +9,12 @@
         <value>Territórios de utilizador</value>
     </caseValues>
     <gender>Masculine</gender>
+    <layouts>
+        <layout>User Territory Layout</layout>
+        <sections>
+            <label>Ligações personalizadas</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Número do território do utilizador</nameFieldLabel>
 </CustomObjectTranslation>

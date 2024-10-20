@@ -9,5 +9,32 @@
         <value>Eventos de resúmenes diarios de activos en vivo de Maps</value>
     </caseValues>
     <gender>Masculine</gender>
+    <layouts>
+        <layout>Maps Live Asset Daily Summary Event Layout</layout>
+        <sections>
+            <label>Dirección</label>
+            <section>Address</section>
+        </sections>
+        <sections>
+            <label>Vínculos personalizados</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Duración</label>
+            <section>Duration</section>
+        </sections>
+        <sections>
+            <label>Dirección de finalización</label>
+            <section>End Address</section>
+        </sections>
+        <sections>
+            <label>Ubicación</label>
+            <section>Location</section>
+        </sections>
+        <sections>
+            <label>Velocidad</label>
+            <section>Speed</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Nombre de evento de resumen diario de ac</nameFieldLabel>
 </CustomObjectTranslation>

@@ -9,5 +9,20 @@
         <value>Uitvoering toewijzingsplannen Maps</value>
     </caseValues>
     <gender>Feminine</gender>
+    <layouts>
+        <layout>Assignment Plan Run</layout>
+        <sections>
+            <label>Fouten</label>
+            <section>Errors</section>
+        </sections>
+        <sections>
+            <label>Verwerkingstijden</label>
+            <section>Processing Times</section>
+        </sections>
+        <sections>
+            <label>Uitvoeringsstatistieken</label>
+            <section>Run Statistics</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Naam uitvoeren toewijzingsplan Maps</nameFieldLabel>
 </CustomObjectTranslation>

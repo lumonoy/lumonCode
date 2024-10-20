@@ -41,5 +41,12 @@
         <value>Getriggerten Versandausführungen</value>
     </caseValues>
     <gender>Feminine</gender>
+    <layouts>
+        <layout>Triggered Send Execution Layout</layout>
+        <sections>
+            <label>Benutzerdefinierte Links</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Name der Ausführung des getriggerten Ver</nameFieldLabel>
 </CustomObjectTranslation>

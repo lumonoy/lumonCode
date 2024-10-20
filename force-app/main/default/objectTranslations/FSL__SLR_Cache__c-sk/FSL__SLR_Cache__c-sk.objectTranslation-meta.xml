@@ -61,5 +61,12 @@
         <value>Vyrovnávacích pamätiach SLR</value>
     </caseValues>
     <gender>Feminine</gender>
+    <layouts>
+        <layout>SLR Cache Layout</layout>
+        <sections>
+            <label>Vlastné odkazy</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Číslo vyrovnávacej pamäte SLR</nameFieldLabel>
 </CustomObjectTranslation>

@@ -15,7 +15,6 @@
     <permissionSets>cadmus_core__PDF_Butler_User</permissionSets>
     <permissionSets>cadmus_sign2__SIGN_Butler_User</permissionSets>
     <permissionSets>force__SalesUserPsl</permissionSets>
-    <permissionSets>force__StandardEinsteinActivityCapturePsl</permissionSets>
     <permissionSets>maps__MapsUser</permissionSets>
     <status>Updated</status>
 </PermissionSetGroup>

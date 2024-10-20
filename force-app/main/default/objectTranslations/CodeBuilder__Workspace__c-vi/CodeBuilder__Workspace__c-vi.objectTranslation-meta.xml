@@ -8,5 +8,16 @@
         <plural>true</plural>
         <value><!-- Môi Trường --></value>
     </caseValues>
+    <layouts>
+        <layout>Workspace Layout</layout>
+        <sections>
+            <label>Các Liên Kết Tùy Thích</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel><!-- Environment Name --></nameFieldLabel>
+    <validationRules>
+        <errorMessage><!-- Workspace name cannot be changed --></errorMessage>
+        <name>CodeBuilder__CannotChangeWorkspaceName</name>
+    </validationRules>
 </CustomObjectTranslation>

@@ -31,5 +31,12 @@
         <value>Maps Advanced Route-forespørgselsfiltre</value>
     </caseValues>
     <gender>Neuter</gender>
+    <layouts>
+        <layout>Maps Advanced Route Query Filter Layout</layout>
+        <sections>
+            <label>Tilpassede links</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Maps Advanced Route-forespørgselsfiltern</nameFieldLabel>
 </CustomObjectTranslation>

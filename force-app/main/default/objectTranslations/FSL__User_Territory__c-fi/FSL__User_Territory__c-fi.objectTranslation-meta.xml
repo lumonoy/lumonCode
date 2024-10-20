@@ -396,5 +396,12 @@
         <possessive>Second</possessive>
         <value>Käyttäjäalueitasi</value>
     </caseValues>
+    <layouts>
+        <layout>User Territory Layout</layout>
+        <sections>
+            <label>Mukautetut linkit</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Käyttäjän alueen numero</nameFieldLabel>
 </CustomObjectTranslation>

@@ -396,5 +396,20 @@
         <possessive>Second</possessive>
         <value>Maps: Edistyneitä reittejäsi</value>
     </caseValues>
+    <layouts>
+        <layout>Maps Advanced Route Layout</layout>
+        <sections>
+            <label>Mukautetut linkit</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Suorituskykytiedot</label>
+            <section>Performance Data</section>
+        </sections>
+        <sections>
+            <label>Reitityksen päivämäärä/aika</label>
+            <section>Route Date/Time</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Maps: Edistyneen reitityksen nimi</nameFieldLabel>
 </CustomObjectTranslation>

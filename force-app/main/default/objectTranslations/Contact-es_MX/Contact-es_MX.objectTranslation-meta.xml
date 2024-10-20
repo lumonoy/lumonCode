@@ -8,6 +8,10 @@
         <label><!-- Tree Grid Fields --></label>
         <name>Tree_Grid_Fields</name>
     </fieldSets>
+    <quickActions>
+        <label><!-- View Contact --></label>
+        <name>ViewContact</name>
+    </quickActions>
     <webLinks>
         <label><!-- GoogleMaps --></label>
         <name>GoogleMaps</name>

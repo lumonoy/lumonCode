@@ -124,6 +124,10 @@
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>TS</controllingFieldValue>
+            <valueName>TS_CAL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TS</controllingFieldValue>
             <valueName>TS_INT</valueName>
         </valueSettings>
         <valueSettings>

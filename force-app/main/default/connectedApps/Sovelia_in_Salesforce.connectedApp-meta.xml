@@ -9,21 +9,20 @@
     <contactEmail>hendrikus.reynders@lumon.com</contactEmail>
     <description>Sovelia Configurator</description>
     <label>Sovelia in Salesforce</label>
-    <logoUrl>https://lumonoy.file.force.com/servlet/servlet.ImageServer?id=015Vk000000G1pl&amp;oid=00D7Q000004wLjJ</logoUrl>
+    <logoUrl>https://lumonoy.file.force.com/servlet/servlet.ImageServer?id=015Vk000000G1pl&amp;oid=00DJW000007YB3R</logoUrl>
     <oauthConfig>
         <callbackUrl>https://az-soveliaprod.lumon.fi/sflogin
 https://localhost:8173/sflogin</callbackUrl>
-        <consumerKey>3MVG9t0sl2P.pByrLwCwb9N4jyTC9qBvy8FTMjmEnREsKfAZryWwgh1FkO3S1LzpjgsEl89fPvQVs973atCFG</consumerKey>
+        <consumerKey>3MVG9vYM8JyKwjKZgAVemvVnasXNUzOYC4a1fKtfT7ZISFOicpIJtWUxe4HNZHgqhu3rXzud2dxaBeNprGoiE</consumerKey>
         <isAdminApproved>true</isAdminApproved>
-        <isClientCredentialEnabled>true</isClientCredentialEnabled>
-        <isCodeCredentialEnabled>true</isCodeCredentialEnabled>
-        <isCodeCredentialPostOnly>true</isCodeCredentialPostOnly>
+        <isClientCredentialEnabled>false</isClientCredentialEnabled>
+        <isCodeCredentialEnabled>false</isCodeCredentialEnabled>
+        <isCodeCredentialPostOnly>false</isCodeCredentialPostOnly>
         <isConsumerSecretOptional>false</isConsumerSecretOptional>
         <isIntrospectAllTokens>false</isIntrospectAllTokens>
         <isNamedUserJwtEnabled>false</isNamedUserJwtEnabled>
         <isPkceRequired>false</isPkceRequired>
         <isSecretRequiredForRefreshToken>false</isSecretRequiredForRefreshToken>
-        <oauthClientCredentialUser>sovelia@lumon.com</oauthClientCredentialUser>
         <scopes>Api</scopes>
         <scopes>Web</scopes>
     </oauthConfig>

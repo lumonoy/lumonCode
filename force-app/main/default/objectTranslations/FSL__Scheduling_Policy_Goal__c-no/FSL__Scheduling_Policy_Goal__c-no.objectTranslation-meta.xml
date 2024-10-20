@@ -32,4 +32,8 @@
     </caseValues>
     <gender>Neuter</gender>
     <nameFieldLabel>Navn på planleggingspolicymål</nameFieldLabel>
+    <validationRules>
+        <errorMessage><!-- Weight can&apos;t have zero value --></errorMessage>
+        <name>FSL__Not_Zero</name>
+    </validationRules>
 </CustomObjectTranslation>

@@ -9,5 +9,16 @@
         <value>Uitvoertypen route Maps Advanced</value>
     </caseValues>
     <gender>Neuter</gender>
+    <layouts>
+        <layout>Maps Advanced Route Output Type Layout</layout>
+        <sections>
+            <label>Aangepaste koppelingen</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Veldtoewijzingen</label>
+            <section>Field Mappings</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Naam uitvoertype route Maps Advanced</nameFieldLabel>
 </CustomObjectTranslation>

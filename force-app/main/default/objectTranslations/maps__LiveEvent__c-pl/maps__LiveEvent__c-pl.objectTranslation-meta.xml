@@ -61,5 +61,12 @@
         <value>Zdarzeniach Maps Live</value>
     </caseValues>
     <gender>Neuter</gender>
+    <layouts>
+        <layout>Maps Live Event Layout</layout>
+        <sections>
+            <label>Linki niestandardowe</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Nazwa zdarzenia Maps na żywo</nameFieldLabel>
 </CustomObjectTranslation>

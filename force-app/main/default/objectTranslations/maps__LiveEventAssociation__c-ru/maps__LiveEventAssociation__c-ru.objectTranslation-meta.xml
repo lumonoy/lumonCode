@@ -61,5 +61,12 @@
         <value>Связях динамического события Maps</value>
     </caseValues>
     <gender>Feminine</gender>
+    <layouts>
+        <layout>Maps Live Event Association Layout</layout>
+        <sections>
+            <label>Настраиваемые ссылки</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Имя связи динамического события Maps</nameFieldLabel>
 </CustomObjectTranslation>

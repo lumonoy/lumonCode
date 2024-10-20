@@ -41,5 +41,12 @@
         <value>Maps Advanced-Standardwerten</value>
     </caseValues>
     <gender>Masculine</gender>
+    <layouts>
+        <layout>Maps Advanced Default Value Layout</layout>
+        <sections>
+            <label>Benutzerdefinierte Links</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Maps Advanced-Standardwertname</nameFieldLabel>
 </CustomObjectTranslation>

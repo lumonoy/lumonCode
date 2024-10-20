@@ -31,5 +31,40 @@
         <value>Ruttdataset för Maps Advanced</value>
     </caseValues>
     <gender>Feminine</gender>
+    <layouts>
+        <layout>Maps Advanced Route Data Set Layout</layout>
+        <sections>
+            <label>Basobjekt</label>
+            <section>Base Object</section>
+        </sections>
+        <sections>
+            <label>Genomförda besök</label>
+            <section>Completed Visits</section>
+        </sections>
+        <sections>
+            <label>Anpassade länkar</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Diverse</label>
+            <section>Misc</section>
+        </sections>
+        <sections>
+            <label>Utdata och framtida besök</label>
+            <section>Output and Future Visits</section>
+        </sections>
+        <sections>
+            <label>Verktygstips</label>
+            <section>Tooltips</section>
+        </sections>
+        <sections>
+            <label>Besöksfrekvens</label>
+            <section>Visit Frequency</section>
+        </sections>
+        <sections>
+            <label>Besöksfönster</label>
+            <section>Visit Windows</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Namn på ruttdataset för Maps Advanced</nameFieldLabel>
 </CustomObjectTranslation>

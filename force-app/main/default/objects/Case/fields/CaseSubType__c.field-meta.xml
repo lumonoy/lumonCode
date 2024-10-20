@@ -381,11 +381,51 @@
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>TS_TQ</controllingFieldValue>
+            <valueName>TS_TQ_Blinds</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TS_TQ</controllingFieldValue>
+            <valueName>TS_TQ_Components</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TS_TQ</controllingFieldValue>
+            <valueName>TS_TQ_LGR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TS_TQ</controllingFieldValue>
+            <valueName>TS_TQ_LGS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TS_TQ</controllingFieldValue>
+            <valueName>LGR(new)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TS_TQ</controllingFieldValue>
+            <valueName>LGS(new)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TS_TQ</controllingFieldValue>
+            <valueName>Offer planning consumer(new)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TS_TQ</controllingFieldValue>
+            <valueName>Offer planning projects(new)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TS_TQ</controllingFieldValue>
+            <valueName>TS_TQ_Old_Products</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TS_TQ</controllingFieldValue>
             <valueName>Question</valueName>
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>TS_TQ</controllingFieldValue>
             <valueName>TS_TQ_RedLine</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TS_TQ</controllingFieldValue>
+            <valueName>Software(new)</valueName>
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>IT_ORD</controllingFieldValue>
@@ -418,6 +458,10 @@
         <valueSettings>
             <controllingFieldValue>IT_ORD</controllingFieldValue>
             <valueName>IT_ORD_Licenses</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IT_ORD</controllingFieldValue>
+            <valueName>Phones</valueName>
         </valueSettings>
     </valueSet>
 </CustomField>

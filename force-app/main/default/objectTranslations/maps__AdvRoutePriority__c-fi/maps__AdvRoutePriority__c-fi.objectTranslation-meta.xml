@@ -396,5 +396,16 @@
         <possessive>Second</possessive>
         <value>Maps: Edistyneen reitityksen prioriteettejäsi</value>
     </caseValues>
+    <layouts>
+        <layout>Maps Advanced Route Priority Layout</layout>
+        <sections>
+            <label>Mukautetut linkit</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Suodattimet</label>
+            <section>Filters</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Maps: Edistyneen reitityksen prioriteeti</nameFieldLabel>
 </CustomObjectTranslation>

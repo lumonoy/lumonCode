@@ -5,7 +5,9 @@
     <label>Lumon System Admin</label>
     <mutingPermissionSets>Lumon_Super_Admin_Muted</mutingPermissionSets>
     <permissionSets>AdminAppPermissions</permissionSets>
+    <permissionSets>AdminCaseHandlingPermissions</permissionSets>
     <permissionSets>AdminCustomPermission</permissionSets>
+    <permissionSets>AdminEmailToCaseRoutingPermissions</permissionSets>
     <permissionSets>AdminObjectandFieldPermissions</permissionSets>
     <permissionSets>AdminPDFButlerPermissions</permissionSets>
     <permissionSets>CustomPermissions</permissionSets>

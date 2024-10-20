@@ -9,5 +9,12 @@
         <value>Територии на потребителя</value>
     </caseValues>
     <gender>Feminine</gender>
+    <layouts>
+        <layout>User Territory Layout</layout>
+        <sections>
+            <label>Персонализирани връзки</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Номер на територия на потребител</nameFieldLabel>
 </CustomObjectTranslation>

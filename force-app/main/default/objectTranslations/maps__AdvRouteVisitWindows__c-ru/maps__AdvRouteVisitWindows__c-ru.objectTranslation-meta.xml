@@ -61,5 +61,44 @@
         <value>Окнах посещения маршрута Maps Advanced</value>
     </caseValues>
     <gender>Neuter</gender>
+    <layouts>
+        <layout>Maps Advanced Route Visit Windows Layout</layout>
+        <sections>
+            <label>Настраиваемые ссылки</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Пятница</label>
+            <section>Friday</section>
+        </sections>
+        <sections>
+            <label>Понедельник</label>
+            <section>Monday</section>
+        </sections>
+        <sections>
+            <label>Суббота</label>
+            <section>Saturday</section>
+        </sections>
+        <sections>
+            <label>Воскресенье</label>
+            <section>Sunday</section>
+        </sections>
+        <sections>
+            <label>Четверг</label>
+            <section>Thursday</section>
+        </sections>
+        <sections>
+            <label>Вторник</label>
+            <section>Tuesday</section>
+        </sections>
+        <sections>
+            <label>Допустимые дни/даты</label>
+            <section>Valid Days/Dates</section>
+        </sections>
+        <sections>
+            <label>Среда</label>
+            <section>Wednesday</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Имя окон посещения маршрута Maps Advance</nameFieldLabel>
 </CustomObjectTranslation>

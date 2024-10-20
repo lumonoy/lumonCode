@@ -4,5 +4,12 @@
         <plural>false</plural>
         <value>設定</value>
     </caseValues>
+    <layouts>
+        <layout>Configuration Layout</layout>
+        <sections>
+            <label>カスタムリンク</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>設定番号</nameFieldLabel>
 </CustomObjectTranslation>

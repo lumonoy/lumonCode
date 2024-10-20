@@ -31,5 +31,28 @@
         <value>Brukerinnstillinger</value>
     </caseValues>
     <gender>Masculine</gender>
+    <layouts>
+        <layout>User Setting Layout</layout>
+        <sections>
+            <label>Tilpassede filtre</label>
+            <section>Custom Filters</section>
+        </sections>
+        <sections>
+            <label>Tilpassede lenker</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Gantt-preferanser</label>
+            <section>Gantt Preferences</section>
+        </sections>
+        <sections>
+            <label>NA Dra-og-slipp-preferanser</label>
+            <section>NA Drag&amp;Drop Preferences</section>
+        </sections>
+        <sections>
+            <label>Tjenestelistepreferanser</label>
+            <section>Service List Prefernces</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Navn på brukerinnstilling</nameFieldLabel>
 </CustomObjectTranslation>

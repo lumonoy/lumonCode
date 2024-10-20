@@ -61,5 +61,20 @@
         <value>Выполнении планов назначения Maps</value>
     </caseValues>
     <gender>Neuter</gender>
+    <layouts>
+        <layout>Assignment Plan Run</layout>
+        <sections>
+            <label>Ошибки</label>
+            <section>Errors</section>
+        </sections>
+        <sections>
+            <label>Времена обработки</label>
+            <section>Processing Times</section>
+        </sections>
+        <sections>
+            <label>Выполнить статистику</label>
+            <section>Run Statistics</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Имя выполнения плана назначения Maps</nameFieldLabel>
 </CustomObjectTranslation>

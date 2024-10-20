@@ -49,5 +49,12 @@
         <value>Teritoriilor utilizator</value>
     </caseValues>
     <gender>Neuter</gender>
+    <layouts>
+        <layout>User Territory Layout</layout>
+        <sections>
+            <label>Linkuri personalizate</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Numărul teritoriul utilizatorului</nameFieldLabel>
 </CustomObjectTranslation>

@@ -61,5 +61,16 @@
         <value>Конфигурациях рекламного периода Maps Advanced</value>
     </caseValues>
     <gender>Feminine</gender>
+    <layouts>
+        <layout>Maps Advanced Promotional Period Config Layout</layout>
+        <sections>
+            <label>Настраиваемые ссылки</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Значения по умолчанию</label>
+            <section>Default Values</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Имя конфигурации рекламного периода Maps</nameFieldLabel>
 </CustomObjectTranslation>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <description>Información precio HS y juntas</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Lumon_Email_Letterhead</letterhead>
+    <name>Info precio HS y juntas</name>
+    <style>freeForm</style>
+    <subject>Información precio HS y juntas</subject>
+    <textOnly>Estimado cliente,
+
+
+
+Tras la conversación mantenida le remitimos toda la información del precio de las juntas:
+
+
+
+-  - H entrecristal: 15,00€/unidad (IVA incluido).
+
+-  - Junta terminal: Es la junta que se coloca entre el perfil y la pared.   Precio: 20,00€/unidad.
+
+-  - H de esquina: Se coloca en caso de existir un ángulo de 90 grados. Precio: 20,00€/unidad.
+
+
+
+En caso de estar interesado, le enviaríamos un presupuesto incluyendo los gastos de envío para, una vez abonado, realizar el pedido a almacén.
+
+
+
+Si quiere realizar la compra, por favor, indíquenos los datos a los que debemos emitir la factura y el posterior presupuesto (nombre completo, DNI o CIF, dirección de envío y dirección de facturación si la hubiese).
+
+
+
+Si lo desea, también podrá cursar su pedido entrando en nuestra tienda online: https://shop.lumon.com/es/accesorios.html
+
+
+
+Quedamos a la espera de su respuesta.
+
+
+
+
+
+Reciba un cordial saludo.
+
+
+
+Atención al cliente
+atencion.cliente@lumon.com
+
+
+
+Lumon Cristales España, S.L.
+
++34952173823
+www.lumon.com
+
+
+
+
+Este mensaje contiene información confidencial, por lo que está totalmente prohibida cualquier utilización, divulgación, distribución y/o reproducción de esta comunicación sin autorización expresa. Asimismo le informamos que podrá ejercitar sus derechos de conformidad con el REGLAMENTO (UE) 2016/679 DEL PARLAMENTO EUROPEO Y DEL CONSEJO de 27 de abril de 2016 en la forma determinada en el siguiente enlace</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -61,5 +61,12 @@
         <value>Przypisaniach zdarzeń Maps Live</value>
     </caseValues>
     <gender>Neuter</gender>
+    <layouts>
+        <layout>Maps Live Event Association Layout</layout>
+        <sections>
+            <label>Linki niestandardowe</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Nazwa przypisania zdarzeń Maps na żywo</nameFieldLabel>
 </CustomObjectTranslation>

@@ -61,5 +61,12 @@
         <value>Korisničkim teritorijima</value>
     </caseValues>
     <gender>Masculine</gender>
+    <layouts>
+        <layout>User Territory Layout</layout>
+        <sections>
+            <label>Prilagođene poveznice</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Broj područja korisnika</nameFieldLabel>
 </CustomObjectTranslation>

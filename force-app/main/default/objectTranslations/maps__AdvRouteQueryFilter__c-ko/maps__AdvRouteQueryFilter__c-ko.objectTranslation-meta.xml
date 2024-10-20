@@ -4,5 +4,12 @@
         <plural>false</plural>
         <value>Maps Advanced Route 쿼리 필터</value>
     </caseValues>
+    <layouts>
+        <layout>Maps Advanced Route Query Filter Layout</layout>
+        <sections>
+            <label>사용자 정의 링크</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Maps Advanced Route 쿼리 필터 이름</nameFieldLabel>
 </CustomObjectTranslation>

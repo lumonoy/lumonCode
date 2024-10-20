@@ -4,5 +4,128 @@
         <plural>false</plural>
         <value>データソース</value>
     </caseValues>
+    <layouts>
+        <layout>Data Source KEY/VALUE Layout v2.0</layout>
+        <sections>
+            <label>子データソースの設定</label>
+            <section>Child Data Source Settings</section>
+        </sections>
+        <sections>
+            <label>カスタムリンク</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>一般</label>
+            <section>General</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Data Source PICTURE LIST Layout</layout>
+        <sections>
+            <label>子データソースの設定</label>
+            <section>Child Data Source Settings</section>
+        </sections>
+        <sections>
+            <label>カスタムリンク</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>一般</label>
+            <section>General</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Data Source Report Layout v2.0</layout>
+        <sections>
+            <label>カスタムリンク</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>一般</label>
+            <section>General</section>
+        </sections>
+        <sections>
+            <label>レポートデータソースの設定</label>
+            <section>Report Data Source Settings</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Data Source SOQL Layout v2.0</layout>
+        <sections>
+            <label>子データソースの設定</label>
+            <section>Child Data Source Settings</section>
+        </sections>
+        <sections>
+            <label>カスタムリンク</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>一般</label>
+            <section>General</section>
+        </sections>
+        <sections>
+            <label>クエリ設定</label>
+            <section>Query Settings</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Data Source STATIC VALUES Layout v1.0</layout>
+        <sections>
+            <label>カスタムリンク</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>一般</label>
+            <section>General</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Data Source TRANSLATION PICKLIST Layout</layout>
+        <sections>
+            <label>カスタムリンク</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>フィールド</label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label>システム情報</label>
+            <section>System Info</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>データソース名</nameFieldLabel>
+    <quickActions>
+        <label><!-- SOQL Builder --></label>
+        <name>cadmus_core__SOQL_Builder</name>
+    </quickActions>
+    <recordTypes>
+        <label><!-- KEYVALUE --></label>
+        <name>cadmus_core__KEYVALUE</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- PICKLIST TRANSLATION --></label>
+        <name>cadmus_core__PICKLIST_TRANSLATION</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Type for adding sending dynamic pictures to PDF Butler --></description>
+        <label><!-- PICTURE LIST --></label>
+        <name>cadmus_core__PICTURE_LIST</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- REPORT --></label>
+        <name>cadmus_core__REPORT</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- SOQL --></label>
+        <name>cadmus_core__SOQL</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- STATIC VALUES --></label>
+        <name>cadmus_core__STATIC_VALUES</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- Please select a valid RecordType. If none are presented, make sure you have done step 1 and 2 of the &quot;Get Started&quot; tab. The permissions on the Data Source SObject are not correct and you must grant access to the Record Types. --></errorMessage>
+        <name>cadmus_core__RecordTypeCannotBeNull</name>
+    </validationRules>
 </CustomObjectTranslation>

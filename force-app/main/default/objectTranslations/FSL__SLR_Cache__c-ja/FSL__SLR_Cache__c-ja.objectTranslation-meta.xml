@@ -4,5 +4,12 @@
         <plural>false</plural>
         <value>SLR キャッシュ</value>
     </caseValues>
+    <layouts>
+        <layout>SLR Cache Layout</layout>
+        <sections>
+            <label>カスタムリンク</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>SLR キャッシュ番号</nameFieldLabel>
 </CustomObjectTranslation>

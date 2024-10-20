@@ -396,5 +396,20 @@
         <possessive>Second</possessive>
         <value>Maps: Live-kuljettajiasi</value>
     </caseValues>
+    <layouts>
+        <layout>Maps Live Driver Layout</layout>
+        <sections>
+            <label>Osoite</label>
+            <section>Address</section>
+        </sections>
+        <sections>
+            <label>Mukautetut linkit</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Kuljettajan telematiikkahälytykset</label>
+            <section>Driver Telematics Alerts</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Maps: live-kuljettajan nimi</nameFieldLabel>
 </CustomObjectTranslation>

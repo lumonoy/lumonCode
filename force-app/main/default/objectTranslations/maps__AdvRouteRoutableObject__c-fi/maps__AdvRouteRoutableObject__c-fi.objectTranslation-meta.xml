@@ -396,5 +396,20 @@
         <possessive>Second</possessive>
         <value>Maps: Edistyneen reitityksen reititettäviä objektejasi</value>
     </caseValues>
+    <layouts>
+        <layout>Maps Advanced Route Routable Object Layout</layout>
+        <sections>
+            <label>Mukautetut linkit</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Oletusarvot</label>
+            <section>Default Values</section>
+        </sections>
+        <sections>
+            <label>Mainosjaksot</label>
+            <section>Promo Windows</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Maps: Edistyneen reitityksen reititettäv</nameFieldLabel>
 </CustomObjectTranslation>

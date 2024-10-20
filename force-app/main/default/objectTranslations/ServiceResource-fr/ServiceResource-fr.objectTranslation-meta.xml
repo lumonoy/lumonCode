@@ -21,6 +21,17 @@
         <name>FSL__Resource_Lightbox</name>
     </fieldSets>
     <layouts>
+        <layout>FSL Service Resource Layout</layout>
+        <sections>
+            <label>Vues de ressource</label>
+            <section>Resource Views</section>
+        </sections>
+        <sections>
+            <label>VFS</label>
+            <section>VFS</section>
+        </sections>
+    </layouts>
+    <layouts>
         <layout>Lumon Installation Manager Service Resource Layout</layout>
         <sections>
             <label><!-- Resource Calendar --></label>

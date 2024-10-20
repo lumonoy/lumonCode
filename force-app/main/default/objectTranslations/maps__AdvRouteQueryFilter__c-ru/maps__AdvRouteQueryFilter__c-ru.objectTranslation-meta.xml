@@ -61,5 +61,12 @@
         <value>Фильтрах запроса маршрута Maps Advanced</value>
     </caseValues>
     <gender>Masculine</gender>
+    <layouts>
+        <layout>Maps Advanced Route Query Filter Layout</layout>
+        <sections>
+            <label>Настраиваемые ссылки</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Имя фильтра запроса маршрута Maps Advanc</nameFieldLabel>
 </CustomObjectTranslation>

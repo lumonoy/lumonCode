@@ -9,5 +9,24 @@
         <value>Configuraties dagelijkse overzicht Maps Live</value>
     </caseValues>
     <gender>Feminine</gender>
+    <layouts>
+        <layout>Maps Live Daily Summary Configuration Layout</layout>
+        <sections>
+            <label>Aangepaste koppelingen</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Laatste batch</label>
+            <section>Last Batch</section>
+        </sections>
+        <sections>
+            <label>Gerelateerd aan te hard rijden</label>
+            <section>Speeding Related</section>
+        </sections>
+        <sections>
+            <label>Gerelateerd aan stop</label>
+            <section>Stop Related</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Naam configuratie dagelijks live overzic</nameFieldLabel>
 </CustomObjectTranslation>

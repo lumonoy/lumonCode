@@ -61,5 +61,12 @@
         <value>Динамических активах Maps</value>
     </caseValues>
     <gender>Masculine</gender>
+    <layouts>
+        <layout>Maps Live Asset Layout</layout>
+        <sections>
+            <label>Настраиваемые ссылки</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Имя актива динамических карт</nameFieldLabel>
 </CustomObjectTranslation>

@@ -4,5 +4,12 @@
         <plural>false</plural>
         <value>地图实时摘要停止配置</value>
     </caseValues>
+    <layouts>
+        <layout>Maps Live Summary Stop Relationship Config Layout</layout>
+        <sections>
+            <label>自定义链接</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>地图实时摘要停止配置</nameFieldLabel>
 </CustomObjectTranslation>

@@ -8,5 +8,20 @@
         <plural>true</plural>
         <value>Permintaan Pengoptimalan</value>
     </caseValues>
+    <layouts>
+        <layout>Optimization Request Layout</layout>
+        <sections>
+            <label>Tautan Suai</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Nomor Permintaan Pengoptimalan</nameFieldLabel>
+    <sharingReasons>
+        <label><!-- Related Service Territory --></label>
+        <name>FSL__Related_Service_Territory</name>
+    </sharingReasons>
+    <sharingReasons>
+        <label><!-- Related Service Territory Member --></label>
+        <name>FSL__Related_Service_Territory_Member</name>
+    </sharingReasons>
 </CustomObjectTranslation>

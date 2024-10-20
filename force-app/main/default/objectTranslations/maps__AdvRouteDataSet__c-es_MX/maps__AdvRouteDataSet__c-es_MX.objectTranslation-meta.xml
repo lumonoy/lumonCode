@@ -9,5 +9,40 @@
         <value>Conjuntos de datos de Rutas de Maps Advanced</value>
     </caseValues>
     <gender>Masculine</gender>
+    <layouts>
+        <layout>Maps Advanced Route Data Set Layout</layout>
+        <sections>
+            <label>Objeto base</label>
+            <section>Base Object</section>
+        </sections>
+        <sections>
+            <label>Visitas completadas</label>
+            <section>Completed Visits</section>
+        </sections>
+        <sections>
+            <label>Vínculos personalizados</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Miscelánea</label>
+            <section>Misc</section>
+        </sections>
+        <sections>
+            <label>Visitas de salida y futuras</label>
+            <section>Output and Future Visits</section>
+        </sections>
+        <sections>
+            <label>Sugerencias de herramientas</label>
+            <section>Tooltips</section>
+        </sections>
+        <sections>
+            <label>Frecuencia de visita</label>
+            <section>Visit Frequency</section>
+        </sections>
+        <sections>
+            <label>Plazos de visita</label>
+            <section>Visit Windows</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Nombre de conjunto de datos de Ruta de M</nameFieldLabel>
 </CustomObjectTranslation>

@@ -31,5 +31,12 @@
         <value>Grupper av sökfrågefilter för Maps Advanced-rutt</value>
     </caseValues>
     <gender>Feminine</gender>
+    <layouts>
+        <layout>Maps Advanced Route Query Filter Group Layout</layout>
+        <sections>
+            <label>Anpassade länkar</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Gruppnamn på sökfrågefilter för Maps Adv</nameFieldLabel>
 </CustomObjectTranslation>

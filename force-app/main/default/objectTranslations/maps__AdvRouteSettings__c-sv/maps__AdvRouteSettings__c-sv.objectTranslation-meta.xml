@@ -31,5 +31,12 @@
         <value>Inställningar för Maps Advanced-rutt</value>
     </caseValues>
     <gender>Feminine</gender>
+    <layouts>
+        <layout>Maps Advanced Route Settings Layout</layout>
+        <sections>
+            <label>Anpassade länkar</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Namn på ruttinställningar i Maps Advance</nameFieldLabel>
 </CustomObjectTranslation>

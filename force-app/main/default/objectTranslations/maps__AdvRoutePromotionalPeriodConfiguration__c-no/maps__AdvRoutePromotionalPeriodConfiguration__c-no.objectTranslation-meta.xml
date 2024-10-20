@@ -31,5 +31,16 @@
         <value>Konfigurasjoner av promoteringsperiode i Maps Advanced</value>
     </caseValues>
     <gender>Masculine</gender>
+    <layouts>
+        <layout>Maps Advanced Promotional Period Config Layout</layout>
+        <sections>
+            <label>Tilpassede lenker</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Standardverdier</label>
+            <section>Default Values</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Navn på konfigurasjon av promoteringsper</nameFieldLabel>
 </CustomObjectTranslation>

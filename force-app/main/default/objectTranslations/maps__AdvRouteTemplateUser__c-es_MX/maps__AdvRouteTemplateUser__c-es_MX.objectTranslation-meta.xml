@@ -9,5 +9,32 @@
         <value>Usuarios de plantillas de Rutas de Maps Advanced</value>
     </caseValues>
     <gender>Masculine</gender>
+    <layouts>
+        <layout>Maps Advanced Route Template User Layout</layout>
+        <sections>
+            <label>Información de procesamiento actual</label>
+            <section>Current Processing Info</section>
+        </sections>
+        <sections>
+            <label>Vínculos personalizados</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Fallos de trabajos</label>
+            <section>Job Failures</section>
+        </sections>
+        <sections>
+            <label>Reiniciar información de procesamiento</label>
+            <section>Restart Process Info</section>
+        </sections>
+        <sections>
+            <label>Reoptimización del mismo día</label>
+            <section>Same Day Reoptimization</section>
+        </sections>
+        <sections>
+            <label>Información de usuario</label>
+            <section>User Info</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Nombre de Usuario de plantilla de Ruta d</nameFieldLabel>
 </CustomObjectTranslation>

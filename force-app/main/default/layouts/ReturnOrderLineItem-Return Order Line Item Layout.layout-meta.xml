@@ -168,21 +168,6 @@
         <relatedList>WorkOrderLineItems</relatedList>
     </relatedLists>
     <relatedLists>
-        <fields>Name</fields>
-        <fields>Type</fields>
-        <fields>Amount</fields>
-        <fields>Rate</fields>
-        <fields>TaxEffectiveDate</fields>
-        <fields>Description</fields>
-        <relatedList>ReturnOrderItemTaxes</relatedList>
-    </relatedLists>
-    <relatedLists>
-        <fields>Name</fields>
-        <fields>Amount</fields>
-        <fields>Description</fields>
-        <relatedList>ReturnOrderItemAdjustments</relatedList>
-    </relatedLists>
-    <relatedLists>
         <fields>Shipment</fields>
         <fields>Name</fields>
         <fields>TrackingNumber</fields>

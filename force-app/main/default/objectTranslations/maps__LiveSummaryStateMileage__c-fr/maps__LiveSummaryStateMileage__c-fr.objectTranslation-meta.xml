@@ -9,6 +9,13 @@
         <value>Kilométrages d&apos;état du résumé live Maps</value>
     </caseValues>
     <gender>Masculine</gender>
+    <layouts>
+        <layout>Maps Live Summary State Mileage Layout</layout>
+        <sections>
+            <label>Liens personnalisés</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Nom du kilométrage dans l&apos;état, la régio</nameFieldLabel>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

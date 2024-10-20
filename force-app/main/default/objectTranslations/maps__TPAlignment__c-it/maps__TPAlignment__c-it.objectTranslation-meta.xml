@@ -9,6 +9,13 @@
         <value>Allineamenti pianificazione dei territori</value>
     </caseValues>
     <gender>Masculine</gender>
+    <layouts>
+        <layout>Territory Planning Alignment Layout</layout>
+        <sections>
+            <label>Link personalizzati</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Nome</nameFieldLabel>
     <startsWith>Vowel</startsWith>
 </CustomObjectTranslation>

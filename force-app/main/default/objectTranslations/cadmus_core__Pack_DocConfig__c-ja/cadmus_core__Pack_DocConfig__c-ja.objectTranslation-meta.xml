@@ -4,5 +4,12 @@
         <plural>false</plural>
         <value>パック - ドキュメント設定</value>
     </caseValues>
+    <layouts>
+        <layout>Pack DocConfig Layout</layout>
+        <sections>
+            <label>カスタムリンク</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>パック - ドキュメント設定名</nameFieldLabel>
 </CustomObjectTranslation>

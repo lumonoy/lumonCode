@@ -9,6 +9,13 @@
         <value>Jeux de données de planification de territoires</value>
     </caseValues>
     <gender>Masculine</gender>
+    <layouts>
+        <layout>Territory Planning Data Set Layout</layout>
+        <sections>
+            <label>Liens personnalisés</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Nom</nameFieldLabel>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

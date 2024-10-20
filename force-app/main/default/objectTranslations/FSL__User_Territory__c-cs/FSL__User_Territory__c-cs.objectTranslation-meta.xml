@@ -61,5 +61,12 @@
         <value>Uživatelských teritoriích</value>
     </caseValues>
     <gender>Neuter</gender>
+    <layouts>
+        <layout>User Territory Layout</layout>
+        <sections>
+            <label>Vlastní odkazy</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Číslo teritoria uživatele</nameFieldLabel>
 </CustomObjectTranslation>

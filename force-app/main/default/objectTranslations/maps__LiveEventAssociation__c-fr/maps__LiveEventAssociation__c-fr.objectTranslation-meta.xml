@@ -9,6 +9,13 @@
         <value>Associations d&apos;événements live Maps</value>
     </caseValues>
     <gender>Feminine</gender>
+    <layouts>
+        <layout>Maps Live Event Association Layout</layout>
+        <sections>
+            <label>Liens personnalisés</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Nom de l&apos;association d&apos;événement live Ma</nameFieldLabel>
     <startsWith>Vowel</startsWith>
 </CustomObjectTranslation>

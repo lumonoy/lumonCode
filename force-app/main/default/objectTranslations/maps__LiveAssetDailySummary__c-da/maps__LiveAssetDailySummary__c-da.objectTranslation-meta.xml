@@ -31,5 +31,24 @@
         <value>Maps Live-aktivs daglige sammendrag</value>
     </caseValues>
     <gender>Neuter</gender>
+    <layouts>
+        <layout>Maps Live Asset Daily Summary Layout</layout>
+        <sections>
+            <label>Tilpassede links</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Milrelateret</label>
+            <section>Mileage Related</section>
+        </sections>
+        <sections>
+            <label>Tidsrelateret</label>
+            <section>Time Related</section>
+        </sections>
+        <sections>
+            <label>Begivenheder i alt</label>
+            <section>Total Events</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Navn på Maps Live-aktivs - dagligt samme</nameFieldLabel>
 </CustomObjectTranslation>

@@ -9,5 +9,16 @@
         <value>Tipos de saída de rota de mapas avançados</value>
     </caseValues>
     <gender>Masculine</gender>
+    <layouts>
+        <layout>Maps Advanced Route Output Type Layout</layout>
+        <sections>
+            <label>Links personalizados</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Mapeamentos de campo</label>
+            <section>Field Mappings</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Nome do tipo de saída de rota do Maps Ad</nameFieldLabel>
 </CustomObjectTranslation>

@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>61.0</apiVersion>
+    <assignments>
+        <name>Set_Queue_Default_as_FB_Group</name>
+        <label>Set Queue Default as FB Group</label>
+        <locationX>638</locationX>
+        <locationY>719</locationY>
+        <assignmentItems>
+            <assignToReference>DefaultFallbackGroup</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>$Record.Owner:Group.DeveloperName</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Set_Default_Fallback_Group</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Set_User_Default_as_FB_Group</name>
+        <label>Set User Default as FB Group</label>
+        <locationX>374</locationX>
+        <locationY>719</locationY>
+        <assignmentItems>
+            <assignToReference>DefaultFallbackGroup</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>UserDefaultQueue</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Set_Default_Fallback_Group</targetReference>
+        </connector>
+    </assignments>
+    <customErrors>
+        <description>Group could not be set for case please manually assign a Group to case</description>
+        <name>Group_Could_Not_be_Set_for_case</name>
+        <label>Group Could Not be Set for case</label>
+        <locationX>638</locationX>
+        <locationY>1019</locationY>
+        <customErrorMessages>
+            <errorMessage>Group could not be set for case please manually assign a Group to case</errorMessage>
+            <fieldSelection>CaseGroup__c</fieldSelection>
+            <isFieldError>true</isFieldError>
+        </customErrorMessages>
+    </customErrors>
+    <decisions>
+        <name>Is_case_group_set</name>
+        <label>Is case group set?</label>
+        <locationX>506</locationX>
+        <locationY>395</locationY>
+        <defaultConnector>
+            <targetReference>Is_case_Owner_Set</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Group not set</defaultConnectorLabel>
+        <rules>
+            <name>Group_is_Set</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.CaseGroup__c</leftValueReference>
+                <operator>IsBlank</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <label>Group is Set</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Is_case_Owner_Set</name>
+        <label>Is case Owner Set?</label>
+        <locationX>902</locationX>
+        <locationY>503</locationY>
+        <defaultConnectorLabel>Owner not set</defaultConnectorLabel>
+        <rules>
+            <name>Owner_Set</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.OwnerId</leftValueReference>
+                <operator>IsBlank</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Owner_Type</targetReference>
+            </connector>
+            <label>Owner Set</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Owner_Type</name>
+        <label>Owner Type?</label>
+        <locationX>638</locationX>
+        <locationY>611</locationY>
+        <defaultConnectorLabel>Unknown owner type</defaultConnectorLabel>
+        <rules>
+            <name>User_owned</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>OwnerType</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>User</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Set_User_Default_as_FB_Group</targetReference>
+            </connector>
+            <label>User owned</label>
+        </rules>
+        <rules>
+            <name>Queue_Owned</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>OwnerType</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Queue</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Set_Queue_Default_as_FB_Group</targetReference>
+            </connector>
+            <label>Queue Owned</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Skip_Automation</name>
+        <label>Skip Automation?</label>
+        <locationX>176</locationX>
+        <locationY>287</locationY>
+        <defaultConnector>
+            <targetReference>Is_case_group_set</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Continue</defaultConnectorLabel>
+        <rules>
+            <name>Abort</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Setup.AutomationBypass__c.SkipAutomation__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <label>Abort</label>
+        </rules>
+    </decisions>
+    <environments>Default</environments>
+    <formulas>
+        <description>Defines if the owner is a queue or a user</description>
+        <name>OwnerType</name>
+        <dataType>String</dataType>
+        <expression>CASE( LEFT({!$Record.OwnerId},3),
+&quot;005&quot; , &quot;User&quot;,
+&quot;00G&quot;, &quot;Queue&quot;,
+&quot;Unknown&quot;)</expression>
+    </formulas>
+    <formulas>
+        <description>Default queue fallback for user</description>
+        <name>UserDefaultQueue</name>
+        <dataType>String</dataType>
+        <expression>CASE({!$Record.Owner:User.Profile.Name},
+&quot;Lumon Customer Service&quot;,&quot;CS&quot;,
+&quot;Lumon ICT Support&quot;,&quot;ICT&quot;,
+&quot;Lumon Installation Manager&quot;, &quot;TS&quot;,
+&quot;Lumon Installer&quot;, &quot;TS&quot;,
+&quot;Lumon Logistics	Salesforce&quot;, &quot;LOG&quot;,
+&quot;Lumon Production&quot;, &quot;FAC&quot;,
+&quot;Lumon Salesforce Admin&quot;, &quot;ICT&quot;,
+&quot;Lumon System Admin&quot;, &quot;SF&quot;,
+&quot;Lumon Technical Support&quot;, &quot;TS&quot;,
+&quot;CS&quot;) + &quot;_&quot; + {!$Record.Owner:User.Country}</expression>
+    </formulas>
+    <interviewLabel>Case - Set fallback group {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Case - Set fallback group</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordUpdates>
+        <name>Set_Default_Fallback_Group</name>
+        <label>Set Default Fallback Group</label>
+        <locationX>638</locationX>
+        <locationY>911</locationY>
+        <connector>
+            <targetReference>Group_Could_Not_be_Set_for_case</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>CaseGroup__c</field>
+            <value>
+                <elementReference>DefaultFallbackGroup</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Skip_Automation</targetReference>
+        </connector>
+        <object>Case</object>
+        <recordTriggerType>Update</recordTriggerType>
+        <triggerType>RecordBeforeSave</triggerType>
+    </start>
+    <status>Obsolete</status>
+    <variables>
+        <name>DefaultFallbackGroup</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>SetCaseGroup</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+</Flow>

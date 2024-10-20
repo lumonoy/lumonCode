@@ -116,9 +116,29 @@
         <label>25 SVI Consumer West</label>
     </customValue>
     <customValue>
+        <fullName>271 LUI R&amp;D</fullName>
+        <default>false</default>
+        <label>271 LUI R&amp;D</label>
+    </customValue>
+    <customValue>
+        <fullName>272 LUI HR</fullName>
+        <default>false</default>
+        <label>272 LUI HR</label>
+    </customValue>
+    <customValue>
+        <fullName>273 LUI Technical Support</fullName>
+        <default>false</default>
+        <label>273 LUI Technical Support</label>
+    </customValue>
+    <customValue>
         <fullName>274 LUI ICT</fullName>
         <default>false</default>
         <label>274 LUI ICT</label>
+    </customValue>
+    <customValue>
+        <fullName>275 LUI Finance</fullName>
+        <default>false</default>
+        <label>275 LUI Finance</label>
     </customValue>
     <customValue>
         <fullName>280 LFE Production</fullName>
@@ -349,6 +369,11 @@
         <fullName>512 LCE Marbella</fullName>
         <default>false</default>
         <label>512 LCE Marbella</label>
+    </customValue>
+    <customValue>
+        <fullName>513 LCE Sevilla</fullName>
+        <default>false</default>
+        <label>513 LCE Sevilla</label>
     </customValue>
     <customValue>
         <fullName>520 LCE Barcelona</fullName>
@@ -596,45 +621,33 @@
         <label>950 LDA Reseller</label>
     </customValue>
     <customValue>
-        <fullName>997 LFR Reseller</fullName>
-        <default>false</default>
-        <label>997 LFR Reseller</label>
-    </customValue>
-    <customValue>
-        <fullName>40 FI Webshop</fullName>
-        <default>false</default>
-        <label>40 FI Webshop</label>
-    </customValue>
-    <customValue>
-        <fullName>273 LUI Technical Support</fullName>
-        <default>false</default>
-        <label>273 LUI Technical Support</label>
-    </customValue>
-    <customValue>
-        <fullName>271 LUI RD</fullName>
-        <default>false</default>
-        <label>271 LUI RD</label>
-    </customValue>
-    <customValue>
-        <fullName>272 LUI HR</fullName>
-        <default>false</default>
-        <label>272 LUI HR</label>
-    </customValue>
-    <customValue>
-        <fullName>275 LUI Finance</fullName>
-        <default>false</default>
-        <label>275 LUI Finance</label>
-    </customValue>
-    <customValue>
         <fullName>970 LPO Warsaw</fullName>
         <default>false</default>
         <label>970 LPO Warsaw</label>
     </customValue>
     <customValue>
-        <fullName>513 LCE Sevilla</fullName>
+        <fullName>997 LFR Reseller</fullName>
         <default>false</default>
-        <label>513 LCE Sevilla</label>
+        <label>997 LFR Reseller</label>
+    </customValue>
+    <customValue>
+        <fullName>271 LUI RD</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>271 LUI RD</label>
+    </customValue>
+    <customValue>
+        <fullName>40 FI Webshop</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>40 FI Webshop</label>
+    </customValue>
+    <customValue>
+        <fullName>275</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>275</label>
     </customValue>
     <masterLabel>Lumon Profit Centers</masterLabel>
-    <sorted>false</sorted>
+    <sorted>true</sorted>
 </GlobalValueSet>

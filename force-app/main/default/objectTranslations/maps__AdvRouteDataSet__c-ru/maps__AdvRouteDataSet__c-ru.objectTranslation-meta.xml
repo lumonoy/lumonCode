@@ -61,5 +61,40 @@
         <value>Наборах данных маршрута Maps Advanced</value>
     </caseValues>
     <gender>Masculine</gender>
+    <layouts>
+        <layout>Maps Advanced Route Data Set Layout</layout>
+        <sections>
+            <label>Базовый объект</label>
+            <section>Base Object</section>
+        </sections>
+        <sections>
+            <label>Завершенные посещения</label>
+            <section>Completed Visits</section>
+        </sections>
+        <sections>
+            <label>Настраиваемые ссылки</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Разное</label>
+            <section>Misc</section>
+        </sections>
+        <sections>
+            <label>Вывод и будущие посещения</label>
+            <section>Output and Future Visits</section>
+        </sections>
+        <sections>
+            <label>Подсказки</label>
+            <section>Tooltips</section>
+        </sections>
+        <sections>
+            <label>Частота посещения</label>
+            <section>Visit Frequency</section>
+        </sections>
+        <sections>
+            <label>Окна посещения</label>
+            <section>Visit Windows</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Имя набора данных маршрута Maps Advanced</nameFieldLabel>
 </CustomObjectTranslation>

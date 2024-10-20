@@ -31,5 +31,12 @@
         <value>Maps Advanced Route-forespørgselsfiltergrupper</value>
     </caseValues>
     <gender>Feminine</gender>
+    <layouts>
+        <layout>Maps Advanced Route Query Filter Group Layout</layout>
+        <sections>
+            <label>Tilpassede links</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Maps Advanced Route-forespørselsfiltergr</nameFieldLabel>
 </CustomObjectTranslation>

@@ -4,5 +4,12 @@
         <plural>false</plural>
         <value>ユーザーテリトリー</value>
     </caseValues>
+    <layouts>
+        <layout>User Territory Layout</layout>
+        <sections>
+            <label>カスタムリンク</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>ユーザーテリトリー番号</nameFieldLabel>
 </CustomObjectTranslation>

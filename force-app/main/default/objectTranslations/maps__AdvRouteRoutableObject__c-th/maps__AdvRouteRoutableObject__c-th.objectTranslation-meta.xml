@@ -4,5 +4,20 @@
         <plural>false</plural>
         <value>ออบเจกต์ที่กำหนดเส้นทางได้ของเส้นทางใน Maps Advanced</value>
     </caseValues>
+    <layouts>
+        <layout>Maps Advanced Route Routable Object Layout</layout>
+        <sections>
+            <label>ลิงก์แบบกำหนดเอง</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>ค่าเริ่มต้น</label>
+            <section>Default Values</section>
+        </sections>
+        <sections>
+            <label>ช่วงเวลาการโปรโมต</label>
+            <section>Promo Windows</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>ชื่อออบเจตก์เส้นทางที่กำหนดเส้นทางได้ใน</nameFieldLabel>
 </CustomObjectTranslation>

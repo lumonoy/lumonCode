@@ -61,5 +61,12 @@
         <value>Динамических назначениях водителя Maps</value>
     </caseValues>
     <gender>Neuter</gender>
+    <layouts>
+        <layout>Maps Live Driver Assignment Layout</layout>
+        <sections>
+            <label>Настраиваемые ссылки</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Динамическое имя назначения водителя Map</nameFieldLabel>
 </CustomObjectTranslation>

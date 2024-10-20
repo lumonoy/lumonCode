@@ -41,5 +41,12 @@
         <value>AB-Tests</value>
     </caseValues>
     <gender>Masculine</gender>
+    <layouts>
+        <layout>AB Test Layout</layout>
+        <sections>
+            <label>Benutzerdefinierte Links</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>A/B-Testname</nameFieldLabel>
 </CustomObjectTranslation>

@@ -61,5 +61,28 @@
         <value>Ustawieniach użytkownika</value>
     </caseValues>
     <gender>Neuter</gender>
+    <layouts>
+        <layout>User Setting Layout</layout>
+        <sections>
+            <label>Filtry niestandardowe</label>
+            <section>Custom Filters</section>
+        </sections>
+        <sections>
+            <label>Niestandardowe linki</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Ustawienia wykresu Gantta</label>
+            <section>Gantt Preferences</section>
+        </sections>
+        <sections>
+            <label>NA Ustawienia funkcji przeciągnij i upuść</label>
+            <section>NA Drag&amp;Drop Preferences</section>
+        </sections>
+        <sections>
+            <label>Ustawienia listy usług</label>
+            <section>Service List Prefernces</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Nazwa ustawienia użytkownika</nameFieldLabel>
 </CustomObjectTranslation>

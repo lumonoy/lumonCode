@@ -9,6 +9,13 @@
         <value>Chilometraggi stato/provincia riepilogo live di Maps</value>
     </caseValues>
     <gender>Masculine</gender>
+    <layouts>
+        <layout>Maps Live Summary State Mileage Layout</layout>
+        <sections>
+            <label>Link personalizzati</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Nome chilometraggio stato/provincia riep</nameFieldLabel>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

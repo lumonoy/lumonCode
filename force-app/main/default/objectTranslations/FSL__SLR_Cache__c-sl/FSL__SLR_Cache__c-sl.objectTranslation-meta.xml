@@ -61,5 +61,12 @@
         <value>Začasnih pomnilnikih SLR</value>
     </caseValues>
     <gender>Masculine</gender>
+    <layouts>
+        <layout>SLR Cache Layout</layout>
+        <sections>
+            <label>Povezave po meri</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Številka predpomnilnika za SLR</nameFieldLabel>
 </CustomObjectTranslation>

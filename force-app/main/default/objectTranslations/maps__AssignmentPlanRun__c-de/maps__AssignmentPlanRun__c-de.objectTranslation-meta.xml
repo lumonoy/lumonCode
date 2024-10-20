@@ -41,5 +41,20 @@
         <value>Maps-Zuweisungsplanausführungen</value>
     </caseValues>
     <gender>Feminine</gender>
+    <layouts>
+        <layout>Assignment Plan Run</layout>
+        <sections>
+            <label>Fehler</label>
+            <section>Errors</section>
+        </sections>
+        <sections>
+            <label>Verarbeitungszeiten</label>
+            <section>Processing Times</section>
+        </sections>
+        <sections>
+            <label>Ausführungsstatistik</label>
+            <section>Run Statistics</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Name der Maps-Zuweisungsplanausführung</nameFieldLabel>
 </CustomObjectTranslation>

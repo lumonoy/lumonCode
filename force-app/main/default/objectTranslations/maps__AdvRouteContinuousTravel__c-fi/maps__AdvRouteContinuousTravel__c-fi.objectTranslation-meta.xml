@@ -396,5 +396,24 @@
         <possessive>Second</possessive>
         <value>Maps: Edistyneen reitityksen jatkuvia matkojasi</value>
     </caseValues>
+    <layouts>
+        <layout>Maps Advanced Route Continuous Travel Layout</layout>
+        <sections>
+            <label>Mukautetut linkit</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Päättymisosoite</label>
+            <section>End Address</section>
+        </sections>
+        <sections>
+            <label>Aloitusosoite</label>
+            <section>Start Address</section>
+        </sections>
+        <sections>
+            <label>Matkan päivämäärät</label>
+            <section>Travel Dates</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Maps: suunnittelijan jatkuvan matkan nim</nameFieldLabel>
 </CustomObjectTranslation>

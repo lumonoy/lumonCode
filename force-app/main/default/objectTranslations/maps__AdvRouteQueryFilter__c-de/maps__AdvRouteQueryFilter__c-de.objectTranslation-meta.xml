@@ -41,5 +41,12 @@
         <value>Maps Advanced-Routenabfragefiltern</value>
     </caseValues>
     <gender>Masculine</gender>
+    <layouts>
+        <layout>Maps Advanced Route Query Filter Layout</layout>
+        <sections>
+            <label>Benutzerdefinierte Links</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Maps Advanced-Routenabfragefilter-Name</nameFieldLabel>
 </CustomObjectTranslation>

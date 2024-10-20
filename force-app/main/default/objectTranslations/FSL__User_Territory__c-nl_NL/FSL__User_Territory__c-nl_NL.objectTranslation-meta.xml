@@ -9,5 +9,12 @@
         <value>Territoria van gebruiker</value>
     </caseValues>
     <gender>Neuter</gender>
+    <layouts>
+        <layout>User Territory Layout</layout>
+        <sections>
+            <label>Aangepaste koppelingen</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Territoriumnummer gebruiker</nameFieldLabel>
 </CustomObjectTranslation>

@@ -41,5 +41,24 @@
         <value>Maps Advanced-Routenwegpunkten</value>
     </caseValues>
     <gender>Masculine</gender>
+    <layouts>
+        <layout>Maps Advanced Route Waypoint Layout</layout>
+        <sections>
+            <label>Adresse</label>
+            <section>Address</section>
+        </sections>
+        <sections>
+            <label>Core-bezogen</label>
+            <section>Core Related</section>
+        </sections>
+        <sections>
+            <label>Benutzerdefinierte Links</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Verwandte Datensätze</label>
+            <section>Related Records</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Maps Advanced-Routenwegpunktname</nameFieldLabel>
 </CustomObjectTranslation>

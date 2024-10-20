@@ -106,6 +106,14 @@
             <fullName>CS_Visor</fullName>
             <default>false</default>
         </values>
+        <values>
+            <fullName>ICT_Global</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PERM_Canada</fullName>
+            <default>false</default>
+        </values>
     </picklistValues>
     <picklistValues>
         <picklist>CaseProcessStage__c</picklist>
@@ -2899,6 +2907,121 @@
         </values>
     </picklistValues>
     <picklistValues>
+        <picklist>OriginCaseGroup__c</picklist>
+        <values>
+            <fullName>CS_Canada</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CS_CentralEurope</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CS_Finland</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CS_Norway</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CS_Spain</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CS_Spain_ADM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CS_Spain_RES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CS_Sweden_GOT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CS_Sweden_MAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CS_Sweden_STO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CS_Visor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FAC_Canada</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FAC_Finland</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FAC_Spain</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FAC_Visor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ICT_Global</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ICT_Support</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LOG_Canada</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LOG_Finland</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LOG_Spain</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PERM_Canada</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SF_Support</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TS_Canada</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TS_Finland</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TS_Spain</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TS_Sweden</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WEB_Finland</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WEB_Sweden</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
         <picklist>PermitStatus__c</picklist>
         <values>
             <fullName>Approved</fullName>
@@ -4103,23 +4226,7 @@
     <picklistValues>
         <picklist>Type</picklist>
         <values>
-            <fullName>Customer Reclamation</fullName>
-            <default>false</default>
-        </values>
-        <values>
             <fullName>Customer Support</fullName>
-            <default>true</default>
-        </values>
-        <values>
-            <fullName>Invoicing</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Reseller</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Warranty work request</fullName>
             <default>false</default>
         </values>
     </picklistValues>

@@ -4,5 +4,12 @@
         <plural>false</plural>
         <value>การสรุปสดระยะทางสะสมของรัฐใน Maps</value>
     </caseValues>
+    <layouts>
+        <layout>Maps Live Summary State Mileage Layout</layout>
+        <sections>
+            <label>ลิงก์แบบกำหนดเอง</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>ชื่อการสรุปสดระยะทางสะสมของรัฐใน Maps</nameFieldLabel>
 </CustomObjectTranslation>

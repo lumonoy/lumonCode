@@ -9,5 +9,20 @@
         <value>Routeerbare objecten route Maps Advanced</value>
     </caseValues>
     <gender>Neuter</gender>
+    <layouts>
+        <layout>Maps Advanced Route Routable Object Layout</layout>
+        <sections>
+            <label>Aangepaste koppelingen</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Standaardwaarden</label>
+            <section>Default Values</section>
+        </sections>
+        <sections>
+            <label>Promovensters</label>
+            <section>Promo Windows</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Naam routeerbaar object route Maps Advan</nameFieldLabel>
 </CustomObjectTranslation>

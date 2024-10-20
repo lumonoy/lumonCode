@@ -396,5 +396,12 @@
         <possessive>Second</possessive>
         <value>Sign requests</value>
     </caseValues>
+    <layouts>
+        <layout>Sign request Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Allekirjoituspyynnöt</nameFieldLabel>
 </CustomObjectTranslation>

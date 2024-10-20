@@ -11,7 +11,7 @@
     <label>Visual in Salesforce</label>
     <oauthConfig>
         <callbackUrl>https://visual.lumon.com/visual</callbackUrl>
-        <consumerKey>3MVG9t0sl2P.pByrLwCwb9N4jyfuD9pLY2BnKOCMKmYC9Uou4YDLtJUlqA6ua7eYRlrCEbVObS5dwwgdIzcvv</consumerKey>
+        <consumerKey>3MVG9vYM8JyKwjKZgAVemvVnasXNUzOYC4a1fbQq_ztZ6Sye0N8sZefgy0VSCE1LC1RPHkn2.Dzd7cnDFa2Ig</consumerKey>
         <isAdminApproved>true</isAdminApproved>
         <isClientCredentialEnabled>false</isClientCredentialEnabled>
         <isCodeCredentialEnabled>false</isCodeCredentialEnabled>
@@ -20,7 +20,7 @@
         <isIntrospectAllTokens>false</isIntrospectAllTokens>
         <isNamedUserJwtEnabled>false</isNamedUserJwtEnabled>
         <isPkceRequired>false</isPkceRequired>
-        <isSecretRequiredForRefreshToken>true</isSecretRequiredForRefreshToken>
+        <isSecretRequiredForRefreshToken>false</isSecretRequiredForRefreshToken>
         <scopes>Basic</scopes>
         <scopes>Api</scopes>
         <scopes>Full</scopes>

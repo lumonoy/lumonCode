@@ -9,6 +9,13 @@
         <value>Événements live Maps</value>
     </caseValues>
     <gender>Masculine</gender>
+    <layouts>
+        <layout>Maps Live Event Layout</layout>
+        <sections>
+            <label>Liens personnalisés</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Nom de l&apos;événement live Maps</nameFieldLabel>
     <startsWith>Vowel</startsWith>
 </CustomObjectTranslation>

@@ -9,6 +9,13 @@
         <value>Configurations d&apos;arrêt quotidien live Maps</value>
     </caseValues>
     <gender>Feminine</gender>
+    <layouts>
+        <layout>Maps Live Summary Stop Relationship Config Layout</layout>
+        <sections>
+            <label>Liens personnalisés</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Configuration d&apos;arrêt du résumé live Map</nameFieldLabel>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

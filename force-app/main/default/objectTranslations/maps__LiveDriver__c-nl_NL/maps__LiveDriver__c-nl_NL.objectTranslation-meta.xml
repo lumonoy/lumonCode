@@ -9,5 +9,20 @@
         <value>Bestuurders Maps Live</value>
     </caseValues>
     <gender>Feminine</gender>
+    <layouts>
+        <layout>Maps Live Driver Layout</layout>
+        <sections>
+            <label>Adres</label>
+            <section>Address</section>
+        </sections>
+        <sections>
+            <label>Aangepaste koppelingen</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Telematicawaarschuwingen bestuurder</label>
+            <section>Driver Telematics Alerts</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Naam bestuurder live Maps</nameFieldLabel>
 </CustomObjectTranslation>

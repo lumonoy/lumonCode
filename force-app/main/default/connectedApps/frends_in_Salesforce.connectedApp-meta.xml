@@ -4,10 +4,10 @@
     <description>API access for Frends</description>
     <infoUrl>https://lumon.frendsapp.com/</infoUrl>
     <label>frends in Salesforce</label>
-    <logoUrl>https://lumonoy.file.force.com/servlet/servlet.ImageServer?id=015Vk000000GcPV&amp;oid=00D7Q000004wLjJ</logoUrl>
+    <logoUrl>https://lumonoy.file.force.com/servlet/servlet.ImageServer?id=015Vk000000GcPV&amp;oid=00DJW000007YB3R</logoUrl>
     <oauthConfig>
         <callbackUrl>https://salesforce.com/services/oauth2/callback</callbackUrl>
-        <consumerKey>3MVG9t0sl2P.pByrLwCwb9N4jyZMwWnpDC9SI24BVRuaMbjiRpQYhMO9kyyhEy9CVfs_Q86dA1uGSL5c2ze5D</consumerKey>
+        <consumerKey>3MVG9vYM8JyKwjKZgAVemvVnasXNUzOYC4a1f7MOgRCGrZmq4RCgSLSahYjNOTzA4pM8Ap9xFivkM85SjF5LE</consumerKey>
         <isAdminApproved>false</isAdminApproved>
         <isClientCredentialEnabled>false</isClientCredentialEnabled>
         <isCodeCredentialEnabled>false</isCodeCredentialEnabled>
@@ -15,8 +15,8 @@
         <isConsumerSecretOptional>false</isConsumerSecretOptional>
         <isIntrospectAllTokens>false</isIntrospectAllTokens>
         <isNamedUserJwtEnabled>false</isNamedUserJwtEnabled>
-        <isPkceRequired>true</isPkceRequired>
-        <isSecretRequiredForRefreshToken>true</isSecretRequiredForRefreshToken>
+        <isPkceRequired>false</isPkceRequired>
+        <isSecretRequiredForRefreshToken>false</isSecretRequiredForRefreshToken>
         <scopes>SFAP</scopes>
     </oauthConfig>
     <oauthPolicy>

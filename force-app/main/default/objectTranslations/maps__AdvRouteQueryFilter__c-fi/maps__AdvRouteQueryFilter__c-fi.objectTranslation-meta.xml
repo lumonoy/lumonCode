@@ -396,5 +396,12 @@
         <possessive>Second</possessive>
         <value>Maps: Edistyneen reitityksen kyselysuodattimiasi</value>
     </caseValues>
+    <layouts>
+        <layout>Maps Advanced Route Query Filter Layout</layout>
+        <sections>
+            <label>Mukautetut linkit</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Maps: Edistyneen reitityksen kyselysuoda</nameFieldLabel>
 </CustomObjectTranslation>

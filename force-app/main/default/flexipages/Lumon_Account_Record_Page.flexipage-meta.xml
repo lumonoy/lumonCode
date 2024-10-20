@@ -816,7 +816,7 @@
                     <criteria>
                         <leftValue>{!Record.Business_Type__c}</leftValue>
                         <operator>EQUAL</operator>
-                        <rightValue>Consumer</rightValue>
+                        <rightValue>1</rightValue>
                     </criteria>
                 </visibilityRule>
             </componentInstance>
@@ -842,7 +842,7 @@
                     <criteria>
                         <leftValue>{!Record.Business_Type__c}</leftValue>
                         <operator>NE</operator>
-                        <rightValue>Consumer</rightValue>
+                        <rightValue>1</rightValue>
                     </criteria>
                     <criteria>
                         <leftValue>{!Record.CreatedBy.Alias}</leftValue>
@@ -1107,7 +1107,7 @@
                     <criteria>
                         <leftValue>{!Record.Business_Type__c}</leftValue>
                         <operator>EQUAL</operator>
-                        <rightValue>Consumer</rightValue>
+                        <rightValue>1</rightValue>
                     </criteria>
                 </visibilityRule>
             </fieldInstance>
@@ -1130,7 +1130,7 @@
                     <criteria>
                         <leftValue>{!Record.Business_Type__c}</leftValue>
                         <operator>NE</operator>
-                        <rightValue>Consumer</rightValue>
+                        <rightValue>1</rightValue>
                     </criteria>
                 </visibilityRule>
             </fieldInstance>
@@ -1151,7 +1151,7 @@
                     <criteria>
                         <leftValue>{!Record.Business_Type__c}</leftValue>
                         <operator>EQUAL</operator>
-                        <rightValue>Consumer</rightValue>
+                        <rightValue>1</rightValue>
                     </criteria>
                 </visibilityRule>
             </fieldInstance>
@@ -1168,7 +1168,7 @@
                     <criteria>
                         <leftValue>{!Record.Business_Type__c}</leftValue>
                         <operator>NE</operator>
-                        <rightValue>Consumer</rightValue>
+                        <rightValue>1</rightValue>
                     </criteria>
                 </visibilityRule>
             </fieldInstance>
@@ -1229,6 +1229,32 @@
         <type>Facet</type>
     </flexiPageRegions>
     <flexiPageRegions>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>parentFieldApiName</name>
+                    <value>Account.Id</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>relatedListApiName</name>
+                    <value>ObjectTerritory2Associations</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>relatedListComponentOverride</name>
+                    <value>NONE</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>rowsToDisplay</name>
+                    <value>10</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>showActionBar</name>
+                    <value>true</value>
+                </componentInstanceProperties>
+                <componentName>force:relatedListSingleContainer</componentName>
+                <identifier>force_relatedListSingleContainer3</identifier>
+            </componentInstance>
+        </itemInstances>
         <itemInstances>
             <componentInstance>
                 <componentInstanceProperties>
@@ -1457,34 +1483,6 @@
         <type>Facet</type>
     </flexiPageRegions>
     <flexiPageRegions>
-        <itemInstances>
-            <componentInstance>
-                <componentInstanceProperties>
-                    <name>cmpHeight</name>
-                    <value>600px</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>cmpWidth</name>
-                    <value>100%</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>domain</name>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>miniMapId</name>
-                    <value>a3G7Y000000czVIUAY</value>
-                </componentInstanceProperties>
-                <componentName>maps:MiniMapLightningComponent</componentName>
-                <identifier>maps_MiniMapLightningComponent</identifier>
-                <visibilityRule>
-                    <criteria>
-                        <leftValue>{!$Client.formFactor}</leftValue>
-                        <operator>EQUAL</operator>
-                        <rightValue>Large</rightValue>
-                    </criteria>
-                </visibilityRule>
-            </componentInstance>
-        </itemInstances>
         <itemInstances>
             <componentInstance>
                 <componentInstanceProperties>

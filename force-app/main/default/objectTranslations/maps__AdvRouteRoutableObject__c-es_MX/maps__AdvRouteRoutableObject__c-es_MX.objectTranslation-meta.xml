@@ -9,5 +9,20 @@
         <value>Objetos enrutables de Rutas de Maps Advanced</value>
     </caseValues>
     <gender>Masculine</gender>
+    <layouts>
+        <layout>Maps Advanced Route Routable Object Layout</layout>
+        <sections>
+            <label>Vínculos personalizados</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Valores predeterminados</label>
+            <section>Default Values</section>
+        </sections>
+        <sections>
+            <label>Plazos de promoción</label>
+            <section>Promo Windows</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Nombre de objeto enrutable de Ruta de Ma</nameFieldLabel>
 </CustomObjectTranslation>

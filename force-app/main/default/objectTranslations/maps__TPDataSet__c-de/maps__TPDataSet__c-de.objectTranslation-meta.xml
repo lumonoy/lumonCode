@@ -41,5 +41,12 @@
         <value>Regionsplanungs-Datensets</value>
     </caseValues>
     <gender>Neuter</gender>
+    <layouts>
+        <layout>Territory Planning Data Set Layout</layout>
+        <sections>
+            <label>Benutzerdefinierte Links</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Name</nameFieldLabel>
 </CustomObjectTranslation>

@@ -6,11 +6,6 @@
         <publicGroups>
             <publicGroup>LOG_Finland</publicGroup>
         </publicGroups>
-        <users>
-            <user>hani.el-nenaey@lumon.fi</user>
-            <user>heli.hannonen@lumon.fi</user>
-            <user>jussi.korhonen@lumon.fi</user>
-        </users>
     </queueMembers>
     <queueSobject>
         <sobjectType>Case</sobjectType>

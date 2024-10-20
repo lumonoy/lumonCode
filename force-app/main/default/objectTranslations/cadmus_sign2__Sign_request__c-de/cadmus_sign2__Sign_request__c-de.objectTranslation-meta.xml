@@ -41,5 +41,12 @@
         <value>SIGN-Anfragen</value>
     </caseValues>
     <gender>Neuter</gender>
+    <layouts>
+        <layout>Sign request Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>SIGN-Anfrage Name</nameFieldLabel>
 </CustomObjectTranslation>

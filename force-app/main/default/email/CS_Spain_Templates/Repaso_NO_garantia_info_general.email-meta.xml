@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <description>Repaso fuera de garantía. Información general</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Lumon_Email_Letterhead</letterhead>
+    <name>Repaso NO garantia info general</name>
+    <style>freeForm</style>
+    <subject>Repaso fuera de garantía</subject>
+    <textOnly>Estimado XXXX,
+
+
+
+Muchas gracias por contactar con Lumon Cristales.
+
+
+
+Le informamos de que actualmente su sistema se encuentra fuera del periodo de garantía.
+
+
+
+El coste del desplazamiento y mano de obra del operario (1 hora) es de 96,80€ (IVA incluido). Las piezas que se sustituyan que se sustituyan o las horas extras el operario se valorarán aparte y se abonarán una vez que el técnico termine el trabajo.
+
+
+
+Por otro lado, le informamos de que las reparaciones tienen un año de garantía de manera que, si volviese a presentar la misma incidencia durante el primer año, y no fuese ocasionada por un mal uso, el operario acudiría a su domicilio sin ningún tipo de coste para Vd.
+
+
+
+Finalmente, le agradeceríamos que en caso de estar interesado nos hiciese llegar los datos a los que se emitirá la factura (nombre completo, DNI o CIF, dirección de instalación, número de teléfono y dirección de facturación si la hubiese).
+
+
+
+Quedamos a su disposición para cualquier duda.
+
+
+
+Reciba un cordial saludo.
+
+
+
+Atención al cliente
+atencion.cliente@lumon.com
+
+
+
+Lumon Cristales España, S.L.
+
++34952173823
+www.lumon.com
+
+
+
+
+Este mensaje contiene información confidencial, por lo que está totalmente prohibida cualquier utilización, divulgación, distribución y/o reproducción de esta comunicación sin autorización expresa. Asimismo le informamos que podrá ejercitar sus derechos de conformidad con el REGLAMENTO (UE) 2016/679 DEL PARLAMENTO EUROPEO Y DEL CONSEJO de 27 de abril de 2016 en la forma determinada en el siguiente enlace</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

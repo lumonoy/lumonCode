@@ -9,6 +9,13 @@
         <value>Impostazioni Percorso di Maps Advanced</value>
     </caseValues>
     <gender>Feminine</gender>
+    <layouts>
+        <layout>Maps Advanced Route Settings Layout</layout>
+        <sections>
+            <label>Link personalizzati</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Nome impostazioni Percorso di Maps Advan</nameFieldLabel>
     <startsWith>Vowel</startsWith>
 </CustomObjectTranslation>

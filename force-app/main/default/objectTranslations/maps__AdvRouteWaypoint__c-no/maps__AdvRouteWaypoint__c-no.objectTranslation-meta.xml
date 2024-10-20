@@ -31,5 +31,24 @@
         <value>Veipunkter for Maps Advanced-rute</value>
     </caseValues>
     <gender>Masculine</gender>
+    <layouts>
+        <layout>Maps Advanced Route Waypoint Layout</layout>
+        <sections>
+            <label>Adresse</label>
+            <section>Address</section>
+        </sections>
+        <sections>
+            <label>Kjernerelatert</label>
+            <section>Core Related</section>
+        </sections>
+        <sections>
+            <label>Tilpassede lenker</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Relaterte poster</label>
+            <section>Related Records</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Navn på veipunkt for Maps Advanced-rute</nameFieldLabel>
 </CustomObjectTranslation>

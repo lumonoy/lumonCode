@@ -9,5 +9,28 @@
         <value>Потребителски настройки</value>
     </caseValues>
     <gender>Feminine</gender>
+    <layouts>
+        <layout>User Setting Layout</layout>
+        <sections>
+            <label>Персонализирани филтри</label>
+            <section>Custom Filters</section>
+        </sections>
+        <sections>
+            <label>Персонализирани връзки</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Преференции в Гант</label>
+            <section>Gantt Preferences</section>
+        </sections>
+        <sections>
+            <label>Не са налични предпочитания за Drag&amp;Drop</label>
+            <section>NA Drag&amp;Drop Preferences</section>
+        </sections>
+        <sections>
+            <label>Преференции в списък за обслужване</label>
+            <section>Service List Prefernces</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Име на потребителската настройка</nameFieldLabel>
 </CustomObjectTranslation>

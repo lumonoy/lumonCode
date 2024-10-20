@@ -9,6 +9,17 @@
         <value>Priorités d&apos;itinéraire Maps Advanced</value>
     </caseValues>
     <gender>Feminine</gender>
+    <layouts>
+        <layout>Maps Advanced Route Priority Layout</layout>
+        <sections>
+            <label>Liens personnalisés</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Filtres</label>
+            <section>Filters</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Nom de priorité d&apos;itinéraire Maps Advanc</nameFieldLabel>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

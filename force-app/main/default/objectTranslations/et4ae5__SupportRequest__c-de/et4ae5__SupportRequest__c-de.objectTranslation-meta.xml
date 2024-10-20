@@ -41,5 +41,12 @@
         <value>Supportanforderungen</value>
     </caseValues>
     <gender>Feminine</gender>
+    <layouts>
+        <layout>Support Request Layout</layout>
+        <sections>
+            <label>Benutzerdefinierte Links</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Supportanforderung</nameFieldLabel>
 </CustomObjectTranslation>

@@ -31,5 +31,12 @@
         <value>Maps-livesammanfattningar för körsträcka i region</value>
     </caseValues>
     <gender>Feminine</gender>
+    <layouts>
+        <layout>Maps Live Summary State Mileage Layout</layout>
+        <sections>
+            <label>Anpassade länkar</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Namn på Livesammanfattning för körsträck</nameFieldLabel>
 </CustomObjectTranslation>

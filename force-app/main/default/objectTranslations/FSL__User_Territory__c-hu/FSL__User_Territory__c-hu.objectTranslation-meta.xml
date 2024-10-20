@@ -612,6 +612,13 @@
         <possessive>Second</possessive>
         <value>Felhasználóterületek</value>
     </caseValues>
+    <layouts>
+        <layout>User Territory Layout</layout>
+        <sections>
+            <label>Egyéni hivatkozások</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Felhasználó területének száma</nameFieldLabel>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

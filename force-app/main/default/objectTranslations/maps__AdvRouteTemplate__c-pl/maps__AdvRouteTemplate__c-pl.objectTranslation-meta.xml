@@ -61,5 +61,24 @@
         <value>Szablonach Zaawansowanych tras Maps</value>
     </caseValues>
     <gender>Masculine</gender>
+    <layouts>
+        <layout>Maps Advanced Route Template Layout</layout>
+        <sections>
+            <label>Ustawienia automatycznej reoptymalizacji</label>
+            <section>Auto Reoptimization Settings</section>
+        </sections>
+        <sections>
+            <label>Linki niestandardowe</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Informacje o czasie trwania</label>
+            <section>Duration Info</section>
+        </sections>
+        <sections>
+            <label>Ukończenie szablonu</label>
+            <section>Template Completion</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Nazwa szablonu tras Maps Advanced</nameFieldLabel>
 </CustomObjectTranslation>

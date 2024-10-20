@@ -31,5 +31,12 @@
         <value>IoT-enheter for Maps Live</value>
     </caseValues>
     <gender>Masculine</gender>
+    <layouts>
+        <layout>Maps Live IoT Device Layout</layout>
+        <sections>
+            <label>Tilpassede lenker</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Navn på IoT-enhet i Maps Live</nameFieldLabel>
 </CustomObjectTranslation>

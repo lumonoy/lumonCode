@@ -9,6 +9,21 @@
         <value>Esecuzioni piani di assegnazione di Maps</value>
     </caseValues>
     <gender>Feminine</gender>
+    <layouts>
+        <layout>Assignment Plan Run</layout>
+        <sections>
+            <label>Errori</label>
+            <section>Errors</section>
+        </sections>
+        <sections>
+            <label>Tempi di elaborazione</label>
+            <section>Processing Times</section>
+        </sections>
+        <sections>
+            <label>Statistiche esecuzione</label>
+            <section>Run Statistics</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Nome esecuzione piano di assegnazione di</nameFieldLabel>
     <startsWith>Vowel</startsWith>
 </CustomObjectTranslation>

@@ -5,11 +5,11 @@
     <issuer>https://sts.windows.net/6d047cb6-1d14-43c9-a22e-3f8f1ad0b211/</issuer>
     <loginUrl>https://login.microsoftonline.com/6d047cb6-1d14-43c9-a22e-3f8f1ad0b211/saml2</loginUrl>
     <name>Lumon SSO Prod</name>
-    <oauthTokenEndpoint>https://lumonoy.my.salesforce.com/services/oauth2/token</oauthTokenEndpoint>
+    <oauthTokenEndpoint>https://lumonoy--freshdev.sandbox.my.salesforce.com/services/oauth2/token</oauthTokenEndpoint>
     <redirectBinding>true</redirectBinding>
     <requestSignatureMethod>1</requestSignatureMethod>
     <requestSigningCertId>0P17Q00000ILApG</requestSigningCertId>
-    <salesforceLoginUrl>https://lumonoy.my.salesforce.com</salesforceLoginUrl>
+    <salesforceLoginUrl>https://lumonoy--freshdev.sandbox.my.salesforce.com</salesforceLoginUrl>
     <samlEntityId>https://lumonoy.my.salesforce.com</samlEntityId>
     <samlVersion>SAML2_0</samlVersion>
     <singleLogoutBinding>RedirectBinding</singleLogoutBinding>

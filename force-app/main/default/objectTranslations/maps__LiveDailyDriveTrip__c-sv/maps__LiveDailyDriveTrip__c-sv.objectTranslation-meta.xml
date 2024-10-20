@@ -31,5 +31,28 @@
         <value>Dagliga körningar i Maps Live</value>
     </caseValues>
     <gender>Feminine</gender>
+    <layouts>
+        <layout>Maps Live Daily Drive Trip Layout</layout>
+        <sections>
+            <label>Information om början av resan</label>
+            <section>Begin Trip Information</section>
+        </sections>
+        <sections>
+            <label>Anpassade länkar</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Information om slutet av resan</label>
+            <section>End Trip Information</section>
+        </sections>
+        <sections>
+            <label>Information om reseförare</label>
+            <section>Trip Driver Information</section>
+        </sections>
+        <sections>
+            <label>Reseinformation</label>
+            <section>Trip Information</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Namn på Daglig körning i Live Maps</nameFieldLabel>
 </CustomObjectTranslation>

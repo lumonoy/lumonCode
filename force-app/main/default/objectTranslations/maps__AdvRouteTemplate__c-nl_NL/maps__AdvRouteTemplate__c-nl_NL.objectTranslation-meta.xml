@@ -9,5 +9,24 @@
         <value>Sjablonen route Maps Advanced</value>
     </caseValues>
     <gender>Neuter</gender>
+    <layouts>
+        <layout>Maps Advanced Route Template Layout</layout>
+        <sections>
+            <label>Instellingen voor automatische heroptimalisatie</label>
+            <section>Auto Reoptimization Settings</section>
+        </sections>
+        <sections>
+            <label>Aangepaste koppelingen</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Informatie over duur</label>
+            <section>Duration Info</section>
+        </sections>
+        <sections>
+            <label>Sjabloonvoltooiing</label>
+            <section>Template Completion</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Sjabloonnaam route Maps Advanced</nameFieldLabel>
 </CustomObjectTranslation>

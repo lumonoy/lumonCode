@@ -9,5 +9,20 @@
         <value>Rotas de mapas avançados</value>
     </caseValues>
     <gender>Feminine</gender>
+    <layouts>
+        <layout>Maps Advanced Route Layout</layout>
+        <sections>
+            <label>Links personalizados</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Dados de desempenho</label>
+            <section>Performance Data</section>
+        </sections>
+        <sections>
+            <label>Data e hora da rota</label>
+            <section>Route Date/Time</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Nome da rota avançada do Maps</nameFieldLabel>
 </CustomObjectTranslation>

@@ -41,5 +41,12 @@
         <value>Kilometersätzen gemäß Maps-Live-Zusammenfassung</value>
     </caseValues>
     <gender>Masculine</gender>
+    <layouts>
+        <layout>Maps Live Summary State Mileage Layout</layout>
+        <sections>
+            <label>Benutzerdefinierte Links</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Name für Kilometersatz gemäß Maps-Live-Z</nameFieldLabel>
 </CustomObjectTranslation>

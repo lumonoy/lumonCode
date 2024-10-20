@@ -31,5 +31,32 @@
         <value>Mallanvändare i Maps Advanced-rutt</value>
     </caseValues>
     <gender>Feminine</gender>
+    <layouts>
+        <layout>Maps Advanced Route Template User Layout</layout>
+        <sections>
+            <label>Info om aktuell bearbetning</label>
+            <section>Current Processing Info</section>
+        </sections>
+        <sections>
+            <label>Anpassade länkar</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Jobbmisslyckanden</label>
+            <section>Job Failures</section>
+        </sections>
+        <sections>
+            <label>Info om att starta om process</label>
+            <section>Restart Process Info</section>
+        </sections>
+        <sections>
+            <label>Omoptimering på samma dag</label>
+            <section>Same Day Reoptimization</section>
+        </sections>
+        <sections>
+            <label>Användarinformation</label>
+            <section>User Info</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Namn på användare av ruttmall i Maps Adv</nameFieldLabel>
 </CustomObjectTranslation>

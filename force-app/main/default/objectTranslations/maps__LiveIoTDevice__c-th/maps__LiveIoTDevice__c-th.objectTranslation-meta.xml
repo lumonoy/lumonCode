@@ -4,5 +4,12 @@
         <plural>false</plural>
         <value>อุปกรณ์ถ่ายทอดสดแบบ IoT ใน Maps</value>
     </caseValues>
+    <layouts>
+        <layout>Maps Live IoT Device Layout</layout>
+        <sections>
+            <label>ลิงก์แบบกำหนดเอง</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>อุปกรณ์ถ่ายทอดสดแบบ IoT ใน Maps</nameFieldLabel>
 </CustomObjectTranslation>

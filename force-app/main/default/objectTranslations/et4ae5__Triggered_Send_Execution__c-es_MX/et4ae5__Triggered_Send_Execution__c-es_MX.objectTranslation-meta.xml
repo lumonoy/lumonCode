@@ -9,5 +9,12 @@
         <value>Ejecuciones de envío desencadenado</value>
     </caseValues>
     <gender>Feminine</gender>
+    <layouts>
+        <layout>Triggered Send Execution Layout</layout>
+        <sections>
+            <label>Vínculos personalizados</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Nombre de ejecución de envío desencadena</nameFieldLabel>
 </CustomObjectTranslation>

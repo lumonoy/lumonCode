@@ -9,6 +9,25 @@
         <value>Waypoint Percorso di Maps Advanced</value>
     </caseValues>
     <gender>Masculine</gender>
+    <layouts>
+        <layout>Maps Advanced Route Waypoint Layout</layout>
+        <sections>
+            <label>Indirizzo</label>
+            <section>Address</section>
+        </sections>
+        <sections>
+            <label>Correlato a Core</label>
+            <section>Core Related</section>
+        </sections>
+        <sections>
+            <label>Link personalizzati</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Record correlati</label>
+            <section>Related Records</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Nome waypoint Percorso di Maps Advanced</nameFieldLabel>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

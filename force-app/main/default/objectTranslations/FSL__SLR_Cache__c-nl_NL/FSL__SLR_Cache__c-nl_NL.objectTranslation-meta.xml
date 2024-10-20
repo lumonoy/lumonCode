@@ -9,5 +9,12 @@
         <value>Cachegeheugens voor SLR’s</value>
     </caseValues>
     <gender>Neuter</gender>
+    <layouts>
+        <layout>SLR Cache Layout</layout>
+        <sections>
+            <label>Aangepaste koppelingen</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>SLR-cachenummer</nameFieldLabel>
 </CustomObjectTranslation>

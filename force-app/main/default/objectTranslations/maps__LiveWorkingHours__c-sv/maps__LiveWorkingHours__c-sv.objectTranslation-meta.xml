@@ -31,5 +31,16 @@
         <value>Arbetstider i Maps Live</value>
     </caseValues>
     <gender>Feminine</gender>
+    <layouts>
+        <layout>Maps Live Working Hours Layout</layout>
+        <sections>
+            <label>Anpassade länkar</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Arbetstid</label>
+            <section>Working Hours</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Namn på arbetstider för live i Maps</nameFieldLabel>
 </CustomObjectTranslation>

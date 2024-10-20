@@ -61,5 +61,28 @@
         <value>Параметрах користувача</value>
     </caseValues>
     <gender>Masculine</gender>
+    <layouts>
+        <layout>User Setting Layout</layout>
+        <sections>
+            <label>Настроювані фільтри</label>
+            <section>Custom Filters</section>
+        </sections>
+        <sections>
+            <label>Настроювані посилання</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Налаштування діаграми Ганта</label>
+            <section>Gantt Preferences</section>
+        </sections>
+        <sections>
+            <label>Відсутні параметри перетягнення</label>
+            <section>NA Drag&amp;Drop Preferences</section>
+        </sections>
+        <sections>
+            <label>Налаштування списку обслуговування</label>
+            <section>Service List Prefernces</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Ім’я настройки користувача</nameFieldLabel>
 </CustomObjectTranslation>

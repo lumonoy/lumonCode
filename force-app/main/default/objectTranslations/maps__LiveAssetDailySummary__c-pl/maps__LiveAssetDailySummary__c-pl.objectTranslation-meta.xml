@@ -61,5 +61,24 @@
         <value>Dziennych podsumowaniach środków Maps Live</value>
     </caseValues>
     <gender>Neuter</gender>
+    <layouts>
+        <layout>Maps Live Asset Daily Summary Layout</layout>
+        <sections>
+            <label>Linki niestandardowe</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Związane z pokonaną odległością</label>
+            <section>Mileage Related</section>
+        </sections>
+        <sections>
+            <label>Związane z czasem</label>
+            <section>Time Related</section>
+        </sections>
+        <sections>
+            <label>Całkowita liczba zdarzeń</label>
+            <section>Total Events</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Nazwa dziennego podsumowania środków Map</nameFieldLabel>
 </CustomObjectTranslation>

@@ -7,7 +7,7 @@
     <logoUrl>https://lumonoy.my.salesforce.com/environmenthub/images/connected_app_logo.png</logoUrl>
     <oauthConfig>
         <callbackUrl>https://lumonoy.my.salesforce.com/environmenthub/soma-callback.apexp</callbackUrl>
-        <consumerKey>3MVG9t0sl2P.pByrLwCwb9N4jyZIsARdOOtgaMKbpeAQ4mtXrkiZL1sHb5hZHGAmZrzsyQeGpNLAJWaQ2p3jK</consumerKey>
+        <consumerKey>3MVG9vYM8JyKwjKZgAVemvVnasXNUzOYC4a1fRlj.IeYpEn4T_GmTP_l_S6PvWlsSP._k5RxdtbRQIGmwBShd</consumerKey>
         <isAdminApproved>false</isAdminApproved>
         <isClientCredentialEnabled>false</isClientCredentialEnabled>
         <isCodeCredentialEnabled>false</isCodeCredentialEnabled>

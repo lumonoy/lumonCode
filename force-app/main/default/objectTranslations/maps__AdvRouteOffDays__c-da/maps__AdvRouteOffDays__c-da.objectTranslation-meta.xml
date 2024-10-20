@@ -31,5 +31,16 @@
         <value>Maps Advanced Route-fridage</value>
     </caseValues>
     <gender>Feminine</gender>
+    <layouts>
+        <layout>Maps Advanced Route Off Days Layout</layout>
+        <sections>
+            <label>Tilpassede links</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Datoområde</label>
+            <section>Date Range</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Maps Advanced Route-fridagsnavn</nameFieldLabel>
 </CustomObjectTranslation>

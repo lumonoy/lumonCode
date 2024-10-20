@@ -31,5 +31,20 @@
         <value>Körningar av Maps-tilldelningsplan</value>
     </caseValues>
     <gender>Feminine</gender>
+    <layouts>
+        <layout>Assignment Plan Run</layout>
+        <sections>
+            <label>Fel</label>
+            <section>Errors</section>
+        </sections>
+        <sections>
+            <label>Bearbetningstider</label>
+            <section>Processing Times</section>
+        </sections>
+        <sections>
+            <label>Körningsstatistik</label>
+            <section>Run Statistics</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Namn på körning i Maps-tilldelningsplan</nameFieldLabel>
 </CustomObjectTranslation>

@@ -9,5 +9,24 @@
         <value>Continue reizen route Maps Advanced</value>
     </caseValues>
     <gender>Feminine</gender>
+    <layouts>
+        <layout>Maps Advanced Route Continuous Travel Layout</layout>
+        <sections>
+            <label>Aangepaste koppelingen</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Adres eindpunt</label>
+            <section>End Address</section>
+        </sections>
+        <sections>
+            <label>Adres startpunt</label>
+            <section>Start Address</section>
+        </sections>
+        <sections>
+            <label>Reisdata</label>
+            <section>Travel Dates</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Naam continue reis Maps Planner</nameFieldLabel>
 </CustomObjectTranslation>

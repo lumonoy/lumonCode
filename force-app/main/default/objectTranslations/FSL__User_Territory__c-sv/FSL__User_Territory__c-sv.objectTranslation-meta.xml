@@ -31,5 +31,12 @@
         <value>Användarområden</value>
     </caseValues>
     <gender>Neuter</gender>
+    <layouts>
+        <layout>User Territory Layout</layout>
+        <sections>
+            <label>Egna länkar</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Användarnamnnummer</nameFieldLabel>
 </CustomObjectTranslation>

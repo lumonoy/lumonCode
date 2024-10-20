@@ -9,5 +9,12 @@
         <value>Gebeurteniskoppelingen Maps Live</value>
     </caseValues>
     <gender>Feminine</gender>
+    <layouts>
+        <layout>Maps Live Event Association Layout</layout>
+        <sections>
+            <label>Aangepaste koppelingen</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Naam koppeling gebeurtenis live Maps</nameFieldLabel>
 </CustomObjectTranslation>

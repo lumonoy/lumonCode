@@ -396,5 +396,12 @@
         <possessive>Second</possessive>
         <value>Maps: Live-yhteenvedon tilan maililukemiasi</value>
     </caseValues>
+    <layouts>
+        <layout>Maps Live Summary State Mileage Layout</layout>
+        <sections>
+            <label>Mukautetut linkit</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Maps: Liven yhteenvetotilan kilometrimää</nameFieldLabel>
 </CustomObjectTranslation>

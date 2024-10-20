@@ -62,4 +62,8 @@
     </caseValues>
     <gender>Feminine</gender>
     <nameFieldLabel>Имя цели политики планирования</nameFieldLabel>
+    <validationRules>
+        <errorMessage><!-- Weight can&apos;t have zero value --></errorMessage>
+        <name>FSL__Not_Zero</name>
+    </validationRules>
 </CustomObjectTranslation>

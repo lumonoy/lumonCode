@@ -31,5 +31,12 @@
         <value>Maps Live - sammendrag for kilometerantal i stat</value>
     </caseValues>
     <gender>Neuter</gender>
+    <layouts>
+        <layout>Maps Live Summary State Mileage Layout</layout>
+        <sections>
+            <label>Tilpassede links</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Maps Live - navn på sammendrag for kilom</nameFieldLabel>
 </CustomObjectTranslation>

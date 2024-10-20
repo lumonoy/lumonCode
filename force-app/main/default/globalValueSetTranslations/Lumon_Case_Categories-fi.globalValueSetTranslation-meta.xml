@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>Customer Service</masterLabel>
+        <translation>Customer Service</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ICT Support</masterLabel>
+        <translation>IT Support</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Installation Support</masterLabel>
+        <translation>Installations</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Logistics Support</masterLabel>
+        <translation>Logistics</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Not Applicable</masterLabel>
+        <translation>Not Applicable</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Permit Applications</masterLabel>
+        <translation>Permit Applications</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Production Support</masterLabel>
+        <translation>Production</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Reclamation Support</masterLabel>
+        <translation>Reclamations</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Salesforce Support</masterLabel>
+        <translation>Salesforce Support</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Special Order Support</masterLabel>
+        <translation>Special Orders</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Technical Support</masterLabel>
+        <translation>Technical Support</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Webshop Support</masterLabel>
+        <translation>Webshop Support</translation>
+    </valueTranslation>
+</GlobalValueSetTranslation>

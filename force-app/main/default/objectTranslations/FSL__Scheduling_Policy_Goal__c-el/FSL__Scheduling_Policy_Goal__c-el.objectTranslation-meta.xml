@@ -33,4 +33,8 @@
     <gender>Masculine</gender>
     <nameFieldLabel>Όνομα στόχου πολιτικής προγραμματισμού</nameFieldLabel>
     <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Weight can&apos;t have zero value --></errorMessage>
+        <name>FSL__Not_Zero</name>
+    </validationRules>
 </CustomObjectTranslation>

@@ -31,5 +31,20 @@
         <value>Maps Advanced Route-ruteobjekter</value>
     </caseValues>
     <gender>Neuter</gender>
+    <layouts>
+        <layout>Maps Advanced Route Routable Object Layout</layout>
+        <sections>
+            <label>Tilpassede links</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Standardværdier</label>
+            <section>Default Values</section>
+        </sections>
+        <sections>
+            <label>Kampagnevinduer</label>
+            <section>Promo Windows</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Maps Advanced Route-ruteobjektnavn</nameFieldLabel>
 </CustomObjectTranslation>

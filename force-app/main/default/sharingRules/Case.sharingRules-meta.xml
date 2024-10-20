@@ -180,6 +180,17 @@
         </sharedFrom>
     </sharingOwnerRules>
     <sharingOwnerRules>
+        <fullName>ICT_Support</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>ICT Support</label>
+        <sharedTo>
+            <group>ICT_Support</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>ICT_Support</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
         <fullName>LOG_Canada_Cases</fullName>
         <accessLevel>Edit</accessLevel>
         <description>Share Logistics Cases from Canada</description>

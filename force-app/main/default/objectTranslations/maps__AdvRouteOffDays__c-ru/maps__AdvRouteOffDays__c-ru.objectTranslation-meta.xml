@@ -61,5 +61,16 @@
         <value>Выходных днях маршрута Maps Advanced</value>
     </caseValues>
     <gender>Masculine</gender>
+    <layouts>
+        <layout>Maps Advanced Route Off Days Layout</layout>
+        <sections>
+            <label>Настраиваемые ссылки</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Диапазон дат</label>
+            <section>Date Range</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Имя выходных дней маршрута Maps Advanced</nameFieldLabel>
 </CustomObjectTranslation>

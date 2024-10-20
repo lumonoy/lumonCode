@@ -4,5 +4,12 @@
         <plural>false</plural>
         <value>SLR 缓存</value>
     </caseValues>
+    <layouts>
+        <layout>SLR Cache Layout</layout>
+        <sections>
+            <label>自定义链接</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>SLR 缓存编号</nameFieldLabel>
 </CustomObjectTranslation>

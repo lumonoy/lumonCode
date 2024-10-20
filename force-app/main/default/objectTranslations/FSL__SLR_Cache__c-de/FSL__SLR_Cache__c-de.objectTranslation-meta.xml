@@ -41,5 +41,12 @@
         <value>SLR-Caches</value>
     </caseValues>
     <gender>Masculine</gender>
+    <layouts>
+        <layout>SLR Cache Layout</layout>
+        <sections>
+            <label>Benutzerdefinierte Links</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>SLR-Cache-Nummer</nameFieldLabel>
 </CustomObjectTranslation>

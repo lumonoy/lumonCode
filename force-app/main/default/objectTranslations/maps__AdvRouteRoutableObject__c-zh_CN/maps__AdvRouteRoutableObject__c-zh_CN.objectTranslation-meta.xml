@@ -4,5 +4,20 @@
         <plural>false</plural>
         <value>地图高级路线可路由对象</value>
     </caseValues>
+    <layouts>
+        <layout>Maps Advanced Route Routable Object Layout</layout>
+        <sections>
+            <label>自定义链接</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>默认值</label>
+            <section>Default Values</section>
+        </sections>
+        <sections>
+            <label>促销时段</label>
+            <section>Promo Windows</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Maps Advanced 路线可路由对象名称</nameFieldLabel>
 </CustomObjectTranslation>

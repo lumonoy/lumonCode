@@ -61,5 +61,12 @@
         <value>Wartościach domyślnych Zaawansowanych Maps</value>
     </caseValues>
     <gender>Feminine</gender>
+    <layouts>
+        <layout>Maps Advanced Default Value Layout</layout>
+        <sections>
+            <label>Linki niestandardowe</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Nazwa wartości domyślnych Maps Advanced</nameFieldLabel>
 </CustomObjectTranslation>

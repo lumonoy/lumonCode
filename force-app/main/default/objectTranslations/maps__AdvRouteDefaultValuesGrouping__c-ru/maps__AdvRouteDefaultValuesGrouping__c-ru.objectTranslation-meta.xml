@@ -61,5 +61,12 @@
         <value>Группах значений по умолчанию Maps Advanced</value>
     </caseValues>
     <gender>Feminine</gender>
+    <layouts>
+        <layout>Maps Advanced Default Values Group Layout</layout>
+        <sections>
+            <label>Настраиваемые ссылки</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Имя группы значений по умолчанию Maps Ad</nameFieldLabel>
 </CustomObjectTranslation>

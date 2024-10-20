@@ -31,5 +31,44 @@
         <value>Maps Advanced Route-besøgsvinduer</value>
     </caseValues>
     <gender>Feminine</gender>
+    <layouts>
+        <layout>Maps Advanced Route Visit Windows Layout</layout>
+        <sections>
+            <label>Tilpassede links</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Fredag</label>
+            <section>Friday</section>
+        </sections>
+        <sections>
+            <label>Mandag</label>
+            <section>Monday</section>
+        </sections>
+        <sections>
+            <label>Lørdag</label>
+            <section>Saturday</section>
+        </sections>
+        <sections>
+            <label>Søndag</label>
+            <section>Sunday</section>
+        </sections>
+        <sections>
+            <label>Torsdag</label>
+            <section>Thursday</section>
+        </sections>
+        <sections>
+            <label>Tirsdag</label>
+            <section>Tuesday</section>
+        </sections>
+        <sections>
+            <label>Gyldig dage/datoer</label>
+            <section>Valid Days/Dates</section>
+        </sections>
+        <sections>
+            <label>Onsdag</label>
+            <section>Wednesday</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Maps Advanced Route-besøgsvinduesnavn</nameFieldLabel>
 </CustomObjectTranslation>

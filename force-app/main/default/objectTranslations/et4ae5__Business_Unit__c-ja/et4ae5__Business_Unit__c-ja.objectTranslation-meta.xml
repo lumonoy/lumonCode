@@ -4,5 +4,12 @@
         <plural>false</plural>
         <value>ビジネスユニット</value>
     </caseValues>
+    <layouts>
+        <layout>Business Unit Layout</layout>
+        <sections>
+            <label>カスタムリンク</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>ビジネスユニット名</nameFieldLabel>
 </CustomObjectTranslation>

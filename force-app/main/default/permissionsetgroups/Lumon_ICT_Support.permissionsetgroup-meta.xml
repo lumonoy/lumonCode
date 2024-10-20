@@ -9,6 +9,5 @@
     <permissionSets>SoveliaPermissions</permissionSets>
     <permissionSets>UserMobileAppAccessPermissions</permissionSets>
     <permissionSets>VisualPermissions</permissionSets>
-    <permissionSets>force__StandardEinsteinActivityCapturePsl</permissionSets>
     <status>Updated</status>
 </PermissionSetGroup>

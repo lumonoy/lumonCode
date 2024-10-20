@@ -9,5 +9,12 @@
         <value>Valores predefinidos de mapas avançados</value>
     </caseValues>
     <gender>Masculine</gender>
+    <layouts>
+        <layout>Maps Advanced Default Value Layout</layout>
+        <sections>
+            <label>Links personalizados</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Nome do valor padrão do Maps Advanced</nameFieldLabel>
 </CustomObjectTranslation>

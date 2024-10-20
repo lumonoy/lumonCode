@@ -4,5 +4,12 @@
         <plural>false</plural>
         <value>Maps ライブ納入商品</value>
     </caseValues>
+    <layouts>
+        <layout>Maps Live Asset Layout</layout>
+        <sections>
+            <label>カスタムリンク</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Maps ライブ納入商品名</nameFieldLabel>
 </CustomObjectTranslation>

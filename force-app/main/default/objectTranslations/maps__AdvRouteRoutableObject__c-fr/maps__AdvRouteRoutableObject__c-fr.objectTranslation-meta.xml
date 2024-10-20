@@ -9,6 +9,21 @@
         <value>Objets d&apos;itinéraire Maps Advanced</value>
     </caseValues>
     <gender>Masculine</gender>
+    <layouts>
+        <layout>Maps Advanced Route Routable Object Layout</layout>
+        <sections>
+            <label>Liens personnalisés</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Valeurs par défaut</label>
+            <section>Default Values</section>
+        </sections>
+        <sections>
+            <label>Fenêtres promotionnelles</label>
+            <section>Promo Windows</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Nom de l&apos;objet de l&apos;itinéraire Maps Adva</nameFieldLabel>
     <startsWith>Vowel</startsWith>
 </CustomObjectTranslation>

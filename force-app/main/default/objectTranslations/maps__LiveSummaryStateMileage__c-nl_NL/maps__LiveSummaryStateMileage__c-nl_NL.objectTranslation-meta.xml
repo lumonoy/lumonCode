@@ -9,5 +9,12 @@
         <value>Overzicht kilometerstanden staat Maps Live</value>
     </caseValues>
     <gender>Neuter</gender>
+    <layouts>
+        <layout>Maps Live Summary State Mileage Layout</layout>
+        <sections>
+            <label>Aangepaste koppelingen</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Naam live overzicht kilometerstand staat</nameFieldLabel>
 </CustomObjectTranslation>

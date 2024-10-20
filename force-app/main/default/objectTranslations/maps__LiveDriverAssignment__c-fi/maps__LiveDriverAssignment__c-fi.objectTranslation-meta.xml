@@ -396,5 +396,12 @@
         <possessive>Second</possessive>
         <value>Maps: Karttojen live-kuljettajan kohdistuksiasi</value>
     </caseValues>
+    <layouts>
+        <layout>Maps Live Driver Assignment Layout</layout>
+        <sections>
+            <label>Mukautetut linkit</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Maps: live-kuljettajan kohdistuksen nimi</nameFieldLabel>
 </CustomObjectTranslation>

@@ -61,5 +61,16 @@
         <value>Konfiguracjach okresu promocyjnego Zaawansowanych tras Maps</value>
     </caseValues>
     <gender>Feminine</gender>
+    <layouts>
+        <layout>Maps Advanced Promotional Period Config Layout</layout>
+        <sections>
+            <label>Linki niestandardowe</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Wartości domyślne</label>
+            <section>Default Values</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Konfiguracja nazwy okresu promocyjnego M</nameFieldLabel>
 </CustomObjectTranslation>

@@ -4,5 +4,16 @@
         <plural>false</plural>
         <value>วันหยุดในการจัดเส้นทางใน Maps Advanced</value>
     </caseValues>
+    <layouts>
+        <layout>Maps Advanced Route Off Days Layout</layout>
+        <sections>
+            <label>ลิงก์แบบกำหนดเอง</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>ช่วงวันที่</label>
+            <section>Date Range</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>ชื่อวันหยุดในการจัดเส้นทางใน Maps Advanc</nameFieldLabel>
 </CustomObjectTranslation>

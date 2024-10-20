@@ -61,5 +61,20 @@
         <value>Kierowcach Maps Live</value>
     </caseValues>
     <gender>Masculine</gender>
+    <layouts>
+        <layout>Maps Live Driver Layout</layout>
+        <sections>
+            <label>Adres</label>
+            <section>Address</section>
+        </sections>
+        <sections>
+            <label>Linki niestandardowe</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Alerty telematyczne dla kierowcy</label>
+            <section>Driver Telematics Alerts</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Mapuje na żywo nazwisko kierowcy</nameFieldLabel>
 </CustomObjectTranslation>

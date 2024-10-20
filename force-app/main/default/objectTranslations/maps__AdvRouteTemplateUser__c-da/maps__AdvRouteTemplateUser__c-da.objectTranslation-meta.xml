@@ -31,5 +31,32 @@
         <value>Maps Advanced-ruteskabelonbrugere</value>
     </caseValues>
     <gender>Feminine</gender>
+    <layouts>
+        <layout>Maps Advanced Route Template User Layout</layout>
+        <sections>
+            <label>Oplysninger om aktuel behandling</label>
+            <section>Current Processing Info</section>
+        </sections>
+        <sections>
+            <label>Tilpassede links</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Jobfejl</label>
+            <section>Job Failures</section>
+        </sections>
+        <sections>
+            <label>Oplysninger om Genstart behandling</label>
+            <section>Restart Process Info</section>
+        </sections>
+        <sections>
+            <label>Genoptimering samme dag</label>
+            <section>Same Day Reoptimization</section>
+        </sections>
+        <sections>
+            <label>Brugeroplysninger</label>
+            <section>User Info</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Maps Advanced Route-skabelonbrugernavn</nameFieldLabel>
 </CustomObjectTranslation>

@@ -8,5 +8,12 @@
         <plural>true</plural>
         <value>Wilayah Pengguna</value>
     </caseValues>
+    <layouts>
+        <layout>User Territory Layout</layout>
+        <sections>
+            <label>Tautan Suai</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Nomor Wilayah Pengguna</nameFieldLabel>
 </CustomObjectTranslation>

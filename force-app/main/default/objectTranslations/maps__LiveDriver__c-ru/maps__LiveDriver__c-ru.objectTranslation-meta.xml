@@ -61,5 +61,20 @@
         <value>Динамических водителях Maps</value>
     </caseValues>
     <gender>Masculine</gender>
+    <layouts>
+        <layout>Maps Live Driver Layout</layout>
+        <sections>
+            <label>Адрес</label>
+            <section>Address</section>
+        </sections>
+        <sections>
+            <label>Настраиваемые ссылки</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Предупреждения компьютеризированной дистанционной связи водителя</label>
+            <section>Driver Telematics Alerts</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Динамическое имя водителя Maps</nameFieldLabel>
 </CustomObjectTranslation>

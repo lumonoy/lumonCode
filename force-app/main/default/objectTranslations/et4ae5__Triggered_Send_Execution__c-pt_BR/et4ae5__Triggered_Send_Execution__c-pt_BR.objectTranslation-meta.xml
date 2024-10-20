@@ -9,5 +9,12 @@
         <value>Execuções de envio acionado</value>
     </caseValues>
     <gender>Feminine</gender>
+    <layouts>
+        <layout>Triggered Send Execution Layout</layout>
+        <sections>
+            <label>Links personalizados</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Nome da execução de envio acionado</nameFieldLabel>
 </CustomObjectTranslation>

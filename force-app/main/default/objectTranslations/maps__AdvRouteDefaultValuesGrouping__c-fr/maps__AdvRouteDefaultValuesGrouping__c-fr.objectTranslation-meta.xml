@@ -9,6 +9,13 @@
         <value>Groupes de valeurs par défaut Maps Advanced</value>
     </caseValues>
     <gender>Masculine</gender>
+    <layouts>
+        <layout>Maps Advanced Default Values Group Layout</layout>
+        <sections>
+            <label>Liens personnalisés</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Nom du groupe de valeurs par défaut Maps</nameFieldLabel>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

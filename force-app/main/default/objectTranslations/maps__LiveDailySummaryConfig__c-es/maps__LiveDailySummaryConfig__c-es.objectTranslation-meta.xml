@@ -9,5 +9,24 @@
         <value>Configuraciones de resúmenes diarios en vivo de Maps</value>
     </caseValues>
     <gender>Feminine</gender>
+    <layouts>
+        <layout>Maps Live Daily Summary Configuration Layout</layout>
+        <sections>
+            <label>Vínculos personalizados</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Último lote</label>
+            <section>Last Batch</section>
+        </sections>
+        <sections>
+            <label>Relacionado con exceso de velocidad</label>
+            <section>Speeding Related</section>
+        </sections>
+        <sections>
+            <label>Relacionado con parada</label>
+            <section>Stop Related</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Nombre de configuración de resumen diari</nameFieldLabel>
 </CustomObjectTranslation>

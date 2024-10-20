@@ -9,5 +9,24 @@
         <value>Puntos de Rutas de Maps Advanced</value>
     </caseValues>
     <gender>Masculine</gender>
+    <layouts>
+        <layout>Maps Advanced Route Waypoint Layout</layout>
+        <sections>
+            <label>Dirección</label>
+            <section>Address</section>
+        </sections>
+        <sections>
+            <label>Relacionado con principal</label>
+            <section>Core Related</section>
+        </sections>
+        <sections>
+            <label>Vínculos personalizados</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Registros relacionados</label>
+            <section>Related Records</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Nombre de Punto de Ruta de Maps Advanced</nameFieldLabel>
 </CustomObjectTranslation>

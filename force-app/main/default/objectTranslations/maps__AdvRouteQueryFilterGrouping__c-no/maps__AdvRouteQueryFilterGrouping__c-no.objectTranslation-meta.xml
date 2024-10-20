@@ -31,5 +31,12 @@
         <value>Spørringsfiltergrupper for Maps Advanced-rute</value>
     </caseValues>
     <gender>Masculine</gender>
+    <layouts>
+        <layout>Maps Advanced Route Query Filter Group Layout</layout>
+        <sections>
+            <label>Tilpassede lenker</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Navn på spørringsfiltergruppe for Maps A</nameFieldLabel>
 </CustomObjectTranslation>

@@ -41,5 +41,28 @@
         <value>Benutzereinstellungen</value>
     </caseValues>
     <gender>Feminine</gender>
+    <layouts>
+        <layout>User Setting Layout</layout>
+        <sections>
+            <label>Benutzerdefinierte Filter</label>
+            <section>Custom Filters</section>
+        </sections>
+        <sections>
+            <label>Benutzerdefinierte Links</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Gantt-Voreinstellungen</label>
+            <section>Gantt Preferences</section>
+        </sections>
+        <sections>
+            <label>Voreinstellungen für Ziehen und Ablegen bei Nichtverfügbarkeit</label>
+            <section>NA Drag&amp;Drop Preferences</section>
+        </sections>
+        <sections>
+            <label>Voreinstellungen für Serviceliste</label>
+            <section>Service List Prefernces</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Benutzereinstellungsname</nameFieldLabel>
 </CustomObjectTranslation>

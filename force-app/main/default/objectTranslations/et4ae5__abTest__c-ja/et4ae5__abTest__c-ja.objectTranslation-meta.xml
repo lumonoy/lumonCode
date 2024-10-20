@@ -4,5 +4,12 @@
         <plural>false</plural>
         <value>AB テスト</value>
     </caseValues>
+    <layouts>
+        <layout>AB Test Layout</layout>
+        <sections>
+            <label>カスタムリンク</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>AB テスト名</nameFieldLabel>
 </CustomObjectTranslation>

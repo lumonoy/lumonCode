@@ -9,6 +9,33 @@
         <value>Eventi riepilogo giornaliero asset live di Maps</value>
     </caseValues>
     <gender>Masculine</gender>
+    <layouts>
+        <layout>Maps Live Asset Daily Summary Event Layout</layout>
+        <sections>
+            <label>Indirizzo</label>
+            <section>Address</section>
+        </sections>
+        <sections>
+            <label>Link personalizzati</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Durata</label>
+            <section>Duration</section>
+        </sections>
+        <sections>
+            <label>Indirizzo finale</label>
+            <section>End Address</section>
+        </sections>
+        <sections>
+            <label>Posizione</label>
+            <section>Location</section>
+        </sections>
+        <sections>
+            <label>Velocità</label>
+            <section>Speed</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Nome evento riepilogo giornaliero asset</nameFieldLabel>
     <startsWith>Vowel</startsWith>
 </CustomObjectTranslation>

@@ -656,46 +656,34 @@
         <label>LOG_REQ_Shipping_Location</label>
     </customValue>
     <customValue>
-        <fullName>OLD Callback Request</fullName>
+        <fullName>Phones</fullName>
         <default>false</default>
-        <isActive>false</isActive>
-        <label>OLD Callback Request</label>
+        <label>Phones</label>
     </customValue>
     <customValue>
-        <fullName>OLD Inquiry</fullName>
+        <fullName>Offer planning projects(new)</fullName>
         <default>false</default>
-        <isActive>false</isActive>
-        <label>OLD Inquiry</label>
+        <label>Offer planning projects</label>
     </customValue>
     <customValue>
-        <fullName>OLD Logistics</fullName>
+        <fullName>Offer planning consumer(new)</fullName>
         <default>false</default>
-        <isActive>false</isActive>
-        <label>OLD Logistics</label>
+        <label>Offer planning consumer</label>
     </customValue>
     <customValue>
-        <fullName>OLD Maintenance</fullName>
+        <fullName>LGR(new)</fullName>
         <default>false</default>
-        <isActive>false</isActive>
-        <label>OLD Maintenance</label>
+        <label>LGR(new)</label>
     </customValue>
     <customValue>
-        <fullName>OLD Other</fullName>
+        <fullName>LGS(new)</fullName>
         <default>false</default>
-        <isActive>false</isActive>
-        <label>OLD Other</label>
+        <label>LGS(new)</label>
     </customValue>
     <customValue>
-        <fullName>OLD Permits</fullName>
+        <fullName>Software(new)</fullName>
         <default>false</default>
-        <isActive>false</isActive>
-        <label>OLD Permits</label>
-    </customValue>
-    <customValue>
-        <fullName>OLD Project Sales</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>OLD Project Sales</label>
+        <label>Software</label>
     </customValue>
     <customValue>
         <fullName>OLD Question</fullName>
@@ -716,10 +704,10 @@
         <label>OLD Services Sales</label>
     </customValue>
     <customValue>
-        <fullName>Autopilot</fullName>
+        <fullName>OLD Warranty</fullName>
         <default>false</default>
         <isActive>false</isActive>
-        <label>Autopilot</label>
+        <label>OLD Warranty</label>
     </customValue>
     <customValue>
         <fullName>OLD Reclamations</fullName>
@@ -734,10 +722,10 @@
         <label>OLD Requests</label>
     </customValue>
     <customValue>
-        <fullName>OLD Orders</fullName>
+        <fullName>Autopilot</fullName>
         <default>false</default>
         <isActive>false</isActive>
-        <label>OLD Orders</label>
+        <label>Autopilot</label>
     </customValue>
     <customValue>
         <fullName>OLD WorkOrders</fullName>
@@ -776,16 +764,10 @@
         <label>OLD Offers</label>
     </customValue>
     <customValue>
-        <fullName>OLD Warranty</fullName>
+        <fullName>OLD Orders</fullName>
         <default>false</default>
         <isActive>false</isActive>
-        <label>OLD Warranty</label>
-    </customValue>
-    <customValue>
-        <fullName>Phones</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Phones</label>
+        <label>OLD Orders</label>
     </customValue>
     <customValue>
         <fullName>Printer</fullName>
@@ -1560,6 +1542,48 @@
         <default>false</default>
         <isActive>false</isActive>
         <label>OLD Blinds Sales</label>
+    </customValue>
+    <customValue>
+        <fullName>OLD Callback Request</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>OLD Callback Request</label>
+    </customValue>
+    <customValue>
+        <fullName>OLD Inquiry</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>OLD Inquiry</label>
+    </customValue>
+    <customValue>
+        <fullName>OLD Logistics</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>OLD Logistics</label>
+    </customValue>
+    <customValue>
+        <fullName>OLD Maintenance</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>OLD Maintenance</label>
+    </customValue>
+    <customValue>
+        <fullName>OLD Other</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>OLD Other</label>
+    </customValue>
+    <customValue>
+        <fullName>OLD Permits</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>OLD Permits</label>
+    </customValue>
+    <customValue>
+        <fullName>OLD Project Sales</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>OLD Project Sales</label>
     </customValue>
     <masterLabel>Lumon Case Items</masterLabel>
     <sorted>true</sorted>

@@ -31,5 +31,12 @@
         <value>Maps Live-hendelsestilknytninger</value>
     </caseValues>
     <gender>Masculine</gender>
+    <layouts>
+        <layout>Maps Live Event Association Layout</layout>
+        <sections>
+            <label>Tilpassede lenker</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Navn på Maps Live-hendelsestilknytning</nameFieldLabel>
 </CustomObjectTranslation>
