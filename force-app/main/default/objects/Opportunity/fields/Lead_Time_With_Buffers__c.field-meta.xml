@@ -4,7 +4,7 @@
     <description>Lead Time in Days</description>
     <externalId>false</externalId>
     <inlineHelpText>Total Lead Time in Days</inlineHelpText>
-    <label>Lead Time With Buffers</label>
+    <label>Lead Time With Buffers OLD</label>
     <precision>18</precision>
     <required>false</required>
     <scale>0</scale>

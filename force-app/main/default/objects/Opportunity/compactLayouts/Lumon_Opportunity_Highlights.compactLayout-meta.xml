@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lumon_Opportunity_Highlights</fullName>
+    <fields>Name</fields>
+    <fields>AccountId</fields>
+    <fields>Project__c</fields>
+    <fields>CurrentOfferNumber__c</fields>
+    <fields>Amount</fields>
+    <label>Lumon Opportunity Highlights</label>
+</CompactLayout>
