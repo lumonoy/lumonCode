@@ -3,7 +3,7 @@
     <fullName>CaseGroup__c</fullName>
     <description>The Group that is handling the Case</description>
     <externalId>false</externalId>
-    <inlineHelpText>The Group that is handling the Case</inlineHelpText>
+    <inlineHelpText>The Group that is assigned to the Case</inlineHelpText>
     <label>Case Group</label>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>

@@ -3,6 +3,7 @@
     <fullName>QualityCauseCode__c</fullName>
     <description>Picklist value for reclamation classifications</description>
     <externalId>false</externalId>
+    <inlineHelpText>The 3rd Level Quality Classification of the Case</inlineHelpText>
     <label>Cause Code</label>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>
