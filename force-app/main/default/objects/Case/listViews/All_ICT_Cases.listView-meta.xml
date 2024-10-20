@@ -8,11 +8,18 @@
     <columns>ACCOUNT.NAME</columns>
     <columns>CASES.CREATED_DATE</columns>
     <columns>CORE.USERS.ALIAS</columns>
+    <columns>CASES.CLOSED_DATE</columns>
+    <columns>CaseGroup__c</columns>
     <filterScope>Everything</filterScope>
     <filters>
         <field>CASES.RECORDTYPE</field>
         <operation>equals</operation>
         <value>Case.Lumon_ICT_Support,Case.ICT_Case</value>
+    </filters>
+    <filters>
+        <field>CASES.STATUS</field>
+        <operation>notEqual</operation>
+        <value>Resolved,Merged,Closed</value>
     </filters>
     <label>All ICT Cases</label>
     <sharedTo>
