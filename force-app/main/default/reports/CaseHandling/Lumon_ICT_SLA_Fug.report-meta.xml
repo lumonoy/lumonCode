@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <aggregates>
+        <calculatedFormula>Case.SlaCount__c:SUM / MAX(RowCount, 1)</calculatedFormula>
+        <datatype>percent</datatype>
+        <description>Percentage of tickets solved within SLA</description>
+        <developerName>FORMULA1</developerName>
+        <isActive>true</isActive>
+        <isCrossBlock>false</isCrossBlock>
+        <masterLabel>SLA%</masterLabel>
+        <scale>2</scale>
+    </aggregates>
+    <aggregates>
+        <calculatedFormula>RowCount</calculatedFormula>
+        <datatype>number</datatype>
+        <description>Total Cases</description>
+        <developerName>FORMULA2</developerName>
+        <isActive>true</isActive>
+        <isCrossBlock>false</isCrossBlock>
+        <masterLabel>Total Cases</masterLabel>
+        <scale>0</scale>
+    </aggregates>
+    <columns>
+        <field>CASE_ID</field>
+    </columns>
+    <columns>
+        <field>SUBJECT</field>
+    </columns>
+    <columns>
+        <field>Case.CaseResolvedOnTime__c</field>
+    </columns>
+    <columns>
+        <field>CDF1</field>
+    </columns>
+    <currency>EUR</currency>
+    <customDetailFormulas>
+        <calculatedFormula>TEXT(YEAR(DATEVALUE(Case.CaseResolvedDate__c))) + &quot;-&quot; + CASE(MONTH(DATEVALUE(Case.CaseResolvedDate__c)),
+1, &quot;01&quot;,
+2, &quot;02&quot;,
+3, &quot;03&quot;,
+4, &quot;04&quot;,
+5, &quot;05&quot;,
+6, &quot;06&quot;,
+7, &quot;07&quot;,
+8, &quot;08&quot;,
+9, &quot;09&quot;,
+10, &quot;10&quot;,
+11, &quot;11&quot;,
+12, &quot;12&quot;,
+&quot;00&quot;
+)</calculatedFormula>
+        <dataType>Text</dataType>
+        <description>Year and mont Resolved</description>
+        <developerName>CDF1</developerName>
+        <label>Year and month Resolved</label>
+        <scale>2</scale>
+    </customDetailFormulas>
+    <description>Lumon ICT SLA</description>
+    <filter>
+        <criteriaItems>
+            <column>STATUS</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Closed,Resolved</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Case.CaseResolvedDate__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>greaterThan</operator>
+            <value>1/1/2024 12:00 AM</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Matrix</format>
+    <groupingsAcross>
+        <dateGranularity>Day</dateGranularity>
+        <field>Case.CaseGroup__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsAcross>
+    <groupingsDown>
+        <dateGranularity>Month</dateGranularity>
+        <field>Case.CaseResolvedDate__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Lumon SLA</name>
+    <params>
+        <name>units</name>
+        <value>h</value>
+    </params>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CaseList</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>CLOSED_DATEONLY</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>
