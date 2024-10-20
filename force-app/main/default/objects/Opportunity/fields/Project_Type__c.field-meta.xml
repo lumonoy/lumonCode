@@ -4,7 +4,7 @@
     <description>Indicates the Project Type (= salestori customergroup)</description>
     <externalId>false</externalId>
     <inlineHelpText>The Project Type</inlineHelpText>
-    <label>Project Type</label>
+    <label>Project Type OLD</label>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>false</trackHistory>

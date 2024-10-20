@@ -4,7 +4,7 @@
     <description>A List of Products included in the Offer</description>
     <externalId>false</externalId>
     <inlineHelpText>A List of Products included in the Offer</inlineHelpText>
-    <label>Included Products</label>
+    <label>Included Products OLD</label>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>false</trackHistory>
