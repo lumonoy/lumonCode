@@ -4,7 +4,7 @@
     <description>Logistic Delivery Terms for the order</description>
     <externalId>false</externalId>
     <inlineHelpText>Logistic Delivery Terms for the order</inlineHelpText>
-    <label>Delivery Terms</label>
+    <label>Delivery Terms OLD</label>
     <required>false</required>
     <trackHistory>false</trackHistory>
     <type>Picklist</type>

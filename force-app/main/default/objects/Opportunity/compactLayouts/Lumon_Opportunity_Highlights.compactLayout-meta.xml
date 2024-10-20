@@ -4,7 +4,7 @@
     <fields>Name</fields>
     <fields>AccountId</fields>
     <fields>Project__c</fields>
-    <fields>CurrentOfferNumber__c</fields>
+    <fields>OfferNumber__c</fields>
     <fields>Amount</fields>
     <label>Lumon Opportunity Highlights</label>
 </CompactLayout>

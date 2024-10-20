@@ -3,7 +3,7 @@
     <fullName>Unique_ProductCode__c</fullName>
     <caseSensitive>false</caseSensitive>
     <externalId>true</externalId>
-    <label>Unique ProductCode</label>
+    <label>Unique ProductCode OLD</label>
     <length>50</length>
     <required>false</required>
     <trackHistory>false</trackHistory>

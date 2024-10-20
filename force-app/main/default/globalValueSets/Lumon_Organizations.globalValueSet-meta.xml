@@ -58,7 +58,7 @@
     <customValue>
         <fullName>LPO</fullName>
         <default>false</default>
-        <label>Lumon Polska</label>
+        <label>Lumon Polska (LPO)</label>
     </customValue>
     <customValue>
         <fullName>LNP</fullName>
@@ -96,6 +96,23 @@
         <label>ZAO Lumon (ZAO)</label>
     </customValue>
     <customValue>
+        <fullName>TST</fullName>
+        <default>false</default>
+        <label>Lumon Test</label>
+    </customValue>
+    <customValue>
+        <fullName>LUM</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>LUM</label>
+    </customValue>
+    <customValue>
+        <fullName>LNE</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>LNE</label>
+    </customValue>
+    <customValue>
         <fullName>LCA</fullName>
         <default>false</default>
         <isActive>false</isActive>
@@ -112,18 +129,6 @@
         <default>false</default>
         <isActive>false</isActive>
         <label>LSS</label>
-    </customValue>
-    <customValue>
-        <fullName>LUM</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>LUM</label>
-    </customValue>
-    <customValue>
-        <fullName>LNE</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>LNE</label>
     </customValue>
     <description>Picklist Value Set for Selection of Organization 
 Value is 3 Letter shortcode</description>
