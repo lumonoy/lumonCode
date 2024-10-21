@@ -3,7 +3,7 @@
     <fullName>Sales_Manager_Single_House__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <externalId>false</externalId>
-    <label>Sales Manager Single House</label>
+    <label>Sales Manager Single House OLD</label>
     <lookupFilter>
         <active>true</active>
         <filterItems>

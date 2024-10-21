@@ -3,7 +3,7 @@
     <fullName>Delivery_Date_Calc__c</fullName>
     <externalId>false</externalId>
     <formula>IF(ISBLANK( Confirmed_Delivery_Date__c ) ,  &quot;Est : &quot; &amp;  TEXT( Delivery_Date__c ) , TEXT(Confirmed_Delivery_Date__c ))</formula>
-    <label>Delivery Date Calc</label>
+    <label>Delivery Date Calc OLD</label>
     <required>false</required>
     <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>

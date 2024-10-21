@@ -4,7 +4,7 @@
     <description>Is used in notification sending.</description>
     <externalId>false</externalId>
     <inlineHelpText>This field is automatically populated by Person Account/Contact email, and used for sending notifications.</inlineHelpText>
-    <label>Contact Email</label>
+    <label>Contact Email DEL</label>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>false</trackHistory>

@@ -4,7 +4,7 @@
     <description>Retrieve the Profit Center Code</description>
     <externalId>false</externalId>
     <formula>LEFT(Owner_Profit_Center__c,FIND(Organization_Attribute__c,Owner_Profit_Center__c,1)-2)</formula>
-    <label>Profit Center Code</label>
+    <label>Profit Center Code OLD</label>
     <required>false</required>
     <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>

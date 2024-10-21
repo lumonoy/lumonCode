@@ -5,7 +5,7 @@
     <formula>fxSales__c</formula>
     <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
     <inlineHelpText>Revenue (Sales Price)</inlineHelpText>
-    <label>Revenue</label>
+    <label>Revenue OLD</label>
     <precision>18</precision>
     <required>false</required>
     <scale>2</scale>

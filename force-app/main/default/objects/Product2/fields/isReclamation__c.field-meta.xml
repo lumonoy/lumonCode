@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>isReclamation__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Flag to Indicate if the Product is applicable for Reclamation
+Used to find the reclamation code for Main Products</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Indicates if the Product is applicable for Reclamation</inlineHelpText>
+    <label>Reclamation</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

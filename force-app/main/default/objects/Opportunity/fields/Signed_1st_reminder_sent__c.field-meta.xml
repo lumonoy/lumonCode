@@ -4,7 +4,7 @@
     <defaultValue>false</defaultValue>
     <description>This field is stamped when 1st reminder is send and prevent sending more of first reminders</description>
     <externalId>false</externalId>
-    <label>Signed 1st reminder sent</label>
+    <label>Signed 1st reminder sent OLD</label>
     <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>

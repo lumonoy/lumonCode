@@ -4,7 +4,7 @@
     <description>Count of Products that require Installation</description>
     <externalId>false</externalId>
     <inlineHelpText>Count of Products that require Installation</inlineHelpText>
-    <label>Count Installable Products</label>
+    <label>Count Installable Products OLD</label>
     <summaryForeignKey>OpportunityLineItem.OpportunityId</summaryForeignKey>
     <summaryOperation>count</summaryOperation>
     <trackHistory>false</trackHistory>

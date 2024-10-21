@@ -5,7 +5,7 @@
     <description>Flag to indicate if the Product  requires Installation Services</description>
     <externalId>false</externalId>
     <inlineHelpText>indicates if the Product requires Installation Services</inlineHelpText>
-    <label>Installation</label>
+    <label>Installation OLD</label>
     <trackHistory>false</trackHistory>
     <type>Checkbox</type>
 </CustomField>

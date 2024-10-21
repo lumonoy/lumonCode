@@ -4,10 +4,10 @@
     <description>Claim or normal order</description>
     <externalId>false</externalId>
     <inlineHelpText>Select if the order is a reclamation or a normal order</inlineHelpText>
-    <label>Order type</label>
+    <label>Order type OLD</label>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>
-    <trackHistory>true</trackHistory>
+    <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>
     <type>Picklist</type>
     <valueSet>

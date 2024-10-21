@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>WAR</fullName>
+        <default>false</default>
+        <label>Warranty</label>
+    </customValue>
+    <customValue>
+        <fullName>DELIV</fullName>
+        <default>false</default>
+        <label>Delivery</label>
+    </customValue>
+    <customValue>
+        <fullName>SALES</fullName>
+        <default>false</default>
+        <label>Sales</label>
+    </customValue>
+    <customValue>
+        <fullName>CON</fullName>
+        <default>false</default>
+        <label>Consumer Sales</label>
+    </customValue>
+    <customValue>
+        <fullName>AFT</fullName>
+        <default>false</default>
+        <label>After Sales</label>
+    </customValue>
+    <customValue>
+        <fullName>REC</fullName>
+        <default>false</default>
+        <label>Reclamation</label>
+    </customValue>
+    <masterLabel>Lumon Project Categories</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

@@ -4,13 +4,13 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <description>Related Project number for the order</description>
     <externalId>false</externalId>
-    <label>Project</label>
+    <label>Project OLD</label>
     <referenceTo>Project__c</referenceTo>
     <relationshipLabel>Opportunities</relationshipLabel>
     <relationshipName>Opportunities</relationshipName>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>
-    <trackHistory>true</trackHistory>
+    <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>
     <type>Lookup</type>
 </CustomField>

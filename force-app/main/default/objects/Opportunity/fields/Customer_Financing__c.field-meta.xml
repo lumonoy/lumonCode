@@ -5,7 +5,7 @@
 This custom field is part of the B2C lead to order process.</description>
     <externalId>false</externalId>
     <inlineHelpText>Please select Customer Financing option.</inlineHelpText>
-    <label>Customer Financing</label>
+    <label>Customer Financing OLD</label>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>false</trackHistory>

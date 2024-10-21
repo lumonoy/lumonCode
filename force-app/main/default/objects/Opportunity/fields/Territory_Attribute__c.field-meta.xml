@@ -6,7 +6,7 @@
     <formula>Territory2.DeveloperName</formula>
     <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
     <inlineHelpText>Attribute to Identify the Sales Area</inlineHelpText>
-    <label>Territory Attribute</label>
+    <label>Territory Attribute OLD</label>
     <required>false</required>
     <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>

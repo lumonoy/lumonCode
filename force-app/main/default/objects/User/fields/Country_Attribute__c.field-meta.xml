@@ -3,7 +3,7 @@
     <fullName>Country_Attribute__c</fullName>
     <externalId>false</externalId>
     <formula>Country</formula>
-    <label>Country Attribute</label>
+    <label>Country Attribute OLD</label>
     <required>false</required>
     <type>Text</type>
     <unique>false</unique>

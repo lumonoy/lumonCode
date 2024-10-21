@@ -3,7 +3,7 @@
     <fullName>UniqueId__c</fullName>
     <description>Shows the Unique Id of the Quote Line Item</description>
     <externalId>false</externalId>
-    <formula>Opportunity_Number__c +&quot;-&quot;+ RVN__c +&quot;-&quot;+TEXT(Line_Number__c)+&quot;-&quot;+Sales_Code__c+&quot;-&quot;+TEXT(Quantity)</formula>
+    <formula>Quote.QuoteNumber +&quot;-&quot;+LineNumber+&quot;-&quot;+ProductSerialNumber__c</formula>
     <inlineHelpText>The Unique Id of the Quote Line Item</inlineHelpText>
     <label>UniqueId</label>
     <required>false</required>

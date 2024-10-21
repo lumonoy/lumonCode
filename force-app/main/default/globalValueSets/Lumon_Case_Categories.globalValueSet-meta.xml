@@ -6,7 +6,7 @@
         <label>Customer Service</label>
     </customValue>
     <customValue>
-        <fullName>IT</fullName>
+        <fullName>ICT</fullName>
         <default>false</default>
         <label>ICT Support</label>
     </customValue>
@@ -31,14 +31,9 @@
         <label>Production Support</label>
     </customValue>
     <customValue>
-        <fullName>INST</fullName>
-        <default>false</default>
-        <label>Installation Support</label>
-    </customValue>
-    <customValue>
         <fullName>RECL</fullName>
         <default>false</default>
-        <label>Reclamation Support</label>
+        <label>Reclamation</label>
     </customValue>
     <customValue>
         <fullName>SF</fullName>
@@ -59,11 +54,6 @@
         <fullName>WEB</fullName>
         <default>false</default>
         <label>Webshop Support</label>
-    </customValue>
-    <customValue>
-        <fullName>Other</fullName>
-        <default>false</default>
-        <label>Other</label>
     </customValue>
     <masterLabel>Lumon Case Categories</masterLabel>
     <sorted>true</sorted>

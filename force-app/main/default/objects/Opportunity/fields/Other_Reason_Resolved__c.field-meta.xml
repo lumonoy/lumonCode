@@ -5,7 +5,7 @@
     <description>This field is marked when the Other Reason has been resolved.</description>
     <externalId>false</externalId>
     <inlineHelpText>Please mark this field when the Other Reason for Preliminary Contract has been resolved.</inlineHelpText>
-    <label>Other Reason Resolved</label>
+    <label>Other Reason Resolved OLD</label>
     <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>

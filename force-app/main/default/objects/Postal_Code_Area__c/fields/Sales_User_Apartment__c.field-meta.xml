@@ -3,7 +3,7 @@
     <fullName>Sales_User_Apartment__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <externalId>false</externalId>
-    <label>Sales User Apartment</label>
+    <label>Sales User Apartment OLD</label>
     <lookupFilter>
         <active>true</active>
         <filterItems>

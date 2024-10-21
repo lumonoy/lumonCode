@@ -3,7 +3,7 @@
     <fullName>Configuration_Plan__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <externalId>false</externalId>
-    <label>Configuration Plan</label>
+    <label>Configuration Plan OLD</label>
     <referenceTo>Configuration__c</referenceTo>
     <relationshipLabel>Quote Line Items</relationshipLabel>
     <relationshipName>Quote_Line_Items</relationshipName>

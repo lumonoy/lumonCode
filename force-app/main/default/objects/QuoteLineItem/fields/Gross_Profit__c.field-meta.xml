@@ -5,7 +5,7 @@
     <formula>Revenue__c -  Cost_Of_Goods_Sold__c</formula>
     <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
     <inlineHelpText>Gross Profit = Revenue - Cost of Goods Sold</inlineHelpText>
-    <label>Gross Profit</label>
+    <label>Gross Profit OLD</label>
     <precision>18</precision>
     <required>false</required>
     <scale>2</scale>

@@ -3,7 +3,7 @@
     <fullName>Profit_Center_Name__c</fullName>
     <externalId>false</externalId>
     <formula>MID(Profit_Center_Attribute__c,FIND(Organization_Attribute__c,Profit_Center_Attribute__c,1)+4,100)</formula>
-    <label>Profit Center Name</label>
+    <label>Profit Center Name OLD</label>
     <required>false</required>
     <type>Text</type>
     <unique>false</unique>

@@ -5,7 +5,7 @@
     <description>Checkbox to indicate if this is a Extra Sales Product</description>
     <externalId>false</externalId>
     <inlineHelpText>Indicates if this is a Extra Sales Product</inlineHelpText>
-    <label>Extra Sales</label>
+    <label>Extra Sales OLD</label>
     <trackHistory>false</trackHistory>
     <type>Checkbox</type>
 </CustomField>
