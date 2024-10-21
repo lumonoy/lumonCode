@@ -4,7 +4,7 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <description>Identifies the Product within a Configuration Plan.</description>
     <externalId>false</externalId>
-    <label>Configuration Product DEL</label>
+    <label>Configuration Product DELETE</label>
     <referenceTo>Configuration_Product__c</referenceTo>
     <relationshipLabel>Cases</relationshipLabel>
     <relationshipName>Cases</relationshipName>

@@ -3,7 +3,7 @@
     <fullName>Case_Type__c</fullName>
     <description>Case Classification to indicate the Type of Issue</description>
     <externalId>false</externalId>
-    <label>Case Type OLD</label>
+    <label>Case Type DELETE</label>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>false</trackHistory>
