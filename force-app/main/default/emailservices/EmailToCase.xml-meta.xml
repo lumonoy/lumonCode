@@ -8,103 +8,103 @@
         <developerName>sfcustomerserviceadmine</developerName>
         <isActive>true</isActive>
         <localPart>sfcustomerserviceadmines</localPart>
-        <runAsUser>sfsupport@lumon.com</runAsUser>
+        <runAsUser>sfsupport@lumon.com.lumonmerge</runAsUser>
     </emailServicesAddresses>
     <emailServicesAddresses>
         <developerName>sfcustomerservicece</developerName>
         <isActive>true</isActive>
         <localPart>sfcustomerservicece</localPart>
-        <runAsUser>sfsupport@lumon.com</runAsUser>
+        <runAsUser>sfsupport@lumon.com.lumonmerge</runAsUser>
     </emailServicesAddresses>
     <emailServicesAddresses>
         <developerName>sfcustomerservicees</developerName>
         <isActive>true</isActive>
         <localPart>sfcustomerservicees</localPart>
-        <runAsUser>sfsupport@lumon.com</runAsUser>
+        <runAsUser>sfsupport@lumon.com.lumonmerge</runAsUser>
     </emailServicesAddresses>
     <emailServicesAddresses>
         <developerName>sfcustomerservicefi</developerName>
         <isActive>true</isActive>
         <localPart>sfcustomerservicefi</localPart>
-        <runAsUser>sfsupport@lumon.com</runAsUser>
+        <runAsUser>sfsupport@lumon.com.lumonmerge</runAsUser>
     </emailServicesAddresses>
     <emailServicesAddresses>
         <developerName>sfcustomerserviceresell</developerName>
         <isActive>true</isActive>
         <localPart>sfcustomerservicereselleres</localPart>
-        <runAsUser>sfsupport@lumon.com</runAsUser>
+        <runAsUser>sfsupport@lumon.com.lumonmerge</runAsUser>
     </emailServicesAddresses>
     <emailServicesAddresses>
         <developerName>sfcustomerservicesvi</developerName>
         <isActive>true</isActive>
         <localPart>sfcustomerservicesvi</localPart>
-        <runAsUser>sfsupport@lumon.com</runAsUser>
+        <runAsUser>sfsupport@lumon.com.lumonmerge</runAsUser>
     </emailServicesAddresses>
     <emailServicesAddresses>
         <developerName>sfitsupport</developerName>
         <isActive>true</isActive>
         <localPart>sfitsupport</localPart>
-        <runAsUser>sfsupport@lumon.com</runAsUser>
+        <runAsUser>sfsupport@lumon.com.lumonmerge</runAsUser>
     </emailServicesAddresses>
     <emailServicesAddresses>
         <developerName>sflogisticses</developerName>
         <isActive>true</isActive>
         <localPart>sflogisticses</localPart>
-        <runAsUser>sfsupport@lumon.com</runAsUser>
+        <runAsUser>sfsupport@lumon.com.lumonmerge</runAsUser>
     </emailServicesAddresses>
     <emailServicesAddresses>
         <developerName>sflogisticsfi</developerName>
         <isActive>true</isActive>
         <localPart>sflogisticsfi</localPart>
-        <runAsUser>sfsupport@lumon.com</runAsUser>
+        <runAsUser>sfsupport@lumon.com.lumonmerge</runAsUser>
     </emailServicesAddresses>
     <emailServicesAddresses>
         <developerName>sfmaintori</developerName>
         <isActive>true</isActive>
         <localPart>sfmaintori</localPart>
-        <runAsUser>sfsupport@lumon.com</runAsUser>
+        <runAsUser>sfsupport@lumon.com.lumonmerge</runAsUser>
     </emailServicesAddresses>
     <emailServicesAddresses>
         <developerName>sfpermitca</developerName>
         <isActive>true</isActive>
         <localPart>sfpermitca</localPart>
-        <runAsUser>sfsupport@lumon.com</runAsUser>
+        <runAsUser>sfsupport@lumon.com.lumonmerge</runAsUser>
     </emailServicesAddresses>
     <emailServicesAddresses>
         <developerName>sfservicecallslna</developerName>
         <isActive>true</isActive>
         <localPart>sfservicecallslna</localPart>
-        <runAsUser>sfsupport@lumon.com</runAsUser>
+        <runAsUser>sfsupport@lumon.com.lumonmerge</runAsUser>
     </emailServicesAddresses>
     <emailServicesAddresses>
         <developerName>sftechnicalsupportca</developerName>
         <isActive>true</isActive>
         <localPart>sftechnicalsupportca</localPart>
-        <runAsUser>sfsupport@lumon.com</runAsUser>
+        <runAsUser>sfsupport@lumon.com.lumonmerge</runAsUser>
     </emailServicesAddresses>
     <emailServicesAddresses>
         <developerName>sftechnicalsupportes</developerName>
         <isActive>true</isActive>
         <localPart>sftechnicalsupportes</localPart>
-        <runAsUser>sfsupport@lumon.com</runAsUser>
+        <runAsUser>sfsupport@lumon.com.lumonmerge</runAsUser>
     </emailServicesAddresses>
     <emailServicesAddresses>
         <developerName>sftechnicalsupportfi</developerName>
         <isActive>true</isActive>
         <localPart>sftechnicalsupportfi</localPart>
-        <runAsUser>sfsupport@lumon.com</runAsUser>
+        <runAsUser>sfsupport@lumon.com.lumonmerge</runAsUser>
     </emailServicesAddresses>
     <emailServicesAddresses>
         <developerName>sfwebshopfi</developerName>
         <isActive>true</isActive>
         <localPart>sfwebshopfi</localPart>
-        <runAsUser>sfsupport@lumon.com</runAsUser>
+        <runAsUser>sfsupport@lumon.com.lumonmerge</runAsUser>
     </emailServicesAddresses>
     <emailServicesAddresses>
         <developerName>soporte_tecnico</developerName>
         <isActive>true</isActive>
         <localPart>soporte.tecnico</localPart>
-        <runAsUser>sfsupport@lumon.com</runAsUser>
+        <runAsUser>sfsupport@lumon.com.lumonmerge</runAsUser>
     </emailServicesAddresses>
     <functionInactiveAction>Bounce</functionInactiveAction>
     <functionName>EmailToCase</functionName>
