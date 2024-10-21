@@ -3,7 +3,7 @@
     <fullName>Subtype__c</fullName>
     <description>A field for specifying the reason for the quality event case.</description>
     <externalId>false</externalId>
-    <label>Subtype OLD</label>
+    <label>Subtype DELETE</label>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>false</trackHistory>

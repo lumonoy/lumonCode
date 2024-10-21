@@ -3,7 +3,7 @@
     <fullName>Cause_Code__c</fullName>
     <description>Picklist value for reclamation classifications</description>
     <externalId>false</externalId>
-    <label>Cause Code OLD</label>
+    <label>Cause Code DELETE</label>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>false</trackHistory>

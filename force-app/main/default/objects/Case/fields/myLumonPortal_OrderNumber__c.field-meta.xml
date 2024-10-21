@@ -3,7 +3,7 @@
     <fullName>myLumonPortal_OrderNumber__c</fullName>
     <description>Order number from MyLumon Portal when case is created</description>
     <externalId>false</externalId>
-    <label>myLumonPortal_OrderNumber OLD</label>
+    <label>myLumonPortal_OrderNumber DELETE</label>
     <length>100</length>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>

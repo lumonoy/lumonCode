@@ -5,7 +5,7 @@
     <description>Pääsuunnittelija</description>
     <externalId>false</externalId>
     <inlineHelpText>Please fill in Principal Designer for the Case</inlineHelpText>
-    <label>Principal Designer OLD</label>
+    <label>Principal Designer DELETE</label>
     <referenceTo>User</referenceTo>
     <relationshipName>Cases</relationshipName>
     <required>false</required>
