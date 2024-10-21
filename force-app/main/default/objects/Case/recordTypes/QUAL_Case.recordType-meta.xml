@@ -549,14 +549,7 @@
             <fullName>Invoices</fullName>
             <default>false</default>
         </values>
-        <values>
-            <fullName>LGR%28new%29</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>LGS%28new%29</fullName>
-            <default>false</default>
-        </values>
+
         <values>
             <fullName>LOG_REQ_Change_Delivery</fullName>
             <default>false</default>
