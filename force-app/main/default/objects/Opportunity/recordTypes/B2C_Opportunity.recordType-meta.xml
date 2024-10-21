@@ -3,7 +3,7 @@
     <fullName>B2C_Opportunity</fullName>
     <active>true</active>
     <businessProcess>B2C Sales Process</businessProcess>
-    <compactLayoutAssignment>Opportunity_Compact_Layout</compactLayoutAssignment>
+    <compactLayoutAssignment>Lumon_Opportunity_Highlights</compactLayoutAssignment>
     <description>This is record type for B2C opportunities (Consumers)</description>
     <label>B2C Opportunity</label>
     <picklistValues>
@@ -97,10 +97,6 @@
         </values>
         <values>
             <fullName>Factory</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Other</fullName>
             <default>false</default>
         </values>
         <values>
@@ -739,6 +735,10 @@
             <default>false</default>
         </values>
         <values>
+            <fullName>CA-L8E5E3</fullName>
+            <default>false</default>
+        </values>
+        <values>
             <fullName>CA-V1M0E4</fullName>
             <default>false</default>
         </values>
@@ -748,6 +748,10 @@
         </values>
         <values>
             <fullName>ES-07141</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ES-08001</fullName>
             <default>false</default>
         </values>
         <values>
@@ -767,11 +771,19 @@
             <default>false</default>
         </values>
         <values>
+            <fullName>ES-28001</fullName>
+            <default>false</default>
+        </values>
+        <values>
             <fullName>ES-28055</fullName>
             <default>false</default>
         </values>
         <values>
             <fullName>ES-28925</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ES-29001</fullName>
             <default>false</default>
         </values>
         <values>
@@ -791,7 +803,15 @@
             <default>false</default>
         </values>
         <values>
+            <fullName>ES-46001</fullName>
+            <default>false</default>
+        </values>
+        <values>
             <fullName>ES-46120</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ES-50001</fullName>
             <default>false</default>
         </values>
         <values>
@@ -819,6 +839,10 @@
             <default>false</default>
         </values>
         <values>
+            <fullName>FI-13100</fullName>
+            <default>false</default>
+        </values>
+        <values>
             <fullName>FI-15680</fullName>
             <default>false</default>
         </values>
@@ -843,6 +867,14 @@
             <default>false</default>
         </values>
         <values>
+            <fullName>FI-48770</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FI-53850</fullName>
+            <default>false</default>
+        </values>
+        <values>
             <fullName>FI-60100</fullName>
             <default>false</default>
         </values>
@@ -855,7 +887,15 @@
             <default>false</default>
         </values>
         <values>
+            <fullName>FI-80100</fullName>
+            <default>false</default>
+        </values>
+        <values>
             <fullName>FI-90440</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NL-1012AB</fullName>
             <default>false</default>
         </values>
         <values>
@@ -981,6 +1021,10 @@
         </values>
         <values>
             <fullName>SVI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TST</fullName>
             <default>false</default>
         </values>
         <values>
