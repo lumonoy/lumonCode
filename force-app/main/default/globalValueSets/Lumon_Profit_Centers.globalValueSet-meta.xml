@@ -647,12 +647,6 @@
         <isActive>false</isActive>
         <label>40 FI Webshop</label>
     </customValue>
-    <customValue>
-        <fullName>275</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>275</label>
-    </customValue>
     <masterLabel>Lumon Profit Centers</masterLabel>
     <sorted>false</sorted>
 </GlobalValueSet>
