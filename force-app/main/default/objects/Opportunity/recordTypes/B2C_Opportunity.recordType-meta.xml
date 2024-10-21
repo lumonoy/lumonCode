@@ -86,25 +86,6 @@
         </values>
     </picklistValues>
     <picklistValues>
-        <picklist>Deliver_To__c</picklist>
-        <values>
-            <fullName>Account</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Building</fullName>
-            <default>true</default>
-        </values>
-        <values>
-            <fullName>Factory</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Warehouse</fullName>
-            <default>false</default>
-        </values>
-    </picklistValues>
-    <picklistValues>
         <picklist>Delivery_Method__c</picklist>
         <values>
             <fullName>BYGunifau</fullName>
@@ -532,17 +513,6 @@
         </values>
         <values>
             <fullName>VT4</fullName>
-            <default>false</default>
-        </values>
-    </picklistValues>
-    <picklistValues>
-        <picklist>Install_At__c</picklist>
-        <values>
-            <fullName>Building</fullName>
-            <default>true</default>
-        </values>
-        <values>
-            <fullName>Other</fullName>
             <default>false</default>
         </values>
     </picklistValues>
