@@ -3,7 +3,7 @@
     <fullName>Installation_Comments_for_Customer__c</fullName>
     <description>To be filled by the Installation manager ( e.g: Please clear the balcony before the glazing installation)</description>
     <externalId>false</externalId>
-    <label>Installation Comments for Customer</label>
+    <label>Installation Comments for Customer OLD</label>
     <length>255</length>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>
