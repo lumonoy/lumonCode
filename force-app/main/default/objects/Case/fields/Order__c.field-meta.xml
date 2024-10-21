@@ -4,7 +4,7 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <description>Lookup-field for order related to the case.</description>
     <externalId>false</externalId>
-    <label>Order</label>
+    <label>Order DELETE</label>
     <referenceTo>Order</referenceTo>
     <relationshipLabel>Cases</relationshipLabel>
     <relationshipName>Cases</relationshipName>

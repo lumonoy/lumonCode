@@ -11,16 +11,21 @@
     <columns>CORE.USERS.ALIAS</columns>
     <columns>CaseGroup__c</columns>
     <columns>CaseType__c</columns>
-    <filterScope>Mine</filterScope>
+    <filterScope>Everything</filterScope>
     <filters>
-        <field>CASES.RECORDTYPE</field>
-        <operation>equals</operation>
-        <value>Case.LOG_Case</value>
+        <field>CASES.STATUS</field>
+        <operation>notEqual</operation>
+        <value>Resolved,Merged,Closed</value>
     </filters>
     <filters>
         <field>CaseInQueue__c</field>
         <operation>equals</operation>
         <value>1</value>
+    </filters>
+    <filters>
+        <field>CASES.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Case.LOG_Case</value>
     </filters>
     <label>New Logistics Cases</label>
     <sharedTo>

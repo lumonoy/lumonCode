@@ -11,7 +11,7 @@
     <columns>CORE.USERS.ALIAS</columns>
     <columns>CaseGroup__c</columns>
     <columns>CaseType__c</columns>
-    <filterScope>Mine</filterScope>
+    <filterScope>Everything</filterScope>
     <filters>
         <field>CASES.RECORDTYPE</field>
         <operation>equals</operation>
@@ -21,6 +21,11 @@
         <field>CaseInQueue__c</field>
         <operation>equals</operation>
         <value>1</value>
+    </filters>
+    <filters>
+        <field>CASES.STATUS</field>
+        <operation>equals</operation>
+        <value>New</value>
     </filters>
     <label>New Webshop Cases</label>
     <sharedTo>

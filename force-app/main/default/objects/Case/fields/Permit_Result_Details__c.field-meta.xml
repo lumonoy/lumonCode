@@ -4,7 +4,7 @@
     <description>This Field is for additional inforrmation related to the Building Permit Case Handling</description>
     <externalId>false</externalId>
     <inlineHelpText>Please provide additional information related to the Building Permit Process</inlineHelpText>
-    <label>Permit Result Details OLD</label>
+    <label>Permit Result Details DELETE</label>
     <length>32768</length>
     <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>false</trackHistory>

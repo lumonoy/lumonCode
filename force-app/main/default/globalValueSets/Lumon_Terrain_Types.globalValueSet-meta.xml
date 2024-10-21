@@ -28,6 +28,7 @@
     <customValue>
         <fullName>5</fullName>
         <default>false</default>
+        <isActive>false</isActive>
         <label>Terrain Class V</label>
     </customValue>
     <masterLabel>Lumon Terrain Types</masterLabel>

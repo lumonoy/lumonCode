@@ -3,61 +3,11 @@
     <fullName>B2C_Opportunity</fullName>
     <active>true</active>
     <businessProcess>B2C Sales Process</businessProcess>
-    <compactLayoutAssignment>Lumon_Opportunity_Highlights</compactLayoutAssignment>
+    <compactLayoutAssignment>Opportunity_Compact_Layout</compactLayoutAssignment>
     <description>This is record type for B2C opportunities (Consumers)</description>
     <label>B2C Opportunity</label>
     <picklistValues>
-        <picklist>BusinessType__c</picklist>
-        <values>
-            <fullName>0</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>1</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>4</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>7</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>9</fullName>
-            <default>false</default>
-        </values>
-    </picklistValues>
-    <picklistValues>
-        <picklist>BusinessType__c</picklist>
-        <values>
-            <fullName>0</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>1</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>4</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>7</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>9</fullName>
-            <default>false</default>
-        </values>
-    </picklistValues>
-    <picklistValues>
         <picklist>Business_Type__c</picklist>
-        <values>
-            <fullName>0</fullName>
-            <default>false</default>
-        </values>
         <values>
             <fullName>1</fullName>
             <default>true</default>
@@ -103,325 +53,13 @@
         </values>
     </picklistValues>
     <picklistValues>
-        <picklist>CountryCode__c</picklist>
+        <picklist>Contract_Language__c</picklist>
         <values>
-            <fullName>CA</fullName>
+            <fullName>en</fullName>
             <default>false</default>
         </values>
         <values>
-            <fullName>DK</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>ES</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>FI</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>NL</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>NO</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>PL</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>SV</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>US</fullName>
-            <default>false</default>
-        </values>
-    </picklistValues>
-    <picklistValues>
-        <picklist>Country_Code__c</picklist>
-        <values>
-            <fullName>CA</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>DK</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>ES</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>FI</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>NL</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>NO</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>PL</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>SV</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>US</fullName>
-            <default>false</default>
-        </values>
-    </picklistValues>
-    <picklistValues>
-        <picklist>CustomerSegment__c</picklist>
-        <values>
-            <fullName>100</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>1000</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>1100</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>4000</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>4100</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>7000</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>9000</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>9100</fullName>
-            <default>false</default>
-        </values>
-    </picklistValues>
-    <picklistValues>
-        <picklist>CountryCode__c</picklist>
-        <values>
-            <fullName>CA</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>DK</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>ES</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>FI</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>NO</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>PL</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>SV</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>US</fullName>
-            <default>false</default>
-        </values>
-    </picklistValues>
-    <picklistValues>
-        <picklist>Country_Code__c</picklist>
-        <values>
-            <fullName>CA</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>DK</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>ES</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>FI</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>NO</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>PL</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>SV</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>US</fullName>
-            <default>false</default>
-        </values>
-    </picklistValues>
-    <picklistValues>
-        <picklist>CustomerSegment__c</picklist>
-        <values>
-            <fullName>100</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>1000</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>1100</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>4000</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>4100</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>7000</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>9000</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>9100</fullName>
-            <default>false</default>
-        </values>
-    </picklistValues>
-    <picklistValues>
-        <picklist>CountryCode__c</picklist>
-        <values>
-            <fullName>CA</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>DK</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>ES</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>FI</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>NO</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>PL</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>SV</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>US</fullName>
-            <default>false</default>
-        </values>
-    </picklistValues>
-    <picklistValues>
-        <picklist>Country_Code__c</picklist>
-        <values>
-            <fullName>CA</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>DK</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>ES</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>FI</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>NO</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>PL</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>SV</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>US</fullName>
-            <default>false</default>
-        </values>
-    </picklistValues>
-    <picklistValues>
-        <picklist>CustomerSegment__c</picklist>
-        <values>
-            <fullName>100</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>1000</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>1100</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>4000</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>4100</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>7000</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>9000</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>9100</fullName>
+            <fullName>fr_CA</fullName>
             <default>false</default>
         </values>
     </picklistValues>
@@ -448,29 +86,6 @@
         </values>
     </picklistValues>
     <picklistValues>
-        <picklist>DeliverToType__c</picklist>
-        <values>
-            <fullName>Account</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Building</fullName>
-            <default>true</default>
-        </values>
-        <values>
-            <fullName>Factory</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Other</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Warehouse</fullName>
-            <default>false</default>
-        </values>
-    </picklistValues>
-    <picklistValues>
         <picklist>Deliver_To__c</picklist>
         <values>
             <fullName>Account</fullName>
@@ -482,10 +97,6 @@
         </values>
         <values>
             <fullName>Factory</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Other</fullName>
             <default>false</default>
         </values>
         <values>
@@ -657,6 +268,10 @@
         </values>
         <values>
             <fullName>FI_West</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Finland</fullName>
             <default>false</default>
         </values>
     </picklistValues>
@@ -917,17 +532,6 @@
         </values>
         <values>
             <fullName>VT4</fullName>
-            <default>false</default>
-        </values>
-    </picklistValues>
-    <picklistValues>
-        <picklist>InstallAtType__c</picklist>
-        <values>
-            <fullName>Building</fullName>
-            <default>true</default>
-        </values>
-        <values>
-            <fullName>Other</fullName>
             <default>false</default>
         </values>
     </picklistValues>
@@ -1206,10 +810,6 @@
             <default>false</default>
         </values>
         <values>
-            <fullName>TST</fullName>
-            <default>false</default>
-        </values>
-        <values>
             <fullName>ZAO</fullName>
             <default>false</default>
         </values>
@@ -1249,29 +849,6 @@
         </values>
         <values>
             <fullName>Special Order</fullName>
-            <default>false</default>
-        </values>
-    </picklistValues>
-    <picklistValues>
-        <picklist>Status__c</picklist>
-        <values>
-            <fullName>Closed</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Configured</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Contracted</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>New</fullName>
-            <default>true</default>
-        </values>
-        <values>
-            <fullName>Offered</fullName>
             <default>false</default>
         </values>
     </picklistValues>
@@ -1317,169 +894,6 @@
         </values>
         <values>
             <fullName>Reclamation</fullName>
-            <default>false</default>
-        </values>
-    </picklistValues>
-    <picklistValues>
-        <picklist>fxOffice__c</picklist>
-        <values>
-            <fullName>CA-L4H3M7</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>CA-L4H3M8</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>CA-L4H3M9</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>CA-V1M0E4</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>ES-04240</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>ES-07141</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>ES-08750</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>ES-12560</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>ES-14014</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>ES-18001</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>ES-28055</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>ES-28925</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>ES-29004</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>ES-29625</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>ES-29688</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>ES-41001</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>ES-46120</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>ES-50002</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>FI-00880</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>FI-01200</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>FI-01740</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>FI-02270</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>FI-11100</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>FI-15680</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>FI-21200</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>FI-28430</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>FI-33560</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>FI-40420</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>FI-45130</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>FI-60100</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>FI-65100</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>FI-70420</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>FI-90440</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>NL-1012AB</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>NO-02013</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>PL-02634</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>SE-16867</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>SE-21239</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>SE-43361</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>SE-72134</fullName>
             <default>false</default>
         </values>
     </picklistValues>

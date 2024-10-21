@@ -8,19 +8,19 @@
     <picklistValues>
         <picklist>Business_Type__c</picklist>
         <values>
-            <fullName>Business</fullName>
+            <fullName>1</fullName>
             <default>false</default>
         </values>
         <values>
-            <fullName>Consumer</fullName>
+            <fullName>4</fullName>
             <default>false</default>
         </values>
         <values>
-            <fullName>Project</fullName>
+            <fullName>7</fullName>
             <default>false</default>
         </values>
         <values>
-            <fullName>Reseller</fullName>
+            <fullName>9</fullName>
             <default>false</default>
         </values>
     </picklistValues>
@@ -209,6 +209,10 @@
         <picklist>Language__c</picklist>
         <values>
             <fullName>en</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>fr_CA</fullName>
             <default>false</default>
         </values>
     </picklistValues>

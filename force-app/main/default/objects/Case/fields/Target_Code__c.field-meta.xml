@@ -3,7 +3,7 @@
     <fullName>Target_Code__c</fullName>
     <description>Picklist field for reclamation classification</description>
     <externalId>false</externalId>
-    <label>Target Code OLD</label>
+    <label>Target Code DELETE</label>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>false</trackHistory>

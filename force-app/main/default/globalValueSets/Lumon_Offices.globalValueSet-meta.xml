@@ -251,5 +251,5 @@
         <label>Lumon Test Office</label>
     </customValue>
     <masterLabel>Lumon Offices</masterLabel>
-    <sorted>false</sorted>
+    <sorted>true</sorted>
 </GlobalValueSet>
