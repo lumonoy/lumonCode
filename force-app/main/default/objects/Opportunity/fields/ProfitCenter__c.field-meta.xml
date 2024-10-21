@@ -10,6 +10,6 @@
     <type>Picklist</type>
     <valueSet>
         <restricted>true</restricted>
-        <valueSetName>Lumon_AD_Profit_Center_Codes</valueSetName>
+        <valueSetName>Lumon_Profit_Centers</valueSetName>
     </valueSet>
 </CustomField>
