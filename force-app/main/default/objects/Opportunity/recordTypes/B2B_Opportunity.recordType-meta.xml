@@ -263,10 +263,6 @@
             <fullName>FI_West</fullName>
             <default>false</default>
         </values>
-        <values>
-            <fullName>Finland</fullName>
-            <default>false</default>
-        </values>
     </picklistValues>
     <picklistValues>
         <picklist>External_Financing_Response__c</picklist>
