@@ -81,6 +81,10 @@
             <fullName>en</fullName>
             <default>false</default>
         </values>
+        <values>
+            <fullName>fr_CA</fullName>
+            <default>false</default>
+        </values>
     </picklistValues>
     <picklistValues>
         <picklist>CountryCode__c</picklist>

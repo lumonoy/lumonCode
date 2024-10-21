@@ -1014,7 +1014,7 @@
             <targetReference>Skip_Automation</targetReference>
         </connector>
     </start>
-    <status>Active</status>
+    <status>Obsolete</status>
     <subflows>
         <name>Clone_Configuration_Plan</name>
         <label>Clone Configuration Plan</label>

@@ -2,7 +2,7 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>IT_Support_Type__c</fullName>
     <externalId>false</externalId>
-    <label>IT Support Type</label>
+    <label>IT Support Type DELETE</label>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>false</trackHistory>

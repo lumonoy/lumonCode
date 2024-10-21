@@ -126,6 +126,17 @@
         <label>X Not Applicable</label>
     </customValue>
     <customValue>
+        <fullName>LOG_REQ</fullName>
+        <default>false</default>
+        <label>Logistics Request</label>
+    </customValue>
+    <customValue>
+        <fullName>TS_CAL</fullName>
+        <default>false</default>
+        <label>TS Calculations and structural plans</label>
+    </customValue>
+
+    <customValue>
         <fullName>Information Request</fullName>
         <default>false</default>
         <isActive>false</isActive>
@@ -210,5 +221,5 @@
         <label>Not Applicable</label>
     </customValue>
     <masterLabel>Lumon Case Types</masterLabel>
-    <sorted>false</sorted>
+    <sorted>true</sorted>
 </GlobalValueSet>

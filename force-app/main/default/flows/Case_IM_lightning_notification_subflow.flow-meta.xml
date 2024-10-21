@@ -516,7 +516,7 @@
             <targetReference>ST_and_SA_could_be_read</targetReference>
         </connector>
     </start>
-    <status>Active</status>
+    <status>Obsolete</status>
     <textTemplates>
         <name>tmplNotificationBody</name>
         <isViewedAsPlainText>true</isViewedAsPlainText>

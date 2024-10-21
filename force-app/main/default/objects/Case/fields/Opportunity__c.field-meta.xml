@@ -5,7 +5,7 @@
     <description>This field shows related opportunity</description>
     <externalId>false</externalId>
     <inlineHelpText>Please associate case to an opportunity if known</inlineHelpText>
-    <label>Opportunity</label>
+    <label>Opportunity DELETE</label>
     <referenceTo>Opportunity</referenceTo>
     <relationshipLabel>Cases</relationshipLabel>
     <relationshipName>Cases</relationshipName>

@@ -3,6 +3,7 @@
     <fullName>CaseType__c</fullName>
     <description>Case Classification to indicate the Type of Issue</description>
     <externalId>false</externalId>
+    <inlineHelpText>The 2nd Level Classification of the Case</inlineHelpText>
     <label>Case Type</label>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>
@@ -16,13 +17,11 @@
         <valueSettings>
             <controllingFieldValue>WEB</controllingFieldValue>
             <controllingFieldValue>INST</controllingFieldValue>
-            <controllingFieldValue>Other</controllingFieldValue>
             <controllingFieldValue>CS</controllingFieldValue>
-            <controllingFieldValue>IT</controllingFieldValue>
+            <controllingFieldValue>ICT</controllingFieldValue>
             <controllingFieldValue>LOG</controllingFieldValue>
             <controllingFieldValue>FAC</controllingFieldValue>
             <controllingFieldValue>TS</controllingFieldValue>
-            <controllingFieldValue>NA</controllingFieldValue>
             <controllingFieldValue>SF</controllingFieldValue>
             <controllingFieldValue>SPEC</controllingFieldValue>
             <controllingFieldValue>PERM</controllingFieldValue>
@@ -66,57 +65,65 @@
             <valueName>CS_CREQ</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>IT</controllingFieldValue>
+            <controllingFieldValue>ICT</controllingFieldValue>
             <valueName>IT_DEV</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>IT</controllingFieldValue>
+            <controllingFieldValue>ICT</controllingFieldValue>
             <valueName>IT_HW</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>IT</controllingFieldValue>
+            <controllingFieldValue>ICT</controllingFieldValue>
             <valueName>IT_INC</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>IT</controllingFieldValue>
+            <controllingFieldValue>ICT</controllingFieldValue>
             <valueName>IT_PROJ</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>IT</controllingFieldValue>
+            <controllingFieldValue>ICT</controllingFieldValue>
             <valueName>IT_ORD</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>IT</controllingFieldValue>
+            <controllingFieldValue>ICT</controllingFieldValue>
             <valueName>IT_OUT</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>IT</controllingFieldValue>
+            <controllingFieldValue>ICT</controllingFieldValue>
             <valueName>IT_PRB</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>IT</controllingFieldValue>
+            <controllingFieldValue>ICT</controllingFieldValue>
             <valueName>IT_SERV</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>IT</controllingFieldValue>
+            <controllingFieldValue>ICT</controllingFieldValue>
             <valueName>IT_SW</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>IT</controllingFieldValue>
+            <controllingFieldValue>ICT</controllingFieldValue>
             <valueName>IT_SUPP</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>IT</controllingFieldValue>
+            <controllingFieldValue>ICT</controllingFieldValue>
             <valueName>IT_USER</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>IT</controllingFieldValue>
+            <controllingFieldValue>ICT</controllingFieldValue>
             <valueName>IT_PERM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LOG</controllingFieldValue>
+            <valueName>LOG_REQ</valueName>
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>FAC</controllingFieldValue>
             <controllingFieldValue>TS</controllingFieldValue>
             <valueName>TS_GEN</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TS</controllingFieldValue>
+            <valueName>TS_CAL</valueName>
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>TS</controllingFieldValue>

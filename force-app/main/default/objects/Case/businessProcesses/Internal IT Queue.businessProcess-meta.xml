@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <BusinessProcess xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Internal IT Queue</fullName>
-    <description>Flow error is reported as a case / Case goes to the Internal IT Queue to be handled further</description>
+    <description>OLD Flow error is reported as a case / Case goes to the Internal IT Queue to be handled further</description>
     <isActive>false</isActive>
     <values>
         <fullName>Closed</fullName>

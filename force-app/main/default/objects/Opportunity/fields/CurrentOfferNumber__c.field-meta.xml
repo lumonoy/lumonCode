@@ -3,7 +3,7 @@
     <fullName>CurrentOfferNumber__c</fullName>
     <description>Shows the Offer Number of the current Syncing Quote</description>
     <externalId>false</externalId>
-    <formula>NULLVALUE( Order_Number__c,SyncedQuote.OfferNumber__c)</formula>
+    <formula>SyncedQuote.OfferNumber__c</formula>
     <inlineHelpText>The Offer Number of Synced Quote</inlineHelpText>
     <label>Current Offer Number</label>
     <required>false</required>

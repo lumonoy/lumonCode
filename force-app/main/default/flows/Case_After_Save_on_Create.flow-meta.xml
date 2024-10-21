@@ -996,7 +996,7 @@
         <recordTriggerType>CreateAndUpdate</recordTriggerType>
         <triggerType>RecordAfterSave</triggerType>
     </start>
-    <status>Active</status>
+    <status>Obsolete</status>
     <subflows>
         <name>Assign_Customer_Service_Case_Owner</name>
         <label>Assign Customer Service Case Owner</label>

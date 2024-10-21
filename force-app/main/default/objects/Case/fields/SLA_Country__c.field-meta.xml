@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SLA_Country__c</fullName>
+    <description>Create a field SLA according to the country</description>
+    <externalId>false</externalId>
+    <formula>CASE(Owner:User.Country,
+&quot;Finland&quot;,&quot;ICT_SLA_FIN&quot;,
+&quot;Spain&quot;,&quot;ICT_SLA_ESP&quot;,
+&quot;Canada&quot;, &quot;ICT_SLA_CAN&quot;, 
+&quot;&quot;)</formula>
+    <label>SLA_Country DELETE</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

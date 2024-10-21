@@ -16,27 +16,11 @@
         <default>true</default>
     </values>
     <values>
+        <fullName>On Hold</fullName>
+        <default>false</default>
+    </values>
+    <values>
         <fullName>Resolved</fullName>
-        <default>false</default>
-    </values>
-    <values>
-        <fullName>Waiting for Customer</fullName>
-        <default>false</default>
-    </values>
-    <values>
-        <fullName>Waiting for Drawing</fullName>
-        <default>false</default>
-    </values>
-    <values>
-        <fullName>Waiting for Engineer</fullName>
-        <default>false</default>
-    </values>
-    <values>
-        <fullName>Waiting for Municipal Approval</fullName>
-        <default>false</default>
-    </values>
-    <values>
-        <fullName>Waiting for Third Party</fullName>
         <default>false</default>
     </values>
 </BusinessProcess>

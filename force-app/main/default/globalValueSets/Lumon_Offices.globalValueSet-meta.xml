@@ -245,6 +245,11 @@
         <default>false</default>
         <label>Valencia Warehouse</label>
     </customValue>
+    <customValue>
+        <fullName>NL-1012AB</fullName>
+        <default>false</default>
+        <label>Lumon Test Office</label>
+    </customValue>
     <masterLabel>Lumon Offices</masterLabel>
-    <sorted>false</sorted>
+    <sorted>true</sorted>
 </GlobalValueSet>

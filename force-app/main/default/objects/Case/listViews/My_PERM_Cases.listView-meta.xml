@@ -17,6 +17,11 @@
         <operation>equals</operation>
         <value>Case.PERM_Case</value>
     </filters>
+    <filters>
+        <field>CASES.STATUS</field>
+        <operation>equals</operation>
+        <value>New,In Progress,On Hold</value>
+    </filters>
     <label>My Permit Application Cases</label>
     <sharedTo>
         <group>Admins</group>

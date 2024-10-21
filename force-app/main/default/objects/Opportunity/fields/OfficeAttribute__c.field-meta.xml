@@ -2,7 +2,7 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>OfficeAttribute__c</fullName>
     <externalId>false</externalId>
-    <formula>IF(NOT(ISNULL(FieldServiceOffice__c)), FieldServiceOffice__r.OfficeCode__c,NULLVALUE(SalesOffice__r.OfficeCode__c,Office__r.OfficeCode__c))</formula>
+    <formula>Office__r.OfficeCode__c</formula>
     <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
     <label>Office Attribute</label>
     <required>false</required>

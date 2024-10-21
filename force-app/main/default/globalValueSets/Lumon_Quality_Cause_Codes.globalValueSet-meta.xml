@@ -116,6 +116,16 @@
         <label>02.02.03 Width of the glazing</label>
     </customValue>
     <customValue>
+        <fullName>02.02.04</fullName>
+        <default>false</default>
+        <label>02.02.04 Height of the glazing</label>
+    </customValue>
+    <customValue>
+        <fullName>02.02.05</fullName>
+        <default>false</default>
+        <label>02.02.05 Other</label>
+    </customValue>
+    <customValue>
         <fullName>02.03.01</fullName>
         <default>false</default>
         <label>02.03.01 Left unnoticed / missing from the order</label>
@@ -161,6 +171,21 @@
         <label>03.01.08 Broken during transport</label>
     </customValue>
     <customValue>
+        <fullName>03.02.01</fullName>
+        <default>false</default>
+        <label>03.02.01 Measure mistake</label>
+    </customValue>
+    <customValue>
+        <fullName>03.02.02</fullName>
+        <default>false</default>
+        <label>03.02.02 Ordering mistake</label>
+    </customValue>
+    <customValue>
+        <fullName>03.02.03</fullName>
+        <default>false</default>
+        <label>03.02.03 Other</label>
+    </customValue>
+    <customValue>
         <fullName>04.01.01</fullName>
         <default>false</default>
         <label>04.01.01 Sales systems</label>
@@ -174,6 +199,16 @@
         <fullName>04.01.03</fullName>
         <default>false</default>
         <label>04.01.03 mainTori</label>
+    </customValue>
+    <customValue>
+        <fullName>04.02.01</fullName>
+        <default>false</default>
+        <label>04.02.01 Design</label>
+    </customValue>
+    <customValue>
+        <fullName>04.03.01</fullName>
+        <default>false</default>
+        <label>04.03.01 Unclear guide</label>
     </customValue>
     <customValue>
         <fullName>05.01.01</fullName>
@@ -201,6 +236,36 @@
         <label>05.01.05 Glazing bead damaged</label>
     </customValue>
     <customValue>
+        <fullName>05.01.06</fullName>
+        <default>false</default>
+        <label>05.01.06 Component damaged</label>
+    </customValue>
+    <customValue>
+        <fullName>05.02.01</fullName>
+        <default>false</default>
+        <label>05.02.01 Scratched surface</label>
+    </customValue>
+    <customValue>
+        <fullName>05.02.02</fullName>
+        <default>false</default>
+        <label>05.02.02 Dent</label>
+    </customValue>
+    <customValue>
+        <fullName>05.02.03</fullName>
+        <default>false</default>
+        <label>05.02.03 Missing</label>
+    </customValue>
+    <customValue>
+        <fullName>05.02.04</fullName>
+        <default>false</default>
+        <label>05.02.04 Other</label>
+    </customValue>
+    <customValue>
+        <fullName>05.03.01</fullName>
+        <default>false</default>
+        <label>05.03.01 Missing package</label>
+    </customValue>
+    <customValue>
         <fullName>06.01.01</fullName>
         <default>false</default>
         <label>06.01.01 Measurement mistake</label>
@@ -209,6 +274,21 @@
         <fullName>06.01.02</fullName>
         <default>false</default>
         <label>06.01.02 Damaged surface</label>
+    </customValue>
+    <customValue>
+        <fullName>06.01.03</fullName>
+        <default>false</default>
+        <label>06.01.03 Edge damaged</label>
+    </customValue>
+    <customValue>
+        <fullName>06.01.04</fullName>
+        <default>false</default>
+        <label>06.01.04 Broken</label>
+    </customValue>
+    <customValue>
+        <fullName>06.01.05</fullName>
+        <default>false</default>
+        <label>06.01.05 Other</label>
     </customValue>
     <customValue>
         <fullName>06.02.01</fullName>
@@ -224,6 +304,21 @@
         <fullName>06.02.03</fullName>
         <default>false</default>
         <label>06.02.03 Damaged surface</label>
+    </customValue>
+    <customValue>
+        <fullName>06.02.04</fullName>
+        <default>false</default>
+        <label>06.02.04 Assembly</label>
+    </customValue>
+    <customValue>
+        <fullName>06.02.05</fullName>
+        <default>false</default>
+        <label>06.02.05 Other</label>
+    </customValue>
+    <customValue>
+        <fullName>06.02.06</fullName>
+        <default>false</default>
+        <label>06.02.06 Colour</label>
     </customValue>
     <customValue>
         <fullName>06.03.01</fullName>
@@ -271,6 +366,21 @@
         <label>06.06.03 Missing component</label>
     </customValue>
     <customValue>
+        <fullName>06.06.04</fullName>
+        <default>false</default>
+        <label>06.06.04 Missing blind</label>
+    </customValue>
+    <customValue>
+        <fullName>06.06.05</fullName>
+        <default>false</default>
+        <label>06.06.05 Missing glass pane</label>
+    </customValue>
+    <customValue>
+        <fullName>06.06.06</fullName>
+        <default>false</default>
+        <label>06.06.06 Missing flashing</label>
+    </customValue>
+    <customValue>
         <fullName>07.01.01</fullName>
         <default>false</default>
         <label>07.01.01 Glass pane broken</label>
@@ -279,6 +389,21 @@
         <fullName>07.01.02</fullName>
         <default>false</default>
         <label>07.01.02 Measurement</label>
+    </customValue>
+    <customValue>
+        <fullName>07.01.03</fullName>
+        <default>false</default>
+        <label>07.01.03 Damaged surface</label>
+    </customValue>
+    <customValue>
+        <fullName>07.01.04</fullName>
+        <default>false</default>
+        <label>07.01.04 Edge damaged</label>
+    </customValue>
+    <customValue>
+        <fullName>07.01.05</fullName>
+        <default>false</default>
+        <label>07.01.05 Other</label>
     </customValue>
     <customValue>
         <fullName>07.02.01</fullName>
@@ -294,6 +419,16 @@
         <fullName>07.02.03</fullName>
         <default>false</default>
         <label>07.02.03 Damaged surface</label>
+    </customValue>
+    <customValue>
+        <fullName>07.02.04</fullName>
+        <default>false</default>
+        <label>07.02.04 Other</label>
+    </customValue>
+    <customValue>
+        <fullName>07.02.05</fullName>
+        <default>false</default>
+        <label>07.02.05 Colour</label>
     </customValue>
     <customValue>
         <fullName>07.03.01</fullName>
@@ -359,6 +494,16 @@
         <fullName>07.07.04</fullName>
         <default>false</default>
         <label>07.07.04 Missing blind</label>
+    </customValue>
+    <customValue>
+        <fullName>07.07.05</fullName>
+        <default>false</default>
+        <label>07.07.05 Missing glass pane</label>
+    </customValue>
+    <customValue>
+        <fullName>07.07.06</fullName>
+        <default>false</default>
+        <label>07.07.06 Missing flashing</label>
     </customValue>
     <customValue>
         <fullName>08.01.01</fullName>
@@ -456,6 +601,21 @@
         <label>08.06.04 Contents of the component box</label>
     </customValue>
     <customValue>
+        <fullName>08.06.05</fullName>
+        <default>false</default>
+        <label>08.06.05 Wrong component or incorrect position</label>
+    </customValue>
+    <customValue>
+        <fullName>08.06.06</fullName>
+        <default>false</default>
+        <label>08.06.06 Measurement</label>
+    </customValue>
+    <customValue>
+        <fullName>08.06.07</fullName>
+        <default>false</default>
+        <label>08.06.07 Other</label>
+    </customValue>
+    <customValue>
         <fullName>08.07.01</fullName>
         <default>false</default>
         <label>08.07.01 Broken</label>
@@ -521,6 +681,31 @@
         <label>08.10.01 Missing profile</label>
     </customValue>
     <customValue>
+        <fullName>08.10.02</fullName>
+        <default>false</default>
+        <label>08.10.02 Missing seal</label>
+    </customValue>
+    <customValue>
+        <fullName>08.10.03</fullName>
+        <default>false</default>
+        <label>08.10.03 Missing component</label>
+    </customValue>
+    <customValue>
+        <fullName>08.10.04</fullName>
+        <default>false</default>
+        <label>08.10.04 Missing blind</label>
+    </customValue>
+    <customValue>
+        <fullName>08.10.05</fullName>
+        <default>false</default>
+        <label>08.10.05 Missing glass pane</label>
+    </customValue>
+    <customValue>
+        <fullName>08.10.06</fullName>
+        <default>false</default>
+        <label>08.10.06 Missing flashing</label>
+    </customValue>
+    <customValue>
         <fullName>09.01.01</fullName>
         <default>false</default>
         <label>09.01.01 Scratch</label>
@@ -529,6 +714,11 @@
         <fullName>09.01.02</fullName>
         <default>false</default>
         <label>09.01.02 Colour</label>
+    </customValue>
+    <customValue>
+        <fullName>09.01.03</fullName>
+        <default>false</default>
+        <label>09.01.03 Magnet</label>
     </customValue>
     <customValue>
         <fullName>09.02.01</fullName>
@@ -576,156 +766,6 @@
         <label>09.05.03 Other</label>
     </customValue>
     <customValue>
-        <fullName>02.02.05</fullName>
-        <default>false</default>
-        <label>02.02.05 Other</label>
-    </customValue>
-    <customValue>
-        <fullName>05.02.01</fullName>
-        <default>false</default>
-        <label>05.02.01 Scratched surface</label>
-    </customValue>
-    <customValue>
-        <fullName>05.02.02</fullName>
-        <default>false</default>
-        <label>05.02.02 Dent</label>
-    </customValue>
-    <customValue>
-        <fullName>05.02.03</fullName>
-        <default>false</default>
-        <label>05.02.03 Missing</label>
-    </customValue>
-    <customValue>
-        <fullName>05.02.04</fullName>
-        <default>false</default>
-        <label>05.02.04 Other</label>
-    </customValue>
-    <customValue>
-        <fullName>05.03.01</fullName>
-        <default>false</default>
-        <label>05.03.01 Missing package</label>
-    </customValue>
-    <customValue>
-        <fullName>06.01.03</fullName>
-        <default>false</default>
-        <label>06.01.03 Edge damaged</label>
-    </customValue>
-    <customValue>
-        <fullName>06.01.04</fullName>
-        <default>false</default>
-        <label>06.01.04 Broken</label>
-    </customValue>
-    <customValue>
-        <fullName>06.01.05</fullName>
-        <default>false</default>
-        <label>06.01.05 Other</label>
-    </customValue>
-    <customValue>
-        <fullName>06.02.04</fullName>
-        <default>false</default>
-        <label>06.02.04 Assembly</label>
-    </customValue>
-    <customValue>
-        <fullName>06.02.05</fullName>
-        <default>false</default>
-        <label>06.02.05 Other</label>
-    </customValue>
-    <customValue>
-        <fullName>06.02.06</fullName>
-        <default>false</default>
-        <label>06.02.06 Colour</label>
-    </customValue>
-    <customValue>
-        <fullName>06.06.04</fullName>
-        <default>false</default>
-        <label>06.06.04 Missing blind</label>
-    </customValue>
-    <customValue>
-        <fullName>06.06.05</fullName>
-        <default>false</default>
-        <label>06.06.05 Missing glass pane</label>
-    </customValue>
-    <customValue>
-        <fullName>06.06.06</fullName>
-        <default>false</default>
-        <label>06.06.06 Missing flashing</label>
-    </customValue>
-    <customValue>
-        <fullName>07.01.03</fullName>
-        <default>false</default>
-        <label>07.01.03 Damaged surface</label>
-    </customValue>
-    <customValue>
-        <fullName>07.01.04</fullName>
-        <default>false</default>
-        <label>07.01.04 Edge damaged</label>
-    </customValue>
-    <customValue>
-        <fullName>07.01.05</fullName>
-        <default>false</default>
-        <label>07.01.05 Other</label>
-    </customValue>
-    <customValue>
-        <fullName>07.02.04</fullName>
-        <default>false</default>
-        <label>07.02.04 Other</label>
-    </customValue>
-    <customValue>
-        <fullName>07.02.05</fullName>
-        <default>false</default>
-        <label>07.02.05 Colour</label>
-    </customValue>
-    <customValue>
-        <fullName>07.07.05</fullName>
-        <default>false</default>
-        <label>07.07.05 Missing glass pane</label>
-    </customValue>
-    <customValue>
-        <fullName>07.07.06</fullName>
-        <default>false</default>
-        <label>07.07.06 Missing flashing</label>
-    </customValue>
-    <customValue>
-        <fullName>08.06.05</fullName>
-        <default>false</default>
-        <label>08.06.05 Wrong component or incorrect position</label>
-    </customValue>
-    <customValue>
-        <fullName>08.06.06</fullName>
-        <default>false</default>
-        <label>08.06.06 Measurement</label>
-    </customValue>
-    <customValue>
-        <fullName>08.06.07</fullName>
-        <default>false</default>
-        <label>08.06.07 Other</label>
-    </customValue>
-    <customValue>
-        <fullName>08.10.02</fullName>
-        <default>false</default>
-        <label>08.10.02 Missing seal</label>
-    </customValue>
-    <customValue>
-        <fullName>08.10.03</fullName>
-        <default>false</default>
-        <label>08.10.03 Missing component</label>
-    </customValue>
-    <customValue>
-        <fullName>08.10.04</fullName>
-        <default>false</default>
-        <label>08.10.04 Missing blind</label>
-    </customValue>
-    <customValue>
-        <fullName>08.10.05</fullName>
-        <default>false</default>
-        <label>08.10.05 Missing glass pane</label>
-    </customValue>
-    <customValue>
-        <fullName>08.10.06</fullName>
-        <default>false</default>
-        <label>08.10.06 Missing flashing</label>
-    </customValue>
-    <customValue>
         <fullName>11.01.01</fullName>
         <default>false</default>
         <label>11.01.01 Fixed glass panes</label>
@@ -766,120 +806,14 @@
         <label>11.02.04 Other</label>
     </customValue>
     <customValue>
-        <fullName>02.02.04</fullName>
-        <default>false</default>
-        <label>02.02.04 Height of the glazing</label>
-    </customValue>
-    <customValue>
-        <fullName>05.01.06</fullName>
-        <default>false</default>
-        <label>05.01.06 Component damaged</label>
-    </customValue>
-    <customValue>
-        <fullName>03.02.01</fullName>
-        <default>false</default>
-        <label>03.02.01 Measure mistake</label>
-    </customValue>
-    <customValue>
-        <fullName>03.02.02</fullName>
-        <default>false</default>
-        <label>03.02.02 Ordering mistake</label>
-    </customValue>
-    <customValue>
-        <fullName>03.02.03</fullName>
-        <default>false</default>
-        <label>03.02.03 Other</label>
-    </customValue>
-    <customValue>
         <fullName>11.03.01</fullName>
         <default>false</default>
         <label>11.03.01 Changes after ordering made by the client</label>
     </customValue>
     <customValue>
-        <fullName>04.02.01</fullName>
-        <default>false</default>
-        <label>04.02.01 Design</label>
-    </customValue>
-    <customValue>
-        <fullName>04.03.01</fullName>
-        <default>false</default>
-        <label>04.03.01 Unclear guide</label>
-    </customValue>
-    <customValue>
-        <fullName>09.01.03</fullName>
-        <default>false</default>
-        <label>09.01.03 Magnet</label>
-    </customValue>
-    <customValue>
         <fullName>Not Applicable</fullName>
         <default>false</default>
         <label>Not Applicable</label>
-    </customValue>
-    <customValue>
-        <fullName>Edge damaged_06_01_03</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Edge damaged_06_01_03</label>
-    </customValue>
-    <customValue>
-        <fullName>Missing package_05_03_01</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Missing package_05_03_01</label>
-    </customValue>
-    <customValue>
-        <fullName>Other_05_02_04</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Other_05_02_04</label>
-    </customValue>
-    <customValue>
-        <fullName>Missing_05_02_03</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Missing_05_02_03</label>
-    </customValue>
-    <customValue>
-        <fullName>Dent_05_02_02</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Dent_05_02_02</label>
-    </customValue>
-    <customValue>
-        <fullName>Scratched surface_05_02_01</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Scratched surface_05_02_01</label>
-    </customValue>
-    <customValue>
-        <fullName>Other_02_02_05</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Other_02_02_05</label>
-    </customValue>
-    <customValue>
-        <fullName>Other_09_05_03</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Other_09_05_03</label>
-    </customValue>
-    <customValue>
-        <fullName>Logistics_09_05_02</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Logistics_09_05_02</label>
-    </customValue>
-    <customValue>
-        <fullName>Cord_09_05_01</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Cord_09_05_01</label>
-    </customValue>
-    <customValue>
-        <fullName>Width_09_04_02</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Width_09_04_02</label>
     </customValue>
     <customValue>
         <fullName>Height_09_04_01</fullName>
@@ -1332,10 +1266,10 @@
         <label>Glass edge damaged_05_01_02</label>
     </customValue>
     <customValue>
-        <fullName>Other_06_01_05</fullName>
+        <fullName>Scratched surface_05_01_01</fullName>
         <default>false</default>
         <isActive>false</isActive>
-        <label>Other_06_01_05</label>
+        <label>Scratched surface_05_01_01</label>
     </customValue>
     <customValue>
         <fullName>mainTori_04_01_03</fullName>
@@ -1366,6 +1300,12 @@
         <default>false</default>
         <isActive>false</isActive>
         <label>Oblivion / defect_03_01_07</label>
+    </customValue>
+    <customValue>
+        <fullName>Cord_09_05_01</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Cord_09_05_01</label>
     </customValue>
     <customValue>
         <fullName>Measure mistake_03_01_06</fullName>
@@ -1548,10 +1488,70 @@
         <label>Glasses broken during guarantee_01_01_01</label>
     </customValue>
     <customValue>
-        <fullName>Scratched surface_05_01_01</fullName>
+        <fullName>Logistics_09_05_02</fullName>
         <default>false</default>
         <isActive>false</isActive>
-        <label>Scratched surface_05_01_01</label>
+        <label>Logistics_09_05_02</label>
+    </customValue>
+    <customValue>
+        <fullName>Other_09_05_03</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Other_09_05_03</label>
+    </customValue>
+    <customValue>
+        <fullName>Other_02_02_05</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Other_02_02_05</label>
+    </customValue>
+    <customValue>
+        <fullName>Scratched surface_05_02_01</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Scratched surface_05_02_01</label>
+    </customValue>
+    <customValue>
+        <fullName>Dent_05_02_02</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Dent_05_02_02</label>
+    </customValue>
+    <customValue>
+        <fullName>Missing_05_02_03</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Missing_05_02_03</label>
+    </customValue>
+    <customValue>
+        <fullName>Other_05_02_04</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Other_05_02_04</label>
+    </customValue>
+    <customValue>
+        <fullName>Missing package_05_03_01</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Missing package_05_03_01</label>
+    </customValue>
+    <customValue>
+        <fullName>Edge damaged_06_01_03</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Edge damaged_06_01_03</label>
+    </customValue>
+    <customValue>
+        <fullName>Broken_06_01_04</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Broken_06_01_04</label>
+    </customValue>
+    <customValue>
+        <fullName>Other_06_01_05</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Other_06_01_05</label>
     </customValue>
     <customValue>
         <fullName>Assembly_06_02_04</fullName>
@@ -1782,10 +1782,10 @@
         <label>Magnet_09_01_03</label>
     </customValue>
     <customValue>
-        <fullName>Broken_06_01_04</fullName>
+        <fullName>Width_09_04_02</fullName>
         <default>false</default>
         <isActive>false</isActive>
-        <label>Broken_06_01_04</label>
+        <label>Width_09_04_02</label>
     </customValue>
     <masterLabel>Lumon Quality Cause Codes</masterLabel>
     <sorted>false</sorted>
