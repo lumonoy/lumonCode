@@ -558,7 +558,7 @@ If no match is found, then the just added entry is kept.</description>
         </scheduledPaths>
         <triggerType>RecordAfterSave</triggerType>
     </start>
-    <status>Active</status>
+    <status>Obsolete</status>
     <variables>
         <name>CaseId</name>
         <dataType>String</dataType>

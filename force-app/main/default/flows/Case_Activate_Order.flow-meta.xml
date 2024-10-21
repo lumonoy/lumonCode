@@ -266,7 +266,7 @@
             <targetReference>Closed_won_Opportunity</targetReference>
         </connector>
     </start>
-    <status>Active</status>
+    <status>Obsolete</status>
     <variables>
         <name>reclamationOpportunity</name>
         <dataType>SObject</dataType>

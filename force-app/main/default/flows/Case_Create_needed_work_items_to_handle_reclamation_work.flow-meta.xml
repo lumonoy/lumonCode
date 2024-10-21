@@ -1758,7 +1758,7 @@ If no Recl.Plan, then Reclamation has not been created.</description>
             <targetReference>Case</targetReference>
         </connector>
     </start>
-    <status>Active</status>
+    <status>Obsolete</status>
     <subflows>
         <name>Create_Reclamation_WOLIs</name>
         <label>Create Reclamation WOLIs</label>

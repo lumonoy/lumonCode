@@ -4,7 +4,7 @@
     <description>Description of the the Case Resolution</description>
     <externalId>false</externalId>
     <inlineHelpText>Description of the the Case Resolution</inlineHelpText>
-    <label>Case Resolution OLD</label>
+    <label>Case Resolution DELETE</label>
     <length>32768</length>
     <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>false</trackHistory>

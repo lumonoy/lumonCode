@@ -3,7 +3,7 @@
     <fullName>Process_Class__c</fullName>
     <description>Picklist for reclamation classification</description>
     <externalId>false</externalId>
-    <label>Process Class OLD</label>
+    <label>Process Class DELETE</label>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>false</trackHistory>

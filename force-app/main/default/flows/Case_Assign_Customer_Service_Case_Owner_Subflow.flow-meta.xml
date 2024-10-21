@@ -216,7 +216,7 @@
             <targetReference>Get_Customer_Service_Record_Type</targetReference>
         </connector>
     </start>
-    <status>Active</status>
+    <status>Obsolete</status>
     <variables>
         <name>CaseRecordID</name>
         <dataType>String</dataType>

@@ -5,7 +5,7 @@
     <description>Rakennesuunnittelija</description>
     <externalId>false</externalId>
     <inlineHelpText>Fill in Structural Engineer for the Case</inlineHelpText>
-    <label>Structural Engineer OLD</label>
+    <label>Structural Engineer DELETE</label>
     <referenceTo>User</referenceTo>
     <relationshipName>Cases2</relationshipName>
     <required>false</required>

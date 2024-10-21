@@ -4,7 +4,7 @@
     <description>The Phone Number from where the Case is Reported</description>
     <externalId>false</externalId>
     <inlineHelpText>The Phone Number from where the Case is Reported</inlineHelpText>
-    <label>Source Phone</label>
+    <label>Source Phone DELETE</label>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>false</trackHistory>
