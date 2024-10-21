@@ -793,28 +793,6 @@
         </values>
     </picklistValues>
     <picklistValues>
-        <picklist>InstallAtType__c</picklist>
-        <values>
-            <fullName>Building</fullName>
-            <default>true</default>
-        </values>
-        <values>
-            <fullName>Other</fullName>
-            <default>false</default>
-        </values>
-    </picklistValues>
-    <picklistValues>
-        <picklist>Install_At__c</picklist>
-        <values>
-            <fullName>Building</fullName>
-            <default>true</default>
-        </values>
-        <values>
-            <fullName>Other</fullName>
-            <default>false</default>
-        </values>
-    </picklistValues>
-    <picklistValues>
         <picklist>Invoice_type__c</picklist>
         <values>
             <fullName>Email</fullName>
