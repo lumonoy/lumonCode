@@ -14,6 +14,11 @@
         <operation>equals</operation>
         <value>Case.CS_Case</value>
     </filters>
+    <filters>
+        <field>CASES.STATUS</field>
+        <operation>notEqual</operation>
+        <value>Resolved,Merged,Closed</value>
+    </filters>
     <label>All CS Finland Cases</label>
     <sharedTo>
         <group>CS_Finland</group>

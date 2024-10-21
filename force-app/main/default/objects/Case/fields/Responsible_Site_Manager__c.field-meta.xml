@@ -5,7 +5,7 @@
     <description>Vastaava Työnjohtaja</description>
     <externalId>false</externalId>
     <inlineHelpText>Fill in Responsible Site Manager for the Case</inlineHelpText>
-    <label>Responsible Site Manager OLD</label>
+    <label>Responsible Site Manager DELETE</label>
     <referenceTo>User</referenceTo>
     <relationshipName>Cases1</relationshipName>
     <required>false</required>

@@ -5,7 +5,7 @@
     <description>If set by the flow &quot;Account - Create Case&quot; or &quot;Mobile - Change WOLI status&quot;, then warranty is considered to be applicable and there should be no cost to the customer.</description>
     <externalId>false</externalId>
     <inlineHelpText>Warranty is considered to be applicable for the case handling.</inlineHelpText>
-    <label>Warranty applies</label>
+    <label>Warranty applies DELETE</label>
     <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>

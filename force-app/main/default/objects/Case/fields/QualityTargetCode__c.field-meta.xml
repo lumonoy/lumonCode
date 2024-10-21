@@ -3,6 +3,7 @@
     <fullName>QualityTargetCode__c</fullName>
     <description>Picklist field for reclamation classification</description>
     <externalId>false</externalId>
+    <inlineHelpText>The 2nd Level Quality Classification of the Case</inlineHelpText>
     <label>Target Code</label>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>

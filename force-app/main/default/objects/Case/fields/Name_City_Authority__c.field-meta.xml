@@ -4,7 +4,7 @@
     <description>This field logs information from the city authority where the Building permit was applied.</description>
     <externalId>false</externalId>
     <inlineHelpText>Please provide the name of the city authority where the Building permit was applied.</inlineHelpText>
-    <label>Name City Authority OLD</label>
+    <label>Name City Authority DELETE</label>
     <length>32768</length>
     <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>false</trackHistory>

@@ -6,32 +6,25 @@
     </fieldOverrides>
     <fieldOverrides>
         <field>ValidatedFromAddress</field>
-        <formula>CASE
-(
-  Case.Account.BillingCountry,   
-
-  &quot;Finland&quot;,
-  CASE
-  (
-   Case.RecordType.DeveloperName,
-   &quot;Customer_Service&quot;,&quot;cxtesting@lumon.com&quot;,
-   &quot;Building_Permit&quot;,&quot;cxtesting1@lumon.com&quot;,
-   &quot;Special_Order_Handling&quot;,&quot;cxtesting1@lumon.com&quot;,
-   $User.Email
-  ),
-
-  &quot;Spain&quot;,
-  CASE
-  (
-   Case.RecordType.DeveloperName,
-   &quot;Customer_Service&quot;,&quot;cxtesting@lumon.com&quot;,
-   &quot;Building_Permit&quot;,&quot;cxtesting1@lumon.com&quot;,
-   &quot;Special_Order_Handling&quot;,&quot;cxtesting1@lumon.com&quot;,
-   $User.Email
-  ),
-
-  $User.Email 
-)</formula>
+        <formula>CASE ( Case.CaseCategory__c,
+&quot;CS&quot;, CASE (  $User.Country ,
+  &quot;Spain&quot;, &quot;sfcustomerservicees@lumon.com&quot;,
+  &quot;Finland&quot;, &quot;sfcustomerservicefi@lumon.com&quot;,
+  &quot;Canada&quot;, &quot;sfservicecallslna@lumon.com&quot;,
+  &quot;sfcustomerservicees@lumon.com&quot;),
+&quot;IT&quot;, &quot;sfitsupport@lumon.com&quot;,
+&quot;LOG&quot;, CASE (  $User.Country ,
+  &quot;Spain&quot;, &quot;sflogisticses@lumon.com&quot;,
+  &quot;Finland&quot;, &quot;sfcustomerservicefi@lumon.com&quot;,
+  &quot;sfcustomerservicees@lumon.com&quot;),
+&quot;TS&quot;, CASE (  $User.Country ,
+  &quot;Spain&quot;, &quot;soporte.tecnico@lumon.com&quot;,
+  &quot;Canada&quot;, &quot;sftechnicalsupportca@lumon.com&quot;,
+  &quot;sfcustomerservicees@lumon.com&quot;),
+&quot;PERM&quot;, CASE (  $User.Country ,
+  &quot;Canada&quot;, &quot;sfpermitca@lumon.com&quot;,
+  &quot;sfpermitca@lumon.com&quot;),
+&quot;sfcustomerservicees@lumon.com&quot;)</formula>
     </fieldOverrides>
     <optionsCreateFeedItem>true</optionsCreateFeedItem>
     <quickActionLayout>

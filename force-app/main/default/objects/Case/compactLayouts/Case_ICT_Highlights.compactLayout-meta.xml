@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Case_ICT_Highlights</fullName>
+    <fields>Subject</fields>
     <fields>CaseNumber</fields>
     <fields>Priority</fields>
     <fields>Status</fields>
     <fields>OwnerId</fields>
-    <fields>Subject</fields>
     <fields>CaseCategory__c</fields>
     <fields>CaseType__c</fields>
     <fields>CaseSubType__c</fields>

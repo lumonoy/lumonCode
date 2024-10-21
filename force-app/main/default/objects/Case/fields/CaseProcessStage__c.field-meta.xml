@@ -3,7 +3,7 @@
     <fullName>CaseProcessStage__c</fullName>
     <description>Reclamation order stages are depended on status values.</description>
     <externalId>false</externalId>
-    <label>Process Stage</label>
+    <label>Process Stage DELETE</label>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>false</trackHistory>

@@ -35,6 +35,11 @@
         <default>false</default>
         <label>Europe/Warsaw</label>
     </customValue>
+    <customValue>
+        <fullName>Europe/Amsterdam</fullName>
+        <default>false</default>
+        <label>Europe/Amsterdam</label>
+    </customValue>
     <description>Timezone as Area/Capital (Salesforce Standard)</description>
     <masterLabel>Lumon Timezones</masterLabel>
     <sorted>true</sorted>
