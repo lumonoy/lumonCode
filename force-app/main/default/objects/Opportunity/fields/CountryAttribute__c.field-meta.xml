@@ -3,7 +3,7 @@
     <fullName>CountryAttribute__c</fullName>
     <description>Attribute to Identify the Country Specific Defaults and Sales Area (based on Installation Address Country)</description>
     <externalId>false</externalId>
-    <formula>TEXT(InstallationAddress__CountryCode__s)</formula>
+    <formula>TEXT(DeliveryAddress__CountryCode__s)</formula>
     <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
     <inlineHelpText>Attribute to Identify the Country Specific Defaults and Sales Area</inlineHelpText>
     <label>Country Attribute</label>

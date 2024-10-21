@@ -4,7 +4,7 @@
     <externalId>false</externalId>
     <formula>Profit_Center_Code__c</formula>
     <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
-    <label>Profit Center Attribute</label>
+    <label>Profit Center Attribute OLD</label>
     <required>false</required>
     <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>

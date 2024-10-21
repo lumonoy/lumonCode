@@ -4,19 +4,9 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <externalId>false</externalId>
     <label>Office</label>
-    <lookupFilter>
-        <active>true</active>
-        <errorMessage>Office does not exist or does not match filter criteria.</errorMessage>
-        <filterItems>
-            <field>Office__c.Office_Address__CountryCode__s</field>
-            <operation>equals</operation>
-            <valueField>$Source.Country__c</valueField>
-        </filterItems>
-        <isOptional>false</isOptional>
-    </lookupFilter>
     <referenceTo>Office__c</referenceTo>
     <relationshipLabel>Postal Code Areas</relationshipLabel>
-    <relationshipName>Postal_Code_Areas</relationshipName>
+    <relationshipName>PostalCodeAreas</relationshipName>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>
     <trackTrending>false</trackTrending>

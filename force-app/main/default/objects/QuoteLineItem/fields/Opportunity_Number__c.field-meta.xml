@@ -5,7 +5,7 @@
     <externalId>false</externalId>
     <formula>Quote.Opportunity.Opportunity_Number__c</formula>
     <inlineHelpText>The Oportunity Number related to the QuoteLineItem</inlineHelpText>
-    <label>Opportunity Number</label>
+    <label>Opportunity Number OLD</label>
     <required>false</required>
     <trackHistory>false</trackHistory>
     <type>Text</type>

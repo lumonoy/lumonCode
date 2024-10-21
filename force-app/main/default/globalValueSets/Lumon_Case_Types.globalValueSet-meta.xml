@@ -125,6 +125,90 @@
         <default>false</default>
         <label>X Not Applicable</label>
     </customValue>
+    <customValue>
+        <fullName>Information Request</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Information Request</label>
+    </customValue>
+    <customValue>
+        <fullName>Internal Orders</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Internal Orders</label>
+    </customValue>
+    <customValue>
+        <fullName>Permits</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Permits</label>
+    </customValue>
+    <customValue>
+        <fullName>Workstations</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Workstations</label>
+    </customValue>
+    <customValue>
+        <fullName>User accounts and rights</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>User accounts and rights</label>
+    </customValue>
+    <customValue>
+        <fullName>Software</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Software</label>
+    </customValue>
+    <customValue>
+        <fullName>Servers</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Servers</label>
+    </customValue>
+    <customValue>
+        <fullName>Others</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Others</label>
+    </customValue>
+    <customValue>
+        <fullName>IT_Workstations</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>IT_Workstations</label>
+    </customValue>
+    <customValue>
+        <fullName>Long term project</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Long term project</label>
+    </customValue>
+    <customValue>
+        <fullName>Technical Question</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Technical Question</label>
+    </customValue>
+    <customValue>
+        <fullName>Support Request</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Support Request</label>
+    </customValue>
+    <customValue>
+        <fullName>Generic Request</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Generic Request</label>
+    </customValue>
+    <customValue>
+        <fullName>Not Applicable</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Not Applicable</label>
+    </customValue>
     <masterLabel>Lumon Case Types</masterLabel>
-    <sorted>true</sorted>
+    <sorted>false</sorted>
 </GlobalValueSet>
