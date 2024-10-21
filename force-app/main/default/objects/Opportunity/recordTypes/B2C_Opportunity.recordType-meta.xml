@@ -1142,10 +1142,6 @@
     <picklistValues>
         <picklist>ProfitCenterCode__c</picklist>
         <values>
-            <fullName>10</fullName>
-            <default>false</default>
-        </values>
-        <values>
             <fullName>100</fullName>
             <default>false</default>
         </values>
