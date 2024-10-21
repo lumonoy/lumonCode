@@ -5,7 +5,7 @@
     <description>Flag to indicate if the Product is a Special Product</description>
     <externalId>false</externalId>
     <inlineHelpText>indicates if the Product needs Special Handling</inlineHelpText>
-    <label>Special</label>
+    <label>Special OLD</label>
     <trackHistory>false</trackHistory>
     <type>Checkbox</type>
 </CustomField>

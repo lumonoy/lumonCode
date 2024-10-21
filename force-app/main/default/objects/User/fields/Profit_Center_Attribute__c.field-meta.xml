@@ -4,7 +4,7 @@
     <externalId>false</externalId>
     <formula>TEXT(Profit_Center__c)</formula>
     <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
-    <label>Profit Center Attribute</label>
+    <label>Profit Center Attribute OLD</label>
     <required>false</required>
     <type>Text</type>
     <unique>false</unique>

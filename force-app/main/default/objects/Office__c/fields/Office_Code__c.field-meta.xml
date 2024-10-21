@@ -3,7 +3,7 @@
     <fullName>Office_Code__c</fullName>
     <description>Office code required for integration</description>
     <externalId>false</externalId>
-    <label>Office Code</label>
+    <label>Office Code OLD</label>
     <length>10</length>
     <required>false</required>
     <trackHistory>false</trackHistory>

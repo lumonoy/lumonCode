@@ -3,7 +3,7 @@
     <fullName>Sales_Price__c</fullName>
     <description>Actual Sales Price (aka Selling Price)</description>
     <externalId>false</externalId>
-    <label>Total List Price</label>
+    <label>Total List Price OLD</label>
     <precision>18</precision>
     <required>false</required>
     <scale>7</scale>

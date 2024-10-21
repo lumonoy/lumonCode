@@ -3,7 +3,7 @@
     <fullName>List_Price__c</fullName>
     <externalId>false</externalId>
     <inlineHelpText>List Price</inlineHelpText>
-    <label>List Price</label>
+    <label>List Price OLD</label>
     <precision>18</precision>
     <required>false</required>
     <scale>7</scale>

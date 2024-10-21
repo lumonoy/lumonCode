@@ -4,7 +4,7 @@
     <description>Product Item Cost Type</description>
     <externalId>false</externalId>
     <inlineHelpText>Product Item Cost Type</inlineHelpText>
-    <label>Cost Type</label>
+    <label>Cost Type OLD</label>
     <required>false</required>
     <trackHistory>false</trackHistory>
     <type>Picklist</type>

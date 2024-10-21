@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AD_ProfitCenterCode__c</fullName>
+    <description>User Profit Center Code populated from Azure AD</description>
+    <externalId>false</externalId>
+    <inlineHelpText>User Profit Center Code populated from Azure AD</inlineHelpText>
+    <label>AD Profit Center Code</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>Lumon_AD_Profit_Center_Codes</valueSetName>
+    </valueSet>
+</CustomField>

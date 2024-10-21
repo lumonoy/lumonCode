@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>isAdditionalCost__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Checkbox to indicate if this is a Additional Cost Product</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Indicates if this is a Additional Cost Product</inlineHelpText>
+    <label>Additional Cost</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>
