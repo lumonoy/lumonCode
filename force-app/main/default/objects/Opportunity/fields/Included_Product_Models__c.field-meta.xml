@@ -2,7 +2,7 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Included_Product_Models__c</fullName>
     <externalId>false</externalId>
-    <label>Included Product Models</label>
+    <label>Included Product Models OLD</label>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>false</trackHistory>
