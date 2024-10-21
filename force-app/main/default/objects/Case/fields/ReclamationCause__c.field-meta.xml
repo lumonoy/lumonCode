@@ -3,7 +3,7 @@
     <fullName>ReclamationCause__c</fullName>
     <description>free text field (up to 255 characters) for reclamation classifications</description>
     <externalId>false</externalId>
-    <label>Reclamation Cause</label>
+    <label>Reclamation Cause DELETE</label>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>false</trackHistory>

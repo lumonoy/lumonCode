@@ -3,7 +3,7 @@
     <fullName>Stage__c</fullName>
     <description>Reclamation order stages are depended on status values.</description>
     <externalId>false</externalId>
-    <label>Stage DEL</label>
+    <label>Stage DELETE</label>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>false</trackHistory>

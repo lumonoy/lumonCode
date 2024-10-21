@@ -1,33 +1,88 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <content>Lumon_Work_Planning_Home</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+        <pageOrSobjectType>standard-home</pageOrSobjectType>
+    </actionOverrides>
     <brand>
         <headerColor>#0070D2</headerColor>
+        <logo>lumon_sf36</logo>
+        <logoVersion>1</logoVersion>
         <shouldOverrideOrgTheme>false</shouldOverrideOrgTheme>
     </brand>
+    <description>App for Installation Managers</description>
     <formFactors>Small</formFactors>
     <formFactors>Large</formFactors>
-    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
-    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <isNavAutoTempTabsDisabled>true</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>true</isNavPersonalizationDisabled>
     <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
-    <label>Field Services</label>
-    <navType>Standard</navType>
+    <label>Work Planning</label>
+    <navType>Console</navType>
     <profileActionOverrides>
         <actionName>Tab</actionName>
-        <content>Lumon_Field_Service_Home_Page</content>
+        <content>Lumon_Work_Planning_Home</content>
         <formFactor>Large</formFactor>
         <pageOrSobjectType>standard-home</pageOrSobjectType>
         <type>Flexipage</type>
         <profile>Lumon Installation Manager</profile>
     </profileActionOverrides>
+    <setupExperience>all</setupExperience>
     <tabs>standard-home</tabs>
     <tabs>FSL__FieldService</tabs>
     <tabs>standard-Account</tabs>
+    <tabs>Building_Project__c</tabs>
+    <tabs>Delivery_Project__c</tabs>
+    <tabs>Delivery_Batch__c</tabs>
+    <tabs>standard-WorkOrder</tabs>
+    <tabs>standard-ServiceAppointment</tabs>
+    <tabs>standard-TimeSheet</tabs>
     <tabs>standard-Asset</tabs>
     <tabs>standard-Case</tabs>
-    <tabs>standard-TimeSheet</tabs>
     <tabs>standard-ProcessInstanceWorkitem</tabs>
-    <tabs>standard-report</tabs>
-    <tabs>standard-Dashboard</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>Lumon_Field_Service_UtilityBar</utilityBar>
+    <workspaceConfig>
+        <mappings>
+            <tab>Building_Project__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Delivery_Batch__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Delivery_Project__c</tab>
+        </mappings>
+        <mappings>
+            <tab>FSL__FieldService</tab>
+        </mappings>
+        <mappings>
+            <tab>standard-Account</tab>
+        </mappings>
+        <mappings>
+            <tab>standard-Asset</tab>
+        </mappings>
+        <mappings>
+            <fieldName>AccountId</fieldName>
+            <tab>standard-Case</tab>
+        </mappings>
+        <mappings>
+            <tab>standard-ProcessInstanceWorkitem</tab>
+        </mappings>
+        <mappings>
+            <fieldName>AccountId</fieldName>
+            <tab>standard-ServiceAppointment</tab>
+        </mappings>
+        <mappings>
+            <tab>standard-TimeSheet</tab>
+        </mappings>
+        <mappings>
+            <tab>standard-WorkOrder</tab>
+        </mappings>
+        <mappings>
+            <tab>standard-home</tab>
+        </mappings>
+    </workspaceConfig>
 </CustomApplication>
