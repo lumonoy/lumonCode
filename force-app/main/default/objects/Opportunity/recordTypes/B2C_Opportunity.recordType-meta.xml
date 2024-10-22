@@ -3,17 +3,40 @@
     <fullName>B2C_Opportunity</fullName>
     <active>true</active>
     <businessProcess>B2C Sales Process</businessProcess>
-    <compactLayoutAssignment>Opportunity_Compact_Layout</compactLayoutAssignment>
+    <compactLayoutAssignment>Lumon_Opportunity_Highlights</compactLayoutAssignment>
     <description>This is record type for B2C opportunities (Consumers)</description>
     <label>B2C Opportunity</label>
     <picklistValues>
+        <picklist>BusinessType__c</picklist>
+        <values>
+            <fullName>0</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>7</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>9</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
         <picklist>Business_Type__c</picklist>
         <values>
-            <fullName>Consumer</fullName>
+            <fullName>1</fullName>
             <default>true</default>
         </values>
         <values>
-            <fullName>Project</fullName>
+            <fullName>4</fullName>
             <default>false</default>
         </values>
     </picklistValues>
@@ -53,9 +76,13 @@
         </values>
     </picklistValues>
     <picklistValues>
-        <picklist>Contract_Language__c</picklist>
+        <picklist>CountryCode__c</picklist>
         <values>
-            <fullName>en</fullName>
+            <fullName>CA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>fr_CA</fullName>
             <default>false</default>
         </values>
     </picklistValues>
@@ -532,6 +559,17 @@
         </values>
     </picklistValues>
     <picklistValues>
+        <picklist>InstallAtType__c</picklist>
+        <values>
+            <fullName>Building</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
         <picklist>Install_At__c</picklist>
         <values>
             <fullName>Building</fullName>
@@ -706,6 +744,209 @@
         </values>
     </picklistValues>
     <picklistValues>
+        <picklist>OfficeCode__c</picklist>
+        <values>
+            <fullName>CA-L4H3M7</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CA-L4H3M8</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CA-L4H3M9</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CA-L8E5E3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CA-V1M0E4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ES-04240</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ES-07141</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ES-08001</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ES-08750</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ES-12560</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ES-14014</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ES-18001</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ES-28001</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ES-28055</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ES-28925</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ES-29001</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ES-29004</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ES-29625</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ES-29688</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ES-41001</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ES-46001</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ES-46120</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ES-50001</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ES-50002</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FI-00880</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FI-01200</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FI-01740</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FI-02270</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FI-11100</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FI-13100</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FI-15680</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FI-21200</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FI-28430</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FI-33560</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FI-40420</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FI-45130</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FI-48770</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FI-53850</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FI-60100</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FI-65100</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FI-70420</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FI-80100</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FI-90440</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NL-1012AB</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NO-02013</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PL-02634</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SE-16867</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SE-21239</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SE-43361</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SE-72134</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
         <picklist>Order_Type_New__c</picklist>
         <values>
             <fullName>Claim</fullName>
@@ -806,6 +1047,10 @@
             <default>false</default>
         </values>
         <values>
+            <fullName>TST</fullName>
+            <default>false</default>
+        </values>
+        <values>
             <fullName>ZAO</fullName>
             <default>false</default>
         </values>
@@ -849,6 +1094,29 @@
         </values>
     </picklistValues>
     <picklistValues>
+        <picklist>Status__c</picklist>
+        <values>
+            <fullName>Closed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Configured</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Contracted</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Offered</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
         <picklist>Terms_of_Payment__c</picklist>
         <values>
             <fullName>07 days net</fullName>
@@ -858,23 +1126,23 @@
     <picklistValues>
         <picklist>Terrain_Type__c</picklist>
         <values>
-            <fullName>Terrain Class 0</fullName>
+            <fullName>0</fullName>
             <default>false</default>
         </values>
         <values>
-            <fullName>Terrain Class I</fullName>
+            <fullName>1</fullName>
             <default>false</default>
         </values>
         <values>
-            <fullName>Terrain Class II</fullName>
+            <fullName>2</fullName>
             <default>false</default>
         </values>
         <values>
-            <fullName>Terrain Class III</fullName>
+            <fullName>3</fullName>
             <default>false</default>
         </values>
         <values>
-            <fullName>Terrain Class IV</fullName>
+            <fullName>4</fullName>
             <default>false</default>
         </values>
     </picklistValues>

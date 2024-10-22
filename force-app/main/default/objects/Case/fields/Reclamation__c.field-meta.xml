@@ -3,7 +3,7 @@
     <fullName>Reclamation__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <externalId>false</externalId>
-    <label>Reclamation</label>
+    <label>Reclamation DELETE</label>
     <lookupFilter>
         <active>true</active>
         <booleanFilter>1 OR 2</booleanFilter>

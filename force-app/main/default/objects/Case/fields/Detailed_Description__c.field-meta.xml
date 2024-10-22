@@ -2,7 +2,7 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Detailed_Description__c</fullName>
     <externalId>false</externalId>
-    <label>Detailed Description OLD</label>
+    <label>Detailed Description DELETE</label>
     <length>130000</length>
     <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>false</trackHistory>

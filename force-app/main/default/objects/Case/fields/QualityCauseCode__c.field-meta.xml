@@ -3,6 +3,7 @@
     <fullName>QualityCauseCode__c</fullName>
     <description>Picklist value for reclamation classifications</description>
     <externalId>false</externalId>
+    <inlineHelpText>The 3rd Level Quality Classification of the Case</inlineHelpText>
     <label>Cause Code</label>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>
@@ -10,7 +11,88 @@
     <trackTrending>false</trackTrending>
     <type>Picklist</type>
     <valueSet>
+        <controllingField>QualityTargetCode__c</controllingField>
         <restricted>true</restricted>
         <valueSetName>Lumon_Quality_Cause_Codes</valueSetName>
+        <valueSettings>
+            <controllingFieldValue>02.01</controllingFieldValue>
+            <valueName>02.01.01</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>03.01</controllingFieldValue>
+            <valueName>03.01.01</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>03.01</controllingFieldValue>
+            <valueName>03.01.02</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>03.01</controllingFieldValue>
+            <valueName>03.01.03</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>03.01</controllingFieldValue>
+            <valueName>03.01.04</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>03.01</controllingFieldValue>
+            <valueName>03.01.05</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>03.01</controllingFieldValue>
+            <valueName>03.01.06</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>03.01</controllingFieldValue>
+            <valueName>03.01.07</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>03.01</controllingFieldValue>
+            <valueName>03.01.08</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>04.01</controllingFieldValue>
+            <valueName>04.01.01</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>04.01</controllingFieldValue>
+            <valueName>04.01.02</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>04.01</controllingFieldValue>
+            <valueName>04.01.03</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>01.02</controllingFieldValue>
+            <valueName>01.02.01</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>01.02</controllingFieldValue>
+            <valueName>01.02.02</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>01.02</controllingFieldValue>
+            <valueName>01.02.03</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>02.02</controllingFieldValue>
+            <valueName>02.02.01</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>02.02</controllingFieldValue>
+            <valueName>02.02.02</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>02.02</controllingFieldValue>
+            <valueName>02.02.03</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>02.03</controllingFieldValue>
+            <valueName>02.03.01</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>01.01</controllingFieldValue>
+            <valueName>01.01.01</valueName>
+        </valueSettings>
     </valueSet>
 </CustomField>

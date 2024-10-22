@@ -4,7 +4,7 @@
     <description>customer reference, field on invoice</description>
     <externalId>false</externalId>
     <inlineHelpText>Payment terms additional agreements</inlineHelpText>
-    <label>Customer reference</label>
+    <label>Customer reference OLD</label>
     <required>false</required>
     <trackHistory>false</trackHistory>
     <type>TextArea</type>

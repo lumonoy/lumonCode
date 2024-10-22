@@ -3,7 +3,7 @@
     <fullName>Moved_to_Quoting_date_time__c</fullName>
     <description>This field stores when opportunity has been moved to quoting</description>
     <externalId>false</externalId>
-    <label>Moved to Quoting date/time</label>
+    <label>Moved to Quoting date/time OLD</label>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>false</trackHistory>

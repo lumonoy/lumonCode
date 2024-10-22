@@ -2,7 +2,7 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Net_Price__c</fullName>
     <externalId>false</externalId>
-    <inlineHelpText>Net Price</inlineHelpText>
+    <inlineHelpText>Net Price OLD</inlineHelpText>
     <label>Net Price</label>
     <precision>18</precision>
     <required>false</required>

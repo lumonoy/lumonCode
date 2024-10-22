@@ -96,10 +96,10 @@
         <label>West Finland</label>
     </customValue>
     <customValue>
-        <fullName>Lumon Huolto</fullName>
+        <fullName>NL_Test</fullName>
         <default>false</default>
         <isActive>false</isActive>
-        <label>Lumon Huolto</label>
+        <label>NL_Test</label>
     </customValue>
     <customValue>
         <fullName>406 TEO</fullName>
@@ -136,6 +136,12 @@
         <default>false</default>
         <isActive>false</isActive>
         <label>JM Suomi</label>
+    </customValue>
+    <customValue>
+        <fullName>Lumon Huolto</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Lumon Huolto</label>
     </customValue>
     <masterLabel>Lumon Districts</masterLabel>
     <sorted>true</sorted>

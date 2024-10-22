@@ -4,7 +4,7 @@
     <description>This field contains more information why preliminary contract was chosen</description>
     <externalId>false</externalId>
     <inlineHelpText>Please provide more information here</inlineHelpText>
-    <label>Preliminary Contract Reason Details</label>
+    <label>Preliminary Contract Reason Details OLD</label>
     <length>255</length>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>

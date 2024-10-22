@@ -4,7 +4,7 @@
     <externalId>false</externalId>
     <formula>TEXT(Office__c)</formula>
     <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
-    <label>Office Attribute</label>
+    <label>Office Attribute OLD</label>
     <required>false</required>
     <type>Text</type>
     <unique>false</unique>

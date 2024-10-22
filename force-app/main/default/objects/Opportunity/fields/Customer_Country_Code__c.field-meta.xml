@@ -3,7 +3,7 @@
     <fullName>Customer_Country_Code__c</fullName>
     <externalId>false</externalId>
     <formula>TEXT(Account.BillingCountryCode)</formula>
-    <label>Customer Country Code</label>
+    <label>Customer Country Code OLD</label>
     <required>false</required>
     <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>

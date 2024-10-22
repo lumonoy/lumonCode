@@ -557,7 +557,7 @@
     <picklistValues>
         <picklist>Business_Type__c</picklist>
         <values>
-            <fullName>Consumer</fullName>
+            <fullName>1</fullName>
             <default>true</default>
         </values>
     </picklistValues>
@@ -876,6 +876,10 @@
         <picklist>Language_Preference__c</picklist>
         <values>
             <fullName>en</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>fr_CA</fullName>
             <default>false</default>
         </values>
     </picklistValues>
