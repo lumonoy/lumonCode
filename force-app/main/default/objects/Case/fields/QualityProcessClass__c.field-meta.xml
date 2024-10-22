@@ -3,6 +3,7 @@
     <fullName>QualityProcessClass__c</fullName>
     <description>Picklist for reclamation classification</description>
     <externalId>false</externalId>
+    <inlineHelpText>The 1st Level Quality Classification of the Case</inlineHelpText>
     <label>Process Class</label>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>

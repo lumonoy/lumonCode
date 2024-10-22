@@ -3,7 +3,7 @@
     <fullName>ReclamationCauseDescription__c</fullName>
     <description>Quality event reclamation cause description</description>
     <externalId>false</externalId>
-    <label>Reclamation Cause Description</label>
+    <label>Reclamation Cause Description DELETE</label>
     <length>5000</length>
     <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>false</trackHistory>

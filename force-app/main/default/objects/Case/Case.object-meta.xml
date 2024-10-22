@@ -186,7 +186,7 @@
         <actionName>View</actionName>
         <comment>Action override created by Lightning App Builder during activation.</comment>
         <content>Lumon_Case_Record_Page</content>
-        <formFactor>Large</formFactor>
+        <formFactor>Small</formFactor>
         <skipRecordTypeSelect>false</skipRecordTypeSelect>
         <type>Flexipage</type>
     </actionOverrides>
@@ -194,7 +194,7 @@
         <actionName>View</actionName>
         <comment>Action override created by Lightning App Builder during activation.</comment>
         <content>Lumon_Case_Record_Page</content>
-        <formFactor>Small</formFactor>
+        <formFactor>Large</formFactor>
         <skipRecordTypeSelect>false</skipRecordTypeSelect>
         <type>Flexipage</type>
     </actionOverrides>
@@ -202,7 +202,7 @@
         <actionName>View</actionName>
         <type>Default</type>
     </actionOverrides>
-    <compactLayoutAssignment>Case_HighLights</compactLayoutAssignment>
+    <compactLayoutAssignment>Lumon_Case_Highlights</compactLayoutAssignment>
     <enableFeeds>true</enableFeeds>
     <externalSharingModel>Private</externalSharingModel>
     <recordTypeTrackFeedHistory>false</recordTypeTrackFeedHistory>
@@ -233,16 +233,16 @@
         <lookupPhoneDialogsAdditionalFields>ACCOUNT.NAME</lookupPhoneDialogsAdditionalFields>
         <lookupPhoneDialogsAdditionalFields>CASES.STATUS</lookupPhoneDialogsAdditionalFields>
         <lookupPhoneDialogsAdditionalFields>SourcePhone__c</lookupPhoneDialogsAdditionalFields>
-        <massQuickActions>NewCustomerCase</massQuickActions>
         <searchResultsAdditionalFields>CASES.CASE_NUMBER</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>CASES.SUBJECT</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>CASES.STATUS</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>CASES.CREATED_DATE</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>CORE.USERS.ALIAS</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>CaseGroup__c</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>CaseCategory__c</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>CaseType__c</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>CaseSubType__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>ACCOUNT.NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CASES.EMAIL</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>ASSET.SERIAL_NUMBER</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>Private</sharingModel>
 </CustomObject>

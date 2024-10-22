@@ -16,11 +16,6 @@
         <label>Logistics Support</label>
     </customValue>
     <customValue>
-        <fullName>NA</fullName>
-        <default>false</default>
-        <label>Not Applicable</label>
-    </customValue>
-    <customValue>
         <fullName>PERM</fullName>
         <default>false</default>
         <label>Permit Applications</label>
@@ -33,7 +28,7 @@
     <customValue>
         <fullName>RECL</fullName>
         <default>false</default>
-        <label>Reclamation</label>
+        <label>Reclamation Support</label>
     </customValue>
     <customValue>
         <fullName>SF</fullName>
@@ -54,6 +49,28 @@
         <fullName>WEB</fullName>
         <default>false</default>
         <label>Webshop Support</label>
+    </customValue>
+    <customValue>
+        <fullName>QUAL</fullName>
+        <default>false</default>
+        <label>Process Quality</label>
+    </customValue>
+    <customValue>
+        <fullName>INST</fullName>
+        <default>false</default>
+        <label>Installation Support</label>
+    </customValue>
+    <customValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Other</label>
+    </customValue>
+    <customValue>
+        <fullName>NA</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Not Applicable</label>
     </customValue>
     <masterLabel>Lumon Case Categories</masterLabel>
     <sorted>true</sorted>

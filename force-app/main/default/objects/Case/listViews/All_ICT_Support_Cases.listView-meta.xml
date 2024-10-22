@@ -12,11 +12,6 @@
     <columns>CASES.LAST_UPDATE_DATE_ONLY</columns>
     <filterScope>Everything</filterScope>
     <filters>
-        <field>IT_Support_Category__c</field>
-        <operation>equals</operation>
-        <value>IT Support</value>
-    </filters>
-    <filters>
         <field>CASES.STATUS</field>
         <operation>equals</operation>
         <value>New,In Progress</value>

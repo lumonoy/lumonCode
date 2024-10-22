@@ -3,7 +3,7 @@
     <fullName>Deliver_To__c</fullName>
     <externalId>false</externalId>
     <inlineHelpText>Defines the delivery address. For address updates, see Account address, Delivery Location (Building/Factory), or Delivery Address (Other)</inlineHelpText>
-    <label>Deliver To</label>
+    <label>Deliver To OLD</label>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>false</trackHistory>
@@ -11,45 +11,6 @@
     <type>Picklist</type>
     <valueSet>
         <restricted>true</restricted>
-        <valueSetDefinition>
-            <sorted>false</sorted>
-            <value>
-                <fullName>Building</fullName>
-                <default>true</default>
-                <label>Building</label>
-            </value>
-            <value>
-                <fullName>Factory</fullName>
-                <default>false</default>
-                <label>Factory</label>
-            </value>
-            <value>
-                <fullName>Warehouse</fullName>
-                <default>false</default>
-                <label>Warehouse</label>
-            </value>
-            <value>
-                <fullName>Account</fullName>
-                <default>false</default>
-                <label>Account</label>
-            </value>
-            <value>
-                <fullName>Other</fullName>
-                <default>false</default>
-                <label>Other</label>
-            </value>
-            <value>
-                <fullName>Customer</fullName>
-                <default>false</default>
-                <isActive>false</isActive>
-                <label>Customer</label>
-            </value>
-            <value>
-                <fullName>Site</fullName>
-                <default>false</default>
-                <isActive>false</isActive>
-                <label>Site</label>
-            </value>
-        </valueSetDefinition>
+        <valueSetName>Lumon_Delivery_Options</valueSetName>
     </valueSet>
 </CustomField>

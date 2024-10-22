@@ -4,7 +4,7 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <description>This field identifies the related Work Order for which the Reclamation Case was created. Filled in by automation.</description>
     <externalId>false</externalId>
-    <label>Work Order OLD</label>
+    <label>Work Order DELETE</label>
     <referenceTo>WorkOrder</referenceTo>
     <relationshipLabel>Cases</relationshipLabel>
     <relationshipName>Cases</relationshipName>

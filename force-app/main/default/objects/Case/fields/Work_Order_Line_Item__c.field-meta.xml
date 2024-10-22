@@ -4,7 +4,7 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <description>This field identifies the related Work Order line Item for which the Reclamation Case was created so that taken images can be re-linked to Case from WOLI.</description>
     <externalId>false</externalId>
-    <label>Work Order Line Item OLD</label>
+    <label>Work Order Line Item DELETE</label>
     <referenceTo>WorkOrderLineItem</referenceTo>
     <relationshipLabel>Cases</relationshipLabel>
     <relationshipName>Cases</relationshipName>

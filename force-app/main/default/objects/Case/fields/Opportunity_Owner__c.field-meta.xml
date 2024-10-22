@@ -3,7 +3,7 @@
     <fullName>Opportunity_Owner__c</fullName>
     <externalId>false</externalId>
     <formula>Opportunity__r.Owner.LastName</formula>
-    <label>Opportunity Owner DEL</label>
+    <label>Opportunity Owner DELETE</label>
     <required>false</required>
     <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>

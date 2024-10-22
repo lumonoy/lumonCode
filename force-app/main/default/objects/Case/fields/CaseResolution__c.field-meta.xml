@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>CaseResolution__c</fullName>
-    <description>Description of the the Case Resolution</description>
+    <description>Description of the Resolution of the Case</description>
     <externalId>false</externalId>
-    <inlineHelpText>Description of the the Case Resolution</inlineHelpText>
+    <inlineHelpText>Description of the Resolution of the Case</inlineHelpText>
     <label>Case Resolution</label>
     <length>32768</length>
     <trackFeedHistory>false</trackFeedHistory>
-    <trackHistory>false</trackHistory>
+    <trackHistory>true</trackHistory>
     <trackTrending>false</trackTrending>
     <type>LongTextArea</type>
     <visibleLines>5</visibleLines>
