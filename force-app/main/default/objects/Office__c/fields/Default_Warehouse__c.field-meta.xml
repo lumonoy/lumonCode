@@ -3,7 +3,7 @@
     <fullName>Default_Warehouse__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <externalId>false</externalId>
-    <label>Default Warehouse</label>
+    <label>Default Warehouse OLD</label>
     <referenceTo>Warehouse__c</referenceTo>
     <relationshipLabel>Offices</relationshipLabel>
     <relationshipName>Offices</relationshipName>

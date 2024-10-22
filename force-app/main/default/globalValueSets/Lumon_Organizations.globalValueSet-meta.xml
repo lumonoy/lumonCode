@@ -58,7 +58,7 @@
     <customValue>
         <fullName>LPO</fullName>
         <default>false</default>
-        <label>Lumon Polska</label>
+        <label>Lumon Polska (LPO)</label>
     </customValue>
     <customValue>
         <fullName>LNP</fullName>
@@ -96,22 +96,15 @@
         <label>ZAO Lumon (ZAO)</label>
     </customValue>
     <customValue>
-        <fullName>LCA</fullName>
+        <fullName>TST</fullName>
         <default>false</default>
-        <isActive>false</isActive>
-        <label>LCA</label>
+        <label>Lumon Test</label>
     </customValue>
     <customValue>
-        <fullName>LCF</fullName>
+        <fullName>LNE</fullName>
         <default>false</default>
         <isActive>false</isActive>
-        <label>LCF</label>
-    </customValue>
-    <customValue>
-        <fullName>LSS</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>LSS</label>
+        <label>LNE</label>
     </customValue>
     <customValue>
         <fullName>LUM</fullName>
@@ -120,13 +113,25 @@
         <label>LUM</label>
     </customValue>
     <customValue>
-        <fullName>LNE</fullName>
+        <fullName>LSS</fullName>
         <default>false</default>
         <isActive>false</isActive>
-        <label>LNE</label>
+        <label>LSS</label>
+    </customValue>
+    <customValue>
+        <fullName>LCF</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>LCF</label>
+    </customValue>
+    <customValue>
+        <fullName>LCA</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>LCA</label>
     </customValue>
     <description>Picklist Value Set for Selection of Organization 
 Value is 3 Letter shortcode</description>
     <masterLabel>Lumon Organizations</masterLabel>
-    <sorted>true</sorted>
+    <sorted>false</sorted>
 </GlobalValueSet>

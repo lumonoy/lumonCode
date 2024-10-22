@@ -390,7 +390,7 @@
             <targetReference>Get_Case_RecordTypes</targetReference>
         </connector>
     </start>
-    <status>Active</status>
+    <status>Obsolete</status>
     <variables>
         <name>colRecordTypeIds</name>
         <dataType>String</dataType>

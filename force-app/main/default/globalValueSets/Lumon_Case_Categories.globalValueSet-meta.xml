@@ -6,7 +6,7 @@
         <label>Customer Service</label>
     </customValue>
     <customValue>
-        <fullName>IT</fullName>
+        <fullName>ICT</fullName>
         <default>false</default>
         <label>ICT Support</label>
     </customValue>
@@ -14,11 +14,6 @@
         <fullName>LOG</fullName>
         <default>false</default>
         <label>Logistics Support</label>
-    </customValue>
-    <customValue>
-        <fullName>NA</fullName>
-        <default>false</default>
-        <label>Not Applicable</label>
     </customValue>
     <customValue>
         <fullName>PERM</fullName>
@@ -29,11 +24,6 @@
         <fullName>FAC</fullName>
         <default>false</default>
         <label>Production Support</label>
-    </customValue>
-    <customValue>
-        <fullName>INST</fullName>
-        <default>false</default>
-        <label>Installation Support</label>
     </customValue>
     <customValue>
         <fullName>RECL</fullName>
@@ -61,9 +51,26 @@
         <label>Webshop Support</label>
     </customValue>
     <customValue>
+        <fullName>QUAL</fullName>
+        <default>false</default>
+        <label>Process Quality</label>
+    </customValue>
+    <customValue>
+        <fullName>INST</fullName>
+        <default>false</default>
+        <label>Installation Support</label>
+    </customValue>
+    <customValue>
         <fullName>Other</fullName>
         <default>false</default>
+        <isActive>false</isActive>
         <label>Other</label>
+    </customValue>
+    <customValue>
+        <fullName>NA</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Not Applicable</label>
     </customValue>
     <masterLabel>Lumon Case Categories</masterLabel>
     <sorted>true</sorted>

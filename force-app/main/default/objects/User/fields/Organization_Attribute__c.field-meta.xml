@@ -3,7 +3,7 @@
     <fullName>Organization_Attribute__c</fullName>
     <externalId>false</externalId>
     <formula>TEXT(Organization__c)</formula>
-    <label>Organization Attribute</label>
+    <label>Organization Attribute OLD</label>
     <required>false</required>
     <type>Text</type>
     <unique>false</unique>

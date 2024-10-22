@@ -3,7 +3,7 @@
     <fullName>Confirmed_Delivery_Date__c</fullName>
     <externalId>false</externalId>
     <inlineHelpText>This date is received from ERP.</inlineHelpText>
-    <label>Confirmed Delivery Date</label>
+    <label>Confirmed Delivery Date DEL</label>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>false</trackHistory>

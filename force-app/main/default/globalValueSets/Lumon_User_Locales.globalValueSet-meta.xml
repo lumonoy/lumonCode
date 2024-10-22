@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>en_US</fullName>
+        <default>true</default>
+        <label>en_US</label>
+    </customValue>
+    <customValue>
+        <fullName>es_ES</fullName>
+        <default>false</default>
+        <label>es_ES</label>
+    </customValue>
+    <customValue>
+        <fullName>fi_FI</fullName>
+        <default>false</default>
+        <label>fi_FI</label>
+    </customValue>
+    <customValue>
+        <fullName>no_NO</fullName>
+        <default>false</default>
+        <label>no_NO</label>
+    </customValue>
+    <customValue>
+        <fullName>sv_SE</fullName>
+        <default>false</default>
+        <label>sv_SE</label>
+    </customValue>
+    <customValue>
+        <fullName>pl_PL</fullName>
+        <default>false</default>
+        <label>pl_PL</label>
+    </customValue>
+    <customValue>
+        <fullName>nl_NL</fullName>
+        <default>false</default>
+        <label>nl_NL</label>
+    </customValue>
+    <description>Locale as defined by Salesforce (language_COUNTRY xx_XX)</description>
+    <masterLabel>Lumon User Locales</masterLabel>
+    <sorted>true</sorted>
+</GlobalValueSet>

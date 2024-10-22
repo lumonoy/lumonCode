@@ -4,7 +4,7 @@
     <description>Later: possibly later consider moving to building</description>
     <externalId>false</externalId>
     <inlineHelpText>Indication of the Building Highest Level (mm)</inlineHelpText>
-    <label>Building Height</label>
+    <label>Building Height DELETE</label>
     <precision>18</precision>
     <required>false</required>
     <scale>0</scale>

@@ -2,7 +2,7 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Batch_Size__c</fullName>
     <externalId>false</externalId>
-    <label>Batch Size</label>
+    <label>Batch Size OLD</label>
     <precision>5</precision>
     <required>false</required>
     <scale>0</scale>

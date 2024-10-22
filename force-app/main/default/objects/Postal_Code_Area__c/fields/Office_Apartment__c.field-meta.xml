@@ -4,7 +4,7 @@
     <externalId>false</externalId>
     <formula>Sales_Manager_Apartment__r.Office_Attribute__c</formula>
     <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
-    <label>Office Apartment</label>
+    <label>Office Apartment OLD</label>
     <required>false</required>
     <trackTrending>false</trackTrending>
     <type>Text</type>
